@@ -1,0 +1,1 @@
+excludeDirectories = "{$excludeDirectories,tmp,node_modules,_book}"

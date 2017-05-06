@@ -1,0 +1,8 @@
+.DS_Store
+log/*
+*.log
+npm-debug.log*
+node_modules
+/node_modules
+/_book
+/img

@@ -1,0 +1,34 @@
+{   
+    "title": "Today I Learned",
+    "author": "David A. Windham",
+    "plugins": [
+		 "piwik",
+		 "video",
+		 "ace",
+		 "toggle-chapters",
+		 "toggle-headers"
+	 ],
+	 "search": {
+	         "maxIndexSize": 1000000000
+	     },
+    "pluginsConfig": {
+        "piwik": {
+        	"URL": "davidawindham.com/wik/",
+        "siteId": 1
+        }
+    },
+	"links": {
+		"sharing": {
+			"google": false,
+			"facebook": false,
+			"twitter": false,
+			"all": false
+			},
+		"sidebar": {
+			"David A. Windham": "https://davidawindham.com"
+		}
+	},
+    "styles": {
+        "website": "styles/website.css"
+    }
+}
