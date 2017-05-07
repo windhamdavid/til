@@ -1,2 +1,4 @@
 # Software
-Shortcuts for software I use:
+
+* [Gogs](gogs.md)
+* [Adobe](adobe.md)

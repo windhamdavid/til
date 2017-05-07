@@ -1,5 +1,10 @@
 #Servers
 
+* [Ubuntu](ubuntu.md)
+* [Apache](apache.md)
+* [Nginx](nginx.md)
+* [iptables](iptables.md)
+
 
 ### Commands I forget
 
