@@ -34,6 +34,7 @@ user = david
 sudo service supervisor restart
 
 
+
 sudo vi /etc/apache2/sites-available/code.davidawindham.com.conf
 
 //add
