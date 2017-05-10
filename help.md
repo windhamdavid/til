@@ -8,6 +8,8 @@ Because sometimes I forget how to drive the software I'm running.
 [https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)  
 [https://toolchain.gitbook.com/](https://toolchain.gitbook.com/)
 ```
+npm install -g gitbook-cli
+
 cd sites/til
 gitbook help
 gitbook build .
