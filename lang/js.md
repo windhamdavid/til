@@ -7,8 +7,10 @@
 
 * [Learn Javascript(GitbookIO)](https://gitbookio.gitbooks.io/javascript/content/)
 * [Learn JavaScript with Eric Elliott](https://github.com/learn-javascript-courses)
+* [JS The right way](http://jstherightway.org/)
 
 ```
 ///
 
 ```
+

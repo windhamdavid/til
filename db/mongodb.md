@@ -1,4 +1,664 @@
 # Mongo DB
 
-#### [MongoDB on Ubuntu 16.04](ubuntu-mongo.md)  
-####[Install MongoDB Community Edition on Ubuntu — MongoDB Manual 3.2](ubuntu-mongo.md#install-mongodb-community-edition-on-ubuntu-—-mongodb-manual-32)  
+* [Install MongoDB on Ubuntu 16.04](ubuntu-mongo.md)  
+* [Install MongoDB Community Edition on Ubuntu — MongoDB Manual 3.2](ubuntu-mongo.md#install-mongodb-community-edition-on-ubuntu-—-mongodb-manual-32)  
+
+##### Resources
+
+* [How To Run a Secure MongoDB Server with OpenVPN and Docker on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-run-a-secure-mongodb-server-with-openvpn-and-docker-on-ubuntu-16-04)
+* [Data Model Design](https://docs.mongodb.com/manual/core/data-model-design/)
+* [mongoexport](https://docs.mongodb.com/manual/reference/program/mongoexport/)
+
+
+###### GUI
+
+* [MongoDB Compass GUI](https://docs.mongodb.com/compass/current/)
+* [MongoClient](https://github.com/mongoclient/mongoclient)
+* [Mongotron](https://github.com/officert/mongotron)
+* [Mongo Express](https://github.com/mongo-express/mongo-express)
+* [RoboMongo](https://robomongo.org/)
+* [Studio3T](https://github.com/Studio3T/robomongo)
+
+###### Hosted
+
+* [mongodb Atlas](https://cloud.mongodb.com)
+* [mLab](https://mlab.com/)
+* [on AWS](http://docs.aws.amazon.com/quickstart/latest/mongodb/welcome.html)
+
+
+##### My MongoDB
+
+```
+// shell
+$ mongo
+
+// Print a list of all databases on the server.
+> show dbs
+// create user
+> db.createUser({user:"username",pwd:"Password", roles:[{role:"userAdminAnyDatabase",db:"admin"}]})
+> use user
+
+$ mongo --port 27017 -u "user" -p "password" --authenticationDatabase "database"
+
+
+//Add SSL to mongodb 
+$ sudo mkdir /etc/ssl/mongodb/
+$ cd /etc/ssl/mongodb/
+$ sudo openssl req -new -x509 -days 365 -out mongodb-server-cert.crt -keyout mongodb-server-cert.key
+
+	Enter PEM pass phrase:
+	Common Name (e.g. server FQDN or YOUR name) []: mongodb_server_private_ip
+
+$ sudo bash -c 'cat mongodb-server-cert.key mongodb-server-cert.crt > mongodb-server.pem'
+$ sudo openssl req -new -x509 -days 365 -out mongodb-client-cert.crt -keyout mongodb-client-cert.key
+$ sudo bash -c 'cat mongodb-client-cert.key mongodb-client-cert.crt > mongodb-client.pem'
+
+//connect to client with SSL
+$ mongo --ssl --sslCAFile /etc/ssl/mongodb/mongodb-server.pem \
+--sslPEMKeyFile /etc/ssl/mongodb/mongodb-client.pem \
+--sslPEMKeyPassword (PEM Passphrase) \
+--host 127.0.0.1 --port 27017 \
+--u "user" -p "passowrd" --authenticationDatabase "database"
+
+
+//mongdb.conf
+security:
+  authorization: enabled
+net:
+  port: 27017
+  bindIp: 127.0.0.1
+  // add access from cluster
+  bindIp: [IP of server]
+  // add SSL
+  ssl:
+       mode: requireSSL
+       PEMKeyFile: /etc/ssl/mongodb/mongodb-server.pem
+       CAFile: /etc/ssl/mongodb/mongodb-client.pem
+       PEMKeyPassword: mongodb_server_test_ssl
+		 
+storage:
+	dbPath: /var/lib/mongodb
+	journal:
+		enabled: true
+
+```
+
+
+
+===============================
+``mongo`` Shell Quick Reference
+===============================
+[Source](https://github.com/mongodb/docs/blob/master/source/reference/mongo-shell.txt)
+
+.. default-domain:: mongodb
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 1
+   :class: singlecol
+
+``mongo`` Shell Command History
+-------------------------------
+
+You can retrieve previous commands issued in the :program:`mongo` shell
+with the up and down arrow keys. Command history is stored in
+``~/.dbshell`` file. See :ref:`.dbshell <mongo-dbshell-file>` for more
+information.
+
+Command Line Options
+--------------------
+
+The :program:`mongo` shell can be started with numerous options. See
+:doc:`mongo shell </reference/program/mongo>` page for details on all
+available options.
+
+The following table displays some common options for :program:`mongo`:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Option
+     - Description
+
+   * - :option:`--help <mongo --help>`
+     - Show command line options
+
+   * - :option:`--nodb <mongo --nodb>`
+
+     - Start :program:`mongo` shell without connecting to a database.
+
+       To connect later, see :ref:`mongo-shell-new-connections`.
+
+   * - :option:`--shell <mongo --shell>`
+
+     - Used in conjunction with a JavaScript file (i.e.
+       :ref:`\<file.js\> <mongo-shell-file>`) to continue in the
+       :program:`mongo` shell after running the JavaScript file.
+
+       See :ref:`JavaScript file <mongo-shell-javascript-file>` for an
+       example.
+
+.. _command-helpers:
+
+Command Helpers
+---------------
+
+The :program:`mongo` shell provides various help. The following table
+displays some common help methods and commands:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Help Methods and Commands
+     - Description
+
+   * - ``help``
+
+     - Show help.
+
+   * - :method:`db.help()`
+
+     - Show help for database methods.
+
+   * - :method:`db.\<collection\>.help() <db.collection.help>`
+
+     - Show help on collection methods. The ``<collection>`` can be the
+       name of an existing collection or a non-existing collection.
+
+   * - ``show dbs``
+
+     - Print a list of all databases on the server.
+
+   * - ``use <db>``
+
+     - Switch current database to ``<db>``. The :program:`mongo` shell
+       variable ``db`` is set to the current database.
+
+   * - ``show collections``
+
+     - Print a list of all collections for current database
+
+   * - ``show users``
+
+     - Print a list of users for current database.
+
+   * - ``show roles``
+
+     - Print a list of all roles, both user-defined and built-in, for
+       the current database.
+
+   * - ``show profile``
+
+     - Print the five most recent operations that took 1 millisecond or
+       more. See documentation on the :doc:`database profiler
+       </tutorial/manage-the-database-profiler>` for more information.
+
+   * - ``show databases``
+
+     - Print a list of all available databases.
+
+   * - ``load()``
+
+     - Execute a JavaScript file. See
+       :doc:`/tutorial/write-scripts-for-the-mongo-shell`
+       for more information.
+
+Basic Shell JavaScript Operations
+----------------------------------
+
+The :program:`mongo` shell provides a
+:doc:`JavaScript API </reference/method>` for database operations.
+
+In the :program:`mongo` shell, ``db`` is the variable that references
+the current database. The variable is automatically set to the default
+database ``test`` or is set when you use the ``use <db>`` to switch
+current database.
+
+The following table displays some common JavaScript operations:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
+
+   * - JavaScript Database Operations
+     - Description
+
+   * - :method:`db.auth()`
+
+     - If running in secure mode, authenticate the user.
+
+   * - ``coll = db.<collection>``
+
+     - Set a specific collection in the current database to a variable
+       ``coll``, as in the following example:
+
+       .. code-block:: javascript
+
+          coll = db.myCollection;
+
+       You can perform operations on the ``myCollection`` using the
+       variable, as in the following example:
+
+       .. code-block:: javascript
+
+          coll.find();
+
+   * - :method:`db.collection.find()`
+
+     - Find all documents in the collection and returns a cursor.
+
+       See the :method:`db.collection.find()` and
+       :doc:`/tutorial/query-documents` for more information and
+       examples.
+
+       See :doc:`/tutorial/iterate-a-cursor` for information on
+       cursor handling in the :program:`mongo` shell.
+
+   * - :method:`db.collection.insertOne()`
+
+     - Insert a new document into the collection.
+
+   * - :method:`db.collection.insertMany()`
+
+     - Insert multiple new documents into the collection.
+
+   * - :method:`db.collection.updateOne()`
+
+     - Update a single existing document in the collection.
+
+   * - :method:`db.collection.updateMany()`
+
+     - Update multiple existing documents in the collection.
+
+   * - :method:`db.collection.save()`
+
+     - Insert either a new document or update an existing document in
+       the collection.
+
+   * - :method:`db.collection.deleteOne()`
+
+     - Delete a single document from the collection.
+
+   * - :method:`db.collection.deleteMany()`
+
+     - Delete documents from the collection.
+
+   * - :method:`db.collection.drop()`
+
+     - Drops or removes completely the collection.
+
+   * - :method:`db.collection.createIndex()`
+
+     - Create a new index on the collection if the index does not
+       exist; otherwise, the operation has no effect.
+
+   * - :method:`db.getSiblingDB()`
+
+     - Return a reference to another database using this same
+       connection without explicitly switching the current database.
+       This allows for cross database queries.
+
+For more information on performing operations in the shell, see:
+
+- :doc:`/crud`
+
+- :ref:`js-administrative-methods`
+
+Keyboard Shortcuts
+------------------
+
+The :program:`mongo` shell provides most keyboard shortcuts similar to
+those found in the ``bash`` shell or in Emacs. For some functions
+:program:`mongo` provides multiple key bindings, to accommodate
+several familiar paradigms.
+
+The following table enumerates the keystrokes supported by the
+:program:`mongo` shell:
+
+.. list-table::
+   :header-rows: 1
+
+   * - **Keystroke**
+     - **Function**
+   * - Up-arrow
+     - previous-history
+   * - Down-arrow
+     - next-history
+   * - Home
+     - beginning-of-line
+   * - End
+     - end-of-line
+   * - Tab
+     - autocomplete
+   * - Left-arrow
+     - backward-character
+   * - Right-arrow
+     - forward-character
+   * - Ctrl-left-arrow
+     - backward-word
+   * - Ctrl-right-arrow
+     - forward-word
+   * - Meta-left-arrow
+     - backward-word
+   * - Meta-right-arrow
+     - forward-word
+   * - Ctrl-A
+     - beginning-of-line
+   * - Ctrl-B
+     - backward-char
+   * - Ctrl-C
+     - exit-shell
+   * - Ctrl-D
+     - delete-char (or exit shell)
+   * - Ctrl-E
+     - end-of-line
+   * - Ctrl-F
+     - forward-char
+   * - Ctrl-G
+     - abort
+   * - Ctrl-J
+     - accept-line
+   * - Ctrl-K
+     - kill-line
+   * - Ctrl-L
+     - clear-screen
+   * - Ctrl-M
+     - accept-line
+   * - Ctrl-N
+     - next-history
+   * - Ctrl-P
+     - previous-history
+   * - Ctrl-R
+     - reverse-search-history
+   * - Ctrl-S
+     - forward-search-history
+   * - Ctrl-T
+     - transpose-chars
+   * - Ctrl-U
+     - unix-line-discard
+   * - Ctrl-W
+     - unix-word-rubout
+   * - Ctrl-Y
+     - yank
+   * - Ctrl-Z
+     - Suspend (job control works in linux)
+   * - Ctrl-H (i.e. Backspace)
+     - backward-delete-char
+   * - Ctrl-I (i.e. Tab)
+     - complete
+   * - Meta-B
+     - backward-word
+   * - Meta-C
+     - capitalize-word
+   * - Meta-D
+     - kill-word
+   * - Meta-F
+     - forward-word
+   * - Meta-L
+     - downcase-word
+   * - Meta-U
+     - upcase-word
+   * - Meta-Y
+     - yank-pop
+   * - Meta-[Backspace]
+     - backward-kill-word
+   * - Meta-<
+     - beginning-of-history
+   * - Meta->
+     - end-of-history
+
+
+
+Queries
+-------
+
+In the :program:`mongo` shell, perform read operations using the
+:method:`~db.collection.find()` and :method:`~db.collection.findOne()`
+methods.
+
+The :method:`~db.collection.find()` method returns a cursor object
+which the :program:`mongo` shell iterates to print documents on
+screen. By default, :program:`mongo` prints the first 20. The
+:program:`mongo` shell will prompt the user to "``Type it``" to continue
+iterating the next 20 results.
+
+The following table provides some common read operations in the
+:program:`mongo` shell:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Read Operations
+
+     - Description
+
+   * - :method:`db.collection.find(\<query\>) <db.collection.find()>`
+
+     - Find the documents matching the ``<query>`` criteria in the
+       collection. If the ``<query>`` criteria is not specified or is
+       empty (i.e ``{}`` ), the read operation selects all documents in
+       the collection.
+
+       The following example selects the documents in the ``users``
+       collection with the ``name`` field equal to ``"Joe"``:
+
+       .. code-block:: javascript
+
+          coll = db.users;
+          coll.find( { name: "Joe" } );
+
+       For more information on specifying the ``<query>`` criteria, see
+       :ref:`read-operations-query-argument`.
+
+   * - :method:`db.collection.find(\<query\>, \<projection\>)
+       <db.collection.find()>`
+
+     - Find documents matching the ``<query>`` criteria and return just
+       specific fields in the ``<projection>``.
+
+       The following example selects all documents from the collection
+       but returns only the ``name`` field and the ``_id`` field. The
+       ``_id`` is always returned unless explicitly specified to not
+       return.
+
+       .. code-block:: javascript
+
+          coll = db.users;
+          coll.find( { }, { name: true } );
+
+       For more information on specifying the ``<projection>``, see
+       :ref:`read-operations-projection`.
+
+   * - :method:`db.collection.find().sort(\<sort order\>) <cursor.sort()>`
+
+     - Return results in the specified ``<sort order>``.
+
+       The following example selects all documents from the collection
+       and returns the results sorted by the ``name`` field in
+       ascending order (``1``).  Use ``-1`` for descending order:
+
+       .. code-block:: javascript
+
+          coll = db.users;
+          coll.find().sort( { name: 1 } );
+
+   * - :method:`db.collection.find(\<query\>).sort(\<sort order\>)
+       <cursor.sort()>`
+
+     - Return the documents matching the ``<query>`` criteria in the
+       specified ``<sort order>``.
+
+   * - :method:`db.collection.find( ... ).limit( \<n\> ) <cursor.limit()>`
+
+     - Limit result to ``<n>`` rows. Highly recommended if you need only
+       a certain number of rows for best performance.
+
+   * - :method:`db.collection.find( ... ).skip( \<n\> )
+       <cursor.skip()>`
+
+     - Skip ``<n>`` results.
+
+   * - :method:`db.collection.count()`
+
+     - Returns total number of documents in the collection.
+
+   * - :method:`db.collection.find(\<query\>).count() <cursor.count()>`
+
+     - Returns the total number of documents that match the query.
+
+       The :method:`~cursor.count()` ignores :method:`~cursor.limit()` and :method:`~cursor.skip()`. For
+       example, if 100 records match but the limit is 10,
+       :method:`~cursor.count()` will return 100. This will be
+       faster than iterating yourself, but still take time.
+
+   * - :method:`db.collection.findOne(\<query\>) <db.collection.findOne()>`
+
+     - Find and return a single document. Returns null if not found.
+
+       The following example selects a single document in the ``users``
+       collection with the ``name`` field matches to ``"Joe"``:
+
+       .. code-block:: javascript
+
+          coll = db.users;
+          coll.findOne( { name: "Joe" } );
+
+       Internally, the :method:`~db.collection.findOne()`
+       method is the :method:`~db.collection.find()` method
+       with a :method:`limit(1) <cursor.limit()>`.
+
+See :doc:`/tutorial/query-documents` documentation for more information and
+examples. See :doc:`/reference/operator/query` to specify other query
+operators.
+
+Error Checking Methods
+----------------------
+
+.. versionchanged:: 2.6
+
+The :program:`mongo` shell write methods now integrates the
+:doc:`/reference/write-concern` directly into the method execution rather
+than with a separate :method:`db.getLastError()` method. As such, the
+write methods now return a :method:`WriteResult()` object that
+contains the results of the operation, including any write errors and
+write concern errors.
+
+Previous versions used :method:`db.getLastError()` and
+:method:`db.getLastErrorObj()` methods to return error information.
+
+.. _mongo-dba-helpers:
+.. _mongo-shell-admin-helpers:
+
+Administrative Command Helpers
+------------------------------
+
+The following table lists some common methods to support database
+administration:
+
+.. list-table::
+   :header-rows: 1
+
+   * - **JavaScript Database Administration Methods**
+     - **Description**
+
+   * - :method:`db.cloneDatabase(\<host\>) <db.cloneDatabase()>`
+
+     - Clone the current database from the ``<host>`` specified. The
+       ``<host>`` database instance must be in noauth mode.
+
+   * - :method:`db.copyDatabase(\<from\>, \<to\>, \<host\>) <db.copyDatabase()>`
+
+     - Copy the ``<from>`` database from the ``<host>`` to the ``<to>``
+       database on the current server.
+
+       The ``<host>`` database instance must be in ``noauth`` mode.
+
+   * - :method:`db.fromColl.renameCollection(\<toColl\>)
+       <db.collection.renameCollection()>`
+
+     - Rename collection from ``fromColl`` to ``<toColl>``.
+
+   * - :method:`db.repairDatabase()`
+
+     - Repair and compact the current database. This operation can be
+       very slow on large databases.
+
+   * - :method:`db.getCollectionNames()`
+
+     - Get the list of all collections in the current database.
+
+   * - :method:`db.dropDatabase()`
+
+     - Drops the current database.
+
+See also :ref:`administrative database methods
+<js-administrative-methods>` for a full list of methods.
+
+Opening Additional Connections
+------------------------------
+
+You can create new connections within the :program:`mongo` shell.
+
+The following table displays the methods to create the connections:
+
+.. list-table::
+   :header-rows: 1
+
+   * - JavaScript Connection Create Methods
+
+     - Description
+
+   * - .. code-block:: javascript
+
+          db = connect("<host><:port>/<dbname>")
+
+     - Open a new database connection.
+
+   * - .. code-block:: javascript
+
+          conn = new Mongo()
+          db = conn.getDB("dbname")
+
+     - Open a connection to a new server using ``new Mongo()``.
+
+       Use ``getDB()`` method of the connection to select a database.
+
+See also :ref:`mongo-shell-new-connections` for more information on the
+opening new connections from the :program:`mongo` shell.
+
+Miscellaneous
+-------------
+
+The following table displays some miscellaneous methods:
+
+.. list-table::
+   :header-rows: 1
+
+   * - **Method**
+     - **Description**
+
+   * - ``Object.bsonsize(<document>)``
+     - Prints the :term:`BSON` size of a <document> in bytes
+
+See the `MongoDB JavaScript API Documentation
+<http://api.mongodb.org/js/index.html>`_ for a full list of JavaScript
+methods .
+
+Additional Resources
+--------------------
+
+Consider the following reference material that addresses the
+:program:`mongo` shell and its interface:
+
+- :program:`mongo`
+- :ref:`js-administrative-methods`
+- :ref:`database-commands`
+- :ref:`aggregation-reference`
+- :gettingstarted:`Getting Started Guide </shell>`
+
+Additionally, the MongoDB source code repository includes a `jstests
+directory <https://github.com/mongodb/mongo/tree/master/jstests/>`_
+which contains numerous :program:`mongo` shell scripts.
