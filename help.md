@@ -21,6 +21,7 @@ http://localhost:4000/
 ### Markdown:
 
 [Markdown Cheatsheet from Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Markdown Cheatsheet](https://gist.github.com/jonschlinkert/5854601)
 
 ### Code:
 #### Piwik Plugin

@@ -8,6 +8,7 @@
     "gitbook-plugin-anchors": "^0.7.1",
     "gitbook-plugin-github-embed": "^1.1.2",
     "gitbook-plugin-piwik": "^0.2.1",
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3",
     "gitbook-plugin-toggle-chapters": "0.0.3",
     "gitbook-plugin-toggle-headers": "^0.1.0",
     "gitbook-plugin-video": "0.0.3"
