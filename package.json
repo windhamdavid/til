@@ -5,6 +5,7 @@
   "dependencies": {
     "gitbook": "^3.2.2",
     "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-anchors": "^0.7.1",
     "gitbook-plugin-github-embed": "^1.1.2",
     "gitbook-plugin-piwik": "^0.2.1",

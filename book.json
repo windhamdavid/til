@@ -9,7 +9,8 @@
 		"toggle-headers",
 		"-lunr",
 		"-search",
-		"search-plus"
+		"search-plus",
+		"advanced-emoji"
 	],
 	"search": {
 		"maxIndexSize": 1000000000
