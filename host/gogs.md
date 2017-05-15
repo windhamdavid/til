@@ -36,6 +36,8 @@ user = david
 
 sudo service supervisor restart
 
+//restart gogs 
+sudo supervisorctl restart gogs
 
 
 sudo vi /etc/apache2/sites-available/code.davidawindham.com.conf
