@@ -1,6 +1,8 @@
 #TIL (Today I Learned)
 
 * May 2017
+	* [Fixing Chrome 58+ [missing_subjectAltName] with openssl when using self signed certificates](https://alexanderzeitler.com/articles/Fixing-Chrome-missing_subjectAltName-selfsigned-cert-openssl/)
+	* [Chrome: Invalid self signed SSL cert - “Subject Alternative Name Missing”](http://stackoverflow.com/questions/43665243/chrome-invalid-self-signed-ssl-cert-subject-alternative-name-missing)
 	* [Getting Started - Yarn package manager](https://yarnpkg.com/en/docs/getting-started)
 	* [How Flexbox works — explained with big, colorful, animated gifs](https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35)
 	* [React Native Animation Book](https://github.com/browniefed/react-native-animation-book)

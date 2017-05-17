@@ -40,6 +40,8 @@
 	* [Stripe](saas/stripe.md)
 * [Software](software/_software.md)
 	* [Apple](software/apple.md)
+	* [Chrome](software/chrome.md)
+	* [Homebrew](software/brew.md)
 	* [Adobe](software/adobe.md)
 	* [Sketch](software/sketch.md)
 * [Database](db/_db.md)
