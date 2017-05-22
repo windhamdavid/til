@@ -1,6 +1,9 @@
 #TIL (Today I Learned)
 
 * May 2017
+	* [Homebrew PHP7 to PHP7.1 Upgrade](software/brew.md)
+		* [http://php.net/manual/en/migration71.php](http://php.net/manual/en/migration71.php)
+		* [mcrypt is deprecated](http://php.net/manual/en/migration71.deprecated.php)
 	* [Searching for the Seventies - U.S. National Archives](https://www.google.com/culturalinstitute/beta/exhibit/AQfyFcoI)
 		* [Yoichi Okamoto - Photographer (son, Philip, of Greenville, S.C)](https://www.google.com/culturalinstitute/beta/asset/yoichi-okamoto-washington-dc-may-1973/XgFH0-MGK4AKmw)
 			* [Photographer Yoichi Okamoto Dies at 69](https://www.washingtonpost.com/archive/local/1985/04/25/photographer-yoichi-okamoto-dies-at-69/49e170df-c57b-420e-b6b9-6963f3fd66b4/?utm_term=.7d2f0d0b339a)
