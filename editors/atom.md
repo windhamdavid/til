@@ -1,6 +1,27 @@
 #Atom  
 [Atom text editor](https://atom.io)  
 
+
+#### My Packages
+
+[https://github.com/windhamdavid/atom-sunburst](https://github.com/windhamdavid/atom-sunburst)
+[https://atom.io/themes/atom-sunburst](https://atom.io/themes/atom-sunburst)
+
+```
+//commands I forget
+
+```
+
+#### Packages I use
+
+[https://atom.io/packages/motepair](https://atom.io/packages/motepair)
+[https://atom.io/packages/git-history](https://atom.io/packages/git-history)
+[https://atom.io/packages/git-history](https://atom.io/packages/git-history)
+[https://atom.io/packages/tree-view-git-status](https://atom.io/packages/tree-view-git-status)
+[https://atom.io/packages/markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
+[https://atom.io/packages/language-jade](https://atom.io/packages/language-jade)
+
+
 ### Atom Keyboard Shortcuts
 [Source](https://github.com/nwinkler/atom-keyboard-shortcuts)
 
