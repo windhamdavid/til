@@ -37,6 +37,8 @@
 	* [PhProject](host/phproject.md)
 	* [InvoicePlace](host/invoiceplane.md)
 * [SasS](saas/_saas.md)
+	* [Now](saas/now.md)
+	* [Cloud9](saas/c9io.md)
 	* [Stripe](saas/stripe.md)
 * [Software](software/_software.md)
 	* [Apple](software/apple.md)
