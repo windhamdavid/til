@@ -36,6 +36,7 @@
 	* [Lychee](host/lychee.md)
 	* [PhProject](host/phproject.md)
 	* [InvoicePlace](host/invoiceplane.md)
+	* [WordPress](host/wordpress.md)
 * [SasS](saas/_saas.md)
 	* [Now](saas/now.md)
 	* [Cloud9](saas/c9io.md)
@@ -54,9 +55,6 @@
 #### Projects
 * [Projects](projects/_projects.md)
 	* [Juryd](projects/juryd.md)
-	
+
 
 #### Random
-
-
- 

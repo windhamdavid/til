@@ -6,3 +6,4 @@
 * [PhProject](phproject.md)
 * [InvoicePlace](invoiceplane.md)
 * [PIWIK](piwik.md)
+* [Wordpress](wordpress.md)
