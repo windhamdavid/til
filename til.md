@@ -1,6 +1,7 @@
 #TIL (Today I Learned)
 
 * May 2017
+	* [WordPress - Determine Current Taxonmy and List Children](host/wordpress.md)
 	* [Render React compaonents to Sketch](https://github.com/airbnb/react-sketchapp)
 	* [Atom Nuclide for React Debugging](https://nuclide.io/docs/features/debugger/)
 		* [Nuclide Flow](https://nuclide.io/docs/languages/flow/)
