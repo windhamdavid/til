@@ -34,6 +34,7 @@
 	* [Letsencrypt](server/letsencrypt.md)
 	* [Ubuntu](server/ubuntu.md)
 	* [Nginx](server/nginx.md)
+	* [Mail](server/mail.md)
 * [Hosted](host/_host.md)
 	* [Gogs](host/gogs.md)
 	* [Icecast](host/icecast.md)

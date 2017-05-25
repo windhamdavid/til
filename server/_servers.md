@@ -5,6 +5,16 @@
 * [Nginx](nginx.md)
 * [iptables](iptables.md)
 * [letsencrypt](letsencrypt.md)
+* [mail](mail.md)
+
+
+## Personal Servers
+ - [Woozer]()
+ - [Zeke]()
+
+## Managed Servers
+
+- []()
 
 
 ### Commands I forget
