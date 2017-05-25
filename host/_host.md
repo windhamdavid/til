@@ -11,4 +11,4 @@
 * [Drupal](drupal.md)
 * [Webmin](webmin.md)
 * [discourse](discourse.md)
-* [nodebb](discourse.md)
+* [nodebb](nodebb.md)
