@@ -906,15 +906,3 @@ http://www.listjs.com
 * [peterkokot/awesome-jquery](https://github.com/peterkokot/awesome-jquery)
 * [dinbror/you-might-not-need-jquery-plugins](https://github.com/dinbror/you-might-not-need-jquery-plugins)
 * [MaximAbramchuck/awesome-interviews](https://github.com/MaximAbramchuck/awesome-interview-questions)
-
-
-# Contributing
-
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
-
-
-# License
-
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [chencheng](https://github.com/sorrycc) has waived all copyright and related or neighboring rights to this work.
