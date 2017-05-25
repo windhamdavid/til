@@ -14,12 +14,33 @@
 
 #### Packages I use
 
-[https://atom.io/packages/motepair](https://atom.io/packages/motepair)
-[https://atom.io/packages/git-history](https://atom.io/packages/git-history)
-[https://atom.io/packages/git-history](https://atom.io/packages/git-history)
-[https://atom.io/packages/tree-view-git-status](https://atom.io/packages/tree-view-git-status)
-[https://atom.io/packages/markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
-[https://atom.io/packages/language-jade](https://atom.io/packages/language-jade)
+- [https://atom.io/packages/motepair](https://atom.io/packages/motepair)
+- [https://atom.io/packages/git-history](https://atom.io/packages/git-history)
+- [https://atom.io/packages/git-time-machine](https://atom.io/packages/git-time-machine)
+- [https://atom.io/packages/tree-view-git-status](https://atom.io/packages/tree-view-git-status)
+- [https://atom.io/packages/markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
+- [https://atom.io/packages/vim-mode-plus](https://atom.io/packages/vim-mode-plus)
+- [https://atom.io/packages/autocomplete-wordpress-hooks](https://atom.io/packages/autocomplete-wordpress-hooks)
+- [https://atom.io/packages/atom-autocomplete-php](https://atom.io/packages/atom-autocomplete-php)
+- [https://atom.io/packages/language-jade](https://atom.io/packages/language-jade)
+- [https://atom.io/packages/atom-handlebars](https://atom.io/packages/atom-handlebars)
+- [https://atom.io/packages/split-diff](https://atom.io/packages/split-diff)
+- [https://atom.io/packages/minimap-split-diff](https://atom.io/packages/minimap-split-diff)
+- [https://atom.io/packages/outline-selection](https://atom.io/packages/outline-selection)
+- [https://atom.io/packages/rails-transporter](https://atom.io/packages/rails-transporter)
+- [https://atom.io/packages/motepair](https://atom.io/packages/motepair)
+- [https://atom.io/packages/nuclide](https://atom.io/packages/nuclide)
+- [https://atom.io/packages/react-snippets](https://atom.io/packages/react-snippets)
+- [https://atom.io/packages/nuclide-test-runner-jest](https://atom.io/packages/nuclide-test-runner-jest)
+- [https://atom.io/packages/turbo-javascript](https://atom.io/packages/turbo-javascript)
+- [https://atom.io/packages/es6-javascript](https://atom.io/packages/es6-javascript)
+- [https://atom.io/packages/aligner](https://atom.io/packages/aligner)
+- [https://atom.io/packages/vue-autocomplete](https://atom.io/packages/vue-autocomplete)
+- [https://atom.io/packages/file-icons](https://atom.io/packages/file-icons)
+- [https://atom.io/packages/linter](https://atom.io/packages/linter)
+- [https://atom.io/packages/linter-ui-default](https://atom.io/packages/linter-ui-default)
+- [https://atom.io/packages/atom-beautify](https://atom.io/packages/atom-beautify)
+
 
 
 ### Atom Keyboard Shortcuts
