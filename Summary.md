@@ -48,6 +48,7 @@
 	* [Webmin](host/webmin.md)
 	* [Discourse](host/discourse.md)
 	* [nodebb](host/nodebb.md)
+	* [zammad](host/zammad.md)
 * [SasS](saas/_saas.md)
 	* [Now](saas/now.md)
 	* [Cloud9](saas/c9io.md)

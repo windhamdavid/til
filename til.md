@@ -1,6 +1,10 @@
 #TIL (Today I Learned)
 
 * May 2017
+	* [Node 8.x (Carbon) LTS release in October](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.0.0)
+	* [NPM v5.0.1 release](lang/npm.md)
+		- [npm@5 is now `npm@latest`](https://medium.com/npm-inc/npm-5-is-now-npm-latest-d674e9e3b0ec)
+	* [Zammad](host/zammad.md)
 	* [WordPress - Determine Current Taxonmy and List Children](host/wordpress.md)
 	* [Render React compaonents to Sketch](https://github.com/airbnb/react-sketchapp)
 	* [Atom Nuclide for React Debugging](https://nuclide.io/docs/features/debugger/)
