@@ -28,6 +28,7 @@
 	  * [Rails](lang/rails.md)
 	* [Go](lang/golang.md)
 	* [Php](lang/php.md)
+	* [UNIX](lang/unix.md)
 * [Server](server/_servers.md)
 	* [Apache](server/apache.md)
 	* [iptables](server/iptables.md)
@@ -36,6 +37,8 @@
 	* [Nginx](server/nginx.md)
 	* [Mail](server/mail.md)
 	* [GoAccess](server/goaccess.md)
+	* [monit](server/monit.md)
+	* [lynis](server/lynis.md)
 * [Database](db/_db.md)
 	* [MongoDB](db/mongodb.md)
 		* [Ubuntu](db/ubuntu-mongo.md)
@@ -68,6 +71,9 @@
 	* [Cloud9](saas/c9io.md)
 	* [Stripe](saas/stripe.md)
 	* [Heroku](saas/heroku.md)
+	* [Linode](saas/linode.md)
+	* [Amazon](saas/aws.md)
+	* [Twilio](saas/twilio.md)
 
 
 

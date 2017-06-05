@@ -4,3 +4,5 @@
 * [Cloud9](c9io.md)
 * [Stripe](stripe.md)
 * [Heroku](heroku.md)
+* [Linode](linode.md)
+* [Amazon](aws.md)

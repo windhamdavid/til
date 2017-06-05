@@ -40,6 +40,7 @@
 - [https://atom.io/packages/linter](https://atom.io/packages/linter)
 - [https://atom.io/packages/linter-ui-default](https://atom.io/packages/linter-ui-default)
 - [https://atom.io/packages/atom-beautify](https://atom.io/packages/atom-beautify)
+- [https://atom.io/packages/language-elm](https://atom.io/packages/language-elm)
 
 
 
