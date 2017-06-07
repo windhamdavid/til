@@ -32,6 +32,7 @@
 * [Server](server/_servers.md)
 	* [Apache](server/apache.md)
 	* [iptables](server/iptables.md)
+	* [UFW](server/ufw.md)
 	* [Letsencrypt](server/letsencrypt.md)
 	* [Ubuntu](server/ubuntu.md)
 	* [Nginx](server/nginx.md)
