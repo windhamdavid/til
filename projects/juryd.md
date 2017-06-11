@@ -34,10 +34,10 @@
 
 * MongoDB
 	* [http://mongoosejs.com/docs/guide.html](http://mongoosejs.com/docs/guide.html)
-	
-	
 
-#### Payment Processing 
+
+
+#### Payment Processing
 
 * [Node.js library for the Stripe API](https://github.com/stripe/stripe-node)
 * [Stripe - Docs](https://stripe.com/docs)
@@ -72,16 +72,17 @@
 	    customer: customer_id
 	)
 	```
-	
-	
+
+#### Legal 
+
+- [https://stripe.com/atlas](https://stripe.com/atlas)
 
 #### Conceptual
 
-#### Other {legal, etc}
+#### Other
 
 [https://en.wikipedia.org/wiki/Pay_to_play](https://en.wikipedia.org/wiki/Pay_to_play)
 
 ##### Related Articles
 [Celery Joins Forces With Indiegogo](https://blog.trycelery.com/celery-joins-forces-with-indiegogo/)  
 [Can the web save the press from oblivion?](https://www.theguardian.com/media/2016/apr/17/can-internet-save-printed-press-blendle-lumi)
-
