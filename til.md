@@ -1,13 +1,16 @@
 #TIL (Today I Learned)
 
-* July 2017
-
+* August 2017
+	* [Helmet - Express.js security with HTTP headers](https://helmetjs.github.io/)
+	* [ECMAScript 6 features](https://github.com/lukehoban/es6features)  
+	* [Prettier - code formatter](https://github.com/prettier/prettier)
 
 * July 2017
 	- [Transmit 5 SSH key handling](https://library.panic.com/transmit5/sftp-authentication/)
 	- [BMW i3 - ( https://davidawindham.com/its-electric/ ) ](https://davidawindham.com/its-electric/)  
-			- [Siemens VersiCharge - 220V](https://w3.usa.siemens.com/powerdistribution/us/en/product-portfolio/electricvehicle/versicharge/pages/ev-charging-station.aspx)
-	- [Netflix Stock Valuation]
+	- [Siemens VersiCharge - 220V](https://w3.usa.siemens.com/powerdistribution/us/en/product-portfolio/electricvehicle/versicharge/pages/ev-charging-station.aspx)
+	- [Netflix Stock Valuation](https://seekingalpha.com/article/4089390-netflix-growth-justify-valuation)
+
 
 * June 2017
 	- [H.265 - (HVEC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)
