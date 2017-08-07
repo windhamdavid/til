@@ -1,9 +1,13 @@
 #TIL (Today I Learned)
 
 * July 2017
+
+
+* July 2017
 	- [Transmit 5 SSH key handling](https://library.panic.com/transmit5/sftp-authentication/)
-	- [Siemens VersiCharge - 220V](https://w3.usa.siemens.com/powerdistribution/us/en/product-portfolio/electricvehicle/versicharge/pages/ev-charging-station.aspx)
-	- [BMW i3 - https://davidawindham.com/its-electric/](https://davidawindham.com/its-electric/)
+	- [BMW i3 - ( https://davidawindham.com/its-electric/ ) ](https://davidawindham.com/its-electric/)  
+			- [Siemens VersiCharge - 220V](https://w3.usa.siemens.com/powerdistribution/us/en/product-portfolio/electricvehicle/versicharge/pages/ev-charging-station.aspx)
+	- [Netflix Stock Valuation]
 
 * June 2017
 	- [H.265 - (HVEC)](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding)
