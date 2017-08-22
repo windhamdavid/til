@@ -1,6 +1,13 @@
 #TIL (Today I Learned)
 
 * August 2017
+	* [Bookshelf.js](http://bookshelfjs.org/)
+	* [Knex.js](http://knexjs.org/)
+	* [JSON MariaDB 10.2](https://mariadb.com/resources/blog/json-mariadb-102)
+	* [JSON MySQL Data Type](https://dev.mysql.com/doc/refman/5.7/en/json.html)
+		* [JSON Function Reference](https://dev.mysql.com/doc/refman/5.7/en/json-function-reference.html)
+		* [Working with JSON in MySQL](https://scotch.io/tutorials/working-with-json-in-mysql)
+	* [Expo](https://expo.io/)
 	* [Helmet - Express.js security with HTTP headers](https://helmetjs.github.io/)
 	* [ECMAScript 6 features](https://github.com/lukehoban/es6features)  
 	* [Prettier - code formatter](https://github.com/prettier/prettier)

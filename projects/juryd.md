@@ -1,4 +1,7 @@
 # Juryd
+* [juryd.com](https://juryd.com)
+* [beta.juryd.com](https://beta.juryd.com)
+
 
 #### Build Structure
 
@@ -24,7 +27,8 @@
 
 
 * [React Native](https://facebook.github.io/react-native/)
-	* []
+	* [Expo](https://expo.io/)
+	* [Expo Docs](https://docs.expo.io/)
 * [photon](https://github.com/connors/photon)
 * [electron](https://github.com/electron/electron)
 	* [react native desktop](https://github.com/ptmt/react-native-macos)
@@ -73,7 +77,7 @@
 	)
 	```
 
-#### Legal 
+#### Legal
 
 - [https://stripe.com/atlas](https://stripe.com/atlas)
 
