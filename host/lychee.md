@@ -67,3 +67,4 @@ david@macs:~/sites/lychee/src(dw⚡) » git status
 resolve Unmerged paths -> commit & Push
 
 david@woozer:/var/www/photo.davidawindham.com/html(dw○) » git pull origin dw
+```

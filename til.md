@@ -1,6 +1,7 @@
 #TIL (Today I Learned)
 
 * August 2017
+	* [Gaslighting (term)](https://en.wikipedia.org/wiki/Gaslighting)
 	* [Bookshelf.js](http://bookshelfjs.org/)
 	* [Knex.js](http://knexjs.org/)
 	* [JSON MariaDB 10.2](https://mariadb.com/resources/blog/json-mariadb-102)
