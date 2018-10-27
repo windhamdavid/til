@@ -61,6 +61,7 @@
 	* [Discourse](host/discourse.md)
 	* [nodebb](host/nodebb.md)
 	* [zammad](host/zammad.md)
+	* [siege-sproxy](host/siege-sproxy.md)
 * [localhost](localhost/_localhost.md)
 	* [Apple](localhost/apple.md)
 	* [Chrome](localhost/chrome.md)

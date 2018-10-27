@@ -1,5 +1,19 @@
 #TIL (Today I Learned)
 
+* November 2017
+	* [Benchmarking Sites with Firefox, Siege, and Sproxy](host/siege-sproxy.md)
+	* [The Word Disinformation is a translation of a the Russian word dezinformatsiya, which is derived from KGB propaganda](https://en.wikipedia.org/wiki/Disinformation)
+
+* October 2017
+	* [Eliminative materialism](https://en.wikipedia.org/wiki/Eliminative_materialism)
+	* [List of Pantheists](https://en.wikipedia.org/wiki/List_of_pantheists)
+	* [Metcalfe's law](https://en.wikipedia.org/wiki/Metcalfe%27s_law)
+	* [Regulatory Capture](https://en.wikipedia.org/wiki/Regulatory_capture)  
+	* [Woody Harrelson's Father was a hit man](https://en.wikipedia.org/wiki/Charles_Harrelson)
+	* [Epic of Gilgamesh](https://en.wikipedia.org/wiki/Epic_of_Gilgamesh)
+	* [Whip It (Devo song) intended to satirize American optimism](https://www.salon.com/2017/09/16/33-13-devo-excerpt/)
+
+
 * August 2017
 	* [Gaslighting (term)](https://en.wikipedia.org/wiki/Gaslighting)
 	* [Bookshelf.js](http://bookshelfjs.org/)
@@ -11,13 +25,13 @@
 	* [Expo](https://expo.io/)
 	* [Helmet - Express.js security with HTTP headers](https://helmetjs.github.io/)
 	* [ECMAScript 6 features](https://github.com/lukehoban/es6features)  
-	* [Prettier - code formatter](https://github.com/prettier/prettier)
+	* [Prettier - code formatter](https://github.com/prettier/prettier)  
 
 * July 2017
 	- [Transmit 5 SSH key handling](https://library.panic.com/transmit5/sftp-authentication/)
 	- [BMW i3 - ( https://davidawindham.com/its-electric/ ) ](https://davidawindham.com/its-electric/)  
 	- [Siemens VersiCharge - 220V](https://w3.usa.siemens.com/powerdistribution/us/en/product-portfolio/electricvehicle/versicharge/pages/ev-charging-station.aspx)
-	- [Netflix Stock Valuation](https://seekingalpha.com/article/4089390-netflix-growth-justify-valuation)
+	- [Netflix Stock Valuation](https://seekingalpha.com/article/4089390-netflix-growth-justify-valuation)  
 
 
 * June 2017
