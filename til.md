@@ -1,7 +1,7 @@
 #TIL (Today I Learned)
 
 * November 2017
-	* [Benchmarking Sites with Firefox, Siege, and Sproxy](host/siege-sproxy.md)
+	* [Benchmarking Sites with Firefox, Siege, and Sproxy](https://davidawindham.com/til/host/siege-sproxy.html)
 	* [The Word Disinformation is a translation of a the Russian word dezinformatsiya, which is derived from KGB propaganda](https://en.wikipedia.org/wiki/Disinformation)
 
 * October 2017
