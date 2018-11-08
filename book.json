@@ -10,7 +10,9 @@
 		"-lunr",
 		"-search",
 		"search-plus",
-		"advanced-emoji"
+		"advanced-emoji",
+		"prism", 
+		"-highlight"
 	],
 	"search": {
 		"maxIndexSize": 1000000000
@@ -19,7 +21,15 @@
 		"piwik": {
 			"URL": "davidawindham.com/wik/",
 			"siteId": 1
-		}
+		},
+		"prism": {
+			"css": [
+			"prismjs/themes/prism-okaidia.css"
+			],
+		  "ignore": [
+				"zsh"
+			]
+	   }
 	},
 	"links": {
 		"sharing": {
