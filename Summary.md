@@ -58,6 +58,7 @@
 	* [WordPress](host/wordpress.md)
 	* [Drupal](host/drupal.md)
 	* [Webmin](host/webmin.md)
+	* [Laravel](host/laravel.md)
 	* [Discourse](host/discourse.md)
 	* [nodebb](host/nodebb.md)
 	* [zammad](host/zammad.md)
@@ -84,7 +85,9 @@
 #### Projects
 * [Projects](projects/_projects.md)
 	* [Zeken Woozer Un-Ltd.](projects/zw.md)
+	* [GZET](projects/gzet.md)
 	* [Juryd](projects/juryd.md)
+	* [Peoples Pants](projects/pants.md)
 
 
 #### Random

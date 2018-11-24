@@ -1,5 +1,45 @@
 # Mongo DB
 
+**11/10/18** - Ran a > brew upgrade which caused mongodb issues, so I had to downgrade my localhost version in order to repair the databases to bring them up to version 4.0.2 see [https://docs.mongodb.com/manual/release-notes/4.0-upgrade-standalone/](https://docs.mongodb.com/manual/release-notes/4.0-upgrade-standalone/)
+
+
+
+```shell
+brew uninstall MongoDB
+brew install mongodb@3.2
+
+<!-- start mongodb -->
+/usr/local/opt/mongodb@3.2/bin/mongod
+> db.adminCommand( { setFeatureCompatibilityVersion: "3.2" } )
+>quit();
+
+<!-- Quit Mongodb -->
+Kill the process by $ kill <PID>
+brew uninstall mongodb@3.2
+
+<!-- Repeat the process for 3.4 and 3.6 -->
+brew install mongodb@3.4
+/usr/local/opt/mongodb@3.4/bin/mongod
+> db.adminCommand( { setFeatureCompatibilityVersion: "3.4" } )
+>quit();
+Kill the process by $ kill <PID>
+brew uninstall mongodb@3.2
+
+brew install mongodb@3.6
+/usr/local/opt/mongodb@3.6/bin/mongod
+> db.adminCommand( { setFeatureCompatibilityVersion: "3.6" } )
+>quit();
+Kill the process by $ kill <PID>
+brew uninstall mongodb@3.6
+
+<!-- Bring it up to verion 4.0.2 -->
+brew install mongodb
+
+
+```  
+
+##### Remote Install
+
 * [Install MongoDB on Ubuntu 16.04](ubuntu-mongo.md)  
 * [Install MongoDB Community Edition on Ubuntu — MongoDB Manual 3.2](ubuntu-mongo.md#install-mongodb-community-edition-on-ubuntu-—-mongodb-manual-32)  
 
@@ -41,7 +81,7 @@ $ mongo
 $ mongo --port 27017 -u "user" -p "password" --authenticationDatabase "database"
 
 
-//Add SSL to mongodb 
+//Add SSL to mongodb
 $ sudo mkdir /etc/ssl/mongodb/
 $ cd /etc/ssl/mongodb/
 $ sudo openssl req -new -x509 -days 365 -out mongodb-server-cert.crt -keyout mongodb-server-cert.key
@@ -75,7 +115,7 @@ net:
        PEMKeyFile: /etc/ssl/mongodb/mongodb-server.pem
        CAFile: /etc/ssl/mongodb/mongodb-client.pem
        PEMKeyPassword: mongodb_server_test_ssl
-		 
+
 storage:
 	dbPath: /var/lib/mongodb
 	journal:

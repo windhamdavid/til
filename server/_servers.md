@@ -14,8 +14,5 @@
 
 ### Servers
 - [Linode](../saas/linode.md)
-  - [Woozer](http://45.79.219.165)
-  - [Zeke](http://45.79.219.165)
-
 - [AWS](../saas/aws.md)
 - [Google Cloud]()

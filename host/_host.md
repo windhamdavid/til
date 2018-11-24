@@ -10,6 +10,7 @@
 * [Wordpress](wordpress.md)
 * [Drupal](drupal.md)
 * [Webmin](webmin.md)
+* [Laravel](laravel.md)
 * [discourse](discourse.md)
 * [nodebb](nodebb.md)
 * [Zammad](zammad.md)

@@ -1,6 +1,6 @@
 # Juryd
-* [juryd.com](https://juryd.com)
-* [beta.juryd.com](https://beta.juryd.com)
+* [https://juryd.com](https://juryd.com)
+* [https://beta.juryd.com](https://beta.juryd.com)
 
 
 #### Build Structure
