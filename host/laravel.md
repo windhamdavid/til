@@ -9,36 +9,76 @@
 #### Back
 * [Laravel](https://laravel.com/docs/5.7)  
   * [Symfony Components](https://symfony.com/projects/laravel)
-  * [Laravel Nova](https://symfony.com/projects/laravel)
+  * [Laravel Nova](https://nova.laravel.com)
   * [Laravel Horizon](https://laravel.com/docs/5.7/horizon)
   * [Laravel Spark](https://spark.laravel.com/)
-  * [Laravel Telescope](https://symfony.com/projects/laravel)
+  * [Laravel Telescope](https://github.com/laravel/telescope/)
   * [Laravel Cashier](https://laravel.com/docs/5.7/billing)
-  * [Laravel Spark](https://spark.laravel.com/)
 
 #### Testing
 * [Laravel Dusk](https://laravel.com/docs/5.7/dusk)  
 
 
-#### CheatSheet
+#### Code
+* Origin master [https://code.davidawindham.com/david/laravel/](https://code.davidawindham.com/david/laravel/)
+* Code master [https://github.com/windhamdavid/laravel](https://github.com/windhamdavid/laravel)
+* Upstream master [https://github.com/laravel/laravel](https://github.com/laravel/laravel)  
 
+#### Links
+* Laravel Cheatsheet [https://davidawindham.com/til/host/laravel.html](https://davidawindham.com/til/host/laravel.html)
+* Laravel Documentation [https://laravel.com/docs/5.7/](https://laravel.com/docs/5.7/)
+
+#### References
+* [Laravel by the Numbers
+A unique analysis of data from Laravel Shift on over 8,000 Laravel apps.](https://jason.pureconcepts.net/2018/07/laravel-numbers/)
+
+#### Artisan
+```sh
+// shortend 'php artisan' to 'pa' in my .zshrc
+// added tab completion for artisan
+
+_laravel_get_command_list () {
+	php artisan --raw --no-ansi list | sed "s/[[:space:]].*//g"
+}
+
+_laravel () {
+  if [ -f artisan ]; then
+    compadd `_laravel_get_command_list`
+  fi
+}
+
+compdef _laravel artisan
+compdef _laravel pa
+
+#Alias
+alias pa='php artisan'
+alias pacache='php artisan cache:clear'
+alias paroutes='php artisan route:list'
+alias pavendor='php artisan vendor:publish'
+// etc...
+```
+
+###### commonly used:
 ```php
-
-php artisan install
-php artisan migrate
-
-php artisan list
-php artisan help migrate
-php artisan tinker
-php artisan make:command whatever
-
+pa help
+pa list
+pa tinker
+pa install
+pa migrate
+pa migrate:status
+pa migrate:install
+pa migrate:reset
+pa migrate:rollback
+pa migrate:refresh
+pa migrate:fresh
+pa db:seed
+pa cache:clear
+pa route:list
 ```
 
 #### [Artisan](#artisan)[](http://laravel.com/docs/artisan "Artisan CLI @ Laravel Docs")
 
 ```php
-
-
 // Added in 5.1.11:http://laravel.com/docs/5.1/authorization#creating-policies
 php artisan make:policy PostPolicy
 // Displays help for a given command
@@ -115,7 +155,7 @@ php artisan handler:event [--event="..."] [--queued] name
 // Set the application key
 php artisan key:generate
 
-// By default, this creates a self-handling command that isn't pushed to the queue.
+// By default, this creates a self-handling command that is not pushed to the queue.
 // Pass this the --handler flag to generate a handler, and the --queued flag to make it queued.
 php artisan make:command [--handler] [--queued] name
 // Create a new Artisan command

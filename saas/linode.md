@@ -9,6 +9,7 @@
 
 
 ## Pants
+( see projects/[pants.md](/projects/pants.md) )
 ```
 //********* Ubuntu 18.04 ( Pants )****//
 
@@ -208,6 +209,45 @@ printf "\n$(cat /etc/update-motd.d/pants.asc)\n"
 '  `'-`-'|-''-`'--'  '  `-`-' ' '--'
          '                          
 sudo chmod +x /etc/update-motd.d/20-display-logo
+
+
+sudo apt install redis-server
+sudo vi /etc/redis/redis.conf
+--> add under # supervision tree. Options:
+supervised systemd
+--> make sure it's binding to localhost
+bind 127.0.0.1 ::1
+--> add password
+openssl rand 60 | openssl base64 -A
+--> cp from .evn.production and paste to:
+# requirepass foobared (strong/long password)
+
+sudo systemctl restart redis.service
+sudo systemctl status redis
+
+redis-cli
+> ping
+> get test
+> exit
+
+sudo systemctl restart redis
+sudo netstat -lnp | grep redis
+redis-cli
+>auth your_redis_password
+>set key1 10
+>quit
+
+sudo vi /etc/redis/redis.conf
+--> diable dangerous redis commands
+rename-command FLUSHDB ""
+rename-command FLUSHALL ""
+rename-command DEBUG ""
+rename-command CONFIG ""
+
+sudo systemctl restart redis.service
+redis-cli
+> auth your_redis_password
+> exit
 
 ```
 
