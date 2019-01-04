@@ -1,5 +1,11 @@
 # Chrome
 
+Open --kiosk mode
+```
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk --app=https://www.amazon.com/video&etc
+
+```
+
 Tab and window shortcuts
 
 | ----- |
