@@ -1,5 +1,6 @@
 #TIL (Today I Learned)
 * January 2019
+	* [LetsEncrypt Certbot TLS-SNI-01 deprecated](https://davidawindham.com/til/server/letsencrypt.html)
 	* [Groucho Marx told Warner Brothers that he owned 'brothers'](https://en.wikipedia.org/wiki/A_Night_in_Casablanca)
 * November 2018   
 	* [Update MongoDB to 4.0.2](https://davidawindham.com/til/db/mongodb.html)  
