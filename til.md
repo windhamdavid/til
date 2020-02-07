@@ -10,6 +10,7 @@ My annual overhaul of the machines and what's changed:
 	* [Node 2.2.5](https://davidawindham.com/til/localhost/brew.html)
 	* [NPM 6.9.2](https://davidawindham.com/til/lang/npm.html)
 	* [Node 10.16.3](https://davidawindham.com/til/lang/nodejs.html)
+	* [Golang 1.13.7](https://davidawindham.com/til/lang/golang.html)
 * September 2019
 	* [PHP 7.3 updates](lang/php.md)
 * January 2019
