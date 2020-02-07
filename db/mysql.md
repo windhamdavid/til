@@ -1,5 +1,12 @@
 # MySQL  
 
+January 2020 Notes:  
+Migrated all of my local machines to MySQL v.8.0.19  
+Still debating MariaDB and I've chosen to stick with MySQL for the time being due to existing documentation for the various software. Had to briefly install multiple versions using Homebrew and [DBengin](localhost/dbengin.md) in order to rectify some issues between versions by [defining datadir=](https://dev.mysql.com/doc/refman/8.0/en/multiple-data-directories.html).  As of MySQL 8.0.16, the server performs the tasks previously handled by mysql_upgrade. After installation of a new MySQL version, the server now automatically performs all necessary upgrade tasks at the next startup and is not dependent on the DBA invoking mysql_upgrade. All of my existing working local and remote databases are backed up by folder date on my two external drives.  
+
+[What's New is MySQL 8](https://dev.mysql.com/doc/refman/8.0/en/mysql-nutshell.html)  
+[MySQL 8 Release Notes](https://dev.mysql.com/doc/relnotes/mysql/8.0/en/)
+
 ### commands
 
     mysql > status  
