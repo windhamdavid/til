@@ -10,6 +10,8 @@
 #### Machine
 * [Editors](editors/_editors.md)
 	* [Atom](editors/atom.md)
+	* [Phpstorm](editors/phpstorm.md)
+	* [Sublime](editors/sublime.md)
 	* [Terminal](editors/terminal.md)
 	* [Textmate](editors/textmate.md)
 	* [Vim](editors/vi.md)
@@ -50,6 +52,7 @@
 	* [PostgreSQL](db/postgres.md)
 * [Hosted](host/_host.md)
 	* [Gogs](host/gogs.md)
+	* [Gitea](host/gitea.md)
 	* [Icecast](host/icecast.md)
 	* [Lychee](host/lychee.md)
 	* [MailCow](host/mailcow.md)
