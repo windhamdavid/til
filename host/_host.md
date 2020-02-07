@@ -1,6 +1,7 @@
 # Hosted Applications
 
 * [Gogs](gogs.md)
+* [Gitea](gitea.md)
 * [Icecast](icecast.md)
 * [Lychee](lychee.md)
 * [PhProject](phproject.md)
