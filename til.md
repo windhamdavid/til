@@ -1,16 +1,18 @@
 #TIL (Today I Learned)
+* February 2020
+	* [Jo Harvey Allen is who says "It was love that killed John F. Kennedy. He should have never messed with me. They want me to speak on 60 Minutes. Mike Wallace wants my body" in True Stories](https://davidawindham.com/true-stories-2/)
 * January 2020  
-My annual overhaul of the machines and what's changed:
-	* [MacOS 10.15](https://davidawindham.com/til/localhost/_localhost.html)
-	* [PHP 7.4.2](https://davidawindham.com/til/lang/php.html)
-	* [MySQL 8.0.19](https://davidawindham.com/til/db/mysql.html)
-	* [Ruby 2.7.0](https://davidawindham.com/til/lang/ruby.html)
-	* [Rails 5.2.4.1](https://davidawindham.com/til/lang/rails.html)
-	* [Homebrew 2.2.5](https://davidawindham.com/til/localhost/brew.html)
-	* [Node 2.2.5](https://davidawindham.com/til/localhost/brew.html)
-	* [NPM 6.9.2](https://davidawindham.com/til/lang/npm.html)
-	* [Node 10.16.3](https://davidawindham.com/til/lang/nodejs.html)
-	* [Golang 1.13.7](https://davidawindham.com/til/lang/golang.html)
+	* My annual overhaul of the machines and what's changed:
+		* [MacOS 10.15](https://davidawindham.com/til/localhost/_localhost.html)
+		* [PHP 7.4.2](https://davidawindham.com/til/lang/php.html)
+		* [MySQL 8.0.19](https://davidawindham.com/til/db/mysql.html)
+		* [Ruby 2.7.0](https://davidawindham.com/til/lang/ruby.html)
+		* [Rails 5.2.4.1](https://davidawindham.com/til/lang/rails.html)
+		* [Homebrew 2.2.5](https://davidawindham.com/til/localhost/brew.html)
+		* [Node 2.2.5](https://davidawindham.com/til/localhost/brew.html)
+		* [NPM 6.9.2](https://davidawindham.com/til/lang/npm.html)
+		* [Node 10.16.3](https://davidawindham.com/til/lang/nodejs.html)
+		* [Golang 1.13.7](https://davidawindham.com/til/lang/golang.html)
 * September 2019
 	* [PHP 7.3 updates](lang/php.md)
 * January 2019
