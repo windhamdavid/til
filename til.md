@@ -2,7 +2,7 @@
 * February 2020
 	* [Jo Harvey Allen is who says "It was love that killed John F. Kennedy. He should have never messed with me. They want me to speak on 60 Minutes. Mike Wallace wants my body" in True Stories](https://davidawindham.com/true-stories-2/)
 * January 2020  
-	* My annual overhaul of the machines and what's changed:
+	* [Annual overhaul of the machines](https://davidawindham.com/late-adopter/)
 	* [MacOS 10.15](https://davidawindham.com/til/localhost/_localhost.html)
 	* [PHP 7.4.2](https://davidawindham.com/til/lang/php.html)
 	* [MySQL 8.0.19](https://davidawindham.com/til/db/mysql.html)
