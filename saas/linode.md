@@ -7,6 +7,81 @@
 - [https://www.linode.com/docs/run-a-distribution-supplied-kernel-with-kvm](https://www.linode.com/docs/tools-reference/custom-kernels-distros/run-a-distribution-supplied-kernel-with-kvm)
   - As of February, 2017, you can boot your Linode using your choice of Linode's own kernel or the upstream kernel provided by a distribution's maintainers. Booting with Linode's kernel is enabled by default, but changing to the distro-supplied kernel is easy. This is useful if you'd like to enable specific kernel features, or if you'd prefer to handle kernel upgrades yourself.
 
+## Woozer
+* had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
+
+
+```
+# mod_evasive
+sudo vi /etc/apache2/mods-enabled/evasive.conf
+rm these later - sudo apt remove / sudo apt purge
+bsd-mailx libapache2-mod-evasive postfix
+sudo a2dismod evasive
+sudo a2dismod evasive
+perl /usr/share/doc/libapache2-mod-evasive/examples/.pl
+
+# /etc/apache2/code.davidawindham.com-le-ssl.conf
+
+RewriteEngine on
+RewriteCond %{REQUEST_METHOD} ^(CONNECT|GET|HEAD|OPTIONS|POST|PROFIND|PUT) [NC]
+#RewriteRule ^(.*)$ http://%{REMOTE_ADDR}/ [R=301,L]
+RewriteRule (.*) http://chess.davidawindham.com$1 [R=301, L]
+<Proxy *>
+   Order deny,allow
+   Deny from all
+   Allow from (ip)
+</Proxy>
+~ or ~
+<Proxy *>
+   Require all granted
+</Proxy>
+<Location />
+   SetEnvIfNoCase User-Agent "SemrushBot" bad_bot
+   Deny from env=bad_bot
+   <RequireAll>
+      Require all granted
+      Include /etc/apache2/ipblacklist.conf
+   </RequireAll>
+</Location>
+
+# Monit dev/monit
+sudo iptables -A INPUT 14 -p tcp --dport 2812 -j ACCEPT
+sudo monit stop/start all/reload/check -t
+
+# Apache mod_status dev/server-status
+apachectl status
+sudo vi /etc/httpd/conf.d/server-status.conf
+
+sudo systemctl status apache2
+
+# UFW (Universal Firewall)
+sudo ufw enable/disable
+sudo ufw status numbered
+sudo ufw delete 2
+sudo ufw status verbose
+sudo ufw deny from (ip)
+
+# clear error logs
+sudo bash -c 'echo > error.log'
+```
+
+* php version updates:
+```
+sudo apt-get install php7.4-cli php7.4-fpm php7.4-bcmath php7.4-curl php7.4-gd php7.4-imagick php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-opcache php7.4-recode php7.4-tidy php7.4-xml php7.4-xmlrpc php7.4-zip
+sudo apt-get install php7.3-cli php7.3-fpm php7.3-bcmath php7.3-curl php7.3-gd php7.3-imagick php7.3-intl php7.3-json php7.3-mbstring php7.3-mysql php7.3-opcache php7.3-recode php7.3-tidy php7.3-xml php7.3-xmlrpc php7.3-zip
+sudo apt-get install php7.2-cli php7.2-fpm php7.2-bcmath php7.2-curl php7.2-gd php7.2-imagick php7.2-intl php7.2-json php7.2-mbstring php7.2-mysql php7.2-opcache php7.2-recode php7.2-tidy php7.2-xml php7.2-xmlrpc php7.2-zip
+```
+* switch to mpm_event_module to support http/2
+```
+# vi /etc/apache2/apache2.config
+
+Protocols h2 h2c http/1.1
+
+<IfModule http2_module>
+    LogLevel http2:info
+</IfModule>
+
+```
 
 ## Pants
 ( see projects/[pants.md](/projects/pants.md) )
@@ -252,6 +327,32 @@ redis-cli
 ```
 
 ## Woozer
+
+20.2.21: System upgrade from 16.04 LTS to 18.04.4 LTS ( This machine has had three major version upgrades ).
+
+```
+sudo apt-get update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
+```
+
+
+```
+Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 5.4.10-x86_64-linode132 x86_64)
+
+	     .     . .              .       .  .
+	. . ...-..-| |-. .-. .-.-..-| .-.. ...-|
+	 ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
+
+
+0 packages can be updated.
+0 updates are security updates.
+
+david@woozer:~ » lsb_release -d
+Description:	Ubuntu 18.04.4 LTS
+david@woozer:~ » sudo dpkg --list                                                                                     
+
+```
+
+
 ```
 //********* Ubuntu 16.04 ( Woozer )****//
 
