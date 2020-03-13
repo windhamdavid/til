@@ -20,6 +20,7 @@
 * [GoAccess](goaccess.md)
 * [Monit](monit.md)
 * [Lynis](lynis.md)
+* [htop](htop.md)
 
 ### servers /saas
 - [Linode](../saas/linode.md)

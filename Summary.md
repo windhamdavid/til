@@ -42,6 +42,7 @@
 	* [GoAccess](server/goaccess.md)
 	* [monit](server/monit.md)
 	* [lynis](server/lynis.md)
+	* [htop](server/htop.md)
 * [Database](db/_db.md)
 	* [MongoDB](db/mongodb.md)
 		* [Ubuntu](db/ubuntu-mongo.md)
