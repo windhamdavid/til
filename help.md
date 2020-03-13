@@ -2,6 +2,23 @@
 
 Because sometimes I forget how to drive the software I'm running.
 
+* 3/20 - Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate to Docsify 
+* [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
+* [https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)
+
+#### migrate
+```
+# install docsify globally
+npm  i docsify-cli -g
+# copy existing repo
+mv til/ til_old
+cp /til_old /til
+docsify init til/
+# Rename summary.md to _sidebar.md
+mv summary.md _sidebar.md
+#add loadSidebar: true to window.$docsify in index.html
+docsify serve
+```
 
 ### Gitbook:
 [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)  

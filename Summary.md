@@ -5,8 +5,6 @@
 #### TIL
 * [Today I Learned](til.md)
 
-#### Art
-
 #### Machine
 * [Editors](editors/_editors.md)
 	* [Atom](editors/atom.md)
@@ -35,6 +33,7 @@
 	* [Apache](server/apache.md)
 	* [iptables](server/iptables.md)
 	* [docker](server/docker.md)
+	* [kubernetes](server/kube.md)
 	* [UFW](server/ufw.md)
 	* [Letsencrypt](server/letsencrypt.md)
 	* [Ubuntu](server/ubuntu.md)
@@ -81,9 +80,7 @@
 	* [Linode](saas/linode.md)
 	* [Amazon](saas/aws.md)
 	* [Twilio](saas/twilio.md)
-
-
-
+	* [Google](saas/google.md)
 
 #### Projects
 * [Projects](projects/_projects.md)
@@ -91,6 +88,3 @@
 	* [GZET](projects/gzet.md)
 	* [Juryd](projects/juryd.md)
 	* [Peoples Pants](projects/pants.md)
-
-
-#### Random
