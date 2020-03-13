@@ -63,15 +63,76 @@ sudo ufw deny from (ip)
 
 # clear error logs
 sudo bash -c 'echo > error.log'
+
+# Remove the ufw chains in iptables
+for ufw in `sudo iptables -L |grep ufw|awk '{ print $2 }'`; do sudo iptables -F $ufw; done
+for ufw in `sudo iptables -L |grep ufw|awk '{ print $2 }'`; do sudo iptables -X $ufw; done
+
+for i in `sudo iptables -L INPUT --line-numbers |grep '[0-9].*ufw' | cut -f 1 -d ' ' | sort -r `; do sudo iptables -D INPUT $i ; done
+for i in `sudo iptables -L FORWARD --line-numbers |grep '[0-9].*ufw' | cut -f 1 -d ' ' | sort -r `; do sudo iptables -D FORWARD $i ; done
+for i in `sudo iptables -L OUTPUT --line-numbers |grep '[0-9].*ufw' | cut -f 1 -d ' ' | sort -r `; do sudo iptables -D OUTPUT $i ; done
+for i in `sudo iptables -L | grep 'Chain .*ufw' | cut -d ' ' -f 2`; do sudo iptables -X $i ; done
+
+# add nginx port back.
+sudo iptables -I INPUT 14 -p tcp --dport 8282 -j ACCEPT
+
+# block a bunch of bots - https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
+sudo mkdir /etc/apache2/custom.d
+sudo vi /etc/apache2/apache2.conf
+	<Location "/">
+      AuthMerging And
+		Include custom.d/globalblacklist.conf
+	</Location>
+# ~ or e.g.~
+sudo vi /etc/apache2/sites-available/default.conf
+   <VirtualHost *:80>
+      <Directory "/var/www/html">
+         Include custom.d/globalblacklist.conf
+      </Directory>
+   </VirtualHost>
+
+# test it
+curl -A "googlebot" https://davidawindham.com/
+curl -A "SemrushBot" https://code.davidawindham.com/
+curl -A "masscan" https://code.davidawindham.com/
+curl -I https://davidawindham.com/ -e http://100dollars-seo.com
+curl -I https://davidawindham.com/ -e http://zx6.ru
+
+## don't log longview
+/etc/apache2/conf-available/other-vhosts-access-log.conf
+SetEnvIf Remote_Addr "127\.0\.0\.1" dontlog
+CustomLog ${APACHE_LOG_DIR}/other_vhosts_access.log vhost_combined env=!dontlog
+
+SetEnvIf Remote_Addr "127\.0\.0\.1" dontlog
+SetEnvIf Remote_Addr "::1" dontlog
+
 ```
 
-* php version updates:
+- php version updates:  
+
 ```
 sudo apt-get install php7.4-cli php7.4-fpm php7.4-bcmath php7.4-curl php7.4-gd php7.4-imagick php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-opcache php7.4-recode php7.4-tidy php7.4-xml php7.4-xmlrpc php7.4-zip
 sudo apt-get install php7.3-cli php7.3-fpm php7.3-bcmath php7.3-curl php7.3-gd php7.3-imagick php7.3-intl php7.3-json php7.3-mbstring php7.3-mysql php7.3-opcache php7.3-recode php7.3-tidy php7.3-xml php7.3-xmlrpc php7.3-zip
 sudo apt-get install php7.2-cli php7.2-fpm php7.2-bcmath php7.2-curl php7.2-gd php7.2-imagick php7.2-intl php7.2-json php7.2-mbstring php7.2-mysql php7.2-opcache php7.2-recode php7.2-tidy php7.2-xml php7.2-xmlrpc php7.2-zip
+sudo apt install php7.2-fpm
+sudo vi /etc/php/7.2/fpm/php.ini
+--> memory/uploads/execution_time etc.
+
+sudo apt install mod_proxy_fcgi
+sudo a2enmod actions fastcgi alias proxy_fcgi
+
+<VirtualHost *:443>
+    Protocols h2 http/1.1
+</VirtualHost>
+<FilesMatch \.php$>
+    SetHandler "proxy:unix:/var/run/php/php7.2-fpm.sock|fcgi://localhost/"
+</FilesMatch>
+<Proxy "fcgi://localhost/">
+</Proxy>
+
 ```
-* switch to mpm_event_module to support http/2
+- switch to mpm_event_module to support http/2  
+
 ```
 # vi /etc/apache2/apache2.config
 
