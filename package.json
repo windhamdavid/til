@@ -1,6 +1,6 @@
 {
   "name": "windhamdavid_til",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my til gitbook",
   "dependencies": {
     "gitbook": "^3.2.3",
