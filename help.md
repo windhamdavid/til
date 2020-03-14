@@ -2,12 +2,13 @@
 
 Because sometimes I forget how to drive the software I'm running.
 
-* 3/20 - Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate to Docsify 
-* [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
-* [https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)
+* 3/14/20 Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate to Docsify
+    * [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
+    * [https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)
+    * the current [Gitbook Search Plugin](https://github.com/lwdgit/gitbook-plugin-search-plus) key to the current setup and the docsify search is good. ran package upgrades before migration.  
 
 #### migrate
-```
+```sh
 # install docsify globally
 npm  i docsify-cli -g
 # copy existing repo
@@ -19,6 +20,51 @@ mv summary.md _sidebar.md
 #add loadSidebar: true to window.$docsify in index.html
 docsify serve
 ```
+#### migrate notes:
+
+
+
+```js
+{
+  "name": "windhamdavid_til",
+  "version": "1.0.0",
+  "description": "my til gitbook",
+  "dependencies": {
+    "gitbook": "^3.2.3",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-github-embed": "^1.3.1",
+    "gitbook-plugin-piwik": "^0.2.1",
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
+    "gitbook-plugin-toggle-headers": "^0.1.0",
+    "gitbook-plugin-video": "0.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windhamdavid/til.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David A. Windham",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://davidawindham.com"
+}
+
+```
+```sh
+david@macs:~/sites/til(master⚡) » npm outdated                                                          130 ↵
+Package                      Current         Wanted         Latest  Location
+gitbook-plugin-search-plus     1.0.3  1.0.4-alpha-3  1.0.4-alpha-3  windhamdavid_til
+gitbook                        3.2.2          3.2.3          2.6.9  windhamdavid_til
+gitbook-plugin-github-embed    1.1.2          1.3.1          1.3.1  windhamdavid_til
+
+```
+
 
 ### Gitbook:
 [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)  

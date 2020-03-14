@@ -59,12 +59,10 @@
 
 * [Web Framework](waf/_waf.md)
 	* [Node.js](waf/nodejs.md)
-	* [Node awesome](waf/node_awesome.md)
 	* [npm](waf/npm.md)
 	* [Rails](waf/rails.md)
-	* [ReactJS](waf/react.md)
-	* [React](waf/js_react.md)
-	* [React Native](waf/js_react_native.md)
+	* [React](waf/react.md)
+	* [React Native](waf/react_native.md)
 	* [Vue.js](waf/vue.md)
 
 * [Web Server](server/_servers.md)
