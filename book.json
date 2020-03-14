@@ -1,17 +1,15 @@
-{   
+{
 	"title": "Today I Learned",
 	"author": "David A. Windham",
 	"plugins": [
 		"piwik",
 		"video",
 		"ace",
-		"toggle-chapters",
-		"toggle-headers",
 		"-lunr",
 		"-search",
 		"search-plus",
 		"advanced-emoji",
-		"prism", 
+		"prism",
 		"-highlight"
 	],
 	"search": {

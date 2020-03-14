@@ -1,4 +1,10 @@
 # PHP  
+
+* [https://www.php.net/manual/en/](https://www.php.net/manual/en/)
+* [https://www.php.net/manual/en/langref.php](https://www.php.net/manual/en/langref.php)
+* [https://www.php.net/manual/en/funcref.php](https://www.php.net/manual/en/funcref.php)
+
+---
 January 2020 Notes:  
 PHP 7.4.2 (cli) (built: Jan 22 2020 06:30:58) ( NTS )  
 [Migrating from PHP 7.3.x to PHP 7.4.x](https://www.php.net/manual/en/migration74.php)  
@@ -25,8 +31,6 @@ redis   5.1.1   stable
 xdebug  2.9.1   stable  
 ```
 
-
-
 September 2019 Notes - PHP 7.3.9 (cli) (built: Sep 14 2019 18:07:55) ( NTS )   
 [PHP 7.3 Changelog](https://www.php.net/ChangeLog-7.php#7.3.0)  
 [Migrating to 7.3](https://www.php.net/manual/en/migration73.php)  
@@ -41,4 +45,6 @@ Additional .ini files parsed:      /usr/local/etc/php/7.3/conf.d/ext-opcache.ini
 had to remove PECL symlink in /usr/local/Cellar/php/7.3.9_1  
 had to specify paths of imagick and mcrypt:  
 ;imagick extension="/usr/local/Cellar/php/7.3.9_1/pecl/20180731/imagick.so"  
-;mcrypt extension="/usr/local/Cellar/php/7.3.9_1/pecl/20180731/mcrypt.so"
+;mcrypt extension="/usr/local/Cellar/php/7.3.9_1/pecl/20180731/mcrypt.so"  
+
+---

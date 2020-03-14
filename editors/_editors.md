@@ -1,18 +1,28 @@
-#Editors
+# Editor / Shell / CLI / VC
 
-A quick glance of the dotfiles in the home directory on a couple machines are what I generally reference.   [https://github.com/windhamdavid/dotfiles/](https://github.com/windhamdavid/dotfiles/)
+dotfiles ->  
+[https://github.com/windhamdavid/dotfiles/](https://github.com/windhamdavid/dotfiles/)  
+[https://code.davidawindham.com/david/dotfiles](https://code.davidawindham.com/david/dotfiles)  
 
-The terminals and editors:  
 * [atom](atom.md)
+* [bash](bash.md)
+* [git](git.md)
 * [phpstorm](phpstorm.md)
 * [sublime](sublime.md)
-* [textmate](textmate.md)
+* [subversion](subversion.md)
 * [terminal](terminal.md)
+* [textmate](textmate.md)
+* [unix](unix.md)
 * [vi](vi.md)
 * [zsh](zsh.md)
 
 #### Commands
-For each page I'll just put a list of commands I use and tend to forget.  
+commands I tend to forget.  
 
 ```
+#### notes ####
+
+alias key ->
+
+
 ```
