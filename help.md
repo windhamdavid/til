@@ -2,10 +2,15 @@
 
 Because sometimes I forget how to drive the software I'm running.
 
-* 3/14/20 Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate to Docsify
+* 3/14/20 Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate Gitbook to Docsify:
     * [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
     * [https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)
-    * the current [Gitbook Search Plugin](https://github.com/lwdgit/gitbook-plugin-search-plus) key to the current setup and the docsify search is good. ran package upgrades before migration.  
+    * the current [Gitbook Search Plugin](https://github.com/lwdgit/gitbook-plugin-search-plus) key to the current setup and the docsify search is good.
+    * ran package upgrades before migration.  
+    * docsify doesn't support all prism languages - [https://docsify.js.org/#/language-highlight?id=language-highlight](https://docsify.js.org/#/language-highlight?id=language-highlight)
+    * [gitbook-prism-plugin](https://github.com/gaearon/gitbook-plugin-prism) has an outdated version of [prism](https://www.npmjs.com/package/prismjs).
+    * forked pkg to [https://www.npmjs.com/package/gitbook-plugin-prism-dw](https://www.npmjs.com/package/gitbook-plugin-prism-dw)
+    * add "gitbook-plugin-prism-dw": "^2.4.1" to pkg.json
 
 #### migrate
 ```sh

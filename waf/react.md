@@ -74,12 +74,12 @@
 ## Installation
 
 * Add the tags in your HTML
-    ```HTML
+    ```
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     ```
 * Run this scripts in your terminal
-    ```SSH
+    ```
     $ npm install react react-dom
     ```
 
@@ -90,7 +90,7 @@
 
 Just start with React no configuration (run the scripts bellow in your terminal)
 * Install the React
-    ```SSH
+    ```
     $ npm install -g create-react-app
     ```
 * Create your application (change `myApp` to your application name)
@@ -114,7 +114,7 @@ Just start with React no configuration (run the scripts bellow in your terminal)
 
 ## ReactDOM
 
-```JS
+```js
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -126,7 +126,7 @@ ReactDOM.render( <h1>Hello React Ladies</h1>, document.getElementById('root') );
 
 ## Functional Stateless Component
 
-```JS
+```js
 import React from 'react';
 
 const Button = () =>
@@ -135,7 +135,7 @@ const Button = () =>
 export default Button;
 ```
 
-```JS
+```js
 import React from 'react';
 
 const Button = ({ onClick, className = 'button', children  }) =>
@@ -155,7 +155,7 @@ export default Button;
 
 ## Class Component
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
@@ -171,7 +171,7 @@ class MyComponent extends Component {
 export default MyComponent;
 ```
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class MyComponent () extends Compnent {
@@ -198,7 +198,7 @@ export default MyComponent;
 
 ## Composition
 
-```JS
+```js
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -235,7 +235,7 @@ ReactDOM.render(
 
 ## Module component
 
-```JS
+```js
 //App.js
 import React, { Component } from 'react';
 
@@ -252,7 +252,7 @@ class App extends Component {
 export default App
 ```
 
-```JS
+```js
 //Index.js
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -284,7 +284,7 @@ ReactDOM.render (
 * Save valuable development time by only updating what's changed.
 * Tweak styling faster -- almost comparable to changing styles in the browser's debugger.
 
-```JS
+```js
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import MyComponent from './MyComponent';
@@ -301,7 +301,7 @@ if (module.hot) {
 
 ## Props
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -332,7 +332,7 @@ export default Index;
 
 ## State
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -358,7 +358,7 @@ export default App;
 
 ## Methods and Events
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -384,7 +384,7 @@ export default App;
 
 ## State manipulation
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -409,7 +409,7 @@ class App extends Component {
 export default App;
 ```
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -442,7 +442,7 @@ export default App;
 d
 ## Bindings
 
-```JS
+```js
 import React, { Component } from 'react';
 
 class MyComponent extends Component {
@@ -501,7 +501,7 @@ export default MyComponent;
 ### Syntax
 
   #### Basic syntax
-    ```JS
+    ```js
     ( param1, param2, ..., paramN ) => { statements }
 
     ( param1, param2, ..., paramN ) =>  expression
@@ -513,7 +513,7 @@ export default MyComponent;
     () => { statements }
     ```
   #### Advanced Syntax
-    ```JS
+    ```js
     params => ({ foo: bar }) /* return an object literal expression */
 
     ( param1, param2, ...ladies ) =>  { statements } /* rest parameters */
@@ -529,7 +529,7 @@ export default MyComponent;
 ## Spread Operations
 
 ### Spread in array literals
-```JS
+```js
 const basics = [ 'JS', 'HTML', 'CSS' ];
 const frameworks = [ 'React', 'Vue' ];
 const web = [ ...basics, ...frameworks ];
@@ -540,7 +540,7 @@ console.log(addWeb); /* ['JS', 'HTML', 'CSS', 'React', 'Vue', 'al11'] */
 ```
 
 ### Spread in object literals
-```JS
+```js
 const basics = { behavior: 'JS', markup: 'HTML' };
 const style = 'CSS';
 const web = { ...basics, style };
