@@ -58,14 +58,19 @@ alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
 alias ll='ls -l'      #long list
 
 ###### GIT #######
+#alias zshconfig="mate ~/.zshrc"
 alias ga="git add"
 alias gaa="git add -A"
 alias gc="git commit -m '"
 alias gs="git status"
+alias gcm="git checkout master"
+alias gcd="git checkout dev"
+alias gmd="git merge dev"
 alias gpom="git push origin master"
 alias gpcm="git push code master"
 alias gpod="git push origin dev"
 alias gpcd="git push code dev"
+
 
 ##### NPM #####
 alias nit="npm init --yes"
@@ -79,6 +84,11 @@ alias nid="npm install --save-dev"
 alias nud="npm uninstall --save-dev"
 alias nip="npm install --save-prod"
 alias nup="npm uninstall --save-prod"
+
+##### GULP ######
+alias gr="gulp run"
+alias gb="gulp build"
+alias gc="gulp clean"
 
 ##### GOLANG ######
 alias gob='go build'
