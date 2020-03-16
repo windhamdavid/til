@@ -67,6 +67,19 @@ alias gpcm="git push code master"
 alias gpod="git push origin dev"
 alias gpcd="git push code dev"
 
+##### NPM #####
+alias nit="npm init --yes"
+alias not="npm outdated"
+alias nu="npm update"
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nis="npm install --save"
+alias nus="npm uninstall --save"
+alias nid="npm install --save-dev"
+alias nud="npm uninstall --save-dev"
+alias nip="npm install --save-prod"
+alias nup="npm uninstall --save-prod"
+
 ##### GOLANG ######
 alias gob='go build'
 alias goc='go clean'
