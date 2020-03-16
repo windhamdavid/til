@@ -4,7 +4,6 @@
 	"plugins": [
 		"piwik",
 		"video",
-		"ace",
 		"-lunr",
 		"-search",
 		"search-plus",
@@ -22,7 +21,7 @@
 		},
 		"prism": {
 			"css": [
-			"prismjs/themes/prism-okaidia.css"
+			"prismjs/themes/prism-tomorrow.css"
 			],
 		  "ignore": [
 				"zsh"

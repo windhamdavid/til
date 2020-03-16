@@ -1,9 +1,9 @@
-# Apple 
+# Apple
 
 
 #### Apple MacOS
 
-##### Cleanup Script 
+##### Cleanup Script
 ```
 curl -o cleanup https://code.davidawindham.com/cleaner/cleanup.sh
 chmod +x cleanup
@@ -14,7 +14,7 @@ sh /usr/local/bin/cleanup
 
 ()
 
-{%ace edit=false, theme='solarized_dark' lang='sh'%}
+```sh
 
 #!/usr/bin/env bash
 
@@ -73,4 +73,4 @@ count=$((newAvailable-oldAvailable))
 count=$(( $count * 512))
 bytesToHuman $count
 
-{%endace%}
+```

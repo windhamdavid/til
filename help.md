@@ -97,23 +97,9 @@ gitbook serve --no-live
 ### Code:
 #### Piwik Plugin
 [https://github.com/emmanuel-keller/gitbook-plugin-piwik](https://github.com/emmanuel-keller/gitbook-plugin-piwik)
-#### Ace Plugin
-[https://github.com/ymcatar/gitbook-plugin-ace](https://github.com/ymcatar/gitbook-plugin-ace)  
-[Ace Plugin Languages/Themes](https://github.com/ymcatar/gitbook-plugin-ace/tree/master/assets/ace)  
 
 
-
-
-{%ace edit=true, lang='javascript' theme='github'%}
-
-int main(){
-  printf("Hello World!");
-  return 1;
-}
-{%endace%}  
-
-
-or just use the language identifier after the back ticks for the code block in markdown  
+use the language identifier after the back ticks for the code block in markdown  
 
 ```html
 <style>
@@ -156,7 +142,7 @@ or just use the language identifier after the back ticks for the code block in m
 #### Add video from source file
 ```
 //add url using html5
-<video width="720" height="480" controls src="https://davidawindham.com/media/rose-syl.mp4" type="video/mp4"></video>
+<video width="720" height="480" controls src="/media/wha.mp4" type="video/mp4"></video>
 ```
 
 ###HTML

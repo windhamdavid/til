@@ -71,7 +71,6 @@ alias gpcm="git push code master"
 alias gpod="git push origin dev"
 alias gpcd="git push code dev"
 
-
 ##### NPM #####
 alias nit="npm init --yes"
 alias not="npm outdated"
