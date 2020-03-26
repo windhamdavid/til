@@ -1,6 +1,9 @@
 #Projects
 
-* [Zeken Woozer Un-Ltd.](zw.md)
+* [DW](dw.md)
 * [GZET](gzet.md)
 * [Juryd](juryd.md)
-* [Peoples Pants](pants.md)
+* [Pants](pants.md)
+* [Woozer](woozer.md)
+* [Zeke](zeke.md)
+* [Zeken Woozer Un-Ltd.](zw.md)

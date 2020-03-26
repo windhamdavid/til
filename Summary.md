@@ -42,9 +42,12 @@
 	* [ngrok](localhost/ngrok.md)
 
 * [Projects](projects/_projects.md)
+	* [DW](projects/dw.md)
 	* [GZET](projects/gzet.md)
 	* [Juryd](projects/juryd.md)
-	* [Peoples Pants](projects/pants.md)
+	* [Pants](projects/pants.md)
+	* [Woozer](projects/woozer.md)
+	* [Zeke](projects/zeke.md)
 	* [Zeken Woozer Un-Ltd.](projects/zw.md)
 
 * [Sass / Host / API](saas/_saas.md)
