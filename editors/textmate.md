@@ -1,8 +1,14 @@
 #Textmate
 
 
+#### tend to forget?
+column editing:   
+curser at front of line then ⇧⌥↓ to select lines   
+tap ⌥ to switch to column selection mode   
+move to the end of all lines (⌘→):   
+* [https://macromates.com/blog/2011/multiple-carets/](https://macromates.com/blog/2011/multiple-carets/)
 
-
+---
 
 #### TextMate Cheat Sheet
 [Source](https://gist.github.com/jqr/45264 "Permalink to TextMate Cheat Sheet · GitHub")
@@ -104,5 +110,3 @@
 |   |                                                                                          |  
 |   | doctype⇥ Insert Doctype                                                                  |  
 |   | !⇥ Conditional Comments                                                                  |  
-
-  
