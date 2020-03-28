@@ -1,10 +1,18 @@
 # Woozer
 
-## Woozer
-* had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
 
-
+ * 20/03/28 - new crontab for recurring invoices and email notifications
 ```sh
+# create a cron for recurring invoices that runs everday at 9am
+crontab -e
+0 9 * * * wget -O - https://sandbox.davidawindham.com/invoice/invoices/cron/recur/'CRON-KEY' >/dev/null 2>&1
+```
+
+
+* 20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
+
+
+```sh  
 # mod_evasive
 sudo vi /etc/apache2/mods-enabled/evasive.conf
 rm these later - sudo apt remove / sudo apt purge
