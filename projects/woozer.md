@@ -1,7 +1,8 @@
 # Woozer
 
 
- * 20/03/28 - new crontab for recurring invoices and email notifications
+* 20/03/28 - new crontab for recurring invoices and email notifications   
+
 ```sh
 # create a cron for recurring invoices that runs everday at 9am
 crontab -e
@@ -12,7 +13,7 @@ crontab -e
 * 20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
 
 
-```sh  
+```sh   
 # mod_evasive
 sudo vi /etc/apache2/mods-enabled/evasive.conf
 rm these later - sudo apt remove / sudo apt purge
@@ -134,7 +135,7 @@ sudo a2enmod actions fastcgi alias proxy_fcgi
 ```
 - switch to mpm_event_module to support http/2  
 
-```
+```sh
 # vi /etc/apache2/apache2.config
 
 Protocols h2 h2c http/1.1
@@ -145,34 +146,35 @@ Protocols h2 h2c http/1.1
 
 ```
 
-20.2.21: System upgrade from 16.04 LTS to 18.04.4 LTS ( This machine has had three major version upgrades ).
+20.2.21: System upgrade from 16.04 LTS to 18.04.4 LTS ( This machine has had three major version upgrades ).   
 
-```
+
+```sh
 sudo apt-get update && sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
 ```
 
-
-```
+```sh
 Welcome to Ubuntu 18.04.4 LTS (GNU/Linux 5.4.10-x86_64-linode132 x86_64)
 
 	     .     . .              .       .  .
 	. . ...-..-| |-. .-. .-.-..-| .-.. ...-|
 	 ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
 
+0 packages can be updated.   
+0 updates are security updates.   
 
-0 packages can be updated.
-0 updates are security updates.
+david@woozer:~ » lsb_release -d   
+Description:	Ubuntu 18.04.4 LTS   
+david@woozer:~ sudo dpkg --list   
 
-david@woozer:~ » lsb_release -d
-Description:	Ubuntu 18.04.4 LTS
-david@woozer:~ » sudo dpkg --list                                                                                     
+# local version of this on macs                  
+```   
 
-```
+### init (setup)
 
+```sh
 
-```
-//********* Ubuntu 16.04 ( Woozer )****//
-
+//* ******** Ubuntu 16.04 ( Woozer )** **//
 
 45.79.219.165
 2600:3c02::f03c:91ff:fe67:cbec
