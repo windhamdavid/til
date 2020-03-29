@@ -38,11 +38,25 @@ mysql> REPAIR TABLE mysql.db;
 +----------+--------+----------+---------------------------------------------------------+
 | Table    | Op     | Msg_type | Msg_text                                                |
 +----------+--------+----------+---------------------------------------------------------+
-| mysql.db | repair | note     | The storage engine for the table doesn't support repair |
-+----------+--------+----------+---------------------------------------------------------+
-1 row in set (0.00 sec)
+| mysql.db | repair | note     | The storage engine for the table doesnt support repair
 ```
+* also had to grab v5.7 via homebrew so that I could switch between versions.
+```sh
+If you need to have mysql@5.7 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"' >> ~/.zshrc
 
+For compilers to find mysql@5.7 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+  export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+
+For pkg-config to find mysql@5.7 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/mysql@5.7/lib/pkgconfig"
+
+To have launchd start mysql@5.7 now and restart at login:
+  brew services start mysql@5.7
+Or, if you don't want/need a background service you can just run:
+  /usr/local/opt/mysql@5.7/bin/mysql.server start
+```
 
 
 * January 2020 Notes:  
