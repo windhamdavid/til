@@ -40,9 +40,11 @@ xdebug  2.9.1   stable
 sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist 2>/dev/null
 
 brew services start httpd
-mate /usr/local/etc/httpd/httpd.conf
+sudo vi /usr/local/etc/httpd/httpd.conf
+sudo vi /usr/local/etc/httpd/extra/httpd-ssl.conf
 ErrorLog "/usr/local/var/log/httpd/error_log"
 CustomLog "/usr/local/var/log/httpd/access_log" common
+
 sudo apachectl -k restart
 
 ```
