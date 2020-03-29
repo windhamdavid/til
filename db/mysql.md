@@ -1,6 +1,51 @@
 # MySQL  
 
-January 2020 Notes:  
+* 20/03/29 migrating databases
+#### Migrating Tables to InnoDB
+some tables I'm dealing with were created with MySQL v5.1 [ v5.7.29 zeke/woozer & v8.0.19 -macs ]
+```sql
+SET @DATABASE_NAME = 'name_of_db';
+
+SELECT  CONCAT('ALTER TABLE `', table_name, '` ENGINE=InnoDB;') AS sql_statements
+FROM    information_schema.tables AS tb
+WHERE   table_schema = @DATABASE_NAME
+AND     `ENGINE` = 'MyISAM'
+AND     `TABLE_TYPE` = 'BASE TABLE'
+ORDER BY table_name DESC;
+```
+* [https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html](https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html)   
+In MySQL 8.0, the default authentication plugin has changed from mysql_native_password to caching_sha2_password, and the 'root'@'localhost' administrative account uses caching_sha2_password by default. If you prefer that the root account use the previous default authentication plugin (mysql_native_password), see caching_sha2_password and the root Administrative Account.
+
+```sh
+cd /usr/local/mysql
+mkdir mysql-files
+chown mysql:mysql mysql-files
+chmod 750 mysql-files
+bin/mysqld --initialize --user=mysql
+
+```
+
+
+```sql
+#######  caching_sha2_password -> mysql_native_password in v8 #######
+
+mysql> ALTER USER 'pma'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+ERROR 1726 (HY000): Storage engine 'MyISAM' does not support system tables. [mysql.db]
+
+mysql> alter table mysql.db ENGINE=InnoDB
+
+mysql> REPAIR TABLE mysql.db;
++----------+--------+----------+---------------------------------------------------------+
+| Table    | Op     | Msg_type | Msg_text                                                |
++----------+--------+----------+---------------------------------------------------------+
+| mysql.db | repair | note     | The storage engine for the table doesn't support repair |
++----------+--------+----------+---------------------------------------------------------+
+1 row in set (0.00 sec)
+```
+
+
+
+* January 2020 Notes:  
 Migrated all of my local machines to MySQL v.8.0.19  
 Still debating MariaDB and I've chosen to stick with MySQL for the time being due to existing documentation for the various software. Had to briefly install multiple versions using Homebrew and [DBengin](localhost/dbengin.md) in order to rectify some issues between versions by [defining datadir=](https://dev.mysql.com/doc/refman/8.0/en/multiple-data-directories.html).  As of MySQL 8.0.16, the server performs the tasks previously handled by mysql_upgrade. After installation of a new MySQL version, the server now automatically performs all necessary upgrade tasks at the next startup and is not dependent on the DBA invoking mysql_upgrade. All of my existing working local and remote databases are backed up by folder date on my two external drives.  
 
