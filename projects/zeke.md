@@ -590,3 +590,19 @@ sudo ln -s /etc/letsencrypt/archive/davidwindham.com/privkey2.pem /etc/letsencry
 ## TEST ##
 sudo letsencrypt renew --dry-run
 ```
+####packages:
+```sh
+//************** Packages ( Zeke ) ***************//
+dpkg –list
+# pkg log
+sudo vi /var/log/dpkg.log
+sudo vi /var/log/apt/history.log
+# installed?
+dpkg -L packagename
+sudo apt-get clean && sudo apt-get autoremove
+# ck for dep issues
+dpkg –configure -a
+# rm a pkg
+apt-get remove packagename
+apt-get –-purge remove packagename
+```
