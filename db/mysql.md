@@ -1,9 +1,22 @@
 # MySQL  
+#### notes:
+things I tend to forget :)
+```
+#find config file load order
+mysql --help | grep cnf
+sudo vi .my.cnf
+    [mysqd]
+    character-set-server=utfmb4
+    collation-server=utfmb4_unicode_ci
+
+```
+
 
 * 20/03/29 migrating databases
 #### Migrating Tables to InnoDB
 some tables I'm dealing with were created with MySQL v5.1 [ v5.7.29 zeke/woozer & v8.0.19 -macs ]
-```sql
+
+```
 SET @DATABASE_NAME = 'name_of_db';
 
 SELECT  CONCAT('ALTER TABLE `', table_name, '` ENGINE=InnoDB;') AS sql_statements
@@ -13,6 +26,7 @@ AND     `ENGINE` = 'MyISAM'
 AND     `TABLE_TYPE` = 'BASE TABLE'
 ORDER BY table_name DESC;
 ```
+
 * [https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html](https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html)   
 In MySQL 8.0, the default authentication plugin has changed from mysql_native_password to caching_sha2_password, and the 'root'@'localhost' administrative account uses caching_sha2_password by default. If you prefer that the root account use the previous default authentication plugin (mysql_native_password), see caching_sha2_password and the root Administrative Account.
 
@@ -25,8 +39,7 @@ bin/mysqld --initialize --user=mysql
 
 ```
 
-
-```sql
+```
 #######  caching_sha2_password -> mysql_native_password in v8 #######
 
 mysql> ALTER USER 'pma'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
@@ -58,7 +71,7 @@ Or, if you don't want/need a background service you can just run:
   /usr/local/opt/mysql@5.7/bin/mysql.server start
 ```
 needed a new pmauser on 5.7
-```sql
+```
 GRANT USAGE ON mysql.* TO 'pma'@'localhost' IDENTIFIED BY 'pmapass';
 GRANT SELECT (
     Host, User, Select_priv, Insert_priv, Update_priv, Delete_priv,

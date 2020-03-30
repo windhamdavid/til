@@ -34,6 +34,7 @@
 	* [Rust](lang/rust.md)
 
 * [Localhost / MacOS](localhost/_localhost.md)
+	* [Macs](localhost/macs.md)
 	* [Apple](localhost/apple.md)
 	* [Chrome](localhost/chrome.md)
 	* [Homebrew](localhost/brew.md)
