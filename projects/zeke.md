@@ -4,7 +4,7 @@
 - 20/03/26   
 
 
-```sh
+```sh   
 david@macs:~/sites/til(master⚡) » ab -n 1000 -c 100 https://dev.davidwindham.com:443/
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -151,7 +151,7 @@ sudo dpkg-reconfigure iptables-persistent
 ```
 
 #### LAMP
-```sh
+```sh 
 
 ##################### LAMP ########################
 ##################### APACHE #####################
@@ -275,6 +275,9 @@ sudo a2enmod mpm_event
 
 # verify status
 sudo service php7.4-fpm status
+sudo vi /etc/php/7.4/fmp/php.ini
+sudo systemctl reload php7.4-fpm
+sudo systemctl restart php7.4-fpm
 
 <VirtualHost *:443>
 	Protocols h2 http/1.1

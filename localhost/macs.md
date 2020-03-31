@@ -4,6 +4,18 @@ my main machine
 
 #### notes:
 
+using mkcert
+```sh
+david@macs:/usr/local/etc/httpd/ssl » openssl version                                                                      130 ↵
+OpenSSL 1.1.1d  10 Sep 2019
+brew install mkcert nss
+cd ~
+mkcert daw.macs
+    Run "mkcert -install" to avoid verification errors ‼️
+sudo mv daw.macs.pem /usr/local/etc/httpd/ssl/
+sudo vi /usr/local/httpd/extra/httpd-vhosts.conf httpd-vhosts.conf
+```
+
 while migrating a bunch of websites around I had to be able to switch versions of php easily to test them. hat tip [https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions](https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions)
 
 ```sh
