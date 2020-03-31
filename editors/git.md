@@ -8,10 +8,16 @@ removing commit history of file
 git filter-branch --force --index-filter \
   "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \ --prune-empty --tag-name-filter cat -- --all
 git push origin --force --all
-
-
 ```
-
+Sparse checkout
+```sh
+git init
+git remote add origin <url>
+git config core.sparseCheckout true
+echo "app" >> .git/info/sparse-checkout
+git pull origin master
+git checkout tags/v1.0
+```
 ## Setup
 
 ##### Show current configuration:
