@@ -151,7 +151,7 @@ sudo dpkg-reconfigure iptables-persistent
 ```
 
 #### LAMP
-```sh 
+```sh
 
 ##################### LAMP ########################
 ##################### APACHE #####################
@@ -592,6 +592,11 @@ sudo ln -s /etc/letsencrypt/archive/davidwindham.com/privkey2.pem /etc/letsencry
 
 ## TEST ##
 sudo letsencrypt renew --dry-run
+## Crontab ##
+sudo crontab -e
+11 1 * * 1 certbot renew --quiet --noninteractive
+# runs on mondays at 1:11am 
+
 ```
 ####packages:
 ```sh
