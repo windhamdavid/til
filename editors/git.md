@@ -2,14 +2,9 @@
 * [https://git-scm.com/](https://git-scm.com/)
 
 #### notes:
-removing commit history of file   
-[https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
-```sh
-git filter-branch --force --index-filter \
-  "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \ --prune-empty --tag-name-filter cat -- --all
-git push origin --force --all
-```
+
 Sparse checkout
+* [https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/](https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/)
 ```sh
 git init
 git remote add origin <url>
@@ -18,6 +13,15 @@ echo "app" >> .git/info/sparse-checkout
 git pull origin master
 git checkout tags/v1.0
 ```
+
+removing commit history of file   
+[https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository)
+```sh
+git filter-branch --force --index-filter \
+  "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" \ --prune-empty --tag-name-filter cat -- --all
+git push origin --force --all
+```
+
 ## Setup
 
 ##### Show current configuration:
