@@ -1,4 +1,9 @@
 #TIL (Today I Learned)
+* September 2020
+	* [The U.S. now ranks 28th in the Global Social Progress rankings](https://www.socialprogress.org/index/global/results)
+	* [Eisegesis - v. is the process of interpreting text in such a way as to introduce one's own presuppositions](https://en.wikipedia.org/wiki/Eisegesis)
+* August 2020
+	* [Meetings, Bloody Meetings](https://en.wikipedia.org/wiki/Meetings,_Bloody_Meetings)
 * March 2020  
 	* [Zeke](https://davidawindham.com/til/projects/zeke.html)
 	* [Migrate Gitbook to Docsify](https://davidawindham.com/til/help.html)
