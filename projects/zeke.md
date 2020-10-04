@@ -429,6 +429,10 @@ curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apac
 mysqldump db_name --user=db_user --password='db_pass' > /home/david/backups/$(date +"%Y%m%d").db_name.sql
 mysqlcheck -o db_name --user=db_user --password='db_pass'
 
+# run every Sunday at 1:11am
+sudo crontab -e
+11 1 * * 0 /home/david/scripts/mysql-cron.sh
+
 ##################### MONIT / SERVER-STATUS ############################
 sudo apt-get install monit
 #sudo iptables -A INPUT 14 -p tcp --dport 2812 -j ACCEPT
@@ -595,7 +599,7 @@ sudo letsencrypt renew --dry-run
 ## Crontab ##
 sudo crontab -e
 11 1 * * 1 certbot renew --quiet --noninteractive
-# runs on mondays at 1:11am 
+# runs on mondays at 1:11am
 
 ```
 ####packages:
