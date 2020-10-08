@@ -1,8 +1,11 @@
 # Zeke
+20/10/08
+#### Ubuntu 20.04.01
+Waited until the first point release to avoid bugs. Clean install: 
+Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
 
-#### bench tests
-- 20/03/26   
-
+20/03/26  
+#### Bench testing
 
 ```sh   
 david@macs:~/sites/til(master⚡) » ab -n 1000 -c 100 https://dev.davidwindham.com:443/
@@ -507,7 +510,13 @@ cd lynis
 #### certbot letsencrypt
 ```sh
 //************** Certbot SSLs ( Zeke ) ***************//
+## install
+sudo certbot --apache -d dev.davidwindham.com
 
+## remove
+sudo certbot delete --cert-name dev.davidwindham.com
+
+## moving from another server   
 sudo ls -l /etc/letsencrypt/live/davidwindham.com
   lrwxrwxrwx 1 root root 46 Mar 25 13:23 cert.pem -> /etc/letsencrypt/archive/davidwindham.com/cert2.pem
   lrwxrwxrwx 1 root root 47 Mar 25 13:24 chain.pem -> /etc/letsencrypt/archive/davidwindham.com/chain2.pem
