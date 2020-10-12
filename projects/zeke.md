@@ -1,8 +1,15 @@
 # Zeke
 20/10/08
 #### Ubuntu 20.04.01
-Waited until the first point release to avoid bugs. Clean install: 
+Waited until the first point release to avoid bugs. Clean install:
 Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
+
+```sh
+sudo apt-get update && sudo apt-get upgrade
+#### sudo apt-get dist-upgrade
+#### more cautious approach to packages held back from dependencies
+sudo apt-get --with-new-pkgs upgrade
+```
 
 20/03/26  
 #### Bench testing

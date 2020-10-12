@@ -1,7 +1,18 @@
+
 # Woozer
 
+#### Ubuntu 20.04.01
+20/10/08 - Waited until the first point release to avoid bugs. Clean install:
+Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
 
-* 20/03/28 - new crontab for recurring invoices and email notifications   
+```sh
+sudo apt-get update && sudo apt-get upgrade
+#### sudo apt-get dist-upgrade
+#### more cautious approach to packages held back from dependencies
+sudo apt-get --with-new-pkgs upgrade
+```
+
+20/03/28 - New crontab for recurring invoices and email notifications   
 
 ```sh
 # create a cron for recurring invoices that runs everday at 9am
@@ -10,7 +21,7 @@ crontab -e
 ```
 
 
-* 20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
+20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
 
 
 ```sh   
