@@ -1,5 +1,5 @@
 ---
-title: Help | TIL
+title: Help
 ---
 
 # Help
