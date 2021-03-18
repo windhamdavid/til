@@ -1,5 +1,5 @@
 ---
-title: About | TIL
+title: About
 ---
 
 # About
