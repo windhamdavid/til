@@ -1,0 +1,101 @@
+# 301 Redirects after Gitbook to Docusaurus migration
+
+Redirect 301 /til/til.html /til/
+Redirect 301 /til/help.html /til/help/
+
+Redirect 301 /til/db/_db.html /til/docs/
+Redirect 301 /til/db/mariadb.html /til/docs/
+Redirect 301 /til/db/mongo.html /til/docs/db/MongoDB/
+Redirect 301 /til/db/mysql.html /til/docs/db/MySQL/
+Redirect 301 /til/db/postgres.html /til/docs/db/PostgreSQL/
+Redirect 301 /til/db/redis.html /til/docs/db/Redis/
+
+Redirect 301 /til/editors/_editors.html /til/docs/editors/custom/
+Redirect 301 /til/editors/atom.html /til/docs/editors/atom/
+Redirect 301 /til/editors/bash.html /til/docs/editors/bash/
+Redirect 301 /til/editors/git.html /til/docs/editors/git/
+Redirect 301 /til/editors/phpstorm.html /til/docs/editors/phpstorm/
+Redirect 301 /til/editors/sublime.html /til/docs/editors/sublime/
+Redirect 301 /til/editors/subversion.html /til/docs/editors/subversion/
+Redirect 301 /til/editors/terminal.html /til/docs/editors/terminal/
+Redirect 301 /til/editors/textmate.html /til/docs/editors/textmate/
+Redirect 301 /til/lang/unix.html /til/docs/editors/unix/
+Redirect 301 /til/editors/vi.html /til/docs/editors/vi/
+Redirect 301 /til/editors/zsh.html /til/docs/editors/zsh/
+
+Redirect 301 /til/host/_host.html /til/docs/
+Redirect 301 /til/host/discourse.html /til/docs/host/Discourse/
+Redirect 301 /til/host/drupal.html /til/docs/host/Drupal/
+Redirect 301 /til/host/gitea.html /til/docs/host/Gitea/
+Redirect 301 /til/host/gogs.html /til/docs/host/Gogs/
+Redirect 301 /til/host/icecast.html /til/docs/host/Icecast/
+Redirect 301 /til/host/invoiceplane.html /til/docs/host/InvoicePlane/
+Redirect 301 /til/host/laravel.html /til/docs/host/Laravel/
+Redirect 301 /til/host/lychee.html /til/docs/host/Lychee/
+Redirect 301 /til/host/mailcow.html /til/docs/host/Mailcow/
+Redirect 301 /til/host/nodebb.html /til/docs/host/Nodebb/
+Redirect 301 /til/host/phproject.html /til/docs/host/Phproject/
+Redirect 301 /til/host/piwik.html /til/docs/host/Piwik/
+Redirect 301 /til/host/siege-sproxy.html /til/docs/host/Siege-sproxy/
+Redirect 301 /til/host/webmin.html /til/docs/host/Webmin/
+Redirect 301 /til/host/wordpress.html /til/docs/host/WordPress/
+Redirect 301 /til/host/zammad.html /til/docs/host/Zammad/
+
+Redirect 301 /til/lang/_lang.html /til/docs/
+Redirect 301 /til/lang/golang.html /til/docs/lang/Golang/
+Redirect 301 /til/lang/graphql.html /til/docs/lang/GraphQL/
+Redirect 301 /til/lang/_js.html /til/docs/lang/JavaScript/
+Redirect 301 /til/lang/php.html /til/docs/lang/PHP/
+Redirect 301 /til/lang/python.html /til/docs/lang/Python/
+Redirect 301 /til/lang/ruby.html /til/docs/lang/Ruby/
+Redirect 301 /til/lang/rust.html /til/docs/lang/Rust/
+
+Redirect 301 /til/localhost/_localhost.html /til/docs/localhost/_log/
+Redirect 301 /til/localhost/abobe.html /til/docs/localhost/adobe/
+Redirect 301 /til/localhost/apple.html /til/docs/localhost/apple/
+Redirect 301 /til/localhost/brew.html /til/docs/localhost/brew/
+Redirect 301 /til/localhost/chrome.html /til/docs/localhost/chrome/
+Redirect 301 /til/localhost/macs.html /til/docs/localhost/macs/
+Redirect 301 /til/localhost/ngrok.html /til/docs/localhost/ngrok/
+Redirect 301 /til/localhost/sketch.html /til/docs/localhost/sketch/
+
+Redirect 301 /til/projects/_projects.html /til/docs/projects/dw/
+Redirect 301 /til/projects/dw.html /til/docs/projects/dw/
+Redirect 301 /til/projects/gzet.html /til/docs/projects/gzet/
+Redirect 301 /til/projects/juryd.html /til/docs/projects/juryd/
+Redirect 301 /til/projects/pants.html /til/docs/projects/pants/
+Redirect 301 /til/projects/woozer.html /til/docs/projects/woozer/
+Redirect 301 /til/projects/zeke.html /til/docs/projects/zeke/
+Redirect 301 /til/projects/zw.html /til/docs/projects/zw/
+
+Redirect 301 /til/saas/_sass.html /til/docs/
+Redirect 301 /til/saas/aws.html /til/docs/sass/aws/
+Redirect 301 /til/saas/google.html /til/docs/sass/google/
+Redirect 301 /til/saas/heroku.html /til/docs/sass/heroku/
+Redirect 301 /til/saas/linode.html /til/docs/sass/linode/
+Redirect 301 /til/saas/now.html /til/docs/sass/now/
+Redirect 301 /til/saas/stripe.html /til/docs/sass/stripe/
+Redirect 301 /til/saas/twilio.html /til/docs/sass/twilio/
+
+Redirect 301 /til/server/_servers.html /til/docs/
+Redirect 301 /til/server/apache.html /til/docs/server/apache/
+Redirect 301 /til/server/docker.html /til/docs/server/docker/
+Redirect 301 /til/server/goaccess.html /til/docs/server/goaccess/
+Redirect 301 /til/server/htop.html /til/docs/server/htop/
+Redirect 301 /til/server/iptables.html /til/docs/server/iptables/
+Redirect 301 /til/server/kube.html /til/docs/server/kubernetes/
+Redirect 301 /til/server/letsencrypt.html /til/docs/server/letsencrypt/
+Redirect 301 /til/server/lynis.html /til/docs/server/lynis/
+Redirect 301 /til/server/mail.html /til/docs/server/mail/
+Redirect 301 /til/server/monit.html /til/docs/server/monit/
+Redirect 301 /til/server/nginx.html /til/docs/server/nginx/
+Redirect 301 /til/server/ubuntu.html /til/docs/server/ubuntu/
+Redirect 301 /til/server/ufw.html /til/docs/server/ufw/
+
+Redirect 301 /til/waf/_waf.html /til/docs/
+Redirect 301 /til/waf/nodejs.html /til/docs/waf/nodejs/
+Redirect 301 /til/waf/npm.html /til/docs/waf/npm/
+Redirect 301 /til/waf/rails.html /til/docs/waf/rails/
+Redirect 301 /til/waf/react.html /til/docs/waf/react/
+Redirect 301 /til/waf/react_native.html /til/docs/waf/react_native/
+Redirect 301 /til/waf/vue.html /til/docs/waf/vue/
