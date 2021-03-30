@@ -33,6 +33,7 @@ module.exports = {
       },
     },
     navbar: {
+      hideOnScroll: true,
       title: 'TIL',
       logo: {
         alt: 'windhamdavid',
