@@ -3,6 +3,8 @@ title: Today I Learned
 ---
 
 # TIL (Today I Learned)
+* November 2021
+  * [Preparing my Mac Mini to migrate to a new ARM based Mac](/docs/localhost/magic)
 * March 2021
 	* [When Redd Foxx died, everyone laughed because they thought it was a reference to Fred Sanford](https://en.wikipedia.org/wiki/Redd_Foxx#Death)
 	* [Woozer data center migration lost the php7.4-fpm sock](https://davidawindham.com/til/docs/projects/woozer/)
@@ -25,17 +27,17 @@ title: Today I Learned
 * January 2020  
 	* [Annual overhaul of the machines](https://davidawindham.com/late-adopter/)
 	* [MacOS 10.15](https://davidawindham.com/til/docs/localhost/custom)
-	* [PHP 7.4.2](https://davidawindham.com/til/docs/lang/php)
-	* [MySQL 8.0.19](https://davidawindham.com/til/docs/db/mysql)
-	* [Ruby 2.7.0](https://davidawindham.com/til/docs/lang/ruby)
-	* [Rails 5.2.4.1](https://davidawindham.com/til/docs/lang/rails)
+	* [PHP 7.4.2](https://davidawindham.com/til/docs/lang/PHP)
+	* [MySQL 8.0.19](https://davidawindham.com/til/docs/db/MySQL)
+	* [Ruby 2.7.0](https://davidawindham.com/til/docs/lang/Ruby)
+	* [Rails 5.2.4.1](https://davidawindham.com/til/docs/waf/rails)
 	* [Homebrew 2.2.5](https://davidawindham.com/til/docs/localhost/brew)
 	* [Node 2.2.5](https://davidawindham.com/til/docs/localhost/brew)
-	* [NPM 6.9.2](https://davidawindham.com/til/docs/lang/npm)
-	* [Node 10.16.3](https://davidawindham.com/til/docs/lang/nodejs)
-	* [Golang 1.13.7](https://davidawindham.com/til/docs/lang/golang)
+	* [NPM 6.9.2](https://davidawindham.com/til/docs/waf/npm)
+	* [Node 10.16.3](https://davidawindham.com/til/docs/waf/nodejs)
+	* [Golang 1.13.7](https://davidawindham.com/til/docs/lang/Golang)
 * September 2019
-	* [PHP 7.3 updates](/docs/lang/php)
+	* [PHP 7.3 updates](/docs/lang/PHP)
 * January 2019
 	* [LetsEncrypt Certbot TLS-SNI-01 deprecated](https://davidawindham.com/til/docs/server/letsencrypt)
 	* [Groucho Marx told Warner Brothers that he owned 'brothers'](https://en.wikipedia.org/wiki/A_Night_in_Casablanca)

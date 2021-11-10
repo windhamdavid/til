@@ -62,6 +62,7 @@ module.exports = {
       label: 'Localhost',
       items: [
         'localhost/macs',
+        'localhost/magic',
         'localhost/apple',
         'localhost/chrome',
         'localhost/brew',
