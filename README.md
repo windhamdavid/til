@@ -5,6 +5,9 @@
 
 
 #### Notes: 
+#### 11/10/2021
+Updated the Docusaurus packages. Combined my old Awesome-David repo into it and rebuilt. 
+
 #### 03/18/2021
 
 Migrated this version from Gitbook because it wasn't playing nicely with Node.js v14 and it had a couple security vulnerabilities in the packages. Gitbook stop supporting the open source version likely for business reasons, so I migrated it all to ~~[https://docsify.js.org/](https://docsify.js.org/)~~ ... didn't do docsify because I can't generate static HTML which is what my DOM parser depends on to pull content elsewhere. Decided on using [https://docusaurus.io/](https://docusaurus.io/) instead. It required a bit of cleanup in the Markdown to do so. See: [https://davidawindham.com/til/help](https://davidawindham.com/til/help)

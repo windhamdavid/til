@@ -2,7 +2,7 @@
 title: Today I Learned
 ---
 
-# TIL (Today I Learned)
+# Today I Learned
 * November 2021
   * [Preparing my Mac Mini to migrate to a new ARM based Mac](/docs/localhost/magic)
 * March 2021

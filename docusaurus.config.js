@@ -42,10 +42,8 @@ module.exports = {
       items: [
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
-        {to: 'help', label: 'Help', position: 'left'},
-        {
-          type: 'search', position: 'right',
-        },
+        {to: 'help', label: 'Help', position: 'right'},
+        {type: 'search', position: 'right'},
       ],
     },
   },
