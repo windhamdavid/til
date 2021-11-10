@@ -35,7 +35,6 @@ I collect docs I find useful as I'm using them. I like to make notes along the w
 [Rust](lang/rust) | 
 
 ### Localhost  
-[Log](localhost/_log) | 
 [Macs](localhost/macs) | 
 [Magic](localhost/magic) | 
 [Apple](localhost/apple) | 
