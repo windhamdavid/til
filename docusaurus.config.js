@@ -2,7 +2,7 @@
 module.exports = {
   title: 'David Windham TIL',
   tagline: 'Because Today I Learned',
-  url: 'https://davidawindham.com/til',
+  url: 'https://davidawindham.com',
   baseUrl: '/til/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ module.exports = {
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
         {to: 'help', label: 'Help', position: 'left'},
         {
-          search: true,
+          type: 'search', position: 'right',
         },
       ],
     },
@@ -55,7 +55,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:'https://code.davidawindham.com/david/til/',
+          editUrl:'https://code.davidawindham.com/david/til/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

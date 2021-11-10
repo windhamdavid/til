@@ -37,6 +37,7 @@ I collect docs I find useful as I'm using them. I like to make notes along the w
 ### Localhost  
 [Log](localhost/_log) | 
 [Macs](localhost/macs) | 
+[Magic](localhost/magic) | 
 [Apple](localhost/apple) | 
 [Chrome](localhost/chrome) | 
 [Homebrew](localhost/brew) | 
