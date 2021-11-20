@@ -1,11 +1,15 @@
 ---
 title: About
+description: About this Today I Learned
 ---
 
 # About
-A place to store some notes and documentation.
+This is a place to store some notes and documentation.
 
-### Today I Learned
+
+
+
+## Today I Learned
 Today I learned that Google will translate to and from [Zulu](https://en.wikipedia.org/wiki/Zulu_language).  
 
 ![zulu](https://davidawindham.com/til/img/zulu.png)  
@@ -25,9 +29,8 @@ I'm often searching online documentation for answers to commands, configurations
 ### Notes 
 
 #### 11/10/2021
-- Updated the Docusaurus packages. 
-- Combined my old awesome-david repo into it for simplicity and rebuilt.  
-- It's @ [http://davidawindham.com/til/awesome-david](/awesome)
+- Updated the Docusaurus & NPM packages. 
+- Combined my old [awesome-david](/awesome) and [todo](/todo) repos into it for simplicity and rebuilt.  
 
 #### 03/18/2021
 
@@ -36,3 +39,5 @@ Migrated this version from Gitbook because it wasn't playing nicely with Node.js
 #### 05/02/2017  
 
 While working on another project yesterday afternoon, I ran into set of documentation ([https://docs.feathersjs.com/](https://docs.feathersjs.com/)) that I spent a lot of time reading and will likely forget about sometime soon after I abandon using the library in other projects. Of course I stuffed a bookmark of the documentation into my quasi organized set of chrome bookmarks based on each project, but the fact that the documentation was hosted using [Gitbook](https://github.com/GitbookIO/gitbook), reminded me of a practice I've seen others do.
+
+

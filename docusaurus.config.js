@@ -41,7 +41,7 @@ module.exports = {
       },
       items: [
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
-        {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
+        {to: 'about/',activeBasePath: 'til',label: 'About',position: 'right'},
         {to: 'help', label: 'Help', position: 'right'},
         {type: 'search', position: 'right'},
       ],
@@ -53,7 +53,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:'https://code.davidawindham.com/david/til/master/',
+          editUrl:'https://code.davidawindham.com/david/til/src/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
