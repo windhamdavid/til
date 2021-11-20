@@ -1,5 +1,6 @@
 ---
 title: Help
+description: Because sometimes I forget to how to use the software
 ---
 
 # Help

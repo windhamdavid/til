@@ -1,3 +1,8 @@
+---
+title: awesome-david
+description: A list of awesome stuff according to me
+---
+
 # awesome-david   [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## A list of lists of things I like

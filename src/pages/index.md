@@ -1,5 +1,6 @@
 ---
 title: Today I Learned
+description: A place to keep notes and documentation
 ---
 
 # Today I Learned
