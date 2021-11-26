@@ -1,11 +1,14 @@
-# macs
+# Macs 🐶
+
 my main machine
+
 #### [https://davidawindham.com/anthropomorphizing-machines/](https://davidawindham.com/anthropomorphizing-machines/)
 
 #### notes:
 
 using mkcert
-```sh
+
+```bash
 david@macs:/usr/local/etc/httpd/ssl » openssl version                                                                      130 ↵
 OpenSSL 1.1.1d  10 Sep 2019
 brew install mkcert nss
@@ -18,7 +21,7 @@ sudo vi /usr/local/httpd/extra/httpd-vhosts.conf httpd-vhosts.conf
 
 while migrating a bunch of websites around I had to be able to switch versions of php easily to test them. hat tip [https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions](https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions)
 
-```sh
+```bash
 brew install php@7.2
 brew install php@7.4
 curl -L https://gist.githubusercontent.com/rhukster/f4c04f1bf59e0b74e335ee5d186a98e2/raw > /usr/local/bin/sphp
@@ -63,7 +66,7 @@ sudo apachectl -k restart
 * 20/03/29 - brew ls
 
 
-```sh
+```bash
 brew list
 david@macs:/usr/local/etc/php/7.4 » brew list                                                        127 ↵
 adns				libassuan			openexr
