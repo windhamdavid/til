@@ -1,4 +1,5 @@
-# magic
+# Magic 🖥
+
 My secondary machine ( i7 mac mini )  
 My current main machine is [Macs](macs)  
 **[https://davidawindham.com/mac-mini/](https://davidawindham.com/mac-mini/)**  

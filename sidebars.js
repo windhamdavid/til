@@ -61,6 +61,7 @@ module.exports = {
       type: 'category',
       label: 'Localhost',
       items: [
+        'localhost/ovid',
         'localhost/macs',
         'localhost/magic',
         'localhost/macos',
@@ -75,12 +76,12 @@ module.exports = {
       type: 'category',
       label: 'Projects',
       items: [
+        'projects/zeke',
+        'projects/woozer',
         'projects/dw',
         'projects/gzet',
         'projects/juryd',
         'projects/pants',
-        'projects/woozer',
-        'projects/zeke',
         'projects/zw',
       ],
     },

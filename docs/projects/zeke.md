@@ -1,18 +1,20 @@
+# Zeke 🦮
 
-20/10/08
-#### Ubuntu 20.04.01
-Waited until the first point release to avoid bugs. Clean install:
+## Ubuntu 20.04.01
+
+**20/10/08** - Waited until the first point release to avoid bugs. Clean install:
 Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
 
-```sh
+```bash
 sudo apt-get update && sudo apt-get upgrade
 #### sudo apt-get dist-upgrade
 #### more cautious approach to packages held back from dependencies
 sudo apt-get --with-new-pkgs upgrade
 ```
+  
+## Bench testing
 
-20/03/26  
-#### Bench testing
+20/03/26 - some benchmarks
 
 ```bash  
 david@macs:~/sites/til(master⚡) » ab -n 1000 -c 100 https://dev.davidwindham.com:443/
@@ -76,9 +78,9 @@ david@macs:~/sites/til(master⚡) »
 
 ```  
 
-### init
-```bash  
+## INIT
 
+```bash
 //************** Ubuntu 18.04 ( Zeke ) ***************//
 
 45.79.193.63
@@ -160,8 +162,9 @@ sudo dpkg-reconfigure iptables-persistent
 
 ```
 
-#### LAMP
-```sh
+## LAMP
+
+```bash
 
 ##################### LAMP ########################
 ##################### APACHE #####################
@@ -290,10 +293,10 @@ sudo systemctl reload php7.4-fpm
 sudo systemctl restart php7.4-fpm
 
 <VirtualHost *:443>
-	Protocols h2 http/1.1
+  Protocols h2 http/1.1
 </VirtualHost>
 <FilesMatch \.php$>
-	SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
+  SetHandler "proxy:unix:/var/run/php/php7.4-fpm.sock|fcgi://localhost/"
 </FilesMatch>
 <Proxy "fcgi://localhost/">
 </Proxy>
@@ -322,11 +325,11 @@ sudo service php7.4-fpm restart
 
 ```
 
+### Bot blocker
 
-#### bad bot blocker
 * [https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker](https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker)
 
-```sh
+```bash
 ##################### BAD BOTS ############################
 # https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/tree/master/Apache_2.4
 
@@ -375,8 +378,10 @@ curl -I https://dev.davidwindham.com/ -e http://zx6.ru
 # 403 Forbidden
 
 ```
-#### monitor  
-```bash 
+
+### monitor
+
+```bash
 //************** goAccess ( Zeke ) ***************//
 # https://goaccess.io/man / https://github.com/allinurl/goaccess
 sudo apt-get install goaccess
@@ -415,12 +420,11 @@ crontab -e
 sudo vi /etc/apache2/apache2.conf
   ErrorLogFormat "[%t] [%l] [%P] %F: %E: [%a] %M"
 goaccess /var/www/dev.davidwindham.com/log/error.log --log-format='[%T] [%l] [%P] %F: %E: [%a] %M'
-
-
 ```
 
-#### tune / audit  
-```sh
+### tune / audit
+
+```bash
 
 ##################### TUNE ############################
 # mysql tuner - https://github.com/major/MySQLTuner-perl
@@ -514,8 +518,9 @@ cd lynis
 ./lynis audit system
 ```
 
-#### certbot letsencrypt
-```sh
+### certbot
+
+```bash
 //************** Certbot SSLs ( Zeke ) ***************//
 ## install
 sudo certbot --apache -d dev.davidwindham.com
@@ -616,10 +621,11 @@ sudo letsencrypt renew --dry-run
 sudo crontab -e
 11 1 * * 1 certbot renew --quiet --noninteractive
 # runs on mondays at 1:11am
-
 ```
-####packages:
-```sh
+
+## Packages
+
+```bash
 //************** Packages ( Zeke ) ***************//
 dpkg –list
 # pkg log

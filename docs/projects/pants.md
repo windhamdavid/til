@@ -1,4 +1,5 @@
-# Peoples Pants
+# Pants
+
 * [https://peoplespants.com](https://peoplespants.com)
 
 #### Build Structure
@@ -38,7 +39,7 @@
 ## Pants
 ( see projects/[pants.md](/projects/pants.md) )
 
-```sh
+```bash
 //********* Ubuntu 18.04 ( Pants )****//
 
 74.207.225.78

@@ -1,18 +1,16 @@
-# MacOS
+# MacOS 🍏
 
-
-#### Apple MacOS
+## Monterey
 
 ### Cleanup Script
+
 ```
 curl -o cleanup https://code.davidawindham.com/cleaner/cleanup.sh
 chmod +x cleanup
 sudo mv cleanup /usr/local/bin/cleanup
 sh /usr/local/bin/cleanup
-
 ```
 
-()
 
 ```sh
 

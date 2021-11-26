@@ -1,4 +1,4 @@
-
+# Woozer 🦮
 
 
 21/03/17 - Migrated data centers on Woozer and had an issue with php7.2-fpm overriding the php7.4-fpm config. Looks like the auto php config defaulted it back and lost the sock. Had to replace the sock/pid for 7.4 monit and disable the 7.2-fpm.conf.
