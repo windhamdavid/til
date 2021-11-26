@@ -63,7 +63,7 @@ module.exports = {
       items: [
         'localhost/macs',
         'localhost/magic',
-        'localhost/apple',
+        'localhost/macos',
         'localhost/chrome',
         'localhost/brew',
         'localhost/adobe',

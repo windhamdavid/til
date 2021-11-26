@@ -1,9 +1,9 @@
-# Apple
+# MacOS
 
 
 #### Apple MacOS
 
-##### Cleanup Script
+### Cleanup Script
 ```
 curl -o cleanup https://code.davidawindham.com/cleaner/cleanup.sh
 chmod +x cleanup
