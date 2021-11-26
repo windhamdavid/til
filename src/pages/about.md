@@ -30,7 +30,7 @@ I'm often searching online documentation for answers to commands, configurations
 
 #### 11/10/2021
 - Updated the Docusaurus & NPM packages. 
-- Combined my old [awesome-david](/awesome) and [todo](/todo) repos into it for simplicity and rebuilt.  
+- Combined my old [awesome-david](/awesome) repo into it for simplicity and rebuilt.  
 
 #### 03/18/2021
 

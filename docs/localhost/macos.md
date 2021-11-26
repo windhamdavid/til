@@ -2,9 +2,11 @@
 
 ## Monterey
 
+11/26/21 - Notes for the [Ovid](ovid) upgrade and other MacOS references and shortcuts. 
+
 ### Cleanup Script
 
-```
+```bash
 curl -o cleanup https://code.davidawindham.com/cleaner/cleanup.sh
 chmod +x cleanup
 sudo mv cleanup /usr/local/bin/cleanup
@@ -12,7 +14,7 @@ sh /usr/local/bin/cleanup
 ```
 
 
-```sh
+```bash
 
 #!/usr/bin/env bash
 
@@ -70,5 +72,4 @@ newAvailable=$(df / | tail -1 | awk '{print $4}')
 count=$((newAvailable-oldAvailable))
 count=$(( $count * 512))
 bytesToHuman $count
-
 ```
