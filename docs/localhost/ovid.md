@@ -12,27 +12,27 @@ Booted her up and loaded up activity monitor and command line top to watch the p
 
 ### Preferences
 
-**General**: Dark / Accent multi  
-**Desktop & Screen Save**: Dark Grey Desktop color, Screen Saver 10min Monterey  
-**Dock & Menu Bar**: Remove all default, Auto Hide Dock Left w/ Magnification, no recent apps or indicators  
-**Mission Control**: set Hot Corners  
-**Notifications & Focus**: turn off all notifications except Kerberos, Wallet, Calendar, Mail, Messages & Reminders. Turn on Focus automatically from 6-10am and 6-10pm weekdays.  
-**Internet Accounts**: add email accounts w/ mail, contacts, calendar. iCloud: enable drive, photos, mail, contacts, calendars, reminders, notes, safari, KeyChain, find my mac. turn off all iCloud drive except pages.  
-**Passwords**: Wallet & Pay: only on phone/tablet  
-**ScreenTime**: disabled  
-**Security & Privacy**: Allow apps from identified developers.  FileVault:Off, Firewall:On, Privacy:disable all location. show location icon in menu bar.
-**Network**: Set up WiFi  
-**Bluetooth**: add keyboard/TrackPad  
-**Sound**:default  
-**Keyboard**:Text:add period with double-space
-**Touch ID**: setup
-**TrackPad**:scroll direction un-natural  
-**Displays**: configure external monitors  
-**Printer**: Add epson wireless  
-**Battery**: turn off display 7min. optimize battery charging, wake for network access  
-**Sharing**: rename, file/screen airplay sharing.
-**Time Machine** - set backup disk on network  
-**Startup Disk**: rename hard drive to network machine name.
+**General** : Dark / Accent multi  
+**Desktop & Screen Save** : Dark Grey Desktop color, Screen Saver 10min Monterey  
+**Dock & Menu Bar** : Remove all default, Auto Hide Dock Left w/ Magnification, no recent apps or indicators  
+**Mission Control** : set Hot Corners  
+**Notifications & Focus** : turn off all notifications except Kerberos, Wallet, Calendar, Mail, Messages & Reminders. Turn on Focus automatically from 6-10am and 6-10pm weekdays.  
+**Internet Accounts** : add email accounts w/ mail, contacts, calendar. iCloud: enable drive, photos, mail, contacts, calendars, reminders, notes, safari, KeyChain, find my mac. turn off all iCloud drive except pages.  
+**Passwords** : Wallet & Pay: only on phone/tablet  
+**ScreenTime** : disabled  
+**Security & Privacy** : Allow apps from identified developers.  FileVault:Off, Firewall:On, Privacy:disable all location. show location icon in menu bar.  
+**Network** : Set up WiFi  
+**Bluetooth** : add keyboard/TrackPad  
+**Sound** :default  
+**Keyboard** :Text:add period with double-space
+**Touch ID** : setup
+**TrackPad** :scroll direction un-natural  
+**Displays** : configure external monitors  
+**Printer** : Add epson wireless  
+**Battery** : turn off display 7min. optimize battery charging, wake for network access  
+**Sharing** : rename, file/screen airplay sharing.
+**Time Machine** : set backup disk on network  
+**Startup Disk** : rename hard drive to network machine name.
 
 ### MacOS
 
@@ -91,6 +91,7 @@ david@ovid:~ » git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH
 ```
 
 #### New Features
+
 ```bash
 david@ovid:~ » networkQuality ( network tests )
 david@ovid:~ » aea ( Manipulate Apple Encrypted Archives )
@@ -134,8 +135,7 @@ Homebrew/homebrew-core (git revision c29456a994b; last commit 2021-11-25)
 david@ovid:~/sites/dotfiles(master○) » 
 ```
 
-##### SSL ( Open, Libre, Boring )
-
+#### SSL ( Open, Libre, Boring )
 
 #### Packages
 
@@ -164,7 +164,8 @@ v16.13.0
 david@ovid:~/sites/daw_til(master○) » npm -v
 8.1.0
 ```
-* ran into a bug 🪲 where the ~/.npm directory was not installed. 
+
+* ran into a bug 🪲 where the ~/.npm directory was not installed.
 
 ```bash
 david@ovid:~/sites/daw_til(master○) » npm install       
@@ -190,6 +191,7 @@ david@ovid:~/sites/daw_til(master⚡) » npm install -g npm@8.1.4
 ```
 
 ## Other Software
+
 Monitor Control
 Quicksilver, Alfred, Launchbar  
 Rogue Amoeba - Audio Hijack/Airfoil/Satellite  
@@ -213,4 +215,4 @@ Keybase
 Github Desktop  
 DBngin  
 Docker  
-Authy  
+Authy

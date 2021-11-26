@@ -38,7 +38,7 @@ I collect docs I find useful as I'm using them. I like to make notes along the w
 [Ovid](localhost/ovid) |
 [Macs](localhost/macs) |
 [Magic](localhost/magic) |
-[Apple](localhost/apple) |
+[MacOS](localhost/macos) |
 [Chrome](localhost/chrome) |
 [Homebrew](localhost/brew) |
 [Adobe](localhost/adobe) |
