@@ -1,8 +1,8 @@
 # Ovid 💻
 
-11/23/21 - Apple Store pickup
-Moved my desk around, did some cable management, moved my old MacBook Pro so that I could share the screen for referencing configuration.
-Booted her up and loaded up activity monitor and command line top to watch the processes closely to see what's running. I always avoid using the migration assistant so that I can start clean. My main goal is to keep the machine as minimal and simple as possible. I am going to try and avoid running any x86 processes under Rosetta in my attempt to go fully ARM. I wrote a quick post about why I purchased it and why I named it Ovid @ [https://davidawindham.com/ovid](https://davidawindham.com/ovid) and I'll document the rest of the it here.
+### Notes
+
+11/23/21 - Picked him up from the Apple Store. Moved my old laptop so that I could share the screen for referencing configuration. Booted her up and loaded up activity monitor and command line top to watch the processes. I always avoid using the migration assistant so that I can start clean. My main goal is to keep the machine as minimal and simple as possible. I am going to try and avoid running any x86 processes under Rosetta in my attempt to go fully ARM. I wrote a quick post about why I purchased it and why I named it Ovid @ [https://davidawindham.com/ovid](https://davidawindham.com/ovid) and I'll document the rest of the it here.
 
 &nbsp;
 
@@ -12,7 +12,7 @@ Booted her up and loaded up activity monitor and command line top to watch the p
 
 ### Preferences
 
-**General** : Dark / Accent multi  
+**General** : Auto / Accent multi  
 **Desktop & Screen Save** : Dark Grey Desktop color, Screen Saver 10min Monterey  
 **Dock & Menu Bar** : Remove all default, Auto Hide Dock Left w/ Magnification, no recent apps or indicators  
 **Mission Control** : set Hot Corners  
@@ -99,7 +99,7 @@ david@ovid:~ » aea ( Manipulate Apple Encrypted Archives )
 
 &nbsp;  
 
-## Software
+## Development
 
 ---
 
@@ -110,10 +110,10 @@ Quick reference for Apple Silicon compatibility - [https://doesitarm.com](https:
 **Textmate** - set as default editor, shell support  global .tm_properties  
 **Jet Brains** - CLion, Rider, GoLand, Rust, RubyMine, PyCharm, PhpStorm, WebStorm  
 **Visual Studio Code** - Insiders (Universal Build) - plugins ( Sunburst, One Dark Pro, Transmit, Vim, GitLens, Github Markdown, Markdown Lint, Spell Check )  
-**~~Atom~~** - dropped b/c Microsoft now owns Github and any package I used there is now on VS Code.  
+**~~Atom~~** - dropped b/c x86. Microsoft now owns Github and any package I used there is now on VS Code.  
 **~~Sublime~~** - dropped Sublime and Merge  
 **Nova** - trying out Nova from Panic Inc.  
-**Kaleidoscope**
+**Kaleidoscope** - for diffs.
 
 ### Languages
 
@@ -149,7 +149,7 @@ david@ovid:~/sites/dotfiles(master○) »
 |---|---|---|
 | qlmarkdown  | syntax-highlight  |   |
 
-### Node.js via NVM  
+### Node & NVM  
 
 * v.16.13.0 is Universal and has LTS
 * Will bring my older Node.js projects up to this version
@@ -185,34 +185,53 @@ david@ovid:~/sites/daw_til(master○) » sudo chown -R $(whoami) ~/.npm
 
 npm notice New patch version of npm available! 8.1.0 -> 8.1.4
 david@ovid:~/sites/daw_til(master⚡) » npm install -g npm@8.1.4
-
-
-
 ```
 
-## Other Software
+### Database
 
-Monitor Control
+PostgreSQL  
+MySQL  
+MongoDB  
+Redis  
+DBngin 
+Tables Plus   
+
+### Integration  
+
+Docker 
+Now  
+Insomnia  
+Postman
+
+### Audit & Testing  
+
+Screaming Frog 
+
+
+## Communications
+
+Keybase  
+Authy  
+Zoom  
+
+
+## Productivity
+
 Quicksilver, Alfred, Launchbar  
-Rogue Amoeba - Audio Hijack/Airfoil/Satellite  
-Objective Development - Launchbar/Little Snitch  
+Objective Development - Launchbar/Little Snitch 
+Obsidian  
+
+## Design
+
 Adobe  
 Sketch  
-Tables Plus  
-Screenflow  
-Obsidian  
-Screaming Frog  
 Sip  
-Sublime  
-VLC  
+
+## A/V
+
+Monitor Control  
+Screenflow  
+Rogue Amoeba - Audio Hijack/Airfoil/Satellite  
 Spotify  
-Zoom  
-Insomnia  
-Postman  
-Codekit
-Now  
-Keybase  
-Github Desktop  
-DBngin  
-Docker  
-Authy
+VLC  
+

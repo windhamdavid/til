@@ -1,8 +1,6 @@
 # Macs 🐶
 
-my main machine
-
-#### [https://davidawindham.com/anthropomorphizing-machines/](https://davidawindham.com/anthropomorphizing-machines/)
+was ~~my~~ main machine from 2013 to 2021. I'll  keep it up to date and running for general usage. The name came from [https://davidawindham.com/anthropomorphizing-machines/](https://davidawindham.com/anthropomorphizing-machines/)
 
 #### notes:
 

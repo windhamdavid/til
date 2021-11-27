@@ -27,17 +27,17 @@ description: A place to keep notes and documentation
   - [Woozer Ubuntu 18.04 Upgrade](https://davidawindham.com/til/docs/saas/linode)
   - [Jo Harvey Allen is who says "It was love that killed John F. Kennedy. He should have never messed with me. They want me to speak on 60 Minutes. Mike Wallace wants my body" in True Stories](https://davidawindham.com/true-stories-2/)
 - January 2020  
-  - [Annual overhaul of the machines](https://davidawindham.com/late-adopter/)
-  - [MacOS 10.15](https://davidawindham.com/til/docs/localhost/custom)
-  - [PHP 7.4.2](https://davidawindham.com/til/docs/lang/PHP)
-  - [MySQL 8.0.19](https://davidawindham.com/til/docs/db/MySQL)
-  - [Ruby 2.7.0](https://davidawindham.com/til/docs/lang/Ruby)
-  - [Rails 5.2.4.1](https://davidawindham.com/til/docs/waf/rails)
-  - [Homebrew 2.2.5](https://davidawindham.com/til/docs/localhost/brew)
-  - [Node 2.2.5](https://davidawindham.com/til/docs/localhost/brew)
-  - [NPM 6.9.2](https://davidawindham.com/til/docs/waf/npm)
-  - [Node 10.16.3](https://davidawindham.com/til/docs/waf/nodejs)
-  - [Golang 1.13.7](https://davidawindham.com/til/docs/lang/Golang)
+  - [Annual overhaul of the machines](https://davidawindham.com/late-adopter/)  
+  [MacOS 10.15](https://davidawindham.com/til/docs/localhost/custom) /
+  [PHP 7.4.2](https://davidawindham.com/til/docs/lang/PHP) /
+  [MySQL 8.0.19](https://davidawindham.com/til/docs/db/MySQL) /
+  [Ruby 2.7.0](https://davidawindham.com/til/docs/lang/Ruby) /
+  [Rails 5.2.4.1](https://davidawindham.com/til/docs/waf/rails) /
+  [Homebrew 2.2.5](https://davidawindham.com/til/docs/localhost/brew) /
+  [Node 2.2.5](https://davidawindham.com/til/docs/localhost/brew) /
+  [NPM 6.9.2](https://davidawindham.com/til/docs/waf/npm) /
+  [Node 10.16.3](https://davidawindham.com/til/docs/waf/nodejs) /
+  [Golang 1.13.7](https://davidawindham.com/til/docs/lang/Golang)
 - September 2019  
   - [PHP 7.3 updates](/docs/lang/PHP)
 - January 2019
