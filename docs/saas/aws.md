@@ -1,4 +1,4 @@
-# Amazon Web Services
+# AWS
 
 * [AWS Lamda](https://aws.amazon.com/lambda/)
 * 
