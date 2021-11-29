@@ -4,6 +4,9 @@
 # Dependencies
 /node_modules
 
+# Obsidian
+/docs/.obsidian/*
+
 # Production
 /build
 
