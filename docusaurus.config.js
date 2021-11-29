@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'David Windham TIL',
+  title: 'David Windham | TIL',
   tagline: 'Because Today I Learned',
   url: 'https://davidawindham.com',
   baseUrl: '/til/',
@@ -13,6 +13,7 @@ module.exports = {
     require.resolve('docusaurus-lunr-search')
   ],
   themeConfig: {
+    image: 'img/zw.png',
     hideableSidebar: true,
     prism: {
       additionalLanguages: ['shell-session'],
@@ -41,9 +42,17 @@ module.exports = {
       },
       items: [
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
-        {to: 'about/',activeBasePath: 'til',label: 'About',position: 'right'},
-        {to: 'help', label: 'Help', position: 'right'},
-        {type: 'search', position: 'right'},
+        {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
+        {to: 'help', label: 'Help', position: 'left'},
+        {type: 'search', position: 'left'},
+        {
+          href: 'https://davidawindham.com/desk',
+          label: 'David A. Windham',
+          'aria-label': 'David A. Windham',
+          className: 'header-homepage-link',
+          target: '_self',
+          position: 'right',
+        },
       ],
     },
   },
