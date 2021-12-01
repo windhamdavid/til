@@ -29,9 +29,12 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
-    background-color: #e2e2e2 !important;
-  }
+}
+.toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
+  background-color: #e2e2e2 !important;
+}
+.toggleTrack_32Fl {
+  background-color: #484c57;
 }
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
