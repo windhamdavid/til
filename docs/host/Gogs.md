@@ -1,10 +1,9 @@
 
-####(go git server)
+#### (Go Git server)
 
 [https://gogs.io/docs](https://gogs.io/docs)
 
-```
-
+```bash
 sudo apt-get install golang-go
 
 export PATH=$PATH:/usr/bin/go:$GOPATH/bin
