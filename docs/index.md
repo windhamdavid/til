@@ -23,6 +23,7 @@ I collect docs I find useful as I'm using them. I like to make notes along the w
 [Textmate](editors/textmate) |
 [UNIX](editors/unix) |
 [Vi](editors/vi) |
+[VS](editors/vs) |
 [Zsh](editors/zsh)
 
 ### Languages

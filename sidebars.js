@@ -29,6 +29,7 @@ module.exports = {
         'editors/textmate',
         'editors/unix',
         'editors/vi',
+        'editors/vs',
         'editors/zsh',
       ],
     },

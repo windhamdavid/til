@@ -104,13 +104,13 @@ david@ovid:~ » aea ( Manipulate Apple Encrypted Archives )
 
 ---
 
-Quick reference for Apple Silicon compatibility - [https://doesitarm.com](https://doesitarm.com)  
+Reference for Apple Silicon compatibility - [https://doesitarm.com](https://doesitarm.com)  
 
 ### Text Editors
 
 **Textmate** - set as default editor, shell support  global .tm_properties  
-**Jet Brains** - CLion, Rider, GoLand, Rust, RubyMine, PyCharm, PhpStorm, WebStorm  
-**Visual Studio Code** - Insiders (Universal Build) - plugins ( Sunburst, One Dark Pro, Transmit, Vim, GitLens, Github Markdown, Markdown Lint, Spell Check )  
+**Jet Brains** - WebStorm, CLion, Rider, GoLand, Rust, RubyMine, PyCharm, PhpStorm  
+**Visual Studio Code** - Insiders (Universal Build) - plugins ( Sunburst, One Dark Pro, Transmit, Vim, GitLens, Github Markdown, Markdown Lint, Spell Check, [icon](https://github.com/dhanishgajjar/vscode-icons) )  
 **~~Atom~~** - dropped b/c x86. Microsoft now owns Github and any package I used there is now on VS Code.  
 **~~Sublime~~** - dropped Sublime and Merge  
 **Nova** - trying out Nova from Panic Inc.  
@@ -152,14 +152,100 @@ macOS: 12.0.1-arm64
 CLT: 13.1.0.0.1.1633545042
 Xcode: 13.1
 Rosetta 2: false
+
+david@ovid:~ » brew list         
+==> Formulae
+aom gmp libidn2 mkcert pkg-config
+apr gnu-getopt libksba mongodb-community	postgresql
+apr-util gnupg liblqr mongodb-database-tools	pyenv
+argon2 gnutls libmaxminddb mongosh python@3.9
+aspell go libnghttp2 mpdecimal rbenv
+autoconf groonga libomp msgpack readline
+bdw-gc guile libpng ncurses redis
+brotli htop libpq nettle rtmpdump
+c-ares httpd libsodium node@14 ruby-build
+ca-certificates icu4c libssh2 npth rust
+curl imagemagick libtasn1 nspr shared-mime-info
+dart imath libtiff nss sqlite
+docbook jbig2dec libtool oniguruma tidy-html5
+docbook-xsl jpeg libunistring openexr tokyo-cabinet
+fontconfig jpeg-xl libusb openjpeg unbound
+freetds krb5 libuv openldap unixodbc
+freetype libassuan libvmaf openssl@1.1 webp
+gd libde265 libzip p11-kit x265
+gdbm libevent little-cms2 pandoc xmlto
+gettext libffi m4 pcre xz
+gh libgcrypt macos-term-size pcre2 zstd
+ghostscript libgpg-error mariadb php
+giflib libheif mecab php@7.4
+glib libidn mecab-ipadic pinentry
+
+==> Casks
+qlmarkdown syntax-highlight
+
+david@ovid:~ » brew services list                  
+Name              Status  User  File
+httpd             started david ~/Library/LaunchAgents/homebrew.mxcl.httpd.plist
+mariadb           started david ~/Library/LaunchAgents/homebrew.mxcl.mariadb.plist
+mongodb-community stopped       
+php               stopped       
+php@7.4           stopped       
+postgresql        stopped       
+redis             stopped       
+unbound           stopped 
 ```
+
+#### Packages Not ARM64
+
+❌  - Imagick -> ffmpeg -> gnutls, libbluray  
+Reference for M1 compatibility in Homebrew - [https://github.com/Homebrew/brew/issues/7857](https://github.com/Homebrew/brew/issues/7857)  
+Also see Brew Analytics - [https://formulae.brew.sh/analytics/install/365d/](https://formulae.brew.sh/analytics/install/365d/)  
 
 ### Languages
 
 Apple is removing languages from the OS via [Xcode 11 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-11-release-notes): "Scripting language runtimes such as Python, Ruby, and Perl are included in macOS for compatibility with legacy software. In future versions of macOS, scripting language runtimes won't be available by default, and may require you to install an additional package." Instead of adding four or five versions of each language to support legacy codebase, I'm going to bring modify the old projects.  
   
-**PHP** - 8.1.0  
-**Python** - 3.9.9  
+**PHP** - 8.1.0 / 7.4.26  ( still have to support 7.4 )  
+```bash 
+david@ovid:~ » php --ini           
+Configuration File (php.ini) Path: /opt/homebrew/etc/php/8.1
+Loaded Configuration File:         /opt/homebrew/etc/php/8.1/php.ini
+Additional .ini files parsed:      /opt/homebrew/etc/php/8.1/conf.d/ext-opcache.ini
+
+david@ovid:~ » php -v   
+PHP 8.1.0 (cli) (built: Nov 28 2021 01:31:19) (NTS)
+david@ovid:~ » pecl list           
+Installed packages, channel pecl.php.net:
+=========================================
+Package Version State
+redis   5.3.4   stable
+xdebug  3.1.1   stable
+
+david@ovid:/opt/homebrew/lib/php/pecl/20210902(stable○) » brew unlink php 
+david@ovid:/opt/homebrew/lib/php/pecl/20210902(stable○) » brew link php@7.4
+
+david@ovid:/opt/homebrew/lib/php/pecl/20210902(stable○) » php -v 
+PHP 7.4.26 (cli) (built: Nov 28 2021 16:40:00) ( NTS )
+david@ovid:/opt/homebrew/lib/php/pecl/20210902(stable○) » pecl list
+Installed packages, channel pecl.php.net:
+=========================================
+Package Version State
+redis   5.3.4   stable
+xdebug  3.1.1   stable
+```
+**Python** - 3.9.9 ( brew ) / 2.7.18 ( system )
+```bash
+david@ovid:~/.pyenv » python --version 
+Python 2.7.18
+david@ovid:~ » brew install pyenv
+david@ovid:~ » echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+david@ovid:~ » echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+#### symlink homebrew versions to pyenv ####
+david@ovid:~/.pyenv » ln -s $(brew --cellar python)/* ~/.pyenv/versions/
+david@ovid:~/.pyenv » python3 -m pip install --upgrade setuptools
+david@ovid:~/.pyenv » python3 --version                          
+Python 3.9.9
+``` 
 **Ruby** - 3.0.3 ( switched from using rvm to rbenv )  
 
 ```bash
@@ -175,8 +261,11 @@ ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [arm64-darwin21]
 ```
 
 **GoLang** 1.17.2  
+```bash 
+david@ovid:~ » go version       
+go version go1.17.2 darwin/arm64
+```
 **Rust** - 1.56.1 (still haven't learned Rust 🛠 )
-
 
 ```bash
 david@ovid:~ » rustc --version
@@ -185,28 +274,21 @@ david@ovid:~ » go version
 go version go1.17.2 darwin/arm64
 ```
 
-#### SSL ( Open, Libre, Boring )
-Mkcert
+**Dart**  ( 2.4.1 added Apple silicon support )
+```bash
+david@ovid:~ » brew tap dart-lang/dart
+david@ovid:~ » dart --version
+Dart SDK version: 2.14.4 (stable) (Wed Oct 13 11:11:32 2021 +0200) on "macos_arm64"
+```
 
-#### Packages
-
-| | | | | | | |
-|-|-|-|-|-|-|-|
-| apr | fontconfig | gmp | libnghttp2	| libzip	|	pcre2	|	rust
-| apr-util | freetds	|	go	|	libpng	|	m4	|	php	|	sqlite
-| argon2	|	freetype |	httpd	|	libpq	|	mkcert	|	pkg-config |	tidy-html5
-| aspell	|	gd	|	icu4c	|	libsodium	| mpdecimal| python<span>@</span>3.9	| unixodbc
-| autoconf	| gdbm	|	jpeg	|	libssh2	|	oniguruma	| rbenv	|	webp
-| brotli	|	gettext	|	krb5	|	libtiff	|	openldap	| readline | xz
-| ca-certificates	| gh	|	libffi	|	libtool	|	openssl<span>@</span>1.1	| rtmpdump	| zstd
-| curl	|	giflib	|	libidn2	|	libunistring	| pcre	|	ruby-build
+#### Encryption
+**SSL ( Open, Libre, Boring )** - Apple now defaults to LibreSSL but a lot of packages depend on OpenSSL. Using Open in zsh by default.  
+GNUPG - via homebrew   
+mkcert - FF needs the CA manually added which is in Library/Application Support/mkcert
 
 
-#### Casks
+### Nginx & Apache
 
-||||
-|---|---|---|
-| qlmarkdown  | syntax-highlight  |   |
 
 ### Node.js & NVM  
 
@@ -238,39 +320,85 @@ npm ERR! previous versions of npm which has since been addressed.
 npm ERR! 
 npm ERR! To permanently fix this problem, please run:
 npm ERR!   sudo chown -R 501:20 "/Users/david/.npm"
-
 david@ovid:~ » sudo mkdir .npm 
 david@ovid:~/sites/daw_til(master○) » sudo chown -R $(whoami) ~/.npm 
-
 npm notice New patch version of npm available! 8.1.0 -> 8.1.4
 david@ovid:~/sites/daw_til(master⚡) » npm install -g npm@8.1.4
 ```
 
 ### Databases
 
+SQLite  
 PostgreSQL  
-MySQL  
-MongoDB  
-Redis  
-DBngin  
+```bash
+david@ovid:~ » brew services start postgresql
+david@ovid:~ » createdb `whoami`
+david@ovid:~ » psql
+psql (14.1)
+```
+
+~~MySQL~~ MariaDB ( switched from MySQL will migrate next server )
+
+```bash
+david@ovid:~ » sqlite3
+SQLite version 3.36.0 2021-06-18 18:58:49
+david@ovid:~ » mysql --version
+mysql  Ver 15.1 Distrib 10.6.4-MariaDB, for osx10.17 (arm64) using readline 5.1
+david@ovid:~ » brew services start mariadb
+david@ovid:~ » sudo /opt/homebrew/bin/mysql_secure_installation
+david@ovid:~ » sudo $(brew --prefix mariadb)/bin/mysqladmin -u root password PASSWORD  
+```
+
+MongoDB ( Community ) - moved from an open source license so it was dropped by homebrew.
+```bash
+david@ovid:~ » brew tap mongodb/brew
+david@ovid:~ » brew services start mongodb-community
+david@ovid:~ » mongosh       
+Current Mongosh Log ID:	61a6b434921fe21dc8ab3733
+Connecting to: mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000
+Using MongoDB: 5.0.4
+Using Mongosh: 1.1.4
+```
+Redis ( 6.2.6 ) - via homebrew  
+```bash
+david@ovid:~ » redis-cli --version
+redis-cli 6.2.6
+```
+DBngin - use for spot installs  
 Tables Plus  
+PHPMyAdmin  
 
 ### Integration  
 
 Docker  
-Now  
+Vercel / Now  
 Insomnia  
 Postman
 
 ### Audit & Testing  
 
+GoAccess ( log viewer )  
 Proxyman  
 Screaming Frog  
 
+### Frameworks
+
+JavaScript ( Typescript ) - Node, Express, React, Preact, React Native, Vue, Svelte   
+PHP - Laravel, Drupal, Wordpress  
+Python - Flask, Django  
+Go - Gorilla  
+Ruby - Rails, Sinatra  
+Rust - Rocket
+
+&nbsp;
 ## Software
 
 ---
+### Browsers
 
+Safari  
+Chrome ( extensions - dev tools theme, postman, stylus )  
+Firefox ( Developer Edition )  
 ### Communications
 
 Final Draft  
