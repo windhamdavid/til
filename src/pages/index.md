@@ -4,8 +4,11 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 
+- December 2021 
+  - [Add Notes/Obsidian to TIL](/notes)
+  - [Lychee moved to it's own org](/docs/host/Lychee)
 - November 2021  
-  - [Ovid - New Computer](/docs/localhost/ovid)
+  - [Ovid - Macbook Pro](/docs/localhost/ovid)
   - [Preparing my Mac Mini to migrate to a new ARM based Mac](/docs/localhost/magic)
 - March 2021  
   - [When Redd Foxx died, everyone laughed because they thought it was a reference to Fred Sanford](https://en.wikipedia.org/wiki/Redd_Foxx#Death)

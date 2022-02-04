@@ -9,7 +9,7 @@ Because sometimes I forget how to drive the software I'm running.
 
 ### Docusaurus
 [https://v2.docusaurus.io/docs](https://v2.docusaurus.io/docs)
-```
+```bash
 npm install
 npm run start
 npm run build  
@@ -19,7 +19,7 @@ Create a Markdown file in /docs/doc.md
 Add to sidebars.js
 
 #### Meta Data using Front Matter
-```
+```bash
 ---
 id: my-doc
 title: My document title
@@ -31,7 +31,7 @@ Markdown content
 ```
 #### Markdown links
 url paths or relative file paths
-```
+```bash
 [Create a page](/create-a-page)
 [Create a page](./create-a-page.md)
 ```
@@ -39,7 +39,7 @@ url paths or relative file paths
 ---
 * 03/18/21 **Gotta Migrate** my TIL. Just noticed that gitbook doesn't play nicely with Node.js v14.
 
-```sh
+```bash
 david@macs🐶:~/sites/daw_til(master⚡) » gitbook serve --no-live
 /Users/david/.nvm/versions/node/v14.15.4/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287
       if (cb) cb.apply(this, arguments)
@@ -87,7 +87,7 @@ info: 18 plugins are installed...
     * add "gitbook-plugin-prism-dw": "^2.4.1" to pkg.json
 
 #### migrate
-```sh
+```bash
 # install docsify globally
 npm  i docsify-cli -g
 # copy existing repo
