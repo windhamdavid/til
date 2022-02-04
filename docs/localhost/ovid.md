@@ -6,6 +6,8 @@
 
 &nbsp;
 
+[macs](macs) | [magic](magic) | [zeke](../projects/zeke) | [woozer](../projects/woozer)
+
 ## System
 
 ---

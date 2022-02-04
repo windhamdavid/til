@@ -3,7 +3,7 @@ title: Docs
 slug: /
 ---
 
-I collect docs I find useful as I'm using them. I like to make notes along the way so that I can use these as a reference. I've noticed that I always reference only a couple documents here, so I may trim it down a bit to just focus on the ones I reuse. 
+I tend to collect docs I find useful. I like to make notes along the way so that I can use these as a reference. I've noticed that I always reference only a couple documents here, so I may trim it down a bit to just focus on the ones I reuse.  
 
 ### Databases
 [MongoDB](db/mongodb) |

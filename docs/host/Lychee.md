@@ -2,9 +2,62 @@
 
 [https://photo.davidawindham.com/](https://photo.davidawindham.com/)  
 [https://code.davidawindham.com/david/lychee](https://code.davidawindham.com/david/lychee)  
-[https://github.com/electerious/Lychee](https://github.com/electerious/Lychee)  
+~~[https://github.com/electerious/Lychee](https://github.com/electerious/Lychee)~~  
+[https://github.com/LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee)  
 
+**12/21/03** - in the process of adding some family photos, I noticed that the original repo has moved to it's own organization with volunteer maintainers. ( Also looks like they boated it up with Laravel too ) Added the new upstream repositories but I noticed that PHP 7.4 support has been dropped to upgrade to v4.4.0. Will deal with this on new server later. 
+
+```shell
+david@ovid:~/sites/daw_photo(master○) » git remote -v                                                                      1 ↵
+code	https://code.davidawindham.com/david/lychee.git (fetch)
+code	https://code.davidawindham.com/david/lychee.git (push)
+origin	https://github.com/windhamdavid/Lychee.git (fetch)
+origin	https://github.com/windhamdavid/Lychee.git (push)
+upstream	https://github.com/LycheeOrg/Lychee.git (fetch)
+upstream	https://github.com/LycheeOrg/Lychee.git (push)
+david@ovid:~/sites/daw_photo(master○) » git fetch upstream
+remote: Enumerating objects: 13375, done.
+remote: Counting objects: 100% (5170/5170), done.
+remote: Compressing objects: 100% (2256/2256), done.
+remote: Total 13375 (delta 3648), reused 4195 (delta 2821), pack-reused 8205
+Receiving objects: 100% (13375/13375), 37.47 MiB | 24.77 MiB/s, done.
+Resolving deltas: 100% (9403/9403), done.
+From https://github.com/LycheeOrg/Lychee
+ * [new branch]        azure-pipelines      -> upstream/azure-pipelines
+ * [new branch]        build_docker         -> upstream/build_docker
+ * [new branch]        consistent_json_api  -> upstream/consistent_json_api
+ * [new branch]        enable-phpstan       -> upstream/enable-phpstan
+ * [new branch]        faster-ghostbusting  -> upstream/faster-ghostbusting
+ * [new branch]        fix-search           -> upstream/fix-search
+ * [new branch]        keyboard-navigation  -> upstream/keyboard-navigation
+ * [new branch]        livewire/more-work   -> upstream/livewire/more-work
+ * [new branch]        master               -> upstream/master
+ * [new branch]        refactor_photo_model -> upstream/refactor_photo_model
+ * [new branch]        wip-symlink-except   -> upstream/wip-symlink-except
+ * [new tag]           v4.0.0               -> v4.0.0
+ * [new tag]           v4.0.0-alpha.1       -> v4.0.0-alpha.1
+ * [new tag]           v4.0.0-beta.1        -> v4.0.0-beta.1
+ * [new tag]           v4.0.0-beta.2        -> v4.0.0-beta.2
+ * [new tag]           v4.0.1               -> v4.0.1
+ * [new tag]           v4.0.2               -> v4.0.2
+ * [new tag]           v4.0.3               -> v4.0.3
+ * [new tag]           v4.0.4               -> v4.0.4
+ * [new tag]           v4.0.5               -> v4.0.5
+ * [new tag]           v4.0.6               -> v4.0.6
+ * [new tag]           v4.0.7               -> v4.0.7
+ * [new tag]           v4.0.8               -> v4.0.8
+ * [new tag]           v4.1.0               -> v4.1.0
+ * [new tag]           v4.2.0               -> v4.2.0
+ * [new tag]           v4.2.1               -> v4.2.1
+ * [new tag]           v4.2.2               -> v4.2.2
+ * [new tag]           v4.3.0               -> v4.3.0
+ * [new tag]           v4.3.4               -> v4.3.4
+ * [new tag]           v4.3.5               -> v4.3.5
+ * [new tag]           v4.3.6               -> v4.3.6
+ * [new tag]           v4.4.0               -> v4.4.0
 ```
+
+```shell
 david@macs:~/sites/lychee(dw○) » git remote -v
 code	https://code.davidawindham.com/david/lychee.git (fetch)
 code	https://code.davidawindham.com/david/lychee.git (push)
