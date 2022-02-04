@@ -11,7 +11,7 @@
 [Forum](https://discourse.gitea.io/)
 
 
-Upgrade from Gogs
+## Upgrade from Gogs
 =================
 
 Gogs, version 0.9.146 and older, can be easily migrated to Gitea.
