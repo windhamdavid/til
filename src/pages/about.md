@@ -28,6 +28,11 @@ I'm often searching online documentation for answers to commands, configurations
 
 ### Notes 
 
+#### 12/04/2021
+
+- added in [Notes](/notes) for non-technical docs using Obsidian  
+- upgraded to v.2.0.0-beta.13
+
 #### 11/10/2021
 - Updated the Docusaurus & NPM packages. 
 - Combined my old [awesome-david](/awesome) repo into it for simplicity and rebuilt.  
