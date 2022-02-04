@@ -6,6 +6,7 @@
 
 # Obsidian
 /docs/.obsidian/*
+/notes/.obsidian/*
 
 # Production
 /build
