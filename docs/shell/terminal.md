@@ -1,5 +1,6 @@
-# Terminal (macOS)
+# Terminal
 
+MacOS Terminal 
 #### SHORTCUTS
 
 | Key/Command | Description |

@@ -2,7 +2,7 @@
 
 ## Monterey
 
-11/26/21 - Notes for the [Ovid](ovid) upgrade and other MacOS references and shortcuts. 
+11/26/21 - Notes for the [Ovid](/docs/computers/ovid) upgrade and other MacOS references and shortcuts. 
 
 ### Cleanup Script
 

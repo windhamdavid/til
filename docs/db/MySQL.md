@@ -1,4 +1,4 @@
-
+# MySQL
 #### notes:
 things I tend to forget :)
 ```
@@ -238,8 +238,7 @@ make sure the port is open on the servers
       sudo ufw allow mysql
 
       sudo iptables -L -nv --line-numbers
-      sudo iptables -I INPUT 7 -p tcp --dport 3306 -m state --state NEW -j ACCEPT
-see also [iptables](../server/iptables.md) & [UFW](../server/ufw.md)
+      sudo iptables -I INPUT 7 -p tcp --dport 3306 -m state 
 
 
 ###Performance Tuning

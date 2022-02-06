@@ -1,6 +1,6 @@
 #Z shell
 
-- my customizations on listed on the [editor home page](/docs/editors/custom)
+- my customizations on listed on the [editor home page](custom)
 
 ### Oh My ZSH
 
