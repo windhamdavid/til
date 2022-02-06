@@ -18,7 +18,7 @@ Today I learned that Google will translate to and from [Zulu](https://en.wikiped
 
 One of the best sub-reddits is [TIL](https://www.reddit.com/r/todayilearned/) and other organizations have published thier own TILs ([https://github.com/thoughtbot/til](https://github.com/thoughtbot/til) & [http://video.nationalgeographic.com/video/til](http://video.nationalgeographic.com/video/til)) . I figured that since I spend most of my working time with the terminal, git, and text files, a more efficient and easier method of documenting the time I spend reading other documentation would be to build my own TIL. This way the information I aquire will be easy to record, search and edit.
 
-I'm often searching online documentation for answers to commands, configurations, and error messages. The problem is that I've found myself repeating those searches because of the breadth and depth of the amount of functions and libraries involved in development. My wife suggested I call it TIHIDI (this is how I did it) after explaining what I was working on. It makes sense to put my daily explorations into this publication in lieu of publishing them in the database of my main site because Gitbook is quicker, easier to search, and I can keep all the files in a version control repository on my local machine as well. It'll help keep me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays.  I'm hoping this document will be of assistance. After this README, I'll write a [help page](/help) and I'll add some of my [vi cheat sheets](/docs/editors/vi) to get started.  
+I'm often searching online documentation for answers to commands, configurations, and error messages. The problem is that I've found myself repeating those searches because of the breadth and depth of the amount of functions and libraries involved in development. My wife suggested I call it TIHIDI (this is how I did it) after explaining what I was working on. It makes sense to put my daily explorations into this publication in lieu of publishing them in the database of my main site because Gitbook is quicker, easier to search, and I can keep all the files in a version control repository on my local machine as well. It'll help keep me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays.  I'm hoping this document will be of assistance. After this README, I'll write a [help page](/help) and I'll add some of my [vi cheat sheets](/docs/shell/vi) to get started.  
 
 
 
@@ -30,12 +30,12 @@ I'm often searching online documentation for answers to commands, configurations
 
 #### 12/04/2021
 
-- added in [Notes](/notes) for non-technical docs using Obsidian  
+- added in [Notes](/notes) for non-technical docs 
 - upgraded to v.2.0.0-beta.13
 
 #### 11/10/2021
 - Updated the Docusaurus & NPM packages. 
-- Combined my old [awesome-david](/awesome) repo into it for simplicity and rebuilt.  
+- Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt.  
 
 #### 03/18/2021
 

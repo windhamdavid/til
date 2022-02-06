@@ -3,13 +3,13 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
-
+- January 2022 
+  - [Add non-technical Notes to TIL](/notes)
 - December 2021 
-  - [Add Notes/Obsidian to TIL](/notes)
   - [Lychee moved to it's own org](/docs/host/Lychee)
 - November 2021  
-  - [Ovid - Macbook Pro](/docs/localhost/ovid)
-  - [Preparing my Mac Mini to migrate to a new ARM based Mac](/docs/localhost/magic)
+  - [Ovid - Macbook Pro](/docs/computers/ovid)
+  - [Preparing my Mac Mini to migrate to a new ARM based Mac](/docs/computers/magic)
 - March 2021  
   - [When Redd Foxx died, everyone laughed because they thought it was a reference to Fred Sanford](https://en.wikipedia.org/wiki/Redd_Foxx#Death)
   - [Woozer data center migration lost the php7.4-fpm sock](https://davidawindham.com/til/docs/projects/woozer/)
