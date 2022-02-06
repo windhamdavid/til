@@ -2,7 +2,12 @@
 
 ## Notes
 
-11/26/21 - added Visual Studio Code (Insiders) to [Ovid](/docs/localhost/ovid) and need to make some notes as I get along.  
+11/26/21 - added Visual Studio Code (Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
+
+
+https://github.com/github/copilot-docs/blob/main/docs/visualstudiocode/gettingstarted.md#getting-started-with-github-copilot-in-visual-studio-code  
+
+Ctrl+Enter. GitHub Copilot will open a new tab and suggest multiple options
 
 ## Keyboard Shortcuts
 

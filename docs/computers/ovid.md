@@ -6,7 +6,7 @@
 
 &nbsp;
 
-[macs](macs) | [magic](magic) | [zeke](../projects/zeke) | [woozer](../projects/woozer)
+[macs](macs) | [magic](magic) | [zeke](zeke) | [woozer](woozer)
 
 ## System
 

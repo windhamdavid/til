@@ -10,7 +10,7 @@
 #### Commands
 just the things I tend to forget.  
 
-Vim config -> [vim](vi.md)  
+Vim config -> [vim](vi)  
 Control + N = NERDTree  
 
 #### Terminal
