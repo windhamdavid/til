@@ -10,7 +10,26 @@ module.exports = {
   organizationName: 'windhamdavid',
   projectName: 'til',
   plugins: [
-    require.resolve('docusaurus-lunr-search')
+    require.resolve('docusaurus-lunr-search'),
+    //require.resolve("@cmfcmf/docusaurus-search-local")
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'notes',
+        path: 'notes',
+        routeBasePath: 'notes',
+        sidebarPath: require.resolve('./sidebarsnotes.js'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'lists',
+        path: 'lists',
+        routeBasePath: 'lists',
+        sidebarPath: require.resolve('./sidebarslists.js'),
+      },
+    ],
   ],
   themeConfig: {
     image: 'img/zw.png',
@@ -41,8 +60,10 @@ module.exports = {
         src: 'img/zw.png',
       },
       items: [
-        {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
+        {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
+        {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
+        {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
         {
