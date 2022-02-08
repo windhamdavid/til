@@ -1199,7 +1199,7 @@
     "@docsearch/css" "3.0.0-alpha.50"
     "algoliasearch" "^4.0.0"
 
-"@docusaurus/core@^2.0.0-alpha.60 || ^2.0.0", "@docusaurus/core@^2.0.0-beta.15", "@docusaurus/core@2.0.0-beta.15":
+"@docusaurus/core@^2.0.0-alpha.56", "@docusaurus/core@^2.0.0-alpha.60 || ^2.0.0", "@docusaurus/core@^2.0.0-beta.15", "@docusaurus/core@2.0.0-beta.15":
   "integrity" "sha512-zXhhD0fApMSvq/9Pkm9DQxa//hGOXVCq9yMHiXOkI5D1tLec7PxtnaC5cLfGHljkN9cKIfRDYUVcG1gHymVfpA=="
   "resolved" "https://registry.npmjs.org/@docusaurus/core/-/core-2.0.0-beta.15.tgz"
   "version" "2.0.0-beta.15"
@@ -3440,6 +3440,11 @@
     "to-vfile" "^6.1.0"
     "unified" "^9.0.0"
     "unist-util-is" "^4.0.2"
+
+"docusaurus-plugin-matomo@^0.0.6":
+  "integrity" "sha512-zAhUz3eMaW2tUJsvV5guOMwb554swoVEeI55BZA10LVk3+PyfWYpBl2FEHITe0ofA8/vG6BTuTzGNSWxW70NwA=="
+  "resolved" "https://registry.npmjs.org/docusaurus-plugin-matomo/-/docusaurus-plugin-matomo-0.0.6.tgz"
+  "version" "0.0.6"
 
 "dom-converter@^0.2.0":
   "integrity" "sha512-gd3ypIPfOMr9h5jIKq8E3sHOTCjeirnl0WK5ZdS1AW0Odt0b1PaWaHdJ4Qk4klv+YB9aJBS7mESXjFoDQPu6DA=="
