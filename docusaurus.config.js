@@ -10,6 +10,7 @@ module.exports = {
   organizationName: 'windhamdavid',
   projectName: 'til',
   plugins: [
+    require.resolve('docusaurus-plugin-matomo'),
     require.resolve('docusaurus-lunr-search'),
     //require.resolve("@cmfcmf/docusaurus-search-local")
     [
@@ -32,6 +33,12 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    matomo: {
+      matomoUrl: 'https://davidawindham.com/wik/',
+      siteId: '1',
+      phpLoader: 'matomo.php',
+      jsLoader: 'matomo.js',
+    },
     image: 'img/zw.png',
     hideableSidebar: true,
     prism: {
