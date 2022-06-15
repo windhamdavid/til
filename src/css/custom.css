@@ -61,6 +61,11 @@ html[data-theme='dark'] {
 .navbar__search {
   padding-left: 20px;
 }
+.theme-edit-this-page {
+  background-color: #39393941;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 
 
