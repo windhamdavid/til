@@ -20,6 +20,7 @@ module.exports = {
         path: 'notes',
         routeBasePath: 'notes',
         sidebarPath: require.resolve('./sidebarsnotes.js'),
+        editUrl:'https://code.davidawindham.com/david/til/src/master/',
       },
     ],
     [
@@ -29,6 +30,7 @@ module.exports = {
         path: 'lists',
         routeBasePath: 'lists',
         sidebarPath: require.resolve('./sidebarslists.js'),
+        editUrl:'https://code.davidawindham.com/david/til/src/master/',
       },
     ],
   ],
