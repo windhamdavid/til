@@ -6,6 +6,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Next',
+      items: [
+        'next'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Art',
       items: [
         'art',

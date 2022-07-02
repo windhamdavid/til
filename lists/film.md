@@ -1,7 +1,7 @@
 # Film
 
 ## Up Next
-see my post about this @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
+see my post about this @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/) and I've replaced this section with [Up Next](next)
 
 [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series)) /
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /

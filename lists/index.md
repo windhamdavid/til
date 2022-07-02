@@ -10,12 +10,13 @@ slug: /
 
 ### A list of lists of things I like. 
 
-This page was originally ( [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/) ) inspired by the list that Sindre Sorhus created which have now evolved into a library of useful resources available @ [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome). The idea of keeping documentation in a version control repository is the way to go and I've moved this old repo into the TIL project to simplify.
+This page was originally ( [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/) ) inspired by the list that Sindre Sorhus created which have now evolved into a library of useful resources available @ [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome). The idea of keeping documentation in a version control repository is the way to go and I've moved this old repo into the TIL project to simplify. I've also added a 'now' or 'up next' page as a replacement for using bookmarks. 
 
 ---
 
-#### [Art](art) 
-- [Visual](art) / [Literature](lit) / [Music](music) / [Film](film)
+#### [Up Next](next)
+
+#### [Art](art) - [Visual](art) / [Literature](lit) / [Music](music) / [Film](film)
 
 
 
