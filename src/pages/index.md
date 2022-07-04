@@ -3,8 +3,11 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+- July 2022
+  - [Added an 'Up Next' list](/lists/next)
+  - [The woman who OD'd John Belushi in 1982 was likely Fanny in *The Weight* by The Band in 1968](lists/trivia)
 - January 2022 
-  - [Add non-technical Notes to TIL](/notes)
+  - [Added non-technical Notes to TIL](/notes)
 - December 2021 
   - [Lychee moved to it's own org](/docs/host/Lychee)
 - November 2021  

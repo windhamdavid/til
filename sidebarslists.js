@@ -5,15 +5,13 @@ module.exports = {
       id: 'index',
     },
     {
-      type: 'category',
-      label: 'Next',
-      items: [
-        'next'
-      ],
+      type: 'doc',
+      id: 'next',
     },
     {
       type: 'category',
       label: 'Art',
+      collapsible: false,
       items: [
         'art',
         'lit',
@@ -22,32 +20,32 @@ module.exports = {
       ],
     },
     {
-      type: 'category',
-      label: 'Places',
-      items: [
-        'places'
-      ],
+      type: 'doc',
+      id: 'concepts',
     },
     {
-      type: 'category',
-      label: 'People',
-      items: [
-        'people'
-      ],
+      type: 'doc',
+      id: 'places',
     },
     {
-      type: 'category',
-      label: 'Things',
-      items: [
-        'things'
-      ],
+      type: 'doc',
+      id: 'people',
     },
     {
-      type: 'category',
-      label: 'Other Lists',
-      items: [
-        'lists'
-      ],
+      type: 'doc',
+      id: 'things',
+    },
+    {
+      type: 'doc',
+      id: 'trivia',
+    },
+    {
+      type: 'doc',
+      id: 'words',
+    },
+    {
+      type: 'doc',
+      id: 'lists',
     },
   ],
 };

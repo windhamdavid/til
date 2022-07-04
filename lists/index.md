@@ -6,26 +6,15 @@ slug: /
 # Lists
 
 
-# awesome-david [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+# awesome-windhamdavid [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
-### A list of lists of things I like. 
+#### A list of lists for non-technical stuff. 
 
-This page was originally ( [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/) ) inspired by the list that Sindre Sorhus created which have now evolved into a library of useful resources available @ [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome). The idea of keeping documentation in a version control repository is the way to go and I've moved this old repo into the TIL project to simplify. I've also added a 'now' or 'up next' page as a replacement for using bookmarks. 
+This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things. 
 
----
+I've moved this old repo into this TIL project to simplify. 
 
-#### [Up Next](next)
-
-#### [Art](art) - [Visual](art) / [Literature](lit) / [Music](music) / [Film](film)
-
+- 22.04 - Added [Words](words), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
+- 22.07 - Added [Up next](next) page as a replacement for using my bookmarks site to keep up with my future attention.
 
 
-#### [Places](places)
-
-
-#### [People](people)
-
-
-#### [Things](things)
-
-#### [Other Lists](lists)
