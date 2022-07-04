@@ -3,9 +3,8 @@
 22.07 - An easier way to bookmark things I'd like to watch, read, or listen to. I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
 
 ---
-
 ### Video
-
+[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate) / 
 [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series)) /
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
 [Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film)) /
@@ -24,10 +23,9 @@
 [Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) /
 [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)) /
 [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) /
-[The Orville](https://en.wikipedia.org/wiki/The_Orville)
-### Shakespeare-athon
-I'd like to watch some of the more recent films. 
+[The Orville](https://en.wikipedia.org/wiki/The_Orville) /
 
+#### Shakespeare-athon
 [The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth) / 
 [West Side Story](https://en.wikipedia.org/wiki/West_Side_Story_(2021_film)) /
 [Titus](https://en.wikipedia.org/wiki/Titus_(film)) /
