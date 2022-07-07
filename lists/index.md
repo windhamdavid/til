@@ -14,7 +14,7 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 I've moved this old repo into this TIL project to simplify. 
 
-- 22.04 - Added [Words](words), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
+- 22.04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
 - 22.07 - Added [Up next](next) page as a replacement for using my bookmarks site to keep up with my future attention.
 
 

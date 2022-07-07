@@ -41,6 +41,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'quotes',
+    },
+    {
+      type: 'doc',
       id: 'words',
     },
     {
