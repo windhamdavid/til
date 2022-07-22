@@ -51,7 +51,8 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 [You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes) / [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast))
 
 ### Games 
-[Pikmin 3](https://en.wikipedia.org/wiki/Pikmin)
+[Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) /
+[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread)
 
 
 
