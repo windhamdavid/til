@@ -13,7 +13,8 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)) /
 [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) / 
 [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman) /
-[Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld)
+[Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) /
+[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
 
 #### Films
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
@@ -32,7 +33,8 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 [The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch) / 
 [Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) / 
 [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) / 
-[The Orville](https://en.wikipedia.org/wiki/The_Orville)
+[The Orville](https://en.wikipedia.org/wiki/The_Orville) /
+[Delicious](https://www.imdb.com/title/tt10738536/)
 
 
 
@@ -63,6 +65,8 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad) /
 
 ---
-### Recently Finished
+### Recently Finished ( rating )
 
-[Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) - :star::star::star::star::star:
+[Delicious](https://www.imdb.com/title/tt10738536/) (8) / 
+[Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (7) / 
+[Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (7)
