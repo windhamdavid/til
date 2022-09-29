@@ -14,7 +14,9 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) / 
 [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman) /
 [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) /
-[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
+[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series)) / 
+[James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) / 
+[Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
 
 #### Films
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
@@ -50,11 +52,18 @@ I wrote a post on it @ [https://davidawindham.com/now-streaming/](https://davida
 
 ### Podcasts
 [Smartless](https://en.wikipedia.org/wiki/SmartLess) /
-[You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes) / [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast))
+[You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes) / 
+[Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast)) / 
+[WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron) / 
+[The Problem with John Stewart](https://en.wikipedia.org/wiki/The_Problem_with_Jon_Stewart) / 
+[This American Life](https://en.wikipedia.org/wiki/This_American_Life) / 
+
 
 ### Games 
 [Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) /
-[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread)
+[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread) / 
+[Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) / 
+[Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces)
 
 
 
