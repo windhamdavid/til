@@ -13,11 +13,12 @@ module.exports = {
       label: 'Projects',
       collapsible: false,
       items: [
+        'projects/zw',
         'projects/dw',
         'projects/gzet',
         'projects/juryd',
         'projects/pants',
-        'projects/zw',
+        'projects/ham'
       ],
     },
     {
