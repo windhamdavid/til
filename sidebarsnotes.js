@@ -11,6 +11,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Projects',
+      collapsible: false,
       items: [
         'projects/dw',
         'projects/gzet',
