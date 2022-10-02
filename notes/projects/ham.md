@@ -14,7 +14,7 @@ Equipment Notes:
 - Tascam Mixcast 4 
 - Roland SR-20HD Direct Streaming A/V Mixer
 - [Murmur/Mumble](https://wiki.mumble.info/wiki/Main_Page)
-- Adobe Audition 
-- Rogue Ameoba - Audio Hijack
+- Adobe Audition - mixing recording
+- Rogue Ameoba - Audio Hijack / Loopback
 - Nginx RMTP - [https://github.com/arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)
 - Icecast-kh  - [https://github.com/karlheyes/icecast-kh](https://github.com/karlheyes/icecast-kh)
