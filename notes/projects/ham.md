@@ -11,7 +11,7 @@ If it works, I'll pitch in the $500 to add an audio board to make the real time 
 Only other thing is to publish a domain and a show name. No bullshit can be a segment, but I'm not too keen on it in a domain. I've got one that I think will work. the-ham.org because of the connection to ham radio and 'ham it up'. I previously owned a couple international .am and .fm domains but I prefer short top level domains. 
 
 Equipment Notes: 
-- RODECaster Pro Podcast Production Studio
+- Tascam Mixcast 4 
 - Roland SR-20HD Direct Streaming A/V Mixer
 - [Murmur/Mumble](https://wiki.mumble.info/wiki/Main_Page)
 - Adobe Audition 
