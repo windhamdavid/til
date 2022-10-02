@@ -278,6 +278,7 @@ sudo iptables -L
 sudo iptables -L --line-numbers
 sudo iptables -I INPUT 20 -p tcp --dport 8882 -j ACCEPT
 sudo iptables -I INPUT 17 -p tcp --dport 8881 -j ACCEPT
+sudo iptables -I INPUT 12 -p tcp --dport 1935 -j ACCEPT
 
 8881 - radio
 8181 - chess
@@ -285,6 +286,7 @@ sudo iptables -I INPUT 17 -p tcp --dport 8881 -j ACCEPT
 8888 - show
 8080 - chat
 8282 - nginx
+1935 - nginx-rtmp
 
 sudo apt-get install iptables-persistent
 sudo iptables-restore < /tmp/v4
