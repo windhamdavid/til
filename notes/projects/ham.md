@@ -18,3 +18,52 @@ Equipment Notes:
 - Rogue Ameoba - Audio Hijack / Loopback
 - Nginx RMTP - [https://github.com/arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)
 - Icecast-kh  - [https://github.com/karlheyes/icecast-kh](https://github.com/karlheyes/icecast-kh)
+
+https://www.linode.com/docs/guides/set-up-a-streaming-rtmp-server/
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-video-streaming-server-using-nginx-rtmp-on-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-18-04-server
+
+https://tariosultan.com/blog/how-to-make-circle-webcam-in-obs
+
+https://github.com/videojs/video.js
+https://github.com/videojs/http-streaming
+https://github.com/silvermine/videojs-airplay
+
+https://developer.apple.com/streaming/
+https://www.npmjs.com/package/m3u8-parser
+https://serverfault.com/questions/1019317/receiving-rtmps-stream-on-nginx-rtmp
+
+
+Hola Mrs. Lauren. Unfortunately, we're going to miss it.  
+
+
+sudo mkdir -p /var/www/the-ham.org/{html,log,backup}
+sudo chown david:www-data -R /var/www/the-ham.org/
+sudo chmod -R 755 /var/www/the-ham.org/html
+sudo vi /etc/apache2/sites-available/the-ham.org.conf
+sudo a2ensite the-ham.org.conf
+
+<VirtualHost *:80>
+  ServerAdmin david@davidawindham.com
+  ServerName  the-ham.org
+  ServerAlias www.the-ham.org
+
+  DirectoryIndex index.html index.php
+  DocumentRoot /var/www/the-ham.org/html
+
+	<Directory /var/www/the-ham.org/html>
+		Options Indexes FollowSymLinks
+		DirectoryIndex index.html index.php
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		Require all granted
+	</Directory>  
+	
+	
+  LogLevel warn
+  ErrorLog  /var/www/the-ham.org/log/error.log
+  CustomLog /var/www/the-ham.org/log/access.log combined
+</VirtualHost>
+
+sudo certbot --apache -d the-ham.org
