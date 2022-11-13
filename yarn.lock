@@ -4017,7 +4017,7 @@
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-"docusaurus-lunr-search@^2.1.15":
+"docusaurus-lunr-search@^2.3.1":
   "integrity" "sha512-2F+M8lA6HLTg9c7oaZKbi5CcukFP7NUkIZhLOxUFHJf6yF6L10dfogInkdI2KIeFWebmZLz2JvAbHIIvw7rcEA=="
   "resolved" "https://registry.npmjs.org/docusaurus-lunr-search/-/docusaurus-lunr-search-2.3.1.tgz"
   "version" "2.3.1"
