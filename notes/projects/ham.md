@@ -34,9 +34,8 @@ https://www.npmjs.com/package/m3u8-parser
 https://serverfault.com/questions/1019317/receiving-rtmps-stream-on-nginx-rtmp
 
 
-Hola Mrs. Lauren. Unfortunately, we're going to miss it.  
-
-
+ 
+```shell
 sudo mkdir -p /var/www/the-ham.org/{html,log,backup}
 sudo chown david:www-data -R /var/www/the-ham.org/
 sudo chmod -R 755 /var/www/the-ham.org/html
@@ -67,3 +66,4 @@ sudo a2ensite the-ham.org.conf
 </VirtualHost>
 
 sudo certbot --apache -d the-ham.org
+```
