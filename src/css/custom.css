@@ -55,7 +55,7 @@ html[data-theme='dark'] {
   font-family: 'Times New Roman', Times, serif !important;
   font-size: larger;
 }
-.header-homepage-link span svg {
+.header-homepage-link svg {
   display: none;
 }
 .navbar__search {
