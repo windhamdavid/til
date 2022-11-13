@@ -2,7 +2,7 @@
 title: Docs
 slug: /
 ---
-
+###
 I use this library of documents as a quick reference to find technical answers, links to other documentation, configurations, keyboard shortcuts, and any other random technical stuff I might forget.  It's my version of Hansel and Gretel's breadcrumbs.  And because I tend to add more than I remove, I'm leaving this reminder to do some trimming every now and then so that the docs will remain concise and relevant. Here's a markdown graph of these docs.
 
 [![vi-1](/img/docs.png)](/img/docs.png)

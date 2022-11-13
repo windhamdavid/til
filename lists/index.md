@@ -17,4 +17,18 @@ I've moved this old repo into this TIL project to simplify.
 - 22.04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
 - 22.07 - Added [Up next](next) page as a replacement for using my bookmarks site to keep up with my future attention.
 
+### Lists
 
+- [Art](art)
+- [Concepts](concepts)
+- [Film](film)
+- [Other Lists](lists)
+- [Literature](lit)
+- [Music](music)
+- [Next](next)
+- [People](people)
+- [Places](places)
+- [Quotes](quotes)
+- [Things](things)
+- [Trivia](trivia)
+- [Words](words)
