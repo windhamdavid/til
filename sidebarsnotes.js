@@ -21,17 +21,5 @@ module.exports = {
         'projects/ham'
       ],
     },
-    {
-      type: 'category',
-      label: 'Space',
-      items: [
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Time',
-      items: [
-      ],
-    },
   ],
 };

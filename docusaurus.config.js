@@ -9,6 +9,10 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'windhamdavid',
   projectName: 'til',
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   plugins: [
     require.resolve('docusaurus-plugin-matomo'),
     require.resolve('docusaurus-lunr-search'),
@@ -42,24 +46,19 @@ module.exports = {
       jsLoader: 'matomo.js',
     },
     image: 'img/zw.png',
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       additionalLanguages: ['shell-session'],
+      additionalLanguages: ['swift'],
     },
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: false,
-      switchConfig: {
-        darkIcon: '\u2800',
-        darkIconStyle: {
-          marginLeft: '1px',
-        },
-        lightIcon: '\u2800',
-        lightIconStyle: {
-          marginLeft: '1px',
-        },
-      },
     },
     navbar: {
       hideOnScroll: true,
