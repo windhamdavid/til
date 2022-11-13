@@ -4,9 +4,21 @@
 ---  
 
 
-#### Notes: 
+### Notes: 
+
+#### 22/11/13
+
+- upgraded to v.2.2.0
+- added mermaid
+
+#### 12/04/2021
+
+- added in [Notes](/notes) for non-technical docs 
+- upgraded to v.2.0.0-beta.13
+
 #### 11/10/2021
-Updated the Docusaurus packages. Combined my old Awesome-David repo into it and rebuilt. 
+- Updated the Docusaurus & NPM packages. 
+- Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt. 
 
 #### 03/18/2021
 
