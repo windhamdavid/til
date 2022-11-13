@@ -1,6 +1,8 @@
 ---
 title: Help
 description: Because sometimes I forget to how to use the software
+toc_min_heading_level: 2
+toc_max_heading_level: 5
 ---
 
 # Help
@@ -8,37 +10,84 @@ description: Because sometimes I forget to how to use the software
 Because sometimes I forget how to drive the software I'm running.
 
 ### Docusaurus
-[https://v2.docusaurus.io/docs](https://v2.docusaurus.io/docs)
+[https://docusaurus.io/docs](https://docusaurus.io/docs)
 ```bash
 npm install
 npm run start
 npm run build  
 ```
-#### Creating Docs
-Create a Markdown file in /docs/doc.md  
-Add to sidebars.js
 
-#### Meta Data using Front Matter
-```bash
----
-id: my-doc
-title: My document title
-description: My document description
-sidebar_label: My doc
+
+
+
 ---
 
-Markdown content
+### Log
+
+```mermaid
+gitGraph
+    commit id: ".md files" tag: "v0.0.1"
+    commit
+    branch gitbook
+    commit id: "mv to gitbook" tag: "v0.0.2"
+    commit
+    branch docusaurus
+    checkout docusaurus
+    commit id: "docusaurus"  tag: "v0.0.3"
+    commit
+    checkout main
+    merge docusaurus
+
 ```
-#### Markdown links
-url paths or relative file paths
-```bash
-[Create a page](/create-a-page)
-[Create a page](./create-a-page.md)
+#### 22/11/13
+
+- added a Reader page
+- move branch master -> main for Git
+- addped mermaid and created overview graph
+- upgraded to v.2.2.0
+
+```shell
+david@ovid🏛 :~/sites/daw_til(master⚡) » npm outdated                                          127 ↵
+Package                           Current  Wanted  Latest  Location                                 Depended by
+@docusaurus/core            2.0.0-beta.15   2.2.0   2.2.0  node_modules/@docusaurus/core            daw_til
+@docusaurus/preset-classic  2.0.0-beta.15   2.2.0   2.2.0  node_modules/@docusaurus/preset-classic  daw_til
+@mdx-js/react                      1.6.22  1.6.22   2.1.5  node_modules/@mdx-js/react               daw_til
+clsx                                1.1.1   1.2.1   1.2.1  node_modules/clsx                        daw_til
+docusaurus-lunr-search             2.1.15   2.3.1   2.3.1  node_modules/docusaurus-lunr-search      daw_til
+react                              17.0.2  17.0.2  18.2.0  node_modules/react                       daw_til
+react-dom                          17.0.2  17.0.2  18.2.0  node_modules/react-dom                   daw_til
 ```
 
----
+- colorMode.switchConfig is deprecated #[6771](https://github.com/facebook/docusaurus/pull/6771)
 
+```js
+      switchConfig: {
+        darkIcon: '\u2800',
+        darkIconStyle: {
+          marginLeft: '1px',
+        },
+        lightIcon: '\u2800',
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+```
+#### 12/04/2021
 
+- added in [Notes](/notes) for non-technical docs 
+- upgraded to v.2.0.0-beta.13
+
+#### 11/10/2021
+- Updated the Docusaurus & NPM packages. 
+- Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt.  
+
+#### 03/18/2021
+
+Migrated this version from Gitbook because it wasn't playing nicely with Node.js v14 and it had a couple security vulnerabilities in the packages. Gitbook stop supporting the open source version likely for business reasons, so I migrated it all to ~~[https://docsify.js.org/](https://docsify.js.org/)~~... didn't do docsify because I can't generate static HTML which is what my DOM parser depends on to pull content elsewhere. Decided on using [https://docusaurus.io/](https://docusaurus.io/) instead. It required a bit of cleanup in the Markdown to do so. See: [https://davidawindham.com/til/help](/help)
+
+#### 05/02/2017  
+
+While working on another project yesterday afternoon, I ran into set of documentation ([https://docs.feathersjs.com/](https://docs.feathersjs.com/)) that I spent a lot of time reading and will likely forget about sometime soon after I abandon using the library in other projects. Of course I stuffed a bookmark of the documentation into my quasi organized set of chrome bookmarks based on each project, but the fact that the documentation was hosted using [Gitbook](https://github.com/GitbookIO/gitbook), reminded me of a practice I've seen others do.
 
 * 03/18/21 **Gotta Migrate** my TIL. Just noticed that gitbook doesn't play nicely with Node.js v14.
 
@@ -104,8 +153,6 @@ docsify serve
 ```
 #### migrate notes:
 
-
-
 ```js
 {
   "name": "windhamdavid_til",
@@ -146,6 +193,71 @@ gitbook                        3.2.2          3.2.3          2.6.9  windhamdavid
 gitbook-plugin-github-embed    1.1.2          1.3.1          1.3.1  windhamdavid_til
 
 ```
+
+
+---
+### Math KaTeX
+$$
+I = \int_0^{2\pi} \sin(x)\,dx
+$$
+
+### Admonitions
+
+:::note
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+:::
+
+### Mermaid
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+
+```mermaid
+  graph TD
+    A(Does your flowchart have arrows?) --> B[No]
+    A --> C[yes]
+    B --> D(Add them already)
+    C --> E(Yay, what a great flowchart!)
+    D -.->|you can even add text to them| A
+```
+---
+### Creating Docs
+Create a Markdown file in /docs/doc.md  
+Add to sidebars.js
+
+### Meta Data using Front Matter
+```bash
+---
+id: my-doc
+title: My document title
+description: My document description
+sidebar_label: My doc
+---
+
+Markdown content
+```
+### Markdown links
+url paths or relative file paths
+```bash
+[Create a page](/create-a-page)
+[Create a page](./create-a-page.md)
+```
+
+---
+
+
+
 
 
 ### Gitbook:
@@ -379,7 +491,6 @@ adding published date with microformat
 
 
 ### Emojis
-
 People
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
@@ -447,7 +558,7 @@ People
 | :feelsgood: `:feelsgood:` | :finnadie: `:finnadie:` | :goberserk: `:goberserk:` |
 | :godmode: `:godmode:` | :hurtrealbad: `:hurtrealbad:` | :rage1: `:rage1:` |
 | :rage2: `:rage2:` | :rage3: `:rage3:` | :rage4: `:rage4:` |
-| :suspect: `:suspect:` | :trollface: `:trollface:` |
+| :suspect: `:suspect:` | :trollface: `:trollface:` | 
 
 Nature
 
