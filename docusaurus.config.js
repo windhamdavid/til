@@ -52,8 +52,7 @@ module.exports = {
       },
     },
     prism: {
-      additionalLanguages: ['shell-session'],
-      additionalLanguages: ['swift'],
+      additionalLanguages: ['rust', 'shell-session', 'swift', 'diff'],
     },
     colorMode: {
       defaultMode: 'dark',
