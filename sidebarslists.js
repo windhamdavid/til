@@ -14,9 +14,14 @@ module.exports = {
       collapsible: false,
       items: [
         'art',
-        'lit',
         'film',
-        'music'
+        'lit',
+        'music',
+        {
+          type: 'doc',
+          label: '- Playlists',
+          id: 'music_playlist',
+        },
       ],
     },
     {

@@ -1,10 +1,24 @@
 # Music
 
-### Now Streaming
+### Now
 
-Over the last ten years or so I've used the Last.fm API to track most all of my listening habits and I pull that information into a page on my personal website @ [https://davidawindham.com/studio/music](https://davidawindham.com/studio/music). I'll add to these when I think about it and try to keep the list in order of favorites. 
+Since 2007, I've tracked almost most all of my listening habits and I pull that information into a page on my personal website. If you want to see an overview of what I'm listening to [**right now**](https://davidawindham.com/studio/music) @ [https://davidawindham.com/studio/music](https://davidawindham.com/studio/music). I'd imagine that these lists will grow to the thousands, so I'm only adding artist when I remind myself how much I enjoy their music and I'll go in and try to rank them at some point. 
+
+I like to create music playlist from new releases about every month or so. I started doing it back in 2009 when I began to migrate my listening to streaming services. I usually just date them with the year and month.  I use [Last.fm](https://en.wikipedia.org/wiki/Last.fm) to keep tabs on what I listen to and I use [Exportify](https://github.com/watsonbox/exportify) to export from my Spotify playlists to convert to markdown. I sometimes run data analysis on them for fun.  I like to keep a copy of them here so that I can search for an artist or track I'm trying to think of.
 
 
+
+### Playlists
+[22.11](music_playlist#2211)
+/ [22.09](music_playlist#2209)
+/ [22.06](music_playlist#2206)
+/ [22.01](music_playlist#2201)
+/ [2021 Top Tracks](music_playlist#2021-top-tracks)
+/ [Kris](music_playlist#kris)
+/ [22.12](music_playlist#2112)
+/ [22.11](music_playlist#2111)
+/ [22.10](music_playlist#2110)
+/ [22.09](music_playlist#2109)
 ### Artists
 
 [Bill Evans](https://en.wikipedia.org/wiki/Bill_Evans) / 
@@ -87,24 +101,6 @@ Over the last ten years or so I've used the Last.fm API to track most all of my 
 [Lee Scratch Perry](https://en.wikipedia.org/wiki/Lee_%22Scratch%22_Perry) / 
 [Weird Al Yankovic](https://en.wikipedia.org/wiki/%22Weird_Al%22_Yankovic) / 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Albums
 
 [Bill Evans - The Complete Fantasy Recordings](https://en.wikipedia.org/wiki/Bill_Evans_discography) /
@@ -126,7 +122,10 @@ Over the last ten years or so I've used the Last.fm API to track most all of my 
 [Magic Transistor Radio](http://www.magictransistor.com/radio)
 
 
-### Dylan Albums
+### Dylan
+
+All of Bob Dylans' albums ranked:
+
 Royal Albert Hall / 
 Before the Flood / 
 Budokan / 

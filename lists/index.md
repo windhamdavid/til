@@ -6,11 +6,13 @@ slug: /
 # Lists
 
 
-# awesome-windhamdavid [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
 #### A list of lists for non-technical stuff. 
 
 This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things. 
+
+
+## awesome-windhamdavid [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
 I've moved this old repo into this TIL project to simplify. 
 
@@ -19,16 +21,16 @@ I've moved this old repo into this TIL project to simplify.
 
 ### Lists
 
-- [Art](art)
-- [Concepts](concepts)
-- [Film](film)
-- [Other Lists](lists)
-- [Literature](lit)
-- [Music](music)
-- [Next](next)
-- [People](people)
-- [Places](places)
-- [Quotes](quotes)
-- [Things](things)
-- [Trivia](trivia)
-- [Words](words)
+[Art](art)
+/ [Concepts](concepts)
+/ [Film](film)
+/ [Other Lists](lists)
+/ [Literature](lit)
+/ [Music](music)
+/ [Next](next)
+/ [People](people)
+/ [Places](places)
+/ [Quotes](quotes)
+/ [Things](things)
+/ [Trivia](trivia)
+/ [Words](words)
