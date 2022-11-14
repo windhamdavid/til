@@ -66,6 +66,6 @@ html[data-theme='dark'] {
   border-radius: 5px;
   padding: 10px;
 }
-
-
-
+table td img {
+  max-width: 100px;
+}
