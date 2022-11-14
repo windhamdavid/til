@@ -75,11 +75,12 @@ react-dom                          17.0.2  17.0.2  18.2.0  node_modules/react-do
 
 - lunr-search broken  ( see: https://github.com/praveenn77/docusaurus-lunr-search/pull/91 ) made the following change in the plugin to fix 
 
-```
+```diff
 src/theme/SearchBar/lunar-search.js
 29  - url: this.baseUrl !== '/' || doc.url.charAt(0) !== '/' ? this.baseUrl + doc.url : doc.url,
     + url: doc.url,
-```
+```  
+
 #### 12/04/2021
 
 - added in [Notes](/notes) for non-technical docs 
