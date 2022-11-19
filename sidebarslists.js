@@ -18,23 +18,28 @@ module.exports = {
           collapsible: false,
           link: {
             type:'doc',
-            id:'music',
+            id:'music/music',
           },
           items: [
             {
               type:'doc',
-              id: 'music_playlist',
+              id: 'music/playlist',
               label:'Playlist',
             },
             {
               type:'doc',
-              id: 'music_playlist_2020',
-              label:'> 2020',
+              id: 'music/playlist_2020',
+              label:'- 2020',
             },
             {
               type:'doc',
-              id: 'music_playlist_2010',
-              label:'< 2020',
+              id: 'music/playlist_2015',
+              label:'2020-2015',
+            },
+            {
+              type:'doc',
+              id: 'music/playlist_2010',
+              label:'2015-2010',
             },
           ],
         },
