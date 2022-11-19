@@ -9,6 +9,8 @@ I've separated the **technical** to [Docs](/docs/) and the **non-technical** to 
 
 ### Workflow
 
+#### I wrote an essay about this page @ [https://davidawindham.com/a-second-brain/](https://davidawindham.com/a-second-brain/)
+
 I like to use Apple Notes and quick mental notes and I started using the [Obsidian](https://obsidian.md) markdown editor for looking at a pile of them on my computer. I noticed is that it's an easy way to map out some sense of order from a set of notes and documents.  The more I looked into it, I noticed that there is a whole subset of folks who are into **PKMs** ( **Personal Knowledge Management** ).  Evidently, I've been doing it for a while now since I'm accustomed to making my own documentation as I build software and websites.  As I was setting up my folder directories on a new computer ( [Ovid](/docs/computers/ovid) ), I noticed that it might be helpful to use the same approach to other aspects of my life so I created another set of documents here for the **non-technical** stuff.
 
 I generally use four lists of reminders to keep up with everything. Groceries, Short-Term, Mid-Term, and Long Term. I put everything on there and I can conveniently access and edit them from any device. For every project I build I keep a _notes.txt file containing all of the pertinent info.  I'm going to merge my old note into this site, so I have them all in one place. **Reminder**: try to match up my existing docs, notes, reminders, and start pages workflow.
@@ -28,7 +30,7 @@ https://aliabdaal.com/how-to-build-a-second-brain-271393/
 https://foambubble.github.io/foam/#how-do-i-use-foam  
 https://github.com/ianjsikes/md-graph  
 
-### I wrote an essay about this page @ [https://davidawindham.com/a-second-brain/](https://davidawindham.com/a-second-brain/)
+
 
 
 

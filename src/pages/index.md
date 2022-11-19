@@ -3,6 +3,9 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+- November 2022
+  - [Added Music Playlist to lists](/lists/music)
+  - [updated v2.2.0](/help#log)
 - July 2022
   - [Added an 'Up Next' list](/lists/next)
   - [The woman who OD'd John Belushi in 1982 was likely Fanny in *The Weight* by The Band in 1968](lists/trivia)
