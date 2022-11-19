@@ -1,24 +1,48 @@
 # Music
 
-### Now
+## Playing
 
-Since 2007, I've tracked almost most all of my listening habits and I pull that information into a page on my personal website. If you want to see an overview of what I'm listening to [**right now**](https://davidawindham.com/studio/music) @ [https://davidawindham.com/studio/music](https://davidawindham.com/studio/music). I'd imagine that these lists will grow to the thousands, so I'm only adding artist when I remind myself how much I enjoy their music and I'll go in and try to rank them at some point. 
+I took piano lessons for a number of years when I was younger but I can barely read sheet music now because I stopped playing. I've also learned to play guitar, bass, mandolin, violin, and a bit of trumpet and clarinet. At some point I might buy another keyboard because the better half and I have threatened to start our own band for fun. 
 
-I like to create music playlist from new releases about every month or so. I started doing it back in 2009 when I began to migrate my listening to streaming services. I usually just date them with the year and month.  I use [Last.fm](https://en.wikipedia.org/wiki/Last.fm) to keep tabs on what I listen to and I use [Exportify](https://github.com/watsonbox/exportify) to export from my Spotify playlists to convert to markdown. I sometimes run data analysis on them for fun.  I like to keep a copy of them here so that I can search for an artist or track I'm trying to think of.
+## Listening
+
+I listen to quite a bit of music and I like all the kinds. I like to listen when I'm cooking, working, driving, washing the cars in the driveway, and sitting on the back porch. When I was a young, my father had a very large collection of albums so I got an early start. Although I was online at the time, I never personally used Napster or any Peer to Peer music sharing service. However, my friends would make me cds and share the mp3s on thumb drives so I also had a decent start on a digital collection too. I don't have a vinyl collection or frame albums because I'm not that hip. Streaming is the way for me and I use several services. I like to attend live music performances and discover new music so I try to keep up with new releases. I don't have any preferences for style excepting whatever mood or state of mind I may be in at the time. I think the key to good art, including music, is authenticity.
 
 
 
-### Playlists
-[22.11](music_playlist#2211)
-/ [22.09](music_playlist#2209)
-/ [22.06](music_playlist#2206)
-/ [22.01](music_playlist#2201)
-/ [2021 Top Tracks](music_playlist#2021-top-tracks)
+## Now
+
+Since about 2011, I've tracked almost most all of my listening habits and I pull that information into a page on my personal website. If you want to see an overview of what I'm listening to [**right now**](https://davidawindham.com/studio/music) @ [https://davidawindham.com/studio/music](https://davidawindham.com/studio/music). I'd imagine that these lists will grow to the thousands of tracks, so I'm only adding favorite artists when I remind myself how much I enjoy their music and I'll go in and try to rank them at some point.  
+
+## Playlists
+
+I like to create music playlist from new releases about every month or so. I started doing it when I began to migrate my listening to streaming services. I usually just date them with the year and month.  I use [Last.fm](https://en.wikipedia.org/wiki/Last.fm) to keep tabs on what I listen to and I use [Exportify](https://github.com/watsonbox/exportify) to export from my Spotify playlists to convert to markdown. I sometimes run data analysis on them for fun.  I like to keep a copy of them here so that I can search for an artist or track I'm trying to think of.
+
+### Custom
+[Ham](music_playlist#ham)
 / [Kris](music_playlist#kris)
-/ [22.12](music_playlist#2112)
-/ [22.11](music_playlist#2111)
-/ [22.10](music_playlist#2110)
-/ [22.09](music_playlist#2109)
+/ [Greasy](music_playlist#greasy)
+/ [Flashback](music_playlist#flashback)
+/ [Yellow Ball](music_playlist#yellow-ball)
+/ [Working](music_playlist#working)
+/ [Christmas](music_playlist#christmas)
+
+### Dated
+[2022](music_playlist_2020)
+/ [2021](music_playlist_2020#2021)
+/ [2020](music_playlist_2020#2206)
+/ [2019](music_playlist_2010#2019)
+/ [2018](music_playlist_2010#2018)
+/ [2017](music_playlist_2010#2017)
+/ [2016](music_playlist_2010#2016)
+/ [2015](music_playlist_2010#2015)
+/ [2014](music_playlist_2010#2014)
+/ [2013](music_playlist_2010#2013)
+/ [2012](music_playlist_2010#2012)
+
+
+## Favorites
+
 ### Artists
 
 [Bill Evans](https://en.wikipedia.org/wiki/Bill_Evans) / 
@@ -119,12 +143,12 @@ I like to create music playlist from new releases about every month or so. I sta
 [WNCW](https://en.wikipedia.org/wiki/WNCW) /
 [WEVL](https://en.wikipedia.org/wiki/WEVL) /
 [WFUV](https://en.wikipedia.org/wiki/WFUV) /
-[Magic Transistor Radio](http://www.magictransistor.com/radio)
+
 
 
 ### Dylan
 
-All of Bob Dylans' albums ranked:
+All of Bob Dylans' albums ranked by my preference:
 
 Royal Albert Hall / 
 Before the Flood / 

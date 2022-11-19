@@ -1,4 +1,4 @@
-# Other Lists
+# Other
 
 - [List of lists (Wikipedia)](https://en.wikipedia.org/wiki/Category:Lists_of_lists)
 - [List of Internet Phenomena](https://en.wikipedia.org/wiki/List_of_Internet_phenomena)

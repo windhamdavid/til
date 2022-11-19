@@ -56,6 +56,3 @@ Perhaps at some point, I'll come back in here and rank them.
 [Larry Charles](https://en.wikipedia.org/wiki/Larry_Charles) /
 [Mike Mills](https://en.wikipedia.org/wiki/Mike_Mills_(director)) /
 [Miranda July](https://en.wikipedia.org/wiki/Miranda_July) /
-
-### Up Next
-created a list of future watching @ [Up Next](next)
