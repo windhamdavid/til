@@ -4,7 +4,7 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - November 2022
-  - [Added Music Playlist to lists](/lists/music)
+  - [Added Music Playlist to lists](/lists/music#playlists)
   - [updated v2.2.0](/help#log)
 - July 2022
   - [Added an 'Up Next' list](/lists/next)

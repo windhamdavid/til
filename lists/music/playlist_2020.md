@@ -1,6 +1,6 @@
 ---
-title: 2020- Playlists
-description: 2020- Playlists
+title: 2020 Playlists
+description: 2020 Playlists
 tags:
   - Music
   - Albums

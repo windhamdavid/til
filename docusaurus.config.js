@@ -15,8 +15,12 @@ module.exports = {
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
     require.resolve('docusaurus-plugin-matomo'),
-    require.resolve('docusaurus-lunr-search'),
     //require.resolve("@cmfcmf/docusaurus-search-local")
+    [require.resolve('docusaurus-lunr-search'), {
+      excludeRoutes: [
+          'lists/music/**/*', // exclude playlists from indexing
+      ]
+    }],
     [
       '@docusaurus/plugin-content-docs',
       {

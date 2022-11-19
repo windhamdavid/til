@@ -12,7 +12,7 @@ tags:
 
 ### Ham
 
-I made this playlist for [https://davidawindham.com/net-jockey/](https://davidawindham.com/net-jockey/) & [https://the-ham.org](https://the-ham.org)
+I made this playlist for  [https://davidawindham.com/net-jockey/](https://davidawindham.com/net-jockey/), [https://the-ham.org](https://the-ham.org), & [http://radio.davidawindham.com](http://radio.davidawindham.com),
 
 |Artist(s)|Track|Album|
 |---|---|---|
