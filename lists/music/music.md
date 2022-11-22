@@ -19,7 +19,7 @@ Since about 2011, I've tracked almost most all of my listening habits and I pull
 I like to create music playlist from new releases about every month or so. I started doing it when I began to migrate my listening to streaming services. I usually just date them with the year and month.  I use [Last.fm](https://en.wikipedia.org/wiki/Last.fm) to keep tabs on what I listen to and I use [Exportify](https://github.com/watsonbox/exportify) to export from my Spotify playlists to convert to markdown. I sometimes run data analysis on them for fun.  I like to keep a copy of them here so that I can search for an artist or track I'm trying to think of.
 
 ### Custom
-[Ham](playlist#ham)
+[Ham](playlist)
 / [Kris](playlist#kris)
 / [Greasy](playlist#greasy)
 / [Flashback](playlist#flashback)
@@ -31,11 +31,11 @@ I like to create music playlist from new releases about every month or so. I sta
 [2022](playlist_2020)
 / [2021](playlist_2020#2021)
 / [2020](playlist_2020#2206)
-/ [2019](playlist_2015#2019)
+/ [2019](playlist_2015)
 / [2018](playlist_2015#2018)
 / [2017](playlist_2015#2017)
 / [2016](playlist_2015#2016)
-/ [2015](playlist_2010#2015)
+/ [2015](playlist_2010)
 / [2014](playlist_2010#2014)
 / [2013](playlist_2010#2013)
 / [2012](playlist_2010#2012)

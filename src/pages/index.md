@@ -130,3 +130,5 @@ description: A place to keep notes and documentation
   - [JavaScript Start-up Performance - Addy Osmani](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
   - [Upgrading Ele.me to Progressive Web App](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)
   - [Introducing Create React Native App](https://github.com/react-community/create-react-native-app)
+  - [help](help)
+  - [about](about)

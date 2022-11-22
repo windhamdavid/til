@@ -2,11 +2,12 @@
 title: Docs
 slug: /
 ---
-###
+
+# Docs
+
 I use this library of documents as a quick reference to find technical answers, links to other documentation, configurations, keyboard shortcuts, and any other random technical stuff I might forget.  It's my version of Hansel and Gretel's breadcrumbs.  And because I tend to add more than I remove, I'm leaving this reminder to do some trimming every now and then so that the docs will remain concise and relevant. Here's a markdown graph of these docs.
 
 [![vi-1](/img/docs.png)](/img/docs.png)
-
 
 ---
 ### Computers
@@ -17,15 +18,13 @@ I use this library of documents as a quick reference to find technical answers, 
 [Zeke](computers/zeke) |
 [Woozer](computers/woozer)
 
+### Databases
 
-### Shell
-
-[Custom](shell/custom) |
-[Terminal](shell/terminal) |
-[UNIX](shell/unix) |
-[Vi](shell/vi) |
-[bash](shell/bash) |
-[Zsh](shell/zsh)
+[MongoDB](db/MongoDB) |
+[MariaDB](db/MariaDB) |
+[MySQL](db/MySQL) |
+[PostgreSQL](db/PostgreSQL) |
+[Redis](db/Redis)
 
 ### Editors
 
@@ -34,10 +33,15 @@ I use this library of documents as a quick reference to find technical answers, 
 [Sublime](editors/sublime) |
 [Textmate](editors/textmate) |
 [Visual Studio Code](editors/vs)
-### Versioning 
 
-[Git](editors/git) |
-[Subversion](editors/subversion)
+### Frameworks
+
+[Node](waf/nodejs) |
+[npm](waf/npm) |
+[Rails](waf/rails) |
+[React](waf/react) |
+[React Native](waf/react_native) |
+[Vue.js](waf/vue)
 
 ### Languages
 
@@ -50,22 +54,15 @@ I use this library of documents as a quick reference to find technical answers, 
 [Rust](lang/Rust) |
 [C](lang/C)
 
-### Databases
+### SasS
 
-[MongoDB](db/MongoDB) |
-[MariaDB](db/MariaDB) |
-[MySQL](db/MySQL) |
-[PostgreSQL](db/PostgreSQL) |
-[Redis](db/Redis)
-
-### Frameworks
-
-[Node](waf/nodejs) |
-[npm](waf/npm) |
-[Rails](waf/rails) |
-[React](waf/react) |
-[React Native](waf/react_native) |
-[Vue.js](waf/vue)
+[Linode](saas/linode) |
+[Now](saas/now) |
+[Amazon](saas/aws) |
+[Google](saas/google) |
+[Heroku](saas/heroku) |
+[Stripe](saas/stripe) |
+[Twilio](saas/twilio)
 
 ### Server Tools
 
@@ -83,25 +80,36 @@ I use this library of documents as a quick reference to find technical answers, 
 [Mail](server/mail) |
 [Monit](server/monit)
 
-
 ### Server Hosted
 
-[Gogs](host/Gogs) |
-[Gitea](host/Gitea) |
-[Icecast](host/Icecast) |
-[Lychee](host/Lychee) |
-[MailCow](host/Mailcow) |
-[PhProject](host/Phproject) |
-[InvoicePlace](host/InvoicePlane) |
-[WordPress](host/WordPress) |
-[Drupal](host/Drupal) |
-[Webmin](host/Webmin) |
-[Laravel](host/Laravel) |
-[Discourse](host/Discourse) |
-[nodebb](host/Nodebb) |
-[zammad](host/Zammad) |
-[siege-sproxy](host/Siege-sproxy) |
-[Piwik](host/Piwik)
+[Discourse](host/Discourse)
+| [Drupal](host/Drupal)
+| [Gitea](host/Gitea)
+| [Gogs](host/Gogs)
+| [Icecast](host/Icecast)
+| [InvoicePlace](host/InvoicePlane)
+| [Laravel](host/Laravel)
+| [Lychee](host/Lychee)
+| [MailCow](host/Mailcow)
+| [Miniflux](host/Miniflux)
+| [nodebb](host/Nodebb)
+| [PhProject](host/Phproject)
+| [Piwik](host/Piwik)
+| [Shaarli](host/Shaarli)
+| [siege-sproxy](host/Siege-sproxy)
+| [Webmin](host/Webmin)
+| [WordPress](host/WordPress)
+| [zammad](host/Zammad)
+
+### Shell
+
+[dotfiles](shell/dotfiles) |
+[Terminal](shell/terminal) |
+[UNIX](shell/unix) |
+[Vi](shell/vi) |
+[bash](shell/bash) |
+[Zsh](shell/zsh)
+
 ### Software
 
 [MacOS](localhost/macos) |
@@ -111,15 +119,7 @@ I use this library of documents as a quick reference to find technical answers, 
 [Sketch](localhost/sketch) |
 [ngrok](localhost/ngrok)
 
-### SasS
+### Versioning 
 
-[Linode](saas/linode) |
-[Now](saas/now) |
-[Amazon](saas/aws) |
-[Google](saas/google) |
-[Heroku](saas/heroku) |
-[Stripe](saas/stripe) |
-[Twilio](saas/twilio)
-
-
-
+[Git](editors/git) |
+[Subversion](editors/subversion)
