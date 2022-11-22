@@ -2,19 +2,22 @@
 
 ### Remote
 
-[Gogs](Gogs) |
-[Gitea](Gitea) |
-[Icecast](Icecast) |
-[Lychee](Lychee) |
-[MailCow](Mailcow) |
-[PhProject](Phproject) |
-[InvoicePlace](InvoicePlane) |
-[WordPress](WordPress) |
-[Drupal](Drupal) |
-[Webmin](Webmin) |
-[Laravel](Laravel) |
-[Discourse](Discourse) |
-[nodebb](Nodebb) |
-[zammad](Zammad) |
-[siege-sproxy](Siege-sproxy)
-[Piwik](Piwik)
+[Discourse](Discourse)
+/ [Drupal](Drupal)
+/ [Gitea](Gitea)
+/ [Gogs](Gogs)
+/ [Icecast](Icecast)
+/ [InvoicePlace](InvoicePlane)
+/ [Laravel](Laravel)
+/ [Lychee](Lychee)
+/ [MailCow](Mailcow)
+/ [Miniflux](Miniflux)
+/ [nodebb](Nodebb)
+/ [PhProject](Phproject)
+/ [Piwik](Piwik)
+/ [Shaarli](Shaarli)
+/ [siege-sproxy](Siege-sproxy)
+/ [Webmin](Webmin)
+/ [WordPress](WordPress)
+/ [zammad](Zammad)
+

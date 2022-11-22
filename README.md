@@ -13,7 +13,7 @@
 
 #### 12/04/2021
 
-- added in [Notes](/notes) for non-technical docs 
+- added in Notes for non-technical docs 
 - upgraded to v.2.0.0-beta.13
 
 #### 11/10/2021
@@ -33,12 +33,10 @@ This is a place to store some notes and documentation. It was originally built a
 
 ![zulu](https://davidawindham.com/til/img/zulu.png)  
 
- > The [page](docs/server/ubuntu) above in this site referring to the database and computer [operating system](https://en.wikipedia.org/wiki/Ubuntu) and not the [Zulu philosophy](https://en.wikipedia.org/wiki/Ubuntu_(philosophy))  of a universal bond of sharing that connects all humanity. 
+ > The page above in this site referring to the database and computer [operating system](https://en.wikipedia.org/wiki/Ubuntu) and not the [Zulu philosophy](https://en.wikipedia.org/wiki/Ubuntu_(philosophy))  of a universal bond of sharing that connects all humanity. 
 
 
 
 I'm often searching online documentation for answers to commands, configurations, and error messages. I figured that since I spend most of my working time with the terminal, git, and text files, a more efficient and easier method of documenting the time I spend reading other documentation would be to build my own TIL. This way the information I learn will be easy to record, search and edit. The problem is that I've found myself repeating those searches because of the breadth and depth of the amount of functions and libraries involved in development. My wife suggested I call it TIHIDI 'this is how I did it' after explaining what I was working on. It makes sense to use a static documentation instead of database because it's quicker, easier to search, under version control, and the file formats are interoperable with other software and publishing frameworks.  
 
-I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays. I'll keep the LOG in the [README](https://code.davidawindham.com/david/til/src/master/README.md), add a [help page](/help), and some [vi cheat sheets](/docs/shell/vi) to get started because I'm always forgetting some of them. 
-  
-
+I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays. I'll keep the LOG in the [README](https://code.davidawindham.com/david/til/src/master/README.md), add a [help page](/help), and some [vi cheat sheets](/docs/shell/vi) to get started because I'm always forgetting some of them.

@@ -17,19 +17,18 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Shell',
+      label: 'Database',
       items: [
-        'shell/custom',
-        'shell/terminal',
-        'shell/unix',
-        'shell/vi',
-        'shell/bash',
-        'shell/zsh',
+        'db/MongoDB',
+        'db/MariaDB',
+        'db/MySQL',
+        'db/PostgreSQL',
+        'db/Redis'
       ],
     },
     {
       type: 'category',
-      label: 'Editor',
+      label: 'Editors',
       items: [
         'editors/atom',
         'editors/phpstorm',
@@ -40,10 +39,14 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Versioning',
+      label: 'Frameworks',
       items: [
-        'editors/git',
-        'editors/subversion'
+        'waf/nodejs',
+        'waf/npm',
+        'waf/rails',
+        'waf/react',
+        'waf/react_native',
+        'waf/vue',
       ],
     },
     {
@@ -61,25 +64,15 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Database',
+      label: 'SasS',
       items: [
-        'db/MongoDB',
-        'db/MariaDB',
-        'db/MySQL',
-        'db/PostgreSQL',
-        'db/Redis'
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Frameworks',
-      items: [
-        'waf/nodejs',
-        'waf/npm',
-        'waf/rails',
-        'waf/react',
-        'waf/react_native',
-        'waf/vue',
+        'saas/aws',
+        'saas/google',
+        'saas/heroku',
+        'saas/linode',
+        'saas/now',
+        'saas/stripe',
+        'saas/twilio',
       ],
     },
     {
@@ -114,13 +107,27 @@ module.exports = {
         'host/Laravel',
         'host/Lychee',
         'host/Mailcow',
+        'host/Miniflux',
         'host/Nodebb',
         'host/Phproject',
         'host/Piwik',
+        'host/Shaarli',
         'host/Siege-sproxy',
         'host/Webmin',
         'host/WordPress',
         'host/Zammad',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Shell',
+      items: [
+        'shell/dotfiles',
+        'shell/terminal',
+        'shell/unix',
+        'shell/vi',
+        'shell/bash',
+        'shell/zsh',
       ],
     },
     {
@@ -137,15 +144,10 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'SasS',
+      label: 'Versioning',
       items: [
-        'saas/aws',
-        'saas/google',
-        'saas/heroku',
-        'saas/linode',
-        'saas/now',
-        'saas/stripe',
-        'saas/twilio',
+        'editors/git',
+        'editors/subversion'
       ],
     },
   ],
