@@ -1,6 +1,6 @@
 #Z shell
 
-- my customizations on listed on the [editor home page](custom)
+- my customizations on listed on the [editor home page](dotfiles)
 
 ### Oh My ZSH
 
