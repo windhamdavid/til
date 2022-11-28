@@ -69,3 +69,6 @@ html[data-theme='dark'] {
 table td img {
   max-width: 100px;
 }
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
+  font-size: 1.5rem !important;
+}
