@@ -4,11 +4,12 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - November 2022
-  - [Added Music Playlist to lists](/lists/music#playlists)
-  - [updated v2.2.0](/help#log)
+  - [Brian Eno has a nice worldview](/posts/brian-eno-art)
+  - [Added Music Playlist to TIL lists](/lists/music#playlists)
+  - [updated Docusaurus to v2.2.0](/help#log)
 - July 2022
-  - [Added an 'Up Next' list](/lists/next)
-  - [The woman who OD'd John Belushi in 1982 was likely Fanny in *The Weight* by The Band in 1968](lists/trivia)
+  - [Added an 'Up Next' TIL list](/lists/next)
+  - [The woman who OD'd John Belushi was likely Fanny in *The Weight*](lists/trivia)
 - January 2022 
   - [Added non-technical Notes to TIL](/notes)
 - December 2021 
@@ -26,7 +27,7 @@ description: A place to keep notes and documentation
 - August 2020  
   - [Meetings, Bloody Meetings](https://en.wikipedia.org/wiki/Meetings,_Bloody_Meetings)
 - March 2020  
-  - [Zeke](https://davidawindham.com/til/docs/projects/zeke/)
+  - [Zeke setup](https://davidawindham.com/til/docs/projects/zeke/)
   - [Migrate Gitbook to Docsify](https://davidawindham.com/til/help)
   - [Kubernetes Commands](https://davidawindham.com/til/docs/server/kubernetes)
   - [Pandoc is the way to convert doc types](https://github.com/jgm/pandoc)
