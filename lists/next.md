@@ -6,15 +6,16 @@
 ### Video
 #### Series
 
-[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate) / 
-[The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series)) /
-[The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)) /
-[DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) / 
-[My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman) /
-[Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) /
-[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series)) / 
-[James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) / 
-[Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
+[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
+/ [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
+/ [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
+/ [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series))
+/ [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
+/ [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!)
+/ [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
+/ [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy)
+/ [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
+/ [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones)
 
 #### Films
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /

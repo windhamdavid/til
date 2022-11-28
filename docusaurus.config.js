@@ -41,6 +41,14 @@ module.exports = {
         editUrl:'https://code.davidawindham.com/david/til/src/master/',
       },
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'posts',
+        path: 'posts',
+        routeBasePath: 'posts',
+      },
+    ],
   ],
   themeConfig: {
     matomo: {
@@ -74,6 +82,7 @@ module.exports = {
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
         {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
+        {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'},
         {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
@@ -95,6 +104,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:'https://code.davidawindham.com/david/til/src/master/',
+        },
+        blog: {
+          blogTitle: 'Posts',
+          blogDescription: 'Posts by David Windham',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'Posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
