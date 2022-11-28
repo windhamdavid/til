@@ -47,6 +47,16 @@ module.exports = {
         id: 'posts',
         path: 'posts',
         routeBasePath: 'posts',
+        blogTitle: 'Posts',
+        blogDescription: 'Posts by David Windham',
+        postsPerPage: 'ALL',
+        blogSidebarTitle: 'Posts',
+        blogSidebarCount: 'ALL',
+        feedOptions: {
+          type: null,
+        },
+        showReadingTime: false,
+        editUrl:'https://code.davidawindham.com/david/til/src/master/',
       },
     ],
   ],
@@ -111,14 +121,14 @@ module.exports = {
           postsPerPage: 'ALL',
           blogSidebarTitle: 'Posts',
           blogSidebarCount: 'ALL',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-        blog: {
           feedOptions: {
             type: null,
           },
+          showReadingTime: false,
+          editUrl:'https://code.davidawindham.com/david/til/src/master/',
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
