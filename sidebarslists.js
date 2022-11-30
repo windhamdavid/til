@@ -79,6 +79,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'tweets',
+    },
+    {
+      type: 'doc',
       id: 'quotes',
     },
     {
