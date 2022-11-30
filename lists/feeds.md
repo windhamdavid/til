@@ -7,17 +7,22 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Apple Developer News
   - Linode Blog
   - Google Cloud Blog
-  - Vercel Blog
+  - Vercel News
   - Github Blog
   - Github Trending ( Monthly )
   - Mozilla Foundation Blog
-  - Andreesen Horowitz
+  - Digital Ocean Tutorials
+  - Stack Overflow Blog
 - Stack
+  - Webkit Blog
+  - Chrome Developers
   - GoLang Blog
   - Tailwind News
   - Bootstrap News
   - Laravel News
-  - Wordpress Developer News
+  - Wordpress Developer Blog
+  - Dev Channel
+  - Go Blog
 - Publishers
   - W3C Blog
   - Wikimedia Foundation
@@ -35,4 +40,4 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
 - Other
   - The Red Hand Files - Nick Cave
   - Poetry Foundation 
-  
+  - xkcd.com 
