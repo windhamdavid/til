@@ -16,6 +16,7 @@
 / [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy)
 / [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
 / [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones)
+/ [The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus)
 
 #### Films
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
