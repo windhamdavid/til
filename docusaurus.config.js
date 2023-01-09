@@ -91,9 +91,9 @@ module.exports = {
       items: [
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
-        {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
-        {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'},
         {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
+        {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
+        {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'},      
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
         {

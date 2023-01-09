@@ -3,13 +3,12 @@ title: Notes
 slug: /
 ---
 
+#### I wrote an essay about this page @ [https://davidawindham.com/a-second-brain/](https://davidawindham.com/a-second-brain/)
 
 I've separated the **technical** to [Docs](/docs/) and the **non-technical** to [Notes](index.md). As always, this Notes page started with me trying to solve something. It really bothers me for anything to take away my attention. In this case, I was trying to keep my Apple TV home screen clean so I don't have to see or surf through offers of other stuff to watch.  I curate an 'up next' list and I usually make notes that sync between my devices when someone mentions a movie or show. I usually handle this with 'quick Notes' that sync between devices. That mostly works, but the problem I'd like to have them all in one place so that I can archive and search what I've already watched much the same way I database my music listening habits. This will give me a simple searchable place to store it all without any complex APIs, databases, or whatnot. It's a work in progress :sweat_smile:.
 
 
-### Workflow
-
-#### I wrote an essay about this page @ [https://davidawindham.com/a-second-brain/](https://davidawindham.com/a-second-brain/)
+### About
 
 I like to use Apple Notes and quick mental notes and I started using the [Obsidian](https://obsidian.md) markdown editor for looking at a pile of them on my computer. I noticed is that it's an easy way to map out some sense of order from a set of notes and documents.  The more I looked into it, I noticed that there is a whole subset of folks who are into **PKMs** ( **Personal Knowledge Management** ).  Evidently, I've been doing it for a while now since I'm accustomed to making my own documentation as I build software and websites.  As I was setting up my folder directories on a new computer ( [Ovid](/docs/computers/ovid) ), I noticed that it might be helpful to use the same approach to other aspects of my life so I created another set of documents here for the **non-technical** stuff.
 
@@ -18,28 +17,57 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 
 ## PKM
-What is a personal knowledge manager? And How could I possibly organize these notes?
-
-Space | Time | Energy | Matter | Spirit |
-|-|-|-|-|-|
-|  |  |  | 
-
-Some folks refer to it as a Second Brain -   
-https://maggieappleton.com/basb  
-https://aliabdaal.com/how-to-build-a-second-brain-271393/  
-https://foambubble.github.io/foam/#how-do-i-use-foam  
-https://github.com/ianjsikes/md-graph  
-
-
-
+What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/  
 
 
 ## Table of Contents
-see [TOC](TOC.md)
+
+---
+
+It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. Theoretically, it might look something like:
+
+Space | Time | Energy | Matter | Spirit |
+|-|-|-|-|-|
+|  |  |  |
+
+I'm just going to start adding an outline of potential topics and link to the pages as they are created. 
+
+---
+
+## Health  
+
+### Physical
+
+sleep | food | diet | nutrition | Exercise ( sport - tennis | golf | cycle | paddle / personal -  yoga | pilates | hiking | walking | running )
+
+### Mental
+
+mindset | play | learn | social | meditation | spirit
+
+### Shelter
+
+house | maintain | yard | project | weather | air quality | clothing | shoes
+
+## Wealth
+
+money | assets | investments | expenses  
+
+### Work 
+
+clients | projects | invoices | expenses | network
+
+### Projects
+
+[Zeken Woozer Un-Ltd.](projects/zw) |
+[DW](projects/dw) |
+[GZET](projects/gzet) |
+[Juryd](projects/juryd) |
+[Pants](projects/pants) |
+[The Ham](projects/ham)
 
 
 ---
-### References
+## References
 
 https://en.wikipedia.org/wiki/Ontology_(information_science)  
 https://en.wikipedia.org/wiki/Information_architecture  

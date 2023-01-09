@@ -6,19 +6,31 @@ module.exports = {
     },
     {
       type:'doc',
-      id:'TOC',
+      id:'dogs',
+    },
+    {
+      type:'doc',
+      id:'health',
+    },
+    {
+      type:'doc',
+      id:'house',
+    },
+    {
+      type:'doc',
+      id:'wealth',
     },
     {
       type: 'category',
       label: 'Projects',
-      collapsible: false,
+      collapsible: true,
       items: [
-        'projects/zw',
         'projects/dw',
         'projects/gzet',
+        'projects/ham',
         'projects/juryd',
         'projects/pants',
-        'projects/ham'
+        'projects/zw',
       ],
     },
   ],
