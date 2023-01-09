@@ -3,6 +3,10 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+- January 2023
+  - [A dog can remember 1000 words](posts/dog-training)
+- December 2022
+  - [VS Code on iPad](/posts/vscode-ipad)
 - November 2022
   - [Brian Eno has a nice worldview](/posts/brian-eno-art)
   - [Added Music Playlist to TIL lists](/lists/music#playlists)

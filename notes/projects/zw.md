@@ -1,10 +1,10 @@
-# ZW Un-Ltd LLC
+# ZW 
 
 https://zekenwoozer.com
 
 
 
-##### LLC
+##### Un-Ltd LLC
 
 If a single-member LLC does not elect to be treated as a corporation, the LLC is a "disregarded entity," and the LLC's activities should be reflected on its owner's federal tax return. If the owner is an individual, the activities of the LLC will generally be reflected on:
 
