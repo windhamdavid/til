@@ -40,7 +40,34 @@
 [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard) /
 [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
 
+#### The 25 Best Films of 2022
+[David Ehrlich's Best films videos](https://www.videocountdowns.com)  
 
+[Aftersun](https://en.wikipedia.org/wiki/Aftersun) / 
+[Tár](https://en.wikipedia.org/wiki/Tár) / 
+[Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) / 
+[Hit the Road](https://en.wikipedia.org/wiki/Hit_the_Road_(2021_film)) /
+[Descendant](https://en.wikipedia.org/wiki/Descendant_(2022_film)) / 
+[Return to Seoul](https://en.wikipedia.org/wiki/Return_to_Seoul) / 
+[We're All Going to the World's Fair](https://en.wikipedia.org/wiki/We%27re_All_Going_to_the_World%27s_Fair) / 
+[Crimes of the Future](https://en.wikipedia.org/wiki/Crimes_of_the_Future) / 
+[Decision to Leave](https://en.wikipedia.org/wiki/Decision_to_Leave) / 
+[Nope](https://en.wikipedia.org/wiki/Nope_(film)) / 
+[Jackass Forever](https://en.wikipedia.org/wiki/Jackass_Forever) / 
+[All That Breathes](https://en.wikipedia.org/wiki/All_That_Breathes) / 
+[Top Gun: Maverick](https://en.wikipedia.org/wiki/Top_Gun:_Maverick) / 
+[After Yang](https://en.wikipedia.org/wiki/After_Yang) / 
+[RRR](https://en.wikipedia.org/wiki/RRR_(film)) / 
+[Benediction](https://en.wikipedia.org/wiki/Benediction_(film)) / 
+[EO](https://en.wikipedia.org/wiki/EO_(film)) / 
+[All the Beauty and the Bloodshed](https://en.wikipedia.org/wiki/All_the_Beauty_and_the_Bloodshed) / 
+[Ahed's Knee](https://en.wikipedia.org/wiki/Ahed%27s_Knee) / 
+[Saint Omer](https://en.wikipedia.org/wiki/Saint_Omer) / 
+[Armageddon Time](https://en.wikipedia.org/wiki/Armageddon_Time) / 
+[The Banshees of Inisherin](https://en.wikipedia.org/wiki/The_Banshees_of_Inisherin) / 
+[Resurrection](https://en.wikipedia.org/wiki/Resurrection_(2022_film)) / 
+[The Northman](https://en.wikipedia.org/wiki/The_Northman) / 
+[The Fabelmans](https://en.wikipedia.org/wiki/The_Fabelmans)
 
 #### Shakespeare-athon
 [The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth) / 

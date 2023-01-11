@@ -81,3 +81,19 @@ Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley
  - PBS NOVA - Chaser the Dog Shows Off Her Smarts to Neil deGrasse Tyson - https://www.youtube.com/watch?v=omaHv5sxiFI
  - John Pilley - Chaser the Border Collie - https://www.youtube.com/watch?v=r5MBD0rUTck
  - BBC Earth - Dog Understands 1022 Words! - https://www.youtube.com/watch?v=Ip_uVTWfXyI
+
+### 🗝️ Key ( Words / Signs )
+
+Name
+Come 🫴🏼
+Here 🫴🏼
+Stay 🤚🏼
+Wait 🤚🏼
+Sit 👆🏼
+Lie 👇🏼
+Down 👇🏼
+Go 👉🏼
+Load 👈🏼
+Up 
+Get 
+Fetch
