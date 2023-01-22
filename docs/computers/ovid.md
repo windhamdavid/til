@@ -6,7 +6,20 @@
 
 &nbsp;
 
-[macs](macs) | [magic](magic) | [zeke](zeke) | [woozer](woozer)
+### Log 
+
+23/01/17 - updated homebrew and ran upgrades: brew services restart mariadb/redis/httpd/mongod. other pkgs updated heroku,gh,postgres,python3.10.4,php8.2.1,postgresql@14,mongod6.0.3, 
+``` 
+david@ovid🏛 :~/sites/daw_til(master⚡) » brew --version
+Homebrew 3.6.19
+david@ovid🏛 :~ » brew outdated                                                                 1 ↵
+gobject-introspection (1.72.0) < 1.74.0
+node@14 (14.19.1) < 14.21.2_1
+php@7.4 (7.4.29) < 7.4.33
+python@3.10 (3.10.4) < 3.10.9
+python@3.9 (3.9.13_1) < 3.9.16
+```
+
 
 ## System
 
