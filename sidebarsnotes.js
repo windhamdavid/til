@@ -18,7 +18,15 @@ module.exports = {
     },
     {
       type:'doc',
+      id:'tennis',
+    },
+    {
+      type:'doc',
       id:'wealth',
+    },
+    {
+      type:'doc',
+      id:'work',
     },
     {
       type: 'category',

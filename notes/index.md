@@ -10,53 +10,22 @@ I've separated the **technical** to [Docs](/docs/) and the **non-technical** to 
 
 ### About
 
+What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/  
+
 I like to use Apple Notes and quick mental notes and I started using the [Obsidian](https://obsidian.md) markdown editor for looking at a pile of them on my computer. I noticed is that it's an easy way to map out some sense of order from a set of notes and documents.  The more I looked into it, I noticed that there is a whole subset of folks who are into **PKMs** ( **Personal Knowledge Management** ).  Evidently, I've been doing it for a while now since I'm accustomed to making my own documentation as I build software and websites.  As I was setting up my folder directories on a new computer ( [Ovid](/docs/computers/ovid) ), I noticed that it might be helpful to use the same approach to other aspects of my life so I created another set of documents here for the **non-technical** stuff.
 
 I generally use four lists of reminders to keep up with everything. Groceries, Short-Term, Mid-Term, and Long Term. I put everything on there and I can conveniently access and edit them from any device. For every project I build I keep a _notes.txt file containing all of the pertinent info.  I'm going to merge my old note into this site, so I have them all in one place. **Reminder**: try to match up my existing docs, notes, reminders, and start pages workflow.
 
 
 
-## PKM
-What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/  
-
 
 ## Table of Contents
 
 ---
 
-It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. Theoretically, it might look something like:
+It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. I'm just going to start adding an outline of potential topics and link to the pages as they are created. 
 
-Space | Time | Energy | Matter | Spirit |
-|-|-|-|-|-|
-|  |  |  |
-
-I'm just going to start adding an outline of potential topics and link to the pages as they are created. 
-
----
-
-## Health  
-
-### Physical
-
-sleep | food | diet | nutrition | Exercise ( sport - tennis | golf | cycle | paddle / personal -  yoga | pilates | hiking | walking | running )
-
-### Mental
-
-mindset | play | learn | social | meditation | spirit
-
-### Shelter
-
-house | maintain | yard | project | weather | air quality | clothing | shoes
-
-## Wealth
-
-money | assets | investments | expenses  
-
-### Work 
-
-clients | projects | invoices | expenses | network
-
-### Projects
+[Dogs](dogs) / [Health](health) / [House](house) / Projects / [Wealth](wealth) / Work  
 
 [Zeken Woozer Un-Ltd.](projects/zw) |
 [DW](projects/dw) |
