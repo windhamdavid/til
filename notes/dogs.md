@@ -4,6 +4,8 @@ Just needed a place to put some notes on dogs. We're adopting a new puppy this s
 
 ## About
 
+
+
 **Mom - Zoey**
 Moore Retrievers - https://www.mooreretrievers.com/about
 https://www.facebook.com/mooreretriever/ 
@@ -12,8 +14,7 @@ Carolynn Moore
 315-276-5773 
 A.K.C #s - 
 
-OFA - https://ofa.org/advanced-search/?f=sr&appnum=2313924
-
+OFA - https://ofa.org/advanced-search/?f=sr&appnum=2313924  
 MOORERETRIEVER'S ZOEY - 
 SS17601202
 F GOLDEN GOLDEN RETRIEVER
@@ -22,15 +23,22 @@ Sire: SR99157504 - Granddad - Blue Aubreys Golden
 Dam: SR86644701 - Grandmom - Justin N Jerry's Lizzy
 
 **Dad - Adger**
-Carolina Goldens - https://loyalgoldenretrievers.com/about-us/ 
-https://www.facebook.com/carolina.goldens.1/ 
+Carolina Goldens - https://loyalgoldenretrievers.com/about-us/  
 Danielle & Randy Scruggs
 4369 Chesnee Rd, Rutherfordton, NC 28139
 (828)863-4542
+https://www.facebook.com/permalink.php?story_fbid=pfbid0iyVemBhVxjkJTABe7vF4vZ5Sn8fBocRY1GGo88Zi4KNoQCKqSUe4G4GNJrK3f5aCl&id=100057085434268&__cft__[0]=AZXTmF9OVu2FI6SmtwryKOOM8qcdeo2AOsoYdH-rt-2yGBtVjo2Vji8CNzJzaXYMj_gUFhFHsF8QrUzq46ImT31HlrNB7sL7v-j9HBghHZHEi1LMKABW5XgcRVwzH8CHXL4jSPN1UgvtKdHJsbzPzadYtnHnD7USAuV0-z95DckS_nw_OeSR-8jdAJ8vjPvpAofzMoDc1xxi8ySVGwAHBuGf&__tn__=%2CO%2CP-R  
+https://www.facebook.com/carolina.goldens.1/  
+https://www.facebook.com/people/Carolina-Goldens/100057085434268/  
 Videos of parents - https://www.youtube.com/@randys6799
 Adger - ( Moore Retrievers’ Zoey ) https://4x521b.p3cdn1.secureserver.net/wp-content/uploads/2020/09/Adger-1.jpg
 
 ### Names: 
+
+**Name**: **Iris of Zoey & Adger**  ( **Iris** )   
+meaning: As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. The personification of a rainbow linking the heavens and earth. The rainbow's arc spanned the distance between cloud and sea and so the goddess was believed to replenish the rain-clouds with water from the sea. She was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities. She often carried water from the river Styx which separated earth from the underworld. Iris was often described acting as an intermediary between Hera queen of the gods and Hypnos the god of sleep.
+( Ovid, Metamorphoses / Virgil, Aeneid / Homer, Iliad )  
+
 The surname Adger is likely of English or Scottish origin. It is possible that the name Adger is derived from the Old English personal name Eadgar, which means "rich spear.”
 
 The name Zoey is of Greek origin and means "life". It is a feminine given name, often used as a shortened form of the name Zoe.
@@ -72,7 +80,19 @@ Wyoming Department of Education - https://www.youtube.com/watch?v=ZPHr2v8ycsw
 
 ## Organizations:
 
-PAALS - Palmetto Animal Assisted Life Services - https://www.paals.org/about
+PAALS - Palmetto Animal Assisted Life Services - https://www.paals.org/about  
+
+Disability Rights SC - Service Animvals - https://www.disabilityrightssc.org/wp-content/uploads/2022/08/AssistanceAnimalsFactSheet_accessible.pdf  
+
+Assistance Dogs International - https://assistancedogsinternational.org  
+
+Melissa Yetter - Service Dog Institute - https://theservicedoginstitute.org  
+https://www.linkedin.com/in/melissa-yetter-394a0a14  
+
+South Carolina Dogs Therapy Group - http://www.scdogs.org
+
+
+
 
 
 ## Training:
@@ -82,7 +102,20 @@ Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley
  - John Pilley - Chaser the Border Collie - https://www.youtube.com/watch?v=r5MBD0rUTck
  - BBC Earth - Dog Understands 1022 Words! - https://www.youtube.com/watch?v=Ip_uVTWfXyI
 
-### 🗝️ Key ( Words / Signs )
+
+Keen Dog Training Rock Hill SC - https://www.keendogtraining.com/team  
+Keen Dog Training puppy training series - https://www.youtube.com/watch?v=aj3kVFx_AMQ&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
+Keen Dog - What to focus on Month 2 - https://www.youtube.com/watch?v=9__L9N1V2jE&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu  
+
+
+### Equipment
+
+Halo Collar Training - https://vimeo.com/halocollar 
+
+
+### Key 🗝️ 
+
+#### Words / Signs
 
 Name
 Come 🫴🏼
@@ -97,3 +130,16 @@ Load 👈🏼
 Up 
 Get 
 Fetch
+
+#### Buttons
+
+Fitzgerald Key for Augmented and alternative communication - https://www.communicationcommunity.com/fitzgerald-key-for-aac/  
+
+
+### Log 
+
+23.4 - Litter pick  
+23.5 - 8 Week Pickup date  
+23.6 - 12 week pickup date  
+
+4-6 months Toothing. No Tug
