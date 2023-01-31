@@ -63,3 +63,31 @@ Matches begin at 5 and can last up to four hours. I try to get them started earl
 8. 2016 Olympics Women’s Doubles Final - https://www.youtube.com/watch?v=0YnHY_OQRDU
 9. 2020 US Open Women’s Double Final - https://www.youtube.com/watch?v=Ax-5eRisYzA
 10. 2020 Hopman Cup - Mixed Doubles Final - https://www.youtube.com/watch?v=JlrzSvCsIjE
+
+
+## Coach Bio 
+
+
+1. Did you play Tennis when you were younger? 
+
+I started playing tennis in third or fourth grade and was introduced to junior league tennis by my friend's parents. I began taking it more seriously after I started winning tournaments and made the high school team while still in middle school. One of the best things about tennis is that it can be played at any age. 
+
+2. Why did you decide to teach girls tennis? 
+
+I wanted to give back to my community and I have a deep respect for the game of tennis. I value watching new players learn the challenges and rewards of playing.  I enjoyed being the assistant coach before I was asked to be the head coach.  
+
+3. What is your favorite thing about coming to Emerald? 
+
+It reminds me of being in school and the many years bringing my wife lunch, who had an office at Emerald High school while serving as the school psychologist. I hope one day that we will have our own tennis courts at Emerald so that we might introduce the game to other students in physical education classes. 
+
+4. What is your favorite quote? 
+
+"A master in the art of living draws no sharp distinction between his work and his play; his labor and his leisure; his mind and his body; his education and his recreation. He hardly knows which is which. He simply pursues his vision of excellence through whatever he is doing, and leaves others to determine whether he is working or playing. To himself, he always appears to be doing both.” ~ Lawrence Pearsall Jacks ( Education through Recreation, 1932 )
+
+
+And if you are able could you send me a picture of you from your shoulders and up? 
+
+I do not have a headshot, but here’s a photo of me playing tennis. - https://davidawindham.com/collaboration-vs-competition/
+
+
+I’m happy to be coaching the Emerald High School Tennis teams. Even though I have a lot of tennis experience, I am relatively new to coaching. In 2022, I was asked to be assistant coach by the previous coach and the athletic director at Emerald asked me if I’d be interested in becoming head coach in 2022. I work as an independent software and web developer so my schedule is gracious enough to allow me to coach and play tennis. I’ve found great rewards from watching the kids learn and grow. I grew up in Columbia and played a lot of tennis as a junior becoming all-region in high school and state-ranked. I had some really good coaches as a junior and a scholarship to play tennis at Lander. At the time, I told my parents that ‘I didn’t want to live in Greenwood’, so it’s funny how things work out. I started back playing tennis about six years ago for the health benefits. Tennis is a very rewarding and demanding sport both physically and mentally. My approach is that I want them to grow as players who are able to have fun in the process. Ginny, my wife, also plays tennis and will be my assistant coach. She is the director of Special Education for Greenwood District 50. Ginny previously worked as the lead psychologist for the district and had an office at Emerald for many years.
