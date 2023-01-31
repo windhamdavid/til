@@ -15,6 +15,7 @@ Because sometimes I forget how to drive the software I'm running.
 npm install
 npm run start
 npm run build  
+npm run serve
 ```
 
 
@@ -39,6 +40,23 @@ gitGraph
     merge docusaurus
 
 ```
+#### 22/01/31
+- upgraded to docusaurus v2.3.0
+```shell
+david@ovid🏛 :~/sites/daw_til(master⚡) » npm list     
+daw-til-2@0.0.1 /Users/david/Sites/daw_til
+├── @docusaurus/core@2.3.0
+├── @docusaurus/plugin-content-blog@2.3.0
+├── @docusaurus/preset-classic@2.3.0
+├── @docusaurus/theme-mermaid@2.3.0
+├── @mdx-js/react@1.6.22
+├── clsx@1.2.1
+├── docusaurus-lunr-search@2.3.2
+├── docusaurus-plugin-matomo@0.0.6
+├── react-dom@17.0.2
+└── react@17.0.2
+```
+
 #### 22/11/13
 
 - added a Reader page
