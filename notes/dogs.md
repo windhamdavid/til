@@ -1,6 +1,17 @@
+---
+id: dogs
+title: Dogs
+description: Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care.
+---
+
+<head>
+  <meta property="og:image" content="https://davidawindham.com/til/assets/files/zoey+adger-a352750ec382f065ac89d02f0427b214.jpg" />
+  <meta name="twitter:image" content="https://davidawindham.com/til/assets/files/zoey+adger-a352750ec382f065ac89d02f0427b214.jpg" />
+</head>
+
 # Dogs
 
-23.01.09 - Just needed a place to put some notes on dogs since We're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take to to schools to work with kids.  
+23.01.09 - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take to to schools to work with kids.  
 
 ## About
 
