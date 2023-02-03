@@ -1,9 +1,19 @@
 # Zeke 🦮
 
-## Ubuntu 20.04.01
+## Log
 
-**20/10/08** - Waited until the first point release to avoid bugs. Clean install:
-Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
+**23.02.03** - Leaving Zeke ( this server ) on version 18.04.6 for now. EOL ( End of Life ) is April 2023, so it will also be upgraded soon. Decided to bring [Woozer](woozer) up to Ubuntu v22.04.1 first and enable the Ubuntu pro ESM ( Expanded Security Maintenance ) https://ubuntu.com/pro/tutorial  
+
+
+disable the Expanded Security Maintenance notification. 
+
+```bash 
+sudo chmod 0644 /etc/update-motd.d/88-esm-announce
+sudo chmod 0644 /etc/update-motd.d/91-contract-ua-esm-status
+```
+
+
+**20/10/08** - Waited until the first point release to avoid bugs for Ubuntu 20.04.01. Clean install:  Deploy new Linode / Secure the server / Install packages / cp files and data / swap IP address / reboot
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade

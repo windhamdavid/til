@@ -7,7 +7,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Art',
-      collapsible: false,
+      collapsible: true,
       items: [
         'art',
         'film',
@@ -15,7 +15,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Music',
-          collapsible: false,
+          collapsible: true,
           link: {
             type:'doc',
             id:'music/music',

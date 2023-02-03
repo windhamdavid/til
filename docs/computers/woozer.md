@@ -1,7 +1,10 @@
 # Woozer 🦮
 
+## Log
 
-21/03/17 - Migrated data centers on Woozer and had an issue with php7.2-fpm overriding the php7.4-fpm config. Looks like the auto php config defaulted it back and lost the sock. Had to replace the sock/pid for 7.4 monit and disable the 7.2-fpm.conf.
+**23.02.03** - Started making notes on migrating to a new server with Ubuntu v22.04.1 LTS ( Jammy Jellyfish ). 
+
+**21/03/17** - Migrated data centers on Woozer and had an issue with php7.2-fpm overriding the php7.4-fpm config. Looks like the auto php config defaulted it back and lost the sock. Had to replace the sock/pid for 7.4 monit and disable the 7.2-fpm.conf.
 ```bash
 @woozer:/run/php » ls
 php7.2-fpm.pid  php7.2-fpm.sock  php7.4-fpm.pid  php7.4-fpm.sock  php8.0-fpm.pid  php8.0-fpm.sock  php-fpm.sock
@@ -217,7 +220,7 @@ david@woozer:~ sudo dpkg --list
 # local version of this on macs                  
 ```   
 
-### init (setup)
+## init (setup)
 
 ```bash
 

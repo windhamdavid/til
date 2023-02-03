@@ -11,7 +11,7 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 
 # Dogs
 
-23.01.09 - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take to to schools to work with kids.  
+23.01.09 - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids.  
 
 ## About
 
@@ -48,7 +48,7 @@ Name: **Iris** ( **Iris of Zoey & Adger** ) / of Zeken Woozer
 meaning: As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. The personification of a rainbow linking the heavens and earth. The rainbow's arc spanned the distance between cloud and sea and so the goddess was believed to replenish the rain-clouds with water from the sea. She was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities. She often carried water from the river Styx which separated earth from the underworld. Iris was often described acting as an intermediary between Hera queen of the gods and Hypnos the god of sleep.
 ( Ovid, Metamorphoses / Virgil, Aeneid / Homer, Iliad ) 
 
-**Daffodil** - Her Sister
+**Daffodil** - Her Sister ( from another litter )
 
 The surname **Adger** is likely of English or Scottish origin. It is possible that the name Adger is derived from the Old English personal name Eadgar, which means "rich spear.”
 
@@ -175,8 +175,10 @@ Fitzgerald Key for Augmented and alternative communication - https://www.communi
 
 ### Log 
 
-23.4 - Litter pick  
-23.5 - 8 Week Pickup date  
-23.6 - 12 week pickup date  
+23.01.10 - date w/ Adger
+23.03.15 - 65 day due date
+23.05.01 - 6 week litter pick  
+23.06.01 - 8 Week pickup date  
+23.07.01 - 12 week pickup date  
 
-4-6 months Toothing. No Tug
+4-6 Months -  Toothing: No Tug
