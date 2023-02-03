@@ -1,5 +1,19 @@
 # Places
 
+## Indexes
+
+### South Carolina  
+
+[Greenwood, South Carolina](greenwood)  
+[Charleston, South Carolina](charleston)  
+[Columbia, South Carolina](columbia)
+
+### North Carolina
+
+
+
+## Favorites
+
 ### US
 
 [St. John, USVI](https://en.wikipedia.org/wiki/Saint_John,_U.S._Virgin_Islands) /

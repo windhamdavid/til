@@ -55,15 +55,37 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'next',
-    },
-    {
-      type: 'doc',
       id: 'lists',
     },
     {
       type: 'doc',
-      id: 'places',
+      id: 'next',
+    },
+    {
+      type: 'category',
+      label: 'Places',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'places/places',
+      },
+      items: [
+        {
+          type:'doc',
+          id: 'places/greenwood',
+          label:'Greenwood',
+        },
+        {
+          type:'doc',
+          id: 'places/columbia',
+          label:'Columbia',
+        },
+        {
+          type:'doc',
+          id: 'places/charleston',
+          label:'Charleston',
+        },
+      ],
     },
     {
       type: 'doc',
