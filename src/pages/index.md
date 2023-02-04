@@ -11,7 +11,7 @@ description: A place to keep notes and documentation
   - [VS Code on iPad](/posts/vscode-ipad)
 - November 2022
   - [Brian Eno has a nice worldview](/posts/brian-eno-art)
-  - [Added Music Playlist to TIL lists](/lists/music#playlists)
+  - [Added Music Playlist to TIL lists](/lists/art/music#playlists)
   - [updated Docusaurus to v2.2.0](/help#log)
 - July 2022
   - [Added an 'Up Next' TIL list](/lists/next)

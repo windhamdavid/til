@@ -15,24 +15,23 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 I've moved this old repo into this TIL project to simplify. 
 
-- 22.11 - Added [Music Playlists](music#playlists), a [feeds list](feeds), and my [tweeps](people)
+- 22.11 - Added [Music Playlists](art/music#playlists), a [feeds list](feeds), and my [tweeps](people)
 - 22.04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
 - 22.07 - Added [Up next](next) page as a replacement for using my bookmarks site to keep up with my future attention.
 
 ### Lists
 
 [Art](art)
+/ [Film](art/motion)
+/ [Literature](art/lit)
+/ [Music](art/music)
 / [Concepts](concepts)
 / [Feeds](feeds)
-/ [Film](film)
-/ [Literature](lit)
-/ [Music](music)
-/ [Next](next)
 / [Other](lists)
 / [People](people)
 / [Places](places)
 / [Quotes](quotes)
-
 / [Things](things)
 / [Trivia](trivia)
 / [Words](words)
+/ [Next](next)
