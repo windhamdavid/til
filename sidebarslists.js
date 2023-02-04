@@ -8,40 +8,48 @@ module.exports = {
       type: 'category',
       label: 'Art',
       collapsible: true,
+      link: {
+        type:'doc',
+        id:'art/art',
+      },
       items: [
-        'art',
-        'film',
-        'lit',
+        'art/lit',
+        'art/motion',
         {
           type: 'category',
           label: 'Music',
           collapsible: true,
           link: {
             type:'doc',
-            id:'music/music',
+            id:'art/music/music',
           },
           items: [
             {
               type:'doc',
-              id: 'music/playlist',
+              id: 'art/music/playlist',
               label:'Playlist',
             },
             {
               type:'doc',
-              id: 'music/playlist_2020',
+              id: 'art/music/playlist_2020',
               label:'- 2020',
             },
             {
               type:'doc',
-              id: 'music/playlist_2015',
+              id: 'art/music/playlist_2015',
               label:'2020-2015',
             },
             {
               type:'doc',
-              id: 'music/playlist_2010',
+              id: 'art/music/playlist_2010',
               label:'2015-2010',
             },
           ],
+        },
+        {
+          type:'doc',
+          id: 'art/visual',
+          label:'Visual',
         },
       ],
     },
@@ -56,10 +64,6 @@ module.exports = {
     {
       type: 'doc',
       id: 'lists',
-    },
-    {
-      type: 'doc',
-      id: 'next',
     },
     {
       type: 'category',
@@ -110,6 +114,10 @@ module.exports = {
     {
       type: 'doc',
       id: 'words',
+    },
+    {
+      type: 'doc',
+      id: 'next',
     },
   ],
 };
