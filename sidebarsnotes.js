@@ -6,7 +6,15 @@ module.exports = {
     },
     {
       type:'doc',
+      id:'art',
+    },
+    {
+      type:'doc',
       id:'dogs',
+    },
+    {
+      type:'doc',
+      id:'golf',
     },
     {
       type:'doc',

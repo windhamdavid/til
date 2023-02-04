@@ -1,6 +1,8 @@
-# Next
+# Up Next
 
-( 22/07/06 ) I added this page so that I could set reminders of shows, films, podcasts, games, and books I'd like to give me attention to because I'm often trying to remember what it was I wanted to watch on TV.  I wrote a post about it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
+**22/07/06** - I added this page so that I could set reminders of shows, films, podcasts, games, and books I'd like to give me attention to because I'm often trying to remember what it was I wanted to watch on TV.  I wrote a post about it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
+
+Below is just a list of the items I'm currently watching or up next.
 
 ---
 ### Video
@@ -11,12 +13,11 @@
 / [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
 / [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series))
 / [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
-/ [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!)
 / [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
 / [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy)
 / [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
-/ [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones)
-/ [The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus)
+
+
 
 #### Films
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
@@ -103,8 +104,14 @@
 [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad) /
 
 ---
-### Recently Finished ( rating )
+### Recently Finished 
 
-[Delicious](https://www.imdb.com/title/tt10738536/) (8) / 
-[Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (7) / 
-[Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (7)
+( Rating 0/100)
+
+[Delicious](https://www.imdb.com/title/tt10738536/) (80) / 
+[Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (75) / 
+[Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (70) / 
+[Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) (65) / 
+[The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78) / 
+[The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93) / 
+[Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
