@@ -2,6 +2,11 @@
 
 ## Log
 
+**23.02.05** remove TLSv1 and 1.1 from /etc/apache2/mods-enabled/ssl.conf
+```bash 
+SSLProtocol all -SSLv3 -TLSv1 -TLSv1.1
+```
+
 **23.02.03** - Leaving Zeke ( this server ) on version 18.04.6 for now. EOL ( End of Life ) is April 2023, so it will also be upgraded soon. Decided to bring [Woozer](woozer) up to Ubuntu v22.04.1 first and enable the Ubuntu pro ESM ( Expanded Security Maintenance ) https://ubuntu.com/pro/tutorial  
 
 
