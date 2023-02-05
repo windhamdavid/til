@@ -12,6 +12,7 @@ module.exports = {
         'computers/magic',
         'computers/ovid',
         'computers/woozer',
+        'computers/woozie',
         'computers/zeke'
       ],
     },
