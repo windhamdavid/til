@@ -1,13 +1,17 @@
 # Woozie 🦮
 
-**23.02.04** - Documentation for the migration of [Woozer](woozer)
+**23.02.04** - Documentation for the server migration of [Woozer](woozer) to [Woozie](woozie). I'm running into the EOL on April 2023, so I'm giving myself some buffer time. 
 
 ## Log
+
+**23.02.04** - Init
 
 ## Info 
 173.230.130.234  
 2600:3c02::f03c:93ff:fefc:319e  
-Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)
+Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
+AMD EPYC 7542 32-Core Processor - 4 Cores
+8GB Ram 512 Swap / 200GB Storage
 
 * Woozie - Linode Initial Configuration - Completed Sat, 04 Feb 2023 22:08:07 GMT
 * Woozie - Deploy from distribution - Completed Sat, 04 Feb 2023 22:08:07 GMT
@@ -274,6 +278,9 @@ sudo vi /etc/apache2/mods-available/ssl.conf
 SSLProtocol -all +TLSv1.2
 SSLCipherSuite HIGH:!aNULL:!MD5:!3DES
 sudo systemctl restart apache2
+
+# List modules 
+sudo apachectl -M | sort
 
 ```
 
