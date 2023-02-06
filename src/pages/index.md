@@ -4,6 +4,7 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - February 2023
+  - [Ubuntu 22.04 adds Ruby 3.0 and Go 1.18](/docs/computers/woozie)
   - [Brook Shields grandfather won Wimbledon](posts/once-upon-time-hollywood)
 - January 2023
   - [A dog can remember 1000 words](posts/dog-training)
