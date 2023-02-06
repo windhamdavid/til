@@ -1,6 +1,6 @@
 # Woozie 🦮
 
-**23.02.04** - Documentation for the server migration of [Woozer](woozer) to [Woozie](woozie). I'm running into the EOL on April 2023, so I'm giving myself some buffer time. 
+**23.02.04** - Documentation for the server migration of [Woozer](woozer) to [Woozie](woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. 
 
 ## Log
 
@@ -8,9 +8,11 @@
 
 ## Info 
 173.230.130.234  
+http://173.230.130.234  
+https://dv.davidawindham.com  
 2600:3c02::f03c:93ff:fefc:319e  
 Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
-AMD EPYC 7542 32-Core Processor - 4 Cores
+AMD EPYC 7542 32-Core Processor
 8GB Ram 512 Swap / 200GB Storage
 
 * Woozie - Linode Initial Configuration - Completed Sat, 04 Feb 2023 22:08:07 GMT
