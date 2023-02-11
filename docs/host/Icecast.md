@@ -4,16 +4,21 @@
 
 ---
 
-20/02/21 - The Icecast2 gpg package key expired last month and the one available at Xiph hadn't been updated. I used the one from OpenSuse and installed the new key via:
+**23.02.08** - Since I'm migrating this to a new server, I noticed that I had installed both 18.04 and 18.10 versions in /etc/apt/sources.list.d/icecast.list. I removed one version and updated the key with:  
+
+```bash
+wget -qO - http://icecast.org/multimedia-obs.key | sudo apt-key add -
 ```
-wget -qO - https://download.opensuse.org/repositories/multimedia:/xiph/xUbuntu_18.10/Release.key  | sudo apt-key add -
+
+**20/02/21** - The Icecast2 gpg package key expired last month and the one available at Xiph hadn't been updated. I used the one from OpenSuse and installed the new key via:  
+
+```bash
+wget -qO - https://download.opensuse.org/repositories/multimedia:/xiph/xUbuntu_18.04/Release.key  | sudo apt-key add -
 ```
 
 **11/08/18** - I'll need this for later. A server update to Icecast overwrote ( because I was in a rush and didn't pay attention for the first couple of inputs ) some of the xml files I was using to pull data into my broadcast page @ [radio.davidawindham.com](http://radio.davidawindham.com)
 
-
-
-```javascript
+```bash
 
 Setting up icecast2 (2.4.4-1) ...
 
