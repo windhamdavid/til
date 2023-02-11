@@ -6,6 +6,11 @@
 
 ## Notes: 
 
+#### 23.02.11
+
+- mv master to main
+- migrate to [woozie](https://davidawindham.com/til/docs/computers/woozie/)
+
 #### 22/11/13
 
 - upgraded to v.2.2.0
