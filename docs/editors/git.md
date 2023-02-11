@@ -1,7 +1,18 @@
 # git
 * [https://git-scm.com/](https://git-scm.com/)
 
-#### notes:
+### Notes:
+
+Migrate Master to Main 
+
+```bash
+git branch -m master main
+gpom ( git push origin main )
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+git push origin --delete master
+git push code --delete master
+
+```
 
 Sparse checkout
 * [https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/](https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/)
