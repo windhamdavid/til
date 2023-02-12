@@ -66,13 +66,15 @@ sudo systemctl restart gogs
 # create directory for log/backup
 sudo mkdir -p /var/www/code.davidawindham.com/{log,backup}
 sudo chown david:www-data -R /var/www/code.davidawindham.com/
-sudo a2ensite code.davidawindham.com.conf
-sudo systemctl reload apache2
 
 # on woozer
 sudo certbot delete --cert-name code.davidawindham.com
 
 # change the domain -> dns edit
+sudo a2ensite code.davidawindham.com.conf
+sudo a2dissite cd.davidawindham.com.conf
+sudo systemctl reload apache2
+sudo rm cd.davidawindham.com.conf
 sudo certbot --apache -d code.davidawindham.com -d www.code.davidawindham.com
 sudo vi gogs/custom/conf/app.ini
 
