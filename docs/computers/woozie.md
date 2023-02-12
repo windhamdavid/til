@@ -4,22 +4,25 @@
 
 **23.02.04** - Documentation for the server migration of [Woozer](woozer) to [Woozie](woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidawindham.com/human-updates-available/).
 
-
-
 ## Log
 
 **23.02.04** - Init
 
 ### Todo
 
-- Monit actions work but redirect to root /url
+- Monit actions redirect to root /url
 - email settings for code.daw
+- custom 503 pages for Apache/Nginx
+- gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
+- [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
+- radio/stream/rmtp 
 
 ### Migration
 
 Transfer IP address - [Docs](https://www.linode.com/docs/products/compute/compute-instances/guides/manage-ip-addresses/#transferring-ip-addresses)  
 SCP (secure copy)
-```bash 
+
+```bash
 # add key on woozer
 ssh-keygen ssh-keygen -t ed25519 -f ~/.ssh/tempkey
 # on woozie 
@@ -27,24 +30,24 @@ scp -P (port) -C -i ~/.ssh/tempkey -p -r user@ip.ip.ip.ip:/home/user/dir /home/u
 scp -P (port) -C -i ~/.ssh/tempkey -p user@ip.ip.ip.ip:/home/user/file /home/user/dir
 ```
 
-
 ## System
 
-### Info 
+### Info
+
 173.230.130.234  
-http://173.230.130.234  
-https://dv.davidawindham.com  
+<http://173.230.130.234>  
+<https://dv.davidawindham.com>  
 2600:3c02::f03c:93ff:fefc:319e  
 Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
-AMD EPYC 7542 32-Core Processor
+AMD EPYC 7542 32-Core Processor  
 8GB Ram 512 Swap / 200GB Storage
 
-* Woozie - Linode Initial Configuration - Completed Sat, 04 Feb 2023 22:08:07 GMT
-* Woozie - Deploy from distribution - Completed Sat, 04 Feb 2023 22:08:07 GMT
-* Woozie - Create Swap - Completed Sat, 04 Feb 2023 22:08:39 GMT
-* Woozie - System Boot - Ubuntu 22.04 LTS Disk - Completed Sat, 04 Feb 2023 22:08:40 GMT
+- Woozie - Linode Initial Configuration - Completed Sat, 04 Feb 2023 22:08:07 GMT
+- Woozie - Deploy from distribution - Completed Sat, 04 Feb 2023 22:08:07 GMT
+- Woozie - Create Swap - Completed Sat, 04 Feb 2023 22:08:39 GMT
+- Woozie - System Boot - Ubuntu 22.04 LTS Disk - Completed Sat, 04 Feb 2023 22:08:40 GMT
 
-```bash 
+```bash
 *******@woozie:~ » lscpu
 Architecture:            x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -145,9 +148,9 @@ sudo chmod 0644 /etc/update-motd.d/91-contract-ua-esm-status
 
 Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)
 
-	     .     . .              .       .  . 
-	. . ...-..-| |-. .-. .-.-..-| .-.. ...-| 
-	 ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
+     .     . .              .       .  . 
+. . ...-..-| |-. .-. .-.-..-| .-.. ...-| 
+ ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
 
   System information as of Sat Feb  4 06:14:51 PM EST 2023
 
@@ -161,7 +164,6 @@ Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)
   IPv6 address for eth0: 2600:3c02::f03c:93ff:fefc:319e
 
 0 updates can be applied immediately.
-
 ```
 
 ### systemd
@@ -196,25 +198,25 @@ sudo crontab -e
 # mysql-cron.sh
 #!/bin/sh
 #Backup 'gg' to /home/user/backups/
-mysqldump gg --user=******* --password='*******' > /home/david/backups/$(date +"%Y%m%d").gg.sql
+mysqldump gg --user=******* --password='*******' > /home/user/backups/$(date +"%Y%m%d").gg.sql
 #Optimize tables in 'gg'
 mysqlcheck -o gg --user=******* --password='*******'
 
 ```
 
-## Security 
+## Security
 
+### IPtables
 
-
-### IPtables 
-
-```bash 
+```bash
 #show iptables
 sudo iptables -L
 sudo ip6tables -L
 # verbose
 sudo iptables -vL
 sudo ip6tables -vL
+
+sudo iptables -L --line-numbers
 sudo iptables -L -nv --line-numbers
 
 # Allow all loopback (lo0) traffic and reject traffic
@@ -251,6 +253,7 @@ sudo ip6tables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "ip6tables_IN
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT (http)
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT (https)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monit)
+sudo iptables -A INPUT -p tcp --dport 7890 -j ACCEPT (monitor)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (ssh)
 
 sudo ip6tables -A INPUT -p tcp --dport 80 -m state --state NEW -j ACCEPT
@@ -290,9 +293,14 @@ sudo /sbin/iptables-restore < /etc/iptables/rules.v4
 sudo /sbin/iptables-restore < /etc/iptables/rules.v6
 
 # re-save persistent
-sudo dpkg-reconfigure iptables-persistent
+sudo dpkg-reconfigure iptables-persistent netfilter-persistent
+sudo systemctl restart netfilter-persistent
 Reboot to test iptables
 
+# insert rules with line number
+sudo iptables -L --line-numbers
+sudo iptables -L -nv --line-numbers
+sudo iptables -I INPUT (line-number) -p tcp --dport #### -j ACCEPT
 ```
 
 ### Monitor
@@ -306,6 +314,32 @@ sudo apt install netstat
 sudo netstat -ntlp | grep -i 3000
 ```
 
+### GoAccess
+
+```bash
+sudo apt-get install goaccess
+sudo vi /etc/goaccess/goaccess.conf
+# Set wss-url, ssl-key, etc. 
+# NCSA Combined Log Format with Virtual Host
+log-format %v:%^ %h %^[%d:%t %^] "%r" %s %b "%R" "%u"
+
+# block access 
+<Location /monitor/>
+    Require ip 0.0.0.0
+</Location>
+
+# cron to keep it updated for quick reference
+sudo vi ~/user/scripts/monitor.sh
+goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html >> /home/user/logs/cron.log 2>&1
+
+# run daily at 6am
+sudo crontab -e
+0 6  * * * /home/user/scripts/monitor.sh
+
+# real time output
+sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html --real-time-html
+```
+
 ### Monit
 
 ```bash
@@ -313,8 +347,10 @@ sudo apt-get install monit
 sudo service monit stop/start/restart/reload/status all/check -t
 
 sudo vi /etc/monit/monitrc
-  set daemon 600            #10 min intervals
-    with start delay 240    #delay start 4min
+# 10 min intervals so as not to drain CPU and/or alert on manual restarts
+  set daemon 600
+# 4 min delay start          
+    with start delay 240    
 
   set alert email@email.com
   set mailserver smtp.gmail.com port 587
@@ -356,7 +392,20 @@ sudo service monit status
         CPU: 123ms
      CGroup: /system.slice/monit.service
              └─5635 /usr/bin/monit -c /etc/monit/monitrc
+```
 
+### Blacklist
+
+see repo @ <https://code.davidawindham.com/david/custom.d>
+
+```bash
+sudo vi /etc/apache2/apache2.conf
+######## GLOBAL BLACKLIST ##########
+<Location "/">
+ AuthMerging And
+ Include custom.d/globalblacklist.conf
+</Location>
+sudo systemctl restart apache2
 ```
 
 ### Audit
@@ -542,11 +591,21 @@ sudo a2ensite dv.davidawindham.com.conf
 </VirtualHost>
 
 sudo certbot --apache -d dv.davidawindham.com -d www.dv.davidawindham.com
+
+<VirtualHost *:443>
+...
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateFile /etc/letsencrypt/live/dv.davidawindham.com/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/dv.davidawindham.com/privkey.pem
+</VirtualHost>
+
 sudo systemctl restart apache2
 ```
 
 ### Gogs
+
 see - [/docs/host/gogs](/docs/host/Gogs)
+
 ```bash
 sudo cp /home/******/gogs/scripts/systemd/gogs.service /etc/systemd/system/
 sudo systemctl start gogs
@@ -569,7 +628,7 @@ Feb 10 16:07:32 woozie gogs[31027]: 2023/02/10 16:07:32
 
 ### MariaDB
 
-```bash 
+```bash
 sudo apt install mariadb-server
 sudo mysql_secure_installation
   Change the root password? n
@@ -594,11 +653,11 @@ sudo systemctl status mariadb
 
 sudo mysqladmin -p -u root version
 mysqladmin  Ver 9.1 Distrib 10.6.11-MariaDB, for debian-linux-gnu on x86_64
-Server version		10.6.11-MariaDB-0ubuntu0.22.04.1
-Protocol version	10
-Connection		Localhost via UNIX socket
-UNIX socket		/run/mysqld/mysqld.sock
-Uptime:			5 min 38 sec
+Server version 10.6.11-MariaDB-0ubuntu0.22.04.1
+Protocol version 10
+Connection Localhost via UNIX socket
+UNIX socket /run/mysqld/mysqld.sock
+Uptime: 5 min 38 sec
 
 #obsure root user
 sudo mariadb
@@ -644,6 +703,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON `database`.* TO 'pma'@'localhost';
 ## Languages
 
 ### Go
+
 ```bash
 sudo apt-get install golang-go
 export PATH=$PATH:/usr/local/go/bin
@@ -652,8 +712,6 @@ go version go1.18.1 linux/amd64
 ```
 
 ### Node
-
-
 
 ### PHP
 
@@ -696,11 +754,12 @@ sudo systemctl status php8.1-fpm
 sudo systemctl restart apache2
 
 ```
+
 ### Python
-```bash 
+
+```bash
 python3
 Python 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0] on linux
-
 ```
 
 ### Ruby
