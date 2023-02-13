@@ -10,12 +10,18 @@
 
 ### Todo
 
-- Monit actions redirect to root /url
 - email settings for code.daw
-- custom 503 pages for Apache/Nginx
+- custom apache/nginx error pages
 - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
 - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
-- radio/stream/rmtp
+- radio.daw stream.daw
+- daw.com/wik/mail/reader/bookmarks
+- block port for rmtp with auth
+- add nginx to monit
+- Monit actions redirect to root /url
+- longview MariaDB conf 
+- apache/nginx combined log for monitor.
+- monitor real-time on reboot
 
 ### Migration
 
@@ -548,6 +554,8 @@ sudo truncate -s 0 /var/www/cd.davidawindham.com/log/*.log
 ```
 
 ### Nginx
+
+see [/docs/server/nginx](/docs/server/nginx)
 
 ```bash
 sudo apt install nginx
