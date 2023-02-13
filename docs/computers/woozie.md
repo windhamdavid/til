@@ -15,7 +15,7 @@
 - custom 503 pages for Apache/Nginx
 - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
 - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
-- radio/stream/rmtp 
+- radio/stream/rmtp
 
 ### Migration
 
@@ -166,9 +166,20 @@ Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)
 0 updates can be applied immediately.
 ```
 
-### systemd
+### Shell 
 
-### packages
+```bash
+cd ~
+touch .vimrc
+vi .vimrc
+set tabstop=2
+set shiftwidth=2
+set expandtab
+```
+
+### Systemd
+
+### Packages
 
 ```bash
 apt list --installed
@@ -184,16 +195,17 @@ apt-get –-purge remove packagename
 
 ```
 
-### Backup
+### Cron
 
 System keeps daily, a 2-7 day old, and 8-14 day old
 
 ```bash
 # crontab
 sudo crontab -e
-11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
+# db optimize/backup every Sunday at 01:11
 11 1 * * 0 /home/user/scripts/mysql-cron.sh
-30 8 * * * /home/user/scripts/monitor.sh
+# log monitor every morning at 00:01
+1 0 * * * /home/user/scripts/monitor.sh
 
 # mysql-cron.sh
 #!/bin/sh
@@ -253,8 +265,10 @@ sudo ip6tables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "ip6tables_IN
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT (http)
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT (https)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monit)
-sudo iptables -A INPUT -p tcp --dport 7890 -j ACCEPT (monitor)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monitor)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (ssh)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (rmtp)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (nginx proxy)
 
 sudo ip6tables -A INPUT -p tcp --dport 80 -m state --state NEW -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 443 -m state --state NEW -j ACCEPT
@@ -271,7 +285,6 @@ sudo iptables -A INPUT -j REJECT
 
 sudo ip6tables -A FORWARD -j REJECT
 sudo ip6tables -A INPUT -j REJECT
-
 
 ## make it persistent
 apt-get install iptables-persistent
@@ -312,6 +325,12 @@ sudo snap install htop
 # netstat
 sudo apt install netstat
 sudo netstat -ntlp | grep -i 3000
+```
+
+### Longview 
+
+```bash
+sudo systemctl start longview
 ```
 
 ### GoAccess
@@ -409,6 +428,8 @@ sudo systemctl restart apache2
 ```
 
 ### Audit
+
+#### Lynis
 
 ## Webserver
 
@@ -514,9 +535,11 @@ sudo vi /etc/apache2/sites-available/dev.dw.conf
   SetEnvIf Request_URI "^/server-status*$" dontlog
   SetEnvIf Request_URI "^/monit/$" dontlog
 
-# /etc/logrotate.d/apache2 
+# change log rotation
+sudo vi /etc/logrotate.d/apache2
+daily -> weekly
 create 640 root adm  -> create 644 root adm
-rotate 14 -> rotate 10
+rotate 14 -> rotate 7
 
 # truncate logs
 sudo truncate -s 0 /var/log/apache2/*.log
@@ -525,6 +548,10 @@ sudo truncate -s 0 /var/www/cd.davidawindham.com/log/*.log
 ```
 
 ### Nginx
+
+```bash
+sudo apt install nginx
+```
 
 ### Certbot
 
