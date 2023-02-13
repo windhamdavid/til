@@ -1,4 +1,4 @@
-# IP Tables
+# Ipables
 
 ```
 @woozer:/etc/nginx/sites-available » sudo iptables -L -nv --line-numbers
