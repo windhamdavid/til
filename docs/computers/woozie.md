@@ -10,18 +10,23 @@
 
 ### Todo
 
-- email settings for code.daw
+- ~~email settings for code.daw~~
 - custom apache/nginx error pages
 - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
+  - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
 - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - radio.daw stream.daw
 - daw.com/wik/mail/reader/bookmarks
 - block port for rmtp with auth
-- add nginx to monit
+- ~~add nginx to monit~~
 - Monit actions redirect to root /url
-- longview MariaDB conf 
+- longview MariaDB conf
+  - ticket submitted about <https://github.com/linode/longview/pull/49>
 - apache/nginx combined log for monitor.
-- monitor real-time on reboot
+- ~~upgrade openssl <https://nvd.nist.gov/vuln/detail/CVE-2023-0286>~~
+  - see [#Security ESM Pro](#security)
+- watch logs for bots/IPs & block with custom.d
+- monitor logs on reboot
 
 ### Migration
 
@@ -172,7 +177,7 @@ Welcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)
 0 updates can be applied immediately.
 ```
 
-### Shell 
+### Shell
 
 ```bash
 cd ~
@@ -224,6 +229,30 @@ mysqlcheck -o gg --user=******* --password='*******'
 
 ## Security
 
+### ESM Pro
+
+<https://ubuntu.com/pro/tutorial>
+
+```bash
+user@woozie:~ » pro --version
+27.13.3~22.04.1
+user@woozie:~ » pro security-status
+785 packages installed:
+    759 packages from Ubuntu Main/Restricted repository
+    25 packages from Ubuntu Universe/Multiverse repository
+    1 package from a third party
+
+# check an exploit
+user@woozie:~ » pro fix CVE-2023-0286
+CVE-2023-0286: OpenSSL vulnerabilities
+https://ubuntu.com/security/CVE-2023-0286
+1 affected source package is installed: openssl
+(1/1) openssl:
+A fix is available in Ubuntu standard updates.
+The update is already installed.
+✔ CVE-2023-0286 is resolved.
+```
+
 ### IPtables
 
 ```bash
@@ -237,6 +266,9 @@ sudo ip6tables -vL
 sudo iptables -L --line-numbers
 sudo iptables -L -nv --line-numbers
 
+# delete rule by line# 
+sudo iptables -D INPUT (line number)
+
 # Allow all loopback (lo0) traffic and reject traffic
 # to localhost that does not originate from lo0.
 sudo iptables -A INPUT -i lo -j ACCEPT
@@ -245,9 +277,9 @@ sudo iptables -A INPUT ! -i lo -s 127.0.0.0/8 -j REJECT
 sudo ip6tables -A INPUT -i lo -j ACCEPT
 sudo ip6tables -A INPUT ! -i lo -s ::1/128 -j REJECT
 
-# Linode Longview / Loadbalancer
-sudo iptables -A INPUT -s 96.126.119.66 -m state --state NEW -j ACCEPT
+# Linode Loadbalancer / Longview
 sudo iptables -A INPUT -s 192.168.255.0/24 -m state --state NEW -j ACCEPT
+sudo iptables -A OUTPUT 1 -p tcp --dport 443 -d longview.linode.com -j ACCEPT
 
 # ICMPtypes 3,8,11 - Echo, Ping, TTL
 sudo iptables -A INPUT -p icmp --icmp-type 3 -j ACCEPT
@@ -258,7 +290,6 @@ sudo ip6tables -A INPUT -p icmpv6 -j ACCEPT
 
 # Allow inbound traffic from established connections including ICMP error returns.
 sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
-
 sudo ip6tables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
 # Log what was incoming but denied / Log any traffic that was sent to you for forwarding
@@ -280,10 +311,6 @@ sudo ip6tables -A INPUT -p tcp --dport 80 -m state --state NEW -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 443 -m state --state NEW -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport #### -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport #### -j ACCEPT
-
-# Linode Longview / Loadbalancer
-sudo iptables -A INPUT -s 96.126.119.66 -m state --state NEW -j ACCEPT
-sudo iptables -A INPUT -s 192.168.255.0/24 -m state --state NEW -j ACCEPT
 
 ## reject all others
 sudo iptables -A FORWARD -j REJECT
@@ -333,7 +360,7 @@ sudo apt install netstat
 sudo netstat -ntlp | grep -i 3000
 ```
 
-### Longview 
+### Longview
 
 ```bash
 sudo systemctl start longview
@@ -355,14 +382,24 @@ log-format %v:%^ %h %^[%d:%t %^] "%r" %s %b "%R" "%u"
 
 # cron to keep it updated for quick reference
 sudo vi ~/user/scripts/monitor.sh
+#! /bin/bash
 goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html >> /home/user/logs/cron.log 2>&1
-
-# run daily at 6am
+goaccess /var/log/nginx/access.log -o /var/www/dv.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/user/logs/cron.log 2>&1
+# run daily @ 1:31am
 sudo crontab -e
-0 6  * * * /home/user/scripts/monitor.sh
+31 1  * * * /home/user/scripts/monitor.sh
+
+# Nginx log format
+sudo goaccess /var/log/nginx/access.log -o /var/www/dv.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T'
 
 # real time output
 sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html --real-time-html
+
+# from command line with no output daemonized
+sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html --real-time-html --daemonize > /dev/null 2>&1 &
+
+# add virtual hosts to requests
+sudo awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | sudo goaccess -a -o /var/www/dv.davidawindham.com/html/monitor/index.html
 ```
 
 ### Monit
@@ -388,10 +425,6 @@ sudo vi /etc/monit/monitrc
 
 # https://mmonit.com/wiki/Monit/ConfigurationExamples
 sudo vi /etc/monit/conf.d/apache2.conf {etc}
-  check process php-fpm with pidfile /run/php/php8.1-fpm.pid
-    start program = "/usr/sbin/service php8.1-fpm start" with timeout 60 seconds
-    stop program = "/usr/sbin/service php8.1-fpm stop"
-    if failed unixsocket /var/run/php/php8.1-fpm.sock then restart
   check process mysql with pidfile /var/run/mysqld/mysqld.pid
     start program = "/usr/sbin/service mysql start" with timeout 60 seconds
     stop program = "/usr/sbin/service mysql stop"
@@ -403,6 +436,17 @@ sudo vi /etc/monit/conf.d/apache2.conf {etc}
     if children > 255 for 5 cycles then alert
     if cpu usage > 95% for 5 cycles then alert
     if failed port 80 protocol http then restart
+  check process php-fpm with pidfile /run/php/php8.1-fpm.pid
+    start program = "/usr/sbin/service php8.1-fpm start" with timeout 60 seconds
+    stop program = "/usr/sbin/service php8.1-fpm stop"
+    if failed unixsocket /var/run/php/php8.1-fpm.sock then restart
+  check process nginx with pidfile /var/run/nginx.pid
+    group www
+    group nginx
+    start program = "/etc/init.d/nginx start"
+    stop program = "/etc/init.d/nginx stop"
+    if failed port 8282 protocol http request "/" then restart
+    if 5 restarts with 5 cycles then timeout
 
 sudo monit reload
 
@@ -545,10 +589,12 @@ sudo vi /etc/apache2/sites-available/dev.dw.conf
 sudo vi /etc/logrotate.d/apache2
 daily -> weekly
 create 640 root adm  -> create 644 root adm
-rotate 14 -> rotate 7
+rotate 14 -> rotate 4
+sudo logrotate /etc/logrotate.d/apache2
 
 # truncate logs
 sudo truncate -s 0 /var/log/apache2/*.log
+sudo truncate -s 0 /var/log/linode/*.log
 sudo truncate -s 0 /var/www/dv.davidawindham.com/log/*.log
 sudo truncate -s 0 /var/www/cd.davidawindham.com/log/*.log
 ```
@@ -559,6 +605,12 @@ see [/docs/server/nginx](/docs/server/nginx)
 
 ```bash
 sudo apt install nginx
+
+sudo vi /etc/logrotate.d/nginx
+daily -> weekly
+rotate 14 -> 4
+
+
 ```
 
 ### Certbot
@@ -705,6 +757,12 @@ sudo mariadb
   mysql> SELECT user,authentication_string,plugin,host FROM mysql.user;
   mysql> GRANT ALL PRIVILEGES ON *.* TO '********'@'localhost' WITH GRANT OPTION;
   mysql> FLUSH PRIVILEGES;
+  mysql> exit
+
+# create longveiw user
+sudo mysql -u root -p
+  mysql>CREATE USER 'linode-longview'@'localhost' IDENTIFIED BY '***********';
+  mysql>flush privileges;
   mysql> exit
 
 # /etc/mysql/my.cnf
