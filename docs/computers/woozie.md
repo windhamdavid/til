@@ -10,13 +10,20 @@
 
 ### Todo
 
+- watch logs for bots/IPs & block with custom.d
+- monitor logs on reboot
 - ~~email settings for code.daw~~
 - custom apache/nginx error pages
 - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
   - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
 - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
-- radio.daw stream.daw
 - daw.com/wik/mail/reader/bookmarks
+  - migrating to php v7.4.33 test with 8.1
+  - add redis caching for daw
+- radio.daw stream.daw
+  - add a feature to convert rmtp stream to icecast
+  - auth for redis radio chat
+  - ssl support for icecast
 - block port for rmtp with auth
 - ~~add nginx to monit~~
 - Monit actions redirect to root /url
@@ -25,8 +32,9 @@
 - apache/nginx combined log for monitor.
 - ~~upgrade openssl <https://nvd.nist.gov/vuln/detail/CVE-2023-0286>~~
   - see [#Security ESM Pro](#security)
-- watch logs for bots/IPs & block with custom.d
-- monitor logs on reboot
+- configure remote db connections for Redis/MariaDB
+  - ~~allow ip / auth~~
+  - rename dangerous commands * see [Note](#redis) for redis about renaming
 
 ### Migration
 
@@ -92,6 +100,14 @@ Caches (sum of all):
   L2:                    2 MiB (4 instances)
   L3:                    64 MiB (4 instances)
   ```
+
+### Services
+
+```bash
+service  --status-all
+service --status-all | grep '\[ + \]'
+systemctl list-units
+```
 
 ### Init
 
@@ -304,8 +320,9 @@ sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT (https)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monit)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monitor)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (ssh)
-sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (rmtp)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (rmtp proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (nginx proxy)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (node proxy)
 
 sudo ip6tables -A INPUT -p tcp --dport 80 -m state --state NEW -j ACCEPT
 sudo ip6tables -A INPUT -p tcp --dport 443 -m state --state NEW -j ACCEPT
@@ -793,6 +810,61 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON `database`.* TO 'pma'@'localhost';
 
 ### Redis
 
+```bash
+sudo apt install redis-server
+sudo vi /etc/redis/redis.conf
+  supervised systemd
+  bind 127.0.0.1 ::1
+  port ****
+
+# generate a random since redis can process 150k per/sec
+openssl rand 60 | openssl base64 -A
+sudo vi /etc/redis/redis.conf
+  requirepass **************
+sudo systemctl restart redis
+
+sudo netstat -lnp | grep redis
+
+# rename commands
+sudo vi /etc/redis/redis.conf
+rename-command FLUSHDB ""
+rename-command FLUSHALL ""
+rename-command DEBUG ""
+rename-command CONFIG "CONFIG_*********"
+rename-command SHUTDOWN "SHUTDOWN_*********"
+
+# Command renaming (DEPRECATED).
+# WARNING: avoid using this option if possible. Instead use ACLs to remove
+# commands from the default user, and put them only in some admin user you
+# create for administrative purposes.
+
+# test
+redis-cli
+auth <Password>
+exit
+
+redis-cli -v
+redis-cli 6.0.16
+redis-server -v
+Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+sudo systemctl status redis
+● redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2023-02-16 08:19:37 EST; 1h 35min ago
+       Docs: http://redis.io/documentation,
+             man:redis-server(1)
+   Main PID: 285004 (redis-server)
+     Status: "Ready to accept connections"
+      Tasks: 5 (limit: 9405)
+     Memory: 2.6M
+        CPU: 13.535s
+     CGroup: /system.slice/redis-server.service
+             └─285004 "/usr/bin/redis-server 127.0.0.1:****" "" "" "" "" "" "" "" "" "" "" "" "" "">
+
+Feb 16 08:19:37 woozie systemd[1]: Starting Advanced key-value store...
+Feb 16 08:19:37 woozie systemd[1]: Started Advanced key-value store.
+```
+
 ## Languages
 
 ### Go
@@ -805,6 +877,17 @@ go version go1.18.1 linux/amd64
 ```
 
 ### Node
+
+```bash
+sudo apt install nodejs
+node -v 
+v12.22.9
+sudo apt install npm
+npm -v
+8.5.1
+
+# add nvm to get an updated version
+```
 
 ### PHP
 
@@ -845,7 +928,35 @@ sudo systemctl reload php8.1-fpm
 sudo systemctl restart php8.1-fpm
 sudo systemctl status php8.1-fpm
 sudo systemctl restart apache2
+```
 
+**version 7.4.33** - Needed this version for migration.
+
+```bash
+sudo apt -y install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+
+sudo apt install php7.4
+sudo apt-get install -y php7.4-cli php7.4-json php7.4-common php7.4-mysql php7.4-zip php7.4-gd php7.4-mbstring php7.4-curl php7.4-xml php7.4-bcmath
+
+# 7.4 php.ini
+sudo vi /etc/php/7.4/apache2/php.ini
+
+## enable php7.4-fpm
+sudo apt install php7.4-fpm
+sudo a2enconf php7.4-fpm.conf
+sudo systemctl restart apache2
+
+sudo systemctl start php7.4-fpm
+sudo systemctl status php7.4-fpm
+
+# SetHandler
+sudo vi /etc/apache2/sites-enabled/etc.conf
+<FilesMatch \.php$>
+  SetHandler "proxy:unix:/run/php/php7.4-fpm.sock|fcgi://localhost"
+</FilesMatch>
+or 
+Include /etc/apache2/conf-available/php7.4-fpm.conf
 ```
 
 ### Python
