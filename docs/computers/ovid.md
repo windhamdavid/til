@@ -1,25 +1,46 @@
 # Ovid 💻
 
-### Notes
+## Notes
 
 11/23/21 - I wrote a quick post about why I purchased it and why I named it Ovid @ [https://davidawindham.com/ovid](https://davidawindham.com/ovid) and I'll document the rest of the it here. Picked him up from the Apple Store. Moved my old laptop so that I could share the screen for referencing configuration. Booted her up and loaded up activity monitor and command line top to watch the processes. I always avoid using the migration assistant so that I can start clean. My main goal is to keep the machine as minimal and simple as possible. I am going to try and avoid running any x86 processes under Rosetta in my attempt to go fully ARM [https://davidawindham.com/arm/](https://davidawindham.com/arm/).
 
 &nbsp;
 
-### Log 
+### Log
 
-23/01/17 - updated homebrew and ran upgrades: brew services restart mariadb/redis/httpd/mongod. other pkgs updated heroku,gh,postgres,python3.10.4,php8.2.1,postgresql@14,mongod6.0.3, 
-``` 
+**23/02/15** - Added MariaDB to recent servers and wanted to match versions. Noticed that my old plist for httpd was not starting alongside of the default Apache. Had to add php8.1 to match servers since 8.2 is now the default php. Other upgrades noted below.
+
+```bash
+david@ovid🏛 :/opt/homebrew/var/log(master○) » brew outdated
+dav1d (1.0.0) < 1.1.0
+dbus (1.14.4) < 1.14.6
+gh (2.21.2) < 2.23.0
+go (1.19.5) < 1.19.6
+guile (3.0.8_4) < 3.0.9
+heroku/brew/heroku (7.67.1) < 7.68.1
+htop (3.2.1) < 3.2.2
+nss (3.87) < 3.88.1
+openssl@3 (3.0.7) < 3.0.8
+pandoc (2.19.2) < 3.1
+postgresql@14 (14.6_1, 14.6_1) < 14.7
+pyenv (2.3.11) < 2.3.13
+python@3.9 (3.9.13_1) < 3.9.16
+ruby-build (20221225) < 20230208.1
+rust (1.66.1) < 1.67.1
+```
+
+**23/01/17** - updated homebrew and ran upgrades: brew services restart mariadb/redis/httpd/mongod. other pkgs updated heroku,gh,postgres,python3.10.4,php8.2.1,postgresql@14,mongod6.0.3,
+
+```bash
 david@ovid🏛 :~/sites/daw_til(master⚡) » brew --version
 Homebrew 3.6.19
-david@ovid🏛 :~ » brew outdated                                                                 1 ↵
+david@ovid🏛 :~ » brew outdated
 gobject-introspection (1.72.0) < 1.74.0
 node@14 (14.19.1) < 14.21.2_1
 php@7.4 (7.4.29) < 7.4.33
 python@3.10 (3.10.4) < 3.10.9
 python@3.9 (3.9.13_1) < 3.9.16
 ```
-
 
 ## System
 
@@ -171,8 +192,8 @@ Rosetta 2: false
 david@ovid:~ » brew list         
 ==> Formulae
 aom gmp libidn2 mkcert pkg-config
-apr gnu-getopt libksba mongodb-community	postgresql
-apr-util gnupg liblqr mongodb-database-tools	pyenv
+apr gnu-getopt libksba mongodb-community postgresql
+apr-util gnupg liblqr mongodb-database-tools pyenv
 argon2 gnutls libmaxminddb mongosh python@3.9
 aspell go libnghttp2 mpdecimal rbenv
 autoconf groonga libomp msgpack readline
@@ -221,7 +242,8 @@ Also see Brew Analytics - [https://formulae.brew.sh/analytics/install/365d/](htt
 Apple is removing languages from the OS via [Xcode 11 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-11-release-notes): "Scripting language runtimes such as Python, Ruby, and Perl are included in macOS for compatibility with legacy software. In future versions of macOS, scripting language runtimes won't be available by default, and may require you to install an additional package." Instead of adding four or five versions of each language to support legacy codebase, I'm going to bring modify the old projects.  
   
 **PHP** - 8.1.0 / 7.4.26  ( still have to support 7.4 )  
-```bash 
+
+```bash
 david@ovid:~ » php --ini           
 Configuration File (php.ini) Path: /opt/homebrew/etc/php/8.1
 Loaded Configuration File:         /opt/homebrew/etc/php/8.1/php.ini
@@ -248,7 +270,9 @@ Package Version State
 redis   5.3.4   stable
 xdebug  3.1.1   stable
 ```
+
 **Python** - 3.9.9 ( brew ) / 2.7.18 ( system )
+
 ```bash
 david@ovid:~/.pyenv » python --version 
 Python 2.7.18
@@ -260,7 +284,8 @@ david@ovid:~/.pyenv » ln -s $(brew --cellar python)/* ~/.pyenv/versions/
 david@ovid:~/.pyenv » python3 -m pip install --upgrade setuptools
 david@ovid:~/.pyenv » python3 --version                          
 Python 3.9.9
-``` 
+```
+
 **Ruby** - 3.0.3 ( switched from using rvm to rbenv )  
 
 ```bash
@@ -276,10 +301,12 @@ ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc) [arm64-darwin21]
 ```
 
 **GoLang** 1.17.2  
-```bash 
+
+```bash
 david@ovid:~ » go version       
 go version go1.17.2 darwin/arm64
 ```
+
 **Rust** - 1.56.1 (still haven't learned Rust 🛠 )
 
 ```bash
@@ -290,6 +317,7 @@ go version go1.17.2 darwin/arm64
 ```
 
 **Dart**  ( 2.4.1 added Apple silicon support )
+
 ```bash
 david@ovid:~ » brew tap dart-lang/dart
 david@ovid:~ » dart --version
@@ -297,13 +325,12 @@ Dart SDK version: 2.14.4 (stable) (Wed Oct 13 11:11:32 2021 +0200) on "macos_arm
 ```
 
 #### Encryption
+
 **SSL ( Open, Libre, Boring )** - Apple now defaults to LibreSSL but a lot of packages depend on OpenSSL. Using Open in zsh by default.  
-GNUPG - via homebrew   
+GNUPG - via homebrew
 mkcert - FF needs the CA manually added which is in Library/Application Support/mkcert
 
-
 ### Nginx & Apache
-
 
 ### Node.js & NVM  
 
@@ -345,6 +372,7 @@ david@ovid:~/sites/daw_til(master⚡) » npm install -g npm@8.1.4
 
 SQLite  
 PostgreSQL  
+
 ```bash
 david@ovid:~ » brew services start postgresql
 david@ovid:~ » createdb `whoami`
@@ -365,6 +393,7 @@ david@ovid:~ » sudo $(brew --prefix mariadb)/bin/mysqladmin -u root password PA
 ```
 
 MongoDB ( Community ) - moved from an open source license so it was dropped by homebrew.
+
 ```bash
 david@ovid:~ » brew tap mongodb/brew
 david@ovid:~ » brew services start mongodb-community
@@ -374,11 +403,14 @@ Connecting to: mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionT
 Using MongoDB: 5.0.4
 Using Mongosh: 1.1.4
 ```
+
 Redis ( 6.2.6 ) - via homebrew  
+
 ```bash
 david@ovid:~ » redis-cli --version
 redis-cli 6.2.6
 ```
+
 DBngin - use for spot installs  
 Tables Plus  
 PHPMyAdmin  
@@ -398,22 +430,23 @@ Screaming Frog
 
 ### Frameworks
 
-JavaScript ( Typescript ) - Node, Express, React, Preact, React Native, Vue, Svelte   
+JavaScript ( Typescript ) - Node, Express, React, Preact, React Native, Vue, Svelte  
 PHP - Laravel, Drupal, Wordpress  
 Python - Flask, Django  
 Go - Gorilla  
 Ruby - Rails, Sinatra  
 Rust - Rocket
 
-&nbsp;
 ## Software
 
 ---
+
 ### Browsers
 
 Safari  
 Chrome ( extensions - dev tools theme, postman, stylus )  
 Firefox ( Developer Edition )  
+
 ### Communications
 
 Final Draft  
