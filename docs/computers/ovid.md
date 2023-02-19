@@ -8,10 +8,13 @@
 
 ### Log
 
-**23/02/15** - Added MariaDB to recent servers and wanted to match versions. Noticed that my old plist for httpd was not starting alongside of the default Apache. Had to add php8.1 to match servers since 8.2 is now the default php. Other upgrades noted below.
+**23/02/19** - Homebrew v4.0.1. Added MariaDB v10.11.2 to some recent servers and wanted to match versions. Noticed that my old plist for httpd was not starting alongside of the default Apache. Also had to keep a ruby/python/php matches. Other upgrades noted below:
 
 ```bash
 david@ovid🏛 :/opt/homebrew/var/log(master○) » brew outdated
+cmocka (1.1.5) < 1.1.6
+composer (2.5.3) < 2.5.4
+curl (7.87.0) < 7.88.0_1
 dav1d (1.0.0) < 1.1.0
 dbus (1.14.4) < 1.14.6
 gh (2.21.2) < 2.23.0
@@ -19,11 +22,20 @@ go (1.19.5) < 1.19.6
 guile (3.0.8_4) < 3.0.9
 heroku/brew/heroku (7.67.1) < 7.68.1
 htop (3.2.1) < 3.2.2
+libheif (1.14.2_1) < 1.15.1
+liblinear (2.45) < 2.46
+mariadb (10.10.3) < 10.11.2
+node (19.6.0) < 19.6.1
+node@14 (14.21.2_1) < 14.21.3
+node@16 (16.19.0_1) < 16.19.1
 nss (3.87) < 3.88.1
 openssl@3 (3.0.7) < 3.0.8
 pandoc (2.19.2) < 3.1
+php (8.2.2) < 8.2.3
 postgresql@14 (14.6_1, 14.6_1) < 14.7
 pyenv (2.3.11) < 2.3.13
+python@3.10 (3.10.4, 3.10.10) < 3.10.10_1
+python@3.11 (3.11.2) < 3.11.2_1
 python@3.9 (3.9.13_1) < 3.9.16
 ruby-build (20221225) < 20230208.1
 rust (1.66.1) < 1.67.1

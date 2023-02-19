@@ -10,26 +10,27 @@
 
 ### Todo
 
-- watch logs for bots/IPs & block with custom.d
 - monitor logs on reboot
-- ~~email settings for code.daw~~
+  - watch logs for bots/IPs & block
+  - apache/nginx combined log for monitor.
+  - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - custom apache/nginx error pages
-- gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
-  - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
-- [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
-- daw.com/wik/mail/reader/bookmarks
-  - migrating to php v7.4.33 test with 8.1
-  - add redis caching for daw
-- radio.daw stream.daw
+- code.daw 
+  - ~~email settings for code.daw~~
+  - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
+    - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
+- ~~daw.com/wik/mail/reader/bookmarks~~
+  - migrating to php v7.4.33 need to test with 8.1
+  - add Redis caching for daw
+- ~~radio.daw stream.daw~~
   - add a feature to convert rmtp stream to icecast
   - auth for redis radio chat
   - ssl support for icecast
-- block port for rmtp with auth
+- block/switch port for rmtp with auth
 - ~~add nginx to monit~~
 - Monit actions redirect to root /url
-- longview MariaDB conf
-  - ticket submitted about <https://github.com/linode/longview/pull/49>
-- apache/nginx combined log for monitor.
+- ~~longview MariaDB conf~~
+  - ~~ticket submitted about <https://github.com/linode/longview/pull/49>~~
 - ~~upgrade openssl <https://nvd.nist.gov/vuln/detail/CVE-2023-0286>~~
   - see [#Security ESM Pro](#security)
 - configure remote db connections for Redis/MariaDB
@@ -321,6 +322,7 @@ sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monit)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monitor)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (ssh)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (rmtp proxy)
+sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (stream proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (nginx proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (node proxy)
 
@@ -381,6 +383,16 @@ sudo netstat -ntlp | grep -i 3000
 
 ```bash
 sudo systemctl start longview
+
+# mariadb support
+sudo mysql -u root -p
+mysql> CREATE USER '************'@'localhost' IDENTIFIED BY '****************';
+mysql> Flush Privileges;
+sudo vi /etc/linode/longview.d/MySQL.conf
+sudo vi /opt/linode/longview/Linode/DataGetter/Applications/MySQL.pm 
+-> our $SIGNATURES = ['mariadbd']
+sudo systemctl restart longview
+
 ```
 
 ### GoAccess
