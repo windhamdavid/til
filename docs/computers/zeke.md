@@ -2,7 +2,35 @@
 
 ## Log
 
-**23.02.05** remove TLSv1 and 1.1 from /etc/apache2/mods-enabled/ssl.conf
+**23.02.19** - added ESM and combined log to all of the hosts, changed the apache/nginx logrotated to weekly and put the monitor report in cron.
+
+```bash
+sudo vi /etc/apache2/sites-available/*.conf
+LogLevel warn
+  SetEnvIf Remote_Addr "127\.0\.0\.1" dontlog
+  SetEnvIf Remote_Addr "::1" dontlog
+  CustomLog ${APACHE_LOG_DIR}/other_vhosts_access.log vhost_combined env=!dontlog
+sudo systemctl reload apache2
+
+sudo crontab -e
+# adjust to daily 
+sudo vi /user/******/monitor.sh
+sudo awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | sudo goaccess -a -o /var/www/dev.davidwindham.com/html/monitor/index.html >> /home/user/log/cron.log 2>&!
+```
+
+```bash
+# ubuntu pro ESM ( extended security maintenance )
+sudo pro attach <******key******>
+user@zeke:~ » pro --version
+27.13.3~18.04.1
+david@zeke:~ » pro security-status
+728 packages installed:
+    649 packages from Ubuntu Main/Restricted repository
+    19 packages from Ubuntu Universe/Multiverse repository
+    60 packages from third parties
+```
+
+**23.02.05** - remove TLSv1 and 1.1 from /etc/apache2/mods-enabled/ssl.conf
 ```bash 
 SSLProtocol all -SSLv3 -TLSv1 -TLSv1.1
 ```

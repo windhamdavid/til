@@ -1,6 +1,11 @@
-# Woozer 🦮
+# Woozer 💥
 
 ## Log
+
+---
+**23.02.19** - Officially DEPRECATED 🔥 -> Migrated to [Woozie](/docs/computers/woozie) 👈🏼 .
+
+---
 
 **23.02.03** - Started making notes on migrating to a new server with Ubuntu v22.04.1 LTS ( Jammy Jellyfish ). 
 

@@ -2,7 +2,7 @@
 
 ## Notes
 
-**23.02.04** - Documentation for the server migration of [Woozer](woozer) to [Woozie](woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidawindham.com/human-updates-available/).
+**23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidawindham.com/human-updates-available/).
 
 ## Log
 
@@ -13,6 +13,7 @@
 - monitor logs on reboot
   - watch logs for bots/IPs & block
   - apache/nginx combined log for monitor.
+  - combine A records for subdomains.
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - custom apache/nginx error pages
 - code.daw 
@@ -22,6 +23,7 @@
 - ~~daw.com/wik/mail/reader/bookmarks~~
   - migrating to php v7.4.33 need to test with 8.1
   - add Redis caching for daw
+  - cron for analytics logs
 - ~~radio.daw stream.daw~~
   - add a feature to convert rmtp stream to icecast
   - auth for redis radio chat
@@ -55,8 +57,10 @@ scp -P (port) -C -i ~/.ssh/tempkey -p user@ip.ip.ip.ip:/home/user/file /home/use
 ### Info
 
 173.230.130.234  
+45.79.219.165  
 <http://173.230.130.234>  
-<https://dv.davidawindham.com>  
+<http://45.79.219.165>  
+<https://dev.davidawindham.com>  
 2600:3c02::f03c:93ff:fefc:319e  
 Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
 AMD EPYC 7542 32-Core Processor  
@@ -105,8 +109,9 @@ Caches (sum of all):
 ### Services
 
 ```bash
-service  --status-all
+service --status-all
 service --status-all | grep '\[ + \]'
+# list all services
 systemctl list-units
 ```
 
@@ -134,14 +139,15 @@ david@ovid🏛 :~ » ssh user@173.230.130.234
 sudo vi /etc/hosts
 
 127.0.0.1       localhost
-173.230.130.234 dv.davidawindham.com
-2600:3c02::f03c:93ff:fefc:319e dv.davidawindham.com
+173.230.130.234 dev.davidawindham.com
+2600:3c02::f03c:93ff:fefc:319e dev.davidawindham.com
 
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 logout
 scp ~/.ssh/id_rsa.pub user@173.230.130.234:~/.ssh/authorized_keys
 sudo chmod -R 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys
 
+# Block Logins
 sudo vi /etc/ssh/sshd_config
 AddressFamily inet
 PermitRootLogin no
@@ -232,8 +238,8 @@ System keeps daily, a 2-7 day old, and 8-14 day old
 sudo crontab -e
 # db optimize/backup every Sunday at 01:11
 11 1 * * 0 /home/user/scripts/mysql-cron.sh
-# log monitor every morning at 00:01
-1 0 * * * /home/user/scripts/monitor.sh
+# log monitor every morning at 01:31
+31 0 * * * /home/user/scripts/monitor.sh
 
 # mysql-cron.sh
 #!/bin/sh
@@ -241,6 +247,15 @@ sudo crontab -e
 mysqldump gg --user=******* --password='*******' > /home/user/backups/$(date +"%Y%m%d").gg.sql
 #Optimize tables in 'gg'
 mysqlcheck -o gg --user=******* --password='*******'
+
+# monitor-cron.sh
+#!/bin/sh
+
+awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
+goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
+
+# lets encrypt renew 
+11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
 
 ```
 
@@ -592,13 +607,10 @@ sudo vi /etc/apache2/mods-enabled
 <IfModule mod_status.c>
   <Location /server-status>
     SetHandler server-status
-    #Require local
-    #Require ip 127.0.0.1
-    #Require host dv.davidawindham.com
-    Order deny,allow
-    Deny from all
-    Allow from 127.0.0.1
-    Allow from dv.davidawindham.com
+    Require local
+    Require ip 127.0.0.1
+    Require ip ***.**.**.**
+    Require host dev.davidawindham.com
   </Location>
   <IfModule mod_proxy.c>
     ProxyStatus on
@@ -624,8 +636,8 @@ sudo logrotate /etc/logrotate.d/apache2
 # truncate logs
 sudo truncate -s 0 /var/log/apache2/*.log
 sudo truncate -s 0 /var/log/linode/*.log
-sudo truncate -s 0 /var/www/dv.davidawindham.com/log/*.log
-sudo truncate -s 0 /var/www/cd.davidawindham.com/log/*.log
+sudo truncate -s 0 /var/www/dev.davidawindham.com/log/*.log
+sudo truncate -s 0 /var/www/code.davidawindham.com/log/*.log
 ```
 
 ### Nginx
@@ -635,11 +647,58 @@ see [/docs/server/nginx](/docs/server/nginx)
 ```bash
 sudo apt install nginx
 
+# change default host port 
+sudo vi /etc/nginx/sites-available/default
+server {
+  listen **** default_server;
+  listen [::]:**** default_server;
+}
+
+# change log rotation
 sudo vi /etc/logrotate.d/nginx
 daily -> weekly
 rotate 14 -> 4
 
+# don't log local
+sudo vi /etc/nginx/nginx.conf
+http {
+  map $remote_addr $notlocal {
+    ~^::1$ 0;
+    ~^127.0.0.1$ 0;
+    default 1;
+  }
+  access_log /var/log/nginx/access.log combined if=$notlocal;
+}
 
+# rmtp module
+sudo vi /etc/nginx/nginx.conf
+rmtp {
+  server {
+    listen ****;
+    chuck_size 4096;
+    allow publish 127.0.0.1;
+    allow publish *.*.*.*;
+    deny publish all;
+  }
+  application live {
+    live on;
+    record off;
+
+    hls on;
+    hls_path /var/www/html/nginx/stream/hls;
+    hls_fragment 3;
+    hls_playlist_length 60;
+
+    dash on;
+    dash_path /var/www/html/nginx/stream/dash;:
+  }
+}
+
+sudo nginx -t
+sudo service nginx reload
+
+# truncate logs
+sudo truncate -s 0 /var/log/nginx/*.log
 ```
 
 ### Certbot
@@ -651,34 +710,44 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 sudo certbot --apache -d domain.com -d www.domain.com
+sudo certbot delete --cert-name the-ham.org
 sudo systemctl restart apache2
+
+# set cron to renew
+sudo crontab -e
+11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
 ```
 
 ### Dev
 
-#### home
+- reroute the IP ( 000-default.conf ) to dev.daw.com
+- use .htaccess to protect directory but allow localhost
+- route status, server-status, nginx_status, monitor, & monit
 
 ```bash
-sudo mkdir -p /var/www/code.davidawindham.com/{html,log,backup}
-sudo chown david:www-data -R /var/www/code.davidawindham.com/
-sudo a2ensite code.davidawindham.com.conf
-sudo systemctl reload apache2
+AuthName "Uh... What'cha doing?"
+AuthType Basic
+AuthUserFile /var/www/dev.davidawindham.com/.htpasswd
+<RequireAny>
+    Require ip 127.0.0.1
+    Require valid-user
+</RequireAny>
+```
 
-sudo mkdir -p /var/www/dv.davidawindham.com/{html,log,backup}
-sudo chown david:www-data -R /var/www/dv.davidawindham.com/
-sudo chmod -R 755 /var/www/dv.davidawindham.com/html
-sudo vi /etc/apache2/sites-available/dv.davidawindham.com.conf
-sudo a2ensite dv.davidawindham.com.conf
+```bash
+sudo mkdir -p /var/www/dev.davidawindham.com/{html,log,backup}
+sudo chown david:www-data -R /var/www/dev.davidawindham.com/
+sudo chmod -R 755 /var/www/dev.davidawindham.com/html
+sudo vi /etc/apache2/sites-available/dev.davidawindham.com.conf
 
 <VirtualHost *:80>
   ServerAdmin web@davidwindham.com
-  ServerName dv.davidawindham.com
-  ServerAlias www.dv.davidawindham.com
-
+  ServerName dev.davidawindham.com
+  ServerAlias www.dev.davidawindham.com
   DirectoryIndex index.html index.php
-  Documentroot /var/www/dv.davidawindham.com/html
+  Documentroot /var/www/dev.davidawindham.com/html
 
-  <Directory /var/www/dv.davidawindham.com/html>
+  <Directory /var/www/dev.davidawindham.com/html>
     Options Indexes FollowSymLinks
     DirectoryIndex index.html index.php
     AllowOverride All
@@ -701,24 +770,25 @@ sudo a2ensite dv.davidawindham.com.conf
   SetEnvIf Remote_Addr "::1" dontlog
   SetEnvIf Request_URI "^/server-status*$" dontlog
   SetEnvIf Request_URI "^/monit/$" dontlog
-  ErrorLog /var/www/dv.davidawindham.com/log/error.log
-  CustomLog /var/www/dv.davidawindham.com/log/access.log combined env=!dontlog
+  ErrorLog /var/www/dev.davidawindham.com/log/error.log
+  CustomLog /var/www/dev.davidawindham.com/log/access.log combined env=!dontlog
   CustomLog ${APACHE_LOG_DIR}/other_vhosts_access.log vhost_combined env=!dontlog
 </VirtualHost>
 
-sudo certbot --apache -d dv.davidawindham.com -d www.dv.davidawindham.com
+sudo a2ensite dev.davidawindham.com.conf
+sudo certbot --apache -d dev.davidawindham.com -d www.dev.davidawindham.com
 
 <VirtualHost *:443>
 ...
 Include /etc/letsencrypt/options-ssl-apache.conf
-SSLCertificateFile /etc/letsencrypt/live/dv.davidawindham.com/fullchain.pem
-SSLCertificateKeyFile /etc/letsencrypt/live/dv.davidawindham.com/privkey.pem
+SSLCertificateFile /etc/letsencrypt/live/dev.davidawindham.com/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/dev.davidawindham.com/privkey.pem
 </VirtualHost>
 
 sudo systemctl restart apache2
 ```
 
-### Gogs
+### Code
 
 see - [/docs/host/gogs](/docs/host/Gogs)
 
