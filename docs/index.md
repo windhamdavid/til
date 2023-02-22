@@ -15,8 +15,9 @@ I use this library of documents as a quick reference to find technical answers, 
 [Ovid](computers/ovid) |
 [Macs](computers/macs) |
 [Magic](computers/magic) |
-[Zeke](computers/zeke) |
-[Woozer](computers/woozer)
+[Woozer](computers/woozer) |
+[Woozie](computers/woozie) |
+[Zeke](computers/zeke)
 
 ### Databases
 
