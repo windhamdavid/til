@@ -16,7 +16,7 @@
   - combine A records for subdomains.
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - custom apache/nginx error pages
-- code.daw 
+- code.daw
   - ~~email settings for code.daw~~
   - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
     - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
@@ -229,6 +229,62 @@ apt-get –-purge remove packagename
 
 ```
 
+### rsyslog
+
+```bash
+# move log to /var/log/iptables/iptables.log
+sudo mkdir /var/log/iptables
+sudo touch /var/log/iptables/iptables.log
+
+# filter iptables.log
+sudo vi /etc/rsyslog.d/10-iptables.conf
+:msg, regex, "iptables: " -/var/log/iptables.log
+& ~
+
+# rotate iptables.log
+sudo vi /etc/logrotate.d/iptables
+/var/log/iptables.log
+{
+  rotate 3
+  daily
+  missingok
+  notifempty
+  delaycompress
+  compress
+  postrotate
+  invoke-rc.d rsyslog rotate > /dev/null
+  endscript
+}
+
+sudo systemctl restart rsyslog
+```
+
+## Security
+
+### ESM Pro
+
+<https://ubuntu.com/pro/tutorial>
+
+```bash
+user@woozie:~ » pro --version
+27.13.3~22.04.1
+user@woozie:~ » pro security-status
+785 packages installed:
+    759 packages from Ubuntu Main/Restricted repository
+    25 packages from Ubuntu Universe/Multiverse repository
+    1 package from a third party
+
+# check an exploit
+user@woozie:~ » pro fix CVE-2023-0286
+CVE-2023-0286: OpenSSL vulnerabilities
+https://ubuntu.com/security/CVE-2023-0286
+1 affected source package is installed: openssl
+(1/1) openssl:
+A fix is available in Ubuntu standard updates.
+The update is already installed.
+✔ CVE-2023-0286 is resolved.
+```
+
 ### Cron
 
 System keeps daily, a 2-7 day old, and 8-14 day old
@@ -259,32 +315,6 @@ goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monito
 
 ```
 
-## Security
-
-### ESM Pro
-
-<https://ubuntu.com/pro/tutorial>
-
-```bash
-user@woozie:~ » pro --version
-27.13.3~22.04.1
-user@woozie:~ » pro security-status
-785 packages installed:
-    759 packages from Ubuntu Main/Restricted repository
-    25 packages from Ubuntu Universe/Multiverse repository
-    1 package from a third party
-
-# check an exploit
-user@woozie:~ » pro fix CVE-2023-0286
-CVE-2023-0286: OpenSSL vulnerabilities
-https://ubuntu.com/security/CVE-2023-0286
-1 affected source package is installed: openssl
-(1/1) openssl:
-A fix is available in Ubuntu standard updates.
-The update is already installed.
-✔ CVE-2023-0286 is resolved.
-```
-
 ### IPtables
 
 ```bash
@@ -296,6 +326,7 @@ sudo iptables -vL
 sudo ip6tables -vL
 
 sudo iptables -L --line-numbers
+sudo ip6tables -L --line-numbers
 sudo iptables -L -nv --line-numbers
 
 # delete rule by line# 
@@ -324,13 +355,13 @@ sudo ip6tables -A INPUT -p icmpv6 -j ACCEPT
 sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 sudo ip6tables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
-# Log what was incoming but denied / Log any traffic that was sent to you for forwarding
-sudo iptables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables_INPUT_denied: " --log-level 7
-sudo iptables -A FORWARD -m limit --limit 5/min -j LOG --log-prefix "iptables_FORWARD_denied: " --log-level 7
+# Log, prefix to sort, and limit to 5/min
+sudo iptables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables: " --log-level 7
+sudo iptables -A FORWARD -m limit --limit 5/min -j LOG --log-prefix "iptables: " --log-level 7
+sudo ip6tables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables: " --log-level 7
+sudo ip6tables -A FORWARD -m limit --limit 5/min -j LOG --log-prefix "iptables: " --log-level 7
 
-sudo ip6tables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "ip6tables_INPUT_denied: " --log-level 7
-
-# Ports
+# Ports (duplicate for ip6tables)
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT (http)
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT (https)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (monit)
@@ -340,11 +371,6 @@ sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (rmtp proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (stream proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (nginx proxy)
 sudo iptables -A INPUT -p tcp --dport #### -j ACCEPT (node proxy)
-
-sudo ip6tables -A INPUT -p tcp --dport 80 -m state --state NEW -j ACCEPT
-sudo ip6tables -A INPUT -p tcp --dport 443 -m state --state NEW -j ACCEPT
-sudo ip6tables -A INPUT -p tcp --dport #### -j ACCEPT
-sudo ip6tables -A INPUT -p tcp --dport #### -j ACCEPT
 
 ## reject all others
 sudo iptables -A FORWARD -j REJECT
