@@ -16,10 +16,10 @@
   - combine A records for subdomains.
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - custom apache/nginx error pages
-- code.daw
+- ~~code.daw~~
   - ~~email settings for code.daw~~
-  - gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>
-    - patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).
+  - ~~gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>~~
+    - ~~patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).~~
 - ~~daw.com/wik/mail/reader/bookmarks~~
   - migrating to php v7.4.33 need to test with 8.1
   - add Redis caching for daw
@@ -245,14 +245,15 @@ sudo vi /etc/rsyslog.d/10-iptables.conf
 sudo vi /etc/logrotate.d/iptables
 /var/log/iptables.log
 {
-  rotate 3
+  su root adm
+  rotate 4
   daily
   missingok
   notifempty
-  delaycompress
   compress
+  delaycompress
   postrotate
-  invoke-rc.d rsyslog rotate > /dev/null
+    /usr/lib/rsyslog/rsyslog-rotate
   endscript
 }
 
@@ -307,7 +308,7 @@ mysqlcheck -o gg --user=******* --password='*******'
 # monitor-cron.sh
 #!/bin/sh
 
-awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
+/usr/bin/awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
 goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
 
 # lets encrypt renew 

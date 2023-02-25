@@ -6,6 +6,25 @@ Although it's been forked off as Gitea, I still prefer the original version beca
 
 ## Notes
 
+**23.02.25** - patch for submodules fixes [Issue #6436](https://github.com/gogs/gogs/issues/6436). Upgrading from v0.12.9 -> v.0.12.11 
+
+```bash 
+sudo systemctl stop gogs
+mv gogs gogs_old
+wget https://dl.gogs.io/0.12.11/gogs_0.12.11_linux_amd64.tar.gz
+tar -zxvf gogs_0.12.11_linux_amd64.tar.gz
+cp -R gogs_old/{custom,data,log} gogs
+sudo systemctl start gogs
+# check logs /gogs/log
+```
+
+- Application version - 0.12.11
+- Git version - 2.34.1
+- Go version - go1.18.1
+- Build time - 2023-02-25 07:18:45 UTC
+- Build commit - [c9fba3cb30af0789fcf89098dfcb8f2286ee7d3b](https://github.com/gogs/gogs/commit/c9fba3cb30af0789fcf89098dfcb8f2286ee7d3b)
+
+
 **23.02.10** - upgrading to version 0.12.9 while migrating servers. Dropping supervisor in favor of systemd. 
 
 ```bash 
