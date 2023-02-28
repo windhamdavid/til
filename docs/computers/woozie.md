@@ -293,10 +293,16 @@ System keeps daily, a 2-7 day old, and 8-14 day old
 ```bash
 # crontab
 sudo crontab -e
+# set path for crontab to run awk,zsh,etc..
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# lets encrypt renew every Monday at 1:01
+11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
 # db optimize/backup every Sunday at 01:11
 11 1 * * 0 /home/user/scripts/mysql-cron.sh
-# log monitor every morning at 01:31
-31 0 * * * /home/user/scripts/monitor.sh
+# monitor every morning at 06:00
+00 6 * * * /home/user/scripts/monitor.sh
+# monitor-archive every Sunday at 05:55 ( since weekly runs at 6:47 )
+55 5 * * * /home/user/scripts/monitor-archive.sh
 
 # mysql-cron.sh
 #!/bin/sh
@@ -309,10 +315,16 @@ mysqlcheck -o gg --user=******* --password='*******'
 #!/bin/sh
 
 /usr/bin/awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
+
 goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
 
-# lets encrypt renew 
-11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
+# monitor-archive.sh
+#!/bin/sh
+cp /var/www/dev.davidawindham.com/html/monitor/nginx/index.html /var/www/dev.davidawindham.com/html/monitor/nginx/$(date +"%y%m%d").html
+
+cp /var/www/dev.davidawindham.com/html/monitor/index.html /var/www/dev.davidawindham.com/html/monitor/$(date +"%y%m%d").html
+
+
 
 ```
 
@@ -575,7 +587,7 @@ sudo vi /etc/apache2/mods-available/mpm_event.conf
   MaxSpareThreads         75
   ThreadLimit             64
   ThreadsPerChild         25
-  MaxRequestWorkers       250
+  MaxRequestWorkers       600
   MaxConnectionsPerChild  100000
 </IfModule>
 
@@ -899,6 +911,7 @@ default-character-set=utf8mb4
 default-character-set=utf8mb4
 
 [mysqld]
+max_allowed_packet = 128M
 character-set-client-handshake = FALSE
 collation-server = utf8mb4_unicode_ci
 init-connect = 'SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci'
