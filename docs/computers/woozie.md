@@ -10,11 +10,15 @@
 
 ### Todo
 
-- monitor logs on reboot
+- Monitor
   - watch logs for bots/IPs & block
-  - apache/nginx combined log for monitor.
-  - combine A records for subdomains.
+  - conf awk for cron to show virtual hosts
+  - ~~combine A records for subdomains.~~
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
+- Tune
+  - apache/nginx
+  - mariadb
+  - postgreSQL
 - custom apache/nginx error pages
 - ~~code.daw~~
   - ~~email settings for code.daw~~
@@ -314,7 +318,7 @@ mysqlcheck -o gg --user=******* --password='*******'
 # monitor-cron.sh
 #!/bin/sh
 
-/usr/bin/awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
+awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html >> /home/*******/logs/cron.log 2>&1
 
 goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
 
