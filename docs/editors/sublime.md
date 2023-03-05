@@ -1,4 +1,4 @@
-#Sublime  
+# Sublime
 
 ### Keyboard shorcuts
 

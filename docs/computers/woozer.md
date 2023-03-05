@@ -1,4 +1,4 @@
-# Woozer 💥
+# Woozer 🐶
 
 ## Log
 
