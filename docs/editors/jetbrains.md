@@ -1,253 +1,193 @@
-#PhpStorm  
+# JetBrains 🛩️
 
-PHPStorm Cheat Sheet   
+### Editing
 
-Editing
-
-**Alt + Enter**
-
+**Alt + Enter** -
 Show intention actions and quick-fixes
 
-**Ctrl + P**
-
+**Ctrl + P** -
 Parameter info (within method call arguments)
 
-**Ctrl + Q**
-
+**Ctrl + Q** -
 Quick documentation lookup
 
-**Alt + Insert**
-
+**Alt + Insert** -
 Generate code... (Getters, Setters, Constructors)
 
-**Ctrl + I**
-
+**Ctrl + I** -
 Implement methods
 
-**Ctrl + W**
-
+**Ctrl + W** -
 Select successively increasing code blocks
 
-**Ctrl + Shift + W**
-
+**Ctrl + Shift + W** -
 Decrease current selection to previous state
 
-**Ctrl + D**
-
+**Ctrl + D** -
 Duplicate current line or selected block
 
-**Ctrl + Y**
-
+**Ctrl + Y** -
 Delete line at caret
 
-**Shift + Enter**
-
+**Shift + Enter** -
 Start new line
 
-**Ctrl + Shift + U**
-
+**Ctrl + Shift + U** -
 Toggle case for word at caret or selected block
 
-**Ctrl + Shift + \] / \[**
-
+**Ctrl + Shift + \] / \[** -
 Select till code block end/start
 
-**Ctrl + Delete**
-
+**Ctrl + Delete** -
 Delete to word end
 
-**Ctrl + Backspace**
-
+**Ctrl + Backspace** -
 Delete to word start
 
-**Ctrl + Shift + V**
-
+**Ctrl + Shift + V** -
 Paste from history
 
-Debugging
+### Debugging
 
-**F8**
-
+**F8** -
 Step over
 
-**F7**
-
+**F7** -
 Step into
 
-**Shift + F8**
-
+**Shift + F8** -
 Step out
 
-**Alt + F8**
-
+**Alt + F8** -
 Evaluate expression
 
-**F9**
-
+**F9** -
 Resume program
 
-**Ctrl + F8**
-
+**Ctrl + F8** -
 Toggle breakpoint
 
-**Ctrl+Shift+F8**
-
+**Ctrl+Shift+F8** -
 View breakpoints
 
 Search/Replace
 
-**Ctrl + F/R**
-
+**Ctrl + F/R** -
 Find/Replace
 
-**F3/Shift + F3**
-
+**F3/Shift + F3** -
 Find next/previous
 
-**Ctrl + Shift + F/R**
-
+**Ctrl + Shift + F/R** -
 Find/Replace in path
 
-Usage Search
+### Usage Search
 
-**Alt + F7 / Ctrl + F7**
-
+**Alt + F7 / Ctrl + F7** -
 Find usages / Find usages in file
 
-**Ctrl + Shift + F7**
-
+**Ctrl + Shift + F7** -
 Highlight usages in file
 
-**Ctrl + Alt + F7**
-
+**Ctrl + Alt + F7** -
 Show usages
 
-Navigation
+### Navigation
 
-**Ctrl + N**
-
+**Ctrl + N** -
 Go to class
 
-**Ctrl + Shift + N**
-
+**Ctrl + Shift + N** -
 Go to file
 
-**Ctrl + G**
-
+**Ctrl + G** -
 Go to line
 
-**Alt + Right/Left**
-
+**Alt + Right/Left** -
 Go to next/previous editor tab
 
-**Ctrl + E**
-
+**Ctrl + E** -
 Recent files popup
 
-**Ctrl + Shift + Backspace**
-
+**Ctrl + Shift + Backspace** -
 Navigate to last edit location
 
-**Ctrl + B or Ctrl + Click**
-
+**Ctrl + B or Ctrl + Click** -
 Go to declaration
 
-**Ctrl + Alt + B**
-
+**Ctrl + Alt + B** -
 Go to implementation(s)
 
-**Ctrl + Shift + I**
-
+**Ctrl + Shift + I** -
 Open quick definition lookup
 
-**Ctrl + U**
-
+**Ctrl + U** -
 Go to super-method/super-class
 
-**Alt + Up/Down**
-
+**Alt + Up/Down** -
 Go to previous/next method
 
-**Ctrl + \] / \[**
-
+**Ctrl + \] / \[** -
 Move to code block end/start
 
-**F2 / Shift + F2**
-
+**F2 / Shift + F2** -
 Next/previous highlighted error
 
-**F4 / Ctrl + Enter**
-
+**F4 / Ctrl + Enter** -
 Edit source / View source
 
-Refactoring
+### Refactoring
 
-**F5/F6**
-
+**F5/F6** -
 Copy/Move
 
-**Shift + F6**
-
+**Shift + F6** -
 Rename
 
 VCS/Local History
 
-**Ctrl + K**
-
+**Ctrl + K** -
 Commit project to VCS
 
-**Ctrl + T**
-
+**Ctrl + T** -
 Update project from VCS
 
-General
+### General
 
-**Double Shift**
-
+**Double Shift** -
 Search everywhere
 
-**Ctrl + Tab**
-
+**Ctrl + Tab** -
 Switch between tabs and tool window
 
 Database (Datagrip)
 
-**Ctrl + Enter**
-
+**Ctrl + Enter** -
 Execute Query / Submit changes
 
-**F4 (on a foreign key)**
-
+**F4 (on a foreign key)** -
 Open foreign table
 
-**Ctrl + B**
-
+**Ctrl + B** -
 Go to declaration / Show source
 
-**Ctrl + Shift + A**
-
+**Ctrl + Shift + A** -
 Transpose - Flip orientation of columns and rows
 
-**Ctrl + Y**
-
+**Ctrl + Y** -
 Delete selected row(s)
 
-**Alt + Insert**
-
+**Alt + Insert** -
 Add new row
 
-**Ctrl + D**
-
+**Ctrl + D** -
 Duplicate selected row(s)
 
-**Alt + Insert**
-
+**Alt + Insert** -
 Expand Column list (with cursor on \*)
 
-**Shift + F6**
-
+**Shift + F6** -
 Rename symbol on query
 
-**Ctrl + Shift + Alt + N**
-
+**Ctrl + Shift + Alt + N** -
 Search symbol everywhere

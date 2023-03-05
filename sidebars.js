@@ -32,7 +32,7 @@ module.exports = {
       label: 'Editors',
       items: [
         'editors/atom',
-        'editors/phpstorm',
+        'editors/jetbrains',
         'editors/sublime',
         'editors/textmate',
         'editors/vs'

@@ -1,4 +1,5 @@
-#Atom  
+# Atom
+
 [Atom text editor](https://atom.io)  
 
 
@@ -7,10 +8,6 @@
 [https://github.com/windhamdavid/atom-sunburst](https://github.com/windhamdavid/atom-sunburst)
 [https://atom.io/themes/atom-sunburst](https://atom.io/themes/atom-sunburst)
 
-```
-//commands I forget
-
-```
 
 #### Packages I use
 

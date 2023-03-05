@@ -30,7 +30,7 @@ I use this library of documents as a quick reference to find technical answers, 
 ### Editors
 
 [Atom](editors/atom) |
-[PHPStorm](editors/phpstorm) |
+[JetBrains](editors/jetbrains) |
 [Sublime](editors/sublime) |
 [Textmate](editors/textmate) |
 [Visual Studio Code](editors/vs)

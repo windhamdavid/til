@@ -290,6 +290,15 @@ The update is already installed.
 ✔ CVE-2023-0286 is resolved.
 ```
 
+### Unattended
+
+```bash
+sudo vi /etc/apt/apt.conf.d/50unattended-upgrades
+"${distro_id}ESMApps:${distro_codename}-apps-security";
+"${distro_id}ESM:${distro_codename}-infra-security";
+"${distro_id}:${distro_codename}-security";
+```
+
 ### Cron
 
 System keeps daily, a 2-7 day old, and 8-14 day old
