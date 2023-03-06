@@ -1,4 +1,4 @@
-# Woozie 🦮
+# Woozie 🐕‍🦺
 
 ## Notes
 
@@ -12,14 +12,14 @@
 
 - Monitor
   - watch logs for bots/IPs & block
-  - conf awk for cron to show virtual hosts
+  - ~~conf awk for cron to show virtual hosts~~
   - ~~combine A records for subdomains.~~
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - Tune
   - apache/nginx
   - mariadb
   - postgreSQL
-- custom apache/nginx error pages
+- ~~custom apache/nginx error pages~~
 - ~~code.daw~~
   - ~~email settings for code.daw~~
   - ~~gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>~~
