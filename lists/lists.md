@@ -1,6 +1,6 @@
-# Lists
+# Of Lists
 
-## Lists of Lists
+### A List of Other Lists
 
 - [List of lists (Wikipedia)](https://en.wikipedia.org/wiki/Category:Lists_of_lists)
 - [List of Internet Phenomena](https://en.wikipedia.org/wiki/List_of_Internet_phenomena)
@@ -9,3 +9,149 @@
 - [List of colors in various languages](https://en.wikipedia.org/wiki/List_of_colors_in_various_languages)
 - [List of Pantheists](https://en.wikipedia.org/wiki/List_of_pantheists)
 - [List of Philosophical Concepts](https://en.wikipedia.org/wiki/List_of_philosophical_concepts)
+
+---
+
+###  *The Hundred Best Lists of All Time* - The New Yorker
+
+December 26, 2012 - <https://www.newyorker.com/humor/daily-shouts/the-hundred-best-lists-of-all-time>
+
+( *my picks and edits with 'fixed' links )
+
+- [Generations of Adam](https://en.wikipedia.org/wiki/Generations_of_Adam)
+- [Satchel Paige](https://en.wikipedia.org/wiki/Satchel_Paige) “How to Keep Young”
+    - Avoid fried meats which angry up the blood.
+    - If you stomach disputes you, lie down and pacify it with cool thoughts.
+    - Keep the juices flowing by jangling around gently as you move.
+    - Go very light on the vices, such as carrying on in society. The social - ramble ain't restful.
+    - Avoid running at all times.
+    - Don't look back. Something might be gaining on you.
+- ~~The Crain’s New York Business “40 Under 40”~~
+- [Gentlemen Golfers of Leith’s “Articles & Laws in Playing at Golf”](https://en.wikipedia.org/wiki/Rules_of_golf)
+- ~~The World Rock Paper Scissors player’s responsibility code~~
+- ~~Maxim’s “Hot 100”~~
+- [Benjamin Franklin’s “Thirteen Virtues”](https://en.wikipedia.org/wiki/Benjamin_Franklin#Thirteen_Virtues)
+  - TEMPERANCE. Eat not to dullness; drink not to elevation.
+  - SILENCE. Speak not but what may benefit others or yourself; avoid - tring conversation.
+  - ORDER. Let all your things have their places; let each part of your - buess have its time.
+  - RESOLUTION. Resolve to perform what you ought; perform without fail wh- you resolve.
+  - FRUGALITY. Make no expense but to do good to others or yourself; i.e., - te nothing.
+  - INDUSTRY. Lose no time; be always employ’d in something useful; cut of all unnecessary actions.
+  - SINCERITY. Use no hurtful deceit; think innocently and justly, and, if -  speak, speak accordingly.
+  - JUSTICE. Wrong none by doing injuries, or omitting the benefits that ar your duty.
+  - MODERATION. Avoid extreams; forbear resenting injuries so much as you - nk they deserve.
+  -  CLEANLINESS. Tolerate no uncleanliness in body, cloaths, or haation.
+  -  TRANQUILLITY. Be not disturbed at trifles, or at accidents common or - voidable.
+  -  CHASTITY. Rarely use venery but for health or offspring, never to - dulness, weakness, or the injury of your own or another’s peace or - reputation.
+  - HUMILITY. Imitate Jesus and Socrates.
+- ~~Benjamin~~ [Thomas Tusser](https://en.wikipedia.org/wiki/Thomas_Tusser) - “Five Hundred Points of Good Husbandrie”
+- ~~The Rules~~
+- ~~U.S. News and World Report’s best-college rankings~~
+- ~~McDonald’s Big Mac-ingredients commercial~~
+- ~~Mel Kiper’s N.F.L.-draft Big Board~~
+- ~~People’s “Most Beautiful People”~~
+- ~~People’s “Sexiest Man Alive”~~
+- [Carter Chambers’s bucket list from “The Bucket List”](https://en.wikipedia.org/wiki/The_Bucket_List)
+- [Stanley Coren’s dog-breed intelligence ranking](https://en.wikipedia.org/wiki/The_Intelligence_of_Dogs)
+- [Wine Spectator’s “Top 100”](https://top100.winespectator.com)
+- [Maimonides’s “13 Principles of Faith”](https://en.wikipedia.org/wiki/Jewish_principles_of_faith#Maimonides'_13_principles_of_faith)
+- ~~Maria Kutchera’s “My Favorite Things” (“The Sound Of Music”)~~
+- [Rolling Stone’s “500 Greatest Albums of All Time”](https://en.wikipedia.org/wiki/Rolling_Stone%27s_500_Greatest_Albums_of_All_Time)
+- [Dr. James Naismith’s original 13 Rules of Basket Ball](https://en.wikipedia.org/wiki/History_of_basketball#Naismith's_original_rules)
+- [Rules, Regulations, & Laws of the Sheffield Foot-Ball Club](https://en.wikipedia.org/wiki/Sheffield_Rules)
+- The Sporting News’ “Rules of Scientific Heckling”
+  - No profanity.
+  - Nothing purely personal.
+  - Keep pouring it on.
+  - Know your players.
+  - Don't be shouted down.
+  - Take it as well as give it.
+  - Give the old-timer a chance - he was a rookie once.
+- [Van Halen’s 1982 tour-provisions “rider”](https://www.thesmokinggun.com/file/van-halen-1982-backstage-rider)
+- [Restaurant’s “50 Best Restaurants”](https://en.wikipedia.org/wiki/The_World%27s_50_Best_Restaurants)
+- [Modern Library’s “100 Best Novels”](https://en.wikipedia.org/wiki/Modern_Library_100_Best_Novels)
+- ~~ESPN.com’s “Top 100 North American Athletes of the (20th) Century”~~
+- [American Film Institute’s “100 Years, 100 Movies](https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movies)
+- [The Economist’s “Big Mac Index”](https://en.wikipedia.org/wiki/Big_Mac_Index)
+- [Casey Kasem’s “American Top 40”](https://en.wikipedia.org/wiki/Casey%27s_Top_40)
+- [William the Conqueror’s “The Domesday Book”](https://en.wikipedia.org/wiki/Domesday_Book)
+- ~~Inc. 5000~~
+- [Emily’s List](https://en.wikipedia.org/wiki/EMILY%27s_List)
+- [Lloyd’s List](https://en.wikipedia.org/wiki/Lloyd%27s_List)
+- [National Register of Historic Places](https://en.wikipedia.org/wiki/National_Register_of_Historic_Places)
+- ~~Guest List, The Marriage of His Royal Highness the Prince of Wales with the - Lady Diana Spencer~~
+- [Vietnam Veterans Memorial](https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial)
+- ~~Associated Press Top 25 Football Poll~~
+- [Billboard’s “Top 100”](https://en.wikipedia.org/wiki/Billboard_Hot_100)
+- [Fortune 500](https://en.wikipedia.org/wiki/Fortune_500)
+- [Rosanne Cash’s “The List”](https://en.wikipedia.org/wiki/The_List_(album))
+- [Social Register](https://en.wikipedia.org/wiki/Social_Register)
+- [Mrs. Astor’s 400](https://en.wikipedia.org/wiki/The_Four_Hundred_(Gilded_Age))
+- [Mayflower passenger list](https://en.wikipedia.org/wiki/List_of_Mayflower_passengers)
+- [Classic Ruy Lopez Chess Opening, a.k.a. The Spanish Opening](https://en.wikipedia.org/wiki/Ruy_Lopez)
+- [Pablo Picasso’s “Recommendations for 1913 International Exhibition of Modern - Art”](https://en.wikipedia.org/wiki/Armory_Show)
+- Major Reforms Section, Republican [Contract with America](https://en.wikipedia.org/wiki/Contract_with_America)
+- U.S. Department of Defense’s [“Iraqi 55” Most-Wanted Playing Cards](https://en.wikipedia.org/wiki/Most-wanted_Iraqi_playing_cards)
+- [Catholic Online’s Saints & Angels database](https://en.wikipedia.org/wiki/List_of_Catholic_saints)
+- [U.S. Department of State’s designated foreign terrorist organizations](https://en.wikipedia.org/wiki/United_States_Department_of_State_list_of_Foreign_Terrorist_Organizations)
+- U.S. Department of State’s [current travel warnings](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/)
+- 1927 Yankees’ opening-day lineup - [Murderer's Row](https://en.wikipedia.org/wiki/Murderers%27_Row)
+- ~~Money’s “Best Places To Live In America”~~
+- The Michelin [Red Guide](https://guide.michelin.com/us/en)
+- Fundamental Principles of Olympism - [Olympic Charter](https://en.wikipedia.org/wiki/Olympic_Charter)
+- “Late Show With David Letterman” [Top Ten](https://en.wikipedia.org/wiki/Late_Show_Top_Ten_List)
+- George Carlin’s “[Seven Words You Can Never Say on Network Television](https://en.wikipedia.org/wiki/Seven_dirty_words)”
+- The New York Times’ [best-sellers list](https://www.nytimes.com/books/best-sellers/)
+- [Mr. Blackwell’s worst-dressed list](https://en.wikipedia.org/wiki/Richard_Blackwell)
+- The [Dewey Decimal System](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification)
+- [Delmonico’s Menu](https://en.wikipedia.org/wiki/Delmonico%27s)
+- [Richard Nixon’s “Enemies List”](https://en.wikipedia.org/wiki/Nixon%27s_Enemies_List)
+- ~~Facebook friends list~~
+- ~~Shit List~~
+- The F.B.I.’s ten-most-wanted-fugitives list
+- The Beatles' set list, Majestic Ballroom concert in Luton, U.K., April 17, - 1963
+- [Wilshire 5000](https://en.wikipedia.org/wiki/Wilshire_5000) Total Market Index
+- [Russell 2000 Index](https://en.wikipedia.org/wiki/Russell_2000_Index)
+- [Standard & Poor’s 500](https://en.wikipedia.org/wiki/S%26P_500)
+- [Dow Jones Industrials](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average)
+- [“The Nifty Fifty”](https://en.wikipedia.org/wiki/Nifty_Fifty)
+- “[The 7 Habits of Highly Effective People](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People)”
+- [Forbes 400](https://en.wikipedia.org/wiki/Forbes_400)
+- The unesco “[World Heritage List](https://en.wikipedia.org/wiki/World_Heritage_Site)”
+- “[The Spy 100](https://en.wikipedia.org/wiki/Spy_(magazine))”
+- [The Apollo 11 surface checklist](https://www.hq.nasa.gov/alsj/a11/surface11.html)
+- Warren Buffett’s “Investment Criteria Checklist”
+  - Is the business simple and understandable?
+  - Does the business have a consistent operating history?
+  - Does the business have favourable long-term prospects?
+  - Is management candid with the shareholders?
+  - Does management resist the institutional imperative?
+  - Is the focus on Return On Equity?
+  - What is the rate of "owner earnings"?
+  - Is there a high profit margin?
+  - Has the company created at least one dollar of market value, for every dollar   - retained?
+  - What is the value of the business?
+  - Can it be purchased at a significant discount to its value?
+- ~~This grocery list~~
+- [Rules of Civility & Decent Behavior in Company and Conversation](https://en.wikipedia.org/wiki/Rules_of_Civility_and_Decent_Behaviour_In_Company_and_Conversation)
+- [Maslow’s Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
+- The [U.S. Declaration of Independence](https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence) list of grievances
+- The [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_number)
+- ~~Santa’s List!~~
+- [Elizabeth Barrett Browning](https://en.wikipedia.org/wiki/Elizabeth_Barrett_Browning)’s “How Do I Love Thee?” (Sonnet 43)
+- Hasbro’s “[2-Letter Scrabble Words List](https://en.wikipedia.org/wiki/Collins_Scrabble_Words)”
+- [Kelley Blue Book](https://en.wikipedia.org/wiki/Kelley_Blue_Book)
+- Dante Alighieri’s [nine circles of Hell](https://en.wikipedia.org/wiki/Inferno_(Dante))
+- [Schindler](https://en.wikipedia.org/wiki/Oskar_Schindler)’s list
+- “The Twelve Days of Christmas”
+- [Marquess of Queensbury Rules](https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules)
+- [Robert’s Rules of Order](https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order)
+- [The World Wildlife Fund (endangered) species directory](https://www.worldwildlife.org/species/directory)
+- Alcoholics Anonymous’ [twelve steps](https://en.wikipedia.org/wiki/Twelve-step_program)
+- [Yoga Sutras of Patanjali](https://en.wikipedia.org/wiki/Yoga_Sutras_of_Patanjali)
+- [Martin Luther](https://en.wikipedia.org/wiki/Martin_Luther)’s "95 Theses on the Power and Efficacy of Indulgences"
+- [The Diagnostic and Statistical Manual of Mental Disorders](https://en.wikipedia.org/wiki/Diagnostic_and_Statistical_Manual_of_Mental_Disorders)
+- [The Ten Commandments](https://en.wikipedia.org/wiki/Ten_Commandments)
+- [Craigslist](https://en.wikipedia.org/wiki/Craigslist)
+- [The Bill of Rights](https://en.wikipedia.org/wiki/Bill_of_rights)
+- [The Periodic Table of Elements](https://en.wikipedia.org/wiki/Periodic_table)
