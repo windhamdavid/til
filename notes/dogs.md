@@ -11,7 +11,22 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 
 # Dogs
 
-23.01.09 - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids.  
+**23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids.  
+
+## Log
+
+**23.03.09** - Puppies were born ( 2 Girls & 3 Boys ). Will ride up to select from the litter in early April with an expected come home date in mid May.
+
+- 23.01.10 - Zoey's doggie date w/ Adger
+- 23.03.10 - 60 day due date
+- 23.03.09 - Puppies Born 👈🏼
+- 23.04.16 - 5 week litter pick  
+- 23.05.09 - 8 Week pickup date  
+- 23.06.09 - 12 week pickup date  
+
+### Training
+
+4-6 Months -  Toothing: No Tug
 
 ## About
 
@@ -20,12 +35,12 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 **Mom - Zoey**
 Moore Retrievers - https://www.mooreretrievers.com/about
 https://www.facebook.com/mooreretriever/  
-Carolynn Moore - 
+Carolynn Moore -
 4008 Poors Ford Rd Rutherfordton, NC 28139
 315-276-5773  
 
 OFA - https://ofa.org/advanced-search/?f=sr&appnum=2313924  
-MOORERETRIEVER'S ZOEY - 
+MOORERETRIEVER'S ZOEY -
 A.K.C # - SS17601202  
 F GOLDEN GOLDEN RETRIEVER - Born Feb 14 2020  
 Sire: SR99157504 - Granddad - Blue Aubreys Golden  
@@ -33,7 +48,7 @@ Dam: SR86644701 - Grandmom - Justin N Jerry's Lizzy
 
 **Dad - Adger**
 Carolina Goldens - https://loyalgoldenretrievers.com/about-us/  
-Danielle & Randy Scruggs - 
+Danielle & Randy Scruggs -
 4369 Chesnee Rd, Rutherfordton, NC 28139
 (828)863-4542  
 [Adger FB photos](https://www.facebook.com/permalink.php?story_fbid=pfbid0iyVemBhVxjkJTABe7vF4vZ5Sn8fBocRY1GGo88Zi4KNoQCKqSUe4G4GNJrK3f5aCl&id=100057085434268&__cft__[0]=AZXTmF9OVu2FI6SmtwryKOOM8qcdeo2AOsoYdH-rt-2yGBtVjo2Vji8CNzJzaXYMj_gUFhFHsF8QrUzq46ImT31HlrNB7sL7v-j9HBghHZHEi1LMKABW5XgcRVwzH8CHXL4jSPN1UgvtKdHJsbzPzadYtnHnD7USAuV0-z95DckS_nw_OeSR-8jdAJ8vjPvpAofzMoDc1xxi8ySVGwAHBuGf&__tn__=%2CO%2CP-R)
@@ -42,7 +57,7 @@ https://www.facebook.com/people/Carolina-Goldens/100057085434268/
 Videos of parents - https://www.youtube.com/@randys6799
 Adger - ( Moore Retrievers’ Zoey ) https://4x521b.p3cdn1.secureserver.net/wp-content/uploads/2020/09/Adger-1.jpg
 
-### Names: 
+### Names
 
 Name: **Iris** ( **Iris of Zoey & Adger** ) / of Zeken Woozer  
 meaning: As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. The personification of a rainbow linking the heavens and earth. The rainbow's arc spanned the distance between cloud and sea and so the goddess was believed to replenish the rain-clouds with water from the sea. She was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities. She often carried water from the river Styx which separated earth from the underworld. Iris was often described acting as an intermediary between Hera queen of the gods and Hypnos the god of sleep.
@@ -54,16 +69,13 @@ The surname **Adger** is likely of English or Scottish origin. It is possible th
 
 The name **Zoey** is of Greek origin and means "life". It is a feminine given name, often used as a shortened form of the name Zoe.
 
-**Nous** is the original Golden Retriever - Nous n. ‘good sense’, thought reason, perception , ‘higher mind’, ‘minds eye’. - https://en.wikipedia.org/wiki/Nous  
+**Nous** was the name of original Golden Retriever - Nous n. ‘good sense’, thought reason, perception , ‘higher mind’, ‘minds eye’. - https://en.wikipedia.org/wiki/Nous  
 
-
-### Breed:
+### Breed
 
 https://en.wikipedia.org/wiki/Golden_Retriever  
 
-
-
-## Service Research:
+## Service Research
 
 Exploring the Impact of Animal-Assisted Therapy on Children’s Literacy Skills in Speech-Language Interventions - https://digitalcommons.georgiasouthern.edu/cgi/viewcontent.cgi?article=1674&context=honors-theses
 
@@ -81,8 +93,7 @@ Exploring Perceived Benefits of and Barriers to the Use of Pet Therapy Dogs in a
 Benefifits of Animal Assisted Therapy With Children in Special Education - https://spark.bethel.edu/cgi/viewcontent.cgi?article=1170
 
 
-
-### Video Testimony:
+### Video Testimony
 
 Portland High School - https://www.youtube.com/watch?v=oX2fAgN1iJE
 
@@ -90,8 +101,7 @@ Artie - Narona County School District - https://www.youtube.com/watch?v=EGO5DIB4
 
 Wyoming Department of Education - https://www.youtube.com/watch?v=ZPHr2v8ycsw
 
-
-## Organizations:
+## Organizations
 
 PAALS - Palmetto Animal Assisted Life Services - https://www.paals.org/about  
 
@@ -108,7 +118,7 @@ South Carolina Dogs Therapy Group - http://www.scdogs.org
 
 
 
-## Training:
+## Training Reference
 
 Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley 
  - PBS NOVA - Chaser the Dog Shows Off Her Smarts to Neil deGrasse Tyson - https://www.youtube.com/watch?v=omaHv5sxiFI
@@ -136,7 +146,7 @@ Amazon List - https://www.amazon.com/hz/wishlist/ls/3A5F0O9KTR7H2/
 State Farm Pet Insurance - https://www.statefarm.com/insurance/pet  
 
 
-### Food 
+### Food
 
 **Poisonous** Foods: xylitol (all artificial sweeteners), salt, yeast(dough) chocolate, macadamia, corn, popcorn, avocado, mushrooms, onions, garlic, leeks, coffee, caffeine, citrus, coconut oil, grapes, raisins, milk/diary, almond, pistachio, alchohol, peaches, plums, apple seeds, apricot pits, cherry pits, Chives, hops, mustard, broccoli, high fat meats, nutmeg, cinnamon, spicy food, green tomatoes, raw potatoes, large amount of liver, pickles. 
 
@@ -149,7 +159,7 @@ State Farm Pet Insurance - https://www.statefarm.com/insurance/pet
 
 ---
 
-### Training Key 🗝️ 
+### Training Key
 
 #### Words / Signs
 
@@ -173,12 +183,3 @@ Fitzgerald Key for Augmented and alternative communication - https://www.communi
 
 ---  
 
-### Log 
-
-23.01.10 - date w/ Adger
-23.03.15 - 65 day due date
-23.05.01 - 6 week litter pick  
-23.06.01 - 8 Week pickup date  
-23.07.01 - 12 week pickup date  
-
-4-6 Months -  Toothing: No Tug
