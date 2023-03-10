@@ -67,13 +67,13 @@ module.exports = {
       type: 'category',
       label: 'SasS',
       items: [
+        'saas/akamai',
         'saas/aws',
         'saas/google',
         'saas/heroku',
-        'saas/linode',
-        'saas/now',
         'saas/stripe',
         'saas/twilio',
+        'saas/vercel',
       ],
     },
     {
