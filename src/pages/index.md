@@ -38,10 +38,10 @@ description: A place to keep notes and documentation
   - [Migrate Gitbook to Docsify](https://davidawindham.com/til/help)
   - [Kubernetes Commands](https://davidawindham.com/til/docs/server/kubernetes)
   - [Pandoc is the way to convert doc types](https://github.com/jgm/pandoc)
-  - [Shall We Play a Game? - DDOS Notes](https://davidawindham.com/til/docs/saas/linode)
+  - [Shall We Play a Game? - DDOS Notes](https://davidawindham.com/til/docs/saas/akamai)
 - February 2020  
   - [Xiph Icecast2 GPG Key expired](https://davidawindham.com/til/docs/host/icecast)
-  - [Woozer Ubuntu 18.04 Upgrade](https://davidawindham.com/til/docs/saas/linode)
+  - [Woozer Ubuntu 18.04 Upgrade](https://davidawindham.com/til/docs/saas/akamai)
   - [Jo Harvey Allen is who says "It was love that killed John F. Kennedy. He should have never messed with me. They want me to speak on 60 Minutes. Mike Wallace wants my body" in True Stories](https://davidawindham.com/true-stories-2/)
 - January 2020  
   - [Annual overhaul of the machines](https://davidawindham.com/late-adopter/)  
@@ -101,7 +101,7 @@ description: A place to keep notes and documentation
   - [Muse UI - Vuejs Material Design](http://www.muse-ui.org/#/index)
   - [The Moby Project (docker blog)](https://blog.docker.com/2017/04/introducing-the-moby-project/)
     - [https://mobyproject.org/](https://mobyproject.org/)
-  - [Docker Ubuntu 16.04 Linode issue](/docs/server/docker) and [Linode Kernel](/docs/saas/linode)  
+  - [Docker Ubuntu 16.04 Linode issue](/docs/server/docker) and [Linode Kernel](/docs/saas/akamai)  
 - May 2017  
   - [Node 8.x (Carbon) LTS release in October](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.0.0)
     - [NPM v5.0.1 release](/docs/waf/npm)
