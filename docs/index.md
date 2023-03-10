@@ -57,8 +57,8 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ### SasS
 
-[Linode](saas/linode) |
-[Now](saas/now) |
+[Akamai](saas/akamai) |
+[Now](saas/vercel) |
 [Amazon](saas/aws) |
 [Google](saas/google) |
 [Heroku](saas/heroku) |
