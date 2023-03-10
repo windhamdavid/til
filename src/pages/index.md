@@ -3,6 +3,8 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+- March 2023
+  - [Iris was born](/notes/dogs#log)
 - February 2023
   - [Ubuntu 22.04 adds Ruby 3.0 and Go 1.18](/docs/computers/woozie)
   - [Brook Shields grandfather won Wimbledon](posts/once-upon-time-hollywood)
