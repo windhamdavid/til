@@ -563,13 +563,24 @@ sudo service monit status
 see repo @ <https://code.davidawindham.com/david/custom.d>
 
 ```bash
+# apache
 sudo vi /etc/apache2/apache2.conf
 ######## GLOBAL BLACKLIST ##########
 <Location "/">
  AuthMerging And
  Include custom.d/globalblacklist.conf
 </Location>
-sudo systemctl restart apache2
+sudo systemctl reload apache2
+
+# nginx
+sudo vi /etc/nginx/nginx.conf
+include /etc/nginx/conf.d/*;
+sudo vi /etc/nginx/sites-available/default
+server {
+  include /etc/nginx/bots.d/blockbots.conf;
+  include /etc/nginx/bots.d/ddos.conf;
+}
+sudo systemctl reload nginx
 ```
 
 ### Audit

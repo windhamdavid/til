@@ -1,4 +1,4 @@
-## Google Cloud Platform
+# Google
 
 * [https://cloud.google.com/](https://cloud.google.com/)
 * [https://cloud.google.com/docs](https://cloud.google.com/docs)
