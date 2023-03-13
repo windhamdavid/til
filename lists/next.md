@@ -33,13 +33,16 @@ Below is just a list of the items I'm currently watching or up next.
 [Belfast](https://en.wikipedia.org/wiki/Belfast_(film)) /
 [Bao](https://en.wikipedia.org/wiki/Bao_(film)) /
 [C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film)) / 
-[The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch) / 
-[Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) / 
-[The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) / 
+[The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch) /
+[Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) /
+[The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) /
 [The Orville](https://en.wikipedia.org/wiki/The_Orville) /
 [Delicious](https://www.imdb.com/title/tt10738536/) /
 [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard) /
 [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
+[Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) /
+[The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film)) /
+
 
 #### The 25 Best Films of 2022
 [David Ehrlich's Best films videos](https://www.videocountdowns.com)  

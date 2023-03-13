@@ -68,7 +68,7 @@ Other regional breeders:
 
 [![iris-litter](/img/iris-litter.jpg)](/img/iris-litter.jpg)  
 
-**23.03.09** - Puppies were born ( 2 Girls & 3 Boys ). Will ride up to select from the litter in early April with an expected come home date in mid May.
+**23.03.09** - Puppies were born. Will ride up to select from the litter in early April with an expected come home date in mid May.
 
 - 23.01.10 - Zoey's doggie date w/ Adger
 - 23.03.10 - 60 day due date
