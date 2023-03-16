@@ -40,8 +40,12 @@ module.exports = {
       type: 'category',
       label: 'Projects',
       collapsible: true,
+      link: {
+        type:'doc',
+        id:'projects/index',
+      },
       items: [
-        'projects/dw',
+        'projects/game',
         'projects/gzet',
         'projects/ham',
         'projects/juryd',
