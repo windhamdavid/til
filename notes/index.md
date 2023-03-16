@@ -23,17 +23,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 ---
 
-It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. I'm just going to start adding an outline of potential topics and link to the pages as they are created. 
-
-[Dogs](dogs) / [Health](health) / [House](house) / Projects / [Wealth](wealth) / Work  
-
-[Zeken Woozer Un-Ltd.](projects/zw) |
-[DW](projects/dw) |
-[GZET](projects/gzet) |
-[Juryd](projects/juryd) |
-[Pants](projects/pants) |
-[The Ham](projects/ham)
-
+It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. I'm just going to start adding an outline of potential topics and link to the pages as they are created.
 
 ---
 ## References

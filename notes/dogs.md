@@ -37,9 +37,8 @@ Carolina Goldens / Danielle & Randy Scruggs
 
 ### Names
 
-Name: **Iris** ( **Iris of Zoey & Adger** ) / of Zeken Woozer  
-meaning: As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. The personification of a rainbow linking the heavens and earth. The rainbow's arc spanned the distance between cloud and sea and so the goddess was believed to replenish the rain-clouds with water from the sea. She was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities. She often carried water from the river Styx which separated earth from the underworld. Iris was often described acting as an intermediary between Hera queen of the gods and Hypnos the god of sleep.
-( Ovid, Metamorphoses / Virgil, Aeneid / Homer, Iliad ) 
+Name: **Iris** ( **Iris of Zoey & Adger** ) / House of Zeken Woozer  
+meaning: As a goddess, Iris is associated with communication, messages, the rainbow, and new endeavors. The personification of a rainbow linking the heavens and earth. The rainbow's arc spanned the distance between cloud and sea and so the goddess was believed to replenish the rain-clouds with water from the sea. She was also believed to aid in the fulfillment of humans' prayers, either by fulfilling them herself or by bringing them to the attention of other deities. She often carried water from the river Styx which separated earth from the underworld. Iris was often described acting as an intermediary between Hera queen of the gods and Hypnos the god of sleep. ( Ovid, Metamorphoses / Virgil, Aeneid / Homer, Iliad ) 
 
 **Daffodil** - Her Sister ( from another litter )
 

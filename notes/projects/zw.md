@@ -1,6 +1,6 @@
 # ZW 
 
-https://zekenwoozer.com
+<https://davidawindham.com/zw/>
 
 
 
