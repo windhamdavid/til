@@ -2,6 +2,39 @@
 
 ## Log
 
+**23.03.17** - Inline upgrade 18.04.6 LTS -> 20.04.5 LTS
+```bash
+# make a snapshot backup
+sudo uname -mrs
+> Linux 4.15.0-206-generic x86_64
+# stop non-critical services
+sudo systemctl | grep running
+sudo systemctl stop monit
+sudo systemctl stop apache2
+sudo systemctl stop mysql
+sudo systemctl stop php7.4-fpm
+sudo systemctl stop linode-longview
+# update everything
+sudo apt update && apt upgrade
+# clean repo cache
+apt-get autoremove -y
+apt-get clean -y
+# reboot if needed
+sudo apt install update-manager-core
+# makes sure Prompt=lts
+sudo vi /etc/update-manager/release-upgrades
+# allow port 1022
+sudo iptables -I INPUT -p tcp --dport 1022 -j ACCEPT
+# run the upgrade
+sudo do-release-upgrade
+# after reboot check version
+lsb_release -a
+sudo uname -mrs
+# enable systemd-networkd
+sudo systemctl enable systemd-networkd
+```
+
+
 **23.02.19** - added ESM and combined log to all of the hosts, changed the apache/nginx logrotated to weekly and put the monitor report in cron.
 
 ```bash
