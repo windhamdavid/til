@@ -4,10 +4,14 @@
 # Dependencies
 /node_modules
 
+# VSCode
+.vscode
+
 # Obsidian
 /docs/.obsidian/*
 /notes/.obsidian/*
 /lists/.obsidian/*
+/posts/.obsidian/*
 
 # Production
 /build
