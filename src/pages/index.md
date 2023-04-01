@@ -3,8 +3,9 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
-- March 2023
+- April 2023
   - [How to add ChatGPT semantic search to my documents](posts/machine-learning)
+- March 2023
   - [Iran hostage crisis was the october surprise](posts/october-surprise)
   - [Dennis Ritchie's son created Spin-Out](posts/dennis-ritchie-typographical-mystery)
   - [Iris was born](/notes/dogs#log)
