@@ -12,402 +12,402 @@ Studies in Media Arts function as a components of an overall school curriculum t
 
 ## Media Arts Standards 
 
-## Artistic Processes: Creating- I can conceive and develop new design ideas and work.
+## Artistic Processes: Creating- conceive and develop new design ideas and work.
 
-### Anchor Standard 1: I can use past, current and emerging technology tools, procedures, and processes to create a variety of media artworks in a safe and responsible manner.
-
-| MA.CR | Benchmark | Indicator |
-|---|---|---|
-NL.1 | I can recognize technology tools, procedures and processes and use them in a safe and responsible manner to make media artworks.
-NM.1 | I can identify a technology tool, procedure, and process to make still pictures, moving pictures, or digital audio.
-NH.1 | I can identify multiple technology processes to make still pictures, moving pictures, or digital audio.
-IL.1 | I can explain and use a technology tool, procedure and process to convey meaning in media artwork.
-IM.1 | I can explain and use multiple technology tools, procedures and processes to convey meaning in media artwork.
-IH.1 | I can apply the most appropriate technology tool, procedure and process to convey a message to make a media artwork.
-AL.1 | I can apply some effective technology tools, procedures and processes to convey a message to make a variety of media artworks.
-AM.1 | I can manipulate multiple technology tools, procedures and processes to convey messages to make a variety of media artworks in the most effective way.
-AH.1 | I can use and justify the most effective technology tools, procedures and processes to make a variety of still, moving, and/or digital audio images to convey meaning using personal voice.
-NL.1.1 | I can safely and responsibly show the parts of a technology tool used to make media arts. | I can name some parts of a camera.
-||| I can name the differences between a computer, tablet, and a smartphone.
-NM.1.1 | I can safely and responsibly identify and use parts of some technology tools used to make media arts. | I can label the parts of a camera.
-||| I can follow the safety procedures when using a media tool.
-||| I can secure an iPad into a stand safely.
-NH.1.1 | I can safely and responsibly identify and use multiple technology tools to make media arts. | I can pick from a list of tools which tool would be the best to take a photograph that tells a story about what makes me happy.
-||| I can identify where external components are entered into a device.
-IL.1.1 | I can explain and safely use a technology tool to convey meaning in media arts. | I can make a media artwork about my family history.
-||| I can document a day in my life.
-IM.1.1 | I can explain and safely use multiple technology tools to convey meaning in media arts. | I can make a media artwork about my family history with interviews incorporated from family members.
-||| I can document a day in my life and focusing on a specific theme that tells a story.
-IH.1.1 | I can choose some appropriate technology tools to convey a message while making a media artwork in a safe and responsible manner. | I can edit a photograph to illustrate a stance on a political issue.
-||| I can select Gifs that animate my positions on politics.
-AL.1.1 | I can choose multiple effective technology tools to convey a message while making a variety of media artworks in a safe and responsible manner. | I can make a media artwork about my family history.
-||| I can document a day in my life.
-AM.1.1 | I can manipulate multiple technology tools to convey messages to make a variety of media artworks in the most effective way in a safe and responsible manner. | I can make a media artwork about my family history with interviews incorporated from family members.
-||| I can document a day in my life and focusing on a specific theme that tells a story.
-AH.1.1 | I can justify the most effective technology tools to make a variety of media artworks that convey meaning using personal voice in a safe and responsible manner. | I can edit a photograph to illustrate a stance on a political issue.
-||| I can create a moving film collage to demonstrate a timeline.
-NL.1.2 | I can follow the steps of some technology procedures and processes to make media artworks. | I can take a photograph.
-||| I can record my voice.
-||| I can record a video.
-NM.1.2 | I can identify the steps of a technology procedure and process to make media artworks. | I can take a photograph that is in focus.
-||| I can take picture to tell a story.
-||| I can video someone teaching a lesson.
-NH.1.2 | I can identify the steps of multiple technology procedures and processes to make media artworks. | I can make an instructional video on how to take a photograph. (The video will include still and moving pictures.)
-||| I can integrate still and moving images into an iMovie trailer.
-IL.1.2 | I can explain the steps of a technology procedure and process to convey meaning in media arts. | I can create a vlog about a social issue that demonstrates that I know how to shoot a video with sound.
-||| I can make a short interview about admirable character traits to demonstrate POV and sound.
-IM.1.2 | I can explain the steps of multiple technology procedures and processes to convey meaning in media arts. | I can take a self-portrait photograph to convey personal meaning.
-||| I can record my voice to make a vlog and tell a story about a personal experience.
-IH.1.2 | I can choose the appropriate technology procedure to convey a message while making a media artwork. | I can create a PSA choosing the best tools and process to help my school.
-||| I can make a voice over to use for daily announcements.
-||| I can combine music and sound to add under still pictures.
-AL.1.2 | I can choose some effective technology procedures and processes to convey a message while making a variety of media artworks. | I can create a vlog about a social issue that demonstrates that I know how to shoot a video with sound.
-||| I can make a short interview about admirable character traits to demonstrate POV and sound.
-AM.1.2 | I can manipulate multiple technology procedures and processes to convey messages to make a variety of media artworks in the most effective way. | I can take a self-portrait photograph to convey personal meaning.
-||| I can record my voice to make a vlog and tell a story about a personal experience.
-AH.1.2 | I can justify the most effective technology procedures and processes to make a variety of media artworks that convey meaning using personal voice. | I can create a PSA choosing the best tools and process to help my school.
-||| I can make a voice over to use for daily announcements.
-||| I can combine music and sound to add under still pictures.
-
-### Anchor Standard 2: I can organize, improve, and complete artistic work using media arts elements and principles.
+### Anchor Standard 1: use past, current and emerging technology tools, procedures, and processes to create a variety of media artworks in a safe and responsible manner.
 
 | MA.CR | Benchmark | Indicator |
 |---|---|---|
-NL.2 | I can recognize and explore some elements and principles in media arts.
-NM.2 | I can combine elements and principles of media arts to make media artwork.
-NH.2 | I can communicate meaning in my work by selecting and arranging elements and principles of media arts.
-IL.2 | I can apply elements and principles of media arts to revise my work.
-IM.2 | I can analyze and apply the elements and principles of media arts as a response to an artistic problem.
-IH.2 | I can analyze my media artwork through a critique and refine my work based on given criteria.
-AL.2 | I can create, refine, and communicate ideas based on the elements and principles of media arts to complete a variety of media artworks.
-AM.2 | I can document and justify the planning and development of a media artwork from the inception of the idea to completion.
-AH.2 | I can create a body of work in a variety of media art forms that explore personal themes, ideas, or concepts.
-NL.2.1 | I can recognize some elements or principles of media arts to communicate an idea. | I can identify when the music changes mood in a film.
-||| I can explore different music choices for a video.
-||| I can explore how different fonts are used on magazine covers.
-NM.2.1 | I can combine elements and principles of media arts using multiple media techniques. | I can use sound and moving images to tell a story.
-||| I can use lighting and contrast in a photo to convey mood.
-NH.2.1 | I can change the meaning of a media artwork using different elements or principles. | I can change the font and color on a magazine cover to create emphasis.
-||| I can change the speed and camera angle of an animation.
-IL.2.1 | I can identify improvements needed in my media artwork and explore strategies to strengthen the intended meaning. | I can explain how lighting can change a photograph’s mood.
-||| I can explain why point of view is important when making a film.
-IM.2.1 | I can explain how multiple elements or principles of media arts are used to convey meaning in media artworks. | I can explain how background music and the speaker's tone of voice can affect meaning in a podcast.
-||| I can explain how editing and pacing can change the rhythm of a commercial.
-IH.2.1 | I can participate in a formal critique to revise my artwork. | I can make and post a video blog on my process of making my film for others.
-||| I can describe and make suggestions about a media artwork free of personal judgment based on the elements and principles of media arts.
-AL.2.1 | I can apply organizational strategies that communicate a personal meaning, theme, idea, or concept. | I can explain how lighting can change a photograph’s mood.
-||| I can explain why point of view is important when making a film.
-AM.2.1 | I can create a process folio to document the planning of a media artwork. | I can explain how background music and the speaker's tone of voice can affect meaning in a podcast.
-||| I can explain how editing and pacing can change the rhythm of a commercial.
-AH.2.1 | I can explain and defend the choices I made to communicate my artistic ideas across multiples media artworks. | I can make and post a video blog on my process of making my film for others.
-||| I can describe and make suggestions about a media artwork free of personal judgment based on the elements and principles of media arts.
+NL.1 | recognize technology tools, procedures and processes and use them in a safe and responsible manner to make media artworks.
+NM.1 | identify a technology tool, procedure, and process to make still pictures, moving pictures, or digital audio.
+NH.1 | identify multiple technology processes to make still pictures, moving pictures, or digital audio.
+IL.1 | explain and use a technology tool, procedure and process to convey meaning in media artwork.
+IM.1 | explain and use multiple technology tools, procedures and processes to convey meaning in media artwork.
+IH.1 | apply the most appropriate technology tool, procedure and process to convey a message to make a media artwork.
+AL.1 | apply some effective technology tools, procedures and processes to convey a message to make a variety of media artworks.
+AM.1 | manipulate multiple technology tools, procedures and processes to convey messages to make a variety of media artworks in the most effective way.
+AH.1 | use and justify the most effective technology tools, procedures and processes to make a variety of still, moving, and/or digital audio images to convey meaning using personal voice.
+NL.1.1 | safely and responsibly show the parts of a technology tool used to make media arts. | name some parts of a camera.
+||| name the differences between a computer, tablet, and a smartphone.
+NM.1.1 | safely and responsibly identify and use parts of some technology tools used to make media arts. | label the parts of a camera.
+||| follow the safety procedures when using a media tool.
+||| secure an iPad into a stand safely.
+NH.1.1 | safely and responsibly identify and use multiple technology tools to make media arts. | pick from a list of tools which tool would be the best to take a photograph that tells a story about what makes me happy.
+||| identify where external components are entered into a device.
+IL.1.1 | explain and safely use a technology tool to convey meaning in media arts. | make a media artwork about my family history.
+||| document a day in my life.
+IM.1.1 | explain and safely use multiple technology tools to convey meaning in media arts. | make a media artwork about my family history with interviews incorporated from family members.
+||| document a day in my life and focusing on a specific theme that tells a story.
+IH.1.1 | choose some appropriate technology tools to convey a message while making a media artwork in a safe and responsible manner. | edit a photograph to illustrate a stance on a political issue.
+||| select Gifs that animate my positions on politics.
+AL.1.1 | choose multiple effective technology tools to convey a message while making a variety of media artworks in a safe and responsible manner. | make a media artwork about my family history.
+||| document a day in my life.
+AM.1.1 | manipulate multiple technology tools to convey messages to make a variety of media artworks in the most effective way in a safe and responsible manner. | make a media artwork about my family history with interviews incorporated from family members.
+||| document a day in my life and focusing on a specific theme that tells a story.
+AH.1.1 | justify the most effective technology tools to make a variety of media artworks that convey meaning using personal voice in a safe and responsible manner. | edit a photograph to illustrate a stance on a political issue.
+||| create a moving film collage to demonstrate a timeline.
+NL.1.2 | follow the steps of some technology procedures and processes to make media artworks. | take a photograph.
+||| record my voice.
+||| record a video.
+NM.1.2 | identify the steps of a technology procedure and process to make media artworks. | take a photograph that is in focus.
+||| take picture to tell a story.
+||| video someone teaching a lesson.
+NH.1.2 | identify the steps of multiple technology procedures and processes to make media artworks. | make an instructional video on how to take a photograph. (The video will include still and moving pictures.)
+||| integrate still and moving images into an iMovie trailer.
+IL.1.2 | explain the steps of a technology procedure and process to convey meaning in media arts. | create a vlog about a social issue that demonstrates that I know how to shoot a video with sound.
+||| make a short interview about admirable character traits to demonstrate POV and sound.
+IM.1.2 | explain the steps of multiple technology procedures and processes to convey meaning in media arts. | take a self-portrait photograph to convey personal meaning.
+||| record my voice to make a vlog and tell a story about a personal experience.
+IH.1.2 | choose the appropriate technology procedure to convey a message while making a media artwork. | create a PSA choosing the best tools and process to help my school.
+||| make a voice over to use for daily announcements.
+||| combine music and sound to add under still pictures.
+AL.1.2 | choose some effective technology procedures and processes to convey a message while making a variety of media artworks. | create a vlog about a social issue that demonstrates that I know how to shoot a video with sound.
+||| make a short interview about admirable character traits to demonstrate POV and sound.
+AM.1.2 | manipulate multiple technology procedures and processes to convey messages to make a variety of media artworks in the most effective way. | take a self-portrait photograph to convey personal meaning.
+||| record my voice to make a vlog and tell a story about a personal experience.
+AH.1.2 | justify the most effective technology procedures and processes to make a variety of media artworks that convey meaning using personal voice. | create a PSA choosing the best tools and process to help my school.
+||| make a voice over to use for daily announcements.
+||| combine music and sound to add under still pictures.
 
-## Artistic Processes: Presenting- I can share artistic ideas and work.
+### Anchor Standard 2: organize, improve, and complete artistic work using media arts elements and principles.
 
-### Anchor Standard 3: I can develop, refine, and select work for presentation that reflects specific content, ideas, skills, and media works for display.
+| MA.CR | Benchmark | Indicator |
+|---|---|---|
+NL.2 | recognize and explore some elements and principles in media arts.
+NM.2 | combine elements and principles of media arts to make media artwork.
+NH.2 | communicate meaning in my work by selecting and arranging elements and principles of media arts.
+IL.2 | apply elements and principles of media arts to revise my work.
+IM.2 | analyze and apply the elements and principles of media arts as a response to an artistic problem.
+IH.2 | analyze my media artwork through a critique and refine my work based on given criteria.
+AL.2 | create, refine, and communicate ideas based on the elements and principles of media arts to complete a variety of media artworks.
+AM.2 | document and justify the planning and development of a media artwork from the inception of the idea to completion.
+AH.2 | create a body of work in a variety of media art forms that explore personal themes, ideas, or concepts.
+NL.2.1 | recognize some elements or principles of media arts to communicate an idea. | identify when the music changes mood in a film.
+||| explore different music choices for a video.
+||| explore how different fonts are used on magazine covers.
+NM.2.1 | combine elements and principles of media arts using multiple media techniques. | use sound and moving images to tell a story.
+||| use lighting and contrast in a photo to convey mood.
+NH.2.1 | change the meaning of a media artwork using different elements or principles. | change the font and color on a magazine cover to create emphasis.
+||| change the speed and camera angle of an animation.
+IL.2.1 | identify improvements needed in my media artwork and explore strategies to strengthen the intended meaning. | explain how lighting can change a photograph’s mood.
+||| explain why point of view is important when making a film.
+IM.2.1 | explain how multiple elements or principles of media arts are used to convey meaning in media artworks. | explain how background music and the speaker's tone of voice can affect meaning in a podcast.
+||| explain how editing and pacing can change the rhythm of a commercial.
+IH.2.1 | participate in a formal critique to revise my artwork. | make and post a video blog on my process of making my film for others.
+||| describe and make suggestions about a media artwork free of personal judgment based on the elements and principles of media arts.
+AL.2.1 | apply organizational strategies that communicate a personal meaning, theme, idea, or concept. | explain how lighting can change a photograph’s mood.
+||| explain why point of view is important when making a film.
+AM.2.1 | create a process folio to document the planning of a media artwork. | explain how background music and the speaker's tone of voice can affect meaning in a podcast.
+||| explain how editing and pacing can change the rhythm of a commercial.
+AH.2.1 | explain and defend the choices I made to communicate my artistic ideas across multiples media artworks. | make and post a video blog on my process of making my film for others.
+||| describe and make suggestions about a media artwork free of personal judgment based on the elements and principles of media arts.
+
+## Artistic Processes: Presenting- share artistic ideas and work.
+
+### Anchor Standard 3: develop, refine, and select work for presentation that reflects specific content, ideas, skills, and media works for display.
 
 | MA.P | Benchmark | Indicator |
 |---|---|---|
-NL.3 | I can identify media artworks as communi-cation.
-NM.3 | I can explain ways media artworks are presented.
-NH.3 | I can consider audience response when discussing how media artworks are presented.
-IL.3 | I can identify a target audience for presentation of my media artwork.
-IM.3 | I can identify and choose multiple formats used in presenting media artworks for a target audience.
-IH.3 | I can compare presentation formats for different media artworks and its intended audience.
-AL.3 | I can present media artworks considering combinations of formats and target audience.
-AM.3 | I can analyze and interpret the effectiveness of a media arts presentation for an intended audience.
-AH.3 | I can promote and present media artworks for intentional impacts through a variety of contexts such as markets and venues.
-NL.3.1 | I can present a media artwork to an audience. | I can present photography as a media artwork.
-||| I can present film as moving pictures to create meaning.
-||| I can present posters and brochures as advertisements.
-NM.3.1 | I can identify venues appropriate for still and moving images in media artworks. | I can name places to show my work.
-||| I can identify where a still image is more appropriate to use than a moving image.
-||| I can identify two places to post a video.
-NH.3.1 | I can examine how audience response varies depending on how media artwork is presented. | I can identify how children respond differently to a cereal commercial than adults.
-||| I can identify how a movie trailer and a movie poster target audience for different purposes.
-||| I can examine how different ages of people chose different formats to view media.
-IL.3.1 | I can identify multiple ways to share my work through different media outlets. | I can post a photograph on social media.
-||| I can upload my story as a podcast.
-||| I can upload a video to YouTube.
-IM.3.1 | I can choose proper format for my media artwork. | I can reduce the file size of a video for better streaming.
-||| I can change the resolution of my photograph for better printing.
-||| I can change the resolution of a film to be projected for a large screen.
-IH.3.1 | I can choose the most effective media format for a select audience. | I can choose whether to upload my film to YouTube or Vimeo for impact.
-||| I can decide whether I want to post my filers digitally or printed for distribution.
-AL.3.1 | I can select my intended audience and choose multiple media formats to get the most views. | I can post a photograph on social media.
-||| I can upload my story as a podcast.
-||| I can upload a video to YouTube.
-AM.3.1 | I can evaluate the effectiveness of virtual and physical presentations of a media artwork. | I can reduce the file size of a video for better streaming.
-||| I can change the resolution of my photograph for better printing.
-||| I can change the resolution of a film to be projected for a large screen.
-AH.3.1 | I can create a media plan (funding, distribution, and viewing) to promote my media artwork. | I can choose whether to upload my film to YouTube or Vimeo for impact.
-||| I can decide whether I want to post my filers digitally or printed for distribution.
+NL.3 | identify media artworks as communi-cation.
+NM.3 | explain ways media artworks are presented.
+NH.3 | consider audience response when discussing how media artworks are presented.
+IL.3 | identify a target audience for presentation of my media artwork.
+IM.3 | identify and choose multiple formats used in presenting media artworks for a target audience.
+IH.3 | compare presentation formats for different media artworks and its intended audience.
+AL.3 | present media artworks considering combinations of formats and target audience.
+AM.3 | analyze and interpret the effectiveness of a media arts presentation for an intended audience.
+AH.3 | promote and present media artworks for intentional impacts through a variety of contexts such as markets and venues.
+NL.3.1 | present a media artwork to an audience. | present photography as a media artwork.
+||| present film as moving pictures to create meaning.
+||| present posters and brochures as advertisements.
+NM.3.1 | identify venues appropriate for still and moving images in media artworks. | name places to show my work.
+||| identify where a still image is more appropriate to use than a moving image.
+||| identify two places to post a video.
+NH.3.1 | examine how audience response varies depending on how media artwork is presented. | identify how children respond differently to a cereal commercial than adults.
+||| identify how a movie trailer and a movie poster target audience for different purposes.
+||| examine how different ages of people chose different formats to view media.
+IL.3.1 | identify multiple ways to share my work through different media outlets. | post a photograph on social media.
+||| upload my story as a podcast.
+||| upload a video to YouTube.
+IM.3.1 | choose proper format for my media artwork. | reduce the file size of a video for better streaming.
+||| change the resolution of my photograph for better printing.
+||| change the resolution of a film to be projected for a large screen.
+IH.3.1 | choose the most effective media format for a select audience. | choose whether to upload my film to YouTube or Vimeo for impact.
+||| decide whether I want to post my filers digitally or printed for distribution.
+AL.3.1 | select my intended audience and choose multiple media formats to get the most views. | post a photograph on social media.
+||| upload my story as a podcast.
+||| upload a video to YouTube.
+AM.3.1 | evaluate the effectiveness of virtual and physical presentations of a media artwork. | reduce the file size of a video for better streaming.
+||| change the resolution of my photograph for better printing.
+||| change the resolution of a film to be projected for a large screen.
+AH.3.1 | create a media plan (funding, distribution, and viewing) to promote my media artwork. | choose whether to upload my film to YouTube or Vimeo for impact.
+||| decide whether I want to post my filers digitally or printed for distribution.
 
-## Artistic Processes: Responding- I can interpret (read) and evaluate how media is represented and conveys meaning.
+## Artistic Processes: Responding- interpret (read) and evaluate how media is represented and conveys meaning.
 
-### Anchor Standard 4: I can describe, analyze, and evaluate the meaning of my work and the work of others.
+### Anchor Standard 4: describe, analyze, and evaluate the meaning of my work and the work of others.
 
 | MA.R | Benchmark | Indicator |
 |---|---|---|
-NL.4 | I can explore message and purpose in my media artworks and the work of others.
-NM.4 | I can identify some messages and purposes in media artworks.
-NH.4 | I can identify the messages and purposes, in my media artworks and the work of others.
-IL.4 | I can explain the messages and purposes in media artworks.
-IM.4 | I can analyze and describe reactions and interpretations of messages and purposes in a variety of media artworks.
-IH.4 | I can investigate personal and group intentions about messages and purposes in media artworks.
-AL.4 | I can discuss and analyze the message and purpose in a variety of media artworks.
-AM.4 | I can analyze the message and intent of a variety of media artworks.
-AH.4 | I can justify the message, intent, and impact of diverse media artworks, considering complex factors of context and bias.
-NL.4.1 | I can describe parts of a media artwork. | I can identify a type of media artwork (video, podcast, animation, etc.)
-||| I can name the subject in a photograph.
-||| I can identify color, size, font, and space choices in a media artwork.
-NM.4.1 | I can identify how media artworks are put together. | I can name color as an element of a media artwork.
-||| I can tell that a photograph only shows value, as an element of art, because it is black and white.
-||| I can define an element and a principle of media art in a short film or advertisement.
-NH.4.1 | I can identify the subject, composition, and media arts elements and principles for a variety of media artworks. | I can describe how different camera angles are used in a film.
-||| I can describe the rule of thirds and how it is used in more than one media art form.
-||| I can recognize how lighting is used to change the mood or intent of the film.
-||| I can recognize how costume choices are used to convey meaning.
-IL.4.1 | I can explain how to use the elements and principles of media art to compose a media artwork. | I can explain how separate things such as framing and angles can change the film.
-IM.4.1 | I can show the similarities and differences in how media artworks are organized by the elements and principles. | I can see how film and video can be similar in terms of image style but very different when it comes to file size.
-IH.4.1 | I can rephrase ways in which a variety of media artworks organize criteria. | I can look at a propaganda poster and remix that using a new subject.
-AL.4.1 | I can analyze the organization of the elements and principles of media artworks. | I can explain how separate things such as framing and angles can change the film.
-||| I can explain how color theory themes can change the emotion in a film.
-AM.4.1 | I can critique how the composition characteristics in multiple media artworks work together. | I can see how film and video can be similar in terms of image style but very different when it comes to file size.
-||| I can see how film and video can be similar in terms of image style but very different when it comes to point of view.
-||| I can compare a infomercial’s use of color to the color in a printed advertising image.
-AH.4.1 | I can justify the organizational choices made by media artists. | I can look at a propaganda poster and remix that using a new subject.
-||| I can create a series of podcast that follow a similar format and style.
-NL.4.2 | I can name a message in media artworks. | I can identify a message in a commercial.
-||| I can identify the message in a print advertisement.
-||| I can identify the plot in a movie.
-NM.4.2 | I can describe my thoughts about messages in media artworks. | I can tell my thoughts about the message in a movie, video, etc.
-||| I can explain for whom a media artwork message was created.
-NH.4.2 | I can identify ideas, issues, and/or experiences presented in the messages of media artworks. | I can explain my thoughts about the ideas, issues and experiences shown on a TV episode and movie.
-||| I can explain my thoughts about ideas, issues and experiences shown in an advertisement and photograph.
-||| I can explain my thoughts about the effectiveness of an advertisement or film.
-IL.4.2 | I can explain the techniques used in different media artworks that reflect varying messages and points of view. | I can relate how camera angles are connected to the perception of the message in a film.
-||| I can identify various artistic techniques that are used in advertising to convey a specific message for a specific group of people.
-||| I can describe the main target audience of a movie, or television show, based on the message.
-IM.4.2 | I can investigate increasingly complex messages in media artworks. | I can share what a director’s point of view and message is in a film.
-||| I can explain the difference in target audience of a viral video and a full length feature film.
-||| I can explain the different target audience of a meme and an ad campaign.
-IH.4.2 | I can explore the language, tone, and point of view used in media texts to influence meaning and interpretation of messages. | I can analyze how point of view can influence the audience of a news story.
-||| I can analyze how a director's personal beliefs can influence their final product in a documentary.
-||| I can explain how personal views can influence an audience member’s reaction to a commercial.
-AL.4.2 | I can analyze the effectiveness of a presentation and treatment of messages in media artwork. | I can relate how camera angles are connected to the perception of the message in a film.
-||| I can identify various artistic techniques that are used in advertising to convey a specific message for a specific group of people.
-||| I can describe the main target audience of a movie, or television show, based on the message.
-AM.4.2 | I can interpret the qualities of and relationships between the components, style, and message communicated by media artworks and artists. | I can share what a director’s point of view and message is in a film.
-||| I can explain the difference in target audience of a viral video and a full length feature film.
-||| I can explain the different target audience of a meme and an ad campaign.
-AH.4.2 | I can justify my interpretation of language, tone, and point of view of the message in a media artwork. | I can analyze how point of view can influence the audience of a news story.
-||| I can analyze how a director's personal beliefs can influence their final product in a documentary.
-||| I can explain how personal views can influence an audience member’s reaction to a commercial.
-NL.4.3 | I can name a purpose of some media artworks. | I can predict the message of a media artwork based on an image.
-||| I can identify the choices made by a choreographer in music video.
-||| I can explain the choices made by a filmmaker when making a movie.
-NM.4.3 | I can identify the purpose of a media artwork. | I can describe the preferences of an artist that makes a video blog.
-||| I can describe the preferences of a radio broadcaster.
-||| I can identify how a filmmaker uses light, sound, costume, and setting to convey a purpose.
-NH.4.3 | I can identify the purpose and audience of a media artwork. | I can explain why different age groups may respond differently to an internet meme.
-||| I can explain how different age groups may respond differently to a movie or TV show.
-||| I can explain how people from different backgrounds would react to a video game.
-IL.4.3 | I can explain that different media can produce artworks that have the same purpose. | I can identify the way color is used in print media.
-||| I can identify how text size and placement on magazine covers can sway my opinion.
-IM.4.3 | I can investigate increasingly complex techniques that artists use to convey purpose in media artwork. | I can identify various lighting techniques in a work of media art and how those techniques influence the audience reaction.
-||| I can identify various sound techniques in a work of media art and explain why they were used.
-||| I can see advertisements are changed depending on the target audience's location.
-IH.4.3 | I can find and interpret data to explore multiple differences in the purpose of media artwork. | I can examine how an artist’s choice of music in a short film. can influence the audience.
-||| I can examine how the use of a particular color on a meme can influence an audience.
-AL.4.3 | I can analyze formal and informal situations, the effectiveness of presentation, and treatment of media to convey the purpose. | I can identify the way color is used in print media.
-||| I can identify how text size and placement on magazine covers can sway my opinion.
-AM.4.3 | I can analyze and interpret the qualities of relationships between the components, style, message, and how they relate to the purpose. | I can identify various lighting techniques in a work of media art and how those techniques influence the audience reaction.
-||| I can identify various sound techniques in a work of media art and explain why they were used.
-||| I can see advertisements are changed depending on the target audience's location.
-AH.4.3 | I can justify my interpretation and explanation of the purpose of multiple media artwork. | I can examine how an artist’s choice of music in a short film can influence the audience.
-||| I can examine how the use of a particular color on a meme can influence an audience.
-NL.4.4 | I can make a statement about my media artwork. | I can name the subject of my media artwork.
-||| I can name the setting of my media artwork.
-||| I can write a title for my work.
-NM.4.4 | I can describe my media artwork. | I can explain what inspired me to make my artwork.
-||| I can explain how I made my media artwork.
-NH.4.4 | I can recognize an element and/or principle of media art in my work. | I can explain some compositional elements in my media artwork.
-||| I can explain how setting, color, lighting, etc., are used in my work.
-IL.4.4 | I can describe multiple elements and principles of media art in my work. | I can write an artist statement that describes and interprets and element or principle of art.
-||| I can write an artist statement that describes how color is used in my media artwork.
-||| I can write an artist statement that describes how line creates movement in my media artwork.
-IM.4.4 | I can identify elements and principals of media arts in artist’s statements. | I can create a blog that describes, interprets and analyzes my artwork.
-||| I can talk about an artist statement that describes how quadrants are used to create emotions in my media artwork.
-||| I can talk about an artist statement that describes how angles are used in my media artwork.
-IH.4.4 | I can develop an artist’s statement that describes media arts criteria and intent of my work. | I can journal daily about my process and purpose of creating artwork in class.
-||| I can create a blog that describes, interprets and analyzes my artwork.
-AL.4.4 | I can develop an artist’s statement that merges personal influences with intent and media arts criteria for my work. | I can write an artist statement that describes and interprets personal choices when using of lighting angles and shadows in a video game.
-||| I can write an artist statement that describes and interprets the use emphasis in costumes designs to express intent for a dance video.
-AM.4.4 | I can develop an artist’s statement that identifies common themes in personal influences, intent and media arts criteria for work. | I can create a blog that describes, common themes in a series of films on school culture.
-||| I can write an artist statement about specific intent used in a radio announcement on religious views.
-AH.4.4 | I can justify my choices of criteria, cultural influences, personal experiences, to create my own voice in my artist statement. | I can validate my choices through an artist statement on expressing my personal voice on making a film about persons’ with disabilities.
-||| I can defend my cultural influences in an artist statement for a contest for International Day.
+NL.4 | explore message and purpose in my media artworks and the work of others.
+NM.4 | identify some messages and purposes in media artworks.
+NH.4 | identify the messages and purposes, in my media artworks and the work of others.
+IL.4 | explain the messages and purposes in media artworks.
+IM.4 | analyze and describe reactions and interpretations of messages and purposes in a variety of media artworks.
+IH.4 | investigate personal and group intentions about messages and purposes in media artworks.
+AL.4 | discuss and analyze the message and purpose in a variety of media artworks.
+AM.4 | analyze the message and intent of a variety of media artworks.
+AH.4 | justify the message, intent, and impact of diverse media artworks, considering complex factors of context and bias.
+NL.4.1 | describe parts of a media artwork. | identify a type of media artwork (video, podcast, animation, etc.)
+||| name the subject in a photograph.
+||| identify color, size, font, and space choices in a media artwork.
+NM.4.1 | identify how media artworks are put together. | name color as an element of a media artwork.
+||| tell that a photograph only shows value, as an element of art, because it is black and white.
+||| define an element and a principle of media art in a short film or advertisement.
+NH.4.1 | identify the subject, composition, and media arts elements and principles for a variety of media artworks. | describe how different camera angles are used in a film.
+||| describe the rule of thirds and how it is used in more than one media art form.
+||| recognize how lighting is used to change the mood or intent of the film.
+||| recognize how costume choices are used to convey meaning.
+IL.4.1 | explain how to use the elements and principles of media art to compose a media artwork. | explain how separate things such as framing and angles can change the film.
+IM.4.1 | show the similarities and differences in how media artworks are organized by the elements and principles. | see how film and video can be similar in terms of image style but very different when it comes to file size.
+IH.4.1 | rephrase ways in which a variety of media artworks organize criteria. | look at a propaganda poster and remix that using a new subject.
+AL.4.1 | analyze the organization of the elements and principles of media artworks. | explain how separate things such as framing and angles can change the film.
+||| explain how color theory themes can change the emotion in a film.
+AM.4.1 | critique how the composition characteristics in multiple media artworks work together. | see how film and video can be similar in terms of image style but very different when it comes to file size.
+||| see how film and video can be similar in terms of image style but very different when it comes to point of view.
+||| compare a infomercial’s use of color to the color in a printed advertising image.
+AH.4.1 | justify the organizational choices made by media artists. | look at a propaganda poster and remix that using a new subject.
+||| create a series of podcast that follow a similar format and style.
+NL.4.2 | name a message in media artworks. | identify a message in a commercial.
+||| identify the message in a print advertisement.
+||| identify the plot in a movie.
+NM.4.2 | describe my thoughts about messages in media artworks. | tell my thoughts about the message in a movie, video, etc.
+||| explain for whom a media artwork message was created.
+NH.4.2 | identify ideas, issues, and/or experiences presented in the messages of media artworks. | explain my thoughts about the ideas, issues and experiences shown on a TV episode and movie.
+||| explain my thoughts about ideas, issues and experiences shown in an advertisement and photograph.
+||| explain my thoughts about the effectiveness of an advertisement or film.
+IL.4.2 | explain the techniques used in different media artworks that reflect varying messages and points of view. | relate how camera angles are connected to the perception of the message in a film.
+||| identify various artistic techniques that are used in advertising to convey a specific message for a specific group of people.
+||| describe the main target audience of a movie, or television show, based on the message.
+IM.4.2 | investigate increasingly complex messages in media artworks. | share what a director’s point of view and message is in a film.
+||| explain the difference in target audience of a viral video and a full length feature film.
+||| explain the different target audience of a meme and an ad campaign.
+IH.4.2 | explore the language, tone, and point of view used in media texts to influence meaning and interpretation of messages. | analyze how point of view can influence the audience of a news story.
+||| analyze how a director's personal beliefs can influence their final product in a documentary.
+||| explain how personal views can influence an audience member’s reaction to a commercial.
+AL.4.2 | analyze the effectiveness of a presentation and treatment of messages in media artwork. | relate how camera angles are connected to the perception of the message in a film.
+||| identify various artistic techniques that are used in advertising to convey a specific message for a specific group of people.
+||| describe the main target audience of a movie, or television show, based on the message.
+AM.4.2 | interpret the qualities of and relationships between the components, style, and message communicated by media artworks and artists. | share what a director’s point of view and message is in a film.
+||| explain the difference in target audience of a viral video and a full length feature film.
+||| explain the different target audience of a meme and an ad campaign.
+AH.4.2 | justify my interpretation of language, tone, and point of view of the message in a media artwork. | analyze how point of view can influence the audience of a news story.
+||| analyze how a director's personal beliefs can influence their final product in a documentary.
+||| explain how personal views can influence an audience member’s reaction to a commercial.
+NL.4.3 | name a purpose of some media artworks. | predict the message of a media artwork based on an image.
+||| identify the choices made by a choreographer in music video.
+||| explain the choices made by a filmmaker when making a movie.
+NM.4.3 | identify the purpose of a media artwork. | describe the preferences of an artist that makes a video blog.
+||| describe the preferences of a radio broadcaster.
+||| identify how a filmmaker uses light, sound, costume, and setting to convey a purpose.
+NH.4.3 | identify the purpose and audience of a media artwork. | explain why different age groups may respond differently to an internet meme.
+||| explain how different age groups may respond differently to a movie or TV show.
+||| explain how people from different backgrounds would react to a video game.
+IL.4.3 | explain that different media can produce artworks that have the same purpose. | identify the way color is used in print media.
+||| identify how text size and placement on magazine covers can sway my opinion.
+IM.4.3 | investigate increasingly complex techniques that artists use to convey purpose in media artwork. | identify various lighting techniques in a work of media art and how those techniques influence the audience reaction.
+||| identify various sound techniques in a work of media art and explain why they were used.
+||| see advertisements are changed depending on the target audience's location.
+IH.4.3 | find and interpret data to explore multiple differences in the purpose of media artwork. | examine how an artist’s choice of music in a short film. can influence the audience.
+||| examine how the use of a particular color on a meme can influence an audience.
+AL.4.3 | analyze formal and informal situations, the effectiveness of presentation, and treatment of media to convey the purpose. | identify the way color is used in print media.
+||| identify how text size and placement on magazine covers can sway my opinion.
+AM.4.3 | analyze and interpret the qualities of relationships between the components, style, message, and how they relate to the purpose. | identify various lighting techniques in a work of media art and how those techniques influence the audience reaction.
+||| identify various sound techniques in a work of media art and explain why they were used.
+||| see advertisements are changed depending on the target audience's location.
+AH.4.3 | justify my interpretation and explanation of the purpose of multiple media artwork. | examine how an artist’s choice of music in a short film can influence the audience.
+||| examine how the use of a particular color on a meme can influence an audience.
+NL.4.4 | make a statement about my media artwork. | name the subject of my media artwork.
+||| name the setting of my media artwork.
+||| write a title for my work.
+NM.4.4 | describe my media artwork. | explain what inspired me to make my artwork.
+||| explain how I made my media artwork.
+NH.4.4 | recognize an element and/or principle of media art in my work. | explain some compositional elements in my media artwork.
+||| explain how setting, color, lighting, etc., are used in my work.
+IL.4.4 | describe multiple elements and principles of media art in my work. | write an artist statement that describes and interprets and element or principle of art.
+||| write an artist statement that describes how color is used in my media artwork.
+||| write an artist statement that describes how line creates movement in my media artwork.
+IM.4.4 | identify elements and principals of media arts in artist’s statements. | create a blog that describes, interprets and analyzes my artwork.
+||| talk about an artist statement that describes how quadrants are used to create emotions in my media artwork.
+||| talk about an artist statement that describes how angles are used in my media artwork.
+IH.4.4 | develop an artist’s statement that describes media arts criteria and intent of my work. | journal daily about my process and purpose of creating artwork in class.
+||| create a blog that describes, interprets and analyzes my artwork.
+AL.4.4 | develop an artist’s statement that merges personal influences with intent and media arts criteria for my work. | write an artist statement that describes and interprets personal choices when using of lighting angles and shadows in a video game.
+||| write an artist statement that describes and interprets the use emphasis in costumes designs to express intent for a dance video.
+AM.4.4 | develop an artist’s statement that identifies common themes in personal influences, intent and media arts criteria for work. | create a blog that describes, common themes in a series of films on school culture.
+||| write an artist statement about specific intent used in a radio announcement on religious views.
+AH.4.4 | justify my choices of criteria, cultural influences, personal experiences, to create my own voice in my artist statement. | validate my choices through an artist statement on expressing my personal voice on making a film about persons’ with disabilities.
+||| defend my cultural influences in an artist statement for a contest for International Day.
 
-## Artistic Processes: Connecting- I can relate artistic ideas and work with personal meaning and external context.
+## Artistic Processes: Connecting- relate artistic ideas and work with personal meaning and external context.
 
-### Anchor Standard 5: I can examine the role of media arts through history and cultures.
-
-| MA.C | Benchmark | Indicator |
-|---|---|---|
-NL.5 | I can explore ideas that connect media arts to different cultures and time periods.
-NM.5 | I can recognize some examples of media arts found in different cultures and time periods.
-NH.5 | I can identify media arts used for different purposes in various cultures and time periods.
-IL.5 | I can analyze a variety of media artworks from different cultures and time periods.
-IM.5 | I can describe why different media artworks are used for different purposes in various cultures and time periods.
-IH.5 | I can analyze similarities and differences in media artworks among different cultures and time periods.
-AL.5 | I can examine past media arts works to determine their influence on media today.
-AM.5 | I can explain the influence of past media arts works throughout different time periods and how that reflects on media today.
-AH.5 | I can evaluate media arts works from the past and apply the most effective ones to my work and the work of others.
-NL.5.1 | I can recognize ideas that connect media arts to history, cultures, and the world. | I can watch a commercial and recognize that cultures are different based on clothing, language or environment.
-||| I can choose a book that shows differences in cultures and/or time periods.
-NM.5.1 | I can relate to ideas that connect media arts to history, cultures, and the world. | I discuss ideas that connect to different cultures other than my own by watching a video, newsbyte, or commercial.
-||| I can discuss ideas that connect to my classmates from different cultures after viewing current news reports.
-||| I can make an infographic about different cultures and historical figures.
-NH.5.1 | I can show how ideas connect media arts to history, cultures, and the world. | I can write about the connections to another culture when looking at a media artwork.
-||| I can present a film that connects to my family history.
-IL.5.1 | I can explain how ideas connect media arts to history, cultures, and the world. | I can watch a commercial and talk about how advertisements from different parts of the world look.
-||| I can watch a music video and discuss how dancing styles change for different cultures.
-IM.5.1 | I can compare and contrast how to connect media arts ideas to history, cultures, and the world. | I can discuss how different advertisements from different parts of the world look.
-||| I can compare and contrast the clothing in music videos from around the world.
-IH.5.1 | I can interpret how media arts ideas connect to history, cultures, and the world. | I can watch 3 different Coca Cola commercials and make connections to other cultures and global advertising.
-||| I can look at a video of or go to Disney World and talk about the impact the ride “It’s a Small World” has as a means of teaching me more about culture.
-AL.5.1 | I can participate in formal and informal situations relating to how media art connects to history, cultures, and the world. | I can make a short documentary on an African Drumming group that relates native music to our country.
-||| I can make a propaganda poster that focuses on human rights and its changes throughout history.
-AM.5.1 | I can examine the relationship between media arts, history, cultures, and the world. | I can make digital print advertisements based on a series of provided samples from the past, and use to define how different cultures will respond to the ads.
-||| I can create an animation short reflecting cultures from another country through environment and action.
-AH.5.1 | I can justify the relationship between media arts, history, cultures, and the world. | I can make a short film project based on a cultural theme identified by the student. Students create three advertisements, then present these three “ads” to the class and describe and explain their connections.
-||| I can make a presentation that connects similar and different international policies during different presidencies.
-
-### Anchor Standard 6: I can relate media arts to personal meaning, other arts disciplines, content areas, and careers.
+### Anchor Standard 5: examine the role of media arts through history and cultures.
 
 | MA.C | Benchmark | Indicator |
 |---|---|---|
-NL.6 | I can explore media arts concepts among other arts disciplines, content areas, and related careers.
-NM.6 | I can recognize a media arts concept among other arts disciplines, content areas, and related careers.
-NH.6 | I can apply media arts concepts among other arts disciplines, content areas, and related careers.
-IL.6 | I can explore a range of media arts skills shared among other arts disciplines, content areas, and careers.
-IM.6 | I can recognize specific media arts skills shared among other arts disciplines, content areas, and careers.
-IH.6 | I can analyze the media arts tools, concepts, and materials used among other arts disciplines, content areas, and careers.
-AL.6 | I can apply media arts concepts to other arts disciplines and content areas to prepare me for a career.
-AM.6 | I can research aspects of media arts careers to influence my career path.
-AH.6 | I can analyze complex ideas from other arts disciplines and content areas to inspire my creative work and evaluate its impact on my artistic perspective.
-NL.6.1 | I can identify a relationship between media arts and another subject in my school. | I can gather an example and show how a media art and a fine art can be the same, or similar.
-||| I can find ways that line can be shown in visual art, dance, and media art.
-||| I can name another discipline used in a video or picture conveying a message to an audience.
-NM.6.1 | I can demonstrate a relationship between media arts and another subject in my school. | I can show and describe the relationship between a media art and fine art in a media presentation.
-||| I can look at three commercials and tell what other areas are connected within the commercial such as E*TRADE’s baby, Doritos and Clorox.
-NH.6.1 | I can demonstrate and describe the relationship between media arts and a concept from another subject in my school. | I can show how ideas connect media arts and fine arts by creating a media presentation. (Portraits)
-||| I can show how ideas connect line in visual art, dance, and media art.
-||| I can make a picture, advertisement or short video that uses another discipline.
-IL.6.1 | I can apply media arts concepts to other arts disciplines and content areas. | I can explain how ideas connect media arts and fine arts by creating a media presentation.
-||| I can explain how line connects media arts to visual art and dance.
-||| I can talk about symbolism used in English that is seen in print ads or websites to get a message across to a target audience.
-IM.6.1 | I can examine the relationship between media arts and specific content from another arts discipline and content area. | I can compare and contrast a media art with a fine art to discover the similarities and differences between the two.
-||| I can take a painting and create a media artwork that represents the idea conveyed in the painting. i.e. “Off the and onto the stage.”
-||| I can look through magazine and cut out print ads that contain elements of math and English.
-IH.6.1 | I can apply concepts from other arts disciplines and content areas to my media artwork. | I can interpret how the idea of line is used in painting and photography.
-||| I can interpret the use of line and movement in dance and photography to find similarities to create a short film.
-||| I can make connections to mathematics and science using video games to enhance the playability of the game.
-AL.6.1 | I can explain ideas from other arts disciplines and content areas through media arts. | I can make a video project using dance themes from painter Jonathan Green.
-||| I can make a video project that demonstrates how lines are similar in media arts, visual arts, and dance.
-AM.6.1 | I can explain how economic conditions, cultural values, and location influence media arts and the need for related careers. | I can make a video of a music (band, orchestra, choral) concert using more than one camera and editing to produce one work to be shared with the school and community.
-||| I can make a video of dance using the elements of earth, air, fire and water.
-AH.6.1 | I can research societal, political, and cultural issues as they relate to other arts and content areas and apply to my role as a media artist. | I can make an interdisciplinary project that to present to an organization in the community or within the school.
-||| I can make a short film that reflects similarities and differences between media arts and other disciplines with regard to fundamental concepts.
-NL.6.2 | I can identify different types of media arts that interest me. | I can identify the media I use at home or school.
-||| I can identify the media I use for different purposes.
-NM.6.2 | I can identify and demonstrate the skills used to make media artwork that interests me. | I can name the skills used to make a magazine layout.
-||| I can name the skills used to make a music video.
-||| I can name the skill used to make a commercial or video game.
-||| I can name the skills used to create a podcast.
-NH.6.2 | I can describe specific careers in media arts. | I can document the purpose of a director on a film.
-||| I can research roles in video game and music video production.
-||| I can research the role of a sound engineer.
-||| I can review movie credits to see all the careers needed to make a movie.
-IL.6.2 | I can demonstrate and describe the skills needed for careers in media arts. | I can define careers needed when making my media artwork.
-||| I can describe the skills needed to be a cinematographer.
-IM.6.2 | I can identify specific skills required for various careers in media arts. | I can discuss and assign a variety of jobs and responsibilities needed when making a comic book (ie. illustrator, colorists, inker, etc.).
-||| I can identify the differences in skills needed for broadcast journalism and photojournalism.
-IH.6.2 | I can research topics about careers in media arts that interest me. | I can research and write what my job responsibilities and title is in making an infomercial and explain my contributions to the work.
-||| I can research and write what skills I would need to work as a radio announcer.
-AL.6.2 | I can identify the skills, training, and education necessary to pursue a career in media arts that interests me. | I can serve in a variety of roles such as director, camera operator, editor, sound engineer, teleprompter and gaffer when making a short film to explore various roles and skills related to filmmaking.
-||| I can use my portfolio of work to identify skills that I am interested in pursuing as career.
-AM.6.2 | I can pursue opportunities that will lead me to a career in media arts. | I can research classes and workshops needed to develop specific media arts techniques and skills.
-||| I can participate in media arts opportunities in my community.
-AH.6.2 | I can demonstrate skills necessary for a career in media arts. | I can take on an internship in the community in a media arts career capacity.
-||| I can get an entry-level part time job working in different media fields, such as a color flatter for the comic industry.
+NL.5 | explore ideas that connect media arts to different cultures and time periods.
+NM.5 | recognize some examples of media arts found in different cultures and time periods.
+NH.5 | identify media arts used for different purposes in various cultures and time periods.
+IL.5 | analyze a variety of media artworks from different cultures and time periods.
+IM.5 | describe why different media artworks are used for different purposes in various cultures and time periods.
+IH.5 | analyze similarities and differences in media artworks among different cultures and time periods.
+AL.5 | examine past media arts works to determine their influence on media today.
+AM.5 | explain the influence of past media arts works throughout different time periods and how that reflects on media today.
+AH.5 | evaluate media arts works from the past and apply the most effective ones to my work and the work of others.
+NL.5.1 | recognize ideas that connect media arts to history, cultures, and the world. | watch a commercial and recognize that cultures are different based on clothing, language or environment.
+||| choose a book that shows differences in cultures and/or time periods.
+NM.5.1 | relate to ideas that connect media arts to history, cultures, and the world. | I discuss ideas that connect to different cultures other than my own by watching a video, newsbyte, or commercial.
+||| discuss ideas that connect to my classmates from different cultures after viewing current news reports.
+||| make an infographic about different cultures and historical figures.
+NH.5.1 | show how ideas connect media arts to history, cultures, and the world. | write about the connections to another culture when looking at a media artwork.
+||| present a film that connects to my family history.
+IL.5.1 | explain how ideas connect media arts to history, cultures, and the world. | watch a commercial and talk about how advertisements from different parts of the world look.
+||| watch a music video and discuss how dancing styles change for different cultures.
+IM.5.1 | compare and contrast how to connect media arts ideas to history, cultures, and the world. | discuss how different advertisements from different parts of the world look.
+||| compare and contrast the clothing in music videos from around the world.
+IH.5.1 | interpret how media arts ideas connect to history, cultures, and the world. | watch 3 different Coca Cola commercials and make connections to other cultures and global advertising.
+||| look at a video of or go to Disney World and talk about the impact the ride “It’s a Small World” has as a means of teaching me more about culture.
+AL.5.1 | participate in formal and informal situations relating to how media art connects to history, cultures, and the world. | make a short documentary on an African Drumming group that relates native music to our country.
+||| make a propaganda poster that focuses on human rights and its changes throughout history.
+AM.5.1 | examine the relationship between media arts, history, cultures, and the world. | make digital print advertisements based on a series of provided samples from the past, and use to define how different cultures will respond to the ads.
+||| create an animation short reflecting cultures from another country through environment and action.
+AH.5.1 | justify the relationship between media arts, history, cultures, and the world. | make a short film project based on a cultural theme identified by the student. Students create three advertisements, then present these three “ads” to the class and describe and explain their connections.
+||| make a presentation that connects similar and different international policies during different presidencies.
 
-### Anchor Standard 7: I can practice digital citizenship in researching and creating art.
+### Anchor Standard 6: relate media arts to personal meaning, other arts disciplines, content areas, and careers.
 
 | MA.C | Benchmark | Indicator |
 |---|---|---|
-NL.7 | I can imitate digital citizenship when I am online.
-NM.7 | I can identify digital citizenship when I am online.
-NH.7 | I can show digital citizenship when I am online.
-IL.7 | I can model and explain aspects of digital citizenship when I am online.
-IM.7 | I can describe different aspects of digital citizenship when I am online.
-IH.7 | I can interpret different aspects of digital citizenship when I am online.
-AL.7 | I can participate in formal and informal situations to discuss and demonstrate digital citizenship when I am online.
-AM.7 | I can analyze and identify the appropriate digital citizenship strategy to use when I am online.
-AH.7 | I can justify my choice of digital citizenship strategy to use when I am online.
-NL.7.1 | I can explore the internet safely and responsibly when logging on to my device. | I can know where to find my password.
-||| I can log in to my electronic device.
-||| I can follow acceptable use policies at my school, home, or in public.
-NM.7.1 | I can identify several safe ways to search topics on the internet. | I can remember my password, log onto a computer and use a computer application with my student account.
-||| I can create a bookmark for a website on my browser.
-||| I can download an approved application.
-NH.7.1 | I can share with others how to safely search for information on the internet. | I can give examples of positive ways to post thoughts and ideas on the internet.
-||| I can post images while protecting my identity and the identity of others.
-IL.7.1 | I can explain and demonstrate several safe and reliable ways to search for accurate information on the internet. | I can create a presentation that explains how to keep my password information secure.
-||| I can use my personal secure information to create an account on an educational website.
-IM.7.1 | I can collaborate with other students in various safe and reliable ways to search for information on the internet. | I can safely and responsibly work with others online to create list of rules and steps on how to protect my personal information.
-||| I can identify ways to manage my online information, safety, and collaborate with other students on the internet in a safe and responsible way.
-||| I can identify predictable situations that might arise when I am searching for information on the internet.
-IH.7.1 | I can identify predictable situation when using the internet. | I can identify spam e-mail and delete it from my account.
-||| I can recognize and report cyber bullying in an online chatroom.
-AL.7.1 | I can participate in formal and informal situations when collaborating with others and can model appropriate and positive etiquette. | I can discuss and critique internet safety and model how to use it in a safe and responsible manner online.
-AM.7.1 | I can analyze various ways to use digital citizenship to collaborate with the world in an appropriate and positive way. | I can devise an internet safety plan for other students to follow when they are online in school.
-AH.7.1 | I can compile a selection of information that is found on the internet and how helps me justify my own voice as an artist. | I can interact with my peers in an online critique of an artwork, and justify my constructive criticism.
-NL.7.2 | I can explore how to post safely on the internet. | I can explore what information is appropriate to post online.
-||| I can follow acceptable use policies for posting online.
-NM.7.2 | I can identify several safe online platforms to post on the internet. | I can share visual examples of good ways to post on the internet.
-NH.7.2 | I can share various ways to post safely on the internet.
-IL.7.2 | I can explain and model how to post safely on the internet. | I can create a presentation that shows how to post safely on the internet.
-||| I can describe procedures to protect my identity and the identity of others.
-IM.7.2 | I can analyze various ways to post safely on the internet. | I can compare and contrast different ways for students to post on the internet and how to post in a constructive way.
-||| I can describe multiple ways I can have an online presence.
-IH.7.2 | I can investigate several ways that information on the internet is not safe or responsible and ways to respond to these problems. | I can show examples of why it is important to post positive and constructive comments on social media.
-AL.7.2 | I can participate in formal and informal situations when collaborating with others to post safely on the internet. | I can participate on an online critique of other student artwork in a positive and constructive manner.
-AM.7.2 | I can investigate various ways to post safely on the internet and know the difference between a positive and a negative post. | I can create a constructive and positive response to a blog post of another student.
-AH.7.2 | I can justify my choice of what I post on the internet to interact with the world in an appropriate and positive way. | I can communicate online in an appropriate and positive on my webpage.
-||| I can create a blog and communicate about global issues in a positive and constructive way.
-NL.7.3 | I can identify that a media artwork has an owner. | I can locate the watermark on a photograph.
-NM.7.3 | I can find the owner of a media artwork on the internet. | I can use correct spelling and vocabulary it search topics.
-||| I can identify safe search engines and databases.
-||| I can locate the credits for a video on a website.
-||| I can find headers and footers to check facts on a website.
-NH.7.3 | I can credit the owner of media artwork on the internet when I intend to use it. | I can tag a photo with the owner.
-||| I can create credits when making an iMovie trailer.
-||| I can help a peer safely find a video on the internet.
-||| I can work with other to search for information on a group project.
-IL.7.3 | I can explain and model the use of media artwork that is owned by another artist, and can demonstrate my responsibilities and rights when using the work for educational purposes. | I can create a poster about the copyright laws as they apply to photography.
-||| I can explain and demonstrate several ways to search for a particular media form on the internet.
-IM.7.3 | I can identify media artwork that is owned by another artist, and can demonstrate my responsibilities and rights when using the work for educational or personal purposes. | I can report how to attribute copyright to an artist in a media presentation.
-||| I can compare and contrast primary, secondary and tertiary sources of information to decide which one best fits the needs of my media project.
-IH.7.3 | I can handle unexpected situations with copyright and fair use rules as it applies to my artwork, performance, or presentation. | I can explain that as a creator of an original piece of art I can: make copies of my work, distribute copies of my work, or perform/display my work publicly, or make derivative works.
-||| I can make a PSA presentation that demonstrates what to do when a problem arises when searching for information on the internet.
-AL.7.3 | I can participate in formal and informal situations when collaborating with others to discuss copyright laws that apply to a media artwork. | I can take a stance in a debate about why we should have copyright law.
-||| I can look at three websites with information about the same story and decide which information is valid, reliable, and unbiased.
-AM.7.3 | I can analyze and synthesize various ways that copyright laws apply to my work and the work of others. | I can create a presentation about the similarities and differences between photography and video copyright law.
-||| I can create a blog that discusses how to use, understand and synthesize information found on different websites.
-AH.7.3 | I can justify my choice of how I use copyright law to protect my work and the work of others. | I can demonstrate how I followed copyright law in the creating of ideas and media artwork.
-||| I can appraise information found on the internet and find appropriate information that validates and justifies my choice of imagery, text, and sound in my artwork.
+NL.6 | explore media arts concepts among other arts disciplines, content areas, and related careers.
+NM.6 | recognize a media arts concept among other arts disciplines, content areas, and related careers.
+NH.6 | apply media arts concepts among other arts disciplines, content areas, and related careers.
+IL.6 | explore a range of media arts skills shared among other arts disciplines, content areas, and careers.
+IM.6 | recognize specific media arts skills shared among other arts disciplines, content areas, and careers.
+IH.6 | analyze the media arts tools, concepts, and materials used among other arts disciplines, content areas, and careers.
+AL.6 | apply media arts concepts to other arts disciplines and content areas to prepare me for a career.
+AM.6 | research aspects of media arts careers to influence my career path.
+AH.6 | analyze complex ideas from other arts disciplines and content areas to inspire my creative work and evaluate its impact on my artistic perspective.
+NL.6.1 | identify a relationship between media arts and another subject in my school. | gather an example and show how a media art and a fine art can be the same, or similar.
+||| find ways that line can be shown in visual art, dance, and media art.
+||| name another discipline used in a video or picture conveying a message to an audience.
+NM.6.1 | demonstrate a relationship between media arts and another subject in my school. | show and describe the relationship between a media art and fine art in a media presentation.
+||| look at three commercials and tell what other areas are connected within the commercial such as E*TRADE’s baby, Doritos and Clorox.
+NH.6.1 | demonstrate and describe the relationship between media arts and a concept from another subject in my school. | show how ideas connect media arts and fine arts by creating a media presentation. (Portraits)
+||| show how ideas connect line in visual art, dance, and media art.
+||| make a picture, advertisement or short video that uses another discipline.
+IL.6.1 | apply media arts concepts to other arts disciplines and content areas. | explain how ideas connect media arts and fine arts by creating a media presentation.
+||| explain how line connects media arts to visual art and dance.
+||| talk about symbolism used in English that is seen in print ads or websites to get a message across to a target audience.
+IM.6.1 | examine the relationship between media arts and specific content from another arts discipline and content area. | compare and contrast a media art with a fine art to discover the similarities and differences between the two.
+||| take a painting and create a media artwork that represents the idea conveyed in the painting. i.e. “Off the and onto the stage.”
+||| look through magazine and cut out print ads that contain elements of math and English.
+IH.6.1 | apply concepts from other arts disciplines and content areas to my media artwork. | interpret how the idea of line is used in painting and photography.
+||| interpret the use of line and movement in dance and photography to find similarities to create a short film.
+||| make connections to mathematics and science using video games to enhance the playability of the game.
+AL.6.1 | explain ideas from other arts disciplines and content areas through media arts. | make a video project using dance themes from painter Jonathan Green.
+||| make a video project that demonstrates how lines are similar in media arts, visual arts, and dance.
+AM.6.1 | explain how economic conditions, cultural values, and location influence media arts and the need for related careers. | make a video of a music (band, orchestra, choral) concert using more than one camera and editing to produce one work to be shared with the school and community.
+||| make a video of dance using the elements of earth, air, fire and water.
+AH.6.1 | research societal, political, and cultural issues as they relate to other arts and content areas and apply to my role as a media artist. | make an interdisciplinary project that to present to an organization in the community or within the school.
+||| make a short film that reflects similarities and differences between media arts and other disciplines with regard to fundamental concepts.
+NL.6.2 | identify different types of media arts that interest me. | identify the media I use at home or school.
+||| identify the media I use for different purposes.
+NM.6.2 | identify and demonstrate the skills used to make media artwork that interests me. | name the skills used to make a magazine layout.
+||| name the skills used to make a music video.
+||| name the skill used to make a commercial or video game.
+||| name the skills used to create a podcast.
+NH.6.2 | describe specific careers in media arts. | document the purpose of a director on a film.
+||| research roles in video game and music video production.
+||| research the role of a sound engineer.
+||| review movie credits to see all the careers needed to make a movie.
+IL.6.2 | demonstrate and describe the skills needed for careers in media arts. | define careers needed when making my media artwork.
+||| describe the skills needed to be a cinematographer.
+IM.6.2 | identify specific skills required for various careers in media arts. | discuss and assign a variety of jobs and responsibilities needed when making a comic book (ie. illustrator, colorists, inker, etc.).
+||| identify the differences in skills needed for broadcast journalism and photojournalism.
+IH.6.2 | research topics about careers in media arts that interest me. | research and write what my job responsibilities and title is in making an infomercial and explain my contributions to the work.
+||| research and write what skills I would need to work as a radio announcer.
+AL.6.2 | identify the skills, training, and education necessary to pursue a career in media arts that interests me. | serve in a variety of roles such as director, camera operator, editor, sound engineer, teleprompter and gaffer when making a short film to explore various roles and skills related to filmmaking.
+||| use my portfolio of work to identify skills that I am interested in pursuing as career.
+AM.6.2 | pursue opportunities that will lead me to a career in media arts. | research classes and workshops needed to develop specific media arts techniques and skills.
+||| participate in media arts opportunities in my community.
+AH.6.2 | demonstrate skills necessary for a career in media arts. | take on an internship in the community in a media arts career capacity.
+||| get an entry-level part time job working in different media fields, such as a color flatter for the comic industry.
+
+### Anchor Standard 7: practice digital citizenship in researching and creating art.
+
+| MA.C | Benchmark | Indicator |
+|---|---|---|
+NL.7 | imitate digital citizenship when I am online.
+NM.7 | identify digital citizenship when I am online.
+NH.7 | show digital citizenship when I am online.
+IL.7 | model and explain aspects of digital citizenship when I am online.
+IM.7 | describe different aspects of digital citizenship when I am online.
+IH.7 | interpret different aspects of digital citizenship when I am online.
+AL.7 | participate in formal and informal situations to discuss and demonstrate digital citizenship when I am online.
+AM.7 | analyze and identify the appropriate digital citizenship strategy to use when I am online.
+AH.7 | justify my choice of digital citizenship strategy to use when I am online.
+NL.7.1 | explore the internet safely and responsibly when logging on to my device. | know where to find my password.
+||| log in to my electronic device.
+||| follow acceptable use policies at my school, home, or in public.
+NM.7.1 | identify several safe ways to search topics on the internet. | remember my password, log onto a computer and use a computer application with my student account.
+||| create a bookmark for a website on my browser.
+||| download an approved application.
+NH.7.1 | share with others how to safely search for information on the internet. | give examples of positive ways to post thoughts and ideas on the internet.
+||| post images while protecting my identity and the identity of others.
+IL.7.1 | explain and demonstrate several safe and reliable ways to search for accurate information on the internet. | create a presentation that explains how to keep my password information secure.
+||| use my personal secure information to create an account on an educational website.
+IM.7.1 | collaborate with other students in various safe and reliable ways to search for information on the internet. | safely and responsibly work with others online to create list of rules and steps on how to protect my personal information.
+||| identify ways to manage my online information, safety, and collaborate with other students on the internet in a safe and responsible way.
+||| identify predictable situations that might arise when I am searching for information on the internet.
+IH.7.1 | identify predictable situation when using the internet. | identify spam e-mail and delete it from my account.
+||| recognize and report cyber bullying in an online chatroom.
+AL.7.1 | participate in formal and informal situations when collaborating with others and can model appropriate and positive etiquette. | discuss and critique internet safety and model how to use it in a safe and responsible manner online.
+AM.7.1 | analyze various ways to use digital citizenship to collaborate with the world in an appropriate and positive way. | devise an internet safety plan for other students to follow when they are online in school.
+AH.7.1 | compile a selection of information that is found on the internet and how helps me justify my own voice as an artist. | interact with my peers in an online critique of an artwork, and justify my constructive criticism.
+NL.7.2 | explore how to post safely on the internet. | explore what information is appropriate to post online.
+||| follow acceptable use policies for posting online.
+NM.7.2 | identify several safe online platforms to post on the internet. | share visual examples of good ways to post on the internet.
+NH.7.2 | share various ways to post safely on the internet.
+IL.7.2 | explain and model how to post safely on the internet. | create a presentation that shows how to post safely on the internet.
+||| describe procedures to protect my identity and the identity of others.
+IM.7.2 | analyze various ways to post safely on the internet. | compare and contrast different ways for students to post on the internet and how to post in a constructive way.
+||| describe multiple ways have an online presence.
+IH.7.2 | investigate several ways that information on the internet is not safe or responsible and ways to respond to these problems. | show examples of why it is important to post positive and constructive comments on social media.
+AL.7.2 | participate in formal and informal situations when collaborating with others to post safely on the internet. | participate on an online critique of other student artwork in a positive and constructive manner.
+AM.7.2 | investigate various ways to post safely on the internet and know the difference between a positive and a negative post. | create a constructive and positive response to a blog post of another student.
+AH.7.2 | justify my choice of what I post on the internet to interact with the world in an appropriate and positive way. | communicate online in an appropriate and positive on my webpage.
+||| create a blog and communicate about global issues in a positive and constructive way.
+NL.7.3 | identify that a media artwork has an owner. | locate the watermark on a photograph.
+NM.7.3 | find the owner of a media artwork on the internet. | use correct spelling and vocabulary it search topics.
+||| identify safe search engines and databases.
+||| locate the credits for a video on a website.
+||| find headers and footers to check facts on a website.
+NH.7.3 | credit the owner of media artwork on the internet when I intend to use it. | tag a photo with the owner.
+||| create credits when making an iMovie trailer.
+||| help a peer safely find a video on the internet.
+||| work with other to search for information on a group project.
+IL.7.3 | explain and model the use of media artwork that is owned by another artist, and can demonstrate my responsibilities and rights when using the work for educational purposes. | create a poster about the copyright laws as they apply to photography.
+||| explain and demonstrate several ways to search for a particular media form on the internet.
+IM.7.3 | identify media artwork that is owned by another artist, and can demonstrate my responsibilities and rights when using the work for educational or personal purposes. | report how to attribute copyright to an artist in a media presentation.
+||| compare and contrast primary, secondary and tertiary sources of information to decide which one best fits the needs of my media project.
+IH.7.3 | handle unexpected situations with copyright and fair use rules as it applies to my artwork, performance, or presentation. | explain that as a creator of an original piece of art I can: make copies of my work, distribute copies of my work, or perform/display my work publicly, or make derivative works.
+||| make a PSA presentation that demonstrates what to do when a problem arises when searching for information on the internet.
+AL.7.3 | participate in formal and informal situations when collaborating with others to discuss copyright laws that apply to a media artwork. | take a stance in a debate about why we should have copyright law.
+||| look at three websites with information about the same story and decide which information is valid, reliable, and unbiased.
+AM.7.3 | analyze and synthesize various ways that copyright laws apply to my work and the work of others. | create a presentation about the similarities and differences between photography and video copyright law.
+||| create a blog that discusses how to use, understand and synthesize information found on different websites.
+AH.7.3 | justify my choice of how I use copyright law to protect my work and the work of others. | demonstrate how I followed copyright law in the creating of ideas and media artwork.
+||| appraise information found on the internet and find appropriate information that validates and justifies my choice of imagery, text, and sound in my artwork.
 
 ---
 
