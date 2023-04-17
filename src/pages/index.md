@@ -4,6 +4,7 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - April 2023
+  - [The South Carolina Visual Arts Standards](posts/sc-arts)
   - [How to add ChatGPT semantic search to my documents](posts/machine-learning)
 - March 2023
   - [Iran hostage crisis was the october surprise](posts/october-surprise)

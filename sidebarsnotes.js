@@ -5,8 +5,29 @@ module.exports = {
       id: 'index',
     },
     {
-      type:'doc',
-      id:'art',
+      type: 'category',
+      label: 'Art',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'art',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'Education',
+          collapsible: true,
+          link: {
+            type:'doc',
+            id:'art/education',
+          },
+          items: [ 
+            'art/visual',
+            'art/design',
+            'art/media',
+          ],
+        },
+      ],
     },
     {
       type:'doc',
@@ -27,10 +48,6 @@ module.exports = {
     {
       type:'doc',
       id:'tennis',
-    },
-    {
-      type:'doc',
-      id:'wealth',
     },
     {
       type:'doc',
