@@ -28,7 +28,7 @@ module.exports = {
         path: 'notes',
         routeBasePath: 'notes',
         sidebarPath: require.resolve('./sidebarsnotes.js'),
-        editUrl:'https://code.davidawindham.com/david/til/src/master/',
+        editUrl:'https://code.davidawindham.com/david/til/src/main/',
       },
     ],
     [
@@ -38,7 +38,7 @@ module.exports = {
         path: 'lists',
         routeBasePath: 'lists',
         sidebarPath: require.resolve('./sidebarslists.js'),
-        editUrl:'https://code.davidawindham.com/david/til/src/master/',
+        editUrl:'https://code.davidawindham.com/david/til/src/main/',
       },
     ],
     [
@@ -56,7 +56,7 @@ module.exports = {
           type: null,
         },
         showReadingTime: false,
-        editUrl:'https://code.davidawindham.com/david/til/src/master/',
+        editUrl:'https://code.davidawindham.com/david/til/src/main/',
       },
     ],
   ],
@@ -113,7 +113,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:'https://code.davidawindham.com/david/til/src/master/',
+          editUrl:'https://code.davidawindham.com/david/til/src/main/',
         },
         blog: {
           blogTitle: 'Posts',
@@ -125,7 +125,7 @@ module.exports = {
             type: null,
           },
           showReadingTime: false,
-          editUrl:'https://code.davidawindham.com/david/til/src/master/',
+          editUrl:'https://code.davidawindham.com/david/til/src/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
