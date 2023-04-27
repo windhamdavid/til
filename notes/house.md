@@ -21,6 +21,8 @@ We'd like to build one more house that's single story, accessible, affordable, e
 
 ### Locations
 
+These are just some potential locations. Weather, Groceries, Healthcare, Taxes, Accessibility, and Demographics are impotant factors. 
+
 Tryon, NC
 / Flat Rock, NC
 / Columbus, NC
@@ -50,6 +52,38 @@ North Carolina Court of Appeals 20-125 Home Realty v. Red Fox Country Club -
 https://www.youtube.com/watch?v=G-tVOo_dgPk  
 https://law.justia.com/cases/north-carolina/court-of-appeals/2020/20-125.html  
 https://scholar.google.com/scholar_case?case=4634888997300533561  
+
+### Lake Adger
+
+<https://en.wikipedia.org/wiki/Lake_Adger>
+
+- The neighborhood called North Highland Farms in original plats.  
+- The public boat landing that is leased from Lake Adger Homeowners Association by the North Carolina Wildlife Resources Commission for public boating and fishing
+- In 2009 the lake was purchased by Polk County.  Polk County also owns the Lake Adger Dam, all land under the water and all land to the high water line around Lake Adger. 
+  - No new docks under purchase agreement.
+  - [ongoing dredging](https://dredgewire.com/lake-adger-marina-to-be-dredged-soon/) 
+- [Reclassification of Green River Segment Report](https://files.nc.gov/ncdeq/Environmental%20Management%20Commission/EMC%20Meetings/2014/July2014/Attachments/Attachment_A_toAG14-23_ROPforGreenRiverPropReclass.pdf)
+- [Water analysis](https://cms4files1.revize.com/polk/Lake%20Adger%20Utility%20Appraisal-2016-Revised.pdf)
+- POA origin - Phillip R. Feagan <http://feaganlawfirm.com/>
+
+#### Lots
+https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/
+
+[521 Highland View Ln, Mill Spring, NC 28756](https://www.google.com/maps/place/521+Highland+View+Ln,+Mill+Spring,+NC+28756)
+
+4.52 ACRES /
+DEED: 466 /2277 /
+DEED YEAR:2,022
+LAND VALUE: $51,120
+PLAT REF: E /260
+
+BOOK | PAGE | DT | DATE |QS | PRICE |
+|--|--|--|--|--|--|
+466 | 2277 | WD | 1/19/2022 |E|
+366 | 1907 | WD | 7/28/2008 || 114,500 |
+290 | 1679 | ONE | 11/07/2002 || 35,000 |
+275 | 1870 | ONE | 9/10/2001 || 32,000|
+
 
 ### References
 
