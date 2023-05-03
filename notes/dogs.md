@@ -155,6 +155,7 @@ Other regional breeders:
 | Heel | Heel | | 🤜🏼 |
 | Crate | Crate | | 🏠👈🏼 |
 | Bed | Bed | | 🛏️👈🏼 |
+| Play | Play | 👏🏼 | 🦴/🧸 |
 | Outside | Outside | | 🤙🏼 / 🚪👈🏼 |
 | Leash | Leash | | 🤙🏼 / 📿👈🏼 |
 | Business | Business | 💩 | 👉🏼👃🏼 |
@@ -164,6 +165,7 @@ Other regional breeders:
 | Lap | Lap | | 🤜🏼🤛🏼 |
 | Hug | Hug | | 🤝🏼 |
 | Kiss | Kiss | | 🧏🏼 |
+| Kneel | Kneel | | 🙏🏼 |
 | Belly | Belly | | 🫃🏻🫲🏼 |
 | Roll | Roll | | ☝🏼👉🏼👇🏼👈🏼 |
 | Speak | Speak | | 👄👈🏼 |

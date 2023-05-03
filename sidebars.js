@@ -71,6 +71,7 @@ module.exports = {
         'saas/aws',
         'saas/google',
         'saas/heroku',
+        'saas/openai',
         'saas/stripe',
         'saas/twilio',
         'saas/vercel',
