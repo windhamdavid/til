@@ -57,28 +57,27 @@ https://en.wikipedia.org/wiki/Golden_Retriever
 - K9 Data - https://www.k9data.com
 
 Other regional breeders:
-- [seasonsgold.com](https://www.seasonsgold.com) - Charlotte NC
-- [syrahgoldens.com](https://www.syrahgoldens.com) - Athens, GA
-- [greenvillegoldens.com](http://www.greenvillegoldens.com) - Greenville, SC
-- [zimmacres.com](http://zimmacres.com) - Spartanburg, SC
+- [Seasons Gold](https://www.seasonsgold.com) - Charlotte NC
+- [Syrah Goldens](https://www.syrahgoldens.com) - Athens, GA
+- [Greenville Goldens](http://www.greenvillegoldens.com) - Greenville, SC
+- [Zimm Acres](http://zimmacres.com) - Spartanburg, SC
 - [Liberty Golden's](http://www.goldenpuppies.net) - Rock Hill, SC
+- [Rowe Mountain Goldens](https://www.rowemountaingoldens.com/) - Mill Spring, NC
 
 ## Log
 
-[![iris-litter](/img/iris-litter.jpg)](/img/iris-litter.jpg)  
 
 **23.03.09** - Puppies were born. Will ride up to select from the litter in early April with an expected come home date in mid May.
 
 - 23.01.10 - Zoey's doggie date w/ Adger
 - 23.03.10 - 60 day due date
 - 23.03.09 - Puppies Born 👈🏼
-- 23.04.16 - 5 week litter pick  
-- 23.05.09 - 8 Week pickup date  
-- 23.06.09 - 12 week pickup date  
+- 23.04.22 - 6 week litter pick  
+- 23.05.13 - 9 week pickup date  
 
 ### Puppy
 
-- 6-8 week initial vaccinations. 
+- 6+9 week initial vaccinations. 
 - < 16 Weeks until fully vaccinated - avoid other animals or areas where other animals are so no parvo or distermper virus. Wait 2 weeks after final vaccinations.
 - 4-12 weeks - Socialization
 - 3-6 Months - Ranking
@@ -97,43 +96,81 @@ Other regional breeders:
 - exposure to pesticides and insecticides
 - neck collars can be dangerous so use harness
 - rawhide is a choking hazard. Use bully sticks for chewing.
+- Peanut butter ( no sugar )
 
 ### Diet / Food
 
-- add yellow/orange/green veggies to the food
+
 
 **Poisonous** Foods: xylitol (all artificial sweeteners), salt, yeast(dough) chocolate, macadamia, corn, popcorn, avocado, mushrooms, onions, garlic, leeks, coffee, caffeine, citrus, coconut oil, grapes, raisins, milk/diary, almond, pistachio, alchohol, peaches, plums, apple seeds, apricot pits, cherry pits, Chives, hops, mustard, broccoli, high fat meats, nutmeg, cinnamon, spicy food, green tomatoes, raw potatoes, large amount of liver, pickles. 
 
 **Safe**: Peanut, Cashew butter, honey, carrots, cucumber, celery, watermellon, cantaloupe, mango, pears, blueberries, apples, oranges, banana, cooked chicken, shrimp, fish, turkey, beef, grains, green beans, white rice, spinach, cooked eggs, plain yogurt, small amount of cheese, peas, pumpkin, asparagus, cauliflower, lettuce, oatmeal, pasta
 
-- Purina Pro Puppy 
-- Blue Buffalo Life
-- Blue Bits, Natural Bully Sticks
-- Peanut butter ( no sugar )
+- Purina Pro Puppy is what she is started on
+  - will start blending in Blue Buffalo Puppy at 10 weeks
+- add yellow/orange/green veggies to the food
+- Blue Bits, Natural Bully Sticks, Yak Sticks
+- 9 Weeks - 1 cup. 1/3 to 1/2 cup per meal
+- 3 Months - 1.5 cups per day.
+- 6 Months - 3 cups per day
+- Adult - 4 cups. 1,300 to 1,700 calories daily ( 380 kcals/cup Blue Life )
+
+
 
 ### Training
 
-#### Words / Signs
-
-Name
-Come 🫴🏼
-Here 🫴🏼
-Stay 🤚🏼
-Wait 🤚🏼
-Sit 👆🏼
-Lie 👇🏼
-Down 👇🏼
-Go 👉🏼
-Load 👈🏼
-Up 
-Get 
-Fetch
-
 #### Tools 
 
-- clicker
-- whistle
-- collar
+**Clicker** - Mark all good actions with clicks and reward with treat.  
+**Pointer** - Use pointer and finger motions  
+**Stand** - Use to train on clicker/treats
+
+
+#### Words / Signs
+
+| Action  | Word | Sound | Sign |
+|---|---|---|---|
+| Attend | Iris | 😗 | 👋🏼 |
+| Good | Good | 👏🏼 |👌🏼 |
+| Bad | Bad | 🗣️ | 👎🏼 |
+| Stop | Stop | 🗣️ | 🤲🏻/🙅🏽‍♀️ |
+| Treat | Treat | 👏🏼 | 👉🏼🤛🏼 |
+| Come | Come | 😗 | 🫴🏼/🙆🏽‍♀️ |
+| Here | Here | 😗 | 🫴🏼/🙆🏽‍♀️ |
+| Stay | Stay | | 🤚🏼 |
+| Wait | Wait | | 🤚🏼 |
+| Sit | Sit | | ☝🏼 |
+| Stand | Stand | | 👆🏼👆🏼 |
+| Lie | Lie | | 🫳🏼 |
+| Down | Down | | 🫳🏼 |
+| Get | Get | | 👇🏼 |
+| Load | Load | | 👈🏼 |
+| Go | Go | | 🫵🏼 |
+| Watch | Watch | | 👉🏼👀👈🏼 |
+| Fetch | Fetch | | 🫵🏼 /👁️👈🏼|
+| Bring | Bring | | 🫴🏼🤌🏼|
+| Release | Release | | 🫲🏼 |
+| Drop | Drop | | 👇🏼👇🏼 |
+| Leave | Leave | | 🧠👈🏼 |
+| Heel | Heel | | 🤜🏼 |
+| Crate | Crate | | 🏠👈🏼 |
+| Bed | Bed | | 🛏️👈🏼 |
+| Outside | Outside | | 🤙🏼 / 🚪👈🏼 |
+| Leash | Leash | | 🤙🏼 / 📿👈🏼 |
+| Business | Business | 💩 | 👉🏼👃🏼 |
+| Listen | Listen | | 👂🏼👈🏼 |
+| Paw | Paw | | 🫴🏼👈🏼 |
+| Up | Up | | 🫲🏼🫱🏼 |
+| Lap | Lap | | 🤜🏼🤛🏼 |
+| Hug | Hug | | 🤝🏼 |
+| Kiss | Kiss | | 🧏🏼 |
+| Belly | Belly | | 🫃🏻🫲🏼 |
+| Roll | Roll | | ☝🏼👉🏼👇🏼👈🏼 |
+| Speak | Speak | | 👄👈🏼 |
+| Quiet | Quiet | | 🙉 |
+| Hush | Hush | | 🙉 |
+| Car | Car | | 👉🏼🚙 |
+
 
 #### Alt Communication
 
@@ -151,14 +188,16 @@ Fitzgerald Key for Augmented and alternative communication - https://www.communi
 
 ### Equipment
 
-Halo Collar Training - https://vimeo.com/halocollar  
-Apple Air Tag and waterproof collar holder  
-Amazon List - https://www.amazon.com/hz/wishlist/ls/3A5F0O9KTR7H2/  
-
+- Amazon List - https://www.amazon.com/hz/wishlist/ls/3A5F0O9KTR7H2/  
+- Halo Collar Training - https://vimeo.com/halocollar  
+- Apple Air Tag, TagVault Airtag 
 - Slip Lead, Long training, collar, training collar, Halti Training Lead
-- Crate - Elitefield soft - 36" L x 24" W x 28" H, Pen 16 Panel 32" H, Anber Roll up Mat, Elevated bed
-- COA Whizzclick, Fluent Pet, training pouch, target stick
-- Toys - Kong(classic, ball, disc, teeth cleaning), Ruffware(Ring, floater), Redline K9(Sheep Skin Tug) Flirt pole,
+  - RuffWear Front Range Harness,Collar, Leash
+- FXW 8px Pen, Crate - Elitefield soft - 36" L x 24" W x 28" H, Pen 16 Panel 32" H, Anber Roll up Mat, Elevated bed
+- COA Whizzclick, Fluent Pet, training pouch, target stick, PetSafe Clik-R
+- Toys - Kong(classic, ball, disc, teeth cleaning), Ruffware(Ring, floater), Redline K9(Sheep Skin Tug) Flirt pole, Howgo Sheep Chaser, Chew King Rubber Balls, West Paw Air Skamp, Playology Dental Chew Toys
+- RuffWear Quencher bowl
+
 
 ### Insurance 
 State Farm Pet Insurance - https://www.statefarm.com/insurance/pet  
