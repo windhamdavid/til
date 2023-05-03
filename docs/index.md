@@ -62,6 +62,7 @@ I use this library of documents as a quick reference to find technical answers, 
 [Amazon](saas/aws) |
 [Google](saas/google) |
 [Heroku](saas/heroku) |
+[OpenAI](saas/openai) |
 [Stripe](saas/stripe) |
 [Twilio](saas/twilio)
 
