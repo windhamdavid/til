@@ -3,6 +3,8 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+- May 2023
+  - [How to use LangChain and OpenAI](/posts/openai-langchain)
 - April 2023
   - [The South Carolina Visual Arts Standards](posts/sc-arts)
   - [How to add ChatGPT semantic search to my documents](posts/machine-learning)

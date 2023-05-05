@@ -43,6 +43,8 @@ Obsidian Vault-Chat - <https://github.com/exoascension/vault-chat>
 
 ChatGPT Prompt Engineering for Developers - <https://learn.deeplearning.ai/chatgpt-prompt-eng/>
 
+LangChain Tutorials - <https://github.com/gkamradt/langchain-tutorials>
+
 ### GPT Retrieval Plugin 
 
 ChatGPT Retrieval Plugin - <https://github.com/windhamdavid/chatgpt-retrieval-plugin>  
