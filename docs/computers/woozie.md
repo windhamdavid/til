@@ -1032,6 +1032,24 @@ npm -v
 8.5.1
 
 # add nvm to get an updated version
+# used nodesource instead of nvm to bring it up to ver 18.16
+# had to fix conflict with apt-cache policy
+
+cd /etc/apt/sources.list.d 
+sudo rm nodesource.list
+
+sudo apt --fix-broken install
+sudo apt update
+sudo apt remove nodejs
+sudo apt remove nodejs-doc
+
+cd ~
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+david@woozie:~ » node --version
+v18.16.0
+
 ```
 
 ### PHP
