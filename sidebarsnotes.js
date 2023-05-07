@@ -62,6 +62,7 @@ module.exports = {
         id:'projects/index',
       },
       items: [
+        'projects/ai',
         'projects/game',
         'projects/gzet',
         'projects/ham',

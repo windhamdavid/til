@@ -7,19 +7,27 @@ Just a place to make notes about our house, property and future properties.
 <https://davidawindham.com/wha/wilton/>
 
 ### Glenridge 
-102 Glenridge Circle, Greenwood SC
-Current Home Projects - <https://davidawindham.com/wha/glenridge/>  
+102 Glenridge Circle, Greenwood SC  
+<https://davidawindham.com/wha/glenridge/>  
 Gatewood Club - <https://gatewoodclub.com>
 
 ---
 
 ## Future
+
+We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.
+
 Architecture - <https://davidawindham.com/architecture/>  
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, low/no HOA, quiet, near quality grocery/healthcare/rec.
+
+### Inpsiration 
+
+ - Booken House at Sandhill - <https://www.youtube.com/watch?v=co2HYBaB_7A>
+ - 5894 Highwood Rd, Castro Valley, CA 94552 <https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/?>
+ - 
 
 
 
-### Locations
+## Property
 
 These are just some potential locations. Weather, Groceries, Healthcare, Taxes, Accessibility, and Demographics are impotant factors. 
 
@@ -85,8 +93,41 @@ BOOK | PAGE | DT | DATE |QS | PRICE |
 275 | 1870 | ONE | 9/10/2001 || 32,000|
 
 
-### References
+### Property References
 
-Saluda Grade tracks being converted - <https://www.postandcourier.com/spartanburg/news/norfolk-southern-to-sell-saluda-grade-tracks-for-sc-to-nc-rail-trail/article_be5e93c4-c36e-11ed-922c-4b4227cd2da6.html>
+Saluda Grade tracks being converted ( from Landrum to Saluda ) - <https://www.postandcourier.com/spartanburg/news/norfolk-southern-to-sell-saluda-grade-tracks-for-sc-to-nc-rail-trail/article_be5e93c4-c36e-11ed-922c-4b4227cd2da6.html>
 
 Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
+
+
+## Build
+
+### Architecture
+
+Architecture - <https://davidawindham.com/architecture/>  
+
+#### Architects
+
+#### Engineers
+
+### Contractors
+
+#### Concrete 
+
+Tri City Concrete  
+Forest City, NC
+
+#### Framing ( Metal )
+
+E.S. Walker Construction & Walker Building Systems  
+Forest City, NC - <https://eswalkerconstruction.com>
+
+#### Plumbing / Well
+
+#### Drywall Finishing
+
+#### Electrical / Solar
+
+#### HVAC
+
+#### Woodwork
