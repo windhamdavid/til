@@ -30,7 +30,8 @@ LangChain repo -<https://github.com/hwchase17/langchain>
 ### Reference Projects
 
 GPT4 LangChain PDF - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain>  
-LLM trained on 500,000 group chat messages - <https://www.izzy.co/blogs/robo-boys.html>  
+LLM trained on 500,000 group chat messages - <https://www.izzy.co/blogs/robo-boys.html> fork 👉🏼 <https://github.com/windhamdavid/gpt4-jenks>
+
 Obsidian Vault-Chat - <https://github.com/exoascension/vault-chat>  
 
 ### Reference Lists
