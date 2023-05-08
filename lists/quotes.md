@@ -4,6 +4,8 @@ I used to love buying books of quotes when my parents took us to the bookstore. 
 
 ---
 
+"The cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run." - [Henry David Thoreau](https://en.wikipedia.org/wiki/Henry_David_Thoreau) wrote in [Walden](https://en.wikipedia.org/wiki/Walden)
+
 "A master in the art of living draws no sharp distinction between his work and his play; his labor and his leisure; his mind and his body; his education and his recreation. He hardly knows which is which. He simply pursues his vision of excellence through whatever he is doing, and leaves others to determine whether he is working or playing. To himself, he always appears to be doing both." - [L.P. Jacks](https://en.wikipedia.org/wiki/L._P._Jacks)
 
 "Tell me to what you pay attention and I will tell you who you are." - [Ortega y Gasset](https://en.wikipedia.org/wiki/Jos%C3%A9_Ortega_y_Gasset)
@@ -25,3 +27,4 @@ I used to love buying books of quotes when my parents took us to the bookstore. 
 "The only true wisdom is in knowing you know nothing." - [Socrates](https://en.wikipedia.org/wiki/Socrates)
 
 "Computers are useless. They can only give you answers." - [Pablo Picasso](https://en.wikipedia.org/wiki/Pablo_Picasso)
+
