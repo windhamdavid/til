@@ -75,3 +75,20 @@ table td img {
 .hero__title, .title_f1Hy {
   font-size: 1.5rem !important;
 }
+
+markprompt-content {
+  --background-color: #ffffff;
+}
+markprompt-content.dark {
+  --background-color: #000000;
+}
+form input { 
+  box-sizing: border-box;
+  margin: 1em 0 2em;
+  font-size: 1.5em;
+  background: none;
+  border-radius: .2em;
+  border-color: none;
+  padding: .5em;
+  width: 100%;
+}

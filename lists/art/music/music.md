@@ -69,7 +69,6 @@ I like to create music playlist from new releases about every month or so. I sta
 [Brian Eno](https://en.wikipedia.org/wiki/Brian_Eno) / 
 [Van Morrison](https://en.wikipedia.org/wiki/Van_Morrison) / 
 [Grateful Dead](https://en.wikipedia.org/wiki/Grateful_Dead) / 
-[Ahmad Jamal](https://en.wikipedia.org/wiki/Ahmad_Jamal) / 
 [The Beatles](https://en.wikipedia.org/wiki/The_Beatles) / 
 [Duke Ellington](https://en.wikipedia.org/wiki/Duke_Ellington) / 
 [Thelonious Monk](https://en.wikipedia.org/wiki/Thelonious_Monk) / 
