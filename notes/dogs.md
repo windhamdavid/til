@@ -143,9 +143,9 @@ Other regional breeders:
 | Stand | Stand | | 👆🏼👆🏼 |
 | Lie | Lie | | 🫳🏼 |
 | Down | Down | | 🫳🏼 |
-| Get | Get | | 👇🏼 |
-| Load | Load | | 👈🏼 |
+| Get | Get | | 🫵🏼 |
 | Go | Go | | 🫵🏼 |
+| Load | Load | | 👈🏼 |
 | Watch | Watch | | 👉🏼👀👈🏼 |
 | Fetch | Fetch | | 🫵🏼 /👁️👈🏼|
 | Bring | Bring | | 🫴🏼🤌🏼|
@@ -203,9 +203,7 @@ Fitzgerald Key for Augmented and alternative communication - https://www.communi
 
 ### Insurance 
 State Farm Pet Insurance - https://www.statefarm.com/insurance/pet  
-
-
-
+Trupanion 
 
 ## Service Research
 
@@ -220,9 +218,13 @@ State Farm Pet Insurance - https://www.statefarm.com/insurance/pet
 
 ### Video Testimony
 
-- Portland High School - https://www.youtube.com/watch?v=oX2fAgN1iJE
-- Artie - Narona County School District - https://www.youtube.com/watch?v=EGO5DIB4t8E
-- Wyoming Department of Education - https://www.youtube.com/watch?v=ZPHr2v8ycsw
+- Portland High School - <https://www.youtube.com/watch?v=oX2fAgN1iJE>
+- Artie - Narona County School District - <https://www.youtube.com/watch?v=EGO5DIB4t8E>
+- Wyoming Department of Education - <https://www.youtube.com/watch?v=ZPHr2v8ycsw>
+- PBS News Hour - <https://www.youtube.com/watch?v=393Pr1bGFUA>
+- Bryant Public Schools-  <https://www.youtube.com/watch?v=bq-p84ltR7g>
+- Educating Greater Manchester - <https://www.youtube.com/watch?v=hNfP85NLMDQ>
+
 
 ### Organizations
 

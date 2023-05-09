@@ -20,6 +20,8 @@ LangChain repo -<https://github.com/hwchase17/langchain>
 
 
 
+
+
 ### Videos
 
 - Build Your Own Auto-GPT Apps with LangChain - <https://www.youtube.com/watch?v=NYSWn1ipbgg> / <https://github.com/daveebbelaar/langchain-experiments>

@@ -29,6 +29,7 @@ module.exports = {
         routeBasePath: 'notes',
         sidebarPath: require.resolve('./sidebarsnotes.js'),
         editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -39,6 +40,7 @@ module.exports = {
         routeBasePath: 'lists',
         sidebarPath: require.resolve('./sidebarslists.js'),
         editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -90,10 +92,11 @@ module.exports = {
       },
       items: [
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
+        {to: 'ai', label: 'AI',position: 'left'},
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
         {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
         {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
-        {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'},      
+        {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'}, 
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
         {
@@ -114,6 +117,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:'https://code.davidawindham.com/david/til/src/main/',
+          showLastUpdateTime: true,
         },
         blog: {
           blogTitle: 'Posts',

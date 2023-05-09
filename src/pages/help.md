@@ -18,9 +18,6 @@ npm run build
 npm run serve
 ```
 
-
-
-
 ---
 
 ### Log
@@ -39,8 +36,27 @@ gitGraph
     checkout main
     merge docusaurus
 ```
+#### 23/05/09
+- added react-player
+- added markprompt 
+```bash
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
+daw-til-2@0.0.1 /Users/david/Sites/daw_til
+├── @docusaurus/core@2.4.0
+├── @docusaurus/plugin-content-blog@2.4.0
+├── @docusaurus/preset-classic@2.4.0
+├── @docusaurus/theme-mermaid@2.4.0
+├── @mdx-js/react@1.6.22
+├── clsx@1.2.1
+├── docusaurus-lunr-search@2.3.2
+├── docusaurus-plugin-matomo@0.0.6
+├── markprompt@0.1.7
+├── react-dom@17.0.2
+├── react-player@2.12.0
+└── react@17.0.2
+```
 
-#### 23/3/24
+#### 23/03/24
 
 - npm up doc/core 2.3.1 -> 2.4.0
 ```bash
