@@ -37,7 +37,7 @@
 #### Related
 
 ## Pants
-( see projects/[pants.md](/projects/pants.md) )
+( see projects/[pants.md](/notes/work/projects/pants.md) )
 
 ```bash
 //********* Ubuntu 18.04 ( Pants )****//
