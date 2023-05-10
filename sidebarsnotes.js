@@ -35,6 +35,10 @@ module.exports = {
     },
     {
       type:'doc',
+      id:'garden',
+    },
+    {
+      type:'doc',
       id:'golf',
     },
     {
@@ -51,24 +55,47 @@ module.exports = {
     },
     {
       type:'doc',
-      id:'work',
+      id:'travel',
+    },
+    {
+      type:'doc',
+      id:'wealth',
     },
     {
       type: 'category',
-      label: 'Projects',
+      label: 'Work',
       collapsible: true,
       link: {
         type:'doc',
-        id:'projects/index',
+        id:'work/work',
       },
       items: [
-        'projects/ai',
-        'projects/game',
-        'projects/gzet',
-        'projects/ham',
-        'projects/juryd',
-        'projects/pants',
-        'projects/zw',
+        { 
+          type:'doc',
+          id:'work/clients', 
+        },
+        { 
+          type:'doc',
+          id:'work/design', 
+        },
+        {
+          type: 'category',
+          label: 'Side Projects',
+          collapsible: true,
+          link: {
+            type:'doc',
+            id:'work/projects/index',
+          },
+          items: [
+            'work/projects/ai',
+            'work/projects/game',
+            'work/projects/gzet',
+            'work/projects/ham',
+            'work/projects/juryd',
+            'work/projects/pants',
+            'work/projects/zw',
+          ],
+        },
       ],
     },
   ],

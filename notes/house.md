@@ -1,9 +1,19 @@
 # House
 
-Just a place to make notes about our house, property and future properties.
+I'm going to use this as place to make notes about our house, property, and future properties. We currently live in Greenwood SC and have been here for almost 14 years. I grew up in Columbia, Irmo, and Chapin SC. I spent 16 years in and around Charleston SC. I've lived in some other places short term such as: Bozeman MT, Stowe VT, Keene NH, and Maui HI, but I always seem to return to my roots. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'd like to only move on more time in my lifetime.
+
+
+### Carriage
+17 Franklin Street, Charleston SC
+
+### Bamboo
+10450 Old Georgetown Road, McClellanville SC
+
+### Farm
+82 Yarborough Road, Trenton SC
 
 ### Wilton 
-104 Wilton Street Greenwood SC  
+104 Wilton Street, Greenwood SC  
 <https://davidawindham.com/wha/wilton/>
 
 ### Glenridge 
