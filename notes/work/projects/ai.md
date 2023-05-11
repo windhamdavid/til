@@ -1,6 +1,10 @@
 # AI Assistant
 
+👉🏼 I've added a working demo @ [/ai](/ai)
+
 Semantic search is powerful and it's part of the reason I build and publish this Today I Learned section on my website. Semantic search is even more powerful when you add natural language processing trained on a large language model. I'm making this page for notes on building a personal AI Assistant. 
+
+
 
 ### Background
 
@@ -8,9 +12,58 @@ I written several essays in the last couple years on using tools to organize my 
 
 I've recently started learning how to create embeddings using vector databases which can be chained to existing LLMs. I've started some documentation using LangChain and OpenAi @ [/docs/saas/OpenAI](/docs/saas/OpenAI) <sub>5</sub>. Because the field is rapidly developing, I need a place to keep notes on it, so here we are. 
 
+#### Context Injection
+
+#### Preprocessing
+
+#### Embeddings
+
+#### Data Storage
+
+#### Prompt Engineering
 
 
-### ToDo
+## Stack 
+
+- React
+- Next.js
+- Express
+- Vercel
+- Supabase
+
+
+## ToDo
+
+- fix all relative links so that result links work
+- try alternative LLMs like Llama
+- control the data training 
+- self host supabase or postgres for data
+- sync the data with Github actions. 
+- combine my posts into a monorepo using markdown
+  - return to exporting my post into markdown or migrate
+- iterative testing of various prompts
+
+### Repos 
+
+- <https://github.com/pgvector/pgvector>
+- <https://github.com/supabase/supabase>
+- <https://github.com/facebook/docusaurus/discussions/8835>
+- <https://github.com/windhamdavid/markprompt>
+- <https://github.com/windhamdavid/dw-markprompt>
+- <https://supabase.com/customers/mendableai>
+
+### Resources
+
+- ChatGPT for Supabase Docs - <https://supabase.com/blog/chatgpt-supabase-docs>
+- How I Built Supabase’s OpenAI Doc Search - <https://www.youtube.com/watch?v=Yhtjd7yGGGA>
+- Self-Host Supabase Edge Functions - <https://supabase.com/blog/supabase-beta-update-april-2023>
+- Storing OpenAI embeddings in Postgres with pgvector - <https://supabase.com/blog/openai-embeddings-postgres-vector>
+
+### Commercial Products
+
+- Mendable - <https://www.mendable.ai>
+- MarkPrompt - <https://markprompt.com>
+
 
 
 ---
