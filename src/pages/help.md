@@ -36,7 +36,11 @@ gitGraph
     checkout main
     merge docusaurus
 ```
+
 #### 23/05/09
+
+**ToDo** - Make all links absolute.  ( e.g. /docs/sass/ai ) While training the documents with OpenAI, I noticed that some of the link references were not absolute. 
+
 - added react-player
 - added markprompt 
 ```bash
