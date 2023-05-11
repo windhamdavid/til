@@ -58,6 +58,8 @@ I've recently started learning how to create embeddings using vector databases w
 - How I Built Supabase’s OpenAI Doc Search - <https://www.youtube.com/watch?v=Yhtjd7yGGGA>
 - Self-Host Supabase Edge Functions - <https://supabase.com/blog/supabase-beta-update-april-2023>
 - Storing OpenAI embeddings in Postgres with pgvector - <https://supabase.com/blog/openai-embeddings-postgres-vector>
+- Mendable switches from Pinecone to Supabase for vector embeddings - <https://supabase.com/customers/mendableai>
+- Supabase Clippy: ChatGPT for Supabase Docs - <https://supabase.com/blog/chatgpt-supabase-docs>
 
 ### Commercial Products
 
