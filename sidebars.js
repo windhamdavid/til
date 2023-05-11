@@ -29,6 +29,18 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Data',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'data/data',
+      },
+      items: [
+        
+      ],
+    },
+    {
+      type: 'category',
       label: 'Editors',
       items: [
         'editors/atom',
@@ -61,6 +73,18 @@ module.exports = {
         'lang/Python',
         'lang/Ruby',
         'lang/Rust',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Machine',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'machine/machine',
+      },
+      items: [
+        
       ],
     },
     {
