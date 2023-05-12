@@ -14,6 +14,11 @@ I've recently started learning how to create embeddings using vector databases w
 
 #### Context Injection
 
+- Tokenization
+- Stop-word removal
+- Stemming / Lemmatization
+- Vectorization
+
 #### Preprocessing
 
 #### Embeddings
