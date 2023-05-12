@@ -22,6 +22,8 @@ I've recently started learning how to create embeddings using vector databases w
 
 #### Prompt Engineering
 
+#### Fine Tuning vs. Semantic Search
+
 
 ## Stack 
 
@@ -51,12 +53,18 @@ I've recently started learning how to create embeddings using vector databases w
 
 ### Repos 
 
-- <https://github.com/pgvector/pgvector>
-- <https://github.com/supabase/supabase>
-- <https://github.com/facebook/docusaurus/discussions/8835>
-- <https://github.com/windhamdavid/markprompt>
+- PGVector <https://github.com/pgvector/pgvector>
+- SupaBase <https://github.com/supabase/supabase>
+- Docusaurus Integration <https://github.com/facebook/docusaurus/discussions/8835>
+- MarkPrompt <https://github.com/windhamdavid/markprompt>
 - <https://github.com/windhamdavid/dw-markprompt>
-- <https://supabase.com/customers/mendableai>
+- Mendable <https://supabase.com/customers/mendableai>
+- Llama Index <https://github.com/jerryjliu/llama_index>
+- Llama Hub <https://github.com/emptycrown/llama-hub>
+- Llama Index WordPress <https://github.com/emptycrown/llama-hub/tree/main/loader_hub/wordpress>
+- Llama Index Git Repo <https://llamahub.ai/l/github_repo>
+- Llama Index GPT Retrieval Plugin - <https://llamahub.ai/l/chatgpt_plugin>
+
 
 ### Resources
 
