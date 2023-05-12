@@ -778,6 +778,15 @@ sudo systemctl restart apache2
 # set cron to renew
 sudo crontab -e
 11 1 * * 1 /usr/bin/certbot renew --quiet --noninteractive
+
+# issue where I had added www to subdomains and didn't have a DNS record
+# modify the cert to remove the www
+sudo certbot certonly --cert-name code.davidawindham.com -d code.davidawindham.com
+An RSA certificate named code.davidawindham.com already exists. Do you want to
+update its key type to ECDSA? (U)pdate
+
+# to test
+sudo certbot renew --dry-run
 ```
 
 ### Dev
