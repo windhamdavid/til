@@ -43,6 +43,12 @@ I've recently started learning how to create embeddings using vector databases w
   - return to exporting my post into markdown or migrate
 - iterative testing of various prompts
 
+### Docs 
+
+- <https://supabase.com/docs/guides/api>
+- <https://gpt-index.readthedocs.io/en/latest/>
+
+
 ### Repos 
 
 - <https://github.com/pgvector/pgvector>

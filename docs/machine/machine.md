@@ -15,8 +15,8 @@ I've started learning a lot more about machine learning and data science recentl
 
 ### Resources
 
-- Open AI ( SaaS ) - [/docs/sass/ai](/docs/sass/ai)
-- LangChain & OpenAI - [/posts/openai-langchain](/post/openai-langchain)
+- Open AI ( SaaS ) - [/docs/saas/openai](/docs/saas/openai)
+- LangChain & OpenAI - [/posts/openai-langchain](/posts/openai-langchain)
 
 
 ## References 
