@@ -2,24 +2,17 @@
 
 **22/07/06** - I added this page so that I could set reminders of shows, films, podcasts, games, and books I'd like to give me attention to because I'm often trying to remember what it was I wanted to watch on TV.  I wrote a post about it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
 
-Below is just a list of the items I'm currently watching or up next.
+**23/05/22** - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same. 
 
 ---
-### Video
-#### Series
 
-[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
-/ [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
-/ [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
-/ [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series))
-/ [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
-/ [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
-/ [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy)
-/ [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building)
+## Current
 
+### Films
 
-
-#### Films
+[Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny) /
+[Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon) /
+[Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film)) /
 [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
 [Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film)) /
 [The Eyes of Tammy Faye](https://en.wikipedia.org/wiki/The_Eyes_of_Tammy_Faye_(2021_film)) /
@@ -34,19 +27,25 @@ Below is just a list of the items I'm currently watching or up next.
 [Bao](https://en.wikipedia.org/wiki/Bao_(film)) /
 [C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film)) / 
 [The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch) /
-[Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) /
 [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) /
 [The Orville](https://en.wikipedia.org/wiki/The_Orville) /
 [Delicious](https://www.imdb.com/title/tt10738536/) /
 [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard) /
 [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
 [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) /
-[The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film)) /
+[The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
+
+### Series
+[Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World) /
+[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate) /
+[The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series)) / 
+[The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)) /
+[My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman) /
+[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
 
 
 #### The 25 Best Films of 2022
-[David Ehrlich's Best films videos](https://www.videocountdowns.com)  
-
+[David Ehrlich's Best films videos](https://www.videocountdowns.com)  /
 [Aftersun](https://en.wikipedia.org/wiki/Aftersun) / 
 [Tár](https://en.wikipedia.org/wiki/Tár) / 
 [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) / 
@@ -89,32 +88,46 @@ Below is just a list of the items I'm currently watching or up next.
 [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast)) / 
 [WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron) / 
 [The Problem with John Stewart](https://en.wikipedia.org/wiki/The_Problem_with_Jon_Stewart) / 
-[This American Life](https://en.wikipedia.org/wiki/This_American_Life) / 
-
+[This American Life](https://en.wikipedia.org/wiki/This_American_Life)
 
 ### Games 
-[Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) /
-[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread) / 
-[Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) / 
-[Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces)
-
-
+[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) / 
+[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread)
 
 ### Books
 [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne) /
 [Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book)) /
 [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel)) /
-[A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad) /
+[A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
 
 ---
-### Recently Finished 
+
+## Finished 
 
 ( Rating 0/100)
 
+### Films
+
+[Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95) / 
+[Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) (85) /
+
+### Series
+
+[The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93) / 
+[Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) (90) / 
+[DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) (86) /
+[James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) (85) / 
 [Delicious](https://www.imdb.com/title/tt10738536/) (80) / 
+[The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78) / 
 [Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (75) / 
 [Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (70) / 
 [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) (65) / 
-[The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78) / 
-[The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93) / 
-[Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
+
+### Podcast
+
+### Games
+
+[Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) (99) / 
+[Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) (95) /
+[Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces) (90) / 
+### Books

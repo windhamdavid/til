@@ -63,6 +63,8 @@ Other regional breeders:
 - [Zimm Acres](http://zimmacres.com) - Spartanburg, SC
 - [Liberty Golden's](http://www.goldenpuppies.net) - Rock Hill, SC
 - [Rowe Mountain Goldens](https://www.rowemountaingoldens.com/) - Mill Spring, NC
+- [Russ Retievers](https://www.facebook.com/RussRetrievers) - Greenwood, SC
+
 
 ## Log
 

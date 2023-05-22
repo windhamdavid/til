@@ -4,8 +4,6 @@
 
 Semantic search is powerful and it's part of the reason I build and publish this Today I Learned section on my website. Semantic search is even more powerful when you add natural language processing trained on a large language model. I'm making this page for notes on building a personal AI Assistant. 
 
-
-
 ### Background
 
 I written several essays in the last couple years on using tools to organize my workflow and thinking <sub>1,2</sub>. In the last six months I've written two on Artificial Intelligence <sub>3,4</sub>. I now use several different AI assistants within my text editor for coding. The same way I've applied my code documentation to the rest of my life here, I'm starting to realize how helpful AI assistants can be. I think I'll need one to interact with my public documentation and a second for me to interact with my private information like my calendar, chats, and emails.  
