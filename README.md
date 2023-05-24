@@ -6,6 +6,10 @@
 
 ## Notes: 
 
+#### 23.05.05
+
+- added AI page @ [https://davidawindham.com/til/ai](https://davidawindham.com/til/ai)
+
 #### 23.02.11
 
 - mv master to main
