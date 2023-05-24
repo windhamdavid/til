@@ -4,13 +4,14 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - May 2023
+  - [_Gardeners' World_ is on season 54](/posts/gardeners-world)
   - [How to add an AI assistant to these documents](/ai)
   - [How to use LangChain and OpenAI](/posts/openai-langchain)
 - April 2023
-  - [The South Carolina Visual Arts Standards](posts/sc-arts)
-  - [How to add ChatGPT semantic search to my documents](posts/machine-learning)
+  - [The South Carolina Visual Arts Standards](/posts/sc-arts)
+  - [How to add ChatGPT semantic search to my documents](/posts/machine-learning)
 - March 2023
-  - [Iran hostage crisis was the october surprise](posts/october-surprise)
+  - [Iran hostage crisis was the october surprise](/posts/october-surprise)
   - [Dennis Ritchie's son created Spin-Out](posts/dennis-ritchie-typographical-mystery)
   - [Iris was born](/notes/dogs#log)
 - February 2023

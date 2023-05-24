@@ -57,10 +57,7 @@ module.exports = {
       type:'doc',
       id:'travel',
     },
-    {
-      type:'doc',
-      id:'wealth',
-    },
+
     {
       type: 'category',
       label: 'Work',
@@ -95,6 +92,10 @@ module.exports = {
             'work/projects/pants',
             'work/projects/zw',
           ],
+        },
+        {
+          type:'doc',
+          id:'work/wealth',
         },
       ],
     },
