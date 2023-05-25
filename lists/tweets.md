@@ -1,13 +1,16 @@
---- 
-hide_table_of_contents: true
----
+
 
 # Tweets
 
-I wrote an essay about this page at **[https://davidawindham.com/twitter](https://davidawindham.com/twitter)**.
+I wrote an essay about this page at **[https://davidawindham.com/twitter](https://davidawindham.com/twitter)**. 
 
-This is a list of my tweets from [https://twitter.com/windhamdavid](https://twitter.com/windhamdavid) in chronological order starting with the first. According to my archive, over 15 years I had.... **828** Tweets, **78** Likes, **88** Blocked accounts, & **3** Muted accounts
+I mostly quit using Twitter and this is a list of my tweets ( [https://twitter.com/windhamdavid](https://twitter.com/windhamdavid) ) in chronological order starting with the first. I also made a list of the [people I followed](tweets_follow) so that I could pull most of them into another platform. 
 
+According to my archive, over 15 years I had:  
+**828** Tweets, **78** Likes, **88** Blocked accounts, & **3** Muted accounts. 
+
+
+### 2007
 
 |tweet|date|
 |---|---|
@@ -15,6 +18,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |wondering how papervision3d engine works exactly..oop for actionscript.. taking some old panoramas in quicktime and rendering in flash..|2007-06-24|
 |backing up databases|2008-03-28|
 |watching.. as everyone tries to un-brick their iphones|2008-07-11|
+
+### 2008
+
+|tweet|date|
+|---|---|
 |building drupal user pages|2008-08-19|
 |is learning a new technique for dealing with fonts. http://davidwindham.net/facelift/|2008-08-21|
 |@yelvington http://en.wikipedia.org/wiki/Nmap|2008-08-25|
@@ -118,6 +126,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |story on Columbia SC on the front of NYTimes.com - http://tinyurl.com/8qogh5|2008-12-22|
 |I've lit up both fireplaces... one more ad to finish and then it's a good read beside the fire and a long break for us.  happy holidays!|2008-12-22|
 |code with syntax color highlighting plus drag and drop file sharing from the finder for my iphone  http://www.avatron.com/products/|2008-12-28|
+
+### 2009
+
+|tweet|date|
+|---|---|
 |http://rulesofthumb.org/ and http://keyingredients.org/|2009-01-03|
 |"the more time you spend on foreplay, the less time you have afterword to make a really good snack. ~ Johnny Carson."|2009-01-03|
 |did anyone watch that Helvetica show on pbs last night...nicely done.  http://www.helveticafilm.com/|2009-01-09|
@@ -306,6 +319,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |@janeforshort @wordcampnyc ya'll have a clone (duplicate registration) of me attending #wcnyc.|2009-11-04|
 |@petemall do you have any docs floating around about the wp/wave integration?|2009-11-12|
 |Google released a public DNS today. http://googlecode.blogspot.com/2009/12/introducing-google-public-dns-new-dns.html|2009-12-03|
+
+### 2010
+
+|tweet|date|
+|---|---|
 |it's far too cold here in the southeastern US.|2010-01-05|
 |RT@yelvington Unlocked #nexus1 is cheaper than one share of GOOG|2010-01-05|
 |http://jquery14.com/ - new jquery 1.4 api site ~   mediawiki to wordpress|2010-01-08|
@@ -403,6 +421,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |windhamdavid started watching headjs/headjs http://ff.im/-uVucQ|2010-12-09|
 |RT @hakimel: Google Zeitgeist 2010 just went live with pretty HTML5 canvas visualizations from @F_i! http://bit.ly/hioGOh|2010-12-09|
 |windhamdavid started watching wmcbrine/pytivo http://ff.im/-vishQ|2010-12-15|
+
+### 2011
+
+|tweet|date|
+|---|---|
 |RT @phase2tech: Drupal7 is out. Read the post from @phase2tech 's @thagler on Lessons Learned in Upgrading to Drupal 7: API to Theming h ...|2011-01-05|
 |RT @davewiner: Next question: Is there a connect betw the mysterious bird deaths and Angry Birds? The helicopters of the East Village?|2011-01-06|
 |RT @jaredwsmith: Helping a senior couple decipher SMS shorthand while reassuring them we all haven't lost our grasp of the English language.|2011-01-07|
@@ -642,6 +665,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |The Magic Button - http://t.co/kN57tScU|2011-12-20|
 |RT @fogus: I rarely find thinking about thinking a useful exercise. But thinking about not thinking is extremely important.|2011-12-28|
 |#SOPA @godaddy Y U Make so Mazy'ish http://t.co/VNXTPxn6|2011-12-28|
+
+### 2012
+
+|tweet|date|
+|---|---|
 |forgot about twitter for a while there....|2012-01-06|
 |RT @scottjehl: New on @filamentgroup lab: A Fix for the iOS Orientationchange Zoom Bug http://t.co/mpbDQd0z Git repo: https://t.co/vzVFcp1t|2012-01-06|
 |@krwindham #screen-time-zero|2012-01-06|
@@ -740,6 +768,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |I think I've learned more from maintaining projects than from building them.|2012-10-17|
 |Brooke's Law & The Mythical Man-Month - http://t.co/jzhqlkxp|2012-10-17|
 |Dr. Zoidberg - http://t.co/hNy2xuwv|2012-10-17|
+
+### 2013
+
+|tweet|date|
+|---|---|
 |RT @aaronsw: Every love story is a ghost story.|2013-01-18|
 |http://t.co/5kgNOmJNFl|2013-02-20|
 |http://t.co/TIU5E2RTWd|2013-02-21|
@@ -754,6 +787,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |"RT @justinabrahms: "Three simple realities: nothing lasts, nothing is finished, and nothing is perfect." http://t.co/aCEb2bGa4z"|2013-10-16|
 |RT @viatropos: Keep the mind moving.|2013-10-16|
 |thanks @sorbits|2013-10-26|
+
+### 2014
+
+|tweet|date|
+|---|---|
 |Bruce Sterling thinks aloud about the art of code - https://t.co/kkEm25OmZ1|2014-01-17|
 |"If you think there has been a violation of the Open Internet rules, you may file a complaint with the @FCC at http://t.co/jkTP3g34G6"|2014-01-17|
 |RT @BillGates: I'm curious. What % of the U.S. budget do you think goes to foreign aid? Favorite if you think it's more than 2%. RT if you …|2014-01-17|
@@ -780,6 +818,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |Verifying myself: I am windhamdavid on Keybase.io. 6ny1AUTmrN_5jU_N5e-xEA3VYS4ZnQ_2Md2o / https://t.co/3NrijAbNmg|2014-09-17|
 |shellshock-proofed|2014-09-25|
 |@ded the new Google Newsstand is pretty nice.|2014-09-25|
+
+### 2015
+
+|tweet|date|
+|---|---|
 |nothing strange in my GLibc 'ghost' proofed em up|2015-01-28|
 |anyone else's chrome dev tools theme bork out last week? I hacked mine ala https://t.co/nA6cVSji4b cc: @soryu2 http://t.co/63FyFcRt78|2015-01-28|
 |Anthropomorphizing Machines -https://t.co/WoP3HXUU34 https://t.co/gIzu3MIMGz|2015-11-09|
@@ -787,6 +830,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |As well and will do @tinkhanson Your wit proceeds you. Happy 😀 you enjoyed my diatribe 😠 on this medium.|2015-12-15|
 |Collaboration vs. Competition - https://t.co/MH4vxWo6Yi|2015-12-17|
 |Non-Linear Publishing - https://t.co/b2fTeRdC2k|2015-12-21|
+
+### 2016
+
+|tweet|date|
+|---|---|
 |I heard a word I really liked the other day: complijab. It's kinda like humblebrag.|2016-06-13|
 |I learned a lesson in 1990 when I left my 'contacts' device on a pay phone booth while traveling. Never substitute memory for machine.|2016-06-13|
 |@blu3r4d0n Nope. They're an important technique to inform and educate #dataisbeautiful|2020-07-02|
@@ -797,6 +845,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |"@blu3r4d0n @jeffreyFCI @TriggerPsychoma @scdhec no worries... even their own engineering blog says ""It was kind of a free-for-all when we were creating the cloud resources. https://t.co/uxRWGe7MGy"|2020-07-15|
 |@jaspar yup. something else is up with this.|2020-07-15|
 |@meyerweb Yes. Indeed.|2020-07-15|
+
+### 2020
+
+|tweet|date|
+|---|---|
 |@cdharrison @chuckwoolery perhaps he went back to selling lubed catheters - https://t.co/EkCAb2wUCz|2020-07-15|
 |"@cdharrison @chuckwoolery Or he reassessed| did some soul searching| clarified it everyone| announced his own son just tested positive| and deleted his account.  Now I kinda feel bad for ol' Chuck just trying to make a buck. Would've been better if he gone gone public and hadn't just ducked out on us."|2020-07-17|
 |@charliekirk11 that's easy... because he has more style ~ https://t.co/Csj9eDjrUK|2020-07-17|
@@ -826,6 +879,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |@blu3r4d0n @scdhec thank you|2020-08-14|
 |@scdhec there we go. way to be SC. starve it down 6 more % https://t.co/6gqpePo6mt|2020-08-17|
 |@ijeditor @jameshicks3 county had 24 yesterday with a drop to 13.8% which is only slightly higher than the state average. cut about 8% off of that and we'd be in business. They'll tow that narrative along unless we spike back up.  I'd prefer we don't gain that evidence over proving anyone ill advised.|2020-08-17|
+
+### 2021
+
+|tweet|date|
+|---|---|
 |@elonmusk I think this more clearly illustrates attention span in the information age rather than symbolic absurdity ( ⊥ ): https://t.co/6N3mMgDz4v|2021-02-04|
 |@daniellecitron @noUpside just wanted to say I think y'all've got it right.|2021-02-22|
 |"@mollyfmielke I enjoyed reading your work and I appreciate your conclusions on standardization, interoperability and collaboration.  Might consider ray tracing in your next essay since it's a 16th century concept that’s been instrumental in the development of computer hardware. 1/2"|2021-03-24|
@@ -836,6 +894,11 @@ This is a list of my tweets from [https://twitter.com/windhamdavid](https://twit
 |@fwideman I'll give it three or four years and get back to you here on this same thread.|2021-09-16|
 |@fwideman https://t.co/vyLOrzqhrs|2021-09-16|
 |@fwideman I'm trying to get your attention over here. See also https://t.co/i930JHMtwz|2021-09-16|
+
+### 2022
+
+|tweet|date|
+|---|---|
 |@atmattb yeah... 👌|2022-01-29|
 |@Kasparov63 yes to this.|2022-03-02|
 |@willmcnelis 11 year delayed reply: it's good. you still down under? Your name came up in a conversation in charlietown yesterday because I think your nephew is dating my niece. both pretty stellar kids. small world.|2022-03-10|

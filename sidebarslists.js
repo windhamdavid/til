@@ -63,6 +63,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'grocery',
+    },
+    {
+      type: 'doc',
       id: 'lists',
     },
     {
@@ -97,6 +101,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'shopping',
+    },
+    {
+      type: 'doc',
       id: 'things',
     },
     {
@@ -104,8 +112,20 @@ module.exports = {
       id: 'trivia',
     },
     {
-      type: 'doc',
-      id: 'tweets',
+    type: 'category',
+    label: 'Tweets',
+    collapsible: true,
+    link: {
+      type:'doc',
+      id:'tweets',
+    },
+      items: [
+        {
+          type:'doc',
+          id: 'tweets_follow',
+          label:'Followed',
+        },
+      ],
     },
     {
       type: 'doc',
