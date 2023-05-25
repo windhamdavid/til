@@ -2,6 +2,25 @@
 
 I needed a place to keep an ongoing list of the feeds I pull into my [feed reader](/docs/host/Miniflux). My reader syncs with my [bookmarks](/docs/host/Shaarli) which pull into my [website](https://davidawindham.com/desk). I try to focus on authors and not publishers. I prefer to 'hear it' from the source instead of secondhand information if it's a link to a secondary source, I will go there and bookmark the original. I mostly just skim for headlines that may be relevant to me. The majority of these will pick For recreational reading I use Reddit and Apple News. Anthing to try to avoid mindless scrolling the internet.
 
+- Stack
+  - Webkit Blog
+  - Chrome Developers
+  - GoLang Blog
+  - Tailwind News
+  - Bootstrap News
+  - Laravel News
+  - Wordpress Developer Blog
+  - Dev Channel
+  - The Go Blog
+  - The Mozilla Blog
+- Publishers
+  - W3C Blog
+  - Wikimedia Foundation
+  - On Substack
+  - Stack Overflow Blog
+  - Hacker News 
+  - Dev Channel - Medium
+  - Wired - Ideas Latest
 - Companies 
   - Apple Newsroom
   - Apple Developer News
@@ -13,31 +32,25 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Mozilla Foundation Blog
   - Digital Ocean Tutorials
   - Stack Overflow Blog
-- Stack
-  - Webkit Blog
-  - Chrome Developers
-  - GoLang Blog
-  - Tailwind News
-  - Bootstrap News
-  - Laravel News
-  - Wordpress Developer Blog
-  - Dev Channel
-  - Go Blog
-- Publishers
-  - W3C Blog
-  - Wikimedia Foundation
-  - On Substack
-  - Stack Overflow Blog
-  - Hacker News 
+  - Andreesen Horowitz
+  - Digital Ocean Tutorials
+  - Linode Development 
+  - Vercel News
 - People
   - Jeff Atwood - Coding Horror
   - Jeremy Keith - Adactio
+  - John Gruber - Daring Fireball
   - Addy Osmani
   - Brendan Eich
   - Matt Mullenweg
   - Paul Irish
   - Tom Preston-Werner
+  - Maggie Appleton
+  - Tim Bray - Ongoing
+  - Simon Willison - Weblog
+  - Tom Preston-Werner
 - Other
   - The Red Hand Files - Nick Cave
   - Poetry Foundation 
   - xkcd.com 
+  - McSweeney's
