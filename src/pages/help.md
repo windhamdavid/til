@@ -20,6 +20,13 @@ npm run serve
 
 ---
 
+### Todo
+
+- Make all links absolute.  ( e.g. /docs/sass/ai ) While training the documents with OpenAI, I noticed that some of the link references were not absolute. 
+- Create Github Actions to rebuild a Supabase index of the documents on every commit for the AI Assistant to use. 
+
+---
+
 ### Log
 
 ```mermaid
@@ -37,9 +44,29 @@ gitGraph
     merge docusaurus
 ```
 
-#### 23/05/09
+#### 23/05/24
 
-**ToDo** - Make all links absolute.  ( e.g. /docs/sass/ai ) While training the documents with OpenAI, I noticed that some of the link references were not absolute. 
+- docusaurus updated -  2.4.0 👉🏼 2.41
+
+```bash
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
+daw-til-2@0.0.1 /Users/david/Sites/daw_til
+├── @docusaurus/core@2.4.1
+├── @docusaurus/plugin-content-blog@2.4.1
+├── @docusaurus/preset-classic@2.4.1
+├── @docusaurus/theme-mermaid@2.4.1
+├── @mdx-js/react@1.6.22
+├── clsx@1.2.1
+├── docusaurus-lunr-search@2.3.2
+├── docusaurus-plugin-matomo@0.0.6
+├── markprompt@0.1.7
+├── react-dom@17.0.2
+├── react-player@2.12.0
+└── react@17.0.2
+
+```
+
+#### 23/05/09
 
 - added react-player
 - added markprompt 
