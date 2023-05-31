@@ -10,7 +10,21 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 </head>
 
 
-**23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids.  
+**23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids. I wrote a post about Iris @ <https://davidawindham.com/iris/>
+
+## Log
+
+**23.03.09** - Puppies were born. Will ride up to select from the litter in early April with an expected come home date in mid May.
+
+- 23.01.10 - Zoey's doggie date w/ Adger
+- 23.03.10 - 60 day due date
+- 23.03.09 - Puppies Born 👈🏼
+- 23.04.22 - 6 week litter pick  
+- 23.05.13 - 9 week pickup date
+- 23.06.09 - 12 Weeks  
+  - Cautious but confident. Understands "No, Yes, Sit, Come, Here and her name". Decent recall off leash. Eats everything. Gets testy in the afternoons and wants to chew and nip. 
+  - will have last round of vaccines next week.
+  - added updated 12 week photos @ <https://davidawindham.com/iris/>
 
 ## About
 
@@ -65,17 +79,11 @@ Other regional breeders:
 - [Rowe Mountain Goldens](https://www.rowemountaingoldens.com/) - Mill Spring, NC
 - [Russ Retievers](https://www.facebook.com/RussRetrievers) - Greenwood, SC
 
+---
 
-## Log
+ 
 
 
-**23.03.09** - Puppies were born. Will ride up to select from the litter in early April with an expected come home date in mid May.
-
-- 23.01.10 - Zoey's doggie date w/ Adger
-- 23.03.10 - 60 day due date
-- 23.03.09 - Puppies Born 👈🏼
-- 23.04.22 - 6 week litter pick  
-- 23.05.13 - 9 week pickup date  
 
 ### Puppy
 
@@ -100,18 +108,17 @@ Other regional breeders:
 - rawhide is a choking hazard. Use bully sticks for chewing.
 - Peanut butter ( no sugar )
 
-### Diet / Food
-
-
+### Diet
 
 **Poisonous** Foods: xylitol (all artificial sweeteners), salt, yeast(dough) chocolate, macadamia, corn, popcorn, avocado, mushrooms, onions, garlic, leeks, coffee, caffeine, citrus, coconut oil, grapes, raisins, milk/diary, almond, pistachio, alchohol, peaches, plums, apple seeds, apricot pits, cherry pits, Chives, hops, mustard, broccoli, high fat meats, nutmeg, cinnamon, spicy food, green tomatoes, raw potatoes, large amount of liver, pickles. 
 
 **Safe**: Peanut, Cashew butter, honey, carrots, cucumber, celery, watermellon, cantaloupe, mango, pears, blueberries, apples, oranges, banana, cooked chicken, shrimp, fish, turkey, beef, grains, green beans, white rice, spinach, cooked eggs, plain yogurt, small amount of cheese, peas, pumpkin, asparagus, cauliflower, lettuce, oatmeal, pasta
 
 - Purina Pro Puppy is what she is started on
-  - will start blending in Blue Buffalo Puppy at 10 weeks
+  - will start using Blue Buffalo Puppy for Kongs and Training.
+  - vet advised staying on Purina Pro
 - add yellow/orange/green veggies to the food
-- Blue Bits, Natural Bully Sticks, Yak Sticks
+- Natural Bully Sticks, Yak Sticks
 - 9 Weeks - 1 cup. 1/3 to 1/2 cup per meal
 - 3 Months - 1.5 cups per day.
 - 6 Months - 3 cups per day

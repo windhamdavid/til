@@ -58,3 +58,9 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 - Craftsman 150cc 21in
 - DeWalt Pole Saw / Hedge Trimmer
 
+See Also: [/lists/shopping#garden](/lists/shopping#garden)
+
+### Providers
+
+- Timberline Tree Service ( Troy ) (864) 953-0002 / [Facebook](https://www.facebook.com/people/Timberline-Tree-Service-LLC/100062993750660/)
+- Landscape Supply - (864) 388-2138 / [Facebook](https://www.facebook.com/people/Landscape-Supply-of-Greenwood/100063548891226/)
