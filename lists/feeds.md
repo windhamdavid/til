@@ -51,6 +51,7 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Tom Preston-Werner
 - Other
   - The Red Hand Files - Nick Cave
+  - Public Domain Review
   - Poetry Foundation 
   - xkcd.com 
   - McSweeney's
