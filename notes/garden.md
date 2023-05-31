@@ -1,12 +1,16 @@
 # Garden
 
-I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes. 
+I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes.
 
 ### Notes
 
 **23/05/23** - After watching Gardeners' World and realized that I don't know half of the plants that are planted in the beds. I started mapping out our yard to label the tree types, called in a tree guy to look at one of the oaks, ordered new sheers, gloves, and trays. 
 
-[![glenridge-landscape](/img/glenridge-landscape.jpg)](/img/glenridge-landscape.jpg) 
+[![glenridge-landscape](/img/glenridge-landscape.jpg)](/img/glenridge-landscape.jpg)
+
+### Log
+
+- 23.05.23 - Dying Oak tree being removed next week. 
 
 ### Indoor Plants
 
