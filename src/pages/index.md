@@ -3,6 +3,10 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
+
+- June 2023
+  - [More about my great grandfather](/posts/dave-minnick)
+  - [Dave Cobb's background](/posts/dave-cobb)
 - May 2023
   - [_Gardeners' World_ is on season 54](/posts/gardeners-world)
   - [How to add an AI assistant to these documents](/ai)
