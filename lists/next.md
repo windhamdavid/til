@@ -91,8 +91,7 @@
 [This American Life](https://en.wikipedia.org/wiki/This_American_Life)
 
 ### Games 
-[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) / 
-[Metroid Dread](https://en.wikipedia.org/wiki/Metroid_Dread)
+[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) / [Pikmin 4](https://en.wikipedia.org/wiki/Pikmin_4)
 
 ### Books
 [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne) /
