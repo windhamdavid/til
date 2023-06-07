@@ -5,6 +5,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - June 2023
+  - [Oxalic acid causes spinach teeth](/posts/oxalic-acid)
   - [More about my great grandfather](/posts/dave-minnick)
   - [Dave Cobb's background](/posts/dave-cobb)
 - May 2023
