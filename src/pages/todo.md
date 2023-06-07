@@ -14,6 +14,7 @@ The easiest way to export the reminders to Markdown is to print to PDF and then 
 - Learn [AI](/docs/saas/openai)
   - SupaBase and/or postgres from Github actions
   - integration techniques for CMSs
+  - to use SwingVision Tennis app
 - [Travel](/notes/travel)
   - USTA State (June)
   - Boone (Aug)
