@@ -59,6 +59,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'design',
+    },
+    {
+      type: 'doc',
       id: 'feeds',
     },
     {
