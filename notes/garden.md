@@ -1,6 +1,6 @@
 # Garden
 
-I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes.
+I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. We just started watching [Gardeners World](/posts/gardeners-world/) I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes.
 
 ### Notes
 
