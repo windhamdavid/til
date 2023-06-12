@@ -1,16 +1,16 @@
 # Garden
 
-I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. We just started watching [Gardeners World](/posts/gardeners-world/) I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes.
+I enjoy gardening and yard work. I sometimes call this document site my little digital garden. I met my wife in a History of Landscape Design class while in college. We just started watching [Gardeners World](/posts/gardeners-world/) and I've got a lot of time outside with [Iris](/notes/dogs). I've always got some kind of yard project going on, so I'm going to leave this page here as a place to make notes.
 
-### Notes
+## Notes
 
-**23/05/23** - After watching Gardeners' World and realized that I don't know half of the plants that are planted in the beds. I started mapping out our yard to label the tree types, called in a tree guy to look at one of the oaks, ordered new sheers, gloves, and trays. 
+**23/05/23** - After watching Gardeners' World and realized that I don't know half of the plants that are planted in the beds. I started mapping out our yard to label the tree types, called in a tree guy to look at one of the oaks, ordered new sheers, gloves, and trays.
 
 [![glenridge-landscape](/img/glenridge-landscape.jpg)](/img/glenridge-landscape.jpg)
 
-### Log
+## Log
 
-- 23.05.23 - Dying Oak tree being removed next week. 
+- 23.05.23 - Dying Oak tree being removed next week.
 
 ### Indoor Plants
 
@@ -18,9 +18,9 @@ The better half has an obsession with indoor plants. Our house is full of them a
 
 ### Raised Beds
 
-I built several raised garden beds in the middle of our front lawn which I keep a variety of plants going. Sometimes I plant a bunch of summer vegetables, but it's mostly herbs and flowers. 
+I built several raised garden beds in the middle of our front lawn which I keep a variety of plants going. Sometimes I plant a bunch of summer vegetables, but it's mostly herbs and flowers.
 
-#### Flowers 
+#### Flowers
 
 - Delphinium
 - Fox Glove
@@ -32,7 +32,6 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 - White Flower Daisy?
 - Orange/Yellow Flower Daisy?
 - Silver foliage with Yellow flower?
-
 
 #### Veg
 
@@ -48,15 +47,12 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 - Oregano
 - Pumpkin
 
-
-
 ### Supplies
 
 - Fox Farms Sea Floor
 - Fox Farms Nutrients
 
-
-### Equipment 
+### Equipment
 
 - Cub Cadet XT2 LX42
 - Craftsman 150cc 21in
