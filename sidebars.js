@@ -97,6 +97,7 @@ module.exports = {
         'saas/heroku',
         'saas/openai',
         'saas/stripe',
+        'saas/supabase',
         'saas/twilio',
         'saas/vercel',
       ],
