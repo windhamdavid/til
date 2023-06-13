@@ -69,6 +69,7 @@ POA - Gatewood Club - <https://gatewoodclub.com>
 
 - Add flood lighting in front of garage
 - Refinish/Repaint Back Lower Deck
+- Convert compactor to compost and add pull out trash bin
 - Replace living fireplace brass with nickel
 - Convert Fireplaces in Rec & Living to Gas
 - Carpet 
@@ -91,6 +92,9 @@ POA - Gatewood Club - <https://gatewoodclub.com>
   - Plant Magnolia where white pine came down
   - Stone Pathways around west side of house
 - Solar panels for South Facing roofline / Converter / Battery Storage
+- New Roof
+  - Radiant panels under roofline
+- Re-insulate crawl space 
 
 ### Done
 
