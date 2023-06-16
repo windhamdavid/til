@@ -10,49 +10,47 @@
   - service eligibility
   - AKC Registration
     - breeding rights
-- Learn [AI](/docs/saas/openai)
-  - SupaBase and/or postgres from Github actions
-  - integration techniques for CMSs
-  - to use SwingVision Tennis app
 - [Travel](/notes/travel)
   - USTA State (June)
   - Boone (Aug)
   - Charleston (Sept)
+- [House](/notes/house) / [Garden](/notes/garden)
+  - install shade cover on balcony
+  - Tree Removal
+  - Fix the front porch scone light
+  - Pine straw / Cedar mulch / paths
+  - Pressure wash
+  - Re-seal decks
+  - bermuda grass plugs
+  - new hose/sprinkler front left lawn
+  - insect treatments
+    - flea/tick yard treatment
+    - clove oil, diatomaceous earth
+    - ant traps
 - [Work](/notes/work)
   - ZWA
     - dist project
     - build tool / Github actions
     - PHF/HLF redesigns
     - GA universal v.4 migrations
+  - Learn [AI](/docs/saas/openai)
+    - SupaBase and/or postgres from Github actions
+    - integration techniques for CMSs
+    - to use SwingVision Tennis app
   - SRH
     - NP/PAs to Providers Directory
     - July/Aug project calendar
     - Rework Navigation based on Analytics
     - Rebuild design features as blocks
   - IRAs consult/move
-- [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
-  - Clear Logs & Autorotation
-  - Zeke - Ubuntu to 22.04 LTS
-  - Cache policies
-  - Woozie - Auto Remove old analytics logs
-  - customize 503 error pages for nodejs apps
-  - fix radio.daw redis auth
-- [House](/notes/house) / [Garden](/notes/garden)
-  - install shade cover on balcony
-  - Tree Removal
-  - Fix squeaking front door
-  - Fix the front porch scone light
-  - Pine straw / Cedar mulch
-    - mulch paths
-  - Pressure wash
-  - Re-seal decks
-  - bermuda grass plugs
-  - new hose/sprinkler front left lawn
-  - new fire alarm for garage
-  - insect treatments
-    - flea/tick yard treatment
-    - clove oil, diatomaceous earth
-    - ant traps
+  - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
+    - Clear Logs & Autorotation
+    - Zeke - Ubuntu to 22.04 LTS
+    - Cache policies
+    - Woozie - Auto Remove old analytics logs
+    - customize 503 error pages for nodejs apps
+    - fix radio.daw redis auth
+
 
 ---
 
