@@ -16,7 +16,6 @@
   - Charleston (Sept)
 - [House](/notes/house) / [Garden](/notes/garden)
   - install shade cover on balcony
-  - Tree Removal
   - Fix the front porch scone light
   - Pine straw / Cedar mulch / paths
   - Pressure wash
