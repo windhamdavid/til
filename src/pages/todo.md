@@ -1,7 +1,6 @@
 # ToDo
 
-**23.05.31** - I added this page as a copy of my the Reminders I use across all of my devices. I detailed this workflow in <https://davidawindham.com/slow-thinking/>. 
-The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here.  
+**23.05.31** - I added this page as a copy of my the Reminders I use across all of my devices. I detailed this workflow in <https://davidawindham.com/slow-thinking/>. The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here.
 
 ---
 
@@ -10,7 +9,7 @@ The easiest way to export the reminders to Markdown is to print to PDF and then 
 - Train [Iris](/notes/dogs)
   - service eligibility
   - AKC Registration
-   - breeding rights
+    - breeding rights
 - Learn [AI](/docs/saas/openai)
   - SupaBase and/or postgres from Github actions
   - integration techniques for CMSs
@@ -123,4 +122,4 @@ The easiest way to export the reminders to Markdown is to print to PDF and then 
   - Re-roof
   - Re-paint
   - Pond dredged
-  - New Garage Door w/ windows
+  - New Garage Door w/ windows  

@@ -8,40 +8,50 @@
 
 ## Current
 
-### Films
+### Books
 
-[Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny) /
-[Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon) /
-[Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film)) /
-[Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up) /
-[Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film)) /
-[The Eyes of Tammy Faye](https://en.wikipedia.org/wiki/The_Eyes_of_Tammy_Faye_(2021_film)) /
-[Summer of Soul](https://en.wikipedia.org/wiki/Summer_of_Soul) /
-[Flee](https://en.wikipedia.org/wiki/Flee_(film)) /
-[The Worst Person in the World](https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film)) /
-[Drive My Car](https://en.wikipedia.org/wiki/Drive_My_Car) /
-[Dune](https://en.wikipedia.org/wiki/Dune) /
-[Licorice Pizza](https://en.wikipedia.org/wiki/Licorice_Pizza) /
-[King Richard](https://en.wikipedia.org/wiki/King_Richard) /
-[Belfast](https://en.wikipedia.org/wiki/Belfast_(film)) /
-[Bao](https://en.wikipedia.org/wiki/Bao_(film)) /
-[C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film)) / 
-[The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch) /
-[The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog) /
-[The Orville](https://en.wikipedia.org/wiki/The_Orville) /
-[Delicious](https://www.imdb.com/title/tt10738536/) /
-[Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard) /
-[White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
-[Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once) /
-[The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
+- [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song)
+- [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne)
+- [Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
+- [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
+- [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
+- [The Chickenshit Club](https://en.wikipedia.org/wiki/Jesse_Eisinger)
 
-### Series
-[Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World) /
-[The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate) /
-[The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series)) / 
-[The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)) /
-[My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman) /
-[Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
+### Film
+
+- [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
+- [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
+- [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
+- [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up)
+- [Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film))
+- [The Eyes of Tammy Faye](https://en.wikipedia.org/wiki/The_Eyes_of_Tammy_Faye_(2021_film))
+- [Summer of Soul](https://en.wikipedia.org/wiki/Summer_of_Soul)
+- [Flee](https://en.wikipedia.org/wiki/Flee_(film))
+- [The Worst Person in the World](https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film))
+- [Drive My Car](https://en.wikipedia.org/wiki/Drive_My_Car)
+- [Dune](https://en.wikipedia.org/wiki/Dune)
+- [Licorice Pizza](https://en.wikipedia.org/wiki/Licorice_Pizza)
+- [King Richard](https://en.wikipedia.org/wiki/King_Richard)
+- [Belfast](https://en.wikipedia.org/wiki/Belfast_(film))
+- [Bao](https://en.wikipedia.org/wiki/Bao_(film))
+- [C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film))
+- [The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch)
+- [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog)
+- [The Orville](https://en.wikipedia.org/wiki/The_Orville)
+- [Delicious](https://www.imdb.com/title/tt10738536/)
+- [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard)
+- [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
+- [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once)
+- [The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
+
+#### Series
+- [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso)
+- [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
+- [The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
+- [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
+- [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
+- [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
+- [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
 
 
 #### The 25 Best Films of 2022
@@ -73,31 +83,26 @@
 [The Fabelmans](https://en.wikipedia.org/wiki/The_Fabelmans)
 
 #### Shakespeare-athon
-[The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth) / 
-[West Side Story](https://en.wikipedia.org/wiki/West_Side_Story_(2021_film)) /
-[Titus](https://en.wikipedia.org/wiki/Titus_(film)) /
-[The Hollow Crown](https://en.wikipedia.org/wiki/The_Hollow_Crown_(TV_series)#The_Hollow_Crown:_The_Wars_of_the_Roses_(2016)) /
-[Cymboline](https://en.wikipedia.org/wiki/Cymboline_(film)) /
-[King Lear](https://en.wikipedia.org/wiki/King_Lear_(2018_film)) /
-[Much Ado About Nothing](https://en.wikipedia.org/wiki/Much_Ado_About_Nothing_(2012_film))
-
-
-### Podcasts
-[Smartless](https://en.wikipedia.org/wiki/SmartLess) /
-[You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes) / 
-[Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast)) / 
-[WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron) / 
-[The Problem with John Stewart](https://en.wikipedia.org/wiki/The_Problem_with_Jon_Stewart) / 
-[This American Life](https://en.wikipedia.org/wiki/This_American_Life)
+- [The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth)
+- [West Side Story](https://en.wikipedia.org/wiki/West_Side_Story_(2021_film))
+- [Titus](https://en.wikipedia.org/wiki/Titus_(film))
+- [The Hollow Crown](https://en.wikipedia.org/wiki/The_Hollow_Crown_(TV_series))
+- [Cymboline](https://en.wikipedia.org/wiki/Cymboline_(film))
+- [King Lear](https://en.wikipedia.org/wiki/King_Lear_(2018_film))
+- [Much Ado About Nothing](https://en.wikipedia.org/wiki/Much_Ado_About_Nothing_(2012_film))
 
 ### Games 
-[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) / [Pikmin 4](https://en.wikipedia.org/wiki/Pikmin_4)
+- [The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom)
+- [Pikmin 4](https://en.wikipedia.org/wiki/Pikmin_4)
 
-### Books
-[Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne) /
-[Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book)) /
-[The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel)) /
-[A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
+### Podcasts
+- [Smartless](https://en.wikipedia.org/wiki/SmartLess)
+- [You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes)
+- [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast))
+- [WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron)
+- [The Problem with John Stewart](https://en.wikipedia.org/wiki/The_Problem_with_Jon_Stewart)
+- [This American Life](https://en.wikipedia.org/wiki/This_American_Life)
+
 
 ---
 
@@ -105,28 +110,29 @@
 
 ( Rating 0/100)
 
+### Books
+
 ### Films
 
-[Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95) / 
-[Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) (85) /
+- [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
+- [Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) (85)
 
-### Series
+#### Series
 
-[The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93) / 
-[Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) (90) / 
-[DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) (86) /
-[James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) (85) / 
-[Delicious](https://www.imdb.com/title/tt10738536/) (80) / 
-[The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78) / 
-[Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (75) / 
-[Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (70) / 
-[Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) (65) / 
-
-### Podcast
+- [The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93)
+- [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) (90)
+- [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) (86)
+- [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) (85)
+- [Delicious](https://www.imdb.com/title/tt10738536/) (80)
+- [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78)
+- [Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (75)
+- [Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (70)
+- [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) (65)
 
 ### Games
 
-[Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) (99) / 
-[Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) (95) /
-[Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces) (90) / 
-### Books
+- [Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) (99)
+- [Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) (95)
+- [Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces) (90)
+
+### Podcast
