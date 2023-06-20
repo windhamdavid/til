@@ -34,8 +34,16 @@ module.exports = {
       id:'dogs',
     },
     {
-      type:'doc',
-      id:'garden',
+      type:'category',
+      label:'Garden',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'garden',
+      },
+      items: [
+        'garden/mushroom',
+      ]
     },
     {
       type:'doc',
