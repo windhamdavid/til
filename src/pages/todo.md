@@ -11,16 +11,11 @@
   - AKC Registration
     - breeding rights
 - [Travel](/notes/travel)
-  - USTA State (June)
   - Boone (Aug)
-  - Charleston (Sept)
+  - Charleston (Oct)
 - [House](/notes/house) / [Garden](/notes/garden)
-  - install shade cover on balcony
   - Fix the front porch scone light
-  - Pine straw / Cedar mulch / paths
-  - Pressure wash
-  - Re-seal decks
-  - bermuda grass plugs
+  - Pressure wash / Re-seal decks
   - new hose/sprinkler front left lawn
   - insect treatments
     - flea/tick yard treatment
@@ -32,6 +27,7 @@
     - build tool / Github actions
     - PHF/HLF redesigns
     - GA universal v.4 migrations
+    - Google Domains migrations
   - Learn [AI](/docs/saas/openai)
     - SupaBase and/or postgres from Github actions
     - integration techniques for CMSs
