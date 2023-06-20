@@ -1,24 +1,34 @@
+# WordPress
 
+I've used WordPress for hundreds of projects and I think I owe a certain debt of gratitude. I started learning WordPress in the early days of the project. I keep a WordPress powered testing site up @ <https://wp.davidwindham.com> which contains my notes and code for WordPress projects.
 
-* [https://developer.wordpress.com/docs/](https://developer.wordpress.com/docs/)
-* [https://developer.wordpress.org/reference/](https://developer.wordpress.org/reference/)
-* [https://developer.wordpress.org/block-editor/](https://developer.wordpress.org/block-editor/)
-* [https://developer.wordpress.com/docs/api/console/](https://developer.wordpress.com/docs/api/console/)
+**23.06.20** - I've gotta migrate a couples sites previously using a theme with a custom editor and a lot of custom short codes to using just the block editor so I'll be doing the deep dive on block themes and I'll keep the WordPress specific notes here.
+
+## Builds
+
+- <https://wp.davidwindham.com>
+- <https://code.davidawindham.com/david/wp>
+- [https://github.com/windhamdavid/wp](https://github.com/windhamdavid/wp)
+- [https://github.com/windhamdavid/wordpress-develop](https://github.com/windhamdavid/wordpress-develop)
+
+## Repos
+
 * [https://github.com/WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)
-* [https://github.com/windhamdavid/wordpress-develop](https://github.com/windhamdavid/wordpress-develop)
-* [https://github.com/windhamdavid/wp](https://github.com/windhamdavid/wp)
 
-```
-### notes ###
-//functions i reuse
-//security reminders
-//
-```
-### functions:
+## Docs
+
+* Docs - [https://developer.wordpress.com/docs/](https://developer.wordpress.com/docs/)
+* Reference - [https://developer.wordpress.org/reference/](https://developer.wordpress.org/reference/)
+* Block Editor - [https://developer.wordpress.org/block-editor/](https://developer.wordpress.org/block-editor/)
+* API/Console - [https://developer.wordpress.com/docs/api/console/](https://developer.wordpress.com/docs/api/console/)
+
+
+## Functions
 
 #####
 
 ##### Determine the current Taxonomy and list it's children:
+
 ```php
 <?php
 $term = get_term_by( 'slug', get_query_var('term'), get_query_var('taxonomy') );
