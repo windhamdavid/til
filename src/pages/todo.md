@@ -6,7 +6,8 @@
 
 ## Short Term
 
-- Train [Iris](/notes/dogs)
+- [Iris](/notes/dogs)
+  - Train 
   - service eligibility
   - AKC Registration
     - breeding rights
@@ -21,6 +22,9 @@
     - flea/tick yard treatment
     - clove oil, diatomaceous earth
     - ant traps
+- [Tennis](notes/tennis)
+  - SwingVision Tennis app
+  - Girls roster
 - [Work](/notes/work)
   - ZWA
     - dist project
@@ -31,7 +35,6 @@
   - Learn [AI](/docs/saas/openai)
     - SupaBase and/or postgres from Github actions
     - integration techniques for CMSs
-    - to use SwingVision Tennis app
   - SRH
     - NP/PAs to Providers Directory
     - July/Aug project calendar
