@@ -76,7 +76,7 @@ module.exports = {
       },
     },
     prism: {
-      additionalLanguages: ['rust', 'shell-session', 'swift', 'diff'],
+      additionalLanguages: ['php', 'rust', 'shell-session', 'swift', 'diff'],
     },
     colorMode: {
       defaultMode: 'dark',
