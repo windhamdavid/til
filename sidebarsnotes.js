@@ -30,8 +30,16 @@ module.exports = {
       ],
     },
     {
-      type:'doc',
-      id:'dogs',
+      type:'category',
+      label:'Dogs',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'dogs',
+      },
+      items: [
+        'dogs/iris',
+      ]
     },
     {
       type:'category',
