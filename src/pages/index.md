@@ -5,6 +5,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - June 2023
+  - [Figma Dev Mode](/posts/figma-dev-mode)
   - [Poisonous Mushrooms](/notes/garden/mushroom)
   - [Oak tree varieties in SC](/posts/white-oak)
   - [Why HDR video is blown out](/posts/color-spaces-premier)
