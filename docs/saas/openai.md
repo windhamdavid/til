@@ -8,20 +8,6 @@ OpenAI Docs - <https://platform.openai.com/docs>
 OpenAI API Reference - <https://platform.openai.com/docs/api-reference>  
 Plugins - <https://platform.openai.com/docs/plugins>  
 
-
-
-### Repos
-
-Llama Index - <https://gpt-index.readthedocs.io/en/latest/>  
-Llama Index - <https://github.com/jerryjliu/llama_index>
-
-LangChain - <https://python.langchain.com/en/latest/index.html>  
-LangChain repo -<https://github.com/hwchase17/langchain>
-
-
-
-
-
 ### Videos
 
 - Build Your Own Auto-GPT Apps with LangChain - <https://www.youtube.com/watch?v=NYSWn1ipbgg> / <https://github.com/daveebbelaar/langchain-experiments>
@@ -158,3 +144,13 @@ Installing packaging (23.0)
   • Installing weaviate-client (3.15.4)
 Installing the current project: chatgpt-retrieval-plugin (0.1.0)
 ```
+
+## See Also: 
+
+### Repos
+
+Llama Index - <https://gpt-index.readthedocs.io/en/latest/>  
+Llama Index - <https://github.com/jerryjliu/llama_index>
+
+LangChain - <https://python.langchain.com/en/latest/index.html>  
+LangChain repo -<https://github.com/hwchase17/langchain>
