@@ -1,9 +1,87 @@
 # VS Code 🗒️
 
+Visual Studio Code is my primary text editor. I occasionally use JetBrains and I previously used Atom, Sublime, and Textmate.
+
 ## Notes
 
-11/26/21 - added Visual Studio Code (Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
+11/26/21 - added Visual Studio Code (& Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
 
+## Extensions
+
+### mine
+
+- Wikipedia Hyperlinker ( windhamdavid )
+
+### others
+
+- Atom One Dark Theme ( Mahmoud Ali )
+- C/C++ ( Microsoft )
+- C/C++ Extension Pack ( Microsoft )
+- C/C++ Themes ( Microsoft )
+- ChatGPT - Genie AI 
+- CMake ( twxs )
+- CMake Tools ( Microsoft )
+- Code Spell Checker ( Street Side Software )
+- Community Material Theme ( equinusocio )
+- CSV to Markdown Table ( Machiore )
+- Debugger for Firefox ( Firefox Dev Tools )
+- Dev Containers ( Microsoft )
+- Docker ( Microsoft )
+- Edit csv ( janisdd )
+- EditorConfig ( editorconfig )
+- ESLint ( Microsoft )
+- Figma for VS Code ( Figma )
+- GitHub Codespaces ( GitHub )
+- GitHub CoPilot ( GitHub )
+- GitHub CoPilot Experimental ( GitHub )
+- GitHub CoPilot Nightly ( GitHub )
+- GitHub Markdown Preview ( Matt Bierner )
+- GitHub Theme ( GitHub )
+- GitLens ( GitKraken )
+- Go ( Go Team at Google )
+- Go Template Support ( jinlimig2 )
+- IntelliCode ( Microsoft )
+- IntelliCode API Usage ( Microsoft )
+- isort ( Microsoft )
+- JSON Validate ( rioj7 )
+- Jupyter ( Microsoft )
+- Jupyter Cell Tags ( Microsoft )
+- Jupyter Slide Show ( Microsoft )
+- Live Preview ( Microsoft )
+- Live Share ( Microsoft )
+- Markdown Checkbox ( Matt Bierner )
+- Markdown Emoji ( Matt Bierner )
+- Markdown Footnotes ( Matt Bierner )
+- Markdown Preview GitHub Styling ( Matt Bierner )
+- Markdown Preview Mermaid ( Matt Bierner )
+- Markdown Preview VS Code Highlighter ( Matt Bierner )
+- Markdown YAML Preview ( Matt Bierner )
+- Markdownlint ( David Anson )
+- Markmap ( Gerald Liu )
+- Material Theme ( Equinusocio )
+- Material Theme Light ( Equinusocio )
+- md-graph ( Ian J Sikes )
+- MDX ( unified )
+- One Dark Pro ( binaryify )
+- PHP Debug ( Xdebug )
+- PHP Intelephense ( Ben Mewburn )
+- Pylance ( Microsoft )
+- Python ( Microsoft )
+- Rainbow CSV ( mechatroner )
+- React ( Microsoft )
+- React Native ( Microsoft )
+- Remote Explorer ( Microsoft )
+- Remote SSH ( Microsoft )
+- Remote SSH: Editing ( Microsoft )
+- Rust Analyzer ( The Rust Programming Language )
+- Sunburst Theme ( gerane )
+- Transmit ( Fabio Spaminato )
+- VIM ( vscodevim )
+- WordPress Hooks IntelliSense ( John Billion )
+- YAML ( Red Hat )
+
+
+## CoPilot
 
 https://github.com/github/copilot-docs/blob/main/docs/visualstudiocode/gettingstarted.md#getting-started-with-github-copilot-in-visual-studio-code  
 
