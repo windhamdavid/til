@@ -6,6 +6,8 @@ I started with an [AI project](/ai) to import all of the markdown files from thi
 
 ## Log
 
+**23.06.25** - I've been using Supabase quite a bit for vector embeddings mainly because of their [open source toolkit for Postgres](https://supabase.com/vector). 
+
 ## Dashboard 
 
 - <https://supabase.com/dashboard/>
