@@ -161,4 +161,3 @@ description: A place to keep notes and documentation
   - [help](help)
   - [about](about)
   - [todo](todo)
-  - [posts](index)

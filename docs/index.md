@@ -47,6 +47,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 [Node](waf/nodejs) |
 [npm](waf/npm) |
+[nextjs](waf/nextjs) |
 [Rails](waf/rails) |
 [React](waf/react) |
 [React Native](waf/react_native) |

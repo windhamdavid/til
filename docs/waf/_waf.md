@@ -2,6 +2,7 @@
 =
 [Node.js](nodejs) |
 [npm](npm) |
+[nextjs](nextjs) |
 [Rails](rails) |
 [React](react) |
 [React Native](react_native) |
