@@ -12,6 +12,10 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 - 23.05.23 - Dying Oak tree being removed next week.
 
+## TOC 
+
+- [mushrooms](garden/mushroom)
+
 ### Indoor Plants
 
 The better half has an obsession with indoor plants. Our house is full of them and we've even got one room we just call "the plant room" even though it's a sunroom.  
