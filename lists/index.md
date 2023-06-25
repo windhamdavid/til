@@ -14,23 +14,23 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 ## TOC 
 
-- [art](art/art.md)
-- [concepts](concepts.md)
-- [design](design.md)
-- [feeds](feeds.md)
-- [grocery](grocery.md)
-- [lists](lists.md)
-- [music](art/music/music.md)
-- [next](next.md)
-- [people](people.md)
-- [places](places/places.md)
-- [quotes](quotes.md)
-- [shopping](shopping.md)
-- [things](things.md)
-- [trivia](trivia.md)
-- [tweets](tweets.md)
+[art](art/art.md)
+| [concepts](concepts.md)
+| [design](design.md)
+| [feeds](feeds.md)
+| [grocery](grocery.md)
+| [lists](lists.md)
+| [music](art/music/music.md)
+| [next](next.md)
+| [people](people.md)
+| [places](places/places.md)
+| [quotes](quotes.md)
+| [shopping](shopping.md)
+| [things](things.md)
+| [trivia](trivia.md)
+| [tweets](tweets.md)
 
-## Notes 
+## Log
 
 I've moved this old repo into this TIL project to simplify. 
 
