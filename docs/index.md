@@ -33,7 +33,7 @@ I use this library of documents as a quick reference to find technical answers, 
 ### DataScience / AI
 
 [Machine Learning](data/machine) |
-[Data Science](data/data)
+[Data Science](data/)
 
 ### Editors
 
