@@ -23,15 +23,15 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 ## Table of Contents
 
-- [art](art.md)
-- [dogs](dogs.md)
-- [garden](garden.md)
-- [golf](golf.md)
-- [health](health.md)
-- [house](house.md)
-- [tennis](tennis.md)
-- [travel](travel.md)
-- [work](work/work.md)
+[art](art.md)
+| [dogs](dogs.md)
+| [garden](garden.md)
+| [golf](golf.md)
+| [health](health.md)
+| [house](house.md)
+| [tennis](tennis.md)
+| [travel](travel.md)
+| [work](work/work.md)
 
 
 ---
