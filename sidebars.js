@@ -18,6 +18,18 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Data',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'data/data',
+      },
+      items: [
+        'data/machine',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Database',
       items: [
         'db/MongoDB',
@@ -61,18 +73,6 @@ module.exports = {
         'lang/Python',
         'lang/Ruby',
         'lang/Rust',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Data',
-      collapsible: true,
-      link: {
-        type:'doc',
-        id:'data/data',
-      },
-      items: [
-        'data/machine',
       ],
     },
     {

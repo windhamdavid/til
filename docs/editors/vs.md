@@ -4,7 +4,7 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 
 ## Notes
 
-11/26/21 - added Visual Studio Code (& Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
+**11/26/21** - added Visual Studio Code (& Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
 
 ## Extensions
 
@@ -43,6 +43,8 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 - IntelliCode ( Microsoft )
 - IntelliCode API Usage ( Microsoft )
 - isort ( Microsoft )
+- JavaScript and TypeScript Nightly ( Microsoft )
+- JavaScript Debugger Nightly ( Microsoft )
 - JSON Validate ( rioj7 )
 - Jupyter ( Microsoft )
 - Jupyter Cell Tags ( Microsoft )
