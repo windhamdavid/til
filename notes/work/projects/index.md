@@ -5,6 +5,7 @@ I've always got a couple little side work projects going on so I need a place to
 [AI Assistant](ai) |
 [Game](game) |
 [GZET](gzet) |
+[The Ham](ham) |
 [Juryd](juryd) |
 [Pants](pants) |
 [Zeken Woozer Un-Ltd.](zw)

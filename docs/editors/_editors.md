@@ -3,6 +3,7 @@
 | [Atom](atom) 
 | [bash](bash) 
 | [git](git) 
+| [JetBrains](jetbrains) 
 | [PHPStorm](phpstorm) 
 | [Sublime](sublime) 
 | [Subversion](subversion)

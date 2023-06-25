@@ -7,6 +7,13 @@ There are several things I'd like to give a shot:
 - creating short films both animated and real.
 - learning to play jazz standards and the American Songbook on piano
 
+## TOC 
+
+- [art/design](art/design.md)
+- [art/education](art/education.md)
+- [art/media](art/media.md)
+- [art/visual](art/visual.md)
+
 ## Instruction
 
 ## Oil

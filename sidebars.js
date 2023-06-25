@@ -29,18 +29,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Data',
-      collapsible: true,
-      link: {
-        type:'doc',
-        id:'data/data',
-      },
-      items: [
-        
-      ],
-    },
-    {
-      type: 'category',
       label: 'Editors',
       items: [
         'editors/atom',
@@ -77,14 +65,14 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Machine',
+      label: 'Data',
       collapsible: true,
       link: {
         type:'doc',
-        id:'machine/machine',
+        id:'data/data',
       },
       items: [
-        
+        'data/machine',
       ],
     },
     {

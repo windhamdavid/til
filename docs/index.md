@@ -10,6 +10,9 @@ I use this library of documents as a quick reference to find technical answers, 
 [![vi-1](/img/docs.png)](/img/docs.png)
 
 ---
+
+
+
 ### Computers
 
 [Ovid](computers/ovid) |
@@ -26,6 +29,11 @@ I use this library of documents as a quick reference to find technical answers, 
 [MySQL](db/MySQL) |
 [PostgreSQL](db/PostgreSQL) |
 [Redis](db/Redis)
+
+### DataScience / AI
+
+[Machine Learning](data/machine) |
+[Data Science](data/data)
 
 ### Editors
 
@@ -64,6 +72,7 @@ I use this library of documents as a quick reference to find technical answers, 
 [Heroku](saas/heroku) |
 [OpenAI](saas/openai) |
 [Stripe](saas/stripe) |
+[Supabase](saas/supabase) |
 [Twilio](saas/twilio)
 
 ### Server Tools

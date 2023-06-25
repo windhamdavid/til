@@ -10,7 +10,25 @@ toc_min_heading_level: 2
 
 #### A list of lists for non-technical stuff. 
 
-This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things. 
+This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things.
+
+## TOC 
+
+- [art](art/art.md)
+- [concepts](concepts.md)
+- [design](design.md)
+- [feeds](feeds.md)
+- [grocery](grocery.md)
+- [lists](lists.md)
+- [music](art/music/music.md)
+- [next](next.md)
+- [people](people.md)
+- [places](places/places.md)
+- [quotes](quotes.md)
+- [shopping](shopping.md)
+- [things](things.md)
+- [trivia](trivia.md)
+- [tweets](tweets.md)
 
 ## Notes 
 

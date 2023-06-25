@@ -13,7 +13,7 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 
 **23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids. wrote a post about her @ <https://davidawindham.com/iris/>
 
-**23.06.20** - I moved the Iris specific info over to [another page](/notes/dogs/iris) so that I can just use this one for more general information about dogs. 
+**23.06.20** - I moved the Iris specific info over to [another page](dogs/iris.md) so that I can just use this one for more general information about dogs. 
 
 - AKC - https://www.akc.org
 - OFA ( Canine Health Information Center ) - https://ofa.org

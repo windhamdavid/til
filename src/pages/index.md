@@ -160,3 +160,5 @@ description: A place to keep notes and documentation
   - [Introducing Create React Native App](https://github.com/react-community/create-react-native-app)
   - [help](help)
   - [about](about)
+  - [todo](todo)
+  - [posts](index)
