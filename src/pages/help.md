@@ -44,9 +44,7 @@ gitGraph
     merge docusaurus
 ```
 
-#### 23/05/24
-
-- docusaurus updated -  2.4.0 👉🏼 2.41
+**23/05/24** - docusaurus updated -  2.4.0 👉🏼 2.41
 
 ```bash
 david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
@@ -66,7 +64,7 @@ daw-til-2@0.0.1 /Users/david/Sites/daw_til
 
 ```
 
-#### 23/05/09
+**23/05/09**
 
 - added react-player
 - added markprompt 
@@ -87,7 +85,7 @@ daw-til-2@0.0.1 /Users/david/Sites/daw_til
 └── react@17.0.2
 ```
 
-#### 23/03/24
+**23/03/24**
 
 - npm up doc/core 2.3.1 -> 2.4.0
 ```bash
@@ -107,7 +105,7 @@ daw-til-2@0.0.1 /Users/david/Sites/daw_til
 ```
 
 
-#### 22/01/31
+**22/01/31**
 
 - upgraded to docusaurus v2.3.0
 ```shell
@@ -125,7 +123,7 @@ daw-til-2@0.0.1 /Users/david/Sites/daw_til
 └── react@17.0.2
 ```
 
-#### 22/11/13
+**22/11/13**
 
 - added a Reader page
 - move branch master -> main for Git
@@ -167,24 +165,24 @@ src/theme/SearchBar/lunar-search.js
     + url: doc.url,
 ```  
 
-#### 12/04/2021
+**12/04/2021**
 
 - added in [Notes](/notes) for non-technical docs 
 - upgraded to v.2.0.0-beta.13
 
-#### 11/10/2021
+**11/10/2021**
 - Updated the Docusaurus & NPM packages. 
 - Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt.  
 
-#### 03/18/2021
+**03/18/2021**
 
 Migrated this version from Gitbook because it wasn't playing nicely with Node.js v14 and it had a couple security vulnerabilities in the packages. Gitbook stop supporting the open source version likely for business reasons, so I migrated it all to ~~[https://docsify.js.org/](https://docsify.js.org/)~~... didn't do docsify because I can't generate static HTML which is what my DOM parser depends on to pull content elsewhere. Decided on using [https://docusaurus.io/](https://docusaurus.io/) instead. It required a bit of cleanup in the Markdown to do so. See: [https://davidawindham.com/til/help](/help)
 
-#### 05/02/2017  
+**05/02/2017**  
 
 While working on another project yesterday afternoon, I ran into set of documentation ([https://docs.feathersjs.com/](https://docs.feathersjs.com/)) that I spent a lot of time reading and will likely forget about sometime soon after I abandon using the library in other projects. Of course I stuffed a bookmark of the documentation into my quasi organized set of chrome bookmarks based on each project, but the fact that the documentation was hosted using [Gitbook](https://github.com/GitbookIO/gitbook), reminded me of a practice I've seen others do.
 
-* 03/18/21 **Gotta Migrate** my TIL. Just noticed that gitbook doesn't play nicely with Node.js v14.
+**03/18/21** - **Gotta Migrate** my TIL. Just noticed that gitbook doesn't play nicely with Node.js v14.
 
 ```bash
 david@macs🐶:~/sites/daw_til(master⚡) » gitbook serve --no-live
@@ -223,7 +221,7 @@ david@macs🐶:~/sites/daw_til(master⚡) » gitbook serve --no-live
 info: 18 plugins are installed...
 ```
 
-* 3/14/20 Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate Gitbook to Docsify:
+**3/14/20** Ran into a couple errors with Gitbook and noticed that they are deprecating the open source version. Will need to migrate Gitbook to Docsify:
     * [https://github.com/GitbookIO/gitbook](https://github.com/GitbookIO/gitbook)
     * [https://github.com/docsifyjs/docsify/](https://github.com/docsifyjs/docsify/)
     * the current [Gitbook Search Plugin](https://github.com/lwdgit/gitbook-plugin-search-plus) key to the current setup and the docsify search is good.
