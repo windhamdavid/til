@@ -6,19 +6,25 @@
 
 ## Log
 
+**23.06.26** - added cron to clear logs weekly ( sun @5:50am )
+```bash
+sudo crontab -e 
+50 5 * * 0 /home/*****/scripts/clear_logs.sh
+```
+
 **23.02.04** - Init
 
 ### Todo
 
 - Monitor
-  - watch logs for bots/IPs & block
+  - ~~watch logs for bots/IPs & block~~
   - ~~conf awk for cron to show virtual hosts~~
   - ~~combine A records for subdomains.~~
   - [lifeasweknowit.com](http://lifeasweknowit.com) is still pointed to the IP
 - Tune
-  - apache/nginx
-  - mariadb
-  - postgreSQL
+  - ~~apache/nginx~~
+  - ~~mariadb~~
+  - ~~postgreSQL~~
 - ~~custom apache/nginx error pages~~
 - ~~code.daw~~
   - ~~email settings for code.daw~~

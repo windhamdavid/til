@@ -2,6 +2,12 @@
 
 ## Log
 
+**23.06.26** - added cron to clear logs weekly ( sun @5:50am )
+```bash
+sudo crontab -e 
+50 5 * * 0 /home/*****/scripts/clear_logs.sh
+```
+
 **23.03.17** - Inline upgrade 18.04.6 LTS -> 20.04.5 LTS
 ```bash
 # make a snapshot backup

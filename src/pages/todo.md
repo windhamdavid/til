@@ -42,7 +42,6 @@
     - Rebuild design features as blocks
   - IRAs consult/move
   - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
-    - Clear Logs & Autorotation
     - Zeke - Ubuntu to 22.04 LTS
     - Cache policies
     - Woozie - Auto Remove old analytics logs
