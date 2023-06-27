@@ -8,10 +8,12 @@
 
 ## Current
 
+### Music
+- [Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
+
 ### Books
 
 - [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song)
-- [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne)
 - [Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
 - [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
 - [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
@@ -19,6 +21,7 @@
 
 ### Film
 
+- [Walk the Line](https://en.wikipedia.org/wiki/Walk_the_Line)
 - [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
 - [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
 - [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
@@ -47,11 +50,9 @@
 #### Series
 - [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso)
 - [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
-- [The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
+
 - [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
-- [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
-- [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
-- [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
+
 
 
 #### The 25 Best Films of 2022
@@ -112,6 +113,9 @@
 
 ### Books
 
+- [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne) (60)
+- [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) (72)
+
 ### Films
 
 - [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
@@ -119,9 +123,13 @@
 
 #### Series
 
+- [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
+- [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
+- [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series)) 
 - [The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93)
 - [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) (90)
 - [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) (86)
+- [The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
 - [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) (85)
 - [Delicious](https://www.imdb.com/title/tt10738536/) (80)
 - [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78)
