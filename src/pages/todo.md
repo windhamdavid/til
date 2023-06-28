@@ -34,7 +34,9 @@
     - Google Domains migrations
   - Learn [AI](/docs/saas/openai)
     - SupaBase and/or postgres from Github actions
+    - Self host Supabase
     - integration techniques for CMSs
+    - multiple embeddings techniques
   - SRH
     - NP/PAs to Providers Directory
     - July/Aug project calendar
@@ -53,6 +55,8 @@
 ## Middle Term
 
 - Learn
+  - Akamai EdgeCompute & EdgeWorkers
+  - Akamai Terraform / Docker
   - Turbo build system
   - Rust WASM
   - Svelte - sqlite tennis scorer
@@ -80,8 +84,8 @@
     - counter tops
     - counter depth fridge
   - Build Downstairs studio
-    - Build a Easel Taboret
-    - wall desk
+    - Easel Taboret
+    - Wall desk
   - Upstairs Balcony deck replacement
 
 ---
