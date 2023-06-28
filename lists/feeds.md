@@ -34,7 +34,8 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Stack Overflow Blog
   - Andreesen Horowitz
   - Digital Ocean Tutorials
-  - Linode Development 
+  - Linode Development
+  - Akamai Developers
   - Vercel News
 - People
   - Jeff Atwood - Coding Horror
@@ -49,6 +50,8 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Tim Bray - Ongoing
   - Simon Willison - Weblog
   - Tom Preston-Werner
+  - J.B. Crawford
+  - Darius Kazemi
 - Other
   - The Red Hand Files - Nick Cave
   - Public Domain Review
@@ -56,3 +59,4 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - xkcd.com 
   - McSweeney's
   - Laphams Quarterly
+  - Nature.com
