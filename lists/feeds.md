@@ -52,6 +52,7 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Tom Preston-Werner
   - J.B. Crawford
   - Darius Kazemi
+  - Waldo Jaquith
 - Other
   - The Red Hand Files - Nick Cave
   - Public Domain Review
