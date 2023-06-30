@@ -2,7 +2,7 @@
 
 **22/07/06** - I added this page so that I could set reminders of shows, films, podcasts, games, and books I'd like to give me attention to because I'm often trying to remember what it was I wanted to watch on TV.  I wrote a post about it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
 
-**23/05/22** - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same. 
+**23/05/22** - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same.
 
 ---
 
