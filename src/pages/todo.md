@@ -64,7 +64,6 @@
     - SWC ( Speedy Web Compiler ) - <https://swc.rs>
     - <https://doc.rust-lang.org/stable/book/>
   - Svelte - sqlite tennis scorer
-  - Astro with WP-API - <https://astro.build>
 - Edward Lee Elmore Wikipedia page
 - [Tennis](/notes/tennis)
   - Convice SCHSL to move back girl's season
