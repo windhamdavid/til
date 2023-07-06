@@ -71,6 +71,41 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'next',
+    },
+    {
+      type: 'category',
+      label: 'Now',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'now',
+      },
+      items: [
+        {
+          type:'doc',
+          id: 'now/listening',
+          label:'Listening',
+        },
+        {
+          type:'doc',
+          id: 'now/reading',
+          label:'Reading',
+        },
+        {
+          type:'doc',
+          id: 'now/playing',
+          label:'Playing',
+        },
+        {
+          type:'doc',
+          id: 'now/watching',
+          label:'Watching',
+        },
+      ],
+    },
+    {
+      type: 'doc',
       id: 'lists',
     },
     {
@@ -139,9 +174,6 @@ module.exports = {
       type: 'doc',
       id: 'words',
     },
-    {
-      type: 'doc',
-      id: 'next',
-    },
+
   ],
 };
