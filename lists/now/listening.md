@@ -1,0 +1,21 @@
+# Listening
+
+- Carl Perkins - Blue Suede Shoes : The Dance Album
+- Allman Brothers Band - Midnight Rider : Idlewild South (Deluxe Edition Remastered)
+- Roy Orbison - Blue Bayou : In Dreams
+- Blake Mills - Skeleton Is Walking : Skeleton Is Walking
+- Ilsey - Heart of Gold (with Bon Iver) : Heart of Gold (with Bon Iver)
+- Ben Harper - Masterpiece : Wide Open Light
+- Brian Eno - Five Light Paintings 3 : Five Light Paintings
+- Roy Orbison - Blue Bayou : In Dreams
+- Hank Williams - Your Cheatin' Heart : The Complete Hank Williams
+- Domenico Modugno - Volare : Domenico Modugno
+- Johnny Paycheck - The Old Violin : Difference in Me
+- Beck - Odyssey : Odyssey
+- Ben Harper - Masterpiece : Wide Open Light
+- Mapache - What A Summer : What A Summer
+- Allison Russell - The Returner : The Returner
+- Jonathan Wilson - Charlie Parker : Charlie Parker
+- Beck - Odyssey : Odyssey
+- The Osborne Brothers - Ruby - Are You Mad At Your Man : High Lonesome
+- Bill Evans - Pavane - Live : Behind the Dikes: The 1969 Netherlands Recordings (Live)
