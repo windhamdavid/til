@@ -22,6 +22,8 @@ I used to love buying books of quotes when my parents took us to the bookstore. 
 
 "The quieter you become, the more you can hear." - [Ram Dass](https://en.wikipedia.org/wiki/Ram_Dass)
 
+"Once there are clearly intelligent machines,” he said, “they won’t be interested in stealing our toys or dominating us, any more than they would be interested in dominating chimpanzees or taking nuts away from squirrels." - [Edward Fredkin](https://en.wikipedia.org/wiki/Edward_Fredkin)
+
 "The more opinions you have, the less you see" - [Wim Wenders](https://en.wikipedia.org/wiki/Wim_Wenders)
 
 "The only true wisdom is in knowing you know nothing." - [Socrates](https://en.wikipedia.org/wiki/Socrates)
