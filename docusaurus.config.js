@@ -97,7 +97,6 @@ module.exports = {
         {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
         {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
         {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'}, 
-        {to: 'todo', label: 'ToDo', position: 'left'},
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
         {

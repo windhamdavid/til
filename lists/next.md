@@ -48,7 +48,7 @@
 - [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
 - [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once)
 - [The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
-- [Napoleon - Ridley Scott](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
+- [Napoleon](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
 
 #### Series
 - [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso)

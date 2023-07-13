@@ -148,6 +148,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'todo',
+    },
+    {
+      type: 'doc',
       id: 'trivia',
     },
     {

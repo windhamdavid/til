@@ -9,14 +9,7 @@ toc_max_heading_level: 5
 
 Because sometimes I forget how to drive the software I'm running.
 
-### Docusaurus
-[https://docusaurus.io/docs](https://docusaurus.io/docs)
-```bash
-npm install
-npm run start
-npm run build  
-npm run serve
-```
+
 
 ---
 
@@ -42,6 +35,15 @@ gitGraph
     commit
     checkout main
     merge docusaurus
+```
+
+### Docusaurus
+[https://docusaurus.io/docs](https://docusaurus.io/docs)
+```bash
+npm install
+npm run start
+npm run build  
+npm run serve
 ```
 
 **23/05/24** - docusaurus updated -  2.4.0 👉🏼 2.41

@@ -2,6 +2,7 @@
 
 ### A List of Other Lists
 
+- [List of last words](https://en.wikipedia.org/wiki/List_of_last_words)
 - [List of lists (Wikipedia)](https://en.wikipedia.org/wiki/Category:Lists_of_lists)
 - [List of Internet Phenomena](https://en.wikipedia.org/wiki/List_of_Internet_phenomena)
 - [List of 100 best books](https://en.wikipedia.org/wiki/Lists_of_100_best_books)
