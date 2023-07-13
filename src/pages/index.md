@@ -4,7 +4,7 @@ description: A place to keep notes and documentation
 ---
 # Today I Learned
 - July 2023
-  - [Zelda is Fitzgerald](/posts/sardonicism)
+  - [Zelda is Fitzgerald](/posts/zelda-art)
   - [Etymology of sardonic](/posts/sardonicism)
   - [Falken (_WarGames_) was Fredkin](/lists/trivia)
 - June 2023
