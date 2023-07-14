@@ -93,7 +93,7 @@ module.exports = {
         },
         {
           type: 'category',
-          label: 'Side Projects',
+          label: 'Projects',
           collapsible: true,
           link: {
             type:'doc',

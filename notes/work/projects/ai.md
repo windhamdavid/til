@@ -1,10 +1,8 @@
 # AI
 
-👉🏼 I've added a working demo @ [/ai](/ai)
+## About
 
-
-
-### About
+👉🏼 I've added a demo @ [/ai](/ai)
 
 Semantic search is powerful and it's part of the reason I build and publish this Today I Learned section on my website. Semantic search is even more powerful when you add natural language processing trained on a large language model. I'm making this page for notes on building a personal AI Assistant. 
 
@@ -12,17 +10,33 @@ I written several essays in the last couple years on using tools to organize my 
 
 I've recently started learning how to create embeddings using vector databases which can be chained to existing LLMs. I've started some documentation using LangChain and OpenAi <sub>5</sub>. Because the field is rapidly developing, I need a place to keep notes on it, so here we are. 
 
+## Log
+
+- **23-07-14** - finally closed a set of tabs this morning I noted here. I'd been stuck working on for a while because I've had to focus on other work. Will come back to this in the coming months. 
+
+## ToDo
+
+- fix all relative links so that result links work
+- try alternative LLMs like Llama
+- control the data training 
+- self host supabase or postgres for data
+- sync the data with Github actions. 
+- combine my posts into a monorepo using markdown
+  - return to exporting my post into markdown or migrate
+- iterative testing of various prompts
+
 ## Docs
 
 - OpenAi [/docs/saas/openai](/docs/saas/openai)
 - SupaBase [/docs/saas/supabase](/docs/saas/supabase)
+- <https://supabase.com/docs/guides/api>
+- <https://gpt-index.readthedocs.io/en/latest/>
 
 ## Stack
 
 - React
 - Next.js
-- Vercel
-- Supabase
+- Supabase / PostGres PgVector
 
 #### Context Injection
 
@@ -41,21 +55,7 @@ I've recently started learning how to create embeddings using vector databases w
 
 #### Fine Tuning vs. Semantic Search
 
-## ToDo
 
-- fix all relative links so that result links work
-- try alternative LLMs like Llama
-- control the data training 
-- self host supabase or postgres for data
-- sync the data with Github actions. 
-- combine my posts into a monorepo using markdown
-  - return to exporting my post into markdown or migrate
-- iterative testing of various prompts
-
-## Docs 
-
-- <https://supabase.com/docs/guides/api>
-- <https://gpt-index.readthedocs.io/en/latest/>
 
 
 ## Repos 
@@ -81,8 +81,17 @@ I've recently started learning how to create embeddings using vector databases w
 - Storing OpenAI embeddings in Postgres with pgvector - <https://supabase.com/blog/openai-embeddings-postgres-vector>
 - Mendable switches from Pinecone to Supabase for vector embeddings - <https://supabase.com/customers/mendableai>
 - Supabase Clippy: ChatGPT for Supabase Docs - <https://supabase.com/blog/chatgpt-supabase-docs>
+- Supabase Vector Columns - <https://supabase.com/docs/guides/ai/vector-columns>
+- $0 Embeddings (OpenAI vs. free & open source) - <https://www.youtube.com/watch?v=QdDoFfkVkcw>
+- Thor Schaeff - Supabase bot Next.js, Langchain - <https://www.youtube.com/watch?v=Tt45NrVIBn8>
+- Haystack 2023 - Roie Schwaber-Cohen: Better Semantic Search with Hybrid (Sparse-Dense) Search - <https://www.youtube.com/watch?v=1a8bdIjjO1A>
+- Roie Schwaber-Cohen - _Vector Embeddings for Developers_ - <https://www.pinecone.io/learn/vector-embeddings-for-developers/>
+- Simon Willison - Vector Embeddings - <https://simonwillison.net/tags/embeddings/>
+- Roie Schwaber-Cohen Github - Ai bot - <https://github.com/rschwabco/ai-chat-bot-vercel>
 
-## Commercial Products
+
+
+## Commercial
 
 - Mendable - <https://www.mendable.ai>
 - MarkPrompt - <https://markprompt.com>
