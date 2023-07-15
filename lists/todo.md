@@ -49,6 +49,8 @@
     - Woozie - Auto Remove old analytics logs
     - customize 503 error pages for nodejs apps
     - fix radio.daw redis auth
+    - Postgres / PGVector
+    - Personal Mastodon server
 
 ---
 
