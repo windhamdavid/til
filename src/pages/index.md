@@ -3,9 +3,9 @@ title: Today I Learned
 description: A place to keep notes and documentation
 ---
 # Today I Learned
-- July 2023
-  - [Zelda is Fitzgerald](/posts/zelda-art)
-  - [Etymology of sardonic](/posts/sardonicism)
+- 2023
+  - 23/07/13 - [Zelda is Fitzgerald](/posts/zelda-art)
+  - 23/07/12 - [Etymology of sardonic](/posts/sardonicism)
   - [Falken (_WarGames_) was Fredkin](/lists/trivia)
 - June 2023
   - [Figma Dev Mode](/posts/figma-dev-mode)
