@@ -3,6 +3,7 @@
 **23/08/15** - A little more important than [Todo](/lists/todo).
 
 - 23/07/19 - [add Now to DAW](/docs/computers/woozie)
+- 23/07/18 - [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song)
 - 23/07/02 - [Woozie - Automate clearing logs](/docs/computers/woozie)
 - 23/07/01 - [Pull poison ivy](/notes/garden)
 - 23/06/20 - [shade cover on balcony](/lists/index.md)
