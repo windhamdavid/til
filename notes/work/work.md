@@ -2,10 +2,18 @@
 
 ## TOC
 
-- [clients](clients.md)
-- [design](design.md)
-- [projects](projects/index.md)
-- [wealth](wealth.md)
+[clients](clients.md)
+| [design](design.md)
+| [projects](projects/index.md)
+| [wealth](wealth.md)
+
+## Log
+
+- 23/01-04 - [migration project](/notes/work)
+- 23/01-04 - [site rebuild](/notes/work)
+- 23/01-04 - [new host](/notes/work)
+
+## About
 
 I've learned to try and love my work. I've also learned the irregardless of my abilities that it still mostly revolves around relationships. I'd like to say that the majority of my work is fun, but I need to support myself and that's not necessarily always the case. I use my this domain <https://davidwindham.com> for my current work which I've duplicated the content below.  
 
@@ -127,14 +135,17 @@ I provide a single point of contact for consolidated billing, development, and s
 
 ## How?
 
-- **Design, Create, & Build** - a new site or application.  
-  - **Tailored** Even though I mostly work for small clients, I provide them enterprise IT strategies. I tailor my work to the unique requirements of each project in an effort create sustainable and practical applications and designs that work for you. I focus on my core competencies and will recommend other providers when the scope of your project falls outside of them. I write a proposal and prior to starting your project and will provide you all of the source code and vector assets. I'll work alongside of your team and train staff as needed. And I will not try to reinvent the wheel to avoid recommending viable third-party services.
-- **Service, Repair, & Improve** - an existing site or application. 
-  - **Timely** I've learned to take service request with a timeline of 'yesterday' and I always prioritize my existing client needs over new projects. Service is the key to keeping good clients. I'm a stickler for quality and operability. I've likely already built or worked with similar products, so I'm relatively quick and I'll work to find a remedy after a diagnosis is made.
-- **Audit, Advise, & Consult** - on best practices.  
-  - **Careful** I will carefully review and critique your existing software, applications, sites and workflow to write up an unbiased detailed report that'll give your team some actionable feedback. I'll provide references and suggestions and I'll either propose a solution or refer elsewhere for assistance.
-- **Manage, Monitor, & Host** - sites, applications, and campaigns.
-  - **Reliable** I provide several basic levels of monthly support based on the scale and maintenance needs of your project. I spend about a quarter of my time managing existing sites and applications. I will recommend each based solely on your project requirements and existing IT infrastructure. Each vendor offers a marketplace of products which can be integrated into your project. I'll keep your computers, sites, and applications up to speed. I'll set up a monthly service agreement with expectations and I'll provide monthly reporting on campaigns.
+**Design, Create, & Build** - a new site or application.  
+  > **Tailored** Even though I mostly work for small clients, I provide them enterprise IT strategies. I tailor my work to the unique requirements of each project in an effort create sustainable and practical applications and designs that work for you. I focus on my core competencies and will recommend other providers when the scope of your project falls outside of them. I write a proposal and prior to starting your project and will provide you all of the source code and vector assets. I'll work alongside of your team and train staff as needed. And I will not try to reinvent the wheel to avoid recommending viable third-party services.
+
+**Service, Repair, & Improve** - an existing site or application.  
+  > **Timely** I've learned to take service request with a timeline of 'yesterday' and I always prioritize my existing client needs over new projects. Service is the key to keeping good clients. I'm a stickler for quality and operability. I've likely already built or worked with similar products, so I'm relatively quick and I'll work to find a remedy after a diagnosis is made.
+
+**Audit, Advise, & Consult** - on best practices.
+  > **Careful** I will carefully review and critique your existing software, applications, sites and workflow to write up an unbiased detailed report that'll give your team some actionable feedback. I'll provide references and suggestions and I'll either propose a solution or refer elsewhere for assistance.
+
+**Manage, Monitor, & Host** - sites, applications, and campaigns.
+  > **Reliable** I provide several basic levels of monthly support based on the scale and maintenance needs of your project. I spend about a quarter of my time managing existing sites and applications. I will recommend each based solely on your project requirements and existing IT infrastructure. Each vendor offers a marketplace of products which can be integrated into your project. I'll keep your computers, sites, and applications up to speed. I'll set up a monthly service agreement with expectations and I'll provide monthly reporting on campaigns.
 
 ### Vendors
 
