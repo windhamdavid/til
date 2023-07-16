@@ -84,6 +84,11 @@ module.exports = {
       items: [
         {
           type:'doc',
+          id: 'now/learning',
+          label:'Learning',
+        },
+        {
+          type:'doc',
           id: 'now/listening',
           label:'Listening',
         },
