@@ -4,6 +4,13 @@
 
 ---
 
+## Current 
+
+- 23/07 - [Iris train & registrations](/notes/dogs)
+- 23/07 - [tennis - girls, swing vision app](notes/tennis)
+- 23/06 - [summer travel](/notes/travel)
+- 23/06 - [summer house projects](/notes/travel)
+
 ## Short Term
 
 - [Iris](/notes/dogs)
