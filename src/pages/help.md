@@ -9,8 +9,6 @@ toc_max_heading_level: 5
 
 Because sometimes I forget how to drive the software I'm running.
 
-
-
 ---
 
 ### Todo

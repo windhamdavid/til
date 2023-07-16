@@ -7,10 +7,9 @@ slug: /
 
 #### I wrote an essay about this page @ [https://davidawindham.com/a-second-brain/](https://davidawindham.com/a-second-brain/)
 
-I've separated the **technical** to [Docs](/docs/) and the **non-technical** to [Notes](index.md). As always, this Notes page started with me trying to solve something. It really bothers me for anything to take away my attention. In this case, I was trying to keep my Apple TV home screen clean so I don't have to see or surf through offers of other stuff to watch.  I curate an 'up next' list and I usually make notes that sync between my devices when someone mentions a movie or show. I usually handle this with 'quick Notes' that sync between devices. That mostly works, but the problem I'd like to have them all in one place so that I can archive and search what I've already watched much the same way I database my music listening habits. This will give me a simple searchable place to store it all without any complex APIs, databases, or whatnot. It's a work in progress :sweat_smile:.
-
-
 ### About
+
+I've separated the **technical** to [Docs](/docs/) and the **non-technical** to [Notes](index.md). As always, this Notes page started with me trying to solve something. It really bothers me for anything to take away my attention. In this case, I was trying to keep my Apple TV home screen clean so I don't have to see or surf through offers of other stuff to watch.  I curate an 'up next' list and I usually make notes that sync between my devices when someone mentions a movie or show. I usually handle this with 'quick Notes' that sync between devices. That mostly works, but the problem I'd like to have them all in one place so that I can archive and search what I've already watched much the same way I database my music listening habits. This will give me a simple searchable place to store it all without any complex APIs, databases, or whatnot. It's a work in progress :sweat_smile:.
 
 What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/  
 
@@ -21,7 +20,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 
 
-## Table of Contents
+## TOC
 
 [art](art.md)
 | [dogs](dogs.md)
@@ -34,48 +33,57 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 | [work](work/work.md)
 
 
----
-
-It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. I'm just going to start adding an outline of potential topics and link to the pages as they are created.
+... It's pretty hard wrapping your head around creating a Table of Contents for a knowledge base incorporating everything except technology. I'm just going to start adding an outline of potential topics and link to the pages as they are created.
 
 ---
+
+## Log
+
+- 23/07/14 - [mod AI demo for til](/notes/work/projects/ai)
+- 23/07/14 - [fix post md-graph](/notes/work/)
+- 23/07/14 - [dogs Iris foods](/notes/dogs)
+- 23/07/14 - [garden poison mushrooms](/notes/garden/mushroom)
+- 23/07/14 - [art edu standards](/notes/art)
+- 23/07/14 - [tennis season](/notes/tennis)
+- 23/05/10 - [travel dates](/notes/travel)
+
 ## References
 
-https://en.wikipedia.org/wiki/Ontology_(information_science)  
-https://en.wikipedia.org/wiki/Information_architecture  
-https://en.wikipedia.org/wiki/Knowledge_engineering  
-https://en.wikipedia.org/wiki/Knowledge_management  
-https://en.wikipedia.org/wiki/Knowledge_retrieval  
-https://en.wikipedia.org/wiki/Information_retrieval  
-   
-https://en.wikipedia.org/wiki/Idea_networking  
-https://en.wikipedia.org/wiki/Metacognition  
-https://en.wikipedia.org/wiki/Semantic_network  
-https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning  
-https://en.wikipedia.org/wiki/Mind_map  
-https://en.wikipedia.org/wiki/Hierarchy  
-https://en.wikipedia.org/wiki/Concept_map  
-https://en.wikipedia.org/wiki/Group_concept_mapping  
-https://en.wikipedia.org/wiki/Modeling_language  
+<https://en.wikipedia.org/wiki/Ontology_(information_science)>  
+<https://en.wikipedia.org/wiki/Information_architecture>  
+<https://en.wikipedia.org/wiki/Knowledge_engineering>  
+<https://en.wikipedia.org/wiki/Knowledge_management>  
+<https://en.wikipedia.org/wiki/Knowledge_retrieval>  
+<https://en.wikipedia.org/wiki/Information_retrieval>  
   
-https://en.wikipedia.org/wiki/Hypertext  
-https://en.wikipedia.org/wiki/HTML  
-https://en.wikipedia.org/wiki/Hyperlink  
-https://en.wikipedia.org/wiki/Metadata  
-https://en.wikipedia.org/wiki/Semantic_Web  
-https://en.wikipedia.org/wiki/Web_Ontology_Language  
-https://en.wikipedia.org/wiki/Resource_Description_Framework  
-https://en.wikipedia.org/wiki/RDF_Schema  
-https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System  
-https://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities  
-https://en.wikipedia.org/wiki/JSON-LD  
+<https://en.wikipedia.org/wiki/Idea_networking>  
+<https://en.wikipedia.org/wiki/Metacognition>  
+<https://en.wikipedia.org/wiki/Semantic_network>  
+<https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning>  
+<https://en.wikipedia.org/wiki/Mind_map>  
+<https://en.wikipedia.org/wiki/Hierarchy>  
+<https://en.wikipedia.org/wiki/Concept_map>  
+<https://en.wikipedia.org/wiki/Group_concept_mapping>  
+<https://en.wikipedia.org/wiki/Modeling_language>  
   
-https://en.wikipedia.org/wiki/Personal_knowledge_management  
-https://en.wikipedia.org/wiki/Personal_wiki  
-https://en.wikipedia.org/wiki/Personal_information_manager  
-https://en.wikipedia.org/wiki/Personal_knowledge_base  
-https://en.wikipedia.org/wiki/Personal_digital_assistant  
-https://en.wikipedia.org/wiki/Google_Knowledge_Graph  
-https://en.wikipedia.org/wiki/Graph_drawing  
+<https://en.wikipedia.org/wiki/Hypertext>  
+<https://en.wikipedia.org/wiki/HTML>  
+<https://en.wikipedia.org/wiki/Hyperlink>  
+<https://en.wikipedia.org/wiki/Metadata>  
+<https://en.wikipedia.org/wiki/Semantic_Web>  
+<https://en.wikipedia.org/wiki/Web_Ontology_Language>  
+<https://en.wikipedia.org/wiki/Resource_Description_Framework>  
+<https://en.wikipedia.org/wiki/RDF_Schema>  
+<https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System>  
+<https://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities>  
+<https://en.wikipedia.org/wiki/JSON-LD>  
   
-https://markmap.js.org/docs  
+<https://en.wikipedia.org/wiki/Personal_knowledge_management>  
+<https://en.wikipedia.org/wiki/Personal_wiki>  
+<https://en.wikipedia.org/wiki/Personal_information_manager>  
+<https://en.wikipedia.org/wiki/Personal_knowledge_base>  
+<https://en.wikipedia.org/wiki/Personal_digital_assistant>  
+<https://en.wikipedia.org/wiki/Google_Knowledge_Graph>  
+<https://en.wikipedia.org/wiki/Graph_drawing>  
+  
+<https://markmap.js.org/do>>  

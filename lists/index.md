@@ -19,23 +19,31 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 | [design](design.md)
 | [feeds](feeds.md)
 | [grocery](grocery.md)
+| [next](next.md)
+| [now](now.md)
 | [lists](lists.md)
 | [music](art/music/music.md)
 | [next](next.md)
-| [people](people.md)
 | [places](places/places.md)
+| [people](people.md)
 | [quotes](quotes.md)
 | [shopping](shopping.md)
 | [things](things.md)
+| [todo](todo)
+| [todone](todone)
 | [trivia](trivia.md)
 | [tweets](tweets.md)
+| [quotes](quotes)
+| [words](words)
 
 ## Log
 
 I've moved this old repo into this TIL project to simplify. 
 
-- 23.05 - Added [Grocery](grocery) and [Shopping](shopping)
-- 22.11 - Added [Music Playlists](art/music#playlists), a [Feeds list](feeds), and [Tweets](tweets)
-- 22.04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia) based on other items added to my Today I learned index. 
-- 22.07 - Added [Up next](next) page as a replacement for using my bookmarks site to keep up with my future attention.
+- 23/07/16 - Added [Next](next) & [Now](now)
+- 23/07/16 - Added [Todo(ne)](todone) for Now page
+- 23/05 - Added [Grocery](grocery) and [Shopping](shopping)
+- 22/11 - Added [Music Playlists](art/music#playlists), a [Feeds list](feeds), and [Tweets](tweets)
+- 22/04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
+- 22/07 - Added [Up next](next) as a replacement for bookmarks
 

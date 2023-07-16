@@ -1,15 +1,11 @@
 # Listening
 
-- Carl Perkins - Blue Suede Shoes : The Dance Album
-- Allman Brothers Band - Midnight Rider : Idlewild South (Deluxe Edition Remastered)
-- Roy Orbison - Blue Bayou : In Dreams
-- Blake Mills - Skeleton Is Walking : Skeleton Is Walking
-- Ilsey - Heart of Gold (with Bon Iver) : Heart of Gold (with Bon Iver)
+- [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song)
 - Ben Harper - Masterpiece : Wide Open Light
+- Domenico Modugno - Volare : Domenico Modugno
 - Brian Eno - Five Light Paintings 3 : Five Light Paintings
 - Roy Orbison - Blue Bayou : In Dreams
 - Hank Williams - Your Cheatin' Heart : The Complete Hank Williams
-- Domenico Modugno - Volare : Domenico Modugno
 - Johnny Paycheck - The Old Violin : Difference in Me
 - Beck - Odyssey : Odyssey
 - Ben Harper - Masterpiece : Wide Open Light
