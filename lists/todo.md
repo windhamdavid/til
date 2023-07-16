@@ -10,6 +10,9 @@
 - 23/07 - [tennis - girls, swing vision app](notes/tennis)
 - 23/06 - [summer travel](/notes/travel)
 - 23/06 - [summer house projects](/notes/travel)
+- 23/06 - [work - dist project](/notes/travel)
+
+
 
 ## Short Term
 

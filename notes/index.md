@@ -40,11 +40,11 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 ## Log
 
 - 23/07/14 - [mod AI demo for til](/notes/work/projects/ai)
-- 23/07/14 - [fix post md-graph](/notes/work/)
-- 23/07/14 - [dogs Iris foods](/notes/dogs)
-- 23/07/14 - [garden poison mushrooms](/notes/garden/mushroom)
-- 23/07/14 - [art edu standards](/notes/art)
-- 23/07/14 - [tennis season](/notes/tennis)
+- 23/07/05 - [fix post md-graph](/notes/work/)
+- 23/06/10 - [dogs Iris foods](/notes/dogs)
+- 23/06/14 - [garden poison mushrooms](/notes/garden/mushroom)
+- 23/05/14 - [art edu standards](/notes/art)
+- 23/05/14 - [tennis season](/notes/tennis)
 - 23/05/10 - [travel dates](/notes/travel)
 
 ## References
