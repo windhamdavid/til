@@ -1,10 +1,19 @@
 # Gogs
 
+## About
+
 Gogs ( [https://gogs.io/docs](https://gogs.io/docs) ) is a Golang powered git service which I've been using for about 10 years now. I still keep a GitHub profile and mirror or duplicate my repos there as well. It's nice to have a backup and to be able to spin up user account for collaboration.
 
 Although it's been forked off as Gitea, I still prefer the original version because of the simplicity and I've watched the owner gracefully handle pull requests. I support the BDFL ( [Benevolent Dictator for Life](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life) ) approach in open source software because I've found that it mostly helps the project.  
 
-## Notes
+## Log
+
+**23.07.17** - found a domain pointing at the IP proxy so I added a catch-all on the default .conf and this to code.daw to keep the content from showing under another domain.
+```bash
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !code.davidwindham.com
+RewriteRule ^(.*)$ - [F]
+```
 
 **23.02.25** - patch for submodules fixes [Issue #6436](https://github.com/gogs/gogs/issues/6436). Upgrading from v0.12.9 -> v.0.12.11 
 
