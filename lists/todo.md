@@ -6,13 +6,14 @@
 
 ## Current 
 
+- 23/07/17 - [Fix Yoast plugins](/docs/host/WordPress)
 - 23/07 - [Iris train & registrations](/notes/dogs)
 - 23/07 - [tennis - girls, swing vision app](notes/tennis)
 - 23/06 - [summer travel](/notes/travel)
 - 23/06 - [summer house projects](/notes/travel)
 - 23/06 - [work - dist project](/notes/travel)
 
-
+---
 
 ## Short Term
 

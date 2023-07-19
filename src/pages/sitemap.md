@@ -1,13 +1,7 @@
 - [About](https://davidawindham.com/about/)
   - Bio
   - CV
-- .
-  - Bookmarks
-    - Tags
-    - Daily
-  - Reader
-    - Subscriptions
-    - Tags
+
 - Code
   - Activity
   - Repos
@@ -35,6 +29,17 @@
   - RTC
   - Slack
 - Desk
+  - Bookmarks
+    - Tags
+    - Daily
+  - Reader
+    - Subscriptions
+    - Tags
+  - Post
+    - Archive
+    - Tags
+    - Categories
+  - Search
   - TIL
     - About
     - AI
@@ -68,8 +73,8 @@
           - Now
             - Learning
             - Listening
-            - Reading
             - Playing
+            - Reading
             - Watching
           - Lists
           - Places
@@ -84,39 +89,34 @@
             - Followed
           - Quotes
           - Words
-    - Notes
-      - Art
-      - Dogs
-      - Garden
-       - Mushrooms
-      - Golf
-      - Health
-      - House
-      - Tennis
-      - Travel
-      - Work
-        - Clients
-        - Design
-        - Projects
-          - AI
-          - Game
-          - GZET
-          - Ham
-          - Juryd
-          - Pants
-          -ZW
-        - Wealth
+      - Notes
+        - Art
+        - Dogs
+        - Garden
+        - Mushrooms
+        - Golf
+        - Health
+        - House
+        - Tennis
+        - Travel
+        - Work
+          - Clients
+          - Design
+          - Projects
+            - AI
+            - Game
+            - GZET
+            - Ham
+            - Juryd
+            - Pants
+            -ZW
+          - Wealth
     - Posts
       - Tags
       - Date
     - Help
       - Log
     - Search
-  - Post
-    - Archive
-    - Tags
-    - Categories
-  - Search
 - Now
 - Studio
   - Art
