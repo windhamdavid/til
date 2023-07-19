@@ -1,8 +1,12 @@
 # WordPress
 
+## About 
 I've used WordPress for hundreds of projects and I think I owe a certain debt of gratitude. I started learning WordPress in the early days of the project. I keep a WordPress powered testing site up @ <https://wp.davidwindham.com> which contains my notes and code for WordPress projects.
 
-**23.06.20** - I've gotta migrate a couples sites previously using a theme with a custom editor and a lot of custom short codes to using just the block editor so I'll be doing the deep dive on block themes and I'll keep the WordPress specific notes here.
+## Log 
+
+- 23/07/17 - fix Yoast errors from missing database table 'inclusive_language_score' -  <https://wordpress.org/support/topic/inclusive-language-option/>
+- 23/06/20 - migrate a couple sites previously using a theme with a custom editor and a lot of custom short codes to the block editor.
 
 ## Builds
 

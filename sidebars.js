@@ -54,6 +54,7 @@ module.exports = {
       type: 'category',
       label: 'Frameworks',
       items: [
+        'waf/nextjs',
         'waf/nodejs',
         'waf/npm',
         'waf/rails',

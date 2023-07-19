@@ -140,6 +140,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 23/07/19 - [waf/nextjs](/docs/waf/nextjs)
 - 23/07/17 - [host/gogs](/docs/host/Gogs)
 - 23/07/08 - [Saas/OpenAI](/docs/saas/openai)
 - 23/07/07 - [Saas/Supabase](/docs/saas/openai)
