@@ -79,7 +79,7 @@ module.exports = {
       collapsible: true,
       link: {
         type:'doc',
-        id:'now',
+        id:'now/now',
       },
       items: [
         {

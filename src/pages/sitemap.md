@@ -1,7 +1,6 @@
 - [About](https://davidawindham.com/about/)
   - Bio
   - CV
-
 - Code
   - Activity
   - Repos
@@ -25,9 +24,12 @@
       - Checkout
     - Support
   - Invoice
+    - Clients
+    - Project
+    - Tasks
+    - Quotes
   - Radio
   - RTC
-  - Slack
 - Desk
   - Bookmarks
     - Tags
@@ -118,15 +120,36 @@
       - Log
     - Search
 - Now
+  - Learning
+  - Listening
+  - Playing 
+  - Reading
+  - Watching
 - Studio
+
   - Art
+    - Media
+    - Oil
+    - Photo
+    - Watercolor
   - Audio
+    - Music
+    - Talk
   - Broadcast
     - Ham
     - Show
     - Radio
   - Code
+    - App
+    - Architect
+    - Integration
+    - Software
+    - Web
   - Design
+    - Illustration
+    - Graphic
+    - Print
+    - UX
   - Photo
   - Video
   - Web
