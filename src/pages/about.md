@@ -17,4 +17,4 @@ I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll le
 
 Here's a map from June 2023👇🏼
 
-[![vi-1](/img/til.jpg)](/img/til.jpg)
+[![vi-1](/img/til.png)](/img/til.png)
