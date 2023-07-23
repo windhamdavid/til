@@ -19,8 +19,6 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 | [design](design.md)
 | [feeds](feeds.md)
 | [grocery](grocery.md)
-| [next](next.md)
-| [now](now.md)
 | [lists](lists.md)
 | [music](art/music/music.md)
 | [next](next.md)
@@ -41,7 +39,7 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 I've moved this old repo into this TIL project to simplify. 
 
-- 23/07/16 - Added [Next](next) & [Now](now/now)
+- 23/07/16 - Added [Next](next) & [Now](now/now.md)
 - 23/07/16 - Added [Todo(ne)](todone) for Now page
 - 23/05 - Added [Grocery](grocery) and [Shopping](shopping)
 - 22/11 - Added [Music Playlists](art/music#playlists), a [Feeds list](feeds), and [Tweets](tweets)
