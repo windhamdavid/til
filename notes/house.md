@@ -216,6 +216,8 @@ Architecture - <https://davidawindham.com/architecture/>
 
 #### Architects
 
+Renderings - Dave Philip Walen - Tryon NC - <https://davephilipwalen.com>
+
 #### Engineers
 
 ### Contractors
