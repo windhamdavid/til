@@ -222,7 +222,9 @@ Renderings - Dave Philip Walen - Tryon NC - <https://davephilipwalen.com>
 
 ### Contractors
 
-#### Concrete 
+Todd Usher - Addison Homes - <https://www.addison-homes.com/our-team>
+
+#### Concrete
 
 Tri City Concrete  
 Forest City, NC

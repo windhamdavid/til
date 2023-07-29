@@ -10,10 +10,10 @@
 
 ### Music
 
-- [Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
+- [Ben Harper - Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
+- [blur - The Ballad of Darren](https://en.wikipedia.org/wiki/The_Ballad_of_Darren)
 
 ### Books
-
 
 - [Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
 - [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
@@ -23,7 +23,7 @@
 
 ### Film
 
-- [Walk the Line](https://en.wikipedia.org/wiki/Walk_the_Line)
+- [Three Thousand Years of Longing](https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing)
 - [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
 - [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
 - [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
@@ -51,7 +51,7 @@
 - [Napoleon](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
 
 #### Series
-- [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso)
+
 - [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
 - [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
 
@@ -120,12 +120,12 @@
 - [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) (72)
 
 ### Films
-
+- [Walk the Line](https://en.wikipedia.org/wiki/Walk_the_Line) (65)
 - [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
 - [Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) (85)
 
 #### Series
-
+- [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso) (75)
 - [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
 - [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
 - [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series)) 
