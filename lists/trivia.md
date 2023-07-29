@@ -2,6 +2,7 @@
 
 A list of random trivial information I find interesting. 
 
+- 23/07/29 - [Damon Albarn](https://en.wikipedia.org/wiki/Damon_Albarn)'s father hosted the gallery where - Source: [Broken Record Podcast](https://www.youtube.com/watch?v=V68xRQ1qG40)
 - Brian May has a [PH.D. in astrophysics](https://core.ac.uk/download/pdf/295744.pdf) alongside of writing [_Fat Bottomed Girls_](https://en.wikipedia.org/wiki/Fat_Bottomed_Girls).
 - [Edward Fredkin was the model for the  the character Stephen Falken in the film WarGames](https://en.wikipedia.org/wiki/Edward_Fredkin#cite_note-24)
 - [The woman who OD'd John Belushi in 1982 was likely Fanny in *The Weight* by The Band in 1968](https://en.wikipedia.org/wiki/Cathy_Smith#cite_note-CESMITH5-10)
