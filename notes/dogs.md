@@ -31,6 +31,8 @@ Other regional breeders:
 - [Liberty Golden's](http://www.goldenpuppies.net) - Rock Hill, SC
 - [Rowe Mountain Goldens](https://www.rowemountaingoldens.com/) - Mill Spring, NC
 - [Russ Retievers](https://www.facebook.com/RussRetrievers) - Greenwood, SC
+- [Goldens of Abbeville](https://www.goldensofabbeville.com) - Abbeville, SC
+- [Goldens of Troy](https://www.goldensoftroy.com) - Troy, SC
 
 ---
 
