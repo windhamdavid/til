@@ -6,7 +6,6 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
-  - 23/08/13 - [Carlin on Reagan](/posts/reagan-administration)
   - 23/08/12 - [WP 6.3 Command Palette](/posts/wordpress-6.3)
   - 23/07/13 - [Zelda is Fitzgerald](/posts/zelda-art)
   - 23/07/12 - [Etymology of sardonic](/posts/sardonicism)
