@@ -183,7 +183,12 @@ https://scholar.google.com/scholar_case?case=4634888997300533561
 - POA origin - Phillip R. Feagan <http://feaganlawfirm.com/>
 
 #### Lots
-https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/
+
+<https://www.zillow.com/homedetails/0-Twin-Maple-Way-5-Mill-Spring-NC-28756/2060531025_zpid/>
+
+Twin Maple Way 2.16ac
+
+<https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/<>
 
 [521 Highland View Ln, Mill Spring, NC 28756](https://www.google.com/maps/place/521+Highland+View+Ln,+Mill+Spring,+NC+28756)
 
