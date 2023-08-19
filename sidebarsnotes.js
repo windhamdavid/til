@@ -10,7 +10,7 @@ module.exports = {
       collapsible: true,
       link: {
         type:'doc',
-        id:'art',
+        id:'art/art',
       },
       items: [
         {
@@ -35,7 +35,7 @@ module.exports = {
       collapsible: true,
       link: {      
         type:'doc',
-        id:'dogs',
+        id:'dogs/dogs',
       },
       items: [
         'dogs/iris',
@@ -47,7 +47,7 @@ module.exports = {
       collapsible: true,
       link: {      
         type:'doc',
-        id:'garden',
+        id:'garden/garden',
       },
       items: [
         'garden/mushroom',
