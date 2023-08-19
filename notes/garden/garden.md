@@ -14,7 +14,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## TOC 
 
-- [mushrooms](garden/mushroom)
+- [mushrooms](mushroom)
 
 ### Indoor Plants
 
