@@ -6,11 +6,15 @@
 
 ## Notes: 
 
-#### 23.05.05
+#### 23/08/18
+
+- added private and draft notes with git controls. log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
+
+#### 23/05/05
 
 - added AI page @ [https://davidawindham.com/til/ai](https://davidawindham.com/til/ai)
 
-#### 23.02.11
+#### 23/02/11
 
 - mv master to main
 - migrate to [woozie](https://davidawindham.com/til/docs/computers/woozie/)
