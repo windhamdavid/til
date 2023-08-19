@@ -22,9 +22,9 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 ## TOC
 
-[art](art.md)
-| [dogs](dogs.md)
-| [garden](garden.md)
+[art](art/art.md)
+| [dogs](dogs/dogs.md)
+| [garden](garden/garden.md)
 | [golf](golf.md)
 | [health](health.md)
 | [house](house.md)
