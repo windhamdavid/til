@@ -14,6 +14,7 @@ module.exports = {
   },
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
+    'plugin-image-zoom',
     require.resolve('docusaurus-plugin-matomo'),
     //require.resolve("@cmfcmf/docusaurus-search-local")
     [require.resolve('docusaurus-lunr-search'), {
@@ -70,6 +71,13 @@ module.exports = {
       jsLoader: 'matomo.js',
     },
     image: 'img/zw.png',
+    imageZoom: {
+      options: {
+        margin: 4,
+        background: '#484c57',
+        scrollOffset: 0,
+      },
+    },
     docs: {
       sidebar: {
         hideable: true,

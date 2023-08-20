@@ -217,7 +217,10 @@ Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 #### Architecture
 
-Architecture - <https://davidawindham.com/architecture/>  
+Architecture - <https://davidawindham.com/architecture/> 
+
+<video src="https://davidawindham.com/media/house_build.mp4" width="100%" controls="controls">
+</video>
 
 #### Architects
 

@@ -7,7 +7,7 @@ slug: /
 
 I use this library of documents as a quick reference to find technical answers, links to other documentation, configurations, keyboard shortcuts, and any other random technical stuff I might forget.  It's my version of Hansel and Gretel's breadcrumbs.  And because I tend to add more than I remove, I'm leaving this reminder to do some trimming every now and then so that the docs will remain concise and relevant. Here's a markdown graph of these docs.
 
-[![vi-1](/img/docs.png)](/img/docs.png)
+![docs-map](/img/docs.png)
 
 ---
 
@@ -140,6 +140,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 23/08/17 - [til/help](/help)
 - 23/07/19 - [waf/nextjs](/docs/waf/nextjs)
 - 23/07/17 - [host/gogs](/docs/host/Gogs)
 - 23/07/08 - [Saas/OpenAI](/docs/saas/openai)
