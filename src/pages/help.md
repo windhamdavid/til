@@ -44,6 +44,7 @@ npm run build
 npm run serve
 ```
 
+**23/08/20** - added an image zoom plugin from [https://github.com/flexanalytics/plugin-image-zoom](https://github.com/flexanalytics/plugin-image-zoom) because I didn't like linking to the images or having them constrained between the sidebars.
 
 **23/08/18** - updated notes structure to include some personal documents like /documents/family/mom/mom.md which is actually a directory outside of the site build on my computer. I ignore them in the builds and repos.  The reason for this is that the more I use machine learning against my own documents, the more the information becomes valuable in vector searches. Because of that, I'm rethinking the way I even organize documents on my computer. For instance this doc when I'm talking to my mom on the phone about whatever, I can reference references I've previously made.
 

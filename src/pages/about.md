@@ -7,7 +7,7 @@ description: About this Today I Learned
 
 This is a place to store some notes and documentation. It was originally built as a way to make notes on interesting things I learn based on one of my favorite sub-reddit/[TIL](https://www.reddit.com/r/todayilearned/). While installing it the first time I wrote 'Today I learned that Google will translate to and from [Zulu](https://en.wikipedia.org/wiki/Zulu_language)'.  
 
-![zulu](https://davidawindham.com/til/img/zulu.png)  
+![zulu](https://davidawindham.com/til/img/zulu.png) 
 
  > The [page](docs/server/ubuntu) above in this site referring to the database and computer [operating system](https://en.wikipedia.org/wiki/Ubuntu) and not the [Zulu philosophy](https://en.wikipedia.org/wiki/Ubuntu_(philosophy))  of a universal bond of sharing that connects all humanity. 
 
@@ -17,4 +17,4 @@ I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll le
 
 Here's a map from June 2023👇🏼
 
-[![vi-1](/img/til.png)](/img/til.png)
+[![til_map](/img/til.png)](/img/til.png)
