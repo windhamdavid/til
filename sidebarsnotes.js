@@ -62,8 +62,16 @@ module.exports = {
       id:'health',
     },
     {
-      type:'doc',
-      id:'house',
+      type:'category',
+      label:'House',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'house/house',
+      },
+      items: [
+        'house/build',
+      ]
     },
     {
       type:'doc',
