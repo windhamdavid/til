@@ -27,7 +27,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 | [garden](garden/garden.md)
 | [golf](golf.md)
 | [health](health.md)
-| [house](house.md)
+| [house](house)
 | [tennis](tennis.md)
 | [travel](travel.md)
 | [work](work/work.md)
@@ -39,7 +39,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 ## Log
 
-- 23/08/19 - [house #architecture](/notes/house#architecture)
+- 23/08/19 - [house #architecture](/notes/house/build#architecture)
 - 23/07/14 - [mod AI demo for til](/notes/work/projects/ai)
 - 23/07/05 - [fix post md-graph](/notes/work/)
 - 23/06/10 - [dogs Iris foods](/notes/dogs)
