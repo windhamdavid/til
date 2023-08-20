@@ -4,16 +4,16 @@ I'm going to use this as place to make notes about our house, property, and futu
 
 ## Old
 
-### Carriage
+#### Carriage
 17 Franklin Street, Charleston SC
 
-### Bamboo
+#### Bamboo
 10450 Old Georgetown Road, McClellanville SC
 
-### Farm
+#### Farm
 82 Yarborough Road, Trenton SC
 
-### Wilton 
+#### Wilton 
 104 Wilton Street, Greenwood SC - <https://davidawindham.com/wha/wilton/>
 
 
@@ -25,7 +25,7 @@ I'm going to use this as place to make notes about our house, property, and futu
 ### Glenridge 
 
 102 Glenridge Circle, Greenwood SC  
-Photos <https://davidawindham.com/wha/glenridge/>  
+Photos -  <https://davidawindham.com/wha/glenridge/>  
 POA - Gatewood Club - <https://gatewoodclub.com>
 
 ### Projects
@@ -213,9 +213,9 @@ Saluda Grade tracks being converted ( from Landrum to Saluda ) - <https://www.po
 Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 
-### Build
+## Build
 
-#### Architecture
+### Architecture
 
 Architecture - <https://davidawindham.com/architecture/> 
 
