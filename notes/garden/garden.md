@@ -6,7 +6,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 **23/05/23** - After watching Gardeners' World and realized that I don't know half of the plants that are planted in the beds. I started mapping out our yard to label the tree types, called in a tree guy to look at one of the oaks, ordered new sheers, gloves, and trays.
 
-[![glenridge-landscape](/img/glenridge-landscape.jpg)](/img/glenridge-landscape.jpg)
+![glenridge-landscape](/img/glenridge-landscape.jpg)
 
 ## Log
 
