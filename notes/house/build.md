@@ -13,6 +13,9 @@ We'd like to build one more house that's single story, accessible, affordable, e
   - office / studio in secondary beds
 - universal design
   - no steps ( except FROG / storage )
+- south facing orientation
+  - south facing grade
+- environmentally friendly and safe materials
 - cold steel framed construction
   - metal roof
 - stained siding, door/window frames
@@ -28,13 +31,42 @@ We'd like to build one more house that's single story, accessible, affordable, e
   - monitoring systems
   - high efficiency appliances
 - attached sunroom / greenhouse
+- large 3' eaves
+  - level covered walkway around foundation
+  - ( illustrations do not show front eaves )
+- low maintenance landscape
+  - small yard
+  - no landscaping near foundation
+  - water source/collection
+- low-impact build
+  - accommodate run-off
+  - permeable drive
+  - curb - hidden
+
 
 ---
 
-### Property / Land
+## Property / Land
 
-Weather, Groceries, Healthcare, Taxes, Accessibility, Social, and Demographics are impotant factors. Some possible locations include Tryon, NC / Flat Rock, NC / Columbus, NC / Saluda, NC / Landrum, SC / Campobello, SC / Green Creek NC / Mill Spring, NC / Brevard, NC / Pisgah Forest, NC / Yamasee, SC / Sunset, SC / Walhalla, SC... or even just where we are now in Greenwood, SC.
+![adger_house](/img/adger_house.jpg)
 
+Weather, Groceries, Healthcare, Taxes, Accessibility, Social, and Demographics are impotant factors. Some possible locations include Tryon, NC / Flat Rock, NC / Columbus, NC / Saluda, NC / Landrum, SC / Campobello, SC / Green Creek NC / Mill Spring, NC / Brevard, NC / Pisgah Forest, NC / Yamasee, SC / Sunset, SC / Walhalla, SC... or where we are now in Greenwood, SC.
+
+### Considerations
+
+- low grade
+  - south facing
+- small distance to
+  - healthcare
+  - grocery
+  - social
+- large lot
+- neighborhood
+  - HOA if small and well managed
+  - walkable
+  - building restrictions timeline
+- taxes / appraisal
+  - adjoining property values
 
 
 #### Red Fox / Blue Bird Lots
@@ -75,13 +107,17 @@ Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 ---
 
+## Financing
+
+- out of pocket from current sale
+  - rent or stay put while building
+- near zero debt 😂
+
 ## Build
 
 ### Architecture
 
 Architecture - <https://davidawindham.com/architecture/> 
-
-
 
 - Cold Frame Steel
 
@@ -92,6 +128,8 @@ Architecture - <https://davidawindham.com/architecture/>
 #### Engineers
 
 #### Licensure
+
+- possible GC license to break up costs in parts. 
 
 ### Contractors
 
@@ -117,12 +155,28 @@ Architecture - <https://davidawindham.com/architecture/>
 
 #### Woodwork
 
-### Suppliers 
+##### Doors / Windows
 
-### Metal Framing 
+Marvin ( <https://marvin.com> ) uses butted joing instead of mitered
+- North Windows (4) Marvin Double Hung G2
+- North Door (1 - double ) 96" x 96"
+- South Entrance Doors - (3)  Mavin 3 Pane Sliding w/Screen ( 107” x 96” )
+- South Windows - (2) Marvin Sliding ( 72” x 48” )
+- West Window - (1) Marvin Sliding ( 72” x 48” )
+- East Garage Door (1) ( 168” x 84” ) 
+- East Garage Entrance - (1)  ( 80” x 36” )
+- East Greenhouse Door - (1)  ( 80” x 36” )
+- Clerestory - (12) Mavin ( 48” x 18” ) (6 Living, 3 Master, 3 Loft) 
+
+##### Greenhouse Glass
+
+### Suppliers
+
+### Metal Framing
 
 - Star Building Systems - <https://www.starbuildings.com>
 - McElroy Metal - Columbia, SC <https://www.mcelroymetal.com>
+- Vulcan Steel - Georgia
 
 ---
 
