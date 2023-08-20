@@ -73,7 +73,7 @@ module.exports = {
     image: 'img/zw.png',
     imageZoom: {
       options: {
-        margin: 4,
+        margin: 40,
         background: '#484c57',
         scrollOffset: 0,
       },
