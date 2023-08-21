@@ -123,6 +123,10 @@ Architecture - <https://davidawindham.com/architecture/>
 
 #### Architects
 
+- Altura - Asheville NC - <https://alturaarchitects.com/work/>
+- RuegerRiley - <https://www.ruegerriley.com>
+- John Walters - <https://jwaltersarch.com>
+- Heather Schlender - <https://storyofyourhome.com/about.html>
 - Renderings - Dave Philip Walen - Tryon NC - <https://davephilipwalen.com>
 
 #### Engineers
@@ -178,10 +182,15 @@ Marvin ( <https://marvin.com> ) uses butted joing instead of mitered
 - McElroy Metal - Columbia, SC <https://www.mcelroymetal.com>
 - Vulcan Steel - Georgia
 
+### Orgs
+
+- Structural Insulated Panel Association - <https://www.sips.org>
+- Steel Framing Industry Association - <https://www.steelframing.org>
+
 ---
 
-### Inpsiration 
+### Inspiration
 
  - Booken House at Sandhill - <https://www.youtube.com/watch?v=co2HYBaB_7A>
  - 5894 Highwood Rd, Castro Valley, CA 94552 <https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/?>
- - 
+ - Good Haus - Atmosphere Design Build - <https://www.atmospheredesignbuild.com/good-haus> / <https://www.rockwool.com/north-america/advice-and-inspiration/case-studies/2018-fine-homebuilding-california-house/>
