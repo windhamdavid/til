@@ -2,9 +2,12 @@
 
 I used to love buying books of quotes when my parents took us to the bookstore. I've bookmarked some elsewhere on my website, but I'm going to start putting them here. ( e.g. - [https://davidawindham.com/education-through-recreation/](https://davidawindham.com/education-through-recreation/))
 
-**23/05/23** - I'm gonna start placing these in order of value to me instead of chronologically.
+**23/05/23** - ~~I'm gonna start placing these in order of value to me instead of chronologically.~~  
+**23/08/22** - Leaving them in reverse chronological order because I can see what I added last
 
 ---
+
+"People do not seem to realize that their opinion of the world is also a confession of character."  – [Ralph Waldo Emerson](https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson) from [_The Conduct of Life_ (1860)](https://en.wikipedia.org/wiki/The_Conduct_of_Life)
 
 "The cost of a thing is the amount of what I will call life which is required to be exchanged for it, immediately or in the long run." - [Henry David Thoreau](https://en.wikipedia.org/wiki/Henry_David_Thoreau) wrote in [Walden](https://en.wikipedia.org/wiki/Walden)
 

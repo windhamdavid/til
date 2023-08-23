@@ -39,6 +39,7 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 I've moved this old repo into this TIL project to simplify. 
 
+- 23/08/22 - [Emerson Quote](quotes) 
 - 23/07/16 - Added [Next](next) & [Now](now/now.md)
 - 23/07/16 - Added [Todo(ne)](todone) for Now page
 - 23/05 - Added [Grocery](grocery) and [Shopping](shopping)
