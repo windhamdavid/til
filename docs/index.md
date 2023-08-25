@@ -144,7 +144,7 @@ I use this library of documents as a quick reference to find technical answers, 
 - 23/07/19 - [waf/nextjs](/docs/waf/nextjs)
 - 23/07/17 - [host/gogs](/docs/host/Gogs)
 - 23/07/08 - [Saas/OpenAI](/docs/saas/openai)
-- 23/07/07 - [Saas/Supabase](/docs/saas/openai)
+- 23/07/07 - [Saas/Supabase](/docs/saas/supabase)
 - 23/07/06 - [data/machine](/docs/data/machine)
 - 23/06/24 - [saas/vercel](/docs/saas/vercel)
 - 23/06/09 - [computers/woozie](/docs/computers/woozie)

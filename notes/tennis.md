@@ -2,6 +2,10 @@
 
 **23.01.30** - I coach the high school tennis teams and the season practice starts this afternoon. I'm adding this note so that I can keep my notes, documentation, and other reference materials in one place for easy edits.
 
+## Log
+
+- 23/08/25 - added some more video resources
+
 ## Certification
 
 USTA - Coach, Official, Eye Exam  
@@ -90,7 +94,23 @@ Matches begin at 5 and can last up to four hours. I try to get them started earl
 
 ## Instruction
 
-### EHS Girls Varsity Tennis - Video Resources
+### EHS Varsity Tennis Resources
+
+#### Boys
+
+##### Instruction:
+
+1. The Basics of Tactics: Patrick Mouratoglou - https://www.youtube.com/watch?v=gT6g4QjDLBg
+
+
+#### Match Play:
+
+1. 2023 Boys singles final highlights Wimbledon - https://www.youtube.com/watch?v=zGIDIHMf9IY
+
+
+#### Girls
+
+#### Instruction
 
 1. How to Hit a Forehand with Venus Williams - https://www.youtube.com/watch?v=mXy0jJl8Pnc
 2. How to Hite a Basic Serve with Venus Williams - https://www.youtube.com/watch?v=bRCQwLgEs9M
@@ -102,6 +122,7 @@ Matches begin at 5 and can last up to four hours. I try to get them started earl
 
 
 #### Match Play
+
 1. Wimbledon Shots of the Decade | Ladies Singles - https://www.youtube.com/watch?v=hbK3NK4HkG0
 2. Top 10 Passing Shots | Women’s Singles | 2021 US Open - https://www.youtube.com/watch?v=7GEq8uH9UGI
 3. US Open 2017 Junior Girls Final - https://www.youtube.com/watch?v=DPYnBP999BY
@@ -113,8 +134,16 @@ Matches begin at 5 and can last up to four hours. I try to get them started earl
 9. 2020 US Open Women’s Double Final - https://www.youtube.com/watch?v=Ax-5eRisYzA
 10. 2020 Hopman Cup - Mixed Doubles Final - https://www.youtube.com/watch?v=JlrzSvCsIjE
 
-#### Other 
- - Average Guy Tries to Return a Pro Tennis Serve | Above Average Joe | GQ Sports - <https://www.youtube.com/watch?v=3OuaGeVb57s>
+#### For Fun
+
+1. Greatest Trick Shots in US Open History - https://www.youtube.com/watch?v=-SzPNvA8n4I
+2. 50 Tennis Shots that defied Science - https://www.youtube.com/watch?v=Nleku8x8CfM
+3. The Genius of Roger Federer - https://www.youtube.com/watch?v=OLM1PLX7JJg 
+4. Best Wimbledon Points of the Decade - https://www.youtube.com/watch?v=qS1gagwFS3s 
+5. Exhilarating Rallies from Wimbledon 2023 - https://www.youtube.com/watch?v=o6NBrdE2Lss 
+6. Best Doubles Points Wimbledonw 2023 - https://www.youtube.com/watch?v=WfqYda63-to
+7. Funniest Moments from the 2022 ATP Tennis Season - https://www.youtube.com/watch?v=8-DUsCB9di8
+8. Average Guy Tries to Return a Pro Tennis Serve | GQ Sports - https://www.youtube.com/watch?v=3OuaGeVb57s
 
 
 ## Coach Bio 
