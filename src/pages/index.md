@@ -6,7 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
-  - 23/08/27 - [Samuel Jones LEE ( 1872 )](/posts/samuel-jones-lee)
+  - 23/08/27 - [Samuel Jones Lee ( 1872 )](/posts/samuel-jones-lee)
   - 23/08/18 - [George Carlin's Values](/posts/george-carlins-values)
   - 23/08/12 - [WP 6.3 Command Palette](/posts/wordpress-6.3)
   - 23/07/13 - [Zelda is Fitzgerald](/posts/zelda-art)
