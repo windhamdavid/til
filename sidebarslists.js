@@ -14,7 +14,22 @@ module.exports = {
       },
       items: [
         'art/lit',
-        'art/motion',
+        {
+          type: 'category',
+          label: 'Motion',
+          collapsible: true,
+          link: {
+            type:'doc',
+            id:'art/motion',
+          },
+          items: [
+            {
+              type:'doc',
+              id: 'art/video',
+              label:'Video',
+            },
+          ],
+        },
         {
           type: 'category',
           label: 'Music',
