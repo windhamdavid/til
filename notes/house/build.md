@@ -43,6 +43,37 @@ We'd like to build one more house that's single story, accessible, affordable, e
   - permeable drive
   - curb - hidden
 
+---
+
+- ( 2022 ) 2,100 square foot spec home costs a national average of **$332,397** 
+- <https://todayshomeowner.com/home-finances/guides/cost-of-building-a-home-by-state/>
+
+- The average price per acre of single-family, residential land in 2019 was $152,000
+- <https://www.sciencedirect.com/science/article/pii/S0304393220301379#ec-research-data>
+
+| Exterior | -- | Interior | -- |
+|--|--|--|--|
+Survey and Engineering |	$5,000	| Electrical |	$11,917
+Foundation	| $20,903 |	HVAC | $10,000| 
+Framing	| $49,622	| Insulation	| $6,017
+Roofing	| $12,551	| Plumbing	| $15,944
+Sheathing	| $11,102	| Drywall, Wall Textures, and Painting	| $12,838
+Windows and Doors	| $14,615	| Flooring	| $12,964
+Siding	| $12,310	| Appliances	| $26,066
+Flatwork and Driveway	| $7,501	| Utilities	| $2,799
+Deck	| $9,814	| Trim	| $1,844
+Landscaping	| $7,500	| Fire Place	| $888
+Exterior Total	| $150,918	| Interior Total	| $101,277
+
+| Other Cost |
+|--|--|
+Trash Cleanup and Equipment Rental	| $3,500
+Contractor Upcharge	| $76,702
+
+| Total |
+|--|--|
+**Total** | **$332,397**
+**Total w/Land** | **$485,000**
 
 ---
 
