@@ -126,6 +126,8 @@ https://scholar.google.com/scholar_case?case=4634888997300533561
 
 Twin Maple Way 2.16ac $90k - <https://www.zillow.com/homedetails/0-Twin-Maple-Way-5-Mill-Spring-NC-28756/2060531025_zpid/>
 
+Lots 50 & 50a Mountain Pkwy, Mill Spring, NC 28756 3.12ac $110k- <https://www.zillow.com/homedetails/Lots-50-50a-Mountain-Pkwy-Mill-Spring-NC-28756/2055931051_zpid/>
+
 Highland View 4.52ac $90k - <https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/<> - [521 Highland View Ln, Mill Spring, NC 28756](https://www.google.com/maps/place/521+Highland+View+Ln,+Mill+Spring,+NC+28756)
 
 
@@ -142,6 +144,7 @@ Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 - out of pocket from current sale
   - rent or stay put while building
+- 12 month constuction loan for finishing
 - near zero debt 😂
 
 ## Build
@@ -168,7 +171,13 @@ Architecture - <https://davidawindham.com/architecture/>
 
 ### Contractors
 
+- 👉🏼 Greg Junge Construction - <https://www.junge.construction>
+- 👉🏼 David Washburn - Washburn Builders - <https://www.washburnbuildersnc.com>
+- 👉🏼 Wally Hughes Construction - <http://hugheswnc.com>
+- Green River Builders - <https://www.greenriverbuilders.net>
+- Red Tree Builders - <https://www.redtreebuilders.com>
 - Todd Usher - Addison Homes - <https://www.addison-homes.com/our-team>
+- John Judd - Judd Builders - <https://www.juddbuilders.net/>
 
 #### Concrete
 
