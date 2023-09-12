@@ -45,11 +45,12 @@ We'd like to build one more house that's single story, accessible, affordable, e
 
 ---
 
-- ( 2022 ) 2,100 square foot spec home costs a national average of **$332,397** 
-- <https://todayshomeowner.com/home-finances/guides/cost-of-building-a-home-by-state/>
+July 2023 median sales price is **$406,700** which is a 57% increase from the Jan 2020 price of $266,300. **$348,126** Zillow avg home value Sept 2023. Zillow avg for zip 28756 is **$346,379**.
 
+- ( 2022 ) 2,100 square foot spec home costs a national average of **$332,397** 
+  - <https://todayshomeowner.com/home-finances/guides/cost-of-building-a-home-by-state/>
 - The average price per acre of single-family, residential land in 2019 was $152,000
-- <https://www.sciencedirect.com/science/article/pii/S0304393220301379#ec-research-data>
+  - <https://www.sciencedirect.com/science/article/pii/S0304393220301379#ec-research-data>
 
 | Exterior | -- | Interior | -- |
 |--|--|--|--|
@@ -144,7 +145,7 @@ Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 - out of pocket from current sale
   - rent or stay put while building
-- 12 month constuction loan for finishing
+- 12 month construction loan for finishing
 - near zero debt 😂
 
 ## Build
