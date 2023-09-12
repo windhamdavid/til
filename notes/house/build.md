@@ -103,7 +103,10 @@ Weather, Groceries, Healthcare, Taxes, Accessibility, Social, and Demographics a
 
 #### Red Fox / Blue Bird Lots
 
-https://www.zillow.com/homedetails/0-Red-Fox-Cir-Tryon-NC-28782/2115025849_zpid/
+29 Red Fox Cir, Tryon, NC 28782 - 
+<https://www.zillow.com/homedetails/29-Red-Fox-Cir-Tryon-NC-28782/2095630237_zpid/>
+
+<https://www.zillow.com/homedetails/0-Red-Fox-Cir-Tryon-NC-28782/2115025849_zpid/>
 
 Red Fox Future, LLC v. Holbrooks - https://www.nccourts.gov/assets/documents/opinions/2014_NCBC_8.pdf?VersionId=IekuqeAIVscxaVO1pjkYpKW9HaCFpxAC
 
