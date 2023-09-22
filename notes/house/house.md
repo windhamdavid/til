@@ -20,9 +20,11 @@ I'm going to use this as place to make notes about our house, property, and futu
 
 ### Glenridge 
 
+![glenridge](/img/glenridge.jpg)
+
 102 Glenridge Circle, Greenwood SC  
 Photos -  <https://davidawindham.com/wha/glenridge/>  
-POA - Gatewood Club - <https://gatewoodclub.com> ( I built this too )
+POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ### Projects
 
@@ -56,6 +58,8 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( I built this too )
 - ** Appliances - GE Stainless Cafe Series ( Steifles Greenwood )
 
 #### Master Bath Remodel - 2024
+
+![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
 
 - Bath / Shower / Flooring
 - Dressing Room Cabinetry/Table/Seating
