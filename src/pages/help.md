@@ -44,12 +44,39 @@ npm run build
 npm run serve
 ```
 
+**23/09/23** - docusaurus updated -  2.4.1 👉🏼 2.4.3 -> left react at 17 for now, but updated the react player to 2.13. 
+
+```bash
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
+daw-til-2@0.0.1 /Users/david/Sites/daw_til
+├── @docusaurus/core@2.4.3
+├── @docusaurus/plugin-content-blog@2.4.3
+├── @docusaurus/preset-classic@2.4.3
+├── @docusaurus/theme-mermaid@2.4.3
+├── @mdx-js/react@1.6.22
+├── clsx@1.2.1
+├── docusaurus-lunr-search@3.0.0
+├── docusaurus-plugin-matomo@0.0.6
+├── markprompt@0.1.7
+├── plugin-image-zoom@1.1.0
+├── react-dom@17.0.2
+├── react-player@2.13.0
+└── react@17.0.2
+
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm outdated
+Package        Current  Wanted  Latest  Location                    Depended by
+@mdx-js/react   1.6.22  1.6.22   2.3.0  node_modules/@mdx-js/react  daw_til
+clsx             1.2.1   1.2.1   2.0.0  node_modules/clsx           daw_til
+react           17.0.2  17.0.2  18.2.0  node_modules/react          daw_til
+react-dom       17.0.2  17.0.2  18.2.0  node_modules/react-dom      daw_til
+```
+
 **23/08/20** - added an image zoom plugin from [https://github.com/flexanalytics/plugin-image-zoom](https://github.com/flexanalytics/plugin-image-zoom) because I didn't like linking to the images or having them constrained between the sidebars.
 
 **23/08/18** - updated notes structure to include some personal documents like /documents/family/mom/mom.md which is actually a directory outside of the site build on my computer. I ignore them in the builds and repos.  The reason for this is that the more I use machine learning against my own documents, the more the information becomes valuable in vector searches. Because of that, I'm rethinking the way I even organize documents on my computer. For instance this doc when I'm talking to my mom on the phone about whatever, I can reference references I've previously made.
 
 
-**23/05/24** - docusaurus updated -  2.4.0 👉🏼 2.41
+**23/05/24** - docusaurus updated -  2.4.0 👉🏼 2.4.1
 
 ```bash
 david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
