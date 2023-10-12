@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/10/12 - [Evi Nemeth](/posts/evi-nemeth)
   - 23/09/12 - [Monolithic Infrastructure](/posts/monolithic-infrastructure)
   - 23/08/30 - [Newspapers.com](/posts/newspapers-com)
   - 23/08/27 - [Samuel Jones Lee ( 1872 )](/posts/samuel-jones-lee)
