@@ -67,16 +67,16 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ### ToDo
 
-- Add flood lighting in front of garage
+
+- Carpet 
+  - Carpeting
+  - New Carpet Upstairs - Feb 2024
+  - New Carpet in Living Room
+  - ** Berber (upstairs - (Sneads Greenwood)
 - Refinish/Repaint Back Lower Deck
 - Convert compactor to compost and add pull out trash bin
 - Replace living fireplace brass with nickel
 - Convert Fireplaces in Rec & Living to Gas
-- Carpet 
-  - Carpeting - September 2022
-  - New Carpet Upstairs
-  - New Carpet in Living Room
-  - ** Berber (upstairs - (Sneads Greenwood)
 - Replace Front Lanterns
 - Replace upstairs HVAC condensor unit
 - Remove old Duke Energy meter
@@ -98,6 +98,7 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ### Done
 
+- ~~Add flood lighting in front of garage (McDaniel Electric)~~
 - ~~Remove security sensors from exterior flood lighting~~
 - ~~Remove/Reuse Firewood stack~~
 - ~~Living Room Suite / Chairs from BB~~
