@@ -12,13 +12,11 @@ I'm going to use this as place to make notes about our house, property, and futu
 
 **Wilton** - 104 Wilton Street, Greenwood SC - <https://davidawindham.com/wha/wilton/>
 
-
-
 ---
 
 ## Current
 
-### Glenridge 
+### Glenridge
 
 ![glenridge](/img/glenridge.jpg)
 
@@ -28,7 +26,7 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ### Projects
 
-#### Entry/Garage Doors 
+#### Entry/Garage Doors
 
 - replace entry doors
   - Anderson Double Oak 3/4 glass - $9,000
@@ -67,8 +65,7 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ### ToDo
 
-
-- Carpet 
+- Carpet
   - Carpeting
   - New Carpet Upstairs - Feb 2024
   - New Carpet in Living Room
@@ -82,7 +79,7 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 - Remove old Duke Energy meter
 - Remove old telephone wiring
 - Remove Blacktop - Concrete Driveway
-- Trees ( Timberline Tree Service - Troy - (864) 953-0002 / timmbur@yahoo.com )
+- Trees ( Timberline Tree Service - Troy - (864) 953-0002 )
   - Remove two stumps from side yard
   - Remove two pine trees on east side of house
   - Remove two gum-ball trees from rear yard
@@ -94,7 +91,7 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 - Solar panels for South Facing roofline / Converter / Battery Storage
 - New Roof
   - Radiant panels under roofline
-- Re-insulate crawl space 
+- Re-insulate crawl space
 
 ### Done
 
@@ -124,6 +121,4 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ## Future
 
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ <https://davidawindham.com/architecture/>  
-
-
+We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ <https://davidawindham.com/architecture/>
