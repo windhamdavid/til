@@ -27,6 +27,10 @@ module.exports = {
             'art/media',
           ],
         },
+        {
+          type:'doc',
+          id:'art/studio',
+        }
       ],
     },
     {
