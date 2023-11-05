@@ -6,6 +6,8 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/11/05 - [Cat Power](/posts/cat-power)
+  - 23/10/30 - [Horror](/posts/horror)
   - 23/10/14 - [Adobe Firefly](/posts/adobe-firefly)
   - 23/10/12 - [Evi Nemeth](/posts/evi-nemeth)
   - 23/09/12 - [Monolithic Infrastructure](/posts/monolithic-infrastructure)
