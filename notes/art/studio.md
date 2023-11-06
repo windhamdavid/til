@@ -8,6 +8,8 @@ I'm going to build a custom desk and stain it up to match the existing mantle, r
 
 ![](/img/art.studio.jpg)
 
+![](/img/studio-desk.jpg)
+
 I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper belts. I'll build the 16 foot desktop and use prebuilt cabinets on the wall right here 👇🏼
 
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
@@ -31,12 +33,13 @@ Notes:
 - table top easel and draft table
 - storage for oil, watercolor, mediums, and brushes
 - existing electrical outlets are sufficient
-- additional lighting for easel
+- additional lighting for ease
 - drawer for peripherals
 - custom under desk 88 keyboard drawer
 - cable management
 - floating shelf above monitors
 - use closet to hold canvas and lighting
+- mirror on back walk to refract light
 
 
 Ref:
