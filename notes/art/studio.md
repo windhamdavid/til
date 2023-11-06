@@ -27,16 +27,18 @@ Notes:
 - 16' foot length (3)2x12 oak or laminate to match the bar for the desktop.
   - premade or cut desktop ready to roll before cabinet install
 - (2)36" prebuilt cabinets (1)w/drawer
-  - rack for 17" printer and audio equipment
+  - rack for audio equipment and RAID storage
 - 32" monitors(2) and tv(65")
 - VESA tv mount for swing angle
+- cabinet cutout for sub-woofer
+- sound dampeners
 - table top easel and draft table
-- storage for oil, watercolor, mediums, and brushes
+  - storage for oil, watercolor, mediums, and brushes
 - existing electrical outlets are sufficient
-- additional lighting for ease
+- additional lighting for easel
 - drawer for peripherals
-- custom under desk 88 keyboard drawer
-- cable management
+- 73 keyboard drawer 42"
+- cable management / mounted power strips 
 - floating shelf above monitors
 - use closet to hold canvas and lighting
 - mirror on back walk to refract light
