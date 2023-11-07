@@ -14,7 +14,7 @@ I'm gonna combine the now mostly neglected easel into my desk. What I'm not goin
 
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
 
-And while I'm at it, I'd like to upgrade the old mac mini (<https://davidawindham.com/mac-mini/>), add a keyboard, and integrate the audio and video into my existing system. The 96" space will allow for two people to work side by side. I'm estimating the cost to be under a grand sans mac studio. I'm hoping it'll put my eyes on the canvas as much as the monitors and it'll be much easier to let Iris in and out.
+And while I'm at it, I'd like to upgrade the old mac mini (<https://davidawindham.com/mac-mini/>), add a keyboard, and integrate the audio and video into my existing system. The 96" space will allow for two people to work side by side. I'm also planning on having a lift on the I'm estimating the cost to be under a grand sans mac studio. I'll continue using it as my daily desk for my developer day gig, but I'd also like to venture into some more creative endeavors such as painting, prints, photography, video, and audio. I'm really hoping it'll put my eyes on the canvas as much as the monitors and it'll be much easier to let Iris in and out.
 
 <video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
 </video>
@@ -28,16 +28,20 @@ Notes:
   - premade or cut desktop ready to roll before cabinet install
 - (2)36" prebuilt cabinets (1)w/drawer
   - rack for audio equipment and RAID storage
-- 32" monitors(2) and tv(65")
-- VESA tv mount for swing angle
+  - paint/brush drawer w/organizer
+- (2) 46" drawers
+  - palette drawer with removable/replaceable glass/wood tops
+  - keyboard drawer ( Nord 73 is 40" )
+- 32" monitors(2)
+  - on arm lift w/keyboard tray for standing
+- VESA tv (65")mount for swing angle
 - cabinet cutout for sub-woofer
 - sound dampeners
 - table top easel and draft table
+  - easel on pull-out rotate gear
   - storage for oil, watercolor, mediums, and brushes
 - existing electrical outlets are sufficient
 - additional lighting for easel
-- drawer for peripherals
-- 73 keyboard drawer 42"
 - cable management / mounted power strips 
 - floating shelf above monitors
 - use closet to hold canvas and lighting
