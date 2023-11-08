@@ -39,7 +39,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 
 ## Log
 
-- 23/11/95 - [art/studio](/notes/art/studio)
+- 23/11/05 - [art/studio](/notes/art/studio)
 - 23/10/20 - [house/build](/notes/house/build)
 - 23/08/25 - [tennis](/notes/tennis)
 - 23/08/19 - [house/build](/notes/house/build)
