@@ -35,6 +35,8 @@ gitGraph
     merge docusaurus
 ```
 
+#### Repos
+
 - https://code.davidawindham.com/david/til
 - https://github.com/windhamdavid/til
 
@@ -51,7 +53,11 @@ npm run serve
 
 :::danger
 
-This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3). Went in and cleaned up the markdown formatting - mostly the tags on links and code highlighting formatting.
+This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at:
+- [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)
+- [https://github.com/facebook/docusaurus/discussions/9312](https://github.com/facebook/docusaurus/discussions/9312). 
+
+Went in and cleaned up the markdown formatting - mostly the tags on links and indented code highlighting formatting.
 
 :::
 
