@@ -68,7 +68,7 @@
 ## File Structure
 
 Cargo.toml cheatsheet
-
+```
     // Generic Cargo.toml
 
     // library
@@ -89,6 +89,7 @@ Cargo.toml cheatsheet
     [dependencies.dep_name]
     version = "..."
     features = ["..."]  // features are conditional compilation flags
+```
 
 ## Strings
 
@@ -114,12 +115,12 @@ Cargo.toml cheatsheet
 ## Return Handling
 
 ### Result: Ok vs Error
-
+```
     pub enum Result<T,E> {
     	Ok(T),
     	Err(E),
     }
-
+```
 ### ? Shorthand
 
 *? applies to a `Result` value, and if it was an `Ok`, it **unwraps** and gives the inner value (Directly uses the into() method), or it returns the Err type from the current* function.*
@@ -129,7 +130,7 @@ Cargo.toml cheatsheet
     Ok(serde_json::from_str(&std::fs::read_to_string(fname)?)?)
 
 ### Use custom errors for new structs
-
+```
 *To handle proper error handling*
 
     use serde_derive::*;
@@ -157,7 +158,7 @@ Cargo.toml cheatsheet
     	Some(T),
     	None,
     }
-
+```
 ### Result  Option
 
     // Result into Option
@@ -195,7 +196,7 @@ Important iterating traits:
 - `a_vec.into_iter()`: turns a vector into an iterator
 
 ## Generics & Traits
-
+```
 *Generic Type, Functions & Trait imps*
 
     // TRAITS
@@ -221,7 +222,7 @@ Important iterating traits:
     // FUNCTIONS
     // It makes the type available for the function
     fn print_c<I:TraitA>(foo:I) {
-
+```
 ## Lifetimes
 
 *Think of lifetimes as a constraint, bounding output to the same lifetime as its input(s)*
@@ -256,7 +257,7 @@ Important iterating traits:
 - `FnOnce`: consumes variables it captures. Moves vars into the closure when its defined. FnOnce can only be called once on the same variables
 - `FnMut`: can change env bc it mutably borrows values. *recommended for working with Vecs*
 - `Fn`: borrow values from env immutably
-
+```
     // FnOnce:
     pub fn fooF(&mut self, f: F)
     	where F: FnOnce(&mut String), {...}
@@ -268,9 +269,9 @@ Important iterating traits:
     // Boxed closure type, usually used in threads,
     // allowing different fn to be sent to the same channel
     Box<Fn(&mut String) + TraitB >
-
+```
 ## References
-
+```
     &i32        // a reference
     &'a i32     // a reference with an explicit lifetime
     &'a mut i32 // a mutable reference with an explicit lifetime
@@ -279,7 +280,7 @@ Important iterating traits:
     Rc<T>       // is for multiple ownership.
     Arc<T>      // is for multiple ownership, but threadsafe.
     Cell<T>     // is for “interior mutability” for Copy types; that is, when you need to mutate something behind a &T.
-
+```
 ### Reference count
 
 *Single thread use only: doesn't impl sync and send*
@@ -301,7 +302,7 @@ Important iterating traits:
 ## Threads
 
 - Main fn can terminate before new threads finish!
-
+```
     use std::thread::*;
     use std::time::Duration;
 
@@ -318,11 +319,11 @@ Important iterating traits:
     let mut children = Vec::new();
     let child = thread::spawn(...);
     for child in children { child.join().expect("thread panic");
-
+```
 - When you need to move **primitive** variables to be accessible inside threads, thanks to `Copy`:
-
+```
     spawn( move || { println!("{}", n); });
-
+```
 ### Arc, Mutex
 
 If `Copy` is not implemented for the var (e.g. moving a String btw threads), use:
@@ -330,7 +331,7 @@ If `Copy` is not implemented for the var (e.g. moving a String btw threads), use
 - `arc`: atomic reference count.
 - `mutex`: a guard on mutation, allows mutation when ppl have a `lock` on it
 - `lock()`: acquires the mutex's lock, ensuring its only held by 1 obj, returns Result.
-
+```
     use std::sync::{Arc, Mutex};
     fn foo () {
     	let m = Arc::new(Mutex::new(String::from("xyz")));
@@ -344,9 +345,9 @@ If `Copy` is not implemented for the var (e.g. moving a String btw threads), use
     	// use m in original thread
     	let s = m.lock().unwrap();
     }
-
+```
 When to use Mutex in Arc?
-
+```
     // In a multithread game engine, you might want to make an Arc<Player>.
     // The Mutexes protect the inner fields that are able to change (items).
     // while still allowing multiple threads to access id concurrently!
@@ -355,14 +356,14 @@ When to use Mutex in Arc?
         id: String,
         items: Mutex<Items>,
     }
-
+```
 ### Channels
 
 - A function returning: `Sender<T>` and `Receiver<T>` endpoints, where T is type of msg to be transferred, allowing async communications between threads
 - `mpsc`: means Multi Producer Single Consumer. We can clone sender, but not receiver.
 - Drop(channel senders) will close the channel automatically
 - **Fns have to be Boxed** before sending across channel
-
+```
     //Good pattern
     std::sync::mpsc::channel;
 
@@ -391,9 +392,9 @@ When to use Mutex in Arc?
 
     	done_r.recv().ok();
     }
-
+```
 ### ThreadPools
-
+```
     pub struct ThreadPool {
         ch_s: Option<mpsc::Sender<Box<Fn() + Send>>>,
         n: u32,
@@ -452,11 +453,11 @@ When to use Mutex in Arc?
     	}
     	tp.wait();
     }
-
+```
 ## Patterns
 
 ### Builder
-
+```
     pub enum Property {
         Simple(&'static str, String), // e.g. x=5, y = 11
         Style(&'static str, String),  // like css styles, e.g. border: ...
@@ -501,9 +502,9 @@ When to use Mutex in Arc?
 
     // So we can simply do:
     let a = SvgTag::new("svg").w("60px").h("80px");
-
+```
 ### Defaults
-
+```
     struct Foo {...}
 
     impl Default for Foo {
@@ -513,11 +514,11 @@ When to use Mutex in Arc?
     }
     ...
     let f = Foo { ..Default:default()}
-
+```
 ### Wrappers Traits
 
 If I want to compose structs that contain certain (different?) traits. Create a wrapper struct. *This is usually done with iterators etc.*
-
+```
     pub struct TraitWrap<A:TraitA, B:TraitB> {
         a: A,
         b: B,
@@ -526,7 +527,7 @@ If I want to compose structs that contain certain (different?) traits. Create a 
     impl <A: TraitA, B:TraitB> TraitA for TraitWrap<A,B> {
     		fn ...
     }
-
+```
 ## Macros
 
 ### Common Metavariables
@@ -549,7 +550,7 @@ If I want to compose structs that contain certain (different?) traits. Create a 
 ### Declarative Macros
 
 Macros that work like match statements on your code snippets. It matches on illegal code, to replace them with legal Rust code.
-
+```
     // This macro should be made avail whenever the crate
     // where the macro is defined, is brought into scope
     #[macro_export]
@@ -578,12 +579,12 @@ Macros that work like match statements on your code snippets. It matches on ille
             }
         };
     }
-
+```
 
 ### Macro refactoring
 
 Calling a macro within a macro is a good way to refactor the macro code
-
+```
     // SvgTag::new("svg").child(SvgTag::new("rect").x(7).y(7).w(9).h(9));
     // svg! { svg => {rect x=7, y=7, w=9, h=9} };
 
@@ -603,11 +604,11 @@ Calling a macro within a macro is a good way to refactor the macro code
             SvgTag::new(stringify!($s))
                 $(.$p($v))*
         };
-
+```
 ### Procedural Macros
 
 Functions that operate on input code, outputs new code
-
+```
     # This package does procedural macros
     # and can't be used for anything other than proc macros
     # this runs before other packages at compile time
@@ -620,11 +621,11 @@ Functions that operate on input code, outputs new code
     #[some_attribute]
     pub fn some_name(input: TokenStream) -> TokenStream {
     }
-
+```
 ### Derive Macros
 
 **Good convention**: for structs, to create setter helper fn, e.g. `set_field1` `set_field2` .
-
+```
     // using it
     #[derive(MyMacro)]
 
@@ -668,7 +669,7 @@ Functions that operate on input code, outputs new code
 
        res.parse().unwrap()
     }
-
+```
 - `cargo expand`: expands macro code to be more readable. Install through `cargo install cargo-expand`
 
 ## Futures
@@ -689,7 +690,7 @@ Think of futures are cheap threads, when you don't have as many threads. How it 
 - Async / Await (unstable) is here already (Jan 2020)
 
 ### Simple Future
-
+```
     pub struct SimpleFuture {
         n: i32, // or whatever other return type upon completion
     }
@@ -709,7 +710,7 @@ Think of futures are cheap threads, when you don't have as many threads. How it 
     // to run the future, use an executor, e.g.:
     use futures::executer::block_on(); //block thread til future is complete
     block_on(SimpleFuture{n:10});
-
+```
 ### Future Combinators
 
 Combinators are cheap bc only calling it takes up work, creating combinators are "lazy" operations. Combinators only wrap future in another one, and doesn't do anything until you call it.
@@ -734,7 +735,7 @@ Important trait `FutureExt`:
 Async block resolves into an enum. The enum implements Future, and tracks the state of its own variables.
 
 `Await` must always be inside Async block to create a new state on the async enum. It adds state to the resulting future. (it doesn't actually await at the time we write it)
-
+```
     // Don't have to create Future obj manually
     // Create a async function instead that auto handles futures
 
@@ -749,7 +750,7 @@ Async block resolves into an enum. The enum implements Future, and tracks the st
     	let r = ch_r.await.unwrap();
     	...
     });
-
+```
 ### Stream
 
 A Stream (Reader) is a stream of results, like an `Iterator`, with a delay between each value.
@@ -757,7 +758,7 @@ A Stream (Reader) is a stream of results, like an `Iterator`, with a delay betwe
 Streams look like Futures, but returns a Poll `Option<...>` rather than a enum of Ready(Result). Streams impl the Stream trait.
 
 `Ready(Some(thing))`: means that stream has more to ask for
-
+```
     pub struct ReadStream { reader: A, buf:[u8;100], }
     impl<A:AsyncRead + Unpin> Stream for ReadStream<A> {
     	type Item = String;
@@ -773,7 +774,7 @@ Streams look like Futures, but returns a Poll `Option<...>` rather than a enum o
           }		
     	}
     }
-
+```
 ## Databases
 
 Crate: Diesel
@@ -796,7 +797,7 @@ Downloading Diesel: `cargo install diesel_cli --no-default-features --features p
     pub mod schema; // how it works https://diesel.rs/
 
 8. `cargo expand` shows us all the functions that are created by diesel macros.
-
+```
     //Creating a DB connection in lib.rs based on .env setup
     pub fn create_connection() -> Result<PgConnection, failure::Error> {
         dotenv::dotenv().ok();
@@ -848,13 +849,13 @@ Downloading Diesel: `cargo install diesel_cli --no-default-features --features p
                  .filter(table1::id.eq(id))
     						 .select((...)) // select
                  .load::<NewStruct/>(&conn)?;
-
+```
 ## Web Servers
 
 **Crate**: Rocket - framework for web services to build websites
 
 `rocket::ignite().launch()`:: creates rocket builder, then starts rocket server
-
+```
     #![feature(proc_macro_hygiene, decl_macro)]
     #[macro_use]
     extern crate rocket;
@@ -887,9 +888,9 @@ Downloading Diesel: `cargo install diesel_cli --no-default-features --features p
         rocket::ignite()      //creates rocket builder
                 .mount("/", routes![root, static_file])    // mounts route & fn
                 .launch();    // starts rocket server, returns error on every case
-
+```
 Custom errors & types in Response
-
+```
     use failure_derive::Fail;
     // allows custom errors to be returned //response is the actual response being returned
     // getting response happens after we return it, friendly to be converted to futures.
@@ -922,14 +923,14 @@ Custom errors & types in Response
             Ok(res)
         }
     }
-
+```
 Configure Rocket.toml
 
     [global.databases]
     doodlebase = {url = "postgres://acct:pw@localhost/dbname"}
 
 ### Sessions
-
+```
     //in session.rs
     pub struct Session(Arc<Mutex<HashMap<u64,User>>>);
 
@@ -960,11 +961,11 @@ Configure Rocket.toml
     let login = cookies.get("login").ok_or(DoodleWebErr::NoCookie)?.value();
     let user = st.get(login.parse().map_err(|_| "DoodleWebErr::NoCookie")?)
                .ok_or(DoodleWebErr::NoSession)?;
-
+```
 ### Static templates
 
 *With Maud: compile time templates*
-
+```
     // pages that return Result<impl Responder>
     Ok(
     	html! {     // a maud macro
@@ -973,7 +974,7 @@ Configure Rocket.toml
     		body { ... }
     	}
     )
-
+```
 ## CLI
 
 **Crate**: clap

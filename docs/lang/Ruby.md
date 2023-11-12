@@ -246,7 +246,6 @@ Diff between blocs and lambdas:
 - Division (/)
 - Exponentiation (\*\*)
 - Modulo (%)
-- The concatenation operator (<<)
 - you can do 1 += 1 –– which gives you 2 but 1++ and 1-- does not exist in ruby
 - `"A " << "B"` => `"A B"` but `"A " + "B"` would work as well but `"A " + 4 + " B"` not. So rather use string interpolation (`#{4}`)
 - `"A #{4} B"` => `"A 4 B"`

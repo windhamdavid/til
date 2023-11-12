@@ -1,6 +1,6 @@
 # Next.js
 
-<https://nextjs.org/docs>
+https://nextjs.org/docs
 
 ## About
 

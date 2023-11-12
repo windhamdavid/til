@@ -191,6 +191,8 @@ gT or :tabprev or :tabp # move to the previous tab
 ```
 
 #### NERDTree
+
+```
     o.......Open files, directories and bookmarks....................|NERDTree-o|
     go......Open selected file, but leave cursor in the NERDTree.....|NERDTree-go|
     t.......Open selected node/bookmark in a new tab.................|NERDTree-t|
@@ -234,7 +236,7 @@ gT or :tabprev or :tabp # move to the previous tab
     q.......Close the NERDTree window................................|NERDTree-q|
     A.......Zoom (maximize/minimize) the NERDTree window.............|NERDTree-A|
     ?.......Toggle the display of the quick help.....................|NERDTree-?|
-	 
+``` 
 	 
 	 
 ### vimdiff cheet sheet

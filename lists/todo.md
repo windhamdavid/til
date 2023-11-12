@@ -1,6 +1,6 @@
 # ToDo
 
-**23.05.31** - I added this page as a copy of my the Reminders I use across all of my devices. I detailed this workflow in <https://davidawindham.com/slow-thinking/>. The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here.
+**23.05.31** - I added this page as a copy of my the Reminders I use across all of my devices. I detailed this workflow in https://davidawindham.com/slow-thinking/. The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here.
 
 ---
 
@@ -70,12 +70,12 @@
 - Learn
   - Akamai EdgeCompute & EdgeWorkers
   - Akamai Terraform / Docker
-  - Turbo build system - <https://turbo.build>
-  - Deno / Lume / SaaSkit - <https://deno.land>
+  - Turbo build system - https://turbo.build
+  - Deno / Lume / SaaSkit - https://deno.land
   - Rust WASM
     - TypeScript > JavaScript
-    - SWC ( Speedy Web Compiler ) - <https://swc.rs>
-    - <https://doc.rust-lang.org/stable/book/>
+    - SWC ( Speedy Web Compiler ) - https://swc.rs
+    - https://doc.rust-lang.org/stable/book/
   - Svelte - sqlite tennis scorer
 - Edward Lee Elmore Wikipedia page
 - [Tennis](/notes/tennis)

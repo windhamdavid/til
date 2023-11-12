@@ -18,7 +18,7 @@
 
 ###  *The Hundred Best Lists of All Time* - The New Yorker
 
-December 26, 2012 - <https://www.newyorker.com/humor/daily-shouts/the-hundred-best-lists-of-all-time>
+December 26, 2012 - https://www.newyorker.com/humor/daily-shouts/the-hundred-best-lists-of-all-time
 
 ( *my picks and edits with 'fixed' links )
 

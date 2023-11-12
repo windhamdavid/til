@@ -29,8 +29,8 @@ I've recently started learning how to create embeddings using vector databases w
 
 - OpenAi [/docs/saas/openai](/docs/saas/openai)
 - SupaBase [/docs/saas/supabase](/docs/saas/supabase)
-- <https://supabase.com/docs/guides/api>
-- <https://gpt-index.readthedocs.io/en/latest/>
+- https://supabase.com/docs/guides/api
+- https://gpt-index.readthedocs.io/en/latest/
 
 ## Stack
 
@@ -60,48 +60,48 @@ I've recently started learning how to create embeddings using vector databases w
 
 ## Repos 
 
-- PGVector <https://github.com/pgvector/pgvector>
-- SupaBase <https://github.com/supabase/supabase>
-- Docusaurus Integration <https://github.com/facebook/docusaurus/discussions/8835>
-- MarkPrompt <https://github.com/windhamdavid/markprompt>
-- <https://github.com/windhamdavid/dw-markprompt>
-- Mendable <https://supabase.com/customers/mendableai>
-- Llama Index <https://github.com/jerryjliu/llama_index>
-- Llama Hub <https://github.com/emptycrown/llama-hub>
-- Llama Index WordPress <https://github.com/emptycrown/llama-hub/tree/main/loader_hub/wordpress>
-- Llama Index Git Repo <https://llamahub.ai/l/github_repo>
-- Llama Index GPT Retrieval Plugin - <https://llamahub.ai/l/chatgpt_plugin>
+- PGVector https://github.com/pgvector/pgvector
+- SupaBase https://github.com/supabase/supabase
+- Docusaurus Integration https://github.com/facebook/docusaurus/discussions/8835
+- MarkPrompt https://github.com/windhamdavid/markprompt
+- https://github.com/windhamdavid/dw-markprompt
+- Mendable https://supabase.com/customers/mendableai
+- Llama Index https://github.com/jerryjliu/llama_index
+- Llama Hub https://github.com/emptycrown/llama-hub
+- Llama Index WordPress https://github.com/emptycrown/llama-hub/tree/main/loader_hub/wordpress
+- Llama Index Git Repo https://llamahub.ai/l/github_repo
+- Llama Index GPT Retrieval Plugin - https://llamahub.ai/l/chatgpt_plugin
 
 
 ## Resources
 
-- ChatGPT for Supabase Docs - <https://supabase.com/blog/chatgpt-supabase-docs>
-- How I Built Supabase’s OpenAI Doc Search - <https://www.youtube.com/watch?v=Yhtjd7yGGGA>
-- Self-Host Supabase Edge Functions - <https://supabase.com/blog/supabase-beta-update-april-2023>
-- Storing OpenAI embeddings in Postgres with pgvector - <https://supabase.com/blog/openai-embeddings-postgres-vector>
-- Mendable switches from Pinecone to Supabase for vector embeddings - <https://supabase.com/customers/mendableai>
-- Supabase Clippy: ChatGPT for Supabase Docs - <https://supabase.com/blog/chatgpt-supabase-docs>
-- Supabase Vector Columns - <https://supabase.com/docs/guides/ai/vector-columns>
-- $0 Embeddings (OpenAI vs. free & open source) - <https://www.youtube.com/watch?v=QdDoFfkVkcw>
-- Thor Schaeff - Supabase bot Next.js, Langchain - <https://www.youtube.com/watch?v=Tt45NrVIBn8>
-- Haystack 2023 - Roie Schwaber-Cohen: Better Semantic Search with Hybrid (Sparse-Dense) Search - <https://www.youtube.com/watch?v=1a8bdIjjO1A>
-- Roie Schwaber-Cohen - _Vector Embeddings for Developers_ - <https://www.pinecone.io/learn/vector-embeddings-for-developers/>
-- Simon Willison - Vector Embeddings - <https://simonwillison.net/tags/embeddings/>
-- Roie Schwaber-Cohen Github - Ai bot - <https://github.com/rschwabco/ai-chat-bot-vercel>
+- ChatGPT for Supabase Docs - https://supabase.com/blog/chatgpt-supabase-docs
+- How I Built Supabase’s OpenAI Doc Search - https://www.youtube.com/watch?v=Yhtjd7yGGGA
+- Self-Host Supabase Edge Functions - https://supabase.com/blog/supabase-beta-update-april-2023
+- Storing OpenAI embeddings in Postgres with pgvector - https://supabase.com/blog/openai-embeddings-postgres-vector
+- Mendable switches from Pinecone to Supabase for vector embeddings - https://supabase.com/customers/mendableai
+- Supabase Clippy: ChatGPT for Supabase Docs - https://supabase.com/blog/chatgpt-supabase-docs
+- Supabase Vector Columns - https://supabase.com/docs/guides/ai/vector-columns
+- $0 Embeddings (OpenAI vs. free & open source) - https://www.youtube.com/watch?v=QdDoFfkVkcw
+- Thor Schaeff - Supabase bot Next.js, Langchain - https://www.youtube.com/watch?v=Tt45NrVIBn8
+- Haystack 2023 - Roie Schwaber-Cohen: Better Semantic Search with Hybrid (Sparse-Dense) Search - https://www.youtube.com/watch?v=1a8bdIjjO1A
+- Roie Schwaber-Cohen - _Vector Embeddings for Developers_ - https://www.pinecone.io/learn/vector-embeddings-for-developers/
+- Simon Willison - Vector Embeddings - https://simonwillison.net/tags/embeddings/
+- Roie Schwaber-Cohen Github - Ai bot - https://github.com/rschwabco/ai-chat-bot-vercel
 
 
 
 ## Commercial
 
-- Mendable - <https://www.mendable.ai>
-- MarkPrompt - <https://markprompt.com>
+- Mendable - https://www.mendable.ai
+- MarkPrompt - https://markprompt.com
 
 ---
 ## References
 
-1. _Slow Thinking_ - <https://davidawindham.com/slow-thinking/>
-2. _A Second Brain_ - <https://davidawindham.com/a-second-brain/>
-3. _Artificial Intelligence_ - <https://davidawindham.com/artificial-intelligence/>
-4. _Artificial Intelligence (Part 2)_ - <https://davidawindham.com/artificial-intelligence-2/>
+1. _Slow Thinking_ - https://davidawindham.com/slow-thinking/
+2. _A Second Brain_ - https://davidawindham.com/a-second-brain/
+3. _Artificial Intelligence_ - https://davidawindham.com/artificial-intelligence/
+4. _Artificial Intelligence (Part 2)_ - https://davidawindham.com/artificial-intelligence-2/
 5. TIL SasS OpenAI - [/docs/saas/OpenAI](/docs/saas/OpenAI)
 6. MarkPrompt - [https://markprompt.com/docs#react](https://markprompt.com/docs#react)

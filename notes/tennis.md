@@ -15,7 +15,7 @@ NFHS - Cardiac, Abuse, Concussion, Covid
 
 ## Tools 
 
-- UNC Climate Health Vulnerabilities Wet Bulb Tool - <https://convergence.unc.edu/tools/wbgt/>
+- UNC Climate Health Vulnerabilities Wet Bulb Tool - https://convergence.unc.edu/tools/wbgt/
 
 ## Rules 
 

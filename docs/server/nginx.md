@@ -306,8 +306,8 @@ http
 
 ---
 
-<https://github.com/VirtuBox/advanced-nginx-cheatsheet>  
-<https://github.com/VirtuBox/ubuntu-nginx-web-server>
+https://github.com/VirtuBox/advanced-nginx-cheatsheet
+https://github.com/VirtuBox/ubuntu-nginx-web-server
 
 
 **Table of content**

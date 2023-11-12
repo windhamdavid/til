@@ -44,6 +44,45 @@ npm run build
 npm run serve
 ```
 
+**23/11/12** - Docusaurus updated 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
+
+:::danger
+
+This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3). Went in and cleaned up the markdown formatting - mostly the tags on links and code highlighting formatting.
+
+:::
+
+```bash
+david@ovid🏛 :~/sites/daw_til(main○) » npm outdated 
+Package                          Current  Wanted  Latest  Location                                      Depended by
+@docusaurus/core                   2.4.3   3.0.0   3.0.0  node_modules/@docusaurus/core                 daw_til
+@docusaurus/plugin-content-blog    2.4.3   3.0.0   3.0.0  node_modules/@docusaurus/plugin-content-blog  daw_til
+@docusaurus/preset-classic         2.4.3   3.0.0   3.0.0  node_modules/@docusaurus/preset-classic       daw_til
+@docusaurus/theme-mermaid          2.4.3   3.0.0   3.0.0  node_modules/@docusaurus/theme-mermaid        daw_til
+@mdx-js/react                     1.6.22  1.6.22   3.0.0  node_modules/@mdx-js/react                    daw_til
+clsx                               1.2.1   1.2.1   2.0.0  node_modules/clsx                             daw_til
+docusaurus-lunr-search             3.0.0   3.3.0   3.3.0  node_modules/docusaurus-lunr-search           daw_til
+react                             17.0.2  17.0.2  18.2.0  node_modules/react                            daw_til
+react-dom                         17.0.2  17.0.2  18.2.0  node_modules/react-dom                        daw_til
+
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
+daw-til-2@0.0.1 /Users/david/Sites/daw_til
+├── @docusaurus/core@3.0.0
+├── @docusaurus/plugin-content-blog@3.0.0
+├── @docusaurus/preset-classic@3.0.0
+├── @docusaurus/theme-mermaid@3.0.0
+├── @mdx-js/mdx@3.0.0
+├── @mdx-js/react@3.0.0
+├── clsx@2.0.0
+├── docusaurus-lunr-search@3.3.0
+├── docusaurus-plugin-matomo@0.0.6
+├── markprompt@0.1.7
+├── plugin-image-zoom@1.1.0 (git+ssh://git@github.com/flexanalytics/plugin-image-zoom.git#8e1b866c79ed6d42cefc4c52f851f1dfd1d0c7de)
+├── react-dom@18.2.0
+├── react-player@2.13.0
+└── react@18.2.0
+```
+
 **23/09/23** - docusaurus updated -  2.4.1 👉🏼 2.4.3 -> left react at 17 for now, but updated the react player to 2.13. 
 
 ```bash
@@ -308,8 +347,8 @@ docsify serve
   "license": "UNLICENSED",
   "homepage": "https://davidawindham.com"
 }
-
 ```
+
 ```sh
 david@macs:~/sites/til(master⚡) » npm outdated                                                          130 ↵
 Package                      Current         Wanted         Latest  Location
@@ -321,10 +360,7 @@ gitbook-plugin-github-embed    1.1.2          1.3.1          1.3.1  windhamdavid
 
 
 ---
-### Math KaTeX
-$$
-I = \int_0^{2\pi} \sin(x)\,dx
-$$
+
 
 ### Admonitions
 

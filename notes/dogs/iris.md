@@ -1,6 +1,6 @@
 # Iris
 
-#### Post: <https://davidawindham.com/iris>
+#### Post: https://davidawindham.com/iris
 
 ## Log
 
@@ -14,12 +14,13 @@
 - 23.06.09 - 12 Weeks  
   - Cautious but confident. Understands "No, Yes, Sit, Come, Here and her name". Decent recall off leash. Eats everything. Gets testy in the afternoons and wants to chew and nip. 
   - will have last round of vaccines next week.
-  - added updated 12 week photos @ <https://davidawindham.com/iris/>
+  - added updated 12 week photos @ https://davidawindham.com/iris/
 
 ## About
 
-[![zoey+adger](/img/zoey+adger.jpg)](/img/zoey+adger.jpg)  
-<- Zoey & Adger ->
+[![zoey+adger](/img/zoey+adger.jpg)](/img/zoey+adger.jpg)
+
+* 👈🏼 Zoey & Adger 👉🏼 *
 
 **Mom - Zoey**  
 Moore Retrievers / Carolynn Moore  

@@ -11,7 +11,7 @@ description: Just needed a place to put some notes on dogs since we're adopting 
 
 ## About
 
-**23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids. wrote a post about her @ <https://davidawindham.com/iris/>
+**23.01.09** - Just needed a place to put some notes on dogs since we're adopting a new puppy this spring and I'd like to learn as much as I can about training and care. Since the better half works in special education, we're going to get the dog certified as a service animal so that we may take her to schools to work with kids. wrote a post about her @ https://davidawindham.com/iris/
 
 **23.06.20** - I moved the Iris specific info over to [another page](dogs/iris.md) so that I can just use this one for more general information about dogs. 
 
@@ -46,7 +46,7 @@ Other regional breeders:
 - 6-18 Months - Adolescence
 - 7-9 Months - Chewing
 - < 1 year - Research suggest that their bones are not fully developed and should engage in lower impact exercise. 
-- < 1 year - Research suggests that neutering before 1 year affects the rates of joint disease and cancer - "The removal of hormone-producing organs during the first year of a dog’s life leaves the animal vulnerable to the delayed closure of long-bone growth plates." - <https://www.ucdavis.edu/news/golden-retriever-study-suggests-neutering-affects-dog-health>
+- < 1 year - Research suggests that neutering before 1 year affects the rates of joint disease and cancer - "The removal of hormone-producing organs during the first year of a dog’s life leaves the animal vulnerable to the delayed closure of long-bone growth plates." - https://www.ucdavis.edu/news/golden-retriever-study-suggests-neutering-affects-dog-health
 
 ### Avoid
  
@@ -90,12 +90,12 @@ Other regional breeders:
 
 ### Video Testimony
 
-- Portland High School - <https://www.youtube.com/watch?v=oX2fAgN1iJE>
-- Artie - Narona County School District - <https://www.youtube.com/watch?v=EGO5DIB4t8E>
-- Wyoming Department of Education - <https://www.youtube.com/watch?v=ZPHr2v8ycsw>
-- PBS News Hour - <https://www.youtube.com/watch?v=393Pr1bGFUA>
-- Bryant Public Schools-  <https://www.youtube.com/watch?v=bq-p84ltR7g>
-- Educating Greater Manchester - <https://www.youtube.com/watch?v=hNfP85NLMDQ>
+- Portland High School - https://www.youtube.com/watch?v=oX2fAgN1iJE
+- Artie - Narona County School District - https://www.youtube.com/watch?v=EGO5DIB4t8E
+- Wyoming Department of Education - https://www.youtube.com/watch?v=ZPHr2v8ycsw
+- PBS News Hour - https://www.youtube.com/watch?v=393Pr1bGFUA
+- Bryant Public Schools-  https://www.youtube.com/watch?v=bq-p84ltR7g
+- Educating Greater Manchester - https://www.youtube.com/watch?v=hNfP85NLMDQ
 
 
 ### Organizations
@@ -155,9 +155,9 @@ Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley
  - BBC Earth - Dog Understands 1022 Words! - https://www.youtube.com/watch?v=Ip_uVTWfXyI
 
 
-Keen Dog Training Rock Hill SC - <https://www.keendogtraining.com/> 
-Keen Dog Training puppy training series - <https://www.youtube.com/watch?v=aj3kVFx_AMQ&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu>
-Keen Dog - What to focus on Month 2 - <https://www.youtube.com/watch?v=9__L9N1V2jE&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu>  
+Keen Dog Training Rock Hill SC - https://www.keendogtraining.com/
+Keen Dog Training puppy training series - https://www.youtube.com/watch?v=aj3kVFx_AMQ&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
+Keen Dog - What to focus on Month 2 - https://www.youtube.com/watch?v=9__L9N1V2jE&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
 
 #### Words / Signs
 

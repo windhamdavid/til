@@ -17,7 +17,7 @@
 
 ## About
 
-I've learned to try and love my work. I've also learned the irregardless of my abilities that it still mostly revolves around relationships. I'd like to say that the majority of my work is fun, but I need to support myself and that's not necessarily always the case. I use my this domain <https://davidwindham.com> for my current work which I've duplicated the content below.  
+I've learned to try and love my work. I've also learned the irregardless of my abilities that it still mostly revolves around relationships. I'd like to say that the majority of my work is fun, but I need to support myself and that's not necessarily always the case. I use my this domain https://davidwindham.com for my current work which I've duplicated the content below.  
 
 I'm lucky to have fallen into a career I enjoy. I seriously doubt that even in my older age that I'll give up on it entirely to retire to [painting watercolors](/notes/art) and [gardening](/notes/garden). The computer monitors have taken a bit of a toll on my eyes, so I try to avoid the screens when I'm not working. 
 

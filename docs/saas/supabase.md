@@ -10,19 +10,19 @@ I started with an [AI project](/ai) to import all of the markdown files from thi
 
 ## Dashboard 
 
-- <https://supabase.com/dashboard/>
+- https://supabase.com/dashboard/
 
 ## Docs
 
-- Docs <https://supabase.com/docs>
-- Guides <https://supabase.com/docs/guides>
- - Adding Generative Q&A - <https://supabase.com/docs/guides/ai/examples/headless-vector-search>
-- AI & Vectors <https://supabase.com/vector>
+- Docs https://supabase.com/docs
+- Guides https://supabase.com/docs/guides
+ - Adding Generative Q&A - https://supabase.com/docs/guides/ai/examples/headless-vector-search
+- AI & Vectors https://supabase.com/vector
 
 ## Repos
 
-- Main <https://github.com/supabase/supabase>
-- Realtime - <https://github.com/supabase/realtime>
+- Main https://github.com/supabase/supabase
+- Realtime - https://github.com/supabase/realtime
 
 ## Notes
 

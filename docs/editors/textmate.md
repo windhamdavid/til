@@ -79,7 +79,7 @@ move to the end of all lines (⌘→):
 |   |                                                                                          |  
 |   | Ruby on Rails                                                                            |  
 |   | ⌃H Ruby and Ruby on Rails Docs                                                           |  
-|   | %{ Toggle Block Style (do..end / {})                                                     |  
+|   | % Toggle Block Style (do..end / {})                                                     |  
 |   | ⌘⇧H Create Partial from Selection                                                        |  
 |   | ⌃⇧M Quick Migration                                                                      |  
 |   | ⌃L Hash Arrow                                                                            |  

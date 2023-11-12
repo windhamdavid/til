@@ -609,7 +609,7 @@ hide_table_of_contents: true
 |@taylorotwell|Taylor Otwell 🪐|Founded and creating Laravel for the happiness of all sentient beings especially developers. Space pilgrim. 💍 @abigailotwell.|
 |@tdominey|Todd Dominey||
 |@technoweenie|🎧🖥🌭|offline mutation // breathe / drink water / eat comics / learn to swim|
-|@tellyworth|“parody” Alex ''!--‹›=&{()}|Alex “parody” Shiels. Developer and code archeologist at Automattic Inc. Photography at https://t.co/A5BzcQ9HIb and https://t.co/z4qKm2lHHE. I block fuckwits.|
+|@tellyworth|“parody” Alex ''!--‹›=&()|Alex “parody” Shiels. Developer and code archeologist at Automattic Inc. Photography at https://t.co/A5BzcQ9HIb and https://t.co/z4qKm2lHHE. I block fuckwits.|
 |@tenderlove|Aaron Patterson|Job: @ShopifyOpinions: MinePGP: 4CE9 1B75 A798 28E8 6B1A  A8BB 9531 70BC B4FF AFC6Switch: SW-6099-0664-6989Partner: @ebiltwin and cats.he/him|
 |@thadallender|Thad Allender|Whoa internets!|
 |@thagler|Tobby Hagler|I have nothing clever to add here.|
@@ -1299,7 +1299,7 @@ hide_table_of_contents: true
 |@taylorotwell|Taylor Otwell 🪐|Founded and creating Laravel for the happiness of all sentient beings especially developers. Space pilgrim. 💍 @abigailotwell.|
 |@tdominey|Todd Dominey||
 |@technoweenie|🎧🖥🌭|offline mutation // breathe / drink water / eat comics / learn to swim|
-|@tellyworth|“parody” Alex ''!--‹›=&{()}|Alex “parody” Shiels. Developer and code archeologist at Automattic Inc. Photography at https://t.co/A5BzcQ9HIb and https://t.co/z4qKm2lHHE. I block fuckwits.|
+|@tellyworth|“parody” Alex ''!--‹›=&()|Alex “parody” Shiels. Developer and code archeologist at Automattic Inc. Photography at https://t.co/A5BzcQ9HIb and https://t.co/z4qKm2lHHE. I block fuckwits.|
 |@tenderlove|Aaron Patterson|Job: @ShopifyOpinions: MinePGP: 4CE9 1B75 A798 28E8 6B1A  A8BB 9531 70BC B4FF AFC6Switch: SW-6099-0664-6989Partner: @ebiltwin and cats.he/him|
 |@thadallender|Thad Allender|Whoa internets!|
 |@thagler|Tobby Hagler|I have nothing clever to add here.|

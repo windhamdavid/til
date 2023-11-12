@@ -32,4 +32,4 @@ These are the possible poisonous mushrooms that might be found in South Carolina
 
 ## Cultivating Truffles 
 
-- Carolina Truffieres - <https://www.carolinatruffieres.com/our-seedlings/>
+- Carolina Truffieres - https://www.carolinatruffieres.com/our-seedlings/

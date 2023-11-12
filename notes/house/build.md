@@ -1,6 +1,6 @@
 # Build
 
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. The original post on this idea with some notes is available @ <https://davidawindham.com/architecture/>
+We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. The original post on this idea with some notes is available @ https://davidawindham.com/architecture/
 
 ![house-build](/img/house-build.jpg)
 
@@ -48,9 +48,9 @@ We'd like to build one more house that's single story, accessible, affordable, e
 July 2023 median sales price is **$406,700** which is a 57% increase from the Jan 2020 price of $266,300. **$348,126** Zillow avg home value Sept 2023. Zillow avg for zip 28756 is **$346,379**.
 
 - ( 2022 ) 2,100 square foot spec home costs a national average of **$332,397** 
-  - <https://todayshomeowner.com/home-finances/guides/cost-of-building-a-home-by-state/>
+  - https://todayshomeowner.com/home-finances/guides/cost-of-building-a-home-by-state/
 - The average price per acre of single-family, residential land in 2019 was $152,000
-  - <https://www.sciencedirect.com/science/article/pii/S0304393220301379#ec-research-data>
+  - https://www.sciencedirect.com/science/article/pii/S0304393220301379#ec-research-data
 
 | Exterior | -- | Interior | -- |
 |--|--|--|--|
@@ -104,9 +104,9 @@ Weather, Groceries, Healthcare, Taxes, Accessibility, Social, and Demographics a
 #### Red Fox / Blue Bird Lots
 
 29 Red Fox Cir, Tryon, NC 28782 - 
-<https://www.zillow.com/homedetails/29-Red-Fox-Cir-Tryon-NC-28782/2095630237_zpid/>
+https://www.zillow.com/homedetails/29-Red-Fox-Cir-Tryon-NC-28782/2095630237_zpid/
 
-<https://www.zillow.com/homedetails/0-Red-Fox-Cir-Tryon-NC-28782/2115025849_zpid/>
+https://www.zillow.com/homedetails/0-Red-Fox-Cir-Tryon-NC-28782/2115025849_zpid/
 
 Red Fox Future, LLC v. Holbrooks - https://www.nccourts.gov/assets/documents/opinions/2014_NCBC_8.pdf?VersionId=IekuqeAIVscxaVO1pjkYpKW9HaCFpxAC
 
@@ -117,7 +117,7 @@ https://scholar.google.com/scholar_case?case=4634888997300533561
 
 #### Lake Adger Lots
 
-<https://en.wikipedia.org/wiki/Lake_Adger>
+https://en.wikipedia.org/wiki/Lake_Adger
 
 - The neighborhood called North Highland Farms in original plats.  
 - The public boat landing that is leased from Lake Adger Homeowners Association by the North Carolina Wildlife Resources Commission for public boating and fishing
@@ -126,21 +126,21 @@ https://scholar.google.com/scholar_case?case=4634888997300533561
   - [ongoing dredging](https://dredgewire.com/lake-adger-marina-to-be-dredged-soon/) 
 - [Reclassification of Green River Segment Report](https://files.nc.gov/ncdeq/Environmental%20Management%20Commission/EMC%20Meetings/2014/July2014/Attachments/Attachment_A_toAG14-23_ROPforGreenRiverPropReclass.pdf)
 - [Water analysis](https://cms4files1.revize.com/polk/Lake%20Adger%20Utility%20Appraisal-2016-Revised.pdf)
-- POA origin - Phillip R. Feagan <http://feaganlawfirm.com/>
+- POA origin - Phillip R. Feagan http://feaganlawfirm.com/
 
-Twin Maple Way 2.16ac $90k - <https://www.zillow.com/homedetails/0-Twin-Maple-Way-5-Mill-Spring-NC-28756/2060531025_zpid/>
+Twin Maple Way 2.16ac $90k - https://www.zillow.com/homedetails/0-Twin-Maple-Way-5-Mill-Spring-NC-28756/2060531025_zpid/
 
-Lots 50 & 50a Mountain Pkwy, Mill Spring, NC 28756 3.12ac $110k- <https://www.zillow.com/homedetails/Lots-50-50a-Mountain-Pkwy-Mill-Spring-NC-28756/2055931051_zpid/>
+Lots 50 & 50a Mountain Pkwy, Mill Spring, NC 28756 3.12ac $110k- https://www.zillow.com/homedetails/Lots-50-50a-Mountain-Pkwy-Mill-Spring-NC-28756/2055931051_zpid/
 
-Highland View 4.52ac $90k - <https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/<> - [521 Highland View Ln, Mill Spring, NC 28756](https://www.google.com/maps/place/521+Highland+View+Ln,+Mill+Spring,+NC+28756)
+Highland View 4.52ac $90k - https://www.zillow.com/homedetails/0-Highland-View-Ln-18-Mill-Spring-NC-28756/2071477199_zpid/ - [521 Highland View Ln, Mill Spring, NC 28756](https://www.google.com/maps/place/521+Highland+View+Ln,+Mill+Spring,+NC+28756)
 
 
 
 #### Location References
 
-Saluda Grade tracks being converted ( from Landrum to Saluda ) - <https://www.postandcourier.com/spartanburg/news/norfolk-southern-to-sell-saluda-grade-tracks-for-sc-to-nc-rail-trail/article_be5e93c4-c36e-11ed-922c-4b4227cd2da6.html>
+Saluda Grade tracks being converted ( from Landrum to Saluda ) - https://www.postandcourier.com/spartanburg/news/norfolk-southern-to-sell-saluda-grade-tracks-for-sc-to-nc-rail-trail/article_be5e93c4-c36e-11ed-922c-4b4227cd2da6.html
 
-Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
+Ecusta Trail - Hendersonville to Brevard - https://www.ecustatrail.org
 
 ---
 
@@ -155,17 +155,17 @@ Ecusta Trail - Hendersonville to Brevard - <https://www.ecustatrail.org>
 
 ### Architecture
 
-Architecture - <https://davidawindham.com/architecture/> 
+Architecture - https://davidawindham.com/architecture/
 
 - Cold Frame Steel
 
 #### Architects
 
-- Altura - Asheville NC - <https://alturaarchitects.com/work/>
-- RuegerRiley - <https://www.ruegerriley.com>
-- John Walters - <https://jwaltersarch.com>
-- Heather Schlender - <https://storyofyourhome.com/about.html>
-- Renderings - Dave Philip Walen - Tryon NC - <https://davephilipwalen.com>
+- Altura - Asheville NC - https://alturaarchitects.com/work/
+- RuegerRiley - https://www.ruegerriley.com
+- John Walters - https://jwaltersarch.com
+- Heather Schlender - https://storyofyourhome.com/about.html
+- Renderings - Dave Philip Walen - Tryon NC - https://davephilipwalen.com
 
 #### Engineers
 
@@ -175,13 +175,13 @@ Architecture - <https://davidawindham.com/architecture/>
 
 ### Contractors
 
-- 👉🏼 Greg Junge Construction - <https://www.junge.construction>
-- 👉🏼 David Washburn - Washburn Builders - <https://www.washburnbuildersnc.com>
-- 👉🏼 Wally Hughes Construction - <http://hugheswnc.com>
-- Green River Builders - <https://www.greenriverbuilders.net>
-- Red Tree Builders - <https://www.redtreebuilders.com>
-- Todd Usher - Addison Homes - <https://www.addison-homes.com/our-team>
-- John Judd - Judd Builders - <https://www.juddbuilders.net/>
+- 👉🏼 Greg Junge Construction - https://www.junge.construction
+- 👉🏼 David Washburn - Washburn Builders - https://www.washburnbuildersnc.com
+- 👉🏼 Wally Hughes Construction - http://hugheswnc.com
+- Green River Builders - https://www.greenriverbuilders.net
+- Red Tree Builders - https://www.redtreebuilders.com
+- Todd Usher - Addison Homes - https://www.addison-homes.com/our-team
+- John Judd - Judd Builders - https://www.juddbuilders.net/
 
 #### Concrete
 
@@ -189,7 +189,7 @@ Architecture - <https://davidawindham.com/architecture/>
 
 #### Framing ( Metal )
 
-- E.S. Walker Construction & Walker Building Systems - Forest City, NC - <https://eswalkerconstruction.com>
+- E.S. Walker Construction & Walker Building Systems - Forest City, NC - https://eswalkerconstruction.com
 
 
 
@@ -205,7 +205,7 @@ Architecture - <https://davidawindham.com/architecture/>
 
 ##### Doors / Windows
 
-Marvin ( <https://marvin.com> ) uses butted joing instead of mitered
+Marvin ( https://marvin.com ) uses butted joing instead of mitered
 - North Windows (4) Marvin Double Hung G2
 - North Door (1 - double ) 96" x 96"
 - South Entrance Doors - (3)  Mavin 3 Pane Sliding w/Screen ( 107” x 96” )
@@ -222,19 +222,19 @@ Marvin ( <https://marvin.com> ) uses butted joing instead of mitered
 
 ### Metal Framing
 
-- Star Building Systems - <https://www.starbuildings.com>
-- McElroy Metal - Columbia, SC <https://www.mcelroymetal.com>
+- Star Building Systems - https://www.starbuildings.com
+- McElroy Metal - Columbia, SC https://www.mcelroymetal.com
 - Vulcan Steel - Georgia
 
 ### Orgs
 
-- Structural Insulated Panel Association - <https://www.sips.org>
-- Steel Framing Industry Association - <https://www.steelframing.org>
+- Structural Insulated Panel Association - https://www.sips.org
+- Steel Framing Industry Association - https://www.steelframing.org
 
 ---
 
 ### Inspiration
 
- - Booken House at Sandhill - <https://www.youtube.com/watch?v=co2HYBaB_7A>
- - 5894 Highwood Rd, Castro Valley, CA 94552 <https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/?>
- - Good Haus - Atmosphere Design Build - <https://www.atmospheredesignbuild.com/good-haus> / <https://www.rockwool.com/north-america/advice-and-inspiration/case-studies/2018-fine-homebuilding-california-house/>
+ - Booken House at Sandhill - https://www.youtube.com/watch?v=co2HYBaB_7A
+ - 5894 Highwood Rd, Castro Valley, CA 94552 https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/
+ - Good Haus - Atmosphere Design Build - https://www.atmospheredesignbuild.com/good-haus / https://www.rockwool.com/north-america/advice-and-inspiration/case-studies/2018-fine-homebuilding-california-house/

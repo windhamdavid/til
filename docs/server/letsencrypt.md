@@ -162,11 +162,11 @@ Inside the server block, add this location block:
 
 Add to SSL server block
 
-
+```
             location ~ /.well-known {
                     allow all;
             }
-
+```
 
 You will also want look up what your document root is set to by searching for the `root` directive, as the path is required to use the Webroot plugin. If you're using the default configuration file, the root will be `/var/www/html`.
 
@@ -341,7 +341,7 @@ Inside, your server block probably begins like this:
 
 /etc/nginx/sites-available/default
 
-
+```
     server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -352,7 +352,7 @@ Inside, your server block probably begins like this:
         # listen [::]:443 ssl default_server;
 
         . . .
-
+```
 
 We will be modifying this configuration so that unencrypted HTTP requests are automatically redirected to encrypted HTTPS. This offers the best security for our sites. If you want to allow both HTTP and HTTPS traffic, use the alternative configuration that follows.
 
@@ -360,7 +360,7 @@ We will be splitting the configuration into two separate blocks. After the two f
 
 /etc/nginx/sites-available/default
 
-
+```
     server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -374,7 +374,7 @@ We will be splitting the configuration into two separate blocks. After the two f
         # listen [::]:443 ssl default_server;
 
         . . .
-
+```
 
 Next, we need to start a new server block directly below to contain the remaining configuration. We can uncomment the two `listen` directives that use port 443. We can add `http2` to these lines in order to enable HTTP/2 within this block. Afterwards, we just need to include the two snippet files we set up:
 
@@ -382,7 +382,7 @@ Next, we need to start a new server block directly below to contain the remainin
 
 /etc/nginx/sites-available/default
 
-
+```
     server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -400,7 +400,7 @@ Next, we need to start a new server block directly below to contain the remainin
         include snippets/ssl-params.conf;
 
         . . .
-
+```
 
 Save and close the file when you are finished.
 
@@ -410,7 +410,7 @@ If you want or need to allow both encrypted and unencrypted content, you will ha
 
 /etc/nginx/sites-available/default
 
-
+```
     server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -422,7 +422,7 @@ If you want or need to allow both encrypted and unencrypted content, you will ha
         include snippets/ssl-params.conf;
 
         . . .
-
+```
 
 Save and close the file when you are finished.
 

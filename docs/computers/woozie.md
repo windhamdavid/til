@@ -28,7 +28,7 @@ sudo crontab -e
 - ~~custom apache/nginx error pages~~
 - ~~code.daw~~
   - ~~email settings for code.daw~~
-  - ~~gogs submodules issue - <https://github.com/gogs/gogs/issues/6436>~~
+  - ~~gogs submodules issue - https://github.com/gogs/gogs/issues/6436~~
     - ~~patch has landed in 0.13.0+dev, and will be back-ported to 0.12.11 (no ETA).~~
 - ~~daw.com/wik/mail/reader/bookmarks~~
   - migrating to php v7.4.33 need to test with 8.1
@@ -42,8 +42,8 @@ sudo crontab -e
 - ~~add nginx to monit~~
 - Monit actions redirect to root /url
 - ~~longview MariaDB conf~~
-  - ~~ticket submitted about <https://github.com/linode/longview/pull/49>~~
-- ~~upgrade openssl <https://nvd.nist.gov/vuln/detail/CVE-2023-0286>~~
+  - ~~ticket submitted about https://github.com/linode/longview/pull/49~~
+- ~~upgrade openssl https://nvd.nist.gov/vuln/detail/CVE-2023-0286~~
   - see [#Security ESM Pro](#security)
 - configure remote db connections for Redis/MariaDB
   - ~~allow ip / auth~~
@@ -68,9 +68,9 @@ scp -P (port) -C -i ~/.ssh/tempkey -p user@ip.ip.ip.ip:/home/user/file /home/use
 
 173.230.130.234  
 45.79.219.165  
-<http://173.230.130.234>  
-<http://45.79.219.165>  
-<https://dev.davidawindham.com>  
+http://173.230.130.234  
+http://45.79.219.165  
+https://dev.davidawindham.com  
 2600:3c02::f03c:93ff:fefc:319e  
 Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
 AMD EPYC 7542 32-Core Processor  
@@ -274,7 +274,7 @@ sudo systemctl restart rsyslog
 
 ### ESM Pro
 
-<https://ubuntu.com/pro/tutorial>
+https://ubuntu.com/pro/tutorial
 
 ```bash
 user@woozie:~ » pro --version
@@ -566,7 +566,7 @@ sudo service monit status
 
 ### Blacklist
 
-see repo @ <https://code.davidawindham.com/david/custom.d>
+see repo @ https://code.davidawindham.com/david/custom.d
 
 ```bash
 # apache

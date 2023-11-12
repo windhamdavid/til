@@ -7,7 +7,7 @@
 
 
 ## Queries
-{: .-three-column}
+
 
 ### Basic query
 
@@ -20,7 +20,7 @@
 ```js
 { status: 'available' }
 ```
-{: .-setup}
+
 
 ### Nesting
 
@@ -35,7 +35,7 @@
     { name: "Luke Skywalker",
       height: 1.74 } }
 ```
-{: .-setup}
+
 
 ### Lists
 
@@ -51,7 +51,7 @@
       { name: "Han Solo" },
       { name: "R2D2" } ] }
 ```
-{: .-setup}
+
 
 GraphQL queries look the same for both single items or lists of items.
 
@@ -70,7 +70,7 @@ GraphQL queries look the same for both single items or lists of items.
     { id: "1000",
     { name: "Luke Skywalker" } }
 ```
-{: .-setup}
+
 
 ### Aliases
 
@@ -89,7 +89,7 @@ GraphQL queries look the same for both single items or lists of items.
     han:
     { name: "Han Solo" } }
 ```
-{: .-setup}
+
 
 ### Operation names and variables
 
@@ -168,7 +168,6 @@ fetch('http://myapi/graphql', {
 
 Schema
 ------
-{: .-three-column}
 
 ### Basic schemas
 
@@ -246,7 +245,7 @@ type Root {
   direction: DIRECTION!
 }
 ```
-{: data-line="1,2,3,4"}
+
 
 ### Unions
 
@@ -260,13 +259,12 @@ type Query {
   search(q: String) [Result]
 }
 ```
-{: data-line="4"}
 
 References
 ----------
 
-- <http://graphql.org/learn/queries/>
-- <http://graphql.org/learn/serving-over-http/>
+- http://graphql.org/learn/queries/
+- http://graphql.org/learn/serving-over-http/
 
 # Essential quotes
 * "GraphQL is about asking for specific fields on objects"

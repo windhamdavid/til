@@ -15,7 +15,7 @@ Install PostgreSQL from the Ubuntu package repository:
 
 By default, PostgreSQL will create a Linux user named `postgres` to access the database software.
 
-{: .caution}
+:::warning
 >
 >The `postgres` user should not be used for for other purposes (e.g. connecting to other networks). Doing so presents a serious risk to the security of your databases.
 
@@ -110,7 +110,7 @@ Commands in this section should be run as the `postgres` Linux user unless other
 
 1.  Edit the `/etc/postgresql/9.5/main/pg_hba.conf` file, under the `# "local" is for Unix domain socket connections only` header:
 
-    {: .file-excerpt }
+
     /etc/postgresql/9.5/main/pg_hba.conf
     :   ~~~
         # "local" is for Unix domain socket connections only
