@@ -6,6 +6,10 @@
 
 ## Notes: 
 
+#### 23/11/12
+
+- update 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
+
 #### 23/08/18
 
 - added private and draft notes with git controls. log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
