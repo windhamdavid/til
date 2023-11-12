@@ -51,16 +51,6 @@ npm run serve
 
 **23/11/12** - Docusaurus updated 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
 
-:::danger
-
-This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at:
-- [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)
-- [https://github.com/facebook/docusaurus/discussions/9312](https://github.com/facebook/docusaurus/discussions/9312). 
-
-Went in and cleaned up the markdown formatting - mostly the tags on links and indented code highlighting formatting.
-
-:::
-
 ```bash
 david@ovid🏛 :~/sites/daw_til(main○) » npm outdated 
 Package                          Current  Wanted  Latest  Location                                      Depended by
@@ -73,7 +63,42 @@ clsx                               1.2.1   1.2.1   2.0.0  node_modules/clsx     
 docusaurus-lunr-search             3.0.0   3.3.0   3.3.0  node_modules/docusaurus-lunr-search           daw_til
 react                             17.0.2  17.0.2  18.2.0  node_modules/react                            daw_til
 react-dom                         17.0.2  17.0.2  18.2.0  node_modules/react-dom                        daw_til
+```
 
+:::danger
+
+v3 now requires React 18 and Typescript 5
+
+This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at:
+- [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)
+- [https://github.com/facebook/docusaurus/discussions/9312](https://github.com/facebook/docusaurus/discussions/9312). 
+
+Went in and cleaned up the markdown formatting - mostly the tags on links and indented code highlighting formatting.
+
+:::
+
+The build process was also failing due to some errors defining text wrapped in `{}` 👇🏼
+
+```bash
+Error: Failed to compile due to Webpack errors.
+  Error: Docusaurus server-side rendering could not render static page with path /docs/editors/git because of error: stash_number is not defined
+
+  Error: Docusaurus server-side rendering could not render static page with path /docs/lang/Rust because of error: url is not defined
+
+  Error: Docusaurus server-side rendering could not render static page with path /docs/shell/zsh because of error: bz2 is not defined
+
+  Error: Docusaurus server-side rendering could not render static page with path /lists/tweets_follow because of error: SoftwareHardwareDeveloperDesignerMakerInventor is not defined
+      at /Users/david/Sites/daw_til/node_modules/@docusaurus/core/lib/webpack/utils.js:207:24
+      at /Users/david/Sites/daw_til/node_modules/webpack/lib/MultiCompiler.js:554:14
+      at processQueueWorker (/Users/david/Sites/daw_til/node_modules/webpack/lib/MultiCompiler.js:491:6)
+      at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+}
+
+[INFO] Docusaurus version: 3.0.0
+Node version: v18.12.1
+```
+
+```
 david@ovid🏛 :~/sites/daw_til(main⚡) » npm list     
 daw-til-2@0.0.1 /Users/david/Sites/daw_til
 ├── @docusaurus/core@3.0.0

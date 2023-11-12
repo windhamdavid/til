@@ -4,10 +4,7 @@
 * [https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/)
 
 
-```
 #### notes ####
-
-```
 ---
 
 
@@ -925,10 +922,10 @@ Custom errors & types in Response
     }
 ```
 Configure Rocket.toml
-
+```
     [global.databases]
     doodlebase = {url = "postgres://acct:pw@localhost/dbname"}
-
+```
 ### Sessions
 ```
     //in session.rs
@@ -976,7 +973,7 @@ Configure Rocket.toml
     )
 ```
 ## CLI
-
+```
 **Crate**: clap
 
     use clap::{clap_app, crate_version};
@@ -1002,3 +999,4 @@ Configure Rocket.toml
     				// access value:
     	      sub.value_of("field_1").unwrap()
     }
+```

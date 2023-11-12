@@ -1,4 +1,5 @@
 # git
+
 * [https://git-scm.com/](https://git-scm.com/)
 
 ### Notes:
@@ -202,9 +203,10 @@ $ git stash apply
 ```
 
 #### Restore particular stash back to current branch:
+```shell
 - *{stash_number}* can be obtained from `git stash list`
 
-```shell
+
 $ git stash apply stash@{stash_number}
 ```
 

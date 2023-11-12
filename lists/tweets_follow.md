@@ -327,7 +327,7 @@ hide_table_of_contents: true
 |@jmar777|Jeremy Martin|Software Engineer @ https://t.co/nOEWl36YTW ༶ Full-time Programmer ༶ Part-time Ranter ༶ Traveler ༶ Photographer ༶ AI Art ༶ Husband ༶ Father ༶ Simul Iustus et Peccator|
 |@jmvidal|Jose M Vidal|Professor Computer Science and Engineering U. of South Carolina.|
 |@joaoflux|joaoflux|(almost) unborable flow artist & bullshit designer|
-|@joewalnes|Joe Walnes|{SoftwareHardwareDeveloperDesignerMakerInventor}Work at Apple on future technology. Come join me.Previously: {GoogleThoughtWorksTradingFounder}|
+|@joewalnes|Joe Walnes| SoftwareHardwareDeveloperDesignerMakerInventor Work at Apple on future technology. Come join me.Previously: GoogleThoughtWorksTradingFounder|
 |@joe_hoyle|Joe Hoyle|Co-founder & CTO @humanmadeltd @altisdxp @joehoyle@fosstodon.org|
 |@johndbritton|John Britton|Founder of https://t.co/cGji88bEuP (@raisedevs) – Developer and Educator. Curious. College escapee. World traveling vagabond. Past: @github @p2pu @mozilla @twilio.|
 |@JohnDCook|John D. Cook|I turn business problems into math problems then solve them.|
@@ -1017,7 +1017,7 @@ hide_table_of_contents: true
 |@jmar777|Jeremy Martin|Software Engineer @ https://t.co/nOEWl36YTW ༶ Full-time Programmer ༶ Part-time Ranter ༶ Traveler ༶ Photographer ༶ AI Art ༶ Husband ༶ Father ༶ Simul Iustus et Peccator|
 |@jmvidal|Jose M Vidal|Professor Computer Science and Engineering U. of South Carolina.|
 |@joaoflux|joaoflux|(almost) unborable flow artist & bullshit designer|
-|@joewalnes|Joe Walnes|{SoftwareHardwareDeveloperDesignerMakerInventor}Work at Apple on future technology. Come join me.Previously: {GoogleThoughtWorksTradingFounder}|
+|@joewalnes|Joe Walnes|SoftwareHardwareDeveloperDesignerMakerInventor Work at Apple on future technology. Come join me.Previously: GoogleThoughtWorksTradingFounder|
 |@joe_hoyle|Joe Hoyle|Co-founder & CTO @humanmadeltd @altisdxp @joehoyle@fosstodon.org|
 |@johndbritton|John Britton|Founder of https://t.co/cGji88bEuP (@raisedevs) – Developer and Educator. Curious. College escapee. World traveling vagabond. Past: @github @p2pu @mozilla @twilio.|
 |@JohnDCook|John D. Cook|I turn business problems into math problems then solve them.|
