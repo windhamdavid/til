@@ -1,4 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+import {themes as prismThemes} from 'prism-react-renderer'
+
 module.exports = {
   title: 'David Windham | TIL',
   tagline: 'Because Today I Learned',
@@ -84,7 +87,8 @@ module.exports = {
       },
     },
     prism: {
-      additionalLanguages: ['php', 'rust', 'shell-session', 'swift', 'diff'],
+      theme: prismThemes.oneDark,
+      additionalLanguages: ['php', 'rust', 'bash', 'shell-session', 'swift', 'diff'],
     },
     colorMode: {
       defaultMode: 'dark',

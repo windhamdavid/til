@@ -41,13 +41,17 @@ gitGraph
 - https://github.com/windhamdavid/til
 
 ### Docusaurus
+
 [https://docusaurus.io/docs](https://docusaurus.io/docs)
+
 ```bash
 npm install
 npm run start
 npm run build  
 npm run serve
 ```
+
+#### v3.0.0
 
 **23/11/12** - Docusaurus updated 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
 
@@ -67,26 +71,21 @@ react-dom                         17.0.2  17.0.2  18.2.0  node_modules/react-dom
 
 :::danger
 
-v3 now requires React 18 and Typescript 5
+Docusaurus v3 now requires React 18 and Typescript 5
 
 This introduced a bunch of breaking errors in the markdown formatting via the MDX formatting that are documented at:
 - [https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3](https://docusaurus.io/blog/preparing-your-site-for-docusaurus-v3)
 - [https://github.com/facebook/docusaurus/discussions/9312](https://github.com/facebook/docusaurus/discussions/9312). 
 
-Went in and cleaned up the markdown formatting - mostly the tags on links and indented code highlighting formatting.
-
 :::
 
-The build process was also failing due to some errors defining text wrapped in `{}` 👇🏼
+Went in and cleaned up the markdown formatting - mostly the tags on links and indented code highlighting formatting.The build process was also failing due to some errors defining text wrapped in `{}` 👇🏼
 
 ```bash
 Error: Failed to compile due to Webpack errors.
   Error: Docusaurus server-side rendering could not render static page with path /docs/editors/git because of error: stash_number is not defined
-
   Error: Docusaurus server-side rendering could not render static page with path /docs/lang/Rust because of error: url is not defined
-
   Error: Docusaurus server-side rendering could not render static page with path /docs/shell/zsh because of error: bz2 is not defined
-
   Error: Docusaurus server-side rendering could not render static page with path /lists/tweets_follow because of error: SoftwareHardwareDeveloperDesignerMakerInventor is not defined
       at /Users/david/Sites/daw_til/node_modules/@docusaurus/core/lib/webpack/utils.js:207:24
       at /Users/david/Sites/daw_til/node_modules/webpack/lib/MultiCompiler.js:554:14
