@@ -14,6 +14,8 @@ upgrade_oh_my_zsh
 [Source](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet "Permalink to Cheatsheet · robbyrussell/oh-my-zsh Wiki · GitHub")
 ##  Commands
 
+```
+
 | Command               | Description                                                                                                                  |  
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |  
 | _tabs_                | Create a new tab in the current directory (macOS - requires enabling access for assistive devices under System Preferences). |  
@@ -25,6 +27,7 @@ upgrade_oh_my_zsh
 | source ~/.zshrc       | Uptake new changes                                                                                                           |  
 
 * * *
+```
 
 | Alias   | Command                               |  
 | ------- | ------------------------------------- |  

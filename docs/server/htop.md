@@ -1,15 +1,15 @@
 
 
 #### **NAME**
-
+```
        htop - interactive process viewer
-
+```
 #### **SYNOPSIS**
-
+```
        **htop** **\[**\-dChusv\]
-
+```
 #### **DESCRIPTION**
-
+```
        Htop is a free (GPL) ncurses-based process viewer for Linux.
 
        It is similar to top, but allows you to scroll vertically and horizontally, so you can see
@@ -18,9 +18,9 @@
        once.
 
        Tasks related to processes (killing, renicing) can be done without entering their PIDs.
-
+```
 #### **COMMAND-LINE** **OPTIONS**
-
+```
        Mandatory arguments to long options are mandatory for short options too.
 
        **\-d** **\--delay=DELAY**
@@ -43,9 +43,9 @@
 
        **\-v** **\--version**
               Output version information and exit
-
+```
 #### **INTERACTIVE** **COMMANDS**
-
+```
        The following commands are supported while in htop:
 
        **Up,** **Alt-k**
@@ -168,9 +168,9 @@
 
        **Numbers**
             PID search: type in process ID and the selection highlight will be moved to it.
-
+```
 #### **COLUMNS**
-
+```
        The  following columns can display data about each process. A value of '-' in all the rows
        indicates that a column is unsupported on your system, or currently unimplemented in htop.
        The  names below are the ones used in the "Available Columns" section of the setup screen.
@@ -351,9 +351,9 @@
 
        **All** **other** **flags**
             Currently unsupported (always displays '-').
-
+```
 #### **CONFIG** **FILE**
-
+```
        By  default htop reads its configuration from the XDG-compliant path [~/.config/htop/htoprc](file:~/.config/htop/htoprc)
        -- the configuration file is overwritten by htop's in-program Setup configuration,  so  it
        should  not be hand-edited. If no user configuration exists htop tries to read the system-
@@ -363,12 +363,13 @@
        You  may  override  the  location  of the configuration file using the $HTOPRC environment
        variable (so you can have multiple configurations for different machines  that  share  the
        same home directory, for example).
-
+```
 #### **MEMORY** **SIZES**
-
+```
        Memory  sizes  in htop are displayed as they are in tools from the GNU Coreutils (when ran
        with the --human-readable option). This means that sizes are printed in  powers  of  1024.
        (e.g., 1023M = 1072693248 Bytes)
 
        The  decision  to  use this convention was made in order to conserve screen space and make
        memory size representations consistent throughout htop.
+```

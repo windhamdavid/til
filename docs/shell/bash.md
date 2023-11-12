@@ -449,7 +449,7 @@ trap returntrap RETURN  -is executed each time a shell function or a script exec
 
 ### COLORS AND BACKGROUNDS 
 ---
-
+```
 -Reset  
 Color_Off='\033[0m' -Text Reset  
   
@@ -507,4 +507,5 @@ On_White='\033[47m' -White
 -Example of usage  
 echo -e "${Green}This is GREEN text${Color_Off} and normal text"  
 echo -e "${Red}${On_White}This is Red test on White background${Color_Off}"   
-  
+
+```
