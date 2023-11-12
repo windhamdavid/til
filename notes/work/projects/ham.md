@@ -1,10 +1,10 @@
 # The Ham
 
-<https://the-ham.org>
+https://the-ham.org
 
 ## About
 
-This project started as a conversation between a couple friends about an old meetup group we called "The No Bullshit Club". Unsure of specifics at this point. I need to make some notes here on broadcasting equipment and workflow.  I'd also like to consolidate my old <http://radio.davidawindham.com> project into it while I'm moving it from [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie)
+This project started as a conversation between a couple friends about an old meetup group we called "The No Bullshit Club". Unsure of specifics at this point. I need to make some notes here on broadcasting equipment and workflow.  I'd also like to consolidate my old http://radio.davidawindham.com project into it while I'm moving it from [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie)
 
 I added a multi-track setup a new microphone this week that'll allow me to record each channel separately and then polish them down in Audition. I also figured out how to use a new VOIP application ( Murmur/Mumble ) so that I don't have to pipe your audio in via a phone call or other application. This will give me very high quality audio from your microphones with low latency. It'll also give spacial audio to each micrphone so that one is on the left, the right and center. I'll need to show you how to install and connect to my VOIP server. It'll also free up my line to call other guests. I'd like to test this out with y'all live sometime in the next week so y'all are pumped about it before LEAF.
 
@@ -26,13 +26,13 @@ Only other thing is to publish a domain and a show name. No bullshit can be a se
 
 ### References
 
-- <https://www.linode.com/docs/guides/set-up-a-streaming-rtmp-server/>
-- <https://www.digitalocean.com/community/tutorials/how-to-set-up-a-video-streaming-server-using-nginx-rtmp-on-ubuntu-20-04>
-- <https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-18-04-server>
-- <https://tariosultan.com/blog/how-to-make-circle-webcam-in-obs>
-- <https://github.com/videojs/video.js>
-- <https://github.com/videojs/http-streaming>
-- <https://github.com/silvermine/videojs-airplay>
-- <https://developer.apple.com/streaming/>
-- <https://www.npmjs.com/package/m3u8-parser>
-- <https://serverfault.com/questions/1019317/receiving-rtmps-stream-on-nginx-rtmp>
+- https://www.linode.com/docs/guides/set-up-a-streaming-rtmp-server/
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-a-video-streaming-server-using-nginx-rtmp-on-ubuntu-20-04
+- https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-as-a-web-server-and-reverse-proxy-for-apache-on-one-ubuntu-18-04-server
+- https://tariosultan.com/blog/how-to-make-circle-webcam-in-obs
+- https://github.com/videojs/video.js
+- https://github.com/videojs/http-streaming
+- https://github.com/silvermine/videojs-airplay
+- https://developer.apple.com/streaming/
+- https://www.npmjs.com/package/m3u8-parser
+- https://serverfault.com/questions/1019317/receiving-rtmps-stream-on-nginx-rtmp

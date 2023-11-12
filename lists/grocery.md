@@ -4,7 +4,7 @@
 
 ### Notes
 
-I wrote an essay about grocery lists @ <https://davidawindham.com/grocery-shopping/>.
+I wrote an essay about grocery lists @ https://davidawindham.com/grocery-shopping/.
 
 
 ## Produce

@@ -94,17 +94,17 @@ Find all files ending in .rb or .js, then search those files for 'matchNameHere'
 Find all files ending in .rb, then print a list of filenames (no paths). **Note that the '\;' is mandatory, it tells find where to stop the command execution**
 
 ### sed
-
+```
     ls *.rb | awk '{print("mv "$1" "$1)}' | sed 's/\.rb/_service\.rb/2' | /bin/sh
-
+```
 Batch rename all files matching a pattern, insert the `_service` before the file suffix
-
+```
     find /some/path -name "*rb" -o -name "*yml" | xargs grep -sl "some_phrase" | xargs sed -i -e 's/some_phrase/replacement_phrase'
-
+```
 Find all files ending in *rb or *yml, then grep those files for *some_phrase*, then replace those instances using sed
-
+```
     cat /some/file.txt | awk '{print "mkdir /path/to/"$0""}' | /bin/sh
-
+```
 Read input from file, pipe to awk to generate a system command, then execute it.
 
 ##### display file with line numbers  
@@ -156,24 +156,31 @@ Read input from file, pipe to awk to generate a system command, then execute it.
     tar jxf filename.tar.bz2
 
 ##### add user
+```
     sudo adduser <username>
-
+```
 ##### add group
+```
     sudo groupadd <groupname>
-
+```
 ##### add existing user to group
+```
     sudo usermod -a -G <groupname> <username>
-
+```
 ##### add a user to multiple groups
+```
     sudo usermod -a -G <groupname1>,<groupname2>,<groupname3> <username>
-
+```
 ##### view user's group assignemnts
+```
     id <username>
     groups <username>
-
+```
 ##### make a directory accessible for a group
 ##### change group of all files/directories recursively
+```
     sudo chgrp -R <groupname> directory
+```
 ##### add write permissions to group
     sudo chmod -R g+w directory
 ##### set "GID", so that all new files and directories created under directory are owned by the group
@@ -188,46 +195,56 @@ Read input from file, pipe to awk to generate a system command, then execute it.
     sudo /etc/init.d/hostname restart
 
 ##### search a device for bad blocks
+```
     sudo badblocks -v <device_name>
     sudo badblocks -v /dev/md2
-
+```
 ##### renice (reset priority of processgroup): niceness: 0 (normal) - 19 (low)
+```
     sudo renice -n <niceness> -g <pid>
-
+```
 ##### count and filter csv files
 ##### remove header (first line), the separator in csv file is ","; count the rows where the value in the second column is above a threshold value (4.5)
+```
     tail -n +2 file.csv | awk -F "," '$2 >= <my threshold value>' | wc -l
-
+```
 ##### pg_dump ssh tunnel
     ssh -o "Compression=no" mydbserver "pg_dump -Fc -Z9 -U postgres mydb" > mydb.dump
 
 ##### generate random password
 ##### of course there are tons of ways to do this
 ##### you can replace 32 with the desired password length
+```
     < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-32};echo;
-
+```
 ##### force the user to change their password upon next login
+```
     sudo chage -d 0 <username>
-
+```
 ##### server shutdown
     sudo shutdown -h now
     sudo poweroff
 
 ##### encrypt/decrypt file with openssl
+```
     openssl aes-256-cbc -salt -in <file> -out <encrypted_file> -k <passphrase>
     openssl aes-256-cbc -d -in <encrypted_file> -out <file> -k <passphrase>
-
+```
 ##### generate your dhparam.pem file
     openssl dhparam -out /etc/nginx/ssl/dhparam.pem 2048
 
 ##### search for pattern in codebase
+```
     grep -inIEr --color=ALWAYS "<pattern_to_search>" .
-
+```
 ##### copy directory tree recursively without overwrite
+```
     rsync -a -v --ignore-existing <src_dir> <dst_dir>
-
+```
 ##### find processes with most memory usage
     ps -e -orss,%mem,cputime,%cpu,pid,args | sort -b -k1,1n | pr -TW$COLUMNS
 
 ##### find processes with maximum file descriptors
+```
     lsof -Fpcn | nawk '/^p/ { pid=substr($0,2) } /^c/ { cmd=substr($0,2) } /^n/ { fd[cmd"["pid"]"]++ } END  { for (cc in fd) printf("%-30s %i\n",cc,fd[cc]) } ' | sort -n -k 2 | tail -30
+```

@@ -1,17 +1,17 @@
 # WordPress
 
 ## About 
-I've used WordPress for hundreds of projects and I think I owe a certain debt of gratitude. I started learning WordPress in the early days of the project. I keep a WordPress powered testing site up @ <https://wp.davidwindham.com> which contains my notes and code for WordPress projects.
+I've used WordPress for hundreds of projects and I think I owe a certain debt of gratitude. I started learning WordPress in the early days of the project. I keep a WordPress powered testing site up @ https://wp.davidwindham.com which contains my notes and code for WordPress projects.
 
 ## Log 
 
-- 23/07/17 - fix Yoast errors from missing database table 'inclusive_language_score' -  <https://wordpress.org/support/topic/inclusive-language-option/>
+- 23/07/17 - fix Yoast errors from missing database table 'inclusive_language_score' -  https://wordpress.org/support/topic/inclusive-language-option/
 - 23/06/20 - migrate a couple sites previously using a theme with a custom editor and a lot of custom short codes to the block editor.
 
 ## Builds
 
-- <https://wp.davidwindham.com>
-- <https://code.davidawindham.com/david/wp>
+- https://wp.davidwindham.com
+- https://code.davidawindham.com/david/wp
 - [https://github.com/windhamdavid/wp](https://github.com/windhamdavid/wp)
 - [https://github.com/windhamdavid/wordpress-develop](https://github.com/windhamdavid/wordpress-develop)
 
@@ -94,6 +94,7 @@ function disable_emojis() {
 add_action( 'init', 'disable_emojis' );
 
 ```
+
 ##### add open graph meta to head:
 ```php
 <?php

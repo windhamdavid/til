@@ -8,6 +8,6 @@ I want to combine an element of Choose Your Own Adventure that uses Wikipedia as
 
 ---
 
-1. Games Magazine - <https://en.wikipedia.org/wiki/Games_World_of_Puzzles>
-2. Wikiracing - <https://en.wikipedia.org/wiki/Wikiracing>
-2. Choose Your Own Adventure - <https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure>
+1. Games Magazine - https://en.wikipedia.org/wiki/Games_World_of_Puzzles
+2. Wikiracing - https://en.wikipedia.org/wiki/Wikiracing
+2. Choose Your Own Adventure - https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure

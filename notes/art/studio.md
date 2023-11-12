@@ -14,7 +14,7 @@ I'm gonna combine the now mostly neglected easel into my desk. What I'm not goin
 
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
 
-And while I'm at it, I'd like to upgrade the old mac mini (<https://davidawindham.com/mac-mini/>), add a keyboard, and integrate the audio and video into my existing system. The 96" space will allow for two people to work side by side. I'm also planning on having a lift on the I'm estimating the cost to be under a grand sans mac studio. I'll continue using it as my daily desk for my developer day gig, but I'd also like to venture into some more creative endeavors such as painting, prints, photography, video, and audio. I'm really hoping it'll put my eyes on the canvas as much as the monitors and it'll be much easier to let Iris in and out.
+And while I'm at it, I'd like to upgrade the old mac mini (https://davidawindham.com/mac-mini/), add a keyboard, and integrate the audio and video into my existing system. The 96" space will allow for two people to work side by side. I'm also planning on having a lift on the I'm estimating the cost to be under a grand sans mac studio. I'll continue using it as my daily desk for my developer day gig, but I'd also like to venture into some more creative endeavors such as painting, prints, photography, video, and audio. I'm really hoping it'll put my eyes on the canvas as much as the monitors and it'll be much easier to let Iris in and out.
 
 <video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
 </video>
@@ -50,10 +50,10 @@ Notes:
 
 Ref:
 
-- Tom Kidd Studio setup - <https://www.behance.net/gallery/43250141/Studio-Setup>
-- This Old House installing cabinets - <https://www.youtube.com/watch?v=5xN9kPD7ddU>
-- MinWax Dark Walnut Stain - <https://www.minwax.com/en/wood-stain-color-guide/browse-color-stains/brown/dark-walnut-2716-semi-transparent>
-- Home Deport - Hampton Bay cabinet - <https://www.homedepot.com/p/Hampton-Bay-Hampton-36-in-W-x-24-in-D-x-34-5-in-H-Assembled-Base-Kitchen-Cabinet-in-Natural-Hickory-with-Drawer-Glides-KB36-NHK/202518650>
-- Merl's countertops - <https://www.merlsinc.com>
-- AP Restoration Woodwork - <https://ap-restoration.com>
-- Kitchen Rehab - <https://kitchenrehab.co> - review w/keyboard drawer- <https://www.google.com/maps/contrib/103662183858242984916/place/ChIJA9iEn48F-IgRO-AGSX88VO8/@34.1371788,-82.1125008,17z/data=!4m6!1m5!8m4!1e1!2s103662183858242984916!3m1!1e1?hl=en&entry=ttu>
+- Tom Kidd Studio setup - https://www.behance.net/gallery/43250141/Studio-Setup
+- This Old House installing cabinets - https://www.youtube.com/watch?v=5xN9kPD7ddU
+- MinWax Dark Walnut Stain - https://www.minwax.com/en/wood-stain-color-guide/browse-color-stains/brown/dark-walnut-2716-semi-transparent
+- Home Deport - Hampton Bay cabinet - https://www.homedepot.com/p/Hampton-Bay-Hampton-36-in-W-x-24-in-D-x-34-5-in-H-Assembled-Base-Kitchen-Cabinet-in-Natural-Hickory-with-Drawer-Glides-KB36-NHK/202518650
+- Merl's countertops - https://www.merlsinc.com
+- AP Restoration Woodwork - https://ap-restoration.com
+- Kitchen Rehab - https://kitchenrehab.co - review w/keyboard drawer- https://www.google.com/maps/contrib/103662183858242984916/place/ChIJA9iEn48F-IgRO-AGSX88VO8/@34.1371788,-82.1125008,17z/data=!4m6!1m5!8m4!1e1!2s103662183858242984916!3m1!1e1?hl=en&entry=ttu

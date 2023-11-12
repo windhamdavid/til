@@ -10,7 +10,7 @@ I'm going to use this as place to make notes about our house, property, and futu
 
 **Farm** - 82 Yarborough Road, Trenton SC
 
-**Wilton** - 104 Wilton Street, Greenwood SC - <https://davidawindham.com/wha/wilton/>
+**Wilton** - 104 Wilton Street, Greenwood SC - https://davidawindham.com/wha/wilton/
 
 ---
 
@@ -21,8 +21,8 @@ I'm going to use this as place to make notes about our house, property, and futu
 ![glenridge](/img/glenridge.jpg)
 
 102 Glenridge Circle, Greenwood SC  
-Photos -  <https://davidawindham.com/wha/glenridge/>  
-POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
+Photos -  https://davidawindham.com/wha/glenridge/
+POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 
 ### Projects
 
@@ -121,4 +121,4 @@ POA - Gatewood Club - <https://gatewoodclub.com> ( 👈🏼 I built this too )
 
 ## Future
 
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ <https://davidawindham.com/architecture/>
+We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/

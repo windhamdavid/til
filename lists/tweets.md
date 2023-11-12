@@ -677,9 +677,9 @@ According to my archive, over 15 years I had:
 |"RT @mathias: How to deobfuscate malicious JavaScript code, like the stuff that’s used in exploit kits: http://t.co/9kNzTtKu"|2012-01-06|
 |@thomasfuchs which one? there are five distinctly different carolina bbq sauces ~ http://t.co/nwfmUvGi|2012-01-11|
 |@thomasfuchs come on down! try the mustard and brown sugar next go round.|2012-01-11|
-|@riddle @mathias  ⓐⓢⓚ @ⓤⓝⓘⓒⓞⓓⓔ { @unicode }|2012-01-11|
+|@riddle @mathias  ⓐⓢⓚ @ⓤⓝⓘⓒⓞⓓⓔ @unicode |2012-01-11|
 |Carrot Juice... i drink tons lots of it. It is good. bugs knows the deal.|2012-01-11|
-|although is does cause carotenoderma { orange skin } ~ http://t.co/uWidlXKg|2012-01-11|
+|although is does cause carotenoderma - orange skin ~ http://t.co/uWidlXKg|2012-01-11|
 |"RT @adactio: Y'know, I'm pretty happy with how this 2010 @AnEventApart talk turned out: http://t.co/MNzoMFEc That was fun."|2012-01-13|
 |RT @adactio: Writing about media queries and multiple-column text. http://t.co/D9hViHtQ|2012-01-13|
 |"RT @indexzero: Hate to be a dick here, but if you want to use Wikipedia today just disable #javascript :: http://t.co/qjIGBubr"|2012-01-18|
@@ -717,7 +717,7 @@ According to my archive, over 15 years I had:
 |"@krwindham Тройка, семерка, туз"|2012-04-18|
 |"@krwindham i'd say perhaps over the summer, but you know better. however, I would like to see this film - https://t.co/XtQpQq6d"|2012-04-18|
 |@krwindham read it. like. In order to win you must be prepared to lose something. And leave one or two cards showing. http://t.co/9Xcpf07k|2012-04-18|
-|@krwindham ur welcome brocefus. I know some things... albeit different types of things { winking queen ) }|2012-04-18|
+|@krwindham ur welcome brocefus. I know some things... albeit different types of things - winking queen ) |2012-04-18|
 |@krwindham Pattern-recognition and The Game of Go: A Programmer's Perspective - http://t.co/6fl7m8Ud|2012-04-19|
 |"RT @jwomack: Disney's Life On Mars, 1957: http://t.co/qfu2FcBs"|2012-04-19|
 |"RT @evgenymorozov: $4829-per-hour supercomputer built on Amazon cloud to fuel cancer research http://t.co/naTNDWrl"|2012-04-19|
@@ -727,7 +727,7 @@ According to my archive, over 15 years I had:
 |"@krwindham "I also don't trust Caribou anymore. They're out there, on the tundra, waiting... Something's going down." ~ Joss Whedon"|2012-04-30|
 |just activated 2-step on the google accounts|2012-04-30|
 |Espresso machine- http://t.co/sRLDVvnM|2012-04-30|
-|I like John Cleese  { On Creativity } - https://t.co/CeHgnSUb|2012-04-30|
+|I like John Cleese On Creativity - https://t.co/CeHgnSUb|2012-04-30|
 |"RT @odezenne: _Quelle belle journée que l'Election pour partager ce ""|2012-05-07|
 |On mêle des 1000 et des 100, on pose des mines,... http: ..."|2012-05-07|
 |RT @evgenymorozov: The next wave of digital products won't just be about archiving the web, they'll be about destroying the archive  htt ...|2012-05-08|

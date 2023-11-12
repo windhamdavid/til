@@ -6,7 +6,7 @@
 
 ## PyEnv
 
-<https://github.com/pyenv/pyenv>  
+https://github.com/pyenv/pyenv
 
 ```bash
 export PYENV_ROOT="$HOME/.pyenv"
@@ -24,7 +24,7 @@ Python 3.10.10
 
 ## PIP
 
-<https://pypi.org/project/pip/>  
+https://pypi.org/project/pip/
 
 ```bash
 david@ovid🏛 :~/sites/gpt(main○) » python3 --version                                          127 ↵
@@ -57,8 +57,8 @@ Successfully installed pip-23.1.2
 ```
 
 ## Poetry
-<https://pypi.org/project/poetry/>
-<https://github.com/python-poetry>
+https://pypi.org/project/poetry/
+https://github.com/python-poetry
 
 ```bash
 david@ovid🏛 :~/sites/gpt(main○) » pip3 install poetry                                        127 ↵

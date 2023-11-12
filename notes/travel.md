@@ -5,4 +5,4 @@ We like to travel on occasion. I'm not quite as adventurous as I once was, but I
 
 ## References
 
-1. _Faux Travel_ - <https://davidawindham.com/faux-travel/>
+1. _Faux Travel_ - https://davidawindham.com/faux-travel/

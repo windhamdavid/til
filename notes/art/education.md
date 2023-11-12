@@ -7,6 +7,6 @@ Just making the 2017 South Carolina College- and Career-Ready Standards for Visu
 ---
 
 1. [https://ed.sc.gov/instruction/standards-learning/visual-and-performing-arts/standards/visual-arts-design-and-media-arts-standards/](https://ed.sc.gov/instruction/standards-learning/visual-and-performing-arts/standards/visual-arts-design-and-media-arts-standards/)
-2. <https://ed.sc.gov/instruction/standards-learning/visual-and-performing-arts/standards/>
+2. https://ed.sc.gov/instruction/standards-learning/visual-and-performing-arts/standards/
 
 

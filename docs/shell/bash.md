@@ -154,6 +154,7 @@ wget file              -downloads file
 
 ### VARIABLES
 ---
+```
 varname=value                -defines a variable  
 varname=value command        -defines a variable to be in the environment of a particular subprocess  
 echo $varname                -checks a variable's value  
@@ -203,7 +204,7 @@ ${#varname}                  -returns the length of the value of the variable as
 !(patternlist)               -matches anything except one of the given patterns  
   
 $(UNIX command)              -command substitution: runs the command and returns standard output  
-
+```
 
 
 ### FUNCTIONS
@@ -211,11 +212,11 @@ $(UNIX command)              -command substitution: runs the command and returns
 -The function refers to passed arguments by position (as if they were positional parameters), that is, $1, $2, and so forth.  
 -$@ is equal to "$1" "$2"... "$N", where N is the number of positional parameters. $-holds the number of positional parameters.  
   
-  
+```
 function functname() {  
   shell commands  
 }  
-  
+```  
 unset -f functname  -deletes a function definition  
 declare -f          -displays all defined functions in your login session  
 
@@ -265,7 +266,7 @@ file1 -ot file2           -file1 is older than file2
 -ge                       -greater than or equal  
 -gt                       -greater than  
 -ne                       -not equal  
-  
+ ``` 
 if condition  
 then  
   statements  
@@ -309,7 +310,7 @@ done
 until condition; do  
   statements  
 done  
-
+```
 
 ### COMMAND-LINE PROCESSING CYCLE
 ---
@@ -411,7 +412,7 @@ cd $websites
 
 ### DEBUGGING SHELL PROGRAMS
 ---
-
+```
 
 bash -n scriptname  -don't run commands; check for syntax errors only  
 set -o noexec       -alternative (set option in script)  
@@ -442,7 +443,7 @@ trap - DEBUG  -turn off the DEBUG trap
 function returntrap {  
   echo "A return occurred"  
 }  
-  
+```
 trap returntrap RETURN  -is executed each time a shell function or a script executed with the . or source commands finishes executing  
   
 

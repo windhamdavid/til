@@ -4,39 +4,39 @@ After my [most recent experiments](https://davidawindham.com/artificial-intellig
 
 ### Docs
 
-OpenAI Docs - <https://platform.openai.com/docs>  
-OpenAI API Reference - <https://platform.openai.com/docs/api-reference>  
-Plugins - <https://platform.openai.com/docs/plugins>  
+OpenAI Docs - https://platform.openai.com/docs
+OpenAI API Reference - https://platform.openai.com/docs/api-reference 
+Plugins - https://platform.openai.com/docs/plugins 
 
 ### Videos
 
-- Build Your Own Auto-GPT Apps with LangChain - <https://www.youtube.com/watch?v=NYSWn1ipbgg> / <https://github.com/daveebbelaar/langchain-experiments>
-- Building a ChatGPT Plugin for Lex Fridman Podcasts - <https://www.youtube.com/watch?v=bAQ6VRewf0w>
-- The LangChain Cookbook - Beginner Guide To 7 Essential Concepts - <https://www.youtube.com/watch?v=2xxziIWmaSA&t=1s>
+- Build Your Own Auto-GPT Apps with LangChain - https://www.youtube.com/watch?v=NYSWn1ipbgg / https://github.com/daveebbelaar/langchain-experiments
+- Building a ChatGPT Plugin for Lex Fridman Podcasts - https://www.youtube.com/watch?v=bAQ6VRewf0w
+- The LangChain Cookbook - Beginner Guide To 7 Essential Concepts - https://www.youtube.com/watch?v=2xxziIWmaSA&t=1s
 
 
 ### Reference Projects
 
-GPT4 LangChain PDF - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain>  
-LLM trained on 500,000 group chat messages - <https://www.izzy.co/blogs/robo-boys.html> fork 👉🏼 <https://github.com/windhamdavid/gpt4-jenks>
+GPT4 LangChain PDF - https://github.com/mayooear/gpt4-pdf-chatbot-langchain  
+LLM trained on 500,000 group chat messages - https://www.izzy.co/blogs/robo-boys.html fork 👉🏼 https://github.com/windhamdavid/gpt4-jenks
 
-Obsidian Vault-Chat - <https://github.com/exoascension/vault-chat>  
+Obsidian Vault-Chat - https://github.com/exoascension/vault-chat 
 
 ### Reference Lists
 
-<https://github.com/humanloop/awesome-chatgpt>  
+https://github.com/humanloop/awesome-chatgpt  
 
 
 
 ### Learning Courses
 
-ChatGPT Prompt Engineering for Developers - <https://learn.deeplearning.ai/chatgpt-prompt-eng/>
+ChatGPT Prompt Engineering for Developers - https://learn.deeplearning.ai/chatgpt-prompt-eng/
 
-LangChain Tutorials - <https://github.com/gkamradt/langchain-tutorials>
+LangChain Tutorials - https://github.com/gkamradt/langchain-tutorials
 
 ### GPT Retrieval Plugin 
 
-ChatGPT Retrieval Plugin - <https://github.com/windhamdavid/chatgpt-retrieval-plugin>  
+ChatGPT Retrieval Plugin - https://github.com/windhamdavid/chatgpt-retrieval-plugin  
 
 
 ```bash
@@ -149,8 +149,8 @@ Installing the current project: chatgpt-retrieval-plugin (0.1.0)
 
 ### Repos
 
-Llama Index - <https://gpt-index.readthedocs.io/en/latest/>  
-Llama Index - <https://github.com/jerryjliu/llama_index>
+Llama Index - https://gpt-index.readthedocs.io/en/latest/
+Llama Index - https://github.com/jerryjliu/llama_index
 
-LangChain - <https://python.langchain.com/en/latest/index.html>  
-LangChain repo -<https://github.com/hwchase17/langchain>
+LangChain - https://python.langchain.com/en/latest/index.html
+LangChain repo - https://github.com/hwchase17/langchain
