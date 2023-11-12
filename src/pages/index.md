@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/11/12 - [Docusaurus v3.0.0](/posts/docusaurus-3)
   - 23/11/07 - [Silent Majority](/posts/silent-majority)
   - 23/11/07 - [Françoise Gilot](/posts/françoise-gilot)
   - 23/11/05 - [Cat Power](/posts/cat-power)
