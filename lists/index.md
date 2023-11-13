@@ -41,10 +41,9 @@ I've moved this old repo into this TIL project to simplify.
 
 - 23/10/05 - [Visual Art](art/visual) 
 - 23/08/22 - [Emerson Quote](quotes) 
-- 23/07/16 - Added [Next](next) & [Now](now/now.md)
-- 23/07/16 - Added [Todo(ne)](todone) for Now page
-- 23/05 - Added [Grocery](grocery) and [Shopping](shopping)
-- 22/11 - Added [Music Playlists](art/music#playlists), a [Feeds list](feeds), and [Tweets](tweets)
-- 22/04 - Added [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
-- 22/07 - Added [Up next](next) as a replacement for bookmarks
-
+- 23/07/16 - [Next](next) & [Now](now/now.md)
+- 23/07/16 - [Todo(ne)](todone) for Now page
+- 23/05/12 - [Grocery](grocery) and [Shopping](shopping)
+- 22/11/16 - [Music](art/music#playlists), [Feeds](feeds), and [Tweets](tweets)
+- 22/07/18 - [Up next](next) as a replacement for bookmarks
+- 22/04/06 - [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)

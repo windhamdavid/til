@@ -10,9 +10,10 @@ I'm going to build a custom desk and stain it up to match the existing mantle, r
 
 ![](/img/studio-desk.jpg)
 
-I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper belts. I'll build the 16 foot desktop and use prebuilt cabinets on the wall right here 👇🏼
+I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper belts. I'll build the 16 foot desktop and use prebuilt cabinets on the wall with the big painting on it right here 👇🏼
 
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
+![](/img/studio-den.jpg)
 
 And while I'm at it, I'd like to upgrade the old mac mini (https://davidawindham.com/mac-mini/), add a keyboard, and integrate the audio and video into my existing system. The 96" space will allow for two people to work side by side. I'm also planning on having a lift on the I'm estimating the cost to be under a grand sans mac studio. I'll continue using it as my daily desk for my developer day gig, but I'd also like to venture into some more creative endeavors such as painting, prints, photography, video, and audio. I'm really hoping it'll put my eyes on the canvas as much as the monitors and it'll be much easier to let Iris in and out.
 
@@ -47,6 +48,14 @@ Notes:
 - use closet to hold canvas and lighting
 - mirror on back walk to refract light
 
+Equip:
+
+- mac studio
+ - trackpad / keyboard
+- apple tv
+- lenovo 23
+- focusrite Carett
+  - audio interface
 
 Ref:
 
