@@ -13,18 +13,22 @@ module.exports = {
         id:'art/art',
       },
       items: [
+        { 
+          type:'doc',
+          id:'art/design', 
+        },
         {
           type: 'category',
           label: 'Education',
           collapsible: true,
           link: {
             type:'doc',
-            id:'art/education',
+            id:'art/education/education',
           },
           items: [ 
-            'art/visual',
-            'art/design',
-            'art/media',
+            'art/education/visual',
+            'art/education/design',
+            'art/education/media',
           ],
         },
         {
@@ -98,10 +102,6 @@ module.exports = {
         { 
           type:'doc',
           id:'work/clients', 
-        },
-        { 
-          type:'doc',
-          id:'work/design', 
         },
         {
           type: 'category',
