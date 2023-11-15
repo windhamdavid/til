@@ -58,6 +58,7 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Darius Kazemi
   - Jeremy Keith - Adactio
   - Michael B. Paulson - The Primeagen
+  - Chris Ferdinandi - Go Make Things
 - Other
   - The Red Hand Files - Nick Cave
   - Public Domain Review
