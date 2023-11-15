@@ -3,7 +3,6 @@
 ## TOC
 
 [clients](clients.md)
-| [design](design.md)
 | [projects](projects/index.md)
 | [wealth](wealth.md)
 
