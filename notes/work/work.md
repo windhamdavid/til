@@ -6,13 +6,6 @@
 | [projects](projects/index.md)
 | [wealth](wealth.md)
 
-## Log
-- 23/07 - whatever
-- 23/05 - [migration project](/notes/work)
-- 23/02 - [site rebuild](/notes/work)
-- 23/01 - [new host](/notes/work)
-- 22/09 - [new site](/notes/work)
-- 22/03 - [new site](/notes/work)
 
 ## About
 

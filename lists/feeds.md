@@ -10,10 +10,12 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Tailwind News
   - Bootstrap News
   - Laravel News
-  - Wordpress Developer Blog
+  - Wordpress Developer
   - Dev Channel
   - The Go Blog
   - The Mozilla Blog
+  - Svelte Blog
+  - Remix Blog
 - Publishers
   - W3C Blog
   - Wikimedia Foundation
@@ -23,6 +25,7 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Dev Channel - Medium
   - Wired - Ideas Latest
 - Companies 
+  - AWS Architecture
   - Apple Newsroom
   - Apple Developer News
   - Linode Blog
@@ -53,8 +56,8 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Tom Preston-Werner
   - J.B. Crawford
   - Darius Kazemi
-  - Waldo Jaquith
   - Jeremy Keith - Adactio
+  - Michael B. Paulson - The Primeagen
 - Other
   - The Red Hand Files - Nick Cave
   - Public Domain Review
