@@ -65,16 +65,13 @@ Flatwork and Driveway	| $7,501	| Utilities	| $2,799
 Deck	| $9,814	| Trim	| $1,844
 Landscaping	| $7,500	| Fire Place	| $888
 Exterior Total	| $150,918	| Interior Total	| $101,277
-
-| Other Cost |
-|--|--|
-Trash Cleanup and Equipment Rental	| $3,500
-Contractor Upcharge	| $76,702
-
-| Total |
-|--|--|
-**Total** | **$332,397**
-**Total w/Land** | **$485,000**
+|||||
+|Other||||
+Trash Cleanup and Equipment Rental	| $3,500 ||
+Contractor Upcharge	| $76,702||
+|||||
+**Total** | **$332,397**|||
+**Total w/Land** | **$485,000**|||
 
 ---
 
