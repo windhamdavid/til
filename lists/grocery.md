@@ -4,7 +4,7 @@
 
 ### Notes
 
-I wrote an essay about grocery lists @ https://davidawindham.com/grocery-shopping/.
+I wrote a post about grocery lists @ https://davidawindham.com/til/posts/grocery-shopping/.
 
 
 ## Produce
@@ -172,3 +172,43 @@ I wrote an essay about grocery lists @ https://davidawindham.com/grocery-shoppin
 - [ ] Aquarium Filters
 - [ ] Dog Treats
 - [ ] Cat Treats
+
+
+| Produce	| Cooler	| Pantry 	| Freezer | 
+|--|--|--|--|
+| Garlic	| Beef	| Honey	| Pizza
+| Spinach	| Shrimp	| Coffee	| Frozen Bananas
+| Asparagus	| Chicken	| Tea	| Palak paneer
+| Tomatoes	| Cheese	| Oil	| Ice Cream
+| Onion	| Vegan Meat	    | Sunflower Oil	| Lasagna
+| Lemons	| Yogurt	    | Olive Oil	| Fish
+| Avocados	| Butter	    | Sesame	| Burritos
+| Blueberries	| Keifer	| Mustard	| Beyond Sausage
+| Romaine	| Beer	| Mayo	| Tuna Burgers
+| Brussel sprouts	| Milk	| Dressing	| Pinapple
+| Cucumbers 	    | Oat	| Pickles	| Salmon Burgers
+| Broccoli	    | Almond	| Olives	| Paella 
+| Oranges	    | Cow	| Artichoke	| French fries
+| Peppers	    | Soy	| Pasta Sauce	| Calamari
+| Green Onion	| Juice	| Mac & Cheese	| Shrimp
+| Cilantro	    | Cherry	| Pasta	| Scallops
+| Lemongrass	    | Cranberrry	| Oatmeal	| Pad Thai
+| Basil	    | Grapefruit	| Cereal	| Enchilladas
+| Carrots	| Biscuits	| Peanut butter	| Quinoa blend
+| Celery	| Cheese	| Chocolate	| Corn
+| Ginger	    | Swiss	| Crackers	| Peas
+| Bean sprouts	    | Cheddar	| Granola Bars	| Plantains
+| Sprouts	    | Parmesan	| Bread	| Pieriogis
+| Mixed greens	| Salsa	| Curry	| Blueberries
+| Bananas	| Fish	| Chips	||
+| Potatoes	    | Salmon	| Rice ||
+| Apples	    | Cod	| Quinoa	||
+| Lime	    | Tuna	| Canned Soup	||
+| Mushrooms 	    | Haddock	    | Chili	||
+| Green Beans	    | Orange Roughy	| Canned Beans	||
+| Carrots	| Eggs	    | Black	||
+| Nuts	| Sigis	    | Garbanzo	||
+| Cashew	| Tofu	    | Kidney	||
+| Almond		|    | Peas	||
+| Sunflower		|| Canned Fish	||
+| Pistachios	||||	
