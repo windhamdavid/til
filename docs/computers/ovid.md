@@ -8,6 +8,41 @@
 
 ### Log
 
+**23.11.18** - Updated my Homebrew package. Httpd was failing a `graceful` restart again from a config error but I noted a PHP Imagick log error below which was related to the updates. Will need to `pecl` the imagick versions again.
+
+```bash
+david@ovid🏛 :~ » brew --version
+Homebrew 4.1.20-47-g5fa5f3b
+david@ovid🏛 :~ » brew info          
+211 kegs, 190,355 files, 7.2GB
+david@ovid🏛 :~ » brew outdated
+bdw-gc (8.2.2) < 8.2.4
+cmocka (1.1.6) < 1.1.7
+gh (2.23.0) < 2.39.1
+gnu-getopt (2.38.1) < 2.39.2
+go (1.19.6) < 1.21.4
+heroku/brew/heroku (7.68.1) < 8.1.9
+jasper (4.0.0) < 4.1.0
+libmaxminddb (1.7.1) < 1.8.0
+libpthread-stubs (0.4) < 0.5
+mongodb/brew/mongodb-database-tools (100.6.1) < 100.9.1
+nss (3.88.1) < 3.94
+pandoc (3.1) < 3.1.9
+pyenv (2.3.13) < 2.3.32
+python@3.11 (3.11.4_1) < 3.11.6_1
+python@3.9 (3.9.16) < 3.9.18_1
+redis (7.0.8) < 7.2.3
+ruby-build (20230208.1) < 20231114
+x264 (r3095) < r3108
+```
+
+```bash
+david@ovid🏛 :~ » brew services restart httpd
+// 👉🏼 noticed a config errors in the log will need to fix later
+[Sat Nov 18 08:33:12.574367 2023] [mpm_prefork:notice] [pid 3886] AH00169: caught SIGTERM, shutting down
+PHP Warning:  Version warning: Imagick was compiled against ImageMagick version 1808 but version 1809 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+```
+
 **23/02/19** - Homebrew v4.0.1. Added MariaDB v10.11.2 to some recent servers and wanted to match versions. Noticed that my old plist for httpd was not starting alongside of the default Apache. Also had to keep a ruby/python/php matches. Other upgrades noted below:
 
 ```bash
@@ -344,6 +379,23 @@ mkcert - FF needs the CA manually added which is in Library/Application Support/
 
 ### Nginx & Apache
 
+Using [Homebrew](#homebrew) to manage the httpd version.
+
+```bash
+david@ovid🏛 :/opt/homebrew/etc/httpd/extra(master○) » which httpd                              1 ↵
+/opt/homebrew/bin/httpd
+// custom domains in /extra/httpd-vhosts.conf
+// custom hosts in /etc/hosts
+brew services stop/start/restart httpd
+```
+
+#### mkcert
+
+```bash
+cd /opt/homebrew/etc/httpd/ssl/
+mkcert ex.ovid
+```
+
 ### Node.js & NVM  
 
 * v.16.13.0 is Universal and has LTS
@@ -410,7 +462,7 @@ MongoDB ( Community ) - moved from an open source license so it was dropped by h
 david@ovid:~ » brew tap mongodb/brew
 david@ovid:~ » brew services start mongodb-community
 david@ovid:~ » mongosh       
-Current Mongosh Log ID:	61a6b434921fe21dc8ab3733
+Current Mongosh Log ID: 61a6b434921fe21dc8ab3733
 Connecting to: mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000
 Using MongoDB: 5.0.4
 Using Mongosh: 1.1.4

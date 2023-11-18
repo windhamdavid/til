@@ -140,6 +140,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 23/11/18 - [computers/ovid](/docs/computers/ovid)
 - 23/08/17 - [til/help](/help)
 - 23/07/19 - [waf/nextjs](/docs/waf/nextjs)
 - 23/07/17 - [host/gogs](/docs/host/Gogs)
