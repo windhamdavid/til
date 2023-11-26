@@ -8,6 +8,21 @@
 
 ### Log
 
+**23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
+
+```bash
+david@ovid🏛 :~/sites/daw_til(main○) » rbenv install 3.2.1
+BUILD FAILED (macOS 14.1.1 using ruby-build 20230208.1)
+warning: It seems your ruby installation is missing psych (for YAML output)
+david@ovid🏛 :~/sites/daw_til(main○) » brew install libyaml 
+# set global version
+david@ovid🏛 :~/sites/daw_til(main○) » rbenv global 3.2.1
+david@ovid🏛 :~/sites/daw_til(main○) » ruby --version    
+ruby 3.2.1 (2023-02-08 revision 31819e82c8) [arm64-darwin23]
+# rollback local version on project
+rbenv local 3.0.3
+```
+
 **23.11.18** - Updated my Homebrew package. Httpd was failing a `graceful` restart again from a config error but I noted a PHP Imagick log error below which was related to the updates. Will need to `pecl` the imagick versions again.
 
 ```bash
