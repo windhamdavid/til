@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/11/26 - [Sour Cream](/posts/sour-cream)
   - 23/11/13 - [Headless](/posts/headless)
   - 23/11/12 - [Docusaurus v3.0.0](/posts/docusaurus-3)
   - 23/11/07 - [Silent Majority](/posts/silent-majority)
