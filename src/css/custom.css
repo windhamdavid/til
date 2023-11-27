@@ -30,6 +30,12 @@ html[data-theme='dark'] {
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 }
+[data-theme='dark'] .ds-dropdown-menu {
+  --ifm-background-color: #383a42;
+    border-color: #535763;
+}
+
+
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
   background-color: #e2e2e2 !important;
 }
