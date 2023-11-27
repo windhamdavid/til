@@ -53,6 +53,43 @@ npm run serve
 
 #### v3.0.0
 
+**23/11/27** - noticed my Lunr search was kicking JavaScript errors because I had `swizzle`'d it in a previous version and needed to `eject` it before the build. ( see github repo [comment](https://github.com/praveenn77/docusaurus-lunr-search/pull/124#issuecomment-1827933993) )
+
+
+
+
+
+```sh
+david@ovid🏛 :~/sites/daw_til(main○) » npm run swizzle docusaurus-lunr-search SearchBar -- --eject
+
+> daw-til-2@0.0.3 swizzle
+> docusaurus swizzle docusaurus-lunr-search SearchBar --eject
+
+[WARNING] 
+Swizzle action eject is unsafe to perform on SearchBar.
+It is more likely to be affected by breaking changes in the future
+If you want to swizzle it, use the `--danger` flag, or confirm that you understand the risks.
+✔ Do you really want to swizzle this unsafe internal component? › YES: I know what I am doing!
+[SUCCESS] 
+Ejected SearchBar from docusaurus-lunr-search to 
+- "daw_til/src/theme/SearchBar/DocSearch.js"
+- "daw_til/src/theme/SearchBar/HighlightSearchResults.jsx"
+- "daw_til/src/theme/SearchBar/algolia.css"
+- "daw_til/src/theme/SearchBar/index.jsx"
+- "daw_til/src/theme/SearchBar/lunar-search.js"
+- "daw_til/src/theme/SearchBar/styles.css"
+- "daw_til/src/theme/SearchBar/templates.js"
+- "daw_til/src/theme/SearchBar/utils.js"
+```
+
+Also noticed that since it now uses the default Algolia search elements which includes dark mode, I had to change the styling on it in `/src/css/custom.css`.
+```css
+[data-theme='dark'] .ds-dropdown-menu {
+  --ifm-background-color: #383a42;
+    border-color: #535763;
+}
+```
+
 **23/11/12** - Docusaurus updated 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
 
 ```bash
