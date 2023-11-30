@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/11/30 - [Unix Haters](/posts/unix-haters)
   - 23/11/27 - [newWindow Storage](/posts/newwindow-storage)
   - 23/11/26 - [Sour Cream](/posts/sour-cream)
   - 23/11/13 - [Headless](/posts/headless)
