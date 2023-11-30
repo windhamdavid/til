@@ -21,10 +21,10 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Wikimedia Foundation
   - On Substack
   - Stack Overflow Blog
-  - Hacker News 
+  - Hacker News
   - Dev Channel - Medium
   - Wired - Ideas Latest
-- Companies 
+- Companies
   - AWS Architecture
   - Apple Newsroom
   - Apple Developer News
@@ -59,8 +59,9 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Jeremy Keith - Adactio
   - Michael B. Paulson - The Primeagen
   - Chris Ferdinandi - Go Make Things
+  - Ted Gioia - _The Honest Broker_
+  - Nick Cave - _The Red Hand Files_
 - Other
-  - The Red Hand Files - Nick Cave
   - Public Domain Review
   - Poetry Foundation 
   - xkcd.com 

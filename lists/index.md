@@ -10,7 +10,7 @@ toc_min_heading_level: 2
 
 #### A list of lists for non-technical stuff. 
 
-This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things.
+This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things.
 
 ## TOC 
 
@@ -37,9 +37,8 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 
 ## Log
 
-I've moved this old repo into this TIL project to simplify. 
-
-- 23/11/15 - [Feeds](feeds) 
+- 23/11/30 - [Wikipedia edits](wikipedia)
+- 23/11/29 - [Feeds](feeds) - Ted Gioia - _The Honest Broker_
 - 23/10/05 - [Visual Art](art/visual) 
 - 23/08/22 - [Emerson Quote](quotes) 
 - 23/07/16 - [Next](next) & [Now](now/now.md)
