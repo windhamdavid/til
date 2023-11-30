@@ -1,0 +1,33 @@
+# Wikipedia
+
+**23.11.30** - I noticed that I haven't put some of my Wikipedia edits aren't on my user page [(https://en.wikipedia.org/wiki/User:Windhamdavid)](https://en.wikipedia.org/wiki/User:Windhamdavid) so I figured I just add them here so that I have a log and reference to whatever or whomever I was reading about and they'd be indexed for the search and AI here.
+
+
+- 23.11.30 - [Gyan Riley](https://en.wikipedia.org/wiki/Gyan_Riley)
+- 23.03.08 - [Andrew Baron](https://en.wikipedia.org/wiki/Andrew_Baron)
+- 21.05.14 - [Sylvania (McCormick County, South Carolina) ](https://en.wikipedia.org/wiki/Sylvania_(McCormick_County,_South_Carolina))
+- 20.07.18 - [Reverend Gary Davis](https://en.wikipedia.org/wiki/Reverend_Gary_Davis)
+- 20.02.01 - [Hamilton–Norwood scale ](https://en.wikipedia.org/wiki/Hamilton–Norwood_scale)
+- 19.08.13 - [Greenwood, South Carolina](https://en.wikipedia.org/wiki/Greenwood,_South_Carolina)
+- 19.02.28 - [Greenwood County, South Carolina](https://en.wikipedia.org/wiki/Greenwood_County,_South_Carolina)
+- 18.10.25 - [Stop Making Sense](https://en.wikipedia.org/wiki/Stop_Making_Sense)
+- 18.05.21 - [Phil Nobel](https://en.wikipedia.org/wiki/Phil_Noble)
+- 17.10.09 - [List of College of Charleston people](https://en.wikipedia.org/wiki/List_of_College_of_Charleston_people)
+- 17.10.08 - [John Delaney \(Maryland politician\)](https://en.wikipedia.org/wiki/John_Delaney_(Maryland_politician))
+- 16.02.09 - [Windhams Crossroads, South Carolina](https://en.wikipedia.org/wiki/Windhams_Crossroads,_South_Carolina)
+- 15.01.01 - [Daniel Henry Chamberlain](https://en.wikipedia.org/wiki/Daniel_Henry_Chamberlain)
+- 14.11.10 - [Delaney & Bonnie](https://en.wikipedia.org/wiki/Delaney_%26_Bonnie)
+- 14.05.23 - [The medium is the message](https://en.wikipedia.org/wiki/The_medium_is_the_message)
+- 14.02.01 - [Beach music](https://en.wikipedia.org/wiki/Beach_music)
+- 14.02.01 - [Chris Hegedus](https://en.wikipedia.org/wiki/Chris_Hegedus)
+- 14.08.31 - [Greenwood, South Carolina](https://en.wikipedia.org/wiki/Greenwood,_South_Carolina)
+- 13.06.18 - [Eastern whip-poor-will](https://en.wikipedia.org/wiki/Eastern_whip-poor-will)
+- 09.06.23 - [Philip Simmons](https://en.wikipedia.org/wiki/Philip_Simmons)
+- 09.06.07 - [Wikipedia:WikiProject South Carolina](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_South_Carolina)
+- 07.09.21 - [Faron Young](https://en.wikipedia.org/wiki/Faron_Young)
+- 07.09.16 - [Jenkins Orphanage](https://en.wikipedia.org/wiki/Jenkins_Orphanage)
+- 07.08.15 - [Carolina shag](https://en.wikipedia.org/wiki/Carolina_shag)
+- 07.08.06 - [David Windham](https://en.wikipedia.org/wiki/David_Windham)
+- 07.07.27 - [McClellanville, South Carolina](https://en.wikipedia.org/wiki/McClellanville,_South_Carolina)
+- 06.11.12 - [WXLY](https://en.wikipedia.org/wiki/WXLY)
+- 06.09.18 - [Mount Pleasant, South Carolina](https://en.wikipedia.org/wiki/Mount_Pleasant,_South_Carolina)

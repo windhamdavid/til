@@ -202,6 +202,9 @@ module.exports = {
       type: 'doc',
       id: 'words',
     },
-
+    {
+      type: 'doc',
+      id: 'wikipedia',
+    },
   ],
 };
