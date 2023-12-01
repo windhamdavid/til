@@ -113,13 +113,13 @@ module.exports = {
         },
         {
           type:'doc',
-          id: 'now/reading',
-          label:'Reading',
+          id: 'now/playing',
+          label:'Playing',
         },
         {
           type:'doc',
-          id: 'now/playing',
-          label:'Playing',
+          id: 'now/reading',
+          label:'Reading',
         },
         {
           type:'doc',
