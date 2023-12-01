@@ -82,6 +82,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'stars',
+    },
+    {
+      type: 'doc',
       id: 'grocery',
     },
     {

@@ -12,6 +12,8 @@ toc_min_heading_level: 2
 
 This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things.
 
+There are two 
+
 ## TOC 
 
 [art](art/art.md)
@@ -27,16 +29,20 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 | [people](people.md)
 | [quotes](quotes.md)
 | [shopping](shopping.md)
+| [stars](stars.md)
 | [things](things.md)
 | [todo](todo)
 | [todone](todone)
 | [trivia](trivia.md)
 | [tweets](tweets.md)
 | [quotes](quotes)
+| [wikipedia](wikipedia)
 | [words](words)
 
 ## Log
 
+- 23/12/01 - [Feeds](feeds) - Derek Sivers
+- 23/12/01 - [Github Stars](stars)
 - 23/11/30 - [Wikipedia edits](wikipedia)
 - 23/11/29 - [Feeds](feeds) - Ted Gioia - _The Honest Broker_
 - 23/10/05 - [Visual Art](art/visual) 
