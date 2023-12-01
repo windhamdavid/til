@@ -1,6 +1,16 @@
 # Feeds
 
-I needed a place to keep an ongoing list of the feeds I pull into my [feed reader](/docs/host/Miniflux). My reader syncs with my [bookmarks](/docs/host/Shaarli) which pull into my [website](https://davidawindham.com/desk). I try to focus on authors and not publishers. I prefer to 'hear it' from the source instead of secondhand information if it's a link to a secondary source, I will go there and bookmark the original. I mostly just skim for headlines that may be relevant to me. The majority of these will pick For recreational reading I use Reddit and Apple News. Anthing to try to avoid mindless scrolling the internet.
+I needed a place to keep an ongoing list of the feeds I pull into my [feed reader](/docs/host/Miniflux). My reader syncs with my [bookmarks](/docs/host/Shaarli) which pull into my [website](https://davidawindham.com/desk). I try to focus on authors and not publishers. I prefer to 'hear it' from the source instead of secondhand information if it's a link to a secondary source, I will go there and bookmark the original. I mostly just skim for headlines that may be relevant to me. The majority of these will pick For recreational reading I use Reddit and Apple News... anything to try to avoid mindless scrolling the internet.
+
+## Added
+
+- 23.12.01 - [Derek Sivers](https://sive.rs/about)
+- 23.10.07 - [Ted Gioia](https://en.wikipedia.org/wiki/Ted_Gioia) - [_The Honest Broker_](https://www.honest-broker.com)
+- 21.04.15 - [Nick Cave](https://en.wikipedia.org/wiki/Nick_Cave) - [_The Red Hand Files_](https://www.theredhandfiles.com)
+
+## Removed
+
+## Original
 
 - Stack
   - CISA Advisories
@@ -59,12 +69,10 @@ I needed a place to keep an ongoing list of the feeds I pull into my [feed reade
   - Jeremy Keith - Adactio
   - Michael B. Paulson - The Primeagen
   - Chris Ferdinandi - Go Make Things
-  - Ted Gioia - _The Honest Broker_
-  - Nick Cave - _The Red Hand Files_
 - Other
-  - Public Domain Review
-  - Poetry Foundation 
-  - xkcd.com 
-  - McSweeney's
-  - Laphams Quarterly
-  - Nature.com
+  - [Public Domain Review](https://en.wikipedia.org/wiki/The_Public_Domain_Review)
+  - [Poetry Foundation](https://en.wikipedia.org/wiki/Poetry_Foundation)
+  - [xkcd.com](https://en.wikipedia.org/wiki/Xkcd)
+  - [McSweeney's](https://en.wikipedia.org/wiki/McSweeney%27s)
+  - [Laphams Quarterly](https://www.laphamsquarterly.org)
+  - [Nature.com](https://en.wikipedia.org/wiki/Nature_(journal))
