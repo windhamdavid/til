@@ -65,6 +65,24 @@ module.exports = {
         editUrl:'https://code.davidawindham.com/david/til/src/main/',
       },
     ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'ideas',
+        path: 'ideas',
+        routeBasePath: 'ideas',
+        blogTitle: 'Ideas',
+        blogDescription: 'Ideas by David Windham',
+        postsPerPage: 'ALL',
+        blogSidebarTitle: 'Ideas',
+        blogSidebarCount: 'ALL',
+        feedOptions: {
+          type: null,
+        },
+        showReadingTime: false,
+        editUrl:'https://code.davidawindham.com/david/til/src/main/',
+      },
+    ],
   ],
   themeConfig: {
     matomo: {
@@ -89,6 +107,9 @@ module.exports = {
     prism: {
       theme: prismThemes.oneDark,
       additionalLanguages: ['php', 'rust', 'bash', 'shell-session', 'swift', 'diff'],
+    },
+    mermaid: {
+      theme: {light: 'base', dark: 'base'},
     },
     colorMode: {
       defaultMode: 'dark',

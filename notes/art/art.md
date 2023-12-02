@@ -10,11 +10,13 @@ There are several things I'd like to give a shot:
 
 ## TOC 
 
-- [education/design](art/education/design.md)
-- [education/education](art/education/education.md)
-- [education/media](art/education/media.md)
-- [education/visual](art/education/visual.md)
+
 - [studio](studio)
+- [design](design)
+- [education/design](education/design.md)
+- [education/education](education/education.md)
+- [education/media](education/media.md)
+- [education/visual](education/visual.md)
 
 ## Instruction
 

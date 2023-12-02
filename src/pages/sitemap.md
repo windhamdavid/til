@@ -1,3 +1,5 @@
+# Sitemap
+
 - [About](https://davidawindham.com/about/)
   - Bio
   - CV
@@ -61,36 +63,35 @@
       - Software
       - Versioning
       - Lists
-        - .
-          - Art
-            - Lit
-            - Motion
-            - Music
-            - Visual
-          - Concepts
-          - Design
-          - Feeds
-          - Groceries
-          - Next
-          - Now
-            - Learning
-            - Listening
-            - Playing
-            - Reading
-            - Watching
-          - Lists
-          - Places
-          - People
-          - Shopping
-          - Things
-          - Todo
-          - Todone
-          - Trivia
-          - Tweets
-            - Archive
-            - Followed
-          - Quotes
-          - Words
+        - Art
+          - Lit
+          - Motion
+          - Music
+          - Visual
+        - Concepts
+        - Design
+        - Feeds
+        - Groceries
+        - Next
+        - Now
+          - Learning
+          - Listening
+          - Playing
+          - Reading
+          - Watching
+        - Lists
+        - Places
+        - People
+        - Shopping
+        - Things
+        - Todo
+        - Todone
+        - Trivia
+        - Tweets
+          - Archive
+          - Followed
+        - Quotes
+        - Words
       - Notes
         - Art
         - Dogs
@@ -126,7 +127,6 @@
   - Reading
   - Watching
 - Studio
-
   - Art
     - Media
     - Oil

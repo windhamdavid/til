@@ -21,6 +21,7 @@
 html[data-theme='dark'] {
   --ifm-background-color:#484c57;
   --ifm-navbar-background-color:#535763;
+  --ifm-footer-background-color:#535763;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -34,8 +35,16 @@ html[data-theme='dark'] {
   --ifm-background-color: #383a42;
     border-color: #535763;
 }
-
-
+.theme-light .mermaid {
+  --color-red: #ff7777;
+  --color-orange: #ffbb99;
+  --color-yellow: #ffeeaa;
+  --color-green: #bbffbb;
+  --color-cyan: #bbffee;
+  --color-blue: #aaccff;
+  --color-purple: #ddbbff;
+  --color-pink: #ffcccc; 
+}
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
   background-color: #e2e2e2 !important;
 }

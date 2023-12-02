@@ -9,6 +9,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 | [Playing](playing)
 | [Reading](reading)
 | [Watching](watching)
+| [Elsewhere](elsewhere)
 
 ## Log
 
