@@ -12,5 +12,6 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
-- **23/12/01** - As usual this time of year, I'm trying to wrap up a couple projects in squirrel 🐿️ mode so I can hibernate for the holiday break and spend my time with the [wife](https://ginnygast.com) and/or [dog](/notes/dogs/iris).
-- **23/10/12** - The girls tennis season just wrapped up and it's just starting to chill 🥶 off outside so I'd like to spend the extra time doubling down on some project work.
+- **23/12/02** - Trying to wrap up a couple requests and projects in squirrel 🐿️ mode so I can hibernate for the holiday break and spend my time with the [wife](https://ginnygast.com) and [dog](/notes/dogs/iris).
+- **23/11/22** - prepping for 🦃 day and traveling across the state. Leaves 🍁 are looking nice.
+- **23/10/19** - The girls 🎾 season just wrapped and it's just starting to chill 🥶 off so I'd like to spend the extra time on some work.
