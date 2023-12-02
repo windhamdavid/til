@@ -5,7 +5,7 @@ I put this list here to expand upon some of my existing lists of music and movie
 ## [Literature](lit)
 Authors / Fiction / Poets / Magazines / Journals / Other
 
-## [Motion](motion)
+## [Motion](motion) - [video](video)
 
 Film / Movies / Television / Directors / Screenplays / Theatre / Shorts / Dance / Animation
 

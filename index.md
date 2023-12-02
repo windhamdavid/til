@@ -4,6 +4,7 @@ I only put this page here so that the markdown map would have an index. It is no
 
 - [about](src/pages/index)
 - [docs](docs/index)
+- [ideas](ideas/_ideas)
 - [lists](lists/index)
 - [notes](notes/index.md)
 - [posts](posts/_posts)
