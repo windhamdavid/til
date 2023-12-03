@@ -31,13 +31,13 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
-  .alert--secondary {
-    background-color: #383a42;
-  }
 }
 [data-theme='dark'] .ds-dropdown-menu {
   --ifm-background-color: #383a42;
     border-color: #535763;
+}
+[data-theme='dark'] .alert--secondary {
+  background-color: #383a42;
 }
 .theme-light .mermaid {
   --color-red: #ff7777;
