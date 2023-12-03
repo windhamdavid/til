@@ -1,5 +1,86 @@
 # Sitemap
 
+##### Notes/Docs structure
+
+```mermaid
+%%{init: {'theme':'forest'}}%%
+mindmap
+  root((DAW/TIL))
+    _Desk.md
+      ( Always keep open to make notes )
+    / Search
+      ( Lunr/AI VectorDB/OpenAI ReIndex every so often )
+    / Code
+      ( Everything in version control )
+    / Desk
+      ( Essays on things I've put considerable thought into )
+    / Docs
+      ( Technical Docs, Notes, Logs, & References )
+    / Notes
+      ( Non-technical Docs, Notes, Logs, & References )
+    / Lists
+      ( ongoing edits )
+    / Posts
+      ( Longer formatted essays )
+    Help
+      ( Log of Repo changes )
+```
+
+##### Website structure
+
+```mermaid
+%%{init: {'theme':'forest'}}%%
+mindmap
+  root((DAW.com))
+    About
+      Ancestors
+      Bio
+      CV
+    DW.com
+    Desk
+      Bookmarks
+      Categories
+      Posts
+      Reader
+      Tags
+    Code
+      Activity
+      Commits
+      Repos
+      Wikis
+    Contact
+      Chat
+      Chess
+      Contract
+      Guestbook
+      Inquiry
+      Invoice
+      Email List
+      Pay
+      Support
+    Search
+    Sitemap
+      Analytics
+      Privacy
+    Studio
+      Art
+      Audio
+      Design
+      Projects
+      Photo
+      Radio
+      Video
+      Web
+    TIL
+      AI
+      Docs
+      Ideas
+      Notes
+      Lists
+      Posts
+```
+
+
 - [About](https://davidawindham.com/about/)
   - Bio
   - CV
