@@ -22,6 +22,7 @@ html[data-theme='dark'] {
   --ifm-background-color:#484c57;
   --ifm-navbar-background-color:#535763;
   --ifm-footer-background-color:#535763;
+  --ifm-alert-background-color: #383a42;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -30,6 +31,9 @@ html[data-theme='dark'] {
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  .alert--secondary {
+    background-color: #383a42;
+  }
 }
 [data-theme='dark'] .ds-dropdown-menu {
   --ifm-background-color: #383a42;
