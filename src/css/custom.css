@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-background-color:#d1d1d1;
+  --ifm-background-color:#d9d9d9;
   --ifm-navbar-background-color:#e2e2e2;
   --ifm-color-primary: #AC0000;
   --ifm-color-primary-dark: #C01E1E;
@@ -17,6 +17,7 @@
   --ifm-color-primary-lighter: #F79999;
   --ifm-color-primary-lightest: #FBC8C8;
   --ifm-code-font-size: 95%;
+  --ifm-h2-font-size: 1.2rem;
 }
 html[data-theme='dark'] {
   --ifm-background-color:#484c57;
@@ -88,19 +89,16 @@ html[data-theme='dark'] {
 table td img {
   max-width: 100px;
 }
+.markdown ol li > p {
+  margin: 0;
+}
 .title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
   font-size: 1.5rem !important;
 }
-.hero__title, .title_f1Hy {
-  font-size: 1.5rem !important;
+.hero__title, .title_f1Hy{
+  font-size: 1.9rem !important;
 }
 
-markprompt-content {
-  --background-color: #ffffff;
-}
-markprompt-content.dark {
-  --background-color: #000000;
-}
 form input { 
   box-sizing: border-box;
   margin: 1em 0 2em;
