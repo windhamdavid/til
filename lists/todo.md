@@ -1,139 +1,124 @@
 # ToDo
 
-**23.05.31** - I added this page as a copy of my the Reminders I use across all of my devices. I detailed this workflow in https://davidawindham.com/slow-thinking/. The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here.
-
----
-
-## Current 
-
-- 23/07/17 - [Fix Yoast plugins](/docs/host/WordPress)
-- 23/07 - [Iris train & registrations](/notes/dogs)
-- 23/07 - [tennis - girls, swing vision app](notes/tennis)
-- 23/06 - [summer travel](/notes/travel)
-- 23/06 - [summer house projects](/notes/travel)
-- 23/06 - [work - dist project](/notes/travel)
+**23.05.31** - I added this page as a copy of my Reminders. I detailed my workflow in https://davidawindham.com/slow-thinking/. ~~The easiest way to export the reminders to Markdown is to print to PDF and then migrate, so the first todo item should be to find a better way to sync them here~~. ( **23/12/08** ) Made and Apple Shortcut to export them to markdown and consolidated the **ToDo(ne)** list here.
 
 ---
 
 ## Short Term
 
-- [Iris](/notes/dogs)
-  - Train 
-  - service eligibility
-  - AKC Registration
-    - breeding rights
 - [Travel](/notes/travel)
-  - Boone (Aug)
-  - Charleston (Oct)
+  - Folly Beach ( Jan 2-7 )
 - [House](/notes/house) / [Garden](/notes/garden)
-  - Fix the front porch scone light
-  - Pressure wash / Re-seal decks
-  - new hose/sprinkler front left lawn
-  - insect treatments
-    - flea/tick yard treatment
-    - clove oil, diatomaceous earth
-    - ant traps
+  - Fix outlet in the front porch light
+  - New upstairs carpet
+  - Build Downstairs studio / Desk / Taboret
+- [Iris](/notes/dogs)
+  - service eligibility / AKC Registration
 - [Tennis](notes/tennis)
-  - SwingVision Tennis app
-  - Girls roster
+  - Boys Roster / SwingVision app
 - [Work](/notes/work)
-  - ZWA
-    - dist project
-    - build tool / Github actions
-    - PHF/HLF redesigns
-    - GA universal v.4 migrations
-    - Google Domains migrations
-  - Learn [AI](/docs/saas/openai)
-    - SupaBase and/or postgres from Github actions
-    - Self host Supabase
-    - integration techniques for CMSs
-    - multiple embeddings techniques
-  - SRH
-    - NP/PAs to Providers Directory
-    - July/Aug project calendar
-    - Rework Navigation based on Analytics
+  - ZW - 23' Invoicing
+  - [AI](/notes/work/projects/ai) - SupaBase and/or postgres from Github actions
+  - SRH - NP/PAs to Providers Directory
     - Rebuild design features as blocks
-  - IRAs consult/move
+  - [IRAs consult/move](/notes/work/wealth)
   - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
-    - Zeke - Ubuntu to 22.04 LTS
-    - Cache policies
-    - Woozie - Auto Remove old analytics logs
-    - customize 503 error pages for nodejs apps
-    - fix radio.daw redis auth
-    - Postgres / PGVector
-    - Personal Mastodon server
+    - Cache policies / Auto Remove old analytics logs
+  - finish Edward Lee Elmore Wikipedia page
 
 ---
 
 ## Middle Term
 
-- Learn
-  - Akamai EdgeCompute & EdgeWorkers
-  - Akamai Terraform / Docker
-  - Turbo build system - https://turbo.build
-  - Deno / Lume / SaaSkit - https://deno.land
-  - Rust WASM
-    - TypeScript > JavaScript
-    - SWC ( Speedy Web Compiler ) - https://swc.rs
-    - https://doc.rust-lang.org/stable/book/
-  - Svelte - sqlite tennis scorer
-- Edward Lee Elmore Wikipedia page
+- [Work](/notes/work)
+  - SRH - Rework Navigation based on Analytics
+  - TIL - build tool / Github actions
+  - PHF/HLF - Redesigns
+  - GA universal v.4/domain migrations
+  - Self host email - migrate from G Suite
+  - New Mac Mini/Studio
+  - [DAW/DW](/docs/computers/woozie)
+    - Fix mail@daw from wp.dw
+    - fix radio.daw redis auth
+    - customize 503 error pages for nodejs
+    - API Dashboard
+    - DW - svg animations
+    - ActivityPub spec
+  - [Learn](/lists/now/learning)
+    - Akamai EdgeCompute & EdgeWorkers
+    - Turbo build system - https://turbo.build
+    - Deno / Lume / SaaSkit - https://deno.land
+    - Rust WASM & https://swc.rs
+    - Svelte - sqlite tennis scorer
 - [Tennis](/notes/tennis)
   - Convice SCHSL to move back girl's season
   - update certifications
-- [DAW/DW](/docs/computers/woozie) - redesign to be more comprehensive
-  - WordPress Blocks to wp.daw
-  - Fix mail@daw from wp.dw
-  - Fix Mediaelement.js on DAW
-  - Personal API Dashboard
-  - DW - svg animations
-- [Work](/notes/work)
-  - Billing / Accounting system upgrade
-  - Self hosted email
-    - migrate from G Suite
-  - New Mac Mini/Studio
 - [House](/notes/house) / [Garden](/notes/garden)
-  - Install Garage Floodlight
-  - New Front Doors
-  - New Carpet
+  - Pressure wash / Re-seal decks ( spring )
+  - Front Doors
   - Kitchen Redo
     - counter tops
     - counter depth fridge
-  - Build Downstairs studio
-    - Easel Taboret
-    - Wall desk
-  - Upstairs Balcony deck replacement
+  - Upstairs Balcony deck
 
 ---
 
 ## Long Term
 
-- [Side projects](notes/work/projects/)
-  - The-Ham
-  - Storyboarding App
-  - Carolinas House
-  - Juryd
-  - GZET
-- [Golf](/notes/golf)
-  - head coach
-- Student loan Payoff
-- Medical Savings Account
-- New truck/car setup
-- [Property / House](/notes/house)
-  - find / purchase property
-  - arrange architect / contractors
-  - figure out financing
-- Aromatics Distillation
+- [Work](/notes/work)
+  - Student loan Payoff
+  - Medical Savings Account
+  - [Side projects](notes/work/projects/)
+    - The-Ham/ Storyboard / Carolinas House / Juryd / GZET
 - [Art](/notes/art)
-  - Watercolor setup
-  - Illustrated Book
+  - Watercolor setup / Illustrated Book
 - [House](/notes/house) / [Garden](/notes/garden)
   - Master bath remodel
-    - skylight install
-    - raised ceiling
   - Irrigation system
   - Upstairs HVAC condenser
   - Re-roof
   - Re-paint
   - Pond dredged
   - New Garage Door w/ windows  
+  - [new build](/notes/house/build)
+
+---
+
+## ToDo(ne)
+
+- 23/12/07 - [Christmas Shopping](/lists/shopping)
+- 23/11/27 - [Florence combo](/notes/tennis)
+- 23/11/24 - [Install Garage Floodlight](/notes/house)
+- 23/11/10 - [Charleston, SC](/notes/travel)
+- 23/10/27 - [Billing / Accounting system upgrade](/notes/work/work)
+- 23/10/22 - [Insect Treatments](/notes/house)
+- 23/10/21 - [Algeacide pond](/notes/garden/garden)
+- 23/10/09 - [Girl season wrap](/notes/tennis)
+- 23/10/09 - [Self host Supabase](/notes/work/projects/ai)
+- 23/08/14 - [Iris Breeding rights](/notes/dogs)
+- 23/08/14 - [Boone, NC](/notes/travel)
+- 23/07/19 - [add Now to DAW](/docs/computers/woozie)
+- 23/07/18 - [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song)
+- 23/07/02 - [Woozie - Automate clearing logs](/docs/computers/woozie)
+- 23/07/01 - [Pull poison ivy](/notes/garden)
+- 23/06/20 - [shade cover on balcony](/lists/index.md)
+- 23/06/16 - [Tree Service - Oak down](/posts/white-oak)
+- 23/06/02 - [Woozie - Fix Longview config](/docs/computers/woozie)
+- 23/05/21 - [Wood repair outside dining](/notes/house)
+- 23/05 - [Squeak in front door](/notes/house)
+- 23/05 - [Woozer - custom.d](/docs/computers/woozer)
+- 23/05 - [Woozer Ubuntu 22 up](/docs/computers/woozer)
+- 23/04 - [Setup Eye Appointment](/notes/health)
+- 23/07 - [outdoor faucet covers](/notes/house)
+- 23/07 - [add Stripe to GG](/docs/computers/zeke)
+- 23/07 - [remove motion sensor on floods](/notes/house)
+- 23/07 - [migrate gogs](/lists/index.md)
+- 23/07 - [essay on 'second brain'](https://davidawindham.com/a-second-brain/)
+- 23/02 - [azelea bed](/notes/garden)
+- 23/01 - [Annual Invoicing](/notes/work)
+- 23/07 - [transfer SSL certs](/docs/computers/zeke)
+- 23/07 - [rm wildcard domains](/docs/computers/zeke)
+- 23/07 - [pine straw](/notes/house)
+- 22/07 - [new fire alarm for garage](/notes/house)
+- 22/12 - [christmas cards](/notes/health)
+- 22/03 - [truck transmission](https://davidawindham.com/automobiles/)

@@ -2,6 +2,7 @@
 title: Lists
 slug: /
 toc_min_heading_level: 2
+
 ---
 
 # Lists
@@ -10,29 +11,33 @@ toc_min_heading_level: 2
 
 #### A list of lists for non-technical stuff. 
 
-This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists. I'm primarily using it to list my favorite artists, places, people, and things.
+This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists.
 
-There are two 
+**23/12/08** - Reorganized the sidebar navigation to seperate out the most commonly edited lists so I could prioritize and get to them faster. 
+
+
 
 ## TOC 
+
+[now](now/now.md)
+| [next](next.md)
+| [todo](todo)
+| [todone](todone)
+| [grocery](grocery.md)
+| [shopping](shopping.md)
+
 
 [art](art/art.md)
 | [concepts](concepts.md)
 | [design](design.md)
 | [feeds](feeds.md)
-| [grocery](grocery.md)
-| [lists](lists.md)
+| [Github stars](stars.md)
+| [Of lists](lists.md)
 | [music](art/music/music.md)
-| [next](next.md)
-| [now](now/now.md)
 | [places](places/places.md)
 | [people](people.md)
 | [quotes](quotes.md)
-| [shopping](shopping.md)
-| [stars](stars.md)
 | [things](things.md)
-| [todo](todo)
-| [todone](todone)
 | [trivia](trivia.md)
 | [tweets](tweets.md)
 | [quotes](quotes)
@@ -41,6 +46,7 @@ There are two
 
 ## Log
 
+- 23/12/08 - [Todo](/lists/todo)
 - 23/12/01 - [Feeds](feeds) - Derek Sivers
 - 23/12/01 - [Github Stars](stars)
 - 23/11/30 - [Wikipedia edits](wikipedia)
