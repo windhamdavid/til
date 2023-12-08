@@ -22,7 +22,6 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 [now](now/now.md)
 | [next](next.md)
 | [todo](todo)
-| [todone](todone)
 | [grocery](grocery.md)
 | [shopping](shopping.md)
 
