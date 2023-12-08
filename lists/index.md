@@ -53,7 +53,7 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 - 23/10/05 - [Visual Art](art/visual) 
 - 23/08/22 - [Emerson Quote](quotes) 
 - 23/07/16 - [Next](next) & [Now](now/now.md)
-- 23/07/16 - [Todo(ne)](todone) for Now page
+- 23/07/16 - Todo(ne) for Now page
 - 23/05/12 - [Grocery](grocery) and [Shopping](shopping)
 - 22/11/16 - [Music](art/music#playlists), [Feeds](feeds), and [Tweets](tweets)
 - 22/07/18 - [Up next](next) as a replacement for bookmarks
