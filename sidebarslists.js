@@ -5,6 +5,66 @@ module.exports = {
       id: 'index',
     },
     {
+      type: 'html',
+      value: '<span style="border-top: 1px solid var(--ifm-color-gray-500); display: block;margin: 1rem 0 1rem 0;" />',
+    },
+    {
+      type: 'category',
+      label: 'Now',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'now/now',
+      },
+      items: [
+        {
+          type:'doc',
+          id: 'now/learning',
+          label:'Learning',
+        },
+        {
+          type:'doc',
+          id: 'now/listening',
+          label:'Listening',
+        },
+        {
+          type:'doc',
+          id: 'now/playing',
+          label:'Playing',
+        },
+        {
+          type:'doc',
+          id: 'now/reading',
+          label:'Reading',
+        },
+        {
+          type:'doc',
+          id: 'now/watching',
+          label:'Watching',
+        },
+      ],
+    },
+    {
+      type: 'doc',
+      id: 'next',
+    },
+    {
+      type: 'doc',
+      id: 'todo',
+    },
+    {
+      type: 'doc',
+      id: 'grocery',
+    },
+    {
+      type: 'doc',
+      id: 'shopping',
+    },
+    {
+      type: 'html',
+      value: '<span style="border-top: 1px solid var(--ifm-color-gray-500); display: block;margin: 1rem 0 1rem 0;" />',
+    },
+    {
       type: 'category',
       label: 'Art',
       collapsible: true,
@@ -86,50 +146,6 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'grocery',
-    },
-    {
-      type: 'doc',
-      id: 'next',
-    },
-    {
-      type: 'category',
-      label: 'Now',
-      collapsible: true,
-      link: {
-        type:'doc',
-        id:'now/now',
-      },
-      items: [
-        {
-          type:'doc',
-          id: 'now/learning',
-          label:'Learning',
-        },
-        {
-          type:'doc',
-          id: 'now/listening',
-          label:'Listening',
-        },
-        {
-          type:'doc',
-          id: 'now/playing',
-          label:'Playing',
-        },
-        {
-          type:'doc',
-          id: 'now/reading',
-          label:'Reading',
-        },
-        {
-          type:'doc',
-          id: 'now/watching',
-          label:'Watching',
-        },
-      ],
-    },
-    {
-      type: 'doc',
       id: 'lists',
     },
     {
@@ -164,19 +180,7 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'shopping',
-    },
-    {
-      type: 'doc',
       id: 'things',
-    },
-    {
-      type: 'doc',
-      id: 'todo',
-    },
-    {
-      type: 'doc',
-      id: 'todone',
     },
     {
       type: 'doc',

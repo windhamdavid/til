@@ -1,32 +1,14 @@
 # Shopping
 
-I keep some shopping lists over on Amazon because it's an easy way to find and organize items I'm looking for. For now, I'm just copying those list over here for posterity. In an effort to cut out the middle-man, I do try and support the vendors directly if they have their own e-commerce available. 
+I keep some shopping lists over on Amazon because it's an easy way to find and organize items I'm looking for. For now, I'm just copying those list over here for posterity. In an effort to cut out the middle-man, I do try and support the vendors directly if they have their own e-commerce available.
 
-### Camping
+**23/12/08** - Just wrapped the online holiday shopping. And because I just finished, I realized that in an effort aforementioned effort to skirt the middleman, I need to add a list of vendors I like. While everyone likes to tout sustainability, the best thing to do is buy local, buy used, or don't buy anything at all.
 
-- Big Agnes Dream Island (Fireline Eco) Sleeping Bag
-- Big Agnes Rapide SL Insulated Sleeping Pad
-- Marmot Midpines Tents & Footprints
-- Kelty Waypoint Tarp, Car Camping and Tailgating Shelter, Universal Vehicle Mount
-- Coleman Gas Camping Stove | Triton Propane Stove, 2 Burner
-- Kelty Low-Love Seat Camping Chair
-- Big Agnes Accessory Fly Copper Hotel Hv Ul2
-- Wapiti Designs Go-Long Gaiters Trail Running Shoe Gaiters
-- Hillsound BTR Stool for Ultralight Backpacking & Hiking
-- MSR PocketRocket Ultralight Camping and Backpacking Stove Kit
-- MSR Guardian Gravity Water Purifer
-- GEAR AID Revivex Odor Eliminator
-- Gear Aid Revivex Pro Cleaner Wash
-- TRIWONDER Guyline Cord Adjuster Rope Tensioner
-- ThreeBulls 1.8mm Fluorescent Reflective Guyline Tent Rope
-- Johnson & Johnson All-Purpose Portable Compact First Aid Kit
-- GEERTOP Camping Tent Footprint 150D Oxford Waterproof Ground Sheet Mat Rain Fly Tarp
-- Baen Sendi Hydration Bladder 2 Liter/70 oz
-- Nikwax Tent & Gear SolarProof
-
-### Cycling
+---
 
 
+
+### Clothing
 
 ### Computer
 
@@ -36,6 +18,8 @@ I keep some shopping lists over on Amazon because it's an easy way to find and o
 - Nouhaus Ergo3D Ergonomic Office Chair
 - ViewSonic VP3881 38-Inch Premium IPS WQHD+ Curved Ultrawide Monitor
 - Yamaha HS8 Studio Subwoofer & HS8 Studio Monitor
+
+### Cycling
 
 ### Dog
 
@@ -164,3 +148,27 @@ I keep some shopping lists over on Amazon because it's an easy way to find and o
 - Penn Championship Regular Duty Tennis Balls 24 Can Case
 - adidas Interval Large Reversible Wristband Black/Grey
 - WS095/KSwiss Hypercourt Express 2 Barely Bl Wom's 9.5
+
+### Travel
+
+- Big Agnes Dream Island (Fireline Eco) Sleeping Bag
+- Big Agnes Rapide SL Insulated Sleeping Pad
+- Marmot Midpines Tents & Footprints
+- Kelty Waypoint Tarp, Car Camping and Tailgating Shelter, Universal Vehicle Mount
+- Coleman Gas Camping Stove | Triton Propane Stove, 2 Burner
+- Kelty Low-Love Seat Camping Chair
+- Big Agnes Accessory Fly Copper Hotel Hv Ul2
+- Wapiti Designs Go-Long Gaiters Trail Running Shoe Gaiters
+- Hillsound BTR Stool for Ultralight Backpacking & Hiking
+- MSR PocketRocket Ultralight Camping and Backpacking Stove Kit
+- MSR Guardian Gravity Water Purifer
+- GEAR AID Revivex Odor Eliminator
+- Gear Aid Revivex Pro Cleaner Wash
+- TRIWONDER Guyline Cord Adjuster Rope Tensioner
+- ThreeBulls 1.8mm Fluorescent Reflective Guyline Tent Rope
+- Johnson & Johnson All-Purpose Portable Compact First Aid Kit
+- GEERTOP Camping Tent Footprint 150D Oxford Waterproof Ground Sheet Mat Rain Fly Tarp
+- Baen Sendi Hydration Bladder 2 Liter/70 oz
+- Nikwax Tent & Gear SolarProof
+
+### Wish

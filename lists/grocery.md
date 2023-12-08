@@ -1,214 +1,47 @@
+---
+hide_table_of_contents: true
+---
+
 # Groceries
 
-**23/05/24** - Groceries should be the mother of all lists given the fact that I, and most others, work from it weekly. We keep our grocery list in a shared Apple Notes file that syncs between devices and uses a checklist so that we don't have to add or remove items we buy regularly. We just add new items that haven't been on the list, tap a listed item to add, and tap again to remove. We've only been doing this consistently for about a year so there are items that have yet to be added and I would imagine that it'll grow considerably after a while.
+**23/05/24** - Groceries should be the mother of all lists given the fact that I, and most others, work from it weekly. We keep our grocery list in a shared Apple Notes file that syncs between devices and uses a checklist so that we don't have to add or remove items we buy regularly. We just add new items that haven't been on the list, tap a listed item to add, and tap again to remove. We've been doing this consistently for about three years and the lists below are only in the order of when I made them. I wrote a [post about grocery lists](/posts/grocery-shopping) and I'll just update this every so often and try to organize by most regular purchases.
 
-### Notes
-
-I wrote a post about grocery lists @ https://davidawindham.com/til/posts/grocery-shopping/.
-
-
-## Produce
-
-- [ ] Onion
-- [ ] Lemons
-- [ ] Oranges
-- [ ] Peppers
-- [ ] Green Onion
-- [ ] Cilantro
-- [ ] Lemongrass
-- [ ] Basil
-- [ ] Celery
-- [ ] Ginger
-- [ ] Bean sprouts
-- [ ] Potatoes
-- [ ] Apples
-- [ ] Lime
-- [ ] Garlic
-- [ ] Mushrooms 
-- [ ] Mixed greens
-- [ ] Carrots
-- [ ] Tomatoes
-- [ ] Spinach
-- [ ] Romaine
-- [ ] Brussel sprouts
-- [ ] Cucumbers 
-- [ ] Blueberries
-- [ ] Avocados
-- [ ] Asparagus
-- [ ] Broccoli
-- [ ] Bananas
-- [ ] Sprouts
-
-## Cooler
-
-- [ ] Shrimp
-- [ ] Butter
-- [ ] Keifer
-- [ ] Beer
-- [ ] Biscuits
-- [ ] Yogurt
-- [ ] Vegan Meat
-- [ ] Juice
-    - [ ] Cranberrry
-    - [ ] Grapefruit
-    - [ ] Cherry
-- [ ] Milk
-    - [ ] Almond
-    - [ ] Cow
-    - [ ] Oat
-- [ ] Lunchmeat
-- [ ] Fish
-    - [ ] Cod
-    - [ ] Tuna
-    - [ ] Haddock
-    - [ ] Orange Roughy
-    - [ ] Salmon
-- [ ] Chicken
-- [ ] Eggs
-- [ ] Cheese
-    - [ ] Parmesan
-    - [ ] Cheddar
-    - [ ] Swiss
-- [x] Beef
-- [ ] Salsa
-
-
-## Pantry
-
-- [ ] Coffee
-- [ ] Tea
-- [ ] Oil
-    - [ ] Sunflower Oil
-    - [ ] Olive Oil
-    - [ ] Sesame
-- [ ] Mustard
-- [ ] Mayo
-- [ ] Dressing
-  - [ ] Balsamic Vinegar
-- [ ] Cashews
-- [ ] Almonds
-- [ ] Pickles
-- [ ] Olives
-- [ ] Artichoke
-- [ ] Pasta Sauce
-- [ ] Mac & Cheese
-- [ ] Pasta
-- [ ] Oatmeal
-- [ ] Peanut butter
-- [ ] Crackers
-- [ ] Granola Bars
-- [ ] Curry
-- [ ] Chips
-- [ ] Rice
-- [ ] Quinoa
-- [ ] Canned Soup
-    - [ ] Chili
-- [ ] Canned Beans
-    - [ ] Garbanzo
-    - [ ] Kidney
-    - [ ] Black
-- [ ] Canned 
-    - [ ] Peas
-    - [ ] Corn
-- [ ] Cereal
-- [ ] Old Bay
-- [ ] Tortilla wraps
-- [ ] Dried fruits
-- [ ] Maple syrup
-- [ ] Vanilla extract 
-- [ ] Honey
-- [ ] Bread
-- [x] Chocolate
-
-## Frozen
-
-- [ ] Frozen Bananas
-- [ ] Ice Cream
-- [ ] Fish/shrimp/calamari
-- [ ] Burritos
-- [ ] Beyond Sausage
-- [ ] Palak paneer
-- [ ] Pizza
-- [ ] Lasagna
-
-## Household
-
-- [ ] Coffee filters
-- [ ] Paper Towels
-- [ ] Lint roller
-- [ ] Scotch tape
-- [ ] Toilet Paper
-- [ ] Landry Detergent
-- [ ] Trash bags
-- [ ] Air Filters
-- [ ] Water
-- [ ] Draino
-- [ ] Electric toothbrush
-- [ ] Quart Ziploc
-
-## Medicine
-
-- [ ] Aspirin
-- [ ] Gum
-- [ ] Pain Reliever
-- [ ] Nicorette
-- [ ] Eye Drops
-- [ ] Pepto
-- [ ] Deodorant
-- [ ] Tooth Paste
-- [ ] Mouthwash
-- [ ] Q-Tips
-- [ ] Shampoo
-- [ ] Conditioner
-- [ ] Body Wash
-- [ ] Nail polish remover
-
-## Pets
-
-- [ ] Cat food 
-- [ ] Nasties
-- [ ] Dog food
-- [ ] Fish Food
-- [ ] Aquarium Filters
-- [ ] Dog Treats
-- [ ] Cat Treats
-
-
-| Produce	| Cooler	| Pantry 	| Freezer | 
-|--|--|--|--|
-| Garlic	| Beef	| Honey	| Pizza
-| Spinach	| Shrimp	| Coffee	| Frozen Bananas
-| Asparagus	| Chicken	| Tea	| Palak paneer
-| Tomatoes	| Cheese	| Oil	| Ice Cream
-| Onion	| Vegan Meat	    | Sunflower Oil	| Lasagna
-| Lemons	| Yogurt	    | Olive Oil	| Fish
-| Avocados	| Butter	    | Sesame	| Burritos
-| Blueberries	| Keifer	| Mustard	| Beyond Sausage
-| Romaine	| Beer	| Mayo	| Tuna Burgers
-| Brussel sprouts	| Milk	| Dressing	| Pinapple
-| Cucumbers 	    | Oat	| Pickles	| Salmon Burgers
-| Broccoli	    | Almond	| Olives	| Paella 
-| Oranges	    | Cow	| Artichoke	| French fries
-| Peppers	    | Soy	| Pasta Sauce	| Calamari
-| Green Onion	| Juice	| Mac & Cheese	| Shrimp
-| Cilantro	    | Cherry	| Pasta	| Scallops
-| Lemongrass	    | Cranberrry	| Oatmeal	| Pad Thai
-| Basil	    | Grapefruit	| Cereal	| Enchilladas
-| Carrots	| Biscuits	| Peanut butter	| Quinoa blend
-| Celery	| Cheese	| Chocolate	| Corn
-| Ginger	    | Swiss	| Crackers	| Peas
-| Bean sprouts	    | Cheddar	| Granola Bars	| Plantains
-| Sprouts	    | Parmesan	| Bread	| Pieriogis
-| Mixed greens	| Salsa	| Curry	| Blueberries
-| Bananas	| Fish	| Chips	||
-| Potatoes	    | Salmon	| Rice ||
-| Apples	    | Cod	| Quinoa	||
-| Lime	    | Tuna	| Canned Soup	||
-| Mushrooms 	    | Haddock	    | Chili	||
-| Green Beans	    | Orange Roughy	| Canned Beans	||
-| Carrots	| Eggs	    | Black	||
-| Nuts	| Sigis	    | Garbanzo	||
-| Cashew	| Tofu	    | Kidney	||
-| Almond		|    | Peas	||
-| Sunflower		|| Canned Fish	||
-| Pistachios	||||	
+| Produce      | Cooler     | Pantry        | Freezer        | Household      | Personal       | Pets             |
+| ------------ | ---------- | ------------- | -------------- | -------------- | -------------- | ---------------- |
+| Herbs        | Meat       | Honey         | Pizza          | Coffee Filters | Gum            | Dog Food         |
+| Garlic       | - Beef     | Coffee        | Frozen Bananas | Paper Towels   | Aspirin        | Dog Treats       |
+| Spinach      | - Shrimp   | Tea           | Palak paneer   | Trash bags     | Pain Reliever  | Dog Chews        |
+| Asparagus    | - Chicken  | Oil           | Ice Cream      | Detergent      | Nicorette      | Cat Food         |
+| Tomatoes     | Cheese     | - Sunflower   | Lasagna        | Toilet Paper   | Eye Drops      | Cat Wet Food     |
+| Onion        | Vegan Meat | - Olive       | Fish           | Air Filters    | Pepto          | Fish Food        |
+| Lemons       | Yogurt     | - Sesame      | Burritos       | Quart Ziploc   | Deodorant      | Aquarium Filters |
+| Avocados     | Butter     | Mustard       | Beyond Sausage | Lint roller    | Tooth Paste    |                  |
+| Blueberries  | Keifer     | Mayo          | Tuna Burgers   | Dish Soap      | Mouthwash      |                  |
+| Romaine      | Beer       | Dressing      | Pinapple       | Dish Tabs      | Q-Tips         |                  |
+| Brussels     | Milk       | Pickles       | Salmon Burgers |                | Shampoo        |                  |
+| Cucumbers    | - Oat      | Olives        | Paella         |                | Conditioner    |                  |
+| Broccoli     | - Almond   | Artichoke     | French fries   |                | Body Wash      |                  |
+| Oranges      | - Cow      | Pasta Sauce   | Calamari       |                | Heat wraps     |                  |
+| Peppers      | - Soy      | Mac & Cheese  | Shrimp         |                | Neosporin      |                  |
+| Green Onion  | Juice      | Pasta         | Scallops       |                | Band Aids      |                  |
+| Cilantro     | Cherry     | Oatmeal       | Pad Thai       |                | Nasal Spray    |                  |
+| Lemongrass   | Cranberrry | Cereal        | Enchilladas    |                | Cough Medicine |                  |
+| Basil        | Grapefruit | Peanut butter | Quinoa blend   |                | Antithistamine |                  |
+| Carrots      | Biscuits   | Chocolate     | Corn           |                | Peroxide       |                  |
+| Celery       | Cheese     | Crackers      | Peas           |                | Vitamins       |                  |
+| Ginger       | Swiss      | Granola Bars  | Plantains      |                |                |                  |
+| Bean sprouts | Cheddar    | Bread         | Pieriogis      |                |                |                  |
+| Sprouts      | Parmesan   | Curry         | Blueberries    |                |                |                  |
+| Mixed greens | Salsa      | Chips         |                |                |                |                  |
+| Bananas      | Fish       | Rice          |                |                |                |                  |
+| Potatoes     | - Salmon   | Quinoa        |                |                |                |                  |
+| Apples       | - Cod      | Canned Soup   |                |                |                |                  |
+| Lime         | - Tuna     | Chili         |                |                |                |                  |
+| Mushrooms    | - Haddock  | Canned Beans  |                |                |                |                  |
+| Green Beans  | - Roughy   | Black         |                |                |                |                  |
+| Carrots      | Eggs       | Garbanzo      |                |                |                |                  |
+| Nuts         | Sigis      | Kidney        |                |                |                |                  |
+| Cashew       | Tofu       | Peas          |                |                |                |                  |
+| Almond       | another    | Canned Fish   |                |                |                |                  |
+| Sunflower    |            |               |                |                |                |                  |
+| Pistachios   |            |               |                |                |                |                  |
