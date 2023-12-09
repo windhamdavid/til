@@ -45,6 +45,7 @@ description: A place to keep notes and documentation
   - 23/03/09 - [Iris was born](/notes/dogs#log)
   - 23/02/26 - [Ubuntu 22.04 adds Ruby 3.0 and Go 1.18](/docs/computers/woozie)
   - 23/02/04 - [Brook Shields grandfather won Wimbledon](posts/once-upon-time-hollywood)
+  - 23/02/01 - [AI Art in 1923](posts/ht-webster)
   - 23/01/09 - [A dog can remember 1000 words](posts/dog-training)
 - **2022**
   - 22/12/20 - [VS Code on iPad](/posts/vscode-ipad)
