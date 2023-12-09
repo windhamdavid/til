@@ -9,7 +9,7 @@ toc_min_heading_level: 2
 
 #### awesome-windhamdavid [![](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
 
-#### A list of lists for non-technical stuff. 
+#### A list of lists for non-technical stuff.
 
 This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists.
 
