@@ -113,53 +113,7 @@ https://www.linkedin.com/in/melissa-yetter-394a0a14
 
 ## Training
 
-#### Tools 
-
-**Clicker** - Mark all good actions with clicks and reward with treat.  
-**Pointer** - Use pointer and finger motions  
-**Stand** - Use to train on clicker/treats
-
-
-
-#### Alt Communication
-
-Fitzgerald Key for Augmented and alternative communication - https://www.communicationcommunity.com/fitzgerald-key-for-aac/  
-
-#### Service Test
-
-- Eligibility - Personality, non-agressive, no solicitation, calm, 
-- Commands - Sit, Down, Stay, Heel, Recall on lead
-- Response to noise/distractions
-- Vehicle Entry/Exit
-- Buildings / Parking lots / Inside
-- Dining under the table
-- Leash recovery / Off Lead / Transfer of control
-
-### Equipment
-
-- Amazon List - https://www.amazon.com/hz/wishlist/ls/3A5F0O9KTR7H2/  
-- Halo Collar Training - https://vimeo.com/halocollar  
-- Apple Air Tag, TagVault Airtag 
-- Slip Lead, Long training, collar, training collar, Halti Training Lead
-  - RuffWear Front Range Harness,Collar, Leash
-- FXW 8px Pen, Crate - Elitefield soft - 36" L x 24" W x 28" H, Pen 16 Panel 32" H, Anber Roll up Mat, Elevated bed
-- COA Whizzclick, Fluent Pet, training pouch, target stick, PetSafe Clik-R
-- Toys - Kong(classic, ball, disc, teeth cleaning), Ruffware(Ring, floater), Redline K9(Sheep Skin Tug) Flirt pole, Howgo Sheep Chaser, Chew King Rubber Balls, West Paw Air Skamp, Playology Dental Chew Toys
-- RuffWear Quencher bowl
-
-### Training References
-
-Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley 
- - PBS NOVA - Chaser the Dog Shows Off Her Smarts to Neil deGrasse Tyson - https://www.youtube.com/watch?v=omaHv5sxiFI
- - John Pilley - Chaser the Border Collie - https://www.youtube.com/watch?v=r5MBD0rUTck
- - BBC Earth - Dog Understands 1022 Words! - https://www.youtube.com/watch?v=Ip_uVTWfXyI
-
-
-Keen Dog Training Rock Hill SC - https://www.keendogtraining.com/
-Keen Dog Training puppy training series - https://www.youtube.com/watch?v=aj3kVFx_AMQ&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
-Keen Dog - What to focus on Month 2 - https://www.youtube.com/watch?v=9__L9N1V2jE&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
-
-#### Words / Signs
+### Words / Signs
 
 | Action  | Word | Sound | Sign |
 |---|---|---|---|
@@ -209,3 +163,98 @@ Keen Dog - What to focus on Month 2 - https://www.youtube.com/watch?v=9__L9N1V2j
 
 
 
+#### Tools 
+
+**Clicker** - Mark all good actions with clicks and reward with treat.  
+**Pointer** - Use pointer and finger motions  
+**Stand** - Use to train on clicker/treats
+
+
+
+#### Alt Communication
+
+Fitzgerald Key for Augmented and alternative communication - https://www.communicationcommunity.com/fitzgerald-key-for-aac/  
+
+#### Service Test
+
+- Eligibility - Personality, non-agressive, no solicitation, calm, 
+- Commands - Sit, Down, Stay, Heel, Recall on lead
+- Response to noise/distractions
+- Vehicle Entry/Exit
+- Buildings / Parking lots / Inside
+- Dining under the table
+- Leash recovery / Off Lead / Transfer of control
+
+### Equipment
+
+- Amazon List - https://www.amazon.com/hz/wishlist/ls/3A5F0O9KTR7H2/  
+- Halo Collar Training - https://vimeo.com/halocollar  
+- Apple Air Tag, TagVault Airtag 
+- Slip Lead, Long training, collar, training collar, Halti Training Lead
+  - RuffWear Front Range Harness,Collar, Leash
+- FXW 8px Pen, Crate - Elitefield soft - 36" L x 24" W x 28" H, Pen 16 Panel 32" H, Anber Roll up Mat, Elevated bed
+- COA Whizzclick, Fluent Pet, training pouch, target stick, PetSafe Clik-R
+- Toys - Kong(classic, ball, disc, teeth cleaning), Ruffware(Ring, floater), Redline K9(Sheep Skin Tug) Flirt pole, Howgo Sheep Chaser, Chew King Rubber Balls, West Paw Air Skamp, Playology Dental Chew Toys
+- RuffWear Quencher bowl
+
+### Training References
+
+Dr. John Pilley - https://en.wikipedia.org/wiki/John_W._Pilley 
+- PBS NOVA - Chaser the Dog Shows Off Her Smarts to Neil deGrasse Tyson - https://www.youtubecom/watch?v=omaHv5sxiFI
+- John Pilley - Chaser the Border Collie - https://www.youtube.com/watch?v=r5MBD0rUTck
+- BBC Earth - Dog Understands 1022 Words! - https://www.youtube.com/watch?v=Ip_uVTWfXyI
+- Keen Dog Training Rock Hill SC - https://www.keendogtraining.com/
+- Keen Dog Training puppy training series - https://www.youtube.com/watch?v=aj3kVFx_AMQ&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
+- Keen Dog - What to focus on Month 2 - https://www.youtube.com/watch?v=9__L9N1V2jE&list=PLIGhKrIr7WkNI2ki0316Rqss5tZVnFHiu
+
+
+### Training Timeline
+
+#### From 8 Weeks to 2 Years - American Kenel Club - Ranny Green Jul 09, 2020
+https://www.akc.org/author/ranny-green/
+
+#### Angel Phase (2-6 months)
+Training begins immediately with group-based Puppy Kindergarten and basic obedience. Goldens are eager to please, easily trainable, and classes provide the opportuni- ty to meet their physical, social, and mental needs. It is critical to establish a working relationship from which to build a foundation of solid obedience skills to successfully meet the challenges of the budding teenager. This is the time to bond with your dog, develop trust, explore their instinctual potential, and learn which dogs your puppy will like as playmates. Not all dogs like every other dog! Kinda like us two-legged types.
+
+#### Growth milestones:
+At this point, Golden puppies have a short attention span and require a variety of activities to burn off energy. Mouthiness (exacerbated by teething) is front and center right now. Remember, Goldens were created to carry things in their mouth, namely waterfowl.
+
+Goldens love to communicate! They can be motor mouths, too, witness whining, growling, and barking. At this point, you must focus sharply on its manner of communication, i.e. the difference between friendly vo- calization vs. aggressiveness. Consequently, it’s critical the owner interprets the puppy’s full body language, too. Puppies experience a fear stage. Group-based training enables you to identify and work through its normal fears that arise during this developmental period. Expose them to loud sounds (babies crying, thunderstorms, fireworks, lawnmowers, vacuums) and unexpected movements (tod- dlers, young children, people with disabilities, unsteady elderly movements) and teach them coping skills (check it out, leave it and ignore it). This prevents permanently embedded behaviors.
+
+An example could be a trash can that the puppy has passed dozens of times without incident, only to find it suddenly barking at it. Remember, what is old is new in the puppy’s eyes – and mind. This is developmental and easily overcome once you learn how to work through it instead of saying, “My puppy doesn’t like to go in his crate, or in the car, or wear a leash.” This is when some lose control and the puppy suddenly segues into the driv- er’s seat as owners accede to its wishes.
+
+**Purpose:**
+Establish schedules, routines, rules, boundaries, and expectations at home. Explore and discover your puppy’s talents and interests. Lewine and Cochran point to defin- ing “a job” for Fido. Families tell the breeders they want a calm Golden that will sit on the couch with them at night. The Golden Girls respond that if the owners meet their puppy’s intellectual, physical, and social needs daily only then will their Golden be ready to quietly nestle beside them at night.
+
+**Grooming and care:**
+Lewine and Cochran recommend trimming nails weekly (it’s very important to keep them short), brushing several times a week, and determining how you are going to care for dental needs – i.e. tooth brushing, bones to chew that will descale their teeth. Handling all parts of the body, especially the ears, mouth, feet, and tail helps establish an early comfort zone for the remainder of the dog’s life. Occasional bathing acclimates the puppy to getting in the bath, shampooing, rinsing, and drying. And this is the time to decide if you will groom or hand that job off to a professional. Part of the maintenance protocol at this age calls for trimming around paws, ears, and tail. They gen- erally don’t have a long, thick coat at this point but this is good practice for you when he/she is small and manage- able. Plus, it establishes a routine and comfort zone for both owner and puppy.
+
+#### Teenage Rebellion Phase (6-18 Months)
+
+Here is when you build on the foundation established in the Angel Phase. Hence, training is absolutely critical. Generally, Lewine and Cochran have observed pet owners over-prepare for the Baby stage (2-6 months) and woefully underprepared for the Terrible Teens, which obviously last much longer.
+
+In this phase, you will find yourself struggling as your once-perfect angel’s emerging hormones send her/him into cranky, feisty, subdued, and reclusive moods. Now is the time to find your puppy’s BFFs. Ones with whom they can enjoy frolicking, wrestling, and Zooming. Do not expect or force your puppy to “like” every dog. Just like children, they will have their preferences. Respect their choices.
+
+While teething is usually finishing now, Goldens maintain a need to have something in their mouth which should be channeled with commands such as leave it, drop it, give, and go fetch. This is time to answer puppies’ skyrocketing exercise needs and explore Tricks, Rally, Agility, Field Work, Dock Diving, Obedience, Scent Work, Barn Hunt, and other activities, which establish teamwork and re- spect from the dog. The well-mannered Golden everyone adores is cemented at this point.
+
+Another fear stage emerges and using the established cop- ing skills learned before once again prevents permanent fear behaviors, the Golden Girls add.
+
+**Grooming:**
+Basic brushing and combing is a must to keep your dog neat and tidy. Trimming excess hair around the ears, feet, underline and tail reduces tangles, burrs, and the amount of dirt and mud it collects. Keeping nails short reduces injuries and malformities. Frequent grooming gives you the opportunity to familiar- ize yourself with the dog’s body, i.e. spotting any bumps, sores, ticks, injuries, etc. early which might require veterinary care.
+
+**Growth milestones:**
+Goldens reach 80 percent of their growth in this phase. Nearing 18 months and close to 24 months, the rebellious behavior diminishes. Expect bitches to experience one to two heats. Between 12-24 months — in true teenager style — they will require adjustments to their caloric intake based on their continued growth and exercise patterns. Goldens are athletes and must be kept trim their entire lives. Adult bitches should weigh 55-65 pounds; males, 65-75 pounds.
+
+#### Signs of Maturity Phase (18-24 Months)
+
+**Training:**
+While this should be a well-engrained protocol by now. If basic obedience/performance titles have not been earned, now is the perfect time to focus on those. Working together becomes fun and enjoyable.
+
+**Growth Milestones:**
+By two years, the breed has usually finished growing, although males may take another year to put the fin- ishing touches on their physical maturity, especially Golden Retriever Puppy Training Timeline: From 8 Weeks to 2 Years - By Ranny Green Jul 09, 2020 The 6-month-old Blue learns to patiently stand for a bath and rinse! Photo courtesy of Nancy C. Lewine. Jenny Cochran, breeder, owner, handler, works with “teenager” Sage (9-month-old) in a puppy obedience class learning the basics to earn her American Kennel Club Canine Good Citizen title. Photo courtesy of Nancy C. Lewine. head development. In this stage, males and females who are not participating in Conformation should be neutered/spayed. Maintaining breed standard weight may be tricky because of the caloric needs of adolescent energy. They may require more calories, but just as they are peaking with the need for more calories, their me- tabolism changes (especially after sterilization) and weight management becomes a challenge. Exercise demands continue to be high for this Olympic athlete. The personality and traits of the dog come into full bloom now, which may have gone underground during the previous stage. With a pot- pourri of emotional, physical, and mental changes in the first 1½ years, occasionally special personality traits take a hike. This is when the puppy’s “head reattaches to the body” just like a Rock ‘em Sock ‘em Robot, add Lewine and Cochran. But, don’t despair, all of the pieces come together at the 2-year mark.
+
+**Purpose:**
+This is when the physical and emotional develop- ment reaches full completion and for the owner to seize the moment and build on the strong team training and foundation. “If you do everything you need to for the first two years of the puppy’s life, you will have the dog of your dreams for the remainder of its life,” claims Lewine.
+
+**Grooming:**
+The dog’s full coat and feathering will require routine trimming and grooming. By now, it should be well acclimated to nail trimming, teeth and ear cleaning, shampooing, bathing and drying, and coat trim- ming. The Golden Girls trim nails weekly. Goldens’ double coat is nature’s way of cooling them in the summer and maintaining warmth in the winter. That coat will blow approximately twice a year – once in summer and fall. Never shave them! If someone doesn’t want to care for his/her Golden’s coat, the Golden Girls advise getting a short-coated breed like a Labrador Retriever! Remember, that gorgeous coat is the breed’s defin- ing accent, hence its care should be a top priority in every owner’s playbook. 
