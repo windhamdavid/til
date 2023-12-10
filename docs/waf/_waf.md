@@ -1,7 +1,5 @@
 # Frameworks
-=
-[Node.js](nodejs) |
-[npm](npm) |
+
 [nextjs](nextjs) |
 [Rails](rails) |
 [React](react) |
