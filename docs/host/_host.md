@@ -1,4 +1,4 @@
-# Server Hosted
+# _host
 
 ### Remote
 
@@ -13,11 +13,9 @@
 / [MailCow](Mailcow)
 / [Miniflux](Miniflux)
 / [nodebb](Nodebb)
-/ [PhProject](Phproject)
 / [Piwik](Piwik)
 / [Shaarli](Shaarli)
 / [siege-sproxy](Siege-sproxy)
 / [Webmin](Webmin)
 / [WordPress](WordPress)
 / [zammad](Zammad)
-
