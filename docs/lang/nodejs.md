@@ -3,7 +3,7 @@
 * [https://nodejs.org](https://nodejs.org)
 * [https://github.com/sindresorhus/awesome-nodejs/blob/master/readme.md](https://github.com/sindresorhus/awesome-nodejs/blob/master/readme.md)
 
-* [npm](/docs/waf/npm)
+* [npm](/docs/lang/npm)
 * [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/creationix/nvm](https://github.com/creationix/nvm)

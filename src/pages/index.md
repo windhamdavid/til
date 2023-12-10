@@ -83,7 +83,7 @@ description: A place to keep notes and documentation
   [Rails 5.2.4.1](https://davidawindham.com/til/docs/waf/rails) /
   [Homebrew 2.2.5](https://davidawindham.com/til/docs/localhost/brew) /
   [Node 2.2.5](https://davidawindham.com/til/docs/localhost/brew) /
-  [NPM 6.9.2](https://davidawindham.com/til/docs/waf/npm) /
+  [NPM 6.9.2](https://davidawindham.com/til/docs/lang/npm) /
   [Node 10.16.3](https://davidawindham.com/til/docs/waf/nodejs) /
   [Golang 1.13.7](https://davidawindham.com/til/docs/lang/Golang)
 - **2019**  
@@ -129,7 +129,7 @@ description: A place to keep notes and documentation
   - 17/06 - [https://mobyproject.org/](https://mobyproject.org/)
   - 17/06 - [Docker Ubuntu 16.04 Linode issue](/docs/server/docker) and [Linode Kernel](/docs/saas/akamai)  
   - 17/05 - [Node 8.x (Carbon) LTS release in October](https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V8.md#8.0.0)
-  - 17/05 - [NPM v5.0.1 release](/docs/waf/npm)
+  - 17/05 - [NPM v5.0.1 release](/docs/lang/npm)
   - 17/05 - [npm@5 is now `npm@latest`](https://medium.com/npm-inc/npm-5-is-now-npm-latest-d674e9e3b0ec)
   - 17/05 - [Zammad](/docs/host/zammad)
   - 17/05 - [WordPress - Determine Current Taxonmy and List Children](/docs/host/wordpress)
