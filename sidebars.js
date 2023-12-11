@@ -129,7 +129,22 @@ module.exports = {
         'host/Shaarli',
         'host/Siege-sproxy',
         'host/Webmin',
-        'host/WordPress',
+        {
+          type:'category',
+          label:'WordPress',
+          collapsible: true,
+          link: {      
+            type:'doc',
+            id:'host/WordPress',
+          },
+          items: [
+            {
+              type:'doc',
+              id: 'host/WordPress-Block',
+              label: ' Block Theme',
+            }
+          ]
+        },
         'host/Zammad',
       ],
     },

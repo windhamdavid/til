@@ -7,6 +7,8 @@ slug: /
 
 I use this library of documents as a quick reference to find technical answers, links to other documentation, configurations, keyboard shortcuts, and any other random technical stuff I might forget.  It's my version of Hansel and Gretel's breadcrumbs.  And because I tend to add more than I remove, I'm leaving this reminder to do some trimming every now and then so that the docs will remain concise and relevant. Here's a markdown graph of these docs.
 
+**23/12/10** - I'm just going to remove 🗑️ old docs as I am no longer using them so I can keep the amount of documentation here slim ( inspired by the recent post @ [/subtractive-process](/posts/subtractive-process) ). I'm also adding one the yet to need or have references.
+
 ![docs-map](/img/docs.png)
 
 ---
@@ -31,8 +33,6 @@ I use this library of documents as a quick reference to find technical answers, 
 - 23/02/23 - [computers/ovid](/docs/server/nginx)
 
 ## TOC
-
-**23/12/10** - I'm just going to remove 🗑️ old docs as I am no longer using them so I can keep the amount of documentation here slim ( inspired by the recent post @ [/posts/subtractive-process](/posts/subtractive-process) ). I'm also adding one the yet to need or have references.
 
 ---
 
@@ -95,6 +95,7 @@ Django
 | [PHP](lang/PHP)
 | [Python](lang/Python)
 | pip
+| R
 | [Ruby](lang/Ruby)
 | rbenv
 | [Rust](lang/Rust)

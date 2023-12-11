@@ -7,26 +7,22 @@ toc_min_heading_level: 2
 
 # Lists
 
-#### awesome-windhamdavid [![](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
+## About
 
-#### A list of lists for non-technical stuff.
+**A list of lists for non-technical stuff.**
 
-This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/). I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists.
+**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists.
 
-**23/12/08** - Reorganized the sidebar navigation to seperate out the most commonly edited lists so I could prioritize and get to them faster. 
+**23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
 
-
-
-## TOC 
+## TOC
 
 [now](now/now.md)
 | [next](next.md)
 | [todo](todo)
 | [grocery](grocery.md)
 | [shopping](shopping.md)
-
-
-[art](art/art.md)
+// [art](art/art.md)
 | [concepts](concepts.md)
 | [design](design.md)
 | [feeds](feeds.md)
@@ -58,3 +54,11 @@ This page was originally published at [https://davidawindham.com/listing-lists/]
 - 22/11/16 - [Music](art/music#playlists), [Feeds](feeds), and [Tweets](tweets)
 - 22/07/18 - [Up next](next) as a replacement for bookmarks
 - 22/04/06 - [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
+
+---
+
+## References
+
+1. _Listing Lists_ - https://davidawindham.com/listing-lists/
+2. Sindre Sorhus - _Awesome Lists_ - https://github.com/sindresorhus/awesome
+
