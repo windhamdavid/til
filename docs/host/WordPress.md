@@ -1,10 +1,12 @@
 # WordPress
 
-## About 
+## About
+
 I've used WordPress for hundreds of projects and I think I owe a certain debt of gratitude. I started learning WordPress in the early days of the project. I keep a WordPress powered testing site up @ https://wp.davidwindham.com which contains my notes and code for WordPress projects.
 
-## Log 
+## Log
 
+- 23/12/10 - full site editing block theme [docs](wordpress-block) & [/posts/block-theme](/posts/block-theme)
 - 23/07/17 - fix Yoast errors from missing database table 'inclusive_language_score' -  https://wordpress.org/support/topic/inclusive-language-option/
 - 23/06/20 - migrate a couple sites previously using a theme with a custom editor and a lot of custom short codes to the block editor.
 
@@ -17,21 +19,20 @@ I've used WordPress for hundreds of projects and I think I owe a certain debt of
 
 ## Repos
 
-* [https://github.com/WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)
+[https://github.com/WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)
 
 ## Docs
 
-* Docs - [https://developer.wordpress.com/docs/](https://developer.wordpress.com/docs/)
-* Reference - [https://developer.wordpress.org/reference/](https://developer.wordpress.org/reference/)
-* Block Editor - [https://developer.wordpress.org/block-editor/](https://developer.wordpress.org/block-editor/)
-* API/Console - [https://developer.wordpress.com/docs/api/console/](https://developer.wordpress.com/docs/api/console/)
+- Docs - [https://developer.wordpress.com/docs/](https://developer.wordpress.com/docs/)
+- Reference - [https://developer.wordpress.org/reference/](https://developer.wordpress.org/reference/)
+- Block Editor - [https://developer.wordpress.org/block-editor/](https://developer.wordpress.org/block-editor/)
+- API/Console - [https://developer.wordpress.com/docs/api/console/](https://developer.wordpress.com/docs/api/console/)
 
+---
 
 ## Functions
 
-#####
-
-##### Determine the current Taxonomy and list it's children:
+###### Determine the current Taxonomy and list it's children:
 
 ```php
 <?php
@@ -55,7 +56,7 @@ if ( !empty( $term_children ) && !is_wp_error( $term_children ) ) { ?>
 <?php } ?>
 ```
 
-##### cleanup the head:
+###### cleanup the head:
 ```php
 <?php
 remove_action('wp_head', 'index_rel_link' );
@@ -95,7 +96,8 @@ add_action( 'init', 'disable_emojis' );
 
 ```
 
-##### add open graph meta to head:
+###### add open graph meta to head:
+
 ```php
 <?php
 
@@ -190,16 +192,16 @@ add_shortcode( 'video', 'dw_video_embed' );
 ```
 
 
-##### security tips:
+###### security tips:
 * [https://github.com/ethicalhack3r/wordpress_plugin_security_testing_cheat_sheet](https://github.com/ethicalhack3r/wordpress_plugin_security_testing_cheat_sheet)
 
-### WordPress Plugin Security Testing Cheat Sheet
+#### WordPress Plugin Security Testing Cheat Sheet
 
 This cheat sheet was compiled by [Dewhurst Security](https://dewhurstsecurity.com "Dewhurst Security") to record the knowledge gained when testing WordPress plugins for security issues for our clients. The security documentation provided by WordPress and found online for plugin security is sparse, outdated or unclear. This cheat sheet is intended for Penetration Testers who audit WordPress plugins or developers who wish to audit their own WordPress plugins.
 
 This is a living document, feedback in the form of Issues or Pull Requests is very much welcomed.
 
-#### Cross-Site Scripting (XSS)
+##### Cross-Site Scripting (XSS)
 
 Check if the following global PHP variables are echo'd to pages, or stored in the database and echo'd at a later time without first being sanitised or output encoded.
 
@@ -213,9 +215,9 @@ Check if the following global PHP variables are echo'd to pages, or stored in th
 
 _(Note: the list of sources above is not extensive nor complete)_
 
-#### Cross-Site Scripting (XSS) Tips
+##### Cross-Site Scripting (XSS) Tips
 
-##### Unsafe API functions
+###### Unsafe API functions
 
 The following functions can cause XSS if not secured as they use the PHP_SELF variable:
 
@@ -229,7 +231,7 @@ References:
 [https://developer.wordpress.org/reference/functions/add_query_arg/](https://developer.wordpress.org/reference/functions/add_query_arg/)
 [https://developer.wordpress.org/reference/functions/remove_query_arg/](https://developer.wordpress.org/reference/functions/remove_query_arg/)
 
-##### DISALLOW_UNFILTERED_HTML
+###### DISALLOW_UNFILTERED_HTML
 
 When doing dynamic testing for XSS the following setting in the wp-config.php file may reduce false positive results as it prevents administrative and editor users from being able to embed/execute JavaScript/HTML, which by default they are permitted to do.
 
@@ -237,7 +239,7 @@ When doing dynamic testing for XSS the following setting in the wp-config.php fi
 define( 'DISALLOW_UNFILTERED_HTML', true );
 ```
 
-### SQL Injection
+#### SQL Injection
 
 Unsafe API methods (require sanitising/escaping):
 
@@ -262,7 +264,7 @@ Note: Before WordPress 3.5 ```$wpdb->prepare``` could be used insecurely as you 
 
 ```$wpdb->query( $wpdb->prepare( "INSERT INTO table (user, pass) VALUES ('$user', '$pass')" ) );```
 
-#### SQL Injection Tips
+##### SQL Injection Tips
 
 Unsafe escaping ('securing') API methods:
 
@@ -271,7 +273,7 @@ Unsafe escaping ('securing') API methods:
 - ```esc_like()``` same as above
 - ```like_escape()``` same as above
 
-#### Displaying/hiding SQL errors:
+##### Displaying/hiding SQL errors:
 
 ```
 <?php $wpdb->show_errors(); ?>
@@ -279,13 +281,13 @@ Unsafe escaping ('securing') API methods:
 <?php $wpdb->print_error(); ?>
 ```
 
-### File Download
+#### File Download
 
 - ```file()```
 - ```readfile()```
 - ```file_get_contents()```
 
-### File Inclusion
+#### File Inclusion
 
 - ```include()```
 - ```require()```
@@ -293,67 +295,67 @@ Unsafe escaping ('securing') API methods:
 - ```require_once()```
 - ```fread()```
 
-### File Manipulation
+#### File Manipulation
 
 - ```unlink()``` delete arbitrary files
 
-### File Upload
+#### File Upload
 
 - ```sanitize_file_name()``` can create valid PHP files, turns `test.(php)` into `test.php`
 
-### PHP Object Injection
+#### PHP Object Injection
 
 - ``` unserialize()``` any raw user input passed to this function is probably exploitable, if serialized() first, probably not vulnerable
 
-### PHP Object Injection Tips
+#### PHP Object Injection Tips
 
 Use this [simple Burp Suite extention](https://gist.github.com/ethicalhack3r/7c2618e5fffd564e2734e281c86a2c9b) along with the [PHP Object Injection WordPress Plugin](https://www.pluginvulnerabilities.com/2017/07/24/wordpress-plugin-for-use-in-testing-for-php-object-injection/) created by White Fir Design.
 
-### Command Execution
+#### Command Execution
 
 - ```system()```
 - ```exec()```
 - ```passthru()```
 - ```shell_exec()```
 
-### PHP Code Execution
+#### PHP Code Execution
 
 - ```eval()```
 - ```assert()```
 - ```preg_replace()``` dangerous "e" flag deprecated since PHP >= 5.5.0 and removed in PHP >= 7.0.0.
 
-### Authorization
+#### Authorization
 
 - ```is_admin()``` does not check if the user is authenticated as administrator, only checks if page displayed is in the admin section, can lead to auth bypass if misused.
 - ```is_user_admin()``` same as above
 - ```current_user_can()``` used for checking authorisation. This is what should be used to check authorisation.
 - ```add_action( 'wp_ajax_nopriv_``` permits non-authenticated users to use the AJAX function (https://codex.wordpress.org/Plugin_API/Action_Reference/wp_ajax_(action)).
 
-### Open Redirect
+#### Open Redirect
 
 - ```wp_redirect()``` function can be used to redirect to user supplied URLs. If user input is not sanitised or validated this could lead to Open Redirect vulnerabilities.
 
-### Cross-Site Request Forgery (CSRF)
+#### Cross-Site Request Forgery (CSRF)
 
 - ```wp_nonce_field()``` adds CSRF token to forms
 - ```wp_nonce_url()``` adds CSRF token to URL
 - ```wp_verify_nonce()``` checks the CSRF token validity server side
 - ```check_admin_referer()``` checks the CSRF token validity server side and came from admin screen
 
-### SSL/TLS
+#### SSL/TLS
 
 - ```CURLOPT_SSL_VERIFYHOST``` if set to 0 then does not check name in host certificate
 - ```CURLOPT_SSL_VERIFYPEER``` if set to FALSE then does not check if the certificate (inc chain), is trusted. A Man-in-the-Middle (MitM) attacker could use a self-signed certificate.
 - Check if HTTP is used to communicate with backend servers or APIs. A grep for "http://" should be sufficient.
 
-### Priviledge Escalation
+#### Priviledge Escalation
 
 - ```update_option()``` if user input is sent unvalidated, it could allow an attacker to update arbitrary WordPress options.
 - ```do_action()``` if user input is sent unvalidated, it could allow an attacker to update arbitrary WordPress actions.
 
 See: https://www.wordfence.com/blog/2018/11/privilege-escalation-flaw-in-wp-gdpr-compliance-plugin-exploited-in-the-wild/
 
-### Automated Static Code Analysis
+#### Automated Static Code Analysis
 
 - ```WordPress-Coding-Standards``` contains some security rules.
 
@@ -365,7 +367,9 @@ Example:
 
 See: https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards
 
-##### Further reading/references:
+---
+
+## References
 
 1. [https://developer.wordpress.org/plugins/security/](https://developer.wordpress.org/plugins/security/)
 2. [https://make.wordpress.org/plugins/2013/11/24/how-to-fix-the-intentionally-vulnerable-plugin/](https://make.wordpress.org/plugins/2013/11/24/how-to-fix-the-intentionally-vulnerable-plugin/)

@@ -30,10 +30,6 @@ module.exports = {
             'art/education/design',
             'art/education/media',
           ],
-        },
-        {
-          type:'doc',
-          id:'art/studio',
         }
       ],
     },
@@ -79,6 +75,7 @@ module.exports = {
       },
       items: [
         'house/build',
+        'house/studio'
       ]
     },
     {
