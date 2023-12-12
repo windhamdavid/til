@@ -5,20 +5,11 @@ toc_max_heading_level: 5
 
 # WordPress Block Theme Migration
 
-**23/12/14** - Today I learned a decent approach to doing a multi-step migration from a static site to WordPress theme full site editing block theme. The notes I made along the way turned into this post so I figured I'd leave it here for posterity.
+**23/12/12** - Today I learned a decent approach to doing a multi-step migration from a static site to WordPress theme full site editing block theme. The notes I made along the way turned into this post so I figured I'd leave it here for posterity.
 
 ## About
 
-The existing site was static because every website build should basically start that way in either a design file like Figma that can be converted in HTML and CSS. It's how I start all of my projects plus when published as static, they're secure, performant, and easy to maintain. I've noticed that half of the sites I have running under a content management system rarely if ever have updates or changes made to them. With the advent of online 'website builders', clients just assume that they need control so I give it to them. I've found that in order to make the mundane more fun, I usually like to challenge myself by learning something new in the process. Since I'm converting this particular site to WordPress and I know that the next phase of the Gutenberg editor is collaboration, I wanted to go ahead make this site entirely block based so that I'd be up to speed on doing it with larger projects.
-
-Notes on block theme migrations[^1]another[^2]and another[^3] and another[^4]
-
-### Aside
-
-Part of the motivation for publishing this documentation was because of a comment I ran across. Since there are already thousands of resources and opinions floating around, I had to mostly go directly to the source documention. And since I noticed that some of it wasn't completely up to date, I've been scanning the `#core-dev` chat and noticed this comment 👇🏼
-
-![](/img/block-theme_matt.png)
-<div style={{display: 'flex',  justifyContent:'left', alignItems:'left', fontSize:'small', marginBottom:'20px'}}>Screenshot from Slack ~ Matt Mullenweg (WordPress founder)</div>
+The existing site was static because every website build should basically start that way in either a design file like Figma that can be converted in HTML and CSS. It's how I start all of my projects plus when published as static, they're secure, performant, and easy to maintain. I've noticed that half of the sites I have running under a content management system rarely if ever have updates or changes made to them. With the advent of online 'website builders', clients just assume that they need control so I give it to them. I've found that in order to make the mundane more fun, I usually like to challenge myself by learning something new in the process. Since I'm converting this particular site to WordPress and I know that the next phase of the Gutenberg editor is collaboration[^1], I wanted to go ahead make this site entirely block based so that I'd be up to speed on doing it with larger projects.
 
 ## Setup
 
@@ -228,8 +219,7 @@ Even though WordPress now has built in a pretty robust CSS framework to make the
 
 :::info[Idea 💡]
 
-Dear WordPress Team,  
-I think we should include a .scss file to make the Gutenberg Block editor `:root` css variables more customizable alongside a decent reference.  And while we're at it, let's talk about customizing the Gutenberg editor experience as well starting with `@media (prefers-color-scheme: dark)` since the white is almost blinding.
+I think WordPress should include a .scss file to make the Gutenberg Block editor `:root` css variables more customizable alongside a decent reference.  And while we're at it, let's talk about customizing the Gutenberg editor experience as well starting with `@media (prefers-color-scheme: dark)` since the white is almost blinding. I'm pretty sure I'm not the only one who thinks this.
 
 :::
 
@@ -340,21 +330,32 @@ function gwp24_block_assets() {
     time()
   );
   wp_enqueue_script(
-        'myguten-script',
-        get_template_directory_uri() . '/js/editor.js'
+    'gwp24-js',
+    get_template_directory_uri() . '/js/editor.js'
   );
 }
 ```
 
+### Debugging
 
-### Javascript
+Define these in the `wp-config.php` file. 
 
-#### Debugging
+```php
+define( 'SCRIPT_DEBUG', true );
+define( 'WP_DEBUG', true );
+```
 
-:::warning[Hangups]
+I log all errors to a `_log/error.log` and I use Xdebug for `PHP`. If there are more complex functionality in the site, I'll generally use the Query Monitor plugin. 
 
-The biggest issues I had with the migration was dealing with the complexity of the React errors from Gutenberg particularly when dealing with the block errors.
+#### JavaScript
 
+:::danger[Issues]
+The biggest challenge I had with the migration was dealing with some of the complexity of the React JavaScript errors in the console generated from Gutenberg particularly when dealing with the block validation errors. e.g.:
+```js
+> https://gwp.ovid:333/wp-includes/js/dist/blocks.min.js?ver=7204d43123223474471a
+Block validation: Block validation failed for `core/heading` (
+{name: "core/heading", icon: Object, keywords: ["title", "subtitle"], attributes: Object, providesContext: {}, …}
+```
 :::
 
 ### Remote
@@ -413,7 +414,9 @@ I configure my FTP client to exclude the following highlighted lines from the di
 └── {etc...}
 ```
 
-## Custom Tips
+### Editor Tips
+
+These are just some things I do to try and simplify the editor a bit and make it easier to use. 
 
 **Disable Openverse and Remote Patterns**
 
@@ -421,23 +424,19 @@ I configure my FTP client to exclude the following highlighted lines from the di
 remove_theme_support( 'core-block-patterns' );
 add_filter( 'should_load_remote_block_patterns', 'gwp24_disable_remote_patterns' );
 function gwp24_disable_remote_patterns() {
-	return false;
+  return false;
 }
-
 add_filter(
   'block_editor_settings_all',
   function( $settings ) {
     $settings['enableOpenverseMediaCategory'] = false;
     return $settings;
-  },
-  10
+  }, 10
 );
 ```
 
-
-
 ---
-#### Notes
+## Notes
 
 - https://css-tricks.com/wordpress-global-styles-reference-tables/
 - https://developer.wordpress.org/news/2023/12/a-walk-through-tutorial-on-using-create-block-theme-plugin/
@@ -446,12 +445,9 @@ add_filter(
 - https://developer.wordpress.org/themes/templates/template-hierarchy/#page-hierarchy
 - https://github.com/WordPress/wordpress-develop/
 
+## References
 
-#### References
-
-1. https://wordpress.org/about/roadmap/
 2. Figma - https://www.figma.com/file/AlYr03vh4dVimwYwQkTdf6/Twenty-Twenty-Four?type=design&node-id=119-543&mode=design
-3. Something else - 
 
 ---
 
