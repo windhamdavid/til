@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2023**
+  - 23/12/12 - [Kid off the street](/posts/kid-off-street)
   - 23/12/03 - [Subtractive Process](/posts/subtractive-process)
   - 23/11/30 - [Unix Haters](/posts/unix-haters)
   - 23/11/27 - [newWindow Storage](/posts/newwindow-storage)
