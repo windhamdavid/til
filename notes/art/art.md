@@ -8,10 +8,8 @@ There are several things I'd like to give a shot:
 - creating short films both animated and real.
 - learning to play jazz standards and the American Songbook on piano
 
-## TOC 
+## TOC
 
-
-- [studio](studio)
 - [design](design)
 - [education/design](education/design.md)
 - [education/education](education/education.md)
