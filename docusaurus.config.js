@@ -56,7 +56,7 @@ module.exports = {
         blogTitle: 'Posts',
         blogDescription: 'Posts by David Windham',
         postsPerPage: 'ALL',
-        blogSidebarTitle: 'Posts',
+        blogSidebarTitle: ' ',
         blogSidebarCount: 'ALL',
         feedOptions: {
           type: null,
