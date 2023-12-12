@@ -105,6 +105,9 @@ table td img {
 .title_f1Hy {
   font-size: 1.5rem !important;
 }
+article[itemprop="blogPost"] footer {
+  margin-top: 1rem !important;
+}
 
 form input { 
   box-sizing: border-box;
