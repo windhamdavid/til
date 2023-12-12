@@ -3,39 +3,16 @@
 
 ---  
 
+## Notes:
 
-## Notes: 
-
-#### 23/11/12
-
-- update 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
-
-#### 23/08/18
-
-- added private and draft notes with git controls. log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
-
-#### 23/05/05
-
-- added AI page @ [https://davidawindham.com/til/ai](https://davidawindham.com/til/ai)
-
-#### 23/02/11
-
-- mv master to main
-- migrate to [woozie](https://davidawindham.com/til/docs/computers/woozie/)
-
-#### 22/11/13
-
-- upgraded to v.2.2.0
-- added mermaid
-
-#### 12/04/2021
-
-- added in Notes for non-technical docs 
-- upgraded to v.2.0.0-beta.13
-
-#### 11/10/2021
-- Updated the Docusaurus & NPM packages. 
-- Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt. 
+- 23/12/10 - modified blog layout - log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
+- 23/11/12 - update 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
+- 23/08/18 - added private and draft notes with git controls. log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
+- 23/05/05 - added AI page @ [https://davidawindham.com/til/ai](https://davidawindham.com/til/ai)
+- 23/02/11 - mv master to main / migrate to [woozie](https://davidawindham.com/til/docs/computers/woozie/)
+- 22/11/13 - upgraded to v.2.2.0 / added mermaid
+- 12/04/2021 - added in Notes for non-technical docs / upgraded to v.2.0.0-beta.13
+- 11/10/2021 - Updated the Docusaurus & NPM packages / Combined my old [awesome-david](/lists) repo into it for simplicity and rebuilt. 
 
 #### 03/18/2021
 
