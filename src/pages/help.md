@@ -51,13 +51,44 @@ npm run build
 npm run serve
 ```
 
-#### v3.0.0
+---
+
+**23/12/12** - needed a way to preface my `posts` and wanted to change the default width so I `swizzle`'d the `BlogListPage` and `BlogLayout` to widen it with `col--9`.
+
+```sh
+npm run swizzle @docusaurus/theme-classic BlogLayout -- --eject
+npm run swizzle @docusaurus/theme-classic BlogListPage -- --eject
+```
+
+line 15 of `BlogLayout/index.js`
+
+```js
+  <main
+    className={clsx('col', {
+      //'col--7': hasSidebar,
+      'col--9': hasSidebar,
+      'col--9 col--offset-1': !hasSidebar,
+    })}
+    ...
+  </main>
+```
+
+line 33 of `BlogListPage/index.js`
+
+```js
+    <BlogLayout sidebar={sidebar}>
+      <h1>Posts</h1>
+      <p>...</p>
+      <hr/>
+      <br/>
+      <BlogPostItems items={items} />
+      <BlogListPaginator metadata={metadata} />
+    </BlogLayout>
+```
+
+
 
 **23/11/27** - noticed my Lunr search was kicking JavaScript errors because I had `swizzle`'d it in a previous version and needed to `eject` it before the build. ( see github repo [comment](https://github.com/praveenn77/docusaurus-lunr-search/pull/124#issuecomment-1827933993) )
-
-
-
-
 
 ```sh
 david@ovid🏛 :~/sites/daw_til(main○) » npm run swizzle docusaurus-lunr-search SearchBar -- --eject
@@ -89,6 +120,8 @@ Also noticed that since it now uses the default Algolia search elements which in
     border-color: #535763;
 }
 ```
+
+#### v3.0.0
 
 **23/11/12** - Docusaurus updated 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
 
