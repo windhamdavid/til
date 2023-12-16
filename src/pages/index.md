@@ -165,5 +165,5 @@ description: A place to keep notes and documentation
   - 17/04 - [Upgrading Ele.me to Progressive Web App](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)
   - 17/04 - [Introducing Create React Native App](https://github.com/react-community/create-react-native-app)
   - 17/04 - [help](help)
-  - 17/04 - [sitemap](sitemap)
+  - 17/04 - [map](map)
   - 17/04 - [about](about)

@@ -1,17 +1,17 @@
 # Languages
 
-[C](lang/C)
-| [Go](lang/Golang)
-| [GraphQL](lang/GraphQL)
-| [JavaScript](lang/JavaScript)
-| [Node](lang/nodejs)
-| [npm](lang/npm)
+[C](C)
+| [Go](Golang)
+| [GraphQL](GraphQL)
+| [JavaScript](JavaScript)
+| [Node](nodejs)
+| [npm](npm)
 | yarn
 | nvm
-| [PHP](lang/PHP)
-| [Python](lang/Python)
+| [PHP](PHP)
+| [Python](Python)
 | pip
-| [Ruby](lang/Ruby)
+| [Ruby](Ruby)
 | rbenv
-| [Rust](lang/Rust)
+| [Rust](Rust)
 | Swift
