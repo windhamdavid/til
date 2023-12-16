@@ -26,6 +26,10 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 
 ### Projects
 
+#### Studio
+
+[notes/house/studio](studio)
+
 #### Entry/Garage Doors
 
 - replace entry doors
@@ -120,5 +124,7 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 ---
 
 ## Future
+
+[notes/house/build](build)
 
 We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/

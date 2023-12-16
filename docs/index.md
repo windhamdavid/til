@@ -188,6 +188,7 @@ Django
 | [siege-sproxy](host/Siege-sproxy)
 | [Webmin](host/Webmin)
 | [WordPress](host/WordPress)
+| [WordPress-Block](host/WordPress-Block)
 | [Zammad](host/Zammad)
 
 ### Shell

@@ -5,19 +5,6 @@ slug: /
 
 # Notes
 
-## TOC
-
-[art](art/art.md)
-| [dogs](dogs/dogs.md)
-| [Iris](dogs/iris.md)
-| [garden](garden/garden.md)
-| [golf](golf.md)
-| [health](health.md)
-| [house](house/house.md)
-| [tennis](tennis.md)
-| [travel](travel.md)
-| [work](work/work.md)
-
 ## Log
 
 - 23/11/05 - [house/studio](/notes/house/studio)
@@ -31,6 +18,25 @@ slug: /
 - 23/05/14 - [art edu standards](/notes/art)
 - 23/05/14 - [tennis season](/notes/tennis)
 - 23/05/10 - [travel dates](/notes/travel)
+
+## TOC
+
+[art](art/art.md)
+| [dogs](dogs/dogs.md)
+| [Iris](dogs/iris.md)
+| [garden](garden/garden.md)
+| [golf](golf.md)
+| [health](health.md)
+| [house](house/house.md)
+| [^personal](personal/personal.md)
+| [tennis](tennis.md)
+| [travel](travel.md)
+| [work](work/work.md)
+| [work/clients](work/clients.md)
+| [work/projects](work/projects/ai.md)
+| [work/wealth](work/wealth.md)
+
+( ^ private notes - family, finances, etc. )
 
 ---
 
@@ -58,7 +64,7 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 - Knowledge engineering - https://en.wikipedia.org/wiki/Knowledge_engineering  
 - Knowledge management - https://en.wikipedia.org/wiki/Knowledge_management  
 - Knowledge retrieval - https://en.wikipedia.org/wiki/Knowledge_retrieval  
-- Knowledge representation - https://en.wikipedia.org/wiki/- Knowledge_representation_and_reasoning  
+- Knowledge representation - https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning  
 - Information retrieval - https://en.wikipedia.org/wiki/Information_retrieval  
 - Information architecture - https://en.wikipedia.org/wiki/Information_architecture 
 - Semantic - integration - https://en.wikipedia.org/wiki/Semantic_integration

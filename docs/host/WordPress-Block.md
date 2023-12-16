@@ -3,7 +3,7 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
-# WordPress Block Theme Migration
+# WordPress Block
 
 **23/12/12** - Today I learned a decent approach to doing a multi-step migration from a static site to WordPress theme full site editing block theme. The notes I made along the way turned into this post so I figured I'd leave it here for posterity.
 
