@@ -4,7 +4,7 @@
 
 ## Log
 
-- 23/12/17 - added a [Diet](health/diet) log.
+- 23/12/17 - added a [Diet](/notes/health/diet) log.
 - 23/12/17 - added a ^ sleep log.
 - 23/12/17 - bout that time of year to start thinking about losing weight so I spent some time this morning converting my health status downloads to a decent format and I figured I'd update this page and figure out a way to keep them in sync. 
 
@@ -48,7 +48,7 @@
 
 ### Physical
 
-[Diet](diet) | exercise | sleep | genetics
+[Diet](/notes/health/diet) | exercise | sleep | genetics
 
 #### Environment
 
