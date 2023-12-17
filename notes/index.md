@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 23/12/17 - [health](/notes/health)
 - 23/11/05 - [house/studio](/notes/house/studio)
 - 23/10/20 - [house/build](/notes/house/build)
 - 23/08/25 - [tennis](/notes/tennis)
@@ -26,7 +27,7 @@ slug: /
 | [Iris](dogs/iris.md)
 | [garden](garden/garden.md)
 | [golf](golf.md)
-| [health](health.md)
+| [health](health/health.md)
 | [house](house/house.md)
 | [^personal](personal/personal.md)
 | [tennis](tennis.md)
@@ -36,7 +37,7 @@ slug: /
 | [work/projects](work/projects/ai.md)
 | [work/wealth](work/wealth.md)
 
-( ^ private notes - family, finances, etc. )
+( ^ private notes - personal, family, finances, etc. Excluded by `draft` status and `.gitignore` )
 
 ---
 
@@ -46,7 +47,7 @@ I wrote an essay about this page @ [**davidawindham.com/a-second-brain/**](https
 
 **22/05/07** - I've separated the **technical** to [Docs](/docs/) and the **non-technical** to [Notes](index.md). As always, this Notes page started with me trying to solve something. It really bothers me for anything to take away my attention. In this case, I was trying to keep my Apple TV home screen clean so I don't have to see or surf through offers of other stuff to watch.  I curate an 'up next' list and I usually make notes that sync between my devices when someone mentions a movie or show. I usually handle this with 'quick Notes' that sync between devices. That mostly works, but the problem I'd like to have them all in one place so that I can archive and search what I've already watched much the same way I database my music listening habits. This will give me a simple searchable place to store it all without any complex APIs, databases, or whatnot. It's a work in progress :sweat_smile:.
 
-What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/  
+What is a personal knowledge manager? And How could I possibly organize these notes? Some folks refer to it as a Second Brain - https://maggieappleton.com/basb & https://aliabdaal.com/how-to-build-a-second-brain-271393/
 
 I like to use Apple Notes and quick mental notes and I started using the [Obsidian](https://obsidian.md) markdown editor for looking at a pile of them on my computer. I noticed is that it's an easy way to map out some sense of order from a set of notes and documents.  The more I looked into it, I noticed that there is a whole subset of folks who are into **PKMs** ( **Personal Knowledge Management** ).  Evidently, I've been doing it for a while now since I'm accustomed to making my own documentation as I build software and websites.  As I was setting up my folder directories on a new computer ( [Ovid](/docs/computers/ovid) ), I noticed that it might be helpful to use the same approach to other aspects of my life so I created another set of documents here for the **non-technical** stuff.
 
@@ -55,35 +56,35 @@ I generally use four lists of reminders to keep up with everything. Groceries, S
 ---
 
 ## References
-- Ontology - https://en.wikipedia.org/wiki/Ontology_(information_science)  
-- Personal knowledge management - https://en.wikipedia.org/wiki/Personal_knowledge_management  
-- Personal wiki - https://en.wikipedia.org/wiki/Personal_wiki  
-- Personal information manager - https://en.wikipedia.org/wiki/Personal_information_manager  
-- Personal knowledge base - https://en.wikipedia.org/wiki/Personal_knowledge_base  
-- Personal digital assistant - https://en.wikipedia.org/wiki/Personal_digital_assistant  
-- Knowledge engineering - https://en.wikipedia.org/wiki/Knowledge_engineering  
-- Knowledge management - https://en.wikipedia.org/wiki/Knowledge_management  
-- Knowledge retrieval - https://en.wikipedia.org/wiki/Knowledge_retrieval  
-- Knowledge representation - https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning  
-- Information retrieval - https://en.wikipedia.org/wiki/Information_retrieval  
-- Information architecture - https://en.wikipedia.org/wiki/Information_architecture 
+- Ontology - https://en.wikipedia.org/wiki/Ontology_(information_science)
+- Personal knowledge management - https://en.wikipedia.org/wiki/Personal_knowledge_management
+- Personal wiki - https://en.wikipedia.org/wiki/Personal_wiki
+- Personal information manager - https://en.wikipedia.org/wiki/Personal_information_manager
+- Personal knowledge base - https://en.wikipedia.org/wiki/Personal_knowledge_base
+- Personal digital assistant - https://en.wikipedia.org/wiki/Personal_digital_assistant
+- Knowledge engineering - https://en.wikipedia.org/wiki/Knowledge_engineering
+- Knowledge management - https://en.wikipedia.org/wiki/Knowledge_management
+- Knowledge retrieval - https://en.wikipedia.org/wiki/Knowledge_retrieval
+- Knowledge representation - https://en.wikipedia.org/wiki/Knowledge_representation_and_reasoning
+- Information retrieval - https://en.wikipedia.org/wiki/Information_retrieval
+- Information architecture - https://en.wikipedia.org/wiki/Information_architectur
 - Semantic - integration - https://en.wikipedia.org/wiki/Semantic_integration
-- Idea networking - https://en.wikipedia.org/wiki/Idea_networking  
-- Metacognition - https://en.wikipedia.org/wiki/Metacognition  
-- Semantic network - https://en.wikipedia.org/wiki/Semantic_network  
-- Mind map - https://en.wikipedia.org/wiki/Mind_map  
-- Concept map - https://en.wikipedia.org/wiki/Concept_map  
-- Group concept mapping - https://en.wikipedia.org/wiki/Group_concept_mapping  
+- Idea networking - https://en.wikipedia.org/wiki/Idea_networking
+- Metacognition - https://en.wikipedia.org/wiki/Metacognition
+- Semantic network - https://en.wikipedia.org/wiki/Semantic_network
+- Mind map - https://en.wikipedia.org/wiki/Mind_map
+- Concept map - https://en.wikipedia.org/wiki/Concept_map
+- Group concept mapping - https://en.wikipedia.org/wiki/Group_concept_mapping
 - Graph drawing - https://en.wikipedia.org/wiki/Graph_drawing
-- Modeling_language - https://en.wikipedia.org/wiki/Modeling_language  
-- Hypertext  - https://en.wikipedia.org/wiki/Hypertext  
-- Hyperlink - https://en.wikipedia.org/wiki/Hyperlink
-- Metadata - https://en.wikipedia.org/wiki/Metadata  
-- Semantic Web - https://en.wikipedia.org/wiki/Semantic_Web  
-- Web Ontology Language - https://en.wikipedia.org/wiki/Web_Ontology_Language  
-- Resource Description Framework - https://en.wikipedia.org/wiki/Resource_Description_Framework  
-- RDF_Schema - https://en.wikipedia.org/wiki/RDF_Schema  
-- Simple Knowledge Organization System - https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System  
-- Semantically-Interlinked Online Communities - https://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities  
+- Modeling_language - https://en.wikipedia.org/wiki/Modeling_language
+- Hypertext  - https://en.wikipedia.org/wiki/Hypertext
+- Hyperlink - https://en.wikipedia.org/wiki/Hyperli
+- Metadata - https://en.wikipedia.org/wiki/Metadata
+- Semantic Web - https://en.wikipedia.org/wiki/Semantic_Web
+- Web Ontology Language - https://en.wikipedia.org/wiki/Web_Ontology_Language
+- Resource Description Framework - https://en.wikipedia.org/wiki/Resource_Description_Framework
+- RDF_Schema - https://en.wikipedia.org/wiki/RDF_Schema
+- Simple Knowledge Organization System - https://en.wikipedia.org/wiki/Simple_Knowledge_Organization_System
+- Semantically-Interlinked Online Communities - https://en.wikipedia.org/wiki/Semantically-Interlinked_Online_Communities
 - JSON LD - https://en.wikipedia.org/wiki/JSON-LD
 - Linked data - https://en.wikipedia.org/wiki/Linked_data
