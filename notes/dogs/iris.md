@@ -84,9 +84,6 @@ https://en.wikipedia.org/wiki/Golden_Retriever
 | Stay | Stay | | 🤚🏼 | 23.05 |  | 30%
 | Wait | Wait | | 🤚🏼 | 23.05 |  | 30%
 | Roll | Roll | | ☝🏼👉🏼👇🏼👈🏼 | 23.06 |  | 30%
-
---- 
-
 | Stand | Stand | | 👆🏼👆🏼 |
 | Lie | Lie | | 🫳🏼 |
 | Down | Down | | 🫳🏼 |
