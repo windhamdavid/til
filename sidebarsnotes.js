@@ -62,8 +62,16 @@ module.exports = {
       id:'golf',
     },
     {
-      type:'doc',
-      id:'health',
+      type:'category',
+      label:'Health',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'health/health',
+      },
+      items: [
+        'health/diet'
+      ]
     },
     {
       type:'category',
