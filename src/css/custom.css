@@ -18,7 +18,8 @@
   --ifm-color-primary-lightest: #FBC8C8;
   --ifm-code-font-size: 95%;
   --ifm-h1-font-size: 2rem;
-  --ifm-h2-font-size: 1.2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.2rem;
 }
 html[data-theme='dark'] {
   --ifm-background-color:#484c57;
@@ -92,6 +93,9 @@ table td img {
 }
 .markdown > h2 {
   font-size: 1.5rem;
+}
+.markdown > h3 {
+  font-size: 1.2rem;
 }
 .markdown h1:first-child {
   --ifm-h1-font-size: 2.5rem;
