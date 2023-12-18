@@ -9,22 +9,25 @@
 - [Travel](/notes/travel)
   - Folly Beach ( Jan 2-7 )
 - [House](/notes/house) / [Garden](/notes/garden)
+  - Build [Downstairs studio / Desk / Taboret](notes/house/studio)
   - Fix outlet in the front porch light
   - New upstairs carpet
-  - Build Downstairs studio / Desk / Taboret
 - [Iris](/notes/dogs)
   - service eligibility / AKC Registration
 - [Tennis](notes/tennis)
   - Boys Roster / SwingVision app
 - [Work](/notes/work)
-  - ZW - 23' Invoicing
+  - ZW - 23' Invoicing 🔥
+    - prep taxes 🔥
   - [AI](/notes/work/projects/ai) - SupaBase and/or postgres from Github actions
-  - SRH - NP/PAs to Providers Directory
+    - switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
+  - GWP - Publish / Usage tutorial 🔥
+  - SRH - NP/PAs to Providers Directory 🔥
     - Rebuild design features as blocks
   - [IRAs consult/move](/notes/work/wealth)
   - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
     - Cache policies / Auto Remove old analytics logs
-  - finish Edward Lee Elmore Wikipedia page
+
 
 ---
 
@@ -50,6 +53,7 @@
     - Deno / Lume / SaaSkit - https://deno.land
     - Rust WASM & https://swc.rs
     - Svelte - sqlite tennis scorer
+  - Edward Lee Elmore Wikipedia page
 - [Tennis](/notes/tennis)
   - Convice SCHSL to move back girl's season
   - update certifications
