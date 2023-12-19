@@ -1,8 +1,13 @@
-# Motion
+# Motion Pictures
 
+## Log
 
-**23.02.03** - Just watched Once Upon a Time in Hollywood  
-**17.10.15** - Perhaps at some point, I'll come back in here and rank them. 
+- 23/12/18 - added Holiday Movies because I got asked for my favorites
+- 23/02/10 - wrote about [White Lotus](https://davidawindham.com/the-white-lotus/)
+- 23/02/03 - wrote about [Once Upon a Time in Hollywood](/posts/once-upon-time-hollywood)  
+- 17/10/15 - just starting a list...perhaps at some point, I'll come back in here and rank them. 
+
+## TOC
 
 ### Movies
 
@@ -18,37 +23,47 @@
 [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood)
 
 
+#### Christmas Movies 
+
+[Planes Trains and Automobiles](https://en.wikipedia.org/wiki/Planes,_Trains_and_Automobiles)
+| [Mixed Nuts](https://en.wikipedia.org/wiki/Mixed_Nuts)
+| [Scrooged](https://en.wikipedia.org/wiki/Scrooged)
+| [Trading Places](https://en.wikipedia.org/wiki/Trading_Places)
+| [Grumpy Old Men](https://en.wikipedia.org/wiki/Grumpy_Old_Men_(film))
+| [Elf](https://en.wikipedia.org/wiki/Elf_(film))
+| [Christmas Vacation](https://en.wikipedia.org/wiki/National_Lampoon%27s_Christmas_Vacation)
+
 
 
 
 ### Television
 
-[Doc Martin](https://en.wikipedia.org/wiki/Doc_Martin) /
-[Enlightened](https://en.wikipedia.org/wiki/Enlightened_%28TV_series%29) /
-[The Simpsons](https://en.wikipedia.org/wiki/The_Simpsons) /
-[Board to Death](https://en.wikipedia.org/wiki/Bored_to_Death)
-[Inspector Lewis](<https://en.wikipedia.org/wiki/Lewis_(TV_series)>) /
-[Curb Your Enthusiasm](https://en.wikipedia.org/wiki/Curb_Your_Enthusiasm) /
-[High Maintenance](https://en.wikipedia.org/wiki/High_Maintenance) /
-[Gavin and Stacey](https://en.wikipedia.org/wiki/Gavin_%26_Stacey) /
-[Broadchurch](https://en.wikipedia.org/wiki/Broadchurch) /
-[Last Tango in Halifax](https://en.wikipedia.org/wiki/Last_Tango_in_Halifax) /
-[Shameless (UK Version)](<https://en.wikipedia.org/wiki/Shameless_(UK_TV_series)>) /
-[Portlandia](<https://en.wikipedia.org/wiki/Portlandia_(TV_series)>) /
-[An Idiot Abroad](https://en.wikipedia.org/wiki/An_Idiot_Abroad) /
-[Peep Show](<https://en.wikipedia.org/wiki/Peep_Show_(TV_series)>) /
-[Catastrophe](<https://en.wikipedia.org/wiki/Catastrophe_(2015_TV_series)>) /
-[Transparent](https://en.wikipedia.org/wiki/Transparent_%28TV_series%29) /
-[Adventure Time](https://en.wikipedia.org/wiki/Adventure_Time) /
-[Still Game](https://en.wikipedia.org/wiki/Still_Game) /
-[Detectorists](https://en.wikipedia.org/wiki/Detectorists) /
-[Chewin' the Fat](https://en.wikipedia.org/wiki/Chewin%27_the_Fat) /
-[Shetland](https://en.wikipedia.org/wiki/Shetland_(TV_series)) /
-[Blandings](https://en.wikipedia.org/wiki/Blandings_(TV_series)) / 
-[The Life Collection](https://en.wikipedia.org/wiki/The_Life_Collection) /
-[John Adams](<https://en.wikipedia.org/wiki/John_Adams_(miniseries)>) /
-[Stephen Fry in America](https://en.wikipedia.org/wiki/Stephen_Fry_in_America) /
-[Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation) /
+[Doc Martin](https://en.wikipedia.org/wiki/Doc_Martin)
+| [Enlightened](https://en.wikipedia.org/wiki/Enlightened_%28TV_series%29)
+| [The Simpsons](https://en.wikipedia.org/wiki/The_Simpsons)
+| [Board to Death](https://en.wikipedia.org/wiki/Bored_to_Death)
+| [Inspector Lewis](<https://en.wikipedia.org/wiki/Lewis_(TV_series)>)
+| [Curb Your Enthusiasm](https://en.wikipedia.org/wiki/Curb_Your_Enthusiasm)
+| [High Maintenance](https://en.wikipedia.org/wiki/High_Maintenance)
+| [Gavin and Stacey](https://en.wikipedia.org/wiki/Gavin_%26_Stacey)
+| [Broadchurch](https://en.wikipedia.org/wiki/Broadchurch)
+| [Last Tango in Halifax](https://en.wikipedia.org/wiki/Last_Tango_in_Halifax)
+| [Shameless (UK Version)](<https://en.wikipedia.org/wiki/Shameless_(UK_TV_series)>)
+| [Portlandia](<https://en.wikipedia.org/wiki/Portlandia_(TV_series)>)
+| [An Idiot Abroad](https://en.wikipedia.org/wiki/An_Idiot_Abroad)
+| [Peep Show](<https://en.wikipedia.org/wiki/Peep_Show_(TV_series)>)
+| [Catastrophe](<https://en.wikipedia.org/wiki/Catastrophe_(2015_TV_series)>)
+| [Transparent](https://en.wikipedia.org/wiki/Transparent_%28TV_series%29)
+| [Adventure Time](https://en.wikipedia.org/wiki/Adventure_Time)
+| [Still Game](https://en.wikipedia.org/wiki/Still_Game)
+| [Detectorists](https://en.wikipedia.org/wiki/Detectorists)
+| [Chewin' the Fat](https://en.wikipedia.org/wiki/Chewin%27_the_Fat)
+| [Shetland](https://en.wikipedia.org/wiki/Shetland_(TV_series))
+| [Blandings](https://en.wikipedia.org/wiki/Blandings_(TV_series)) 
+| [The Life Collection](https://en.wikipedia.org/wiki/The_Life_Collection)
+| [John Adams](<https://en.wikipedia.org/wiki/John_Adams_(miniseries)>)
+| [Stephen Fry in America](https://en.wikipedia.org/wiki/Stephen_Fry_in_America)
+| [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)
 
 
 ### People

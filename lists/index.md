@@ -22,7 +22,7 @@ toc_min_heading_level: 2
 | [todo](todo)
 | [grocery](grocery.md)
 | [shopping](shopping.md)
-// [art](art/art.md)
+| [art](art/art.md)
 | [concepts](concepts.md)
 | [design](design.md)
 | [feeds](feeds.md)
@@ -41,6 +41,7 @@ toc_min_heading_level: 2
 
 ## Log
 
+- 23/12/18 - [Christmas Movies](/lists/art/motion)
 - 23/12/08 - [Todo](/lists/todo)
 - 23/12/01 - [Feeds](feeds) - Derek Sivers
 - 23/12/01 - [Github Stars](stars)
