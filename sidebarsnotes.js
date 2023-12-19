@@ -88,6 +88,10 @@ module.exports = {
     },
     {
       type:'doc',
+      id:'ideas',
+    },
+    {
+      type:'doc',
       id:'tennis',
     },
     {

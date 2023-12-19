@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 23/12/18 - Added [Ideas](/notes/ideas)
 - 23/12/17 - [health](/notes/health)
 - 23/11/05 - [house/studio](/notes/house/studio)
 - 23/10/20 - [house/build](/notes/house/build)
