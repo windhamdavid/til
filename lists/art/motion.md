@@ -23,7 +23,7 @@
 [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood)
 
 
-#### Christmas Movies 
+#### Christmas Movies
 
 [Planes Trains and Automobiles](https://en.wikipedia.org/wiki/Planes,_Trains_and_Automobiles)
 | [Mixed Nuts](https://en.wikipedia.org/wiki/Mixed_Nuts)
@@ -31,10 +31,6 @@
 | [Trading Places](https://en.wikipedia.org/wiki/Trading_Places)
 | [Grumpy Old Men](https://en.wikipedia.org/wiki/Grumpy_Old_Men_(film))
 | [Elf](https://en.wikipedia.org/wiki/Elf_(film))
-| [Christmas Vacation](https://en.wikipedia.org/wiki/National_Lampoon%27s_Christmas_Vacation)
-
-
-
 
 ### Television
 
