@@ -8,14 +8,9 @@
 
 ## Current
 
-### Music
-
-[Ben Harper - Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
-| [blur - The Ballad of Darren](https://en.wikipedia.org/wiki/The_Ballad_of_Darren)
-
 ### Books
 
-| [Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
+[Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
 | [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
 | [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
 | [The Chickenshit Club](https://en.wikipedia.org/wiki/Jesse_Eisinger)
@@ -23,7 +18,7 @@
 
 ### Film
 
-| [Three Thousand Years of Longing](https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing)
+[Three Thousand Years of Longing](https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing)
 | [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
 | [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
 | [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
@@ -52,12 +47,14 @@
 
 #### Series
 
-| [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
+[Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
 | [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
+
+#### The 25 Best Films of 2023
 
 #### The 25 Best Films of 2022
 
-| [David Ehrlich's Best films videos](https://www.videocountdowns.com) 
+[David Ehrlich's Best films videos](https://www.videocountdowns.com) 
 | [Aftersun](https://en.wikipedia.org/wiki/Aftersun)
 | [Tár](https://en.wikipedia.org/wiki/Tár)
 | [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once)
@@ -86,7 +83,7 @@
 
 #### Shakespeare-athon
 
-| [The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth)
+[The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth)
 | [West Side Story](https://en.wikipedia.org/wiki/West_Side_Story_(2021_film))
 | [Titus](https://en.wikipedia.org/wiki/Titus_(film))
 | [The Hollow Crown](https://en.wikipedia.org/wiki/The_Hollow_Crown_(TV_series))
@@ -96,12 +93,17 @@
 
 ### Games
 
-| [The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom)
+
 | [Pikmin 4](https://en.wikipedia.org/wiki/Pikmin_4)
+
+### Music
+
+[Ben Harper - Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
+| [blur - The Ballad of Darren](https://en.wikipedia.org/wiki/The_Ballad_of_Darren)
 
 ### Podcasts
 
-| [Smartless](https://en.wikipedia.org/wiki/SmartLess)
+[Smartless](https://en.wikipedia.org/wiki/SmartLess)
 | [You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes)
 | [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast))
 | [WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron)
@@ -128,7 +130,7 @@
 
 #### Series
 
-| [Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso) (75)
+[Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso) (75)
 | [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
 | [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
 | [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
@@ -145,6 +147,8 @@
 
 ### Games
 
+
+[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) (100)
 | [Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) (99)
 | [Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) (95)
 | [Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces) (90)
