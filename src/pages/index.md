@@ -5,6 +5,8 @@ description: A place to keep notes and documentation
 
 # Today I Learned
 
+- **2024**
+  - 24/01/09 - [Pseudopregnancy](/posts/pseudopregnancy)
 - **2023**
   - 23/12/21 - [White Christmas](/posts/white-christmas)
   - 23/12/12 - [Geminids](/posts/geminids)
