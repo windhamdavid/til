@@ -6,35 +6,30 @@
 
 ## Short Term
 
-- [Travel](/notes/travel)
-  - Folly Beach ( Jan 2-7 )
-- [House](/notes/house) / [Garden](/notes/garden)
-  - Build [Downstairs studio / Desk / Taboret](notes/house/studio)
-  - Fix outlet in the front porch light
-  - New upstairs carpet
-- [Iris](/notes/dogs)
-  - service eligibility / AKC Registration
-- [Tennis](notes/tennis)
-  - Boys Roster / SwingVision app
 - [Work](/notes/work)
-  - ZW - 23' Invoicing 🔥
-    - prep taxes 🔥
+  - ZW - 23' invoicing/taxes 🔥
+    - [IRAs consult/move](/notes/work/wealth)
+  - GWP - Usage tutorial 🔥
+  - SRH - Mid-level Providers 🔥
+  - PHF - Google domains migrate
   - [AI](/notes/work/projects/ai) - SupaBase and/or postgres from Github actions
     - switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
-  - GWP - Publish / Usage tutorial 🔥
-  - SRH - NP/PAs to Providers Directory 🔥
-    - Rebuild design features as blocks
-  - [IRAs consult/move](/notes/work/wealth)
   - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
-    - Cache policies / Auto Remove old analytics logs
-
+    - Cache policies / Auto-remove old analytics logs
+- [Tennis](notes/tennis)
+  - Boys Roster / SwingVision app
+- [Iris](/notes/dogs)
+  - service eligibility / AKC Registration
+- [House](/notes/house) / [Garden](/notes/garden)
+  - Build [Downstairs studio](notes/house/studio)
+  - Fix socket in front porch light
 
 ---
 
 ## Middle Term
 
 - [Work](/notes/work)
-  - SRH - Rework Navigation based on Analytics
+  - SRH - Rebuild in blocks / Rework Navigation
   - TIL - build tool / Github actions
   - PHF/HLF - Redesigns
   - GA universal v.4/domain migrations
@@ -58,6 +53,7 @@
   - Convice SCHSL to move back girl's season
   - update certifications
 - [House](/notes/house) / [Garden](/notes/garden)
+  - upstairs carpet
   - Pressure wash / Re-seal decks ( spring )
   - Front Doors
   - Kitchen Redo
@@ -90,6 +86,8 @@
 
 ## ToDo(ne)
 
+- 24/01/09 - [Mulonni Migrate](/notes/work)
+- 24/01/08 - [Folly](/notes/travel)
 - 23/12/07 - [Christmas Shopping](/lists/shopping)
 - 23/11/27 - [Florence combo](/notes/tennis)
 - 23/11/24 - [Install Garage Floodlight](/notes/house)
