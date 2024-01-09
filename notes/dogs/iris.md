@@ -1,20 +1,22 @@
 # Iris
 
-#### Post: https://davidawindham.com/iris
+I wrote a post about Iris @ https://davidawindham.com/iris
 
 ## Log
 
-**23.03.09** - Puppies were born. Will ride up to select from the litter in early April with an expected come home date in mid May.
-
-- 23.01.10 - Zoey's doggie date w/ Adger
-- 23.03.10 - 60 day due date
-- 23.03.09 - Puppies Born 👈🏼
-- 23.04.22 - 6 week litter pick  
-- 23.05.13 - 9 week pickup date
-- 23.06.09 - 12 Weeks  
+- 24/03/09 - 1 year birthday 🎂
+- 24/01/09 - 10 months - overly confident, 95% response to colar, still jumping, 
+- 23/12/30 - [false pregnancy](/posts/pseudopregnancy) - research related health and spay.
+- 23/11/30 - first heat
+- 23/06/09 - 12 Weeks  
   - Cautious but confident. Understands "No, Yes, Sit, Come, Here and her name". Decent recall off leash. Eats everything. Gets testy in the afternoons and wants to chew and nip. 
   - will have last round of vaccines next week.
   - added updated 12 week photos @ https://davidawindham.com/iris/
+- 23.03.09 - Puppies Born 👈🏼
+- 23.03.10 - 60 day due date
+- 23.04.22 - 6 week litter pick 
+- 23.05.13 - 9 week pickup date
+- 23.01.10 - Zoey's date w/ Adger
 
 ## About
 
