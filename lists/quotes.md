@@ -1,11 +1,15 @@
 # Quotes
 
-I used to love buying books of quotes when my parents took us to the bookstore. I've bookmarked some elsewhere on my website, but I'm going to start putting them here. ( e.g. - [https://davidawindham.com/education-through-recreation/](https://davidawindham.com/education-through-recreation/))
+I used to love buying books of quotes when my parents took us to the bookstore. It just seemed like a good value since so much information was in a quote compilation. I previously noted some quotes on my website in various posts, but I'm going to start putting them here.
 
 **23/05/23** - ~~I'm gonna start placing these in order of value to me instead of chronologically.~~  
 **23/08/22** - Leaving them in reverse chronological order because I can see what I added last
 
 ---
+
+"The tragedy of life is that it gives us wisdom only when it has stolen youth. Health lies in action, and so it graces youth. To be busy is the secret of grace, and half the secret of content. Let us ask the gods not for possessions, but for things to do; happiness is in making things rather than in consuming them. In Utopia, said Thoreau, each would build his own home; and then Suos would come back to the heart of man, as it comes to the bird when it builds its nest." - 
+[_Fallen Leaves_ - Will Durant](https://en.wikipedia.org/wiki/Will_Durant)
+
 
 "People do not seem to realize that their opinion of the world is also a confession of character."  – [Ralph Waldo Emerson](https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson) from [_The Conduct of Life_ (1860)](https://en.wikipedia.org/wiki/The_Conduct_of_Life)
 
