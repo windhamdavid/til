@@ -91,7 +91,7 @@ It's going right here 👇🏼 where the big painting is hung.
 - This Old House installing cabinets - https://www.youtube.com/watch?v=5xN9kPD7ddU
 - AP Restoration Woodwork - https://ap-restoration.com
 - Kitchen Rehab - https://kitchenrehab.co - review w/keyboard drawer- https://www.google.com/maps/contrib/103662183858242984916/place/ChIJA9iEn48F-IgRO-AGSX88VO8/@34.1371788,-82.1125008,17z/data=!4m6!1m5!8m4!1e1!2s103662183858242984916!3m1!1e1?hl=en&entry=ttu
-- How to cut and remove carpet for your Project Installation! - https://www.youtube.com/watch?v=1VE3j-jqbDA
+- How to cut and remove carpet for your Project Installation - https://www.youtube.com/watch?v=1VE3j-jqbDA
 
 
 ### Equipment:
