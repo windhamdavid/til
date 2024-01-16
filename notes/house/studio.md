@@ -69,6 +69,7 @@ It's going right here 👇🏼 where the big painting is hung.
 - (1) MinWax Dark Walnut Stain - [link](https://www.minwax.com/en/wood-stain-color-guide/browse-color-stains/brown/dark-walnut-2716-semi-transparent)
 - (2) ($165 per) Hampton Bay cabinet 36x24x34.5" - [link](https://www.homedepot.com/p/Hampton-Bay-36-in-W-x-24-in-D-x-34-5-in-H-Assembled-Base-Kitchen-Cabinet-in-Unfinished-with-Recessed-Panel-KB36-UF/302970327)
   - *or (2) ($372 per) Hampton Bay Shaker 36" Java - [link](https://www.homedepot.com/p/Hampton-Bay-Shaker-36-in-W-x-24-in-D-x-34-5-in-H-Assembled-Base-Kitchen-Cabinet-in-Java-with-Ball-Bearing-Drawer-Glides-KB36-SJM/204310778)
+- (2) ($22) Hampton Bay 23.25 in. W x 34.5 in. H Base Cabinet End Panel in Unfinished Beech
 - (4) ($9.36) Franklin Brass Matte Black Round Cabinet Knob - [link](https://www.homedepot.com/p/Franklin-Brass-Franklin-Brass-with-Antimicrobial-Properties-Round-Cabinet-Knob-in-Matte-Black-1-3-16-in-30-mm-5-Pack-P29523Z-FBA-B/318338185)
 - (2) ($16.05) Franklin Brass Matte Black Bar Pull 5-1/16" - [link](https://www.homedepot.com/p/Franklin-Brass-Franklin-Brass-with-Antimicrobial-Properties-Cabinet-Bar-Pull-in-Matte-Black-3-in-76mm-5-Pack-P29520Z-FBA-B/318338254)
 - (2) ($34.98) Commercial Electric 12ft 8 Outlet Protector - [link](https://www.homedepot.com/p/Commercial-Electric-12-ft-Braided-Cord-8-Outlet-Surge-Protector-with-1-USB-and-1-USB-C-Black-YLPT-131B/319526975)

@@ -41,6 +41,7 @@ toc_min_heading_level: 2
 
 ## Log
 
+- 24/01/16 - [Travel](/lists/travel)
 - 23/12/18 - [Durant Quote](/lists/quotes)
 - 23/12/18 - [Christmas Movies](/lists/art/motion)
 - 23/12/08 - [Todo](/lists/todo)

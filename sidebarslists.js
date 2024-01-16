@@ -184,6 +184,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'travel',
+    },
+    {
+      type: 'doc',
       id: 'trivia',
     },
     {
