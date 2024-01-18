@@ -435,12 +435,14 @@ add_filter(
 );
 ```
 
-
-
-
-
 ---
 ## Notes
+
+:::info[Idea 💡]
+
+I found over the process of several of these projects that it's much easier to copy/paste the templates/patterns from within the Gutenberg Code editor than it is to hand write them. It's be much faster if there was syntax highlighting in the editor. See my [comment](https://github.com/WordPress/gutenberg/issues/17017#issuecomment-1883491136) on an existing Github issue.
+
+:::
 
 - https://css-tricks.com/wordpress-global-styles-reference-tables/
 - https://developer.wordpress.org/news/2023/12/a-walk-through-tutorial-on-using-create-block-theme-plugin/
