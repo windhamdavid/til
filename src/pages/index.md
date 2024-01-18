@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/01/18 - [What is it about Nick Cave?](/posts/nick-cave)
   - 24/01/09 - [Pseudopregnancy](/posts/pseudopregnancy)
 - **2023**
   - 23/12/21 - [White Christmas](/posts/white-christmas)
