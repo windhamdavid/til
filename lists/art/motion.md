@@ -1,7 +1,10 @@
 # Motion Pictures
 
+The first moving picture I actually remember watching was Star Trek when I could first stand up when I was shorter than the console TV.
+
 ## Log
 
+- 24/01/27 - shared a clip of Bill Murray singing _Peace, Love, and Understanding_ from _Lost in Translation_ to some friends and got to thinking about making a collage of clips that have just stuck with me. Figured I'd need work up a list of those films first so I've added some more here alongside of [Scenes](#scenes).  
 - 23/12/18 - added Holiday Movies because I got asked for my favorites
 - 23/02/10 - wrote about [White Lotus](https://davidawindham.com/the-white-lotus/)
 - 23/02/03 - wrote about [Once Upon a Time in Hollywood](/posts/once-upon-time-hollywood)  
@@ -21,6 +24,121 @@
 [20th Century Women](https://en.wikipedia.org/wiki/20th_Century_Women) / 
 [The Two Popes](https://en.wikipedia.org/wiki/The_Two_Popes) /
 [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood)
+/ Parasite
+/ Joker
+/ La La Land
+/ Birdman
+/ Wolf of Wallstreet
+/ Life of Pi
+/ Midnight in Paris
+/ Boogie Nights
+/ Slumdog Millionare
+/ The Social Network
+/ No Country for Old Men
+/ Thumbsucker
+/ O'Brother Where Art Thou
+/ Pulp Fiction
+/ The Fog of War
+/ Chinatown
+/ Grumpy Old Men
+/ The Truman Show
+/ 2001: A Space Odyssey
+/ Midnight Cowboy
+/ Apocalypse Now
+/ Lost In Translation
+/ One Flew Over the Cuckoo's Next
+/ Raging Bull
+/ The Shining
+/ Taxi Driver
+/ Dr. Strangelove
+/ The Godfather
+/ Spirited Away
+/ Almost Famous
+/ American Graffiti
+/ American Beauty
+/ Blue Velvet
+/ Friday
+/ As Good as It Gets
+/ When We Were Kings
+/ Blade Runner
+/ Forest Gump
+/ Leaving Las Vegas
+/ The Deer Hunter
+/ This is Spinal Tap
+/ A River Runs Through It
+/ The Fisher King
+/ Born on the Fourth of July
+/ Do The Right Thing
+/ The Ice Storm
+/ The Naked Gun
+/ Die Hard
+/ Wild at Heart
+/ The Meaning of Life
+/ Monty Python and the Holy Grail
+/ Life of Brian
+/ Amadeus
+/ Fantasia
+/ The Cotton club
+/ High Anxiety
+/ Fast Times at Ridgemont High
+/ The Graduate
+/ Out of Africa
+/ On Golden Pond
+/ Raising Arizona
+/ Dead Poets Society
+/ Creepshow
+/ Top Secret!
+/ Heathers
+/ Pump up the Volume
+/ Spaceballs
+/ True Stories
+/ The Song Remains The Same
+/ Blazing Saddles
+/ Young Frankenstein
+/ The Lost Boys
+/ Airplane!
+/ Top Secret
+/ Batman
+/ Rain Man
+/ Beetlejuice
+/ The Wall
+/ Yellow Subarine
+/ New York Stories
+/ Footloose
+/ The Simpsons
+/ The Color of Money
+/ The Seach for Animal Chin
+/ E.T.
+/ Jaws
+/ David Letterman
+/ 2001 A Space Odysey 
+/ MTV - Talking Heads
+/ The Goonies
+/ Labyrinth
+/ American Ninja
+/ Raiders of the Lost Ark
+/ Saturday Night Fever
+/ The Return of the Jedi
+/ The Elephant Man
+/ The Wizard of Oz
+/ The Empire Strikes Back
+/ Star Wars
+/ Fragle Rock
+/ The Muppets
+/ Loony Toons
+/ The Hobbit
+/ Star Trek 
+
+#### Scenes
+
+/ When We Were Kings: Ali talking about enlightenment
+/ Elephant Man
+/ Wizard of Oz: flying monkeys
+/ Color of Money: Werewolves of London
+/ Raiders of the Lost Ark: Melting Faces
+/ Fantasia (2000): 
+
+
 
 
 #### Christmas Movies
@@ -60,6 +178,15 @@
 | [John Adams](<https://en.wikipedia.org/wiki/John_Adams_(miniseries)>)
 | [Stephen Fry in America](https://en.wikipedia.org/wiki/Stephen_Fry_in_America)
 | [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)
+| Shawn the Sheep
+| Mrs. Browns Boys
+| The Heat of the Night
+| Night Court
+| Miami Vice
+| A-Team
+| Knight Rider
+| Fraggle Rock
+
 
 
 ### People
