@@ -39,10 +39,6 @@ brew install mongodb
 
 ```  
 
-##### Remote Install
-
-* Install MongoDB on Ubuntu 16.04
-* [Install MongoDB Community Edition on Ubuntu — MongoDB Manual 3.2](#install-mongodb-community-edition-on-ubuntu-—-mongodb-manual-32)  
 
 ##### Resources
 

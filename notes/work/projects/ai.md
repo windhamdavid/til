@@ -103,5 +103,5 @@ I've recently started learning how to create embeddings using vector databases w
 2. _A Second Brain_ - https://davidawindham.com/a-second-brain/
 3. _Artificial Intelligence_ - https://davidawindham.com/artificial-intelligence/
 4. _Artificial Intelligence (Part 2)_ - https://davidawindham.com/artificial-intelligence-2/
-5. TIL SasS OpenAI - [/docs/saas/OpenAI](/docs/saas/OpenAI)
+5. TIL SasS OpenAI - [/docs/saas/OpenAI](/docs/saas/openai)
 6. MarkPrompt - [https://markprompt.com/docs#react](https://markprompt.com/docs#react)

@@ -6,23 +6,6 @@ January 2020:
 #### Ruby (cheatsheet)
  * for Rails see [rails/](/docs/waf/rails)
 
-##### Table of Contents
-
-[Basics](#basics)  
-[Vars, Constants, Arrays, Hashes & Symbols](#vars-constants-arrays-hashes--symbols)  
-[Methods](#methods)
-[Classes](#classes)
-[Modules](#modules)
-[Blocks & Procs](#blocks--procs)  
-[Lambdas](#lambdas)
-[Calculation](#calculation)  
-[Comment](#comment)  
-[Conditions](#conditions)  
-[Printing & Putting](#printing--putting)  
-[User Input](#user-input)  
-[Loops](#loops)
-[Sorting & Comparing](#sorting--comparing)  
-[Usefull Methods](#usefull-methods)
 
 ## Basics
 

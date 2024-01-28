@@ -10,27 +10,6 @@
 
 * [source](https://github.com/nczhu/rust-recipes-cheatsheet)
 
-### TOC
-- [Important Traits](#Important-Traits)
-- [Important Crates](#Important-Crates)
-- [Important Shorthands](#Important-Shorthands)
-- [Stack vs Heap](#Stack-vs-Heap)
-- [Strings](#Strings)
-- [Vectors](#Vectors)
-- [Return Handling](#Return-Handling)
-- [Iterators](#Iterators)
-- [Generics](#Generics)
-- [Lifetimes](#Lifetimes)
-- [Closures](#Closures)
-- [References](#References)
-- [Threads](#Threads)
-- [Channels](#Channels)
-- [Patterns](#Patterns)
-- [Macros](#Macros)
-- [Futures](#Futures)
-- [Databases](#Databases)
-- [Web Services](#Web-Servers)
-- [CLI](#CLI)
 
 ## Important Traits
 

@@ -28,7 +28,7 @@ I use this library of documents as a quick reference to find technical answers, 
 - 23/06/09 - [computers/woozie](/docs/computers/woozie)
 - 23/06/13 - [computers/ovid](/docs/computers/ovid)
 - 23/05/22 - [computers/woozie](/docs/computers/woozie)
-- 23/04/02 - [host/wordpress](/docs/host/wordpress)
+- 23/04/02 - [host/wordpress](/docs/host/WordPress)
 - 23/03/15 - [computers/woozie](/docs/server/iptables)
 - 23/02/23 - [computers/ovid](/docs/server/nginx)
 

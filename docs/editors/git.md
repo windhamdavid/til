@@ -524,13 +524,6 @@ $ git commit -m "remove xyz file"
 ## Git-Flow
 Improved [Git-flow](https://github.com/petervanderdoes/gitflow-avh)
 
-### Index
-* [Setup](#setup)
-* [Getting Started](#getting-started)
-* [Features](#features)
-* [Make a Release](#make-a-release)
-* [Hotfixes](#hotfixes)
-* [Commands](#commands)
 
 <hr/>
 

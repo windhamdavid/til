@@ -29,45 +29,7 @@
 
 > A simple cheat sheet for facilitate the process in the workshops and event about React. Let me know if you see any problem, I'll love a pull request for improve this document.
 
-### Table of contents
 
-- [x] [Installation](#installation)
-- [x] [No configuration](#no-configuration)
-- [x] [ReactDOM](#reactdom)
-- [x] [Functional Stateless Component](#functional-stateless-component)
-- [x] [Class Component](#class-component)
-- [x] [Composition](#composition)
-- [x] [Module component](#module-component)
-- [x] [Hot Module Replacement](#hot-module-replacement)
-- [x] [Props](#props)
-- [x] [State](#state)
-- [x] [Methods and Events](#methods-and-events)
-- [x] [State manipulation](#state-manipulation)
-- [x] [Bindings](#bindings)
-- [ ] [Refs](#refs)
-- [ ] [Keys](#keys)
-- [ ] [Component Lifecycle](#component-lifecycle)
-- [ ] [Inline Styles](#inline-styles)
-- [ ] [React Router](#react-router)
-- [ ] [Storybook](#storybook)
-- [ ] [Tests](#tests)
-- [ ] [a11y](#a11y)
-- [ ] [API comunication](#api-comunication)
-- [ ] [Flux](#flux)
-- [ ] [Redux](#redux)
-- [ ] [MobX](#mobx)
-- [ ] [Best Practices](#best-practices)
-- [ ] [Concepts](#Concepts)
-    - [ ] [Immutable](#immutable)
-    - [ ] [Functionnal programing](#functionnal-programing)
-    - [ ] [Virtual Dom](#virtual-dom)
-- [x] [ES6](#es6)
-    - [x] [Arrow Functions](#arrow-functions)
-        - [x] [Syntax](#syntax)
-        - [x] [Advanced Syntax](#advanced-syntax)
-    - [x] [Spread Operations](#spread-operations)
-        - [x] [Spread in array literals](#spread-in-array-literals)
-        - [x] [Spread in object literals](#spread-in-object-literals)
 
 ---
 
@@ -83,7 +45,7 @@
     $ npm install react react-dom
     ```
 
- **[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## No configuration
@@ -109,7 +71,7 @@ Just start with React no configuration (run the scripts bellow in your terminal)
 * Go to the browser by `URL` bellow and see your beautiful application   
     - [localhost:8080](http://localhost:8080)
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## ReactDOM
@@ -121,7 +83,7 @@ import ReactDOM from 'react-dom';
 ReactDOM.render( <h1>Hello React Ladies</h1>, document.getElementById('root') );
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Functional Stateless Component
@@ -150,7 +112,7 @@ const Button = ({ onClick, className = 'button', children  }) =>
 export default Button;
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Class Component
@@ -193,7 +155,7 @@ export default MyComponent;
 
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Composition
@@ -230,7 +192,7 @@ ReactDOM.render(
     document.getElementById(´root´)
 );
 
-**[⬆ back to top](#table-of-contents)**
+
 ```
 
 ## Module component
@@ -276,7 +238,7 @@ ReactDOM.render (
 
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Hot Module Replacement
@@ -296,7 +258,7 @@ if (module.hot) {
 }
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Props
@@ -327,7 +289,7 @@ class Index extends Component {
 export default Index;
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## State
@@ -353,7 +315,7 @@ class App extends Component {
 export default App;
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## Methods and Events
@@ -379,7 +341,7 @@ class App extends Component {
 export default App;
 ```
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 
 ## State manipulation
@@ -437,7 +399,7 @@ export default App;
 ```
 
 
-**[⬆ back to top](#table-of-contents)**
+
 ---
 d
 ## Bindings

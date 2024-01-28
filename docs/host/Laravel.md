@@ -1,12 +1,12 @@
 
 
-#### Build
+### Build
 * [webpack](https://webpack.js.org/)
 
-#### Front End
+### Front End
 * [Vuejs](https://vuejs.org/v2/guide/)
 
-#### Back
+### Back
 * [Laravel](https://laravel.com/docs/5.7)  
   * [Symfony Components](https://symfony.com/projects/laravel)
   * [Laravel Nova](https://nova.laravel.com)
@@ -15,24 +15,24 @@
   * [Laravel Telescope](https://github.com/laravel/telescope/)
   * [Laravel Cashier](https://laravel.com/docs/5.7/billing)
 
-#### Testing
+### Testing
 * [Laravel Dusk](https://laravel.com/docs/5.7/dusk)  
 
 
-#### Code
+### Code
 * Origin master [https://code.davidawindham.com/david/laravel/](https://code.davidawindham.com/david/laravel/)
 * Code master [https://github.com/windhamdavid/laravel](https://github.com/windhamdavid/laravel)
 * Upstream master [https://github.com/laravel/laravel](https://github.com/laravel/laravel)  
 
-#### Links
+### Links
 * Laravel Cheatsheet [https://davidawindham.com/til/host/laravel.html](https://davidawindham.com/til/host/laravel.html)
 * Laravel Documentation [https://laravel.com/docs/5.7/](https://laravel.com/docs/5.7/)
 
-#### References
+### References
 * [Laravel by the Numbers
 A unique analysis of data from Laravel Shift on over 8,000 Laravel apps.](https://jason.pureconcepts.net/2018/07/laravel-numbers/)
 
-#### Artisan
+### Artisan
 ```sh
 // shortend 'php artisan' to 'pa' in my .zshrc
 // added tab completion for artisan
@@ -58,7 +58,7 @@ alias pavendor='php artisan vendor:publish'
 // etc...
 ```
 
-###### commonly used:
+##### commonly used:
 ```php
 pa help
 pa list
@@ -76,7 +76,7 @@ pa cache:clear
 pa route:list
 ```
 
-#### [Artisan](#artisan)[](http://laravel.com/docs/artisan "Artisan CLI @ Laravel Docs")
+### [Artisan](http://laravel.com/docs/artisan "Artisan CLI @ Laravel Docs")
 
 ```php
 // Added in 5.1.11:http://laravel.com/docs/5.1/authorization#creating-policies
@@ -256,7 +256,7 @@ php artisan vendor:publish [--force] [--provider[="..."]] [--tag[="..."]]
 php artisan tail [--path[="..."]] [--lines[="..."]] [connection]
 ```
 
-#### Composer
+### Composer
 [composer](http://getcomposer.org/)
 
 ```php
@@ -272,7 +272,7 @@ composer require [options] [--] [vendor/packages]...
 
 ___
 
-#### [Config](#Configuration)[](http://laravel.com/docs/configuration "Configuration Docs")
+### [Config](http://laravel.com/docs/configuration "Configuration Docs")
 
 ```php
 
@@ -285,7 +285,7 @@ Config::set('database.default', 'sqlite');
 
 ___
 
-#### [Route](#routing)[](http://laravel.com/docs/routing "Routing @ Laravel Docs")[](http://laravel.com/docs/helpers#routing "Routing Helpers @ Laravel Docs")
+### [Route](http://laravel.com/docs/routing "Routing @ Laravel Docs")[](http://laravel.com/docs/helpers#routing "Routing Helpers @ Laravel Docs")
 
 ```php
 
@@ -294,7 +294,7 @@ Route::get('foo', 'ControllerName@function');
 Route::controller('foo', 'FooController');
               ```
 
-###### RESTful Controllers[](http://laravel.com/docs/controllers#restful-resource-controllers "RESTful Controllers @ Laravel Docs")
+##### RESTful Controllers[](http://laravel.com/docs/controllers#restful-resource-controllers "RESTful Controllers @ Laravel Docs")
 
 ```php
 
@@ -304,7 +304,7 @@ Route::resource('photo', 'PhotoController',['only' => ['index', 'show']]);
 Route::resource('photo', 'PhotoController',['except' => ['update', 'destroy']]);
               ```
 
-###### Triggering Errors[](http://laravel.com/docs/routing#throwing-404-errors "throwing-404-errors @ Laravel Docs")
+##### Triggering Errors[](http://laravel.com/docs/routing#throwing-404-errors "throwing-404-errors @ Laravel Docs")
 
 ```php
 
@@ -313,7 +313,7 @@ $handler->missing(...) in ErrorServiceProvider::boot();
 throw new NotFoundHttpException;
               ```
 
-###### Route Parameters[](http://laravel.com/docs/routing#route-parameters "RESTful Controllers @ Laravel Docs")
+##### Route Parameters[](http://laravel.com/docs/routing#route-parameters "RESTful Controllers @ Laravel Docs")
 
 ```php
 
@@ -321,7 +321,7 @@ Route::get('foo/{bar}', function($bar){});
 Route::get('foo/{bar?}', function($bar = 'bar'){});
               ```
 
-###### HTTP Verbs
+##### HTTP Verbs
 
 ```php
 
@@ -336,14 +336,14 @@ Route::resource('foo', 'FooController');
 Route::match(['get', 'post'], '/', function(){});
               ```
 
-###### Secure Routes(TBD)
+##### Secure Routes(TBD)
 
 ```php
 
 Route::get('foo', array('https', function(){}));
               ```
 
-###### Route Constraints
+##### Route Constraints
 
 ```php
 
@@ -359,7 +359,7 @@ Route::get('foo/{bar}/{baz}', function($bar, $baz){})
 Route::pattern('bar', '[0-9]+')
               ```
 
-###### HTTP Middleware[](http://laravel.com/docs/middleware "HTTP Middleware @ Laravel Docs")
+##### HTTP Middleware[](http://laravel.com/docs/middleware "HTTP Middleware @ Laravel Docs")
 
 ```php
 
@@ -368,7 +368,7 @@ Route::get('admin/profile', ['middleware' => 'auth', function(){}]);
 Route::get('admin/profile', function(){})->middleware('auth');
               ```
 
-###### Named Routes
+##### Named Routes
 
 ```php
 
@@ -382,7 +382,7 @@ $url = route('profile');
 $redirect = redirect()->route('profile');
               ```
 
-###### Route Prefixing
+##### Route Prefixing
 
 ```php
 
@@ -394,7 +394,7 @@ Route::group(['prefix' => 'admin'], function()
 });
               ```
 
-###### Route Namespacing
+##### Route Namespacing
 
 ```php
 
@@ -402,7 +402,7 @@ Route::group(['prefix' => 'admin'], function()
 Route::group(array('namespace' => 'Foo\Bar'), function(){})
               ```
 
-###### Sub-Domain Routing
+##### Sub-Domain Routing
 
 ```php
 
@@ -412,7 +412,7 @@ Route::group(array('domain' => '{sub}.example.com'), function(){});
 
 ___
 
-#### [Environment](#app)[](http://laravel.com/docs/configuration#environment-configuration "Environment Configuration @ Laravel Docs")
+### [Environment](http://laravel.com/docs/configuration#environment-configuration "Environment Configuration @ Laravel Docs")
 
 ```php
 
@@ -427,7 +427,7 @@ if ($app->environment('local', 'staging')){}
 
 ___
 
-#### [Log](#log)[](http://laravel.com/docs/errors#logging "Log @ Laravel Docs")
+### [Log](http://laravel.com/docs/errors#logging "Log @ Laravel Docs")
 
 ```php
 
@@ -443,7 +443,7 @@ Log::getMonolog();
 Log::listen(function($level, $message, $context) {});
               ```
 
-###### Query Logging[](http://laravel.com/docs/database#query-logging "Log @ Laravel Docs")
+##### Query Logging[](http://laravel.com/docs/database#query-logging "Log @ Laravel Docs")
 
 ```php
 
@@ -455,7 +455,7 @@ DB::getQueryLog();
 
 ___
 
-#### [URL](#urls) [](http://laravel.com/api/5.1/Illuminate/Routing/UrlGenerator.html "UrlGenerator @ Laravel Docs") [](http://laravel.com/docs/helpers#urls "URL helper @ Laravel Docs")
+### [URL](http://laravel.com/api/5.1/Illuminate/Routing/UrlGenerator.html "UrlGenerator @ Laravel Docs") [](http://laravel.com/docs/helpers#urls "URL helper @ Laravel Docs")
 
 ```php
 
@@ -478,7 +478,7 @@ URL::setRequest($request);
 
 ___
 
-#### [Event](#events)[](http://laravel.com/docs/events "Events @ Laravel Docs")
+### [Event](http://laravel.com/docs/events "Events @ Laravel Docs")
 
 ```php
 
@@ -497,9 +497,9 @@ Event::subscribe('UserEventHandler');
 
 ___
 
-#### [DB](#db)[](http://laravel.com/docs/5.1/database "Basic Database Usage @ Laravel Docs")
+### [DB](http://laravel.com/docs/5.1/database "Basic Database Usage @ Laravel Docs")
 
-###### Basic Database Usage
+##### Basic Database Usage
 
 ```php
 
@@ -522,7 +522,7 @@ DB::rollBack();
 DB::commit();
               ```
 
-###### Query Builder[](http://laravel.com/docs/5.1/queries "Query Builder @ Laravel Docs")
+##### Query Builder[](http://laravel.com/docs/5.1/queries "Query Builder @ Laravel Docs")
 
 ```php
 
@@ -590,7 +590,7 @@ DB::table('name')->having('count', '>', 100)->get();
 $users = DB::table('users')->skip(10)->take(5)->get();
           ```
 
-###### Joins[](http://laravel.com/docs/5.1/queries#joins "Joins @ Laravel Docs")
+##### Joins[](http://laravel.com/docs/5.1/queries#joins "Joins @ Laravel Docs")
 
 ```php
 
@@ -615,7 +615,7 @@ DB::table('users')
           ->get();
           ```
 
-###### Aggregates[](http://laravel.com/docs/5.1/queries#aggregates "Aggregates @ Laravel Docs")
+##### Aggregates[](http://laravel.com/docs/5.1/queries#aggregates "Aggregates @ Laravel Docs")
 
 ```php
 
@@ -626,7 +626,7 @@ $price = DB::table('orders')->avg('price');
 $total = DB::table('users')->sum('votes');
           ```
 
-###### Raw Expressions[](http://laravel.com/docs/5.1/queries#raw-expressions "Raw Expressions @ Laravel Docs")
+##### Raw Expressions[](http://laravel.com/docs/5.1/queries#raw-expressions "Raw Expressions @ Laravel Docs")
 
 ```php
 
@@ -647,7 +647,7 @@ DB::statement('update foo set bar=2');
 DB::table('name')->select(DB::raw('count(*) as count, column2'))->get();
           ```
 
-###### Inserts / Updates / Deletes / Unions / Pessimistic Locking
+##### Inserts / Updates / Deletes / Unions / Pessimistic Locking
 
 ```php
 
@@ -686,9 +686,9 @@ DB::table('users')->where('votes', '>', 100)->lockForUpdate()->get();
 
 ___
 
-#### [Model](#eloquent)[](http://laravel.com/docs/eloquent "Eloquent @ Laravel Docs")
+### [Model](http://laravel.com/docs/eloquent "Eloquent @ Laravel Docs")
 
-###### Basic Usage[](http://laravel.com/docs/5.1/eloquent#basic-usage "Basic Usage @ Laravel Docs")
+##### Basic Usage[](http://laravel.com/docs/5.1/eloquent#basic-usage "Basic Usage @ Laravel Docs")
 
 ```php
 
@@ -702,7 +702,7 @@ class User extends Model {
 }
           ```
 
-###### More
+##### More
 
 ```php
 
@@ -745,7 +745,7 @@ Model::all()->orderBy('column');
 Model::all()->orderBy('column','desc');
               ```
 
-###### Soft Delete[](http://laravel.com/docs/5.1/eloquent#soft-deleting "Soft Deleting @ Laravel Docs")
+##### Soft Delete[](http://laravel.com/docs/5.1/eloquent#soft-deleting "Soft Deleting @ Laravel Docs")
 
 ```php
 
@@ -757,7 +757,7 @@ Model::where('cars', 2)->forceDelete();
 Model::onlyTrashed()->where('cars', 2)->get();
               ```
 
-###### Relationships
+##### Relationships
 
 ```php
 
@@ -862,7 +862,7 @@ $user->roles()->sync([1 => ['expires' => true], 2, 3]);
 
               ```
 
-###### Events
+##### Events
 
 ```php
 
@@ -877,7 +877,7 @@ Model::deleted(function($model){});
 Model::observe(new FooObserver);
               ```
 
-###### Eloquent Configuration
+##### Eloquent Configuration
 
 ```php
 
@@ -889,7 +889,7 @@ Eloquent::reguard();
 
 ___
 
-#### [Pagination](#pagination)[](http://laravel.com/docs/pagination "Pagination @ Laravel Docs")
+### [Pagination](http://laravel.com/docs/pagination "Pagination @ Laravel Docs")
 
 ```php
 
@@ -906,7 +906,7 @@ $variable->links();
 
 ___
 
-#### [Lang](#localization)[](http://laravel.com/docs/localization "Localization @ Laravel Docs")
+### [Lang](http://laravel.com/docs/localization "Localization @ Laravel Docs")
 
 ```php
 
@@ -921,7 +921,7 @@ trans('messages.welcome');
 
 ___
 
-#### [File](#files)[](http://laravel.com/api/5.1/Illuminate/Filesystem/Filesystem.html "Filesystem @ Laravel Docs")
+### [File](http://laravel.com/api/5.1/Illuminate/Filesystem/Filesystem.html "Filesystem @ Laravel Docs")
 
 ```php
 
@@ -976,9 +976,9 @@ File::cleanDirectory('directory');
 
 ___
 
-#### [UnitTest](#unittest)[](http://laravel.com/docs/testing "Unit testing @ Laravel Docs")
+### [UnitTest](http://laravel.com/docs/testing "Unit testing @ Laravel Docs")
 
-###### Install and run
+##### Install and run
 
 ```php
 
@@ -988,7 +988,7 @@ ___
 ./vendor/bin/phpunit
               ```
 
-###### Asserts
+##### Asserts
 
 ```php
 
@@ -1010,7 +1010,7 @@ $this->assertSessionHasErrors(array('name', 'age'));
 $this->assertHasOldInput();
               ```
 
-###### Calling routes
+##### Calling routes
 
 ```php
 
@@ -1024,9 +1024,9 @@ $this->seed($connection);
 
 ___
 
-#### [SSH](#SSH)[](http://laravel.com/docs/ssh "SSH @ Laravel Docs")
+### [SSH](http://laravel.com/docs/ssh "SSH @ Laravel Docs")
 
-###### Executing Commands
+##### Executing Commands
 
 ```php
 
@@ -1038,7 +1038,7 @@ SSH::run(array $commands, function($line)
 });
               ```
 
-###### Tasks
+##### Tasks
 
 ```php
 
@@ -1051,7 +1051,7 @@ SSH::task($taskName, function($line)
 });
               ```
 
-###### SFTP Uploads
+##### SFTP Uploads
 
 ```php
 
@@ -1061,7 +1061,7 @@ SSH::putString($string, $remotePath);
 
 ___
 
-#### [Schema](#chema)[](http://laravel.com/docs/schema "Schema Builder @ Laravel Docs")
+### [Schema](http://laravel.com/docs/schema "Schema Builder @ Laravel Docs")
 
 ```php
 
@@ -1094,7 +1094,7 @@ $table->engine = 'InnoDB';
 $table->string('name')->after('email');
               ```
 
-###### Indexes
+##### Indexes
 
 ```php
 
@@ -1120,7 +1120,7 @@ $table->dropIndex(array('column'));
 $table->dropIndex('table_column_index');
               ```
 
-###### Foreign Keys
+##### Foreign Keys
 
 ```php
 
@@ -1131,7 +1131,7 @@ $table->dropForeign(array('user_id'));
 $table->dropForeign('posts_user_id_foreign');
               ```
 
-###### Column Types
+##### Column Types
 
 ```php
 
@@ -1183,7 +1183,7 @@ $table->morphs('parent');
 
 ___
 
-#### [Input](#input)[](http://laravel.com/docs/requests "Input @ Laravel Docs")
+### [Input](http://laravel.com/docs/requests "Input @ Laravel Docs")
 
 ```php
 
@@ -1199,7 +1199,7 @@ Input::except('foo');
 Input::flush();
               ```
 
-###### Session Input (flash)
+##### Session Input (flash)
 
 ```php
 
@@ -1213,7 +1213,7 @@ Input::flashExcept('foo', 'baz');
 Input::old('key','default_value');
               ```
 
-###### Files
+##### Files
 
 ```php
 
@@ -1235,7 +1235,7 @@ Input::file('name')->move($destinationPath, $fileName);
 
 ___
 
-#### [Cache](#cache)[](http://laravel.com/docs/cache "Cache @ Laravel Docs")
+### [Cache](http://laravel.com/docs/cache "Cache @ Laravel Docs")
 
 ```php
 
@@ -1265,7 +1265,7 @@ Cache::section('group')->flush();
 
 ___
 
-#### [Cookie](#cookies)[](http://laravel.com/docs/requests#cookies "Cookies @ Laravel Docs")
+### [Cookie](http://laravel.com/docs/requests#cookies "Cookies @ Laravel Docs")
 
 ```php
 
@@ -1287,7 +1287,7 @@ $response->withCookie(Cookie::make('name', 'value', $minutes));
 
 ___
 
-#### [Session](#sessions)[](http://laravel.com/docs/session "Session @ Laravel Docs")
+### [Session](http://laravel.com/docs/session "Session @ Laravel Docs")
 
 ```php
 
@@ -1321,7 +1321,7 @@ Session::keep(array('key1', 'key2'));
 
 ___
 
-#### [Request](#requests)[](http://laravel.com/docs/requests "Requests @ Laravel Docs")
+### [Request](http://laravel.com/docs/requests "Requests @ Laravel Docs")
 
 ```php
 
@@ -1368,7 +1368,7 @@ Request::wantsJson();
 
 ___
 
-#### [Response](#responses)[](http://laravel.com/docs/responses "Responses @ Laravel Docs")
+### [Response](http://laravel.com/docs/responses "Responses @ Laravel Docs")
 
 ```php
 
@@ -1390,7 +1390,7 @@ return Response::make($content)
 
 ___
 
-#### [Redirect](#redirects)[](http://laravel.com/docs/responses#redirects "Redirects @ Laravel Docs")
+### [Redirect](http://laravel.com/docs/responses#redirects "Redirects @ Laravel Docs")
 
 ```php
 
@@ -1415,7 +1415,7 @@ return Redirect::intended('foo/bar');
 
 ___
 
-#### [Container](#service-container)[](http://laravel.com/docs/container "Service Container @ Laravel Docs")
+### [Container](http://laravel.com/docs/container "Service Container @ Laravel Docs")
 
 ```php
 
@@ -1437,9 +1437,9 @@ App::resolving(function($object){});
 
 ___
 
-#### [Security](#security)
+### Security
 
-###### Hashing[](http://laravel.com/docs/hashing "Hashing @ Laravel Docs")
+##### Hashing[](http://laravel.com/docs/hashing "Hashing @ Laravel Docs")
 
 ```php
 
@@ -1448,7 +1448,7 @@ Hash::check('secretpassword', $hashedPassword);
 Hash::needsRehash($hashedPassword);
               ```
 
-###### Encryption
+##### Encryption
 
 ```php
 
@@ -1460,9 +1460,9 @@ Crypt::setCipher($cipher);
 
 ___
 
-#### [Auth](#auth)
+### Auth
 
-###### Authentication[](http://laravel.com/docs/authentication "Authentication @ Laravel Docs")
+##### Authentication[](http://laravel.com/docs/authentication "Authentication @ Laravel Docs")
 
 ```php
 
@@ -1494,7 +1494,7 @@ Auth::onceBasic();
 Password::remind($credentials, function($message, $user){});
               ```
 
-###### Authorization[](http://laravel.com/docs/5.1/authorization "Authorization @ Laravel Docs")
+##### Authorization[](http://laravel.com/docs/5.1/authorization "Authorization @ Laravel Docs")
 
 ```php
 
@@ -1540,7 +1540,7 @@ $this->authorizeForUser($user, 'update', $post);
 
 ___
 
-#### [Mail](#mail)[](http://laravel.com/docs/mail "Mail @ Laravel Docs")
+### [Mail](http://laravel.com/docs/mail "Mail @ Laravel Docs")
 
 ```php
 
@@ -1553,7 +1553,7 @@ Mail::later(5, 'email.view', $data, function($message){});
 Mail::pretend();
               ```
 
-###### Messages
+##### Messages
 
 ```php
 
@@ -1579,7 +1579,7 @@ $message->getSwiftMessage();
 
 ___
 
-#### [Queue](#queues)[](http://laravel.com/docs/queues "Queues @ Laravel Docs")
+### [Queue](http://laravel.com/docs/queues "Queues @ Laravel Docs")
 
 ```php
 
@@ -1608,7 +1608,7 @@ php artisan queue:flush
 
 ___
 
-#### [Validation](#validation)[](http://laravel.com/docs/validation "Validation @ Laravel Docs")
+### [Validation](http://laravel.com/docs/validation "Validation @ Laravel Docs")
 
 ```php
 
@@ -1624,7 +1624,7 @@ return new FooValidator($translator, $data, $rules, $msgs);
 });
               ```
 
-###### Rules
+##### Rules
 
 ```php
 
@@ -1672,7 +1672,7 @@ url
 
 ___
 
-#### [View](#views)[](http://laravel.com/docs/views "Views @ Laravel Docs")
+### [View](http://laravel.com/docs/views "Views @ Laravel Docs")
 
 ```php
 
@@ -1696,7 +1696,7 @@ View::creator('viewname', function($view){});
 
 ___
 
-#### [Blade](#blade)[](http://laravel.com/docs/templates#blade-templating "Blade Templating @ Laravel Docs")
+### [Blade](http://laravel.com/docs/templates#blade-templating "Blade Templating @ Laravel Docs")
 
 ```php
 
@@ -1755,7 +1755,7 @@ ___
 
 ___
 
-#### [Form](#forms)[](https://github.com/illuminate/html/ "Forms & HTML @ GitHub")
+### [Form](https://github.com/illuminate/html/ "Forms & HTML @ GitHub")
 
 ```php
 
@@ -1772,7 +1772,7 @@ Form::model($foo, array('route' => array('foo.bar', $foo->bar)));
 
               ```
 
-###### Form Elements
+##### Form Elements
 
 ```php
 
@@ -1812,7 +1812,7 @@ Form::fooField();
 
 ___
 
-#### [HTML](#html)
+### HTML
 
 ```php
 
@@ -1863,7 +1863,7 @@ HTML::obfuscate($value);
 
 ___
 
-#### [String](#str)[](http://laravel.com/docs/helpers#strings "Strings CLI @ Laravel Docs")
+### [String](http://laravel.com/docs/helpers#strings "Strings CLI @ Laravel Docs")
 
 ```php
 
@@ -1897,9 +1897,9 @@ Str::macro($name, $macro)
 
 ___
 
-#### [Helper](#helpers)[](http://laravel.com/docs/helpers "Helpers @ Laravel Docs")
+### [Helper](http://laravel.com/docs/helpers "Helpers @ Laravel Docs")
 
-###### Arrays
+##### Arrays
 
 ```php
 
@@ -1949,7 +1949,7 @@ head($array);
 last($array);
               ```
 
-###### Paths
+##### Paths
 
 ```php
 
@@ -1969,7 +1969,7 @@ public_path();
 storage_path();
               ```
 
-###### Strings
+##### Strings
 
 ```php
 
@@ -2002,7 +2002,7 @@ trans('foo.bar');
 trans_choice('foo.bar', $count);
               ```
 
-###### URLs and Links
+##### URLs and Links
 
 ```php
 
@@ -2015,7 +2015,7 @@ route($route, $parameters, $absolute = true);
 url('path', $parameters = array(), $secure = null);
               ```
 
-###### Miscellaneous
+##### Miscellaneous
 
 ```php
 
@@ -2067,7 +2067,7 @@ $value = with(new Foo)->work();
 
 ___
 
-#### [Collection](#collection)[](https://laravel.com/docs/5.1/collections "Collections CLI @ Laravel Docs")
+### [Collection](https://laravel.com/docs/5.1/collections "Collections CLI @ Laravel Docs")
 
 ```php
 

@@ -16,12 +16,12 @@
     - switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
   - [Woozie](/docs/computers/woozie) / [Zeke](/docs/computers/zeke)
     - Cache policies / Auto-remove old analytics logs
-- [Tennis](notes/tennis)
+- [Tennis](/notes/tennis)
   - Boys Roster / SwingVision app
 - [Iris](/notes/dogs)
   - service eligibility / AKC Registration
 - [House](/notes/house) / [Garden](/notes/garden)
-  - Build [Downstairs studio](notes/house/studio)
+  - Build [Downstairs studio](/notes/house/studio)
   - Fix socket in front porch light
 
 ---
@@ -68,7 +68,7 @@
 - [Work](/notes/work)
   - Student loan Payoff
   - Medical Savings Account
-  - [Side projects](notes/work/projects/)
+  - [Side projects](/notes/work/projects/)
     - The-Ham/ Storyboard / Carolinas House / Juryd / GZET
 - [Art](/notes/art)
   - Watercolor setup / Illustrated Book

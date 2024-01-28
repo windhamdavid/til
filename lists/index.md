@@ -55,7 +55,7 @@ toc_min_heading_level: 2
 - 23/07/16 - [Next](next) & [Now](now/now.md)
 - 23/07/16 - Todo(ne) for Now page
 - 23/05/12 - [Grocery](grocery) and [Shopping](shopping)
-- 22/11/16 - [Music](art/music#playlists), [Feeds](feeds), and [Tweets](tweets)
+- 22/11/16 - [Music](art/music), [Feeds](feeds), and [Tweets](tweets)
 - 22/07/18 - [Up next](next) as a replacement for bookmarks
 - 22/04/06 - [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
 
