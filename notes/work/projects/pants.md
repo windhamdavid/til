@@ -11,7 +11,7 @@
 * [Vuejs](https://vuejs.org/v2/guide/)
 
 #### Back
-* [Laravel](/docs/host/laravel)  
+* [Laravel](/docs/host/Laravel)  
 
 #### Testing
 * [Laravel Dusk](https://laravel.com/docs/5.7/dusk)  

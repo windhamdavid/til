@@ -53,7 +53,35 @@ npm run serve
 
 ---
 
-**23/12/12** - needed a way to preface my `posts` and wanted to change the default width so I `swizzle`'d the `BlogListPage` and `BlogLayout` to widen it with `col--9`.
+**24/01/28** - upgrades ( 3.0.1 👉🏼 3.1.1 ) no overides. didn't have to reswizzle. Watch the letter casing, anchors, and relative URLs because the broken link checker has gotten more strict.
+
+:::note
+
+Watch the letter casing, anchors, and relative URLs because the broken link checker has gotten more strict.
+
+:::
+
+```sh
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm outdated
+david@ovid🏛 :~/sites/daw_til(main⚡) » npm list    
+daw-til-2@0.0.3 /Users/david/Sites/daw_til
+├── @docusaurus/core@3.1.1
+├── @docusaurus/plugin-content-blog@3.1.1
+├── @docusaurus/preset-classic@3.1.1
+├── @docusaurus/theme-mermaid@3.1.1
+├── @mdx-js/mdx@3.0.0
+├── @mdx-js/react@3.0.0
+├── clsx@2.1.0
+├── docusaurus-lunr-search@3.3.2
+├── docusaurus-plugin-matomo@0.0.8
+├── markprompt@0.1.7
+├── plugin-image-zoom@1.1.0 (git+ssh://git@github.com/flexanalytics/plugin-image-zoom.git#8e1b866c79ed6d42cefc4c52f851f1dfd1d0c7de)
+├── react-dom@18.2.0
+├── react-player@2.14.1
+└── react@18.2.0
+```
+
+**23/12/12** - 🔥needed a way to preface my `posts` and wanted to change the default width so I `swizzle`'d the `BlogListPage` and `BlogLayout` to widen it with `col--9`.
 
 ```sh
 npm run swizzle @docusaurus/theme-classic BlogLayout -- --eject
