@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/01/28 - [Big Boy Collage](/posts/big-boy-collage)
   - 24/01/28 - [v3.1.1 link checker is strict](/help)
   - 24/01/18 - [What is it about Nick Cave?](/posts/nick-cave)
   - 24/01/09 - [Pseudopregnancy](/posts/pseudopregnancy)
