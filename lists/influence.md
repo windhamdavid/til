@@ -5,17 +5,21 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 **Obviously, the people around me like my wife, family, in-laws, relatives, teachers, coaches, and so forth would take a higher precedent**. Not listing life events, just cultural references and items. Only going to do the top 100. Will try and be very specific like certain events or scenes instead of just listing the film or whatnot. Will write some on each and add some media eventually. Trying to figure out a way of making a short essay collage out of it. Some of them I've already written about. Not listing dates as they existed but the date they existed in my realm. Just starting a list here to whittle on:
 
 - 1976 - Star Trek
-- 1978 - Saturday Night Fever
+- 1976 - Sesame Street
 - 1979 - VHS
+- 1979 - Football Helmet Wallpaper
+- 1979 - Inside the NFL Highlights
+- 1978 - Saturday Night Fever
 - 1980 - Star Wars / Empire Strikes Back
 - 1980 - E.T.the Extra-Terrestrial
-- 1981 - Adam Walsh
+- 1981 - Adam Walsh Coverage
 - 1981 - Choose Your Own Adventure
 - 1981 - MTV
 - 1981 - The Hobbit ( 1977 film )
 - 1981 - Playboy / Porky's
 - 1982 - Atari 2600 - Pacman
 - 1982 - Games Magazine
+- 1983 - Fraggle Rock
 - 1983 - WarGames
 - 1983 - Eddie Murphy Delirious
 - 1983 - The A-Team
