@@ -1,0 +1,74 @@
+# Influence
+
+Just thought the idea of citing a list of cultural influences would be fun so I've been discussing it with other folks. Started with a post entitled [_Big Boy Collage_](/posts/big-boy-collage) 
+
+**Obviously, the people around me like my wife, family, in-laws, relatives, teachers, coaches, and so forth would take a higher precedent**. Not listing life events, just cultural references and items. Only going to do the top 100. Will try and be very specific like certain events or scenes instead of just listing the film or whatnot. Will write some on each and add some media eventually. Trying to figure out a way of making a short essay collage out of it. Some of them I've already written about. Not listing dates as they existed but the date they existed in my realm. Just starting a list here to whittle on:
+
+- 1976 - Star Trek
+- 1978 - Saturday Night Fever
+- 1979 - VHS
+- 1980 - Star Wars / Empire Strikes Back
+- 1980 - E.T.the Extra-Terrestrial
+- 1981 - Adam Walsh
+- 1981 - Choose Your Own Adventure
+- 1981 - MTV
+- 1981 - The Hobbit ( 1977 film )
+- 1981 - Playboy / Porky's
+- 1982 - Atari 2600 - Pacman
+- 1982 - Games Magazine
+- 1983 - WarGames
+- 1983 - Eddie Murphy Delirious
+- 1983 - The A-Team
+- 1984 - Apple IIc Computer
+- 1984 - Children of the Corn
+- 1984 - The Fat Boys
+- 1985 - American Ninja
+- 1985 - The White House
+- 1985 - National Geographic / Smithsonian magazines
+- 1986 - The Breakfast Club
+- 1987 - Ferris Buellers Day Off
+- 1987 - The Search for Animal Chin
+- 1988 - Easy-Duz-It
+- 1989 - The Simpsons
+- 1990 - The Gulf War
+- 1990 - Pump Up the Volume
+- 1990 - Yellow Submarine / Song Remains the Same
+- 1990 - 
+- 1991 - SCAD 
+- 1991 - Grateful Dead
+- 1992 - 
+- 1993 - Mathematics
+- 1994 - Pulp Fiction
+- 1994 - Far Eastern Art
+- 1994 - Jitterbug Perfume / Tom Robbins
+- 1995 - Toyota Tercel 1988
+- 1996 - Broadcasting
+- 1997 - Napster
+- 1998 - Rushmore
+- 1999 - New Years / Wine
+- 2000 - 
+- 2001 - September 11th attacks
+- 2001 - Bachelors
+- 2001 - Nikon F50
+- 2002 - Macromedia Studio
+- 2003 - Woozie
+- 2004 - Old Georgetown
+- 2005 - YouTube
+- 2006 - Apple Macbook Pro
+- 2007 - Financial Crisis
+- 2008 - Farm life / Edgefield
+- 2010 - The Social Network
+- 2011 - Harvard Kennedy School
+- 2012 - 
+- 2013 - Don't Look Back
+- 2014 - India
+- 2015 - Tennis
+- 2016 - 
+- 2017 - i3 / Eclipse
+- 2018 - Donald Trump
+- 2018 - Typescript 2.0
+- 2019 - Covid
+- 2020 - 
+- 2021 -
+- 2022 - AI
+- 2023 -

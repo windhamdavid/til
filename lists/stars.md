@@ -1,4 +1,4 @@
-# Github Stars
+# Github
 
 **23.12.01** - Instead of going into Github and searching for my previously star repositories, I figured I'd just put them here to make them faster to find.
 

@@ -142,6 +142,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'influence',
+    },
+    {
+      type: 'doc',
       id: 'stars',
     },
     {
