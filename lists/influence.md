@@ -2,7 +2,7 @@
 
 Just thought the idea of citing a list of cultural influences would be fun so I've been discussing it with other folks. Started with a post entitled [_Big Boy Collage_](/posts/big-boy-collage) 
 
-**Obviously, the people around me like my wife, family, in-laws, relatives, teachers, coaches, and so forth would take a higher precedent**. Not listing life events, just cultural references and items. Only going to do the top 100. Will try and be very specific like certain events or scenes instead of just listing the film or whatnot. Will write some on each and add some media eventually. Trying to figure out a way of making a short essay collage out of it. Some of them I've already written about. Not listing dates as they existed but the date they existed in my realm. Just starting a list here to whittle on:
+**Obviously, the people around me like my wife, family, friends, in-laws, relatives, teachers, coaches, and so forth would take a higher precedent**. Not listing life events, just cultural references and items. Only going to do the top 100. Will try and be very specific like certain events or scenes instead of just listing the film or whatnot. Will write some on each and add some media eventually. Trying to figure out a way of making a short essay collage out of it. Some of them I've already written about. Not listing dates as they existed but the date they existed in my realm. Just starting a list here to whittle on:
 
 - 1976 - Star Trek
 - 1976 - Sesame Street
@@ -10,6 +10,7 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1979 - Football Helmet Wallpaper
 - 1979 - Inside the NFL Highlights
 - 1978 - Saturday Night Fever
+- 1980 - The Bible / Trinity
 - 1980 - Star Wars / Empire Strikes Back
 - 1980 - E.T.the Extra-Terrestrial
 - 1981 - Adam Walsh Coverage
@@ -28,8 +29,8 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1984 - The Fat Boys
 - 1985 - American Ninja
 - 1985 - The White House
-- 1985 - National Geographic / Smithsonian magazines
-- 1986 - The Breakfast Club
+- 1985 - National Geographic / Smithsonian
+- 1987 - School Is Hell
 - 1987 - Ferris Buellers Day Off
 - 1987 - The Search for Animal Chin
 - 1988 - Easy-Duz-It
@@ -37,7 +38,7 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1990 - The Gulf War
 - 1990 - Pump Up the Volume
 - 1990 - Yellow Submarine / Song Remains the Same
-- 1990 - 
+- 1990 - Oxford Dictionary of Quotations
 - 1991 - SCAD 
 - 1991 - Grateful Dead
 - 1992 - 
@@ -68,10 +69,11 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 2014 - India
 - 2015 - Tennis
 - 2016 - 
-- 2017 - i3 / Eclipse
+- 2017 - BMW i3
+- 2017 - Solar Eclipse
 - 2018 - Donald Trump
 - 2018 - Typescript 2.0
-- 2019 - Covid
+- 2019 - Covid-19
 - 2020 - 
 - 2021 -
 - 2022 - AI
