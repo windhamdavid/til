@@ -1,50 +1,51 @@
-#Adobe
+# Adobe
 
-### Illustrator
 
-* V
+## Log
 
-Selection Tool
+**24/01/30** - I just spent a bunch of time batch compressing images in Photoshop to optimize an old website and I realized that haven't kept up this page very well even though I used Adobe products regularly and it'd save me some time.
 
-* M
+## Source
 
-Rectangle Tool
+Photoshop - https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html  
+Illustrator - https://helpx.adobe.com/illustrator/using/default-keyboard-shortcuts.html  
+InDesign - https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.html  
+Premier - https://helpx.adobe.com/premiere-pro/using/keyboard-shortcuts.html  
+Audition - https://helpx.adobe.com/audition/using/default-keyboard-shortcuts.html  
 
-* W
 
-Blend Tool
+## General
 
-* L
+* ⌘ + N - New File
+* ⌘ + S - Save
+* ⌘ + ⇧ + S - Save As
+* ⌘ + ⇧ + ⌥ + S - Save for Web & Devices
+* ⌘ + O - Open
+* ⌘ + Q - Quit
+* ⌘ + W - Close
+* ⌘ + P - Print
+* ⌘ + Z - Undo/Redo
+* ⌘ + ⇧ + Z - Step Forward
+* ⌘ + ⌥ + Z - Step Backward
+* ⌘ + X - Cut
+* ⌘ + C - Copy
+* ⌘ + V - Paste
+* ⌘ + K - Preferences
 
-Ellipse Tool
 
-* I
+## Illustrator
 
-Eyedropper Tool
-
-* C
-
-Scissors Tool
-
-* B
-
-Paint Brush Tool
-
-* J
-
-Column Graph Tool
-
-* Y
-
-Magic Wand Tool
-
-* S
-
-Scale Tool
-
-* G
-
-Gradient Tool
+* V - Selection Tool
+* M - Rectangle Tool
+* W - Blend Tool
+* L - Ellipse Tool
+* I - Eyedropper Tool
+* C - Scissors Tool
+* B - Paint Brush Tool
+* J - Column Graph Tool
+* Y - Magic Wand Tool
+* S - Scale Tool
+* G - Gradient Tool
 
 * E
 
@@ -147,7 +148,7 @@ Hide Anchor Points
 
 Fill Black
 
-#### Changing View
+### Changing View
 
 * Z
 
@@ -181,7 +182,7 @@ Show/Hide Guides
 
 Show/Hide Grid
 
-#### Shift Tool Shortcuts
+### Shift Tool Shortcuts
 
 * ⇧ + Rotate Tool
 
@@ -219,7 +220,7 @@ Slice Tool
 
 Swap Fill and Stroke
 
-#### Selecting & Moving
+### Selecting & Moving
 
 * ⌥ + Drag Object
 
@@ -241,7 +242,7 @@ Select multiple objects
 
 Select all
 
-#### Typography
+### Typography
 
 * ⌘ + ⇧ + < or >
 
@@ -263,7 +264,7 @@ Align type left, right or centre
 
 Justify
 
-#### General
+### General
 
 * ⌘ + N
 
@@ -327,7 +328,7 @@ Minify Tabs
 
 ----
 
-### Photoshop
+## Photoshop
 
 * V
 
@@ -426,7 +427,7 @@ Default Colours
 
 Switch between tool in groups
 
-#### Changing View
+### Changing View
 
 * Z
 
@@ -476,7 +477,7 @@ Show/Hide Guides
 
 Show/Hide Grid
 
-#### Selecting & Moving
+### Selecting & Moving
 
 * ⇧ + Marquee
 
@@ -526,7 +527,7 @@ Feather selection
 
 Move marquee while drawing selection
 
-#### Images & Layers
+### Images & Layers
 
 * ⌘ + ⌥ + I
 
@@ -580,7 +581,7 @@ Merge Layers
 
 Merge Visible
 
-#### Opacity
+### Opacity
 
 * 1
 
@@ -622,62 +623,6 @@ Merge Visible
 
 100% Opacity
 
-#### General
+## Premier
 
-* ⌘ + N
-
-New File
-
-* ⌘ + S
-
-Save
-
-* ⌘ + ⇧ + S
-
-Save As
-
-* ⌘ + ⇧ + ⌥ + S
-
-Save for Web & Devices
-
-* ⌘ + O
-
-Open
-
-* ⌘ + Q
-
-Quit
-
-* ⌘ + W
-
-Close
-
-* ⌘ + P
-
-Print
-
-* ⌘ + Z
-
-Undo/Redo
-
-* ⌘ + ⇧ + Z
-
-Step Forward
-
-* ⌘ + ⌥ + Z
-
-Step Backward
-
-* ⌘ + X
-
-Cut
-
-* ⌘ + C
-
-Copy
-
-* ⌘ + V
-
-Paste
-
-* ⌘ + K
+## Audition

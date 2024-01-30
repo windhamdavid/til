@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 24/01/30 - [localhost/Adobe](/docs/localhost/adobe)
 - 23/12/10 - 🗑️ unused /+ new [docs](/docs/)
 - 23/11/26 - [v.Ruby @ ovid](/docs/computers/ovid)
 - 23/11/18 - [computers/ovid](/docs/computers/ovid)
