@@ -26,6 +26,7 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1983 - The A-Team
 - 1984 - Apple IIc Computer
 - 1984 - Children of the Corn
+- 1984 - Axis & Allies / MERP
 - 1984 - The Fat Boys
 - 1985 - American Ninja
 - 1985 - The White House
@@ -33,24 +34,28 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1987 - School Is Hell
 - 1987 - Ferris Buellers Day Off
 - 1987 - The Search for Animal Chin
-- 1988 - Easy-Duz-It
+- 1988 - Easy-E - Easy-Duz-It
+- 1988 - Winston / Djarum
 - 1989 - The Simpsons
 - 1990 - The Gulf War
 - 1990 - Pump Up the Volume
-- 1990 - Yellow Submarine / Song Remains the Same
 - 1990 - Oxford Dictionary of Quotations
-- 1991 - SCAD 
+- 1990 - Yellow Submarine / Song Remains the Same
+- 1991 - Cannabis / Hallucinogens
 - 1991 - Grateful Dead
-- 1992 - 
+- 1991 - SCAD
+- 1992 - Ritalin
 - 1993 - Mathematics
 - 1994 - Pulp Fiction
 - 1994 - Far Eastern Art
-- 1994 - Jitterbug Perfume / Tom Robbins
+- 1994 - Jitterbug Perfume
 - 1995 - Toyota Tercel 1988
 - 1996 - Broadcasting
-- 1997 - Napster
+- 1997 - The Temptations Papa Was a Rolling Stone
 - 1998 - Rushmore
-- 1999 - New Years / Wine
+- 1999 - Napster
+- 1999 - The Patriot
+- 1999 - Robert Mondavi Reserve Pinot
 - 2000 - 
 - 2001 - September 11th attacks
 - 2001 - Bachelors
@@ -58,7 +63,7 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 2002 - Macromedia Studio
 - 2003 - Woozie
 - 2004 - Old Georgetown
-- 2005 - YouTube
+- 2005 - YouTube / Facebook
 - 2006 - Apple Macbook Pro
 - 2007 - Financial Crisis
 - 2008 - Farm life / Edgefield
@@ -66,15 +71,19 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 2011 - Harvard Kennedy School
 - 2012 - 
 - 2013 - Don't Look Back
-- 2014 - India
-- 2015 - Tennis
+- 2014 - Holter Monitor
+- 2014 - Tamil India
+- 2015 - 
 - 2016 - 
-- 2017 - BMW i3
+- 2017 - Toasty i3
 - 2017 - Solar Eclipse
 - 2018 - Donald Trump
+- 2018 - Ray Wylie Hubbard - Snake Farm
 - 2018 - Typescript 2.0
-- 2019 - Covid-19
-- 2020 - 
-- 2021 -
-- 2022 - AI
-- 2023 -
+- 2019 - 
+- 2020 - Covid-19
+- 2021 - ARM
+- 2021 - The Brothers Karamazov
+- 2022 - AI / CoPilot
+- 2023 - The White Lotus
+- 2023 - 
