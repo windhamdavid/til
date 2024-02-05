@@ -36,12 +36,13 @@ Just thought the idea of citing a list of cultural influences would be fun so I'
 - 1987 - The Search for Animal Chin
 - 1988 - Easy-E - Easy-Duz-It
 - 1988 - Winston / Djarum
+- 1989 - New York Stories
 - 1989 - The Simpsons
 - 1990 - The Gulf War
 - 1990 - Pump Up the Volume
 - 1990 - Oxford Dictionary of Quotations
 - 1990 - Yellow Submarine / Song Remains the Same
-- 1991 - Cannabis / Hallucinogens
+- 1991 - 
 - 1991 - Grateful Dead
 - 1991 - SCAD
 - 1992 - Ritalin
