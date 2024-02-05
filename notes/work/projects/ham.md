@@ -32,10 +32,11 @@ The only other thing is to publish a domain and a show name. No bullshit can be 
    - software equipment
    - licensing
 - people  
-  - Woody
+  - dad/woody
   - attorney
   - local personalities
-  - Gary - festival
+  - festivals
+    - gary / uptown
 - orgs
   - chamber
   - city
@@ -77,6 +78,28 @@ The only other thing is to publish a domain and a show name. No bullshit can be 
 
 - 10,000W FM Transmitter
 - FM Antenna
+
+Channel	Spacing Encroachments	Notes
+
+- 94.1 MHz - Second Adjacent -7 km WKVG	233 C (FM) GREENVILLE, SC	0000222102 MOD MIN
+- 94.9 MHz - Second Adjacent -7 km WKVG	233 C (FM) GREENVILLE, SC	0000222102 MOD MIN
+- 95.1 MHz Available
+- 95.9 MHz Available
+- 96.7 MHz Available
+- 96.9 MHz Available
+- 97.1 MHz Available
+- 97.3 MHz Available
+- 99.9 MHz Available
+- 100.1 MHz Second Adjacent -42 km WSSL-FM	263 C0 (FM)	GRAY COURT, SC	BLH-20050923AFT
+- 101.5 MHz Second Adjacent -22 km WROQ	266 C1 (FM)	ANDERSON, SC	BLH-20180817AAD	L2C
+- 101.7 MHz Available
+- 101.9 MHz Available
+- 102.1 MHz Available
+- 102.3 MHz Second Adjacent -13 km W274CC	 74 D (FX) GREENWOOD, SC BLFT-20190611AAS L2C
+- 103.9 MHz Second Adjacent -36 km WZSN	278 C3 (FM) GREENWOOD, SC	BLH-19921130KA L2C
+- 104.7 MHz Second Adjacent -5 km WGFJ 286 A (FM) CROSS HILL, SC 0000109404	L2C
+- 106.7 MHz Available
+- 106.9 MHz Second Adjacent -15 km WJMZ-FM	297 C0 (FM)	ANDERSON, SC	BMLH-20010628AAA MOD MIN
 
 ## Streaming
 
