@@ -4,6 +4,16 @@
 
 ---
 
+👉🏼 24.02.06
+
+- [rossrobino/slab](https://github.com/rossrobino/drab) - Headless custom element library
+- [refinedev/refine](https://github.com/refinedev/refine) - React Framework for building internal tools
+- [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter) - natural language interface for computers
+- [twentyhq/twenty](https://github.com/twentyhq/twenty) - a modern alternative to Salesforce, powered by the community.
+- [opentofu/opentofu](https://github.com/opentofu/opentofu) - declaratively manage your cloud infrastructure.
+- [gfodor/p2pcf](https://github.com/gfodor/p2pcf) - Low cost, low effort P2P WebRTC serverless signalling
+
+
 👉🏼 **updated 23.12.18**
 
 - [a-h/templ](https://github.com/a-h/templ) - language for writing HTML user interfaces in Go.
