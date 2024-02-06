@@ -11,7 +11,7 @@ toc_min_heading_level: 2
 
 **A list of lists for non-technical stuff.**
 
-**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about on the original post. I'm using it as a place to keep some non-technical lists.
+**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about the original post. I'm using it as a place to keep some non-technical lists.
 
 **23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
 
@@ -41,6 +41,7 @@ toc_min_heading_level: 2
 
 ## Log
 
+- 24/02/06 - [Github stars](stars)
 - 24/01/27 - [Art/Motion](art/motion) clips 
 - 24/01/16 - [Travel](/lists/travel)
 - 23/12/18 - [Durant Quote](/lists/quotes)
