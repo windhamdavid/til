@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/02/07 - [Vesuvius Challege](/posts/vesuvius-challenge)
   - 24/02/06 - [My Lady Nicotine](/posts/my-lady-nicotine)
   - 24/01/28 - [Big Boy Collage](/posts/big-boy-collage)
   - 24/01/28 - [v3.1.1 link checker is strict](/help)
