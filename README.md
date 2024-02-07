@@ -5,6 +5,7 @@
 
 ## Notes:
 
+- 24/01/28 - upgrades ( 3.0.1 -> 3.1.1 )
 - 23/12/10 - modified blog layout - log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
 - 23/11/12 - update 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
 - 23/08/18 - added private and draft notes with git controls. log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
