@@ -70,7 +70,8 @@ module.exports = {
         id:'health/health',
       },
       items: [
-        'health/diet'
+        'health/diet',
+        'health/mental',
       ]
     },
     {
