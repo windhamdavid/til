@@ -13,6 +13,10 @@ InDesign - https://helpx.adobe.com/indesign/using/default-keyboard-shortcuts.htm
 Premier - https://helpx.adobe.com/premiere-pro/using/keyboard-shortcuts.html  
 Audition - https://helpx.adobe.com/audition/using/default-keyboard-shortcuts.html  
 
+## Fonts
+Fonts from Adobe Typekit are @
+/Library/Application Support/Adobe/CoreSync/plugins/livetype/.r
+
 
 ## General
 
