@@ -4,7 +4,9 @@ I wrote a post about Iris @ https://davidawindham.com/iris
 
 ## Log
 
+
 - 24/03/09 - 1 year birthday 🎂
+- 24/02/24 - AKC Registration - # SS40586101 - IRIS OF ZOEY & ADGER 
 - 24/01/09 - 10 months - overly confident, 95% response to colar, still jumping, 
 - 23/12/30 - [false pregnancy](/posts/pseudopregnancy) - research related health and spay.
 - 23/11/30 - first heat
@@ -17,6 +19,7 @@ I wrote a post about Iris @ https://davidawindham.com/iris
 - 23.04.22 - 6 week litter pick 
 - 23.05.13 - 9 week pickup date
 - 23.01.10 - Zoey's date w/ Adger
+
 
 ## About
 

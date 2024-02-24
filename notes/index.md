@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 24/02/24 - 🦮 [dogs/iris](/notes/dogs/iris)
 - 24/02/09 - 🧠 [health/mental](/notes/health/mental)
 - 24/02/05 - 📻 [projects/ham](/notes/work/projects/ham)
 - 23/12/18 - Added [Ideas](/notes/ideas)
