@@ -9,7 +9,7 @@ I wrote a post about Iris @ https://davidawindham.com/iris
 - 24/02/24 - AKC Registration - # SS40586101 - IRIS OF ZOEY & ADGER 
 - 24/01/09 - 10 months - overly confident, 95% response to colar, still jumping, 
 - 23/12/30 - [false pregnancy](/posts/pseudopregnancy) - research related health and spay.
-- 23/11/30 - first heat
+- 23/10/30 - first heat
 - 23/06/09 - 12 Weeks  
   - Cautious but confident. Understands "No, Yes, Sit, Come, Here and her name". Decent recall off leash. Eats everything. Gets testy in the afternoons and wants to chew and nip. 
   - will have last round of vaccines next week.
