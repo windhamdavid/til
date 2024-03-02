@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **24/03/02** - managed to pick up strep 🦠 throat so I've been in recovery mode.
 - **24/01/09** - typical start-of-the-year accounting stuff, playing catch-up on emails from the break, scheduling upcoming 🛠️ contracts, and the boys 🎾 season.
 - **23/12/02** - Trying to wrap up a couple requests and projects in squirrel 🐿️ mode so I can hibernate for the holiday break and spend my time with the [wife](https://ginnygast.com) and [dog](/notes/dogs/iris).
 - **23/11/22** - prepping for 🦃 day and traveling across the state. Leaves 🍁 are looking nice.
