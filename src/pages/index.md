@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/03/22 - [Wine](/posts/wine)
   - 24/02/12 - [American Football](/posts/american-football)
   - 24/02/07 - [Vesuvius Challege](/posts/vesuvius-challenge)
   - 24/02/06 - [My Lady Nicotine](/posts/my-lady-nicotine)
