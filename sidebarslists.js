@@ -216,7 +216,7 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'Wine',
+      id: 'wine',
     },
     {
       type: 'doc',
