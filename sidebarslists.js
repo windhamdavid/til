@@ -216,6 +216,10 @@ module.exports = {
     },
     {
       type: 'doc',
+      id: 'Wine',
+    },
+    {
+      type: 'doc',
       id: 'words',
     },
     {
