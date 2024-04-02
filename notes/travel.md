@@ -8,9 +8,6 @@
 ## Log
 
 - 24/04/02 - Added Bookmarks[^1] and List/Places[^2] Footnotes  
-- 24/04/02 - Started planning a new trip for Feb 2025
-
-
 
 
 ## References
