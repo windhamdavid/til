@@ -11,9 +11,6 @@
 ### North Carolina
 
 
-
-## Favorites
-
 ### US
 
 [St. John, USVI](https://en.wikipedia.org/wiki/Saint_John,_U.S._Virgin_Islands) /

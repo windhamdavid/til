@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 24/04/02 - ⛵️ [notes/travel](/notes/travel)
 - 24/02/24 - 🦮 [dogs/iris](/notes/dogs/iris)
 - 24/02/09 - 🧠 [health/mental](/notes/health/mental)
 - 24/02/05 - 📻 [projects/ham](/notes/work/projects/ham)
