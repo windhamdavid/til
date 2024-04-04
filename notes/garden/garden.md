@@ -4,7 +4,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
-- 23.05.23 - Dying [Oak tree being removed](/posts/white-oak)
+- 23.05.23 - [Oak tree removed](/posts/white-oak)
 
 ## Notes
 
@@ -15,27 +15,16 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 ![glenridge-landscape](/img/glenridge-landscape.jpg)
 
 
-## Native
+## Trees
 
-### Trees
-
-### Shrubs
-
-### Other
-
-#### Mushrooms
-
-[list of poisonous mushrooms](mushroom)
-
-#### Moss
-
-### Perennials  
-
-## Planted
-
-### Trees
-
-Dogwood ( 12 )
+White Oak
+/ Magnolia
+/ Tulep poplar
+/ White Pine
+/ Loblolly pine
+/ Sweetgum
+/ Mulberry
+/ Dogwood ( 12 )
 / Chase Tree
 / Oak ( 9 )
 / Poplar
@@ -45,8 +34,7 @@ Dogwood ( 12 )
 / Sweet gum 
 
 
-
-### Shrubs
+## Shrubs
 
 Azaleas ( 27 )
 / Box Hedge
@@ -54,6 +42,36 @@ Azaleas ( 27 )
 / Japanese Maple ( 4 )
 / Japanese Anise [Illicium anisatum ↗](https://en.wikipedia.org/wiki/Illicium_anisatum)
 / Golden Euonymus [Euonymus japonicus ↗](https://en.wikipedia.org/wiki/Euonymus_japonicus)
+/ Sasanqua
+/ Rhododendron
+/ Ligustrum
+
+
+### Other
+
+#### Baddies
+
+Poison Ivy
+/ Olive
+/ Privet
+
+#### Mushrooms
+
+[poisonous mushrooms](mushroom)
+/ 
+
+#### Moss
+
+### Perennials  
+
+### Trees
+
+
+
+
+### Shrubs
+
+
 
 
 
@@ -64,23 +82,32 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 
 ### Annuals
 
-| Flowers | Veg |
-|--|--|
-| What | Sugar Snaps | 
-| Delphinium | Tomatoes | 
-| Fox Glove | Garlic | 
-| Dahlias | Pineapple Sage | 
-| Hyacinth | Rosemary | 
-| Amaryllis | Sweet Basil | 
-| Yellow Flower? | Catnip | 
-| Purple Spiky Flower? | Orange Mint | 
-| White Flower Daisy? | Sage | 
-| Orange/Yellow Flower Daisy? | Oregano | 
-| Silver foliage with Yellow flower? | Pumpkin | 
+| Flowers | Veg | Herb |
+|--|--|--|
+|  | Peas | |
+| Delphinium | Tomatoes | |
+| Fox Glove | Cucumber | Garlic |
+| Dahlias | Peppers | Pineapple Sage |
+| Hyacinth | Eggplant | Rosemary |
+| Amaryllis | Cantaloupe | Sweet Basil|
+| Yellow Flower? |  | Catnip |
+| Purple Spiky Flower? |  | Orange Mint |
+| White Flower Daisy? |  | Sage|
+| Orange/Yellow Flower Daisy? |  | Oregano |
+| Silver foliage with Yellow flower? | Pumpkin | |
 
-### Indoor Plants
+### Potted Plants ( Indoor )
 
-The better half has an obsession with indoor plants. Our house is full of them and we've even got one room we just call "the plant room" even though it's a sunroom. 
+pothos
+/ african violet
+/ orchids
+/ Lemon tree
+/ Ginseng Ficus
+/ peace lily
+/ Dracaena 
+/ jade plant
+
+
 
 ## Materials
 
@@ -89,7 +116,7 @@ The better half has an obsession with indoor plants. Our house is full of them a
 cedar / pine
 
 
-## Supplies
+## Potting Dirt
 
 Fox Farms Sea Floor/Happy Frog
 
