@@ -53,6 +53,12 @@ npm run serve
 
 ---
 
+**24/05/15** - upgrades ( 3.1.1 👉🏼 3.3.2 ) all good 👍🏼
+
+```sh
+npm install @docusaurus/core@latest @docusaurus/plugin-content-blog@latest @docusaurus/preset-classic@latest @docusaurus/theme-mermaid@latest --save
+```
+
 **24/01/28** - upgrades ( 3.0.1 👉🏼 3.1.1 ) no overides. didn't have to reswizzle. Watch the letter casing, anchors, and relative URLs because the broken link checker has gotten more strict.
 
 :::note
