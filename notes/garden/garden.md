@@ -4,9 +4,12 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
-- 23.05.23 - [Oak tree removed](/posts/white-oak)
+- 24/04/30 - added [pests](#pests)
+- 23/05/23 - [oak tree removed](/posts/white-oak)
 
 ## Notes
+
+**24/04/39** - we noticed the first flea of the season. Adding [pests](#pests) to the TOC here to keep notes. Going to try using nematodes this year since the diatomaceous earth tends to get wet in our humid environment too quickly.
 
 **24/04/02** - Since Iris has been tearing up and making trails in the yard, I've been thinking about switching out part of it to more wild grasses ( and weeds 😂 ). More of a Laissez-Faire Meadow[^1] since I manually pick some of the weeds. 
 
@@ -14,24 +17,30 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ![glenridge-landscape](/img/glenridge-landscape.jpg)
 
+## Soil
+
+- Ph generally comes in acidic in the low 5s. Need to apply lime. 
+- clay is heavy. helps to apply gypsum
+
 
 ## Trees
 
-White Oak
-/ Magnolia
+White Oak (3)
+/ Red Oak  (5)
+/ Magnolia (5)
+/ Hickory ( 7 - my favorites )
 / Tulep poplar
-/ White Pine
+/ White Pine (1)
 / Loblolly pine
 / Sweetgum
 / Mulberry
 / Dogwood ( 12 )
 / Chase Tree
-/ Oak ( 9 )
 / Poplar
 / White Pine ( 1 )
 / Cedar ( 1 )
 / Cedar Evergreen
-/ Sweet gum 
+/ Sweet gum ( 2 - don't like em. would like to have them removed )
 
 
 ## Shrubs
@@ -40,45 +49,40 @@ Azaleas ( 27 )
 / Box Hedge
 / Holly
 / Japanese Maple ( 4 )
-/ Japanese Anise [Illicium anisatum ↗](https://en.wikipedia.org/wiki/Illicium_anisatum)
-/ Golden Euonymus [Euonymus japonicus ↗](https://en.wikipedia.org/wiki/Euonymus_japonicus)
+/ Japanese Anise [Illicium anisatum](https://en.wikipedia.org/wiki/Illicium_anisatum)
+/ Golden Euonymus [Euonymus japonicus](https://en.wikipedia.org/wiki/Euonymus_japonicus)
 / Sasanqua
 / Rhododendron
 / Ligustrum
 
+### Borders
 
-### Other
+spider Grass - [Liriope](https://en.wikipedia.org/wiki/Liriope_(plant))
+mondo grass - [Ophiopogon japonicus](https://en.wikipedia.org/wiki/Ophiopogon_japonicus)
 
-#### Baddies
+### Groundcover
 
-Poison Ivy
-/ Olive
-/ Privet
+ginger
 
-#### Mushrooms
+### Mushrooms
 
 [poisonous mushrooms](mushroom)
 / 
 
-#### Moss
+## Lawn
 
-### Perennials  
+### Grass
 
-### Trees
+This is a sticky subject between my wife and myself. I'd prefer a lush barefoot St. Augustine lawn, but since we don't use chemicals, it's pretty tricky. White clover, crabgrass, dandelion, goosegrass, spurge, chickweed, quackgrass, buckhorn, sedge... we got em all. Trying to minimize the yard size to minimize the yard work. I just need a space big enough as far as I can throw a ball for the mut.
 
-
-
-
-### Shrubs
+### Moss
 
 
-
-
-
-### Raised Beds
+## Beds
 
 I built several raised garden beds in the middle of our front lawn which I keep a variety of plants going. Sometimes I plant a bunch of summer vegetables, but it's mostly herbs and flowers.
 
+### Perennials  
 
 ### Annuals
 
@@ -96,7 +100,7 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 | Orange/Yellow Flower Daisy? |  | Oregano |
 | Silver foliage with Yellow flower? | Pumpkin | |
 
-### Potted Plants ( Indoor )
+### Potted
 
 pothos
 / african violet
@@ -108,6 +112,27 @@ pothos
 / jade plant
 
 
+---
+
+## Pests
+
+### Bugs
+
+The only two pests we've had issues with are ants and fleas. Lavender, cedar, clove, peppermint, Eucalyptus oils act as repellents. We use a good bit of cedar mulch and I've used clove oil spray. Rosemary, lemongrass, basil, mint, catnip, sage, Chrysanthemums, wormwood, and marigolds are also deterrents. 
+
+Nematodes - have ordered some nematodes to try this year.
+
+### Weeds
+
+I try to let native plants run and I generally refer to the [USDA Invasive Species Information Center](https://www.invasivespeciesinfo.gov/). I just go after the one's that tend to be invasive or have cause pain. I call it plant racism, but I also don't like using the nationality names on the plants because I think that's a bit racist. These are the ones I'm pulling, cutting, and digging out:
+
+- Poison Ivy - [Toxicodendron radicans](https://en.wikipedia.org/wiki/Poison_ivy)
+- Autumn Olive - [Elaeagnus umbellata](https://en.wikipedia.org/wiki/Elaeagnus_umbellata)
+- Privet - [Lugustrum sinese](https://en.wikipedia.org/wiki/Ligustrum_sinense)
+- Stiltgrass - [Microstegium vimineum](https://en.wikipedia.org/wiki/Microstegium_vimineum)
+- Creeping thistle - [Cirsium arvense](https://en.wikipedia.org/wiki/Cirsium_arvense)
+- Ivy - [Hedera helix](https://en.wikipedia.org/wiki/Hedera_helix) ( my neighbor has let it overrun their yard )
+- Virginia creeper - [Parthenocissus quinquefolia](https://en.wikipedia.org/wiki/Parthenocissus_quinquefolia) ( not invasive or non-native, but I don't like it )
 
 ## Materials
 
@@ -116,7 +141,7 @@ pothos
 cedar / pine
 
 
-## Potting Dirt
+### Potting Soil
 
 Fox Farms Sea Floor/Happy Frog
 
@@ -128,11 +153,12 @@ Cub Cadet XT2 LX42
 
 See Also: [/lists/shopping#garden](/lists/shopping#garden)
 
-### Providers
+## Providers
 
 - Timberline Tree Service ( Troy ) (864) 953-0002 / [Facebook ](https://www.facebook.com/people/Timberline-Tree-Service-LLC/100062993750660/)
 - Landscape Supply - (864) 388-2138 / [Facebook](https://www.facebook.com/people/Landscape-Supply-of-Greenwood/100063548891226/)
 - Jerry' Greenhouse  -  (864) 229-1591 / [Facebook](https://www.facebook.com/jerrysgwd/)
 
+---
 
 [^1]: Healthy Yards - https://www.healthyyards.org/create-a-meadow/
