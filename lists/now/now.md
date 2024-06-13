@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **24/06/13** - AI 🤖 [project](/docs/saas/openai), mountain ⛰️ retreat, & [yard](/notes/garden) 🌳 work.
 - **24/04/29** - wrapped tennis season, [new car](https://davidawindham.com/its-electric/#update) 🚘, and spending time outside before summer.
 - **24/03/22** - spring 🌷 break 🏖️ tennis 🎾 Iris 🦮 Work 💻
 - **24/03/02** - managed to pick up strep 🦠 throat so I've been in recovery mode.
