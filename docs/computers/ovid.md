@@ -8,7 +8,7 @@
 
 ### Log
 
-**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference.
+**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
 
 **23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
 
@@ -470,7 +470,7 @@ david@ovid:~ » psql
 psql (14.1)
 ```
 
-~~MySQL~~ MariaDB ( switched from MySQL will migrate next server )
+MySQL ~~MariaDB~~ ( switched from MySQL and then switched back - see [#log](#log))
 
 ```bash
 david@ovid:~ » sqlite3
@@ -480,6 +480,14 @@ mysql  Ver 15.1 Distrib 10.6.4-MariaDB, for osx10.17 (arm64) using readline 5.1
 david@ovid:~ » brew services start mariadb
 david@ovid:~ » sudo /opt/homebrew/bin/mysql_secure_installation
 david@ovid:~ » sudo $(brew --prefix mariadb)/bin/mysqladmin -u root password PASSWORD  
+```
+
+```bash
+brew remove mariadb
+brew install mysql
+brew services start mysql
+david@ovid🏛 :~/sites/daw_til(main⚡) » mysql --version
+mysql  Ver 8.3.0 for macos14.2 on arm64 (Homebrew)
 ```
 
 MongoDB ( Community ) - moved from an open source license so it was dropped by homebrew.
