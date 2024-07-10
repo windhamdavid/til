@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/07/10 - [MariaDB Meltdown](/posts/mariadb-meltdown)
   - 24/06/13 - [Weather & Work](/posts/weather-work)
   - 24/04/21 - [Woody Windham](/posts/woody-windham)
   - 24/04/04 - [foxglove](/posts/digitalis)

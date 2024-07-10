@@ -8,6 +8,8 @@
 
 ### Log
 
+**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference.
+
 **23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
 
 ```bash
@@ -403,6 +405,15 @@ david@ovid🏛 :/opt/homebrew/etc/httpd/extra(master○) » which httpd         
 // custom hosts in /etc/hosts
 brew services stop/start/restart httpd
 ```
+
+#### localhost
+
+```bash
+// custom hosts in /etc/hosts
+// flush dns cache
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+```
+
 
 #### mkcert
 
