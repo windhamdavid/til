@@ -806,7 +806,7 @@ According to my archive, over 15 years I had:
 |RT @RollingStone: Help fund D.A. Pennebaker's film about chimpanzees and animal abuse: http://t.co/BbDWkPgrcU|2014-05-15|
 |RT @MSch: Time to upgrade OpenSSL everyone https://t.co/iabngTBYEw|2014-08-07|
 |@chrishajer why yes you do... thank you!|2014-08-07|
-|RT @mojombo: Spent the last month working on this: How we turn $199 Chromebooks into Ubuntu-based code learning machines for kids! http://t…|2014-08-07|
+|RT @mojombo: Spent the last month working on this: How we turn $199 Chromebooks into Ubuntu-based code learning machines for kids! |2014-08-07|
 |"U.S. Digital Services Playbook #13 - ""Default to Open"" - http://t.co/mbllVWzzoq"|2014-08-17|
 |@pahlkadot @rypan @cew821 @haleyvandyck **High Five**|2014-08-17|
 |RT @JPBarlow: #AlgaeSystems goes visible! Please check out today's NYC Science Section. RT please. http://t.co/5EWC4BiJ00|2014-09-10|
