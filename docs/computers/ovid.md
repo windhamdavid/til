@@ -8,6 +8,10 @@
 
 ### Log
 
+**24.07.14** - removed node@16
+
+**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
+
 **24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
 
 **23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
@@ -424,8 +428,18 @@ mkcert ex.ovid
 
 ### Node.js & NVM  
 
-* v.16.13.0 is Universal and has LTS
-* Will bring my older Node.js projects up to this version
+* v.18.12.1 LTS  
+
+```bash
+david@ovid🏛 :~ » brew remove node@16
+david@ovid🏛 :~ » nvm uninstall v16.13.0
+david@ovid🏛 :~ » nvm ls                
+->     v18.12.1
+         system
+default -> lts/* (-> v18.12.1)
+```
+
+~* v.16.13.0 is Universal and has LTS - brought my older Node.js projects up~
 
 ```bash
 david@ovid:~ » curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
