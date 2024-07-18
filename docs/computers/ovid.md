@@ -8,9 +8,9 @@
 
 ### Log
 
-**24.07.14** - removed node@16
+**24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/ocd-benefits)
 
-**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
+**24.07.14** - removed node@16
 
 **24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
 
@@ -309,9 +309,16 @@ Also see Brew Analytics - [https://formulae.brew.sh/analytics/install/365d/](htt
 
 Apple is removing languages from the OS via [Xcode 11 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-11-release-notes): "Scripting language runtimes such as Python, Ruby, and Perl are included in macOS for compatibility with legacy software. In future versions of macOS, scripting language runtimes won't be available by default, and may require you to install an additional package." Instead of adding four or five versions of each language to support legacy codebase, I'm going to bring modify the old projects.  
   
-**PHP** - 8.1.0 / 7.4.26  ( still have to support 7.4 )  
+**PHP** - 8.3.9 / 8.1.0 / 7.4.26  ( still have to support 7.4 )  
 
 ```bash
+david@ovid🏛 :/opt/homebrew/etc/httpd(master○) » php -v             
+PHP 8.3.9 (cli) (built: Jul  2 2024 14:10:14) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.9, Copyright (c) Zend Technologies
+    with Xdebug v3.3.2, Copyright (c) 2002-2024, by Derick Rethans
+    with Zend OPcache v8.3.9, Copyright (c), by Zend Technologies
+
 david@ovid:~ » php --ini           
 Configuration File (php.ini) Path: /opt/homebrew/etc/php/8.1
 Loaded Configuration File:         /opt/homebrew/etc/php/8.1/php.ini
