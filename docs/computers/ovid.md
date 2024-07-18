@@ -8,7 +8,7 @@
 
 ### Log
 
-**24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/ocd-benefits)
+**24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/oc-benefits)
 
 **24.07.14** - removed node@16
 
