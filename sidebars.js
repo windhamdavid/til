@@ -141,7 +141,7 @@ module.exports = {
             {
               type:'doc',
               id: 'host/WordPress-Block',
-              label: ' Block Theme',
+              label: 'Block Theme',
             }
           ]
         },

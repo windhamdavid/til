@@ -10,7 +10,7 @@
 
 **24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/oc-benefits)
 
-**24.07.14** - removed node@16
+**24.07.14** - nvm - removed node@16 & set v20.15.1 as default
 
 **24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
 

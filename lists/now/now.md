@@ -13,9 +13,10 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **24/08/07** - girls 🎾 [season](/notes/tennis), training [Iris](/notes/dogs/iris) 🦮, the [yard](/notes/garden) 🌳, & thoroughly into Civilization VI.
 - **24/06/13** - AI 🤖 [project](/docs/saas/openai), mountain ⛰️ retreat, & [yard](/notes/garden) 🌳 work.
 - **24/04/29** - wrapped tennis season, [new car](https://davidawindham.com/its-electric/#update) 🚘, and spending time outside before summer.
-- **24/03/22** - spring 🌷 break 🏖️ tennis 🎾 Iris 🦮 Work 💻
+- **24/03/22** - spring 🌷 break 🏖️, tennis 🎾, [Iris](/notes/dogs/iris) 🦮, & Work 💻
 - **24/03/02** - managed to pick up strep 🦠 throat so I've been in recovery mode.
 - **24/01/09** - typical start-of-the-year accounting stuff, playing catch-up on emails from the break, scheduling upcoming 🛠️ contracts, and the boys 🎾 season.
 - **23/12/02** - Trying to wrap up a couple requests and projects in squirrel 🐿️ mode so I can hibernate for the holiday break and spend my time with the [wife](https://ginnygast.com) and [dog](/notes/dogs/iris).
