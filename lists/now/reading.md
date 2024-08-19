@@ -1,5 +1,6 @@
 # Reading
 
+- 24/08/19 - [_All Fours_](https://en.wikipedia.org/wiki/All_Fours_(novel))
 - 24/06/13 - [_The Lights_](https://en.wikipedia.org/wiki/Ben_Lerner)
 - 23/11/14 - [_Bewilderment_](https://en.wikipedia.org/wiki/Bewilderment)
 - 23/09/05 - [_Demon Copperhead_](https://en.wikipedia.org/wiki/Demon_Copperhead)
