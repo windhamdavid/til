@@ -47,7 +47,8 @@
 
 #### Series
 
-[Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
+[Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
+| [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
 | [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
 
 #### The 25 Best Films of 2023
