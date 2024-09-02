@@ -27,10 +27,17 @@ gitGraph
     branch gitbook
     commit id: "mv to gitbook" tag: "v0.0.2"
     commit
+    checkout main
+    merge gitbook
     branch docusaurus
     checkout docusaurus
-    commit id: "docusaurus"  tag: "v0.0.3"
+    commit id: "docusaurus"  tag: "v1"
     commit
+    checkout main
+    merge docusaurus
+    checkout docusaurus
+    commit id: "2"  tag: "v2.0"
+    commit id: "3.5"  tag: "v3.5"
     checkout main
     merge docusaurus
 ```
@@ -52,6 +59,8 @@ npm run serve
 ```
 
 ---
+
+**24/09/02** - upgrades ( 3.4.0 👉🏼 3.5.2 ) all good 👍🏼
 
 **24/07/11** - upgrades ( 3.3.2 👉🏼 3.4.0 ) all good 👍🏼
 
