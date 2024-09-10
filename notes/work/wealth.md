@@ -19,23 +19,27 @@ About | Accounts | Assets | Investments | Expenses
 
 ## Assets
 
-| Operating
+Operating
 | Savings
 | CD
 | IRA / 401 / Annuities
 | Market
 | Medical Savings
-| Currency
+| Currencies
 
 
 ## Investments
 
+I've got kinda a duality in that I'm all in on the digital future while simultaneously prioritizing the basic necessities of life around the world. I try to be somewhat ethical in my investments.
+
+### Portfolio
+
 ### Notes
 
-- Energy - GE, Brookfield, First Solar, NextTracker
-- Tech - Apple, GOOG, NVDA, TCEHY
+- Energy - GE, Brookfield, NextTracker
+- Tech - ARM, QCOM, ADBE, AAPL, INTC, VZ, T, CSCO, GOOGL, NVDA, AMD, TCEHY, VZ
 - AI - Claude / OpenAI / MS / Google
-- Ent - Disney/ESPN, 
+- Ent - Disney/ESPN, ZG, META, 
 - Med - GLP-1 Peptide - Ozempic / Wegovy
 
 
