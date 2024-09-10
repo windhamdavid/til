@@ -1,5 +1,6 @@
 # Reading
 
+- 24/09/10 - [_A Cry from the Far Middle_](https://en.wikipedia.org/wiki/P._J._O'Rourke)
 - 24/08/19 - [_All Fours_](https://en.wikipedia.org/wiki/All_Fours_(novel))
 - 24/06/13 - [_The Lights_](https://en.wikipedia.org/wiki/Ben_Lerner)
 - 23/11/14 - [_Bewilderment_](https://en.wikipedia.org/wiki/Bewilderment)
