@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 24/04/03 - 💰 [work/wealth](/notes/work/wealth)
 - 24/04/03 - 🌳 [notes/garden](/notes/garden)
 - 24/04/02 - ⛵️ [notes/travel](/notes/travel)
 - 24/02/24 - 🦮 [dogs/iris](/notes/dogs/iris)
