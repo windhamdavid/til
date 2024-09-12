@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 # Stocks
 
-I told my finance guy I wanted to be a bit more hands on so I'm learning a good bit about stocks and trying to figure out a decent strategy. I'm keeping notes on them here and I'm dividing my watch lists into five categories for now.  
+I'm trying to be a bit more hands on so I'm learning a good bit about investments and trying to figure out a decent strategy. I'm keeping my stock notes here and I'm dividing my lists into five categories for now.  
 [Noted](#daw-noted)
 | [Core](#daw-core)
 | Long
