@@ -132,8 +132,16 @@ module.exports = {
           ],
         },
         {
-          type:'doc',
-          id:'work/wealth',
+          type: 'category',
+          label: 'Wealth',
+          collapsible: true,
+          link: {
+            type:'doc',
+            id:'work/wealth',
+          },
+          items: [
+            'work/wealth-stocks',
+          ],
         },
       ],
     },
