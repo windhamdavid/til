@@ -1,6 +1,6 @@
 # Helene
 
-**24/10/05** - Hurrican Helene rolled through last week and I'm taking photos and making notes to keep up with the details. See post @ [/posts/hurricane-helene](/posts/hurricane-helene)
+**24/10/05** - Hurrican Helene rolled through last week and I'm taking photos and making notes to keep up with the details. See post @ [/posts/hurricane-helene](/posts/hurricane-helene) and photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
 
 ## Cleanup
