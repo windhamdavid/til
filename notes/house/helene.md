@@ -9,13 +9,17 @@
   - 9/27 roads cleared
   - 9/28 driveway front yard cleared
 - house
+  - 10/4 - tree removed
+  - 10/5 - roof covered
 
 ## Contractors
 
-- JMP John Parramore
-- R&G Landscaping
-- Superior Roofing
-- Advanced Inspections Tom Miller
+- JMP Construction - https://jmpconcretesc.com - John Parramore
+- R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
+- Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget 
+- Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller
+- Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran
+- Joel's Floor Coverings - https://www.joelsfloorcoverings.com
 
 
 ## Insurance
@@ -25,8 +29,7 @@
 - Coverage: 400K dwelling, 300K personal property, 120K loss of use
 - Deductible: $4,005
 - SF Premier Service Program: SF will pay contractors directly
-- Next: get contractor estimates, meet with claims adjuster, get invoices
-
+- contractor estimates, meet with claims adjuster, get invoices
 
 ## Damage
 
@@ -35,6 +38,10 @@
   - Main ridge
   - Trusses 4
   - Corner piece
+- Gutters
+  - Above office
+  - Front front door multiple
+  - Above deck
 - Water damage
   - Attic insulation
   - Bedroom ceiling
@@ -46,11 +53,7 @@
   - Ceiling near air return
   - Bedroom wall w sliding doors
 - Siding
-- Soffit & fascia 
-- Gutters
-  - Above office
-  - Front front door multiple
-  - Above deck 
+- Soffit & fascia
 - Sliding door
 - Window
 - Trim
@@ -71,4 +74,5 @@
 
 ## Notes
 
-Shingles - Owens Corning Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood
+Shingles - Owens Corning Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
+Paint Colors - Sherwin Williams Main: Grizzle Gray / Trim: Tin Lizzie
