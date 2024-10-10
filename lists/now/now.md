@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **24/10/10** - [Hurricane Helene](/posts/hurricane-helene) 🌪️ repairs
 - **24/08/07** - girls 🎾 [season](/notes/tennis), training [Iris](/notes/dogs/iris) 🦮, the [yard](/notes/garden) 🌳, & thoroughly into Civilization VI.
 - **24/06/13** - AI 🤖 [project](/docs/saas/openai), mountain ⛰️ retreat, & [yard](/notes/garden) 🌳 work.
 - **24/04/29** - wrapped tennis season, [new car](https://davidawindham.com/its-electric/#update) 🚘, and spending time outside before summer.

@@ -16,12 +16,11 @@ I'm going to use this as place to make notes about our house, property, and futu
 
 ## Current
 
-### Glenridge
+**Glenridge** - 102 Glenridge Circle, Greenwood SC - https://davidawindham.com/wha/glenridge/
 
 ![glenridge](/img/glenridge.jpg)
 
-102 Glenridge Circle, Greenwood SC  
-Photos -  https://davidawindham.com/wha/glenridge/
+
 POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 
 ### Projects
