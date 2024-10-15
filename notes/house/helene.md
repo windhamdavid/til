@@ -19,6 +19,8 @@
 - Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget 
 - Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller
 - Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran
+- Blackwater Construction - https://builtbyblackwater.com/ - Bennie McManus
+- KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth Kenny Timmerman
 - Joel's Floor Coverings - https://www.joelsfloorcoverings.com
 
 
@@ -36,7 +38,7 @@
 - Roof
   - Top ridge
   - Main ridge
-  - Trusses 4
+  - Trusses 3/4
   - Corner piece
 - Gutters
   - Above office
@@ -48,7 +50,7 @@
   - Vent ductwork
   - Closet corner
   - Bedroom floor, carpet, subfloor
-  - Spot in office
+  - Spot in office - possible below gutter
 - Interior cracks
   - Ceiling near air return
   - Bedroom wall w sliding doors
@@ -57,9 +59,8 @@
 - Sliding door
 - Window
 - Trim
-- Chimney chase cover
-- Chimney chase windscreen
-- Chimney chase stacks
+- Chimney chase
+  - cover, stack, windscreen
 - Food loss
 - Deck umbrellas
 - Landscaping
@@ -70,6 +71,7 @@
 - Marvin’s mailbox
 - Marianne’s fence
 - Leaning trees 🌳
+  - not likely covered by insurance, will be out of pocket
 
 
 ## Notes
