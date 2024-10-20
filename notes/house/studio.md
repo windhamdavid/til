@@ -12,8 +12,8 @@
 I measured up the den wall at 168" wide and 96" tall and I whipped this up as a start.
 
 ![](/img/art.studio.jpg)
-
 ![](/img/studio-desk.jpg)
+![](/img/studio-desk-1.jpg)
 
 Since it's 14 feet long, I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper. I'll use unfinished prebuilt cabinets and match the dark walnut stain to the existing mantle, rafters, and wet bar(aquarium stand) so it looks like it has been here since the house was built.
 
@@ -23,6 +23,7 @@ It's going right here 👇🏼 where the big painting is hung.
 
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
 ![](/img/studio-den.jpg)
+
 
 ---
 
