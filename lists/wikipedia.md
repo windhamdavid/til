@@ -3,7 +3,9 @@
 **23.11.30** - I noticed that I haven't put some of my Wikipedia edits aren't on my user page [(https://en.wikipedia.org/wiki/User:Windhamdavid)](https://en.wikipedia.org/wiki/User:Windhamdavid) so I figured I just add them here so that I have a log and reference to whatever or whomever I was reading about and they'd be indexed for the search and AI here.
 
 
+- 24.10.24 - [QuantumScape](https://en.wikipedia.org/wiki/QuantumScape)
 - 23.11.30 - [Gyan Riley](https://en.wikipedia.org/wiki/Gyan_Riley)
+- 23.03.20 - [Jeff Duncan](https://en.wikipedia.org/wiki/Jeff_Duncan_(politician))
 - 23.03.08 - [Andrew Baron](https://en.wikipedia.org/wiki/Andrew_Baron)
 - 21.05.14 - [Sylvania (McCormick County, South Carolina) ](https://en.wikipedia.org/wiki/Sylvania_(McCormick_County,_South_Carolina))
 - 20.07.18 - [Reverend Gary Davis](https://en.wikipedia.org/wiki/Reverend_Gary_Davis)
