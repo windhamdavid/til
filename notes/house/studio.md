@@ -98,26 +98,33 @@ It's going right here 👇🏼 where the big painting is hung.
 
 ### Equipment:
 
-- Mac studio/book/tv/pad
-  - trade out current Mini for Studio 🖥️ 👈🏼
-    - or just get M2 Pro in a new mini to save $500
+- Processing
+  - Mac Studio / Macbook Pro
   - trackpads / keyboards
-  - Lacie Drives 
+  - Lacie Drives
   - Router/wifi
-- ViewSonic VX3267U-4K / Lenovo C32q-20
-- Sony 75” Class X85K 4K HDR LED
-- Onkyo Amp
-  - Polk Reference ( switch to Yamaha )
-  - Klipsch ProMedia 2.1 ( 2 computer )
+- Monitor
+  - ViewSonic VX3267U-4K / Lenovo C32q-20
+  - Sony 85” Class X85K 4K HDR LED
+- Imaging
+  - Sony A7 / Fujufilm X-T5
+  - DJI Air
+  - tripods/lighting/gear
+  - DJI stabilizer
+  - lighting - godox panels
+- Audio
+  - Onkyo Amp
+  - Polk Reference Monitors 
+      - switch to Yamaha HS8
+  - Klipsch ProMedia
   - Pinnacle sub/rear/center
-  - Focusrite Scarlett 
-    - Shure SM7db/Blue Yeti
-    - Nord Electro 73 🎹 👈🏼
-- Epson Supertank 19"
-- Cameras/tripods/lighting/gear
-- Art Supplies - paint/medium/cleaners
-  - glass pallette
-  - arm light
-
-
-**New Equipment Total: ( Studio $2000 / Nord $2000 )**
+  - Focusrite Scarlett
+  - Shure SM7db/Blue Yeti
+    - rode lavaliers
+  - Nord Stage 4 88 🎹 / Yamaha MX88
+- Graphic
+  - paints/medium/cleaners
+  - glass pallettes
+  - arm lighting
+  - Epson Supertank 19"
+  - iPad pro
