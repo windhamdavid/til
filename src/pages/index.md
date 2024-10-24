@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/10/14 - [Maker Taker](/posts/open-source-maker-taker)
   - 24/10/05 - [Hurricane Helene](/posts/hurricane-helene)
   - 24/07/18 - [Existential Threat of Cheetos](/posts/existential-threat-cheetos)
   - 24/07/18 - [OC Benefits](/posts/oc-benefits)
