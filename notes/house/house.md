@@ -40,7 +40,18 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 - replace sliding doors (2)upstairs/den
   - New Sliding Doors for Master / Rec Room
 
-#### Kitchen Remodel - 2023
+
+
+#### Master Bath Remodel - 2024
+
+![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
+
+- Bath / Shower / Flooring
+- Dressing Room Cabinetry/Table/Seating
+- Under Floor heating
+
+
+#### Kitchen Remodel - 2025
 
 - Reconfiguring the bar area cabinetry to the side and remove flat-top grill
 - Install new countertop
@@ -57,14 +68,6 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 - ** Countertops - Cambria quartz ( Cambria Black / Blackwood / Blackpool Matte )
 - ** Tile Flooring/Backsplash - White ( Sneads Greenwood )
 - ** Appliances - GE Stainless Cafe Series ( Steifles Greenwood )
-
-#### Master Bath Remodel - 2024
-
-![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
-
-- Bath / Shower / Flooring
-- Dressing Room Cabinetry/Table/Seating
-- Under Floor heating
 
 ### ToDo
 

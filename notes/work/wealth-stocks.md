@@ -33,6 +33,7 @@ I'm trying to be a bit more hands on so I'm learning a good bit about investment
 |LRCX|766.85|Lam Research Corporation|[LRCX:NASDAQ](https://www.google.com/finance/quote/LRCX:NASDAQ)|[wiki](https://en.wikipedia.org/wiki/Lam_Research)||
 |MODV|31.19|ModivCare Inc|[MODV:NASDAQ](https://www.google.com/finance/quote/MODV:NASDAQ)|[wiki](https://en.wikipedia.org/wiki/ModivCare)||
 |PLTR|34.85|Palantir Technologies Inc|[PLTR:NYSE](https://www.google.com/finance/quote/PLTR:NYSE)|[wiki](https://en.wikipedia.org/wiki/Palantir_Technologies)||
+|QS|5.80|Quantumscape Corp|[QS:NYSE](https://www.google.com/finance/quote/QS:NYSE)|[web](https://www.quantumscape.com)|EV batteries|
 |UTSI|3.04|UTStarcom Holdings Corp|[UTSI:NASDAQ](https://www.google.com/finance/quote/UTSI:NASDAQ)|[wiki](https://en.wikipedia.org/wiki/UTStarcom)||
 |V|283.96|Visa Inc|[V:NYSE](https://www.google.com/finance/quote/V:NYSE)|[wiki](https://en.wikipedia.org/wiki/Visa_Inc.)||
 
