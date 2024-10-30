@@ -41,5 +41,5 @@ I've got kinda a duality in that I'm all in on the digital future while simultan
 
 #### Stocks
 
-🔗 [Stocks](/notes/work/wealth-stocks)
+🔗 [Stocks](/notes/work/stocks)
 
