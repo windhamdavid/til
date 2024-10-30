@@ -141,7 +141,8 @@ module.exports = {
             id:'work/wealth',
           },
           items: [
-            'work/wealth-stocks',
+            'work/stocks',
+            'work/trades',
           ],
         },
       ],
