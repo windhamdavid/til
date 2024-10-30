@@ -6,12 +6,7 @@ hide_table_of_contents: true
 
 # Stocks
 
-I'm trying to be a bit more hands on so I'm learning a good bit about investments and trying to figure out a decent strategy. I'm keeping my stock notes here and I'm dividing my lists into five categories for now.  
-[Noted](#daw-noted)
-| [Core](#daw-core)
-| Long
-| Short
-| Wild
+I'm trying to be a bit more hands on so I'm learning a good bit about investments and trying to figure out a decent strategy. I'm keeping my stock notes here and I'm dividing my lists into five categories for now ( [Noted](#daw-noted) | [Core](#daw-core) | Long | Short | Wild ) and keeping a log @ [Trades](/notes/work/wealth/wealth-trades)
 
 
 
