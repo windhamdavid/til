@@ -7,7 +7,7 @@ description: my stocks notes
 # Stocks
 
 Keeping my stock notes here and dividing my lists into five categories:  
-[Now](#Now) | [Noted](#Noted) | [Core](#Core) | [Long](#Long) | [Short](#Short) | [Wild](#Wild) | Log @ [Trade Notes](/notes/work/trades)
+[Now](#now) | [Noted](#noted) | [Core](#core) | [Long](#long) | [Short](#short) | [Wild](#wild) | Log @ [Trade Notes](/notes/work/trades)
 
 
 ### Approach
