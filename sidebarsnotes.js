@@ -83,9 +83,10 @@ module.exports = {
         id:'house/house',
       },
       items: [
-        'house/build',
         'house/helene',
-        'house/studio'
+        'house/studio',
+        'house/bath',
+        'house/build',
       ]
     },
     {

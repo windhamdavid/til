@@ -1,4 +1,4 @@
-# Build
+# Future Build
 
 We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. The original post on this idea with some notes is available @ https://davidawindham.com/architecture/
 

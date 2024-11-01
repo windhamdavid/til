@@ -1,32 +1,40 @@
 # Helene
 
-**24/10/05** - Hurrican Helene rolled through last week and I'm taking photos and making notes to keep up with the details. See post @ [/posts/hurricane-helene](/posts/hurricane-helene) and photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+**24/10/05** - Hurrican Helene rolled through last week and did a bit of damage. I'm taking photos and making notes here to keep up with the details. See post @ [/posts/hurricane-helene](/posts/hurricane-helene) and photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
 
 ## Log
 
+- 11/07 - Drywall demo for trusses
+- 11/02 - Move downstairs clear out bedroom
+- 10/31 - Truss Engineers on site
+- 10/28 - Contractor adjuster on site
+- 10/28 - Insurance adjuster on site
+- 10/05 - Roof covered
+- 10/04 - Trees removed from roof/yard
+- 10/02 - Inspector on site report
+- 09/28 - Debris cleared front/drive
+- 09/27 - Roads cleared
 
-- 9/27 - roads cleared
-- 9/28 - driveway front yard debris cleared
-- 10/4 - tree removed
-- 10/5 - roof covered
-- 10/28 - Insurance adjuster appt
+
+
+
 
 ## Contractors
 
+- ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman ( Beth Wells / Anna )
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
-- ~Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget~
 - ✅ Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller 
+- ~Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget~
 - ~Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran~
 - ~Blackwater Construction - https://builtbyblackwater.com/ - Bennie McManus~
-- ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman
 - ~Charles & Assoc - https://carepairremodel.com~
 - ~Eck Custom Homes - http://www.eckbuilders.com - Frank Eck~
 - ~Town & Country Construction - https://tcconstructionsc.com - John Martin~
 - ~Joel's Floor Coverings - https://www.joelsfloorcoverings.com~
-- Upstate Millwork - https://kitchenrehab.co/contact/
-- AP Woodworks - https://ap-woodworks.com - Andrew
+- ~Upstate Millwork - https://kitchenrehab.co/contact/~
+- ~AP Woodworks - https://ap-woodworks.com - Andrew~
 
 ## Insurance
 
@@ -35,7 +43,7 @@
 - Claim # 40-P833-5X2
 - Coverage: 400K dwelling, 300K personal property, 120K loss of use
 - Deductible: $4,005
-- contractor estimates, meet with claims adjuster, get invoices
+- contractor estimates, meet with claims adjuster
 
 ## Damage
 
