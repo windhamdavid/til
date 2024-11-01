@@ -1,35 +1,39 @@
 # House
 
-I'm going to use this as place to make notes about our house, property, and future properties. We currently live in Greenwood SC and have been here for almost 14 years. I grew up in Columbia, Irmo, and Chapin SC. I spent 16 years in and around Charleston SC. I've lived in some other places short term such as: Bozeman MT, Stowe VT, Keene NH, and Maui HI, but I always seem to return to my roots. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'd like to only move on more time in my lifetime.
+23/08/19 -  I'm going to use this as place to make notes about our house, property, and future properties. We currently live in Greenwood SC and have been here for almost 14 years. I grew up in Columbia, Irmo, and Chapin SC. I spent 16 years in and around Charleston SC. I've lived in some other places short term such as: Bozeman MT, Stowe VT, Keene NH, and Maui HI, but I always seem to return to my roots. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'd like to only move on more time in my lifetime.
 
-## Old
+## Log
 
-**Carriage** - 17 Franklin Street, Charleston SC
+- 24/09/27 - [Hurricane Helene ](/notes/house/helene) - repairs from a tree falling on house.
+- 24/02/05 - [Studio Project](/notes/house/studio) - move my office downstairs
 
-**Bamboo** - 10450 Old Georgetown Road, McClellanville SC
+---
 
-**Farm** - 82 Yarborough Road, Trenton SC
+## Old Houses
 
-**Wilton** - 104 Wilton Street, Greenwood SC - https://davidawindham.com/wha/wilton/
+- 2002 - **Carriage** - 17 Franklin Street, Charleston SC
+- 2004 - **Bamboo** - 10450 Old Georgetown Road, McClellanville SC
+- 2009 - **Farm** - 82 Yarborough Road, Trenton SC
+- 2011 - **Wilton** - 104 Wilton Street, Greenwood SC - https://davidawindham.com/wha/wilton/
 
 ---
 
 ## Current
 
-**Glenridge** - 102 Glenridge Circle, Greenwood SC - https://davidawindham.com/wha/glenridge/
+- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC - https://davidawindham.com/wha/glenridge/
 
 ![glenridge](/img/glenridge.jpg)
 
 
 POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 
-### Projects
+## Projects
 
-#### Studio
+### Studio - 2025
 
-[notes/house/studio](studio)
+See - [notes/house/studio](studio)
 
-#### Entry/Garage Doors
+### Entry/Garage Doors
 
 - replace entry doors
   - Anderson Double Oak 3/4 glass - $9,000
@@ -42,7 +46,7 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 
 
 
-#### Master Bath Remodel - 2024
+### Master Bath Remodel - 2025
 
 ![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
 
@@ -51,7 +55,7 @@ POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
 - Under Floor heating
 
 
-#### Kitchen Remodel - 2025
+### Kitchen Remodel - 2025
 
 - Reconfiguring the bar area cabinetry to the side and remove flat-top grill
 - Install new countertop
