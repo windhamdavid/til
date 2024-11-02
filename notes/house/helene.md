@@ -1,8 +1,13 @@
+---
+title: Hurricane Helene
+image: https://davidawindham.com/wha/helene-1.jpg
+---
+
 # Helene
 
 ![](/img/helene-1.jpg)
 
-**24/10/05** - Hurrican Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the 3.5 ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
 ## Log
 
@@ -132,8 +137,8 @@ Met with an assortment of contractors and got third party reviews from others be
 - pull two stumps and backfill form downed trees
   - remove remaining debris/limbs
 - remove additional trees
-  - leaning hickory
-  - leaning oak near back deck
+  - leaning hickory west side
+  - leaning oak south side near deck
   - pines(3) on East border ( not damaged but future risk )
   - sweet gum at rear and front ( just don't like them )
 - replaced damaged shrubs
