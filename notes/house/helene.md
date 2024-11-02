@@ -2,6 +2,10 @@
 title: Hurricane Helene
 ---
 
+<head>
+  <meta property="og:image" content="https://davidawindham.com/wha/helene-1.jpg" />
+</head>
+
 # Helene
 
 ![](/img/helene-1.jpg)
