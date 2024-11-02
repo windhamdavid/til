@@ -91,7 +91,7 @@ module.exports = {
       phpLoader: 'matomo.php',
       jsLoader: 'matomo.js',
     },
-    image: 'img/zw.png',
+    image: 'img/opengraph_image.jpg',
     imageZoom: {
       options: {
         margin: 40,

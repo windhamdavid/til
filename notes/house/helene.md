@@ -1,6 +1,5 @@
 ---
 title: Hurricane Helene
-image: https://davidawindham.com/wha/helene-1.jpg
 ---
 
 # Helene
