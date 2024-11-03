@@ -7,13 +7,13 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ![](/img/helene-1.jpg)
 
-**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the 3.5 ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
-## Log
-
-<div style={{width:'300px',float:'right'}}>
+<div class="responsive-image-right">
 ![](/img/helene.jpg)
 </div>
+
+## Log
 
 - 11/05 - 🔨 demo for truss measurements
 - 11/02 - Clear out master bed/bath & move downstairs 
