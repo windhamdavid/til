@@ -123,3 +123,19 @@ form input {
   padding: .5em;
   width: 100%;
 }
+
+.responsive-image-right {
+  float: right;
+  padding: 0 0 0 20px;
+  max-width: 50%;
+  height: auto;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-image-right {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+  }
+}
