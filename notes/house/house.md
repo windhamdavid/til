@@ -9,23 +9,25 @@
 
 ---
 
-## Old Houses
+## Previous Houses
 
 - 2002 - **Carriage** - 17 Franklin Street, Charleston SC
 - 2004 - **Bamboo** - 10450 Old Georgetown Road, McClellanville SC
 - 2009 - **Farm** - 82 Yarborough Road, Trenton SC
 - 2011 - **Wilton** - 104 Wilton Street, Greenwood SC - https://davidawindham.com/wha/wilton/
 
+
+
 ---
 
-## Current
+## Current ( 2016 - )
 
-- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC - https://davidawindham.com/wha/glenridge/
+- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC
+  - photos & details @ https://davidawindham.com/wha/glenridge/
 
 ![glenridge](/img/glenridge.jpg)
 
-
-POA - Gatewood Club - https://gatewoodclub.com ( 👈🏼 I built this too )
+We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( Gatewood - https://gatewoodclub.com ) was established on 450 acres in 1973 and is just outside the Greenwood city limits. 
 
 ## Projects
 
@@ -73,11 +75,11 @@ See - [notes/house/studio](studio)
 - ** Tile Flooring/Backsplash - White ( Sneads Greenwood )
 - ** Appliances - GE Stainless Cafe Series ( Steifles Greenwood )
 
-### ToDo
+### ToDo / ToDone
 
 - Carpet
   - Carpeting
-  - New Carpet Upstairs - Feb 2024
+  - New Carpet Upstairs - Feb 2025
   - New Carpet in Living Room
   - ** Berber (upstairs - (Sneads Greenwood)
 - Refinish/Repaint Back Lower Deck
@@ -102,9 +104,6 @@ See - [notes/house/studio](studio)
 - New Roof
   - Radiant panels under roofline
 - Re-insulate crawl space
-
-### Done
-
 - ~~Add flood lighting in front of garage (McDaniel Electric)~~
 - ~~Remove security sensors from exterior flood lighting~~
 - ~~Remove/Reuse Firewood stack~~
@@ -129,8 +128,7 @@ See - [notes/house/studio](studio)
 
 ---
 
-## Future
-
-[notes/house/build](build)
+## Future Build ( 2035 )
 
 We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/
+

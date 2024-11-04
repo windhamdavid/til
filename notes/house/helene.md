@@ -148,5 +148,11 @@ Met with an assortment of contractors and got third party reviews from others be
 
 ## Materials
 
-- Shingles - Owens Corning Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
-- Paint Colors - Sherwin Williams Main: Grizzle Gray / Trim: Tin Lizzie
+- Siding - rough cut cedar ( do not sub )
+- Shingles - Owens Corning - Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
+- Paint Colors - Sherwin Williams: 
+  - Exterior: Grizzle Gray ( SW 7068 ) / Trim: Pewter Tankard ( SW 0023 )
+  - Interior: Canvas Tan ( SW 7531 ) / Trim: Alabaster ( SW 7008 )
+- Stain - Ready Seal Pecan Semi-transparent
+- Carpet - StainMaster Signature Unmatched Super Fine open loop 
+  - StainMaster padding/underlay
