@@ -1,4 +1,4 @@
-# Bath Reno
+# Bath Remodel
 
 **24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. 
 

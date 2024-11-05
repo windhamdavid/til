@@ -1,11 +1,11 @@
 # Future Build
 
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. The original post on this idea with some notes is available @ https://davidawindham.com/architecture/
+(20/07/29) We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/
 
-![house-build](/img/house-build.jpg)
 
-<video src="https://davidawindham.com/media/house_build.mp4" width="100%" controls="controls">
-</video>
+
+
+### Concepts
 
 🔑 key concepts in the draft designs: 
 
@@ -43,7 +43,17 @@ We'd like to build one more house that's single story, accessible, affordable, e
   - permeable drive
   - curb - hidden
 
----
+
+![house-build](/img/house-build.jpg)
+
+<video src="https://davidawindham.com/media/house_build.mp4" width="100%" controls="controls">
+</video>
+
+### Inspiration
+
+ - Booken House at Sandhill - https://www.youtube.com/watch?v=co2HYBaB_7A
+ - 5894 Highwood Rd, Castro Valley, CA 94552 https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/
+ - Good Haus - Atmosphere Design Build - https://www.atmospheredesignbuild.com/good-haus / https://www.rockwool.com/north-america/advice-and-inspiration/case-studies/2018-fine-homebuilding-california-house/
 
 July 2023 median sales price is **$406,700** which is a 57% increase from the Jan 2020 price of $266,300. **$348,126** Zillow avg home value Sept 2023. Zillow avg for zip 28756 is **$346,379**.
 
@@ -230,8 +240,3 @@ Marvin ( https://marvin.com ) uses butted joing instead of mitered
 
 ---
 
-### Inspiration
-
- - Booken House at Sandhill - https://www.youtube.com/watch?v=co2HYBaB_7A
- - 5894 Highwood Rd, Castro Valley, CA 94552 https://www.zillow.com/homedetails/5894-Highwood-Rd-Castro-Valley-CA-94552/24914789_zpid/
- - Good Haus - Atmosphere Design Build - https://www.atmospheredesignbuild.com/good-haus / https://www.rockwool.com/north-america/advice-and-inspiration/case-studies/2018-fine-homebuilding-california-house/
