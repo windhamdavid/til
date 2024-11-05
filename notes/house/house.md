@@ -1,63 +1,46 @@
 # House
 
-23/08/19 -  I'm going to use this as place to make notes about our house, property, and future properties. We currently live in Greenwood SC and have been here for almost 14 years. I grew up in Columbia, Irmo, and Chapin SC. I spent 16 years in and around Charleston SC. I've lived in some other places short term such as: Bozeman MT, Stowe VT, Keene NH, and Maui HI, but I always seem to return to my roots. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'd like to only move on more time in my lifetime.
+Austin got his name from a rap name generator after being bullied in high school about his appearance. His dad was a DJ in New York before moving to Texas. Learned to play guitar from guitar hero and moved to LA with some friends who streamed Minecraft. 
+
+( 23/08/19 ) I'm going to use this as place to make notes about our house, property, and future build. We currently live in Greenwood SC and have been here for almost 14 years. I grew up not too far from here in Columbia and Chapin. I spent 16 years in and around Charleston SC. I've lived in some other places relatively short term: Bozeman MT, Stowe VT, Keene NH, and Maui HI. I always seem to return to my roots and would't live any other place. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'm hoping to move only **one** more time in my lifetime.
 
 ## Log
 
-- 24/09/27 - [Hurricane Helene ](/notes/house/helene) - repairs from a tree falling on house.
+- 24/11/02 - [remodel master bath](/notes/house/bath) and [move office](/notes/house/studio)  alongside helene repairs.
+- 24/09/27 - [Hurricane Helene](/notes/house/helene) - repairs from a tree falling on house.
 - 24/02/05 - [Studio Project](/notes/house/studio) - move my office downstairs
+- 23/11/01 - [Future Build](/notes/house/build) - started notes on future build
 
----
-
-## Previous Houses
+## Houses
 
 - 2002 - **Carriage** - 17 Franklin Street, Charleston SC
 - 2004 - **Bamboo** - 10450 Old Georgetown Road, McClellanville SC
 - 2009 - **Farm** - 82 Yarborough Road, Trenton SC
-- 2011 - **Wilton** - 104 Wilton Street, Greenwood SC - https://davidawindham.com/wha/wilton/
+- 2011 - **Wilton** - [104 Wilton Street, Greenwood SC](https://davidawindham.com/wha/wilton/)
+- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC ( [photos & renderings](https://davidawindham.com/wha/glenridge/) )
+- ???? - **Build** - [a future build](/notes/house/build)
 
+### Glenridge
 
+![glenridge](/img/glenridge.jpg)
+<div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>☝🏼 full size rendering is @ [/wha/glenridge](https://davidawindham.com/wha/glenridge/#render)</div>
+
+We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( [Gatewood](https://gatewoodclub.com) ) was established on 450 acres in 1973 and is just outside the Greenwood city limits. 
 
 ---
 
-## Current ( 2016 - )
+## Major Projects
 
-- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC
-  - photos & details @ https://davidawindham.com/wha/glenridge/
+### Den Studio
 
-![glenridge](/img/glenridge.jpg)
+- [**notes/house/studio**](/notes/house/studio)
 
-We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( Gatewood - https://gatewoodclub.com ) was established on 450 acres in 1973 and is just outside the Greenwood city limits. 
+### Master Bath
 
-## Projects
-
-### Studio - 2025
-
-See - [notes/house/studio](studio)
-
-### Entry/Garage Doors
-
-- replace entry doors
-  - Anderson Double Oak 3/4 glass - $9,000
-  - Masonite Texture Fiberglass 3/4 glass - $2,500
-    - Oak Skin Pecan finish on the textured Masonite Line 400.
-- replace garage doors
-  - Clopay Fiberglass - Canyon Ridge Carriage House 4-Layer Cypress Medium Finish
-- replace sliding doors (2)upstairs/den
-  - New Sliding Doors for Master / Rec Room
+- [**notes/house/bath**](/notes/house/bath)
 
 
-
-### Master Bath Remodel - 2025
-
-![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
-
-- Bath / Shower / Flooring
-- Dressing Room Cabinetry/Table/Seating
-- Under Floor heating
-
-
-### Kitchen Remodel - 2025
+### Kitchen
 
 - Reconfiguring the bar area cabinetry to the side and remove flat-top grill
 - Install new countertop
@@ -75,60 +58,81 @@ See - [notes/house/studio](studio)
 - ** Tile Flooring/Backsplash - White ( Sneads Greenwood )
 - ** Appliances - GE Stainless Cafe Series ( Steifles Greenwood )
 
+### Dining/Living
+
+- ✅ completed **Oct 2019**
+- photos @ https://davidawindham.com/wha/glenridge/#dining
+- Removing the wall between the formal/informal dining area
+- Rewireing the existing outlets to other locations ( as specified in detailed rendering )
+- Relocating the two existing floor to ceiling cabinets to the garage.
+- Removing the hand railings from the border of the recessed living area
+- Install new hardwood floors in the dining Area
+- Repair border where handrails removed with hardwoood
+- Ceiling: Removing the existing lighting and ceiling fan and installing recessed cans on dimmers
+- Ceiling: Install new recessed cans in Living room.
+- Ceiling: Replace florencents with recessed cans in kitchen
+- Ceiling: wrap crown moulding from living area around dining room.
+- Ceiling: Refinish the ceiling in the kitchen, entrace foyer, living, and dining.
+- Flooring - Dark Stained (Winsor) Oak Parquet from Anderson Flooring (Sneads - - Greenwood)
+- repaint the baseboards, chair rails, walls, and crown moulding
+
+**Interior Paint Colors**
+- Walls: Sherwin Williams Flat Canvas Tan ( SW7531 GS19 )
+- Trim:  Sherwin Williams Gloss - Alabaster ( SW7008 FF04 )
+- Ceiling: Valspar Ultra-flat Ceiling White
+
+## Minor Projects
+
+### Entry Doors
+
+- replace front entry doors
+  - Anderson Double Oak 3/4 glass - $9,000
+  - Masonite Texture Fiberglass 3/4 glass - $2,500
+    - Oak Skin Pecan finish on the textured Masonite Line 400.
+
+### Garage Doors
+
+- replace garage doors
+  - Clopay Fiberglass - Canyon Ridge Carriage House 4-Layer Cypress Medium Finish
+- replace sliding doors (2)upstairs/den
+  - New Sliding Doors for Master / Rec Room
+
+### Exterior Paint
+
+![glenridge](/img/glenridge-paint.jpg)
+
+- ✅ completed **Aug 2018**
+- Sherwin Williams Duration Satin Exterior
+- Main: Grizzle Grey ( SW 7068 ) / Trim: Pewter Tankard ( SW 0023 )
+- Deck Stain: Ready Seal Exterior Stain ( Pecan )
+
+### Asphalt Repair/Seal
+
+- ✅ completed **June 2020**
+
+
+
 ### ToDo / ToDone
 
-- Carpet
-  - Carpeting
-  - New Carpet Upstairs - Feb 2025
-  - New Carpet in Living Room
-  - ** Berber (upstairs - (Sneads Greenwood)
-- Refinish/Repaint Back Lower Deck
-- Convert compactor to compost and add pull out trash bin
-- Replace living fireplace brass with nickel
-- Convert Fireplaces in Rec & Living to Gas
-- Replace Front Lanterns
-- Replace upstairs HVAC condensor unit
-- Remove old Duke Energy meter
-- Remove old telephone wiring
-- Remove Blacktop - Concrete Driveway
-- Trees ( Timberline Tree Service - Troy - (864) 953-0002 )
-  - Remove two stumps from side yard
-  - Remove two pine trees on east side of house
-  - Remove two gum-ball trees from rear yard
-  - Remove gum-ball trees from front yard
-- Landscaping ( see [Garden](/notes/garden) )
-  - Sod/Hedge/Landscaping for side yard
-  - Plant Magnolia where white pine came down
-  - Stone Pathways around west side of house
-- Solar panels for South Facing roofline / Converter / Battery Storage
-- New Roof
-  - Radiant panels under roofline
-- Re-insulate crawl space
-- ~~Add flood lighting in front of garage (McDaniel Electric)~~
-- ~~Remove security sensors from exterior flood lighting~~
-- ~~Remove/Reuse Firewood stack~~
-- ~~Living Room Suite / Chairs from BB~~
-- ~~Clean/Replace all Air exhanges/returns~~
-- ~~Rec Room Project - Remove Pool Table~~
-- ~~pebble/stone underneath deck for kayaks/mower parking~~
-- ~~New Mailbox~~
-- ~~Replace vertical blinds in Living/Dining~~
-- ~~220volt breaker/outlet in garage for electric car charging~~
-- ~~New dishwasher~~
-- ~~front yard landscaping~~
-- ~~fix sliding door in rec room~~
-- ~~replace dying holly shrubs~~
-- ~~repair exterior siding~~
-- ~~remove panel insulation from attic~~
-- ~~paint exterior~~
-- ~~replace chimney/chase~~
-- ~~Add Fiber Optic to home~~
-- ~~Paint Dining/Kitchen~~
-- ~~New Patio set for decks~~
-
----
-
-## Future Build ( 2035 )
-
-We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've moved all of the docs on this over to [notes/house/build](/notes/house/build) and I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/
-
+|Todo|ToDone|
+|--|--|
+|Carpet - upstairs/downstairs|Add flood lighting in front of garage (McDaniel Electric)|
+|Refinish/Repaint Back Lower Deck|Remove security sensors from exterior flood lighting|
+|Refinish/Repaint Back Lower Deck|Remove/Reuse Firewood stack|
+|Convert compactor to compost and add pull out trash bin|New dishwasher|
+|Replace living fireplace brass with nickel|Living Room Suite / Chairs from BB|
+|Convert Fireplaces in Rec & Living to Gas|Clean/Replace all Air exhanges/returns|
+|Replace Front Lanterns|Rec Room Project - Remove Pool Table|
+|Replace upstairs HVAC condensor unit|pebble/stone underneath deck for kayaks/mower parking|
+|Remove old Duke Energy meter|New Mailbox|
+|Remove old telephone wiring|Replace vertical blinds in Living/Dining|
+|Remove Blacktop - Concrete Driveway|220volt breaker/outlet in garage|
+|Landscaping ( see [Garden](/notes/garden) )|fix sliding door in rec room|
+|Trees/stumps,pines,gums|replace dying holly shrubs|
+|Sod/Hedge/Landscaping for side yard|repair exterior siding|
+|Plant Magnolia where white pine came down|remove panel insulation from attic|
+|Stone Pathways around west side of house|paint exterior|
+|Solar panels for South Facing roofline / Converter / Battery Storage|replace chimney/chase|
+|New Roof|Paint Dining/Kitchen|
+|Radiant panels under roofline|Add Fiber Optic to home|
+|Re-insulate crawl space|New Patio set for decks|
