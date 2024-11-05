@@ -4,7 +4,7 @@
 
 **24/10/28** - timeline on this got bumped due to [helene renovations](/posts/hurricane-helene).
 
-**24/02/05** - We decided we're gonna do the master bath remodel ([/notes/house#projects](/notes/house/#projects)) this year, so I'll be migrating my office into the den. We're going to be turning the other office into a dressing room/walk-in closet as part of a bathroom renovation and the better half will be moving into my office.
+**24/02/05** - We decided we're gonna do the master bath remodel ([/notes/house#projects](/notes/house/)) this year, so I'll be migrating my office into the den. We're going to be turning the other office into a dressing room/walk-in closet as part of a bathroom renovation and the better half will be moving into my office.
 
 
 
