@@ -15,7 +15,8 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
-- 11/05 - 🔨 demo for truss measurements
+- 11/06 - 🔨 demo for truss measurements
+- 11/05 - State Farm claim estimate completed
 - 11/02 - Clear out master bed/bath & move downstairs 
 - 10/31 - Truss Engineers on site
 - 10/28 - General contractor on site
@@ -26,6 +27,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 - 10/02 - Inspector safety/damage report 📄
 - 09/29 - Roads cleared 
 - 09/28 - Debris cleared front/drive
+- 09/27 - Trees fell @ 6am
 - 09/27 - 🪫 Power Out 5:30am 
 
 ## Damages
@@ -71,20 +73,24 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Insurance
 
-- 09/27 - Notified agent via text ( Brian Schoch - State Farm Lic: SC-3612609 )
-  - agent responded "I will get the file claimed for you guys this morning"
-- 09/30 - "I don’t see your claim filed yet. Need me to file it for you?"
-  - Claim filed # 40-P833-5X2 ( portal says filed on 9/29 )
-  - Coverage: 400K dwelling, 300K personal property, 120K loss of use
-    - Deductible: $4,005
-- 10/01 - called adjuster assigned in portal ( Mick Kayat ) left message
-- 10/06 - adjuster called and changed in portal ( Evans SaintCome ) 
-  - returned call and left several voicemails
-- 10/09 - spoke with Mr. SaintCome and scheduled appt for 10/28
+- 11/05 - claim estimate completed and added to claims hub portal
+- 11/05 - claims adjuster called
+  - said he was wrapping the estimate
+  - asked about food loss
 - 10/28 - met with claims adjuster ( Jonathan Bonitez Lozano ) 
   - Appt @ 8am but showed up @ 6pm - took notes/photos
   - submitted additional photos to insurance portal / shared damages list
   - "allow 10 days for report" ( workdays would put it @ 11/11 )
+- 10/09 - spoke with Mr. SaintCome and scheduled appt for 10/28
+- 10/06 - adjuster called and changed in portal ( Evans SaintCome ) 
+  - returned call and left several voicemails
+- 10/01 - called adjuster assigned in portal ( Mick Kayat ) left message
+- 09/30 - "I don’t see your claim filed yet. Need me to file it for you?"
+  - Claim filed # 40-P833-5X2 ( portal says filed on 9/29 )
+  - Coverage: 400K dwelling, 300K personal property, 120K loss of use
+    - Deductible: $4,005
+- 09/27 - Notified agent via text ( Brian Schoch - State Farm Lic: SC-3612609 )
+  - agent responded "I will get the file claimed for you guys this morning"
 
 
 ## Contractors
