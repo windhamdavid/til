@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/11/08 - [Nick Galifianakis](/posts/nick-galifianakis)
   - 24/11/06 - [2024 Election](/posts/2024-election)
   - 24/11/02 - [Capital Punishment](/posts/capital-punishment)
   - 24/10/14 - [Maker Taker](/posts/open-source-maker-taker)
