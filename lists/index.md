@@ -11,36 +11,14 @@ toc_min_heading_level: 2
 
 **A list of lists for non-technical stuff.**
 
-**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about the original post. I'm using it as a place to keep some non-technical lists.
+**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about the original post. I'm using it as a place to keep some non-technical lists. **23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
 
-**23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
 
-## TOC
-
-[now](now/now.md)
-| [next](next.md)
-| [todo](todo)
-| [grocery](grocery.md)
-| [shopping](shopping.md)
-| [art](art/art.md)
-| [concepts](concepts.md)
-| [design](design.md)
-| [feeds](feeds.md)
-| [Github stars](stars.md)
-| [Of lists](lists.md)
-| [music](art/music/music.md)
-| [places](places/places.md)
-| [people](people.md)
-| [quotes](quotes.md)
-| [things](things.md)
-| [trivia](trivia.md)
-| [tweets](tweets.md)
-| [quotes](quotes)
-| [wikipedia](wikipedia)
-| [words](words)
 
 ## Log
 
+- 24/11/10 - rework [Todo](/lists/todo) from reminders
+- 24/04/24 - [Words](/lists/words)
 - 24/02/06 - [Github stars](stars)
 - 24/01/27 - [Art/Motion](art/motion) clips 
 - 24/01/16 - [Travel](/lists/travel)
@@ -59,6 +37,37 @@ toc_min_heading_level: 2
 - 22/11/16 - [Music](art/music), [Feeds](feeds), and [Tweets](tweets)
 - 22/07/18 - [Up next](next) as a replacement for bookmarks
 - 22/04/06 - [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
+
+## TOC
+
+[now](now/now.md)
+| [todo](todo)
+| [next](next.md)
+| [grocery](grocery.md)
+| [shopping](shopping.md)
+| [art](art/art.md)
+| [literature](art/lit.md)
+| [motion](art/motion.md)
+| [video](art/video.md)
+| [music](art/music/music.md)
+| [visual](art/visual.md)
+| [concepts](concepts.md)
+| [design](design.md)
+| [feeds](feeds.md)
+| [influence](influence.md)
+| [Github](stars.md)
+| [Of lists](lists.md)
+| [places](places/places.md)
+| [people](people.md)
+| [things](things.md)
+| [travel](travel.md)
+| [trivia](trivia.md)
+| [tweets](tweets.md)
+| [quotes](quotes.md)
+| [wine](wine.md)
+| [quotes](quotes)
+| [wiki](wikipedia)
+| [words](words)
 
 ---
 

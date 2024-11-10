@@ -46,11 +46,11 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'next',
+      id: 'todo',
     },
     {
       type: 'doc',
-      id: 'todo',
+      id: 'next',
     },
     {
       type: 'doc',
@@ -220,11 +220,11 @@ module.exports = {
     },
     {
       type: 'doc',
-      id: 'words',
+      id: 'wikipedia',
     },
     {
       type: 'doc',
-      id: 'wikipedia',
+      id: 'words',
     },
   ],
 };

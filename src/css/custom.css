@@ -113,6 +113,11 @@ article[itemprop="blogPost"] footer {
   margin-top: 1rem !important;
 }
 
+.youtube{
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 form input { 
   box-sizing: border-box;
   margin: 1em 0 2em;

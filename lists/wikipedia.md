@@ -1,4 +1,4 @@
-# Wikipedia
+# Wiki
 
 **23.11.30** - I noticed that I haven't put some of my Wikipedia edits aren't on my user page [(https://en.wikipedia.org/wiki/User:Windhamdavid)](https://en.wikipedia.org/wiki/User:Windhamdavid) so I figured I just add them here so that I have a log and reference to whatever or whomever I was reading about and they'd be indexed for the search and AI here.
 
