@@ -97,7 +97,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 Met with an assortment of contractors and got third party reviews from others before deciding who to engage. We've used some previously and some were backed up from the regional storm damages.
 
-- ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman ( Beth Wells / Anna Timmerman ) - GC Lic. #G114007
+- 👉🏻 ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman ( Beth Wells / Anna Timmerman ) - GC Lic. #G114007 👈🏻
   - ✅ (sub) Roofing Unlimited - https://www.roofingunlimitedandmoreinc.com - Tim 864-378-2360
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
@@ -106,8 +106,9 @@ Met with an assortment of contractors and got third party reviews from others be
   - ??/?? - final inspection of completed work
 - Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget
   - 10/05 - tarped
-- ✅ John Ward Painting - Trey Ward - 864-223-3623
-- ✅ Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484
+- ✅ (sub) Top Coat Painters - John Coates - 864-910-0293
+- ~John Ward Painting - Trey Ward - 864-223-3623~
+- ✅ (sub) Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484
 - ~Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran~
 - ~Blackwater Construction - https://builtbyblackwater.com/ - Bennie McManus~
 - ~Charles & Assoc - https://carepairremodel.com~
