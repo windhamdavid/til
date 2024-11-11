@@ -8,13 +8,11 @@
 
 ### Log
 
-**24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/oc-benefits)
-
-**24.07.14** - nvm - removed node@16 & set v20.15.1 as default
-
-**24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
-
-**23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
+- **24.11.11** - upgraded postgresql@15 to add pgvector for ai retrieval
+- **24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/oc-benefits)
+- **24.07.14** - nvm - removed node@16 & set v20.15.1 as default
+- **24.07.10** - Had a MariaDB meltdown and wrote up a quick summary @ [/posts/mariadb-meltdown](/posts/mariadb-meltdown) as a reference. Switched back to MySQL 8.3
+- **23.11.26** - Vecel bumped their [default Ruby runtime](https://vercel.com/changelog/upgrading-ruby-v2-7-to-v3-2) to v3.2 so I decided to switch out the global on this machine. Had a build error and had to install libyaml manually.
 
 ```bash
 david@ovid🏛 :~/sites/daw_til(main○) » rbenv install 3.2.1
