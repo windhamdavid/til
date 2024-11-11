@@ -15,6 +15,8 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 11/13 - Beth over for measurements
+- 11/11 - subs over for measurements / estimates
 - 11/06 - 🔨 demo for truss measurements
 - 11/05 - State Farm claim estimate completed
 - 11/02 - Clear out master bed/bath & move downstairs 
