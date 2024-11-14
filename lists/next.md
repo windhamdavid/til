@@ -2,11 +2,23 @@
 
 **22/07/06** - I added this page so that I could set reminders of shows, films, podcasts, games, and books I'd like to give me attention to because I'm often trying to remember what it was I wanted to watch on TV.  I wrote a post about it @ [https://davidawindham.com/now-streaming/](https://davidawindham.com/now-streaming/)
 
-**23/05/22** - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same.
+## Log
+
+
+- 24/11/14 - added recurring for easier reference
+- 23/05/22 - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same.
+
+
 
 ---
 
 ## Current
+
+#### TV Series
+
+[Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
+| [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
+| [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
 
 ### Books
 
@@ -45,11 +57,7 @@
 | [The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
 | [Napoleon](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
 
-#### Series
 
-[Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
-| [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
-| [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
 
 #### The 25 Best Films of 2023
 
