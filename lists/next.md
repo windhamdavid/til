@@ -5,8 +5,8 @@
 ## Log
 
 
-- 24/11/14 - added recurring for easier reference
-- 23/05/22 - I've arranged the page so that after it's done, I move it to the bottom and rank it in order. So far, I've done a pretty lack luster job of keeping up, but I had to add some more films from Cannes all the same.
+- 24/11/14 - went looking for new shows and added recurring for easier reference but mainly just wanted to start a workflow using pulls since I'm using the ipad and vscode in github.dev.
+- 23/05/22 - I've arranged the page so that after it's done, I move it to the bottom and rank it in order.
 
 
 
@@ -16,7 +16,9 @@
 
 #### TV Series
 
-[Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
+[The Simpsons](https://en.wikipedia.org/wiki/The_Simpsons)
+| [Saturday Night Live](https://en.wikipedia.org/wiki/Saturday_Night_Live)
+| [Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
 | [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
 | [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
 
