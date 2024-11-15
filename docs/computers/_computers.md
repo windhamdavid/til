@@ -1,5 +1,6 @@
 ### Computers
 
+[Lisa](lisa) |
 [Ovid](ovid) |
 [Macs](macs) |
 [Magic](magic) |

@@ -8,6 +8,32 @@
 
 ### Log
 
+- **24.11.13** - overwrote mysql to v.9 had to reinstall mysql8.4 to match servers.
+
+```sh
+david@ovid🏛 :~ » brew info mysql                                                             130 ↵
+==> mysql: stable 9.0.1 (bottled)
+Open source relational database management system
+https://dev.mysql.com/doc/refman/9.0/en/
+Conflicts with:
+  mariadb (because both install the same binaries)
+  percona-server (because both install the same binaries)
+Installed
+/opt/homebrew/Cellar/mysql/9.0.1_6 (324 files, 308.8MB) *
+  Poured from bottle using the formulae.brew.sh API on 2024-11-11 at 14:33:34
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/m/mysql.rb
+License: GPL-2.0-only WITH Universal-FOSS-exception-1.0
+==> Dependencies
+Build: bison ✘, cmake ✘, pkg-config ✔
+Required: abseil ✔, icu4c@76 ✔, lz4 ✔, openssl@3 ✔, protobuf ✔, zlib ✔, zstd ✔
+==> Caveats
+Upgrading from MySQL <8.4 to MySQL >9.0 requires running MySQL 8.4 first:
+ - brew services stop mysql
+ - brew install mysql@8.4
+ - brew services start mysql@8.4
+ - brew services stop mysql@8.4
+ - brew services start mysql
+```
 - **24.11.11** - upgraded postgresql@15 to add pgvector for ai retrieval
 - **24.07.14** - added [PHP 8.3.9](#languages) and [summarized it](/posts/oc-benefits)
 - **24.07.14** - nvm - removed node@16 & set v20.15.1 as default
