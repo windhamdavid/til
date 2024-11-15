@@ -8,13 +8,10 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 
 ## Extensions
 
-### mine
-
-- Wikipedia Hyperlinker ( windhamdavid )
-
 ### others
 
 - Atom One Dark Theme ( Mahmoud Ali )
+- Azure Repos ( Microsoft )
 - C/C++ ( Microsoft )
 - C/C++ Extension Pack ( Microsoft )
 - C/C++ Themes ( Microsoft )
@@ -25,6 +22,7 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 - Community Material Theme ( equinusocio )
 - CSV to Markdown Table ( Machiore )
 - Debugger for Firefox ( Firefox Dev Tools )
+- Deno ( deno.land )
 - Dev Containers ( Microsoft )
 - Docker ( Microsoft )
 - Edit csv ( janisdd )
@@ -40,6 +38,9 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 - GitLens ( GitKraken )
 - Go ( Go Team at Google )
 - Go Template Support ( jinlimig2 )
+- Grammerly ( Rahul Kadyan )
+- Gutenberg Highlights ( chrisrhymes )
+- HMTL-validate
 - IntelliCode ( Microsoft )
 - IntelliCode API Usage ( Microsoft )
 - isort ( Microsoft )
@@ -65,21 +66,30 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 - md-graph ( Ian J Sikes )
 - MDX ( unified )
 - One Dark Pro ( binaryify )
+- Partial Diff ( Ryuichi Inagaki )
 - PHP Debug ( Xdebug )
 - PHP Intelephense ( Ben Mewburn )
+- Prettier ( Prettier )
 - Pylance ( Microsoft )
 - Python ( Microsoft )
+- Python Debugger ( Microsoft )
 - Rainbow CSV ( mechatroner )
 - React ( Microsoft )
 - React Native ( Microsoft )
 - Remote Explorer ( Microsoft )
 - Remote SSH ( Microsoft )
 - Remote SSH: Editing ( Microsoft )
+- Stylelint ( Stylelint )
 - Rust Analyzer ( The Rust Programming Language )
 - Sunburst Theme ( gerane )
+- Table Editor ( sswatson )
+- Tailwind CSS ( Tailwind Labs )
 - Transmit ( Fabio Spaminato )
-- VIM ( vscodevim )
+- 🔥 Wikpedia Hyperlinker ( windhamdavid 👈🏻 )
+- WordPress Block Markup ( Carolina Nymark )
 - WordPress Hooks IntelliSense ( John Billion )
+- WordPress Syntax Highlighting ( Matthias Hunt )
+- VIM ( vscodevim )
 - YAML ( Red Hat )
 
 

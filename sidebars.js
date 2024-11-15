@@ -55,6 +55,7 @@ module.exports = {
       type: 'category',
       label: 'Frameworks',
       items: [
+        'waf/deno',
         'waf/nextjs',
         'waf/rails',
         'waf/react',
@@ -83,7 +84,7 @@ module.exports = {
       items: [
         'saas/akamai',
         'saas/aws',
-        'saas/github'
+        'saas/github',
         'saas/google',
         'saas/heroku',
         'saas/openai',
