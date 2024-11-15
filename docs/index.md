@@ -41,6 +41,7 @@ I use this library of documents as a quick reference to find technical answers, 
 ### Computers
 
 [Ovid](computers/ovid)
+| [Lisa](computers/lisa)
 | [Macs](computers/macs)
 | [Magic](computers/magic)
 | [Woozer](computers/woozer)
@@ -126,7 +127,8 @@ Django
 | Postman
 | [Illustrator / Photoshop](localhost/adobe)
 | Figma
-| Obsidian
+| Obsidian [Obsidian Copilot](https://www.obsidiancopilot.com/en/docs/vault-qa)
+| Raycast
 | Alfred
 | Pandoc
 
@@ -135,10 +137,10 @@ Django
 [Akamai](saas/akamai)
 | [Now](saas/vercel)
 | [Amazon](saas/aws)
-| Github / CoPilot
+| [Github](saas/github) / CoPilot
 | [Google](saas/google)
 | [Heroku](saas/heroku)
-| Microsoft
+| Microsoft/Azure
 | [OpenAI](saas/openai)
 | [Stripe](saas/stripe)
 | [Supabase](saas/supabase)
