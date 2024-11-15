@@ -8,6 +8,7 @@ module.exports = {
       type: 'category',
       label: 'Computers',
       items: [
+        'computers/lisa',
         'computers/macs',
         'computers/magic',
         'computers/ovid',
@@ -82,6 +83,7 @@ module.exports = {
       items: [
         'saas/akamai',
         'saas/aws',
+        'saas/github'
         'saas/google',
         'saas/heroku',
         'saas/openai',
