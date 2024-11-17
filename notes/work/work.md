@@ -5,6 +5,8 @@
 [clients](clients.md)
 | [projects](projects/index.md)
 | [wealth](wealth.md)
+| [stocks](stocks.md)
+| [trades](trades.md)
 
 
 ## About
