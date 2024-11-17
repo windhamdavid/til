@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 24/11/17 - added [waf/deno](/docs/waf/deno)
 - 24/07/17 - [computers/ovid](/docs/computers/ovid)
 - 24/01/30 - [localhost/Adobe](/docs/localhost/adobe)
 - 23/12/10 - 🗑️ unused /+ new [docs](/docs/)
