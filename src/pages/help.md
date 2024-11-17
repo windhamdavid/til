@@ -38,6 +38,7 @@ gitGraph
     checkout docusaurus
     commit id: "2"  tag: "v2.0"
     commit id: "3.5"  tag: "v3.5"
+    commit id: "3.6.1"  tag: "v3.6"
     checkout main
     merge docusaurus
 ```
@@ -60,11 +61,10 @@ npm run serve
 
 ---
 
-**24/09/02** - upgrades ( 3.4.0 👉🏼 3.5.2 ) all good 👍🏼
-
-**24/07/11** - upgrades ( 3.3.2 👉🏼 3.4.0 ) all good 👍🏼
-
-**24/05/15** - upgrades ( 3.1.1 👉🏼 3.3.2 ) all good 👍🏼
+- **24/11/17** - upgrades ( 3.5.2 👉🏼 3.6.1 ) all good 👍🏼
+- **24/09/02** - upgrades ( 3.4.0 👉🏼 3.5.2 ) all good 👍🏼
+- **24/07/11** - upgrades ( 3.3.2 👉🏼 3.4.0 ) all good 👍🏼
+- **24/05/15** - upgrades ( 3.1.1 👉🏼 3.3.2 ) all good 👍🏼
 
 ```sh
 npm install @docusaurus/core@latest @docusaurus/plugin-content-blog@latest @docusaurus/preset-classic@latest @docusaurus/theme-mermaid@latest --save
