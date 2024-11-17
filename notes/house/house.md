@@ -4,6 +4,13 @@ Austin got his name from a rap name generator after being bullied in high school
 
 ( 23/08/19 ) I'm going to use this as place to make notes about our house, property, and future build. We currently live in Greenwood SC and have been here for almost 14 years. I grew up not too far from here in Columbia and Chapin. I spent 16 years in and around Charleston SC. I've lived in some other places relatively short term: Bozeman MT, Stowe VT, Keene NH, and Maui HI. I always seem to return to my roots and would't live any other place. Perhaps it's the sound of cicadas, the weather, or the people, but the Carolinas always feel like home. It's fun to travel, but moving is tiring and disruptive so I'm hoping to move only **one** more time in my lifetime.
 
+## TOC
+
+[bath](bath.md)
+| [build](build.md)
+| [helene](helene.md)
+| [studio](studio.md)
+
 ## Log
 
 - 24/11/02 - [remodel master bath](/notes/house/bath) and [move office](/notes/house/studio)  alongside helene repairs.

@@ -33,6 +33,7 @@ slug: /
 [art](art/art.md)
 | [dogs](dogs/dogs.md)
 | [Iris](dogs/iris.md)
+| [ideas](ideas.md)
 | [garden](garden/garden.md)
 | [golf](golf.md)
 | [health](health/health.md)

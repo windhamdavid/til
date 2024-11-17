@@ -72,7 +72,8 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ### Frameworks
 
-Django
+| [Deno](waf/deno.md)
+| Django
 | Elixir
 | Ember.js
 | Express.js
