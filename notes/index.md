@@ -38,7 +38,6 @@ slug: /
 | [golf](golf.md)
 | [health](health/health.md)
 | [house](house/house.md)
-| [^personal](personal/personal.md)
 | [tennis](tennis.md)
 | [travel](travel.md)
 | [work](work/work.md)
@@ -46,7 +45,6 @@ slug: /
 | [work/projects](work/projects/ai.md)
 | [work/wealth](work/wealth.md)
 
-( ^ private notes - personal, family, finances, etc. Excluded by `draft` status and `.gitignore` )
 
 ---
 
