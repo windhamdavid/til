@@ -15,7 +15,8 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
-- 11/13 - Beth over for measurements
+- 11/18 - cabinet measurements
+- 11/13 - Beth over for design measurements
 - 11/11 - subs over for measurements / estimates
 - 11/06 - 🔨 demo for truss measurements
 - 11/05 - State Farm claim estimate completed
@@ -75,6 +76,9 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Insurance
 
+- 11/11 - claim settlement arrived in the mail 
+  - spoke with agent who asked for estimate from contractor to adjust claim.
+  - spoke with contractor who said settlement is not accurate asked for another adjuster
 - 11/05 - claim estimate completed and added to claims hub portal
 - 11/05 - claims adjuster called
   - said he was wrapping the estimate
@@ -101,6 +105,7 @@ Met with an assortment of contractors and got third party reviews from others be
 
 - 👉🏻 ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman ( Beth Wells / Anna Timmerman ) - GC Lic. #G114007 👈🏻
   - ✅ (sub) Roofing Unlimited - https://www.roofingunlimitedandmoreinc.com - Tim 864-378-2360
+  - ✅ (sub) Cabinet Design Center - Kenny Tally - https://www.linkedin.com/in/kenny-talley-73ba5688
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
 - ✅ Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller 
