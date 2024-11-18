@@ -105,7 +105,9 @@ Met with an assortment of contractors and got third party reviews from others be
 
 - 👉🏻 ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman ( Beth Wells / Anna Timmerman ) - GC Lic. #G114007 👈🏻
   - ✅ (sub) Roofing Unlimited - https://www.roofingunlimitedandmoreinc.com - Tim 864-378-2360
-  - ✅ (sub) Cabinet Design Center - Kenny Tally - https://www.linkedin.com/in/kenny-talley-73ba5688
+  - ✅ (sub) Cabinet Design Center - Kenny Tally - 864-992-8432/Kennyt128@gmail.com
+    - https://www.linkedin.com/in/kenny-talley-73ba5688
+    - https://www.facebook.com/p/Cabinet-Design-100049049686571/
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
 - ✅ Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller 
