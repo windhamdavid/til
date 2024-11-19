@@ -4,6 +4,21 @@
 
 ---
 
+👉🏼 24.11.19
+
+- [timescale/pgai](https://github.com/timescale/pgai) - A suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL
+- [cmfcmf/docusaurus-search-local](https://github.com/cmfcmf/docusaurus-search-local) - Offline / Local Search for Docusaurus v2.
+- [pluvial/svelte-adapter-deno)](https://github.com/pluvial/svelte-adapter-deno) - A SvelteKit adapter for Deno
+- [denoland/denokv](https://github.com/denoland/denokv) - A self-hosted backend for Deno KV
+- [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin) - ChatGPT Retrieval Plugin lets you easily find personal or work documents by asking questions in natural language
+- [jgaonakm/khw-akamai-connected-cloud](https://github.com/jgaonakm/khw-akamai-connected-cloud) - Bootstrap Kubernetes the hard way on Akamai Connected Cloud. No scripts.
+- [tursodatabase/libsql-js](https://github.com/tursodatabase/libsql-js) - A better-sqlite3 compatible API for libSQL that supports Bun, Deno, and Node
+- [tursodatabase/libsql](https://github.com/tursodatabase/libsql) - libSQL is a fork of SQLite that is both Open Source, and Open Contributions.
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) - A high-quality tool for convert PDF to Markdown and JSON
+- [mem0ai/mem0](https://github.com/mem0ai/mem0) - The Memory layer for your AI apps
+- [christianvoigt/argdown](https://github.com/christianvoigt/argdown) - a simple syntax for complex argumentation
+
+
 👉🏼 24.02.06
 
 - [rossrobino/slab](https://github.com/rossrobino/drab) - Headless custom element library
@@ -14,7 +29,7 @@
 - [gfodor/p2pcf](https://github.com/gfodor/p2pcf) - Low cost, low effort P2P WebRTC serverless signalling
 
 
-👉🏼 **updated 23.12.18**
+👉🏼 23.12.18
 
 - [a-h/templ](https://github.com/a-h/templ) - language for writing HTML user interfaces in Go.
 - [labstack/echo](https://github.com/labstack/echo) - minimalist Go web framework
@@ -22,6 +37,9 @@
 - [mlx](https://github.com/ml-explore/mlx) - MLX: An array framework for Apple silicon
 - [wp-feature-notifications](https://github.com/WordPress/wp-feature-notifications) - a proposal to modernise the way in which WordPress handles emails, admin notices and user notifications
 - [cosmopolitan](https://github.com/jart/cosmopolitan) - build-once run-anywhere c library
+
+👉🏼 < 23.12.18
+
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile)
 - [fun-with-sockets](https://github.com/Momciloo/fun-with-sockets)
 - [multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene)
