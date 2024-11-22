@@ -32,11 +32,15 @@ Austin got his name from a rap name generator after being bullied in high school
 ![glenridge](/img/glenridge.jpg)
 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>☝🏼 full size rendering is @ [/wha/glenridge](https://davidawindham.com/wha/glenridge/#render)</div>
 
-We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( [Gatewood](https://gatewoodclub.com) ) was established on 450 acres in 1973 and is just outside the Greenwood city limits. 
+We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( [Gatewood](https://gatewoodclub.com) ) was established on 450 acres in 1973 and is just outside the Greenwood city limits.
 
 ---
 
 ## Major Projects
+
+Here's 👇🏼 the first sketch I made in 2016 of potential changes.
+
+![glenridge](/img/glenridge-sketch.jpg)
 
 ### Den Studio
 
