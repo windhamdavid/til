@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/11/20 - [Beverly Russell](/posts/beverly-russell)
   - 24/11/17 - [New Pastime](/posts/new-pastime)
   - 24/11/08 - [Nick Galifianakis](/posts/nick-galifianakis)
   - 24/11/06 - [2024 Election](/posts/2024-election)
