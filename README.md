@@ -5,6 +5,12 @@
 
 ## Notes:
 
+- 24/11/23 - dev branch for .devcontainer / codespace
+- 24/11/17 - upgrades ( 3.5.2 👉🏼 3.6.1 ) all good 👍🏼
+  - 3.6 switched to Rust 🦀 rspack, SWC, Lightning CSS for faster builds
+- 24/09/02 - upgrades ( 3.4.0 👉🏼 3.5.2 ) all good 👍🏼
+- 24/07/11 - upgrades ( 3.3.2 👉🏼 3.4.0 ) all good 👍🏼
+- 24/05/15 - upgrades ( 3.1.1 👉🏼 3.3.2 ) all good 👍🏼
 - 24/01/28 - upgrades ( 3.0.1 -> 3.1.1 )
 - 23/12/10 - modified blog layout - log @ [https://davidawindham.com/til/help](https://davidawindham.com/til/help)
 - 23/11/12 - update 2.4.3 👉🏼 3.0.0 and React 17.0.2 👉🏼 18.2.0
