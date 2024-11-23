@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 24/11/23 - [Lisa](/docs/computers/lisa.md)
 - 24/11/18 - [PostgreSQL](/docs/db/PostgreSQL.md) v.17
 - 24/11/17 - added [Deno](/docs/waf/deno)
 - 24/07/17 - [computers/ovid](/docs/computers/ovid)
