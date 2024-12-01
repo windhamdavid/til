@@ -61,6 +61,7 @@ npm run serve
 
 ---
 
+- **24/24/02** - 3.6.1 -> 3.6.3
 - **24/11/17** - upgrades ( 3.5.2 👉🏼 3.6.1 ) all good 👍🏼
   - 3.6 switched to Rust 🦀 [rspack](https://rspack.dev), [SWC](https://swc.rs), [Lightning CSS](https://lightningcss.dev) for faster builds
 - **24/09/02** - upgrades ( 3.4.0 👉🏼 3.5.2 ) all good 👍🏼
