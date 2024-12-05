@@ -4,6 +4,7 @@ module.exports = {
       type:'doc',
       id: 'index',
     },
+
     {
       type: 'html',
       value: '<span style="border-top: 1px solid var(--ifm-color-gray-500); display: block;margin: 1rem 0 1rem 0;" />',
@@ -51,14 +52,6 @@ module.exports = {
     {
       type: 'doc',
       id: 'next',
-    },
-    {
-      type: 'doc',
-      id: 'grocery',
-    },
-    {
-      type: 'doc',
-      id: 'shopping',
     },
     {
       type: 'html',
@@ -141,6 +134,21 @@ module.exports = {
       id: 'feeds',
     },
     {
+      type: 'category',
+      label: 'Food',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'food',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'grocery',
+        },
+      ],
+    },  
+    {
       type: 'doc',
       id: 'influence',
     },
@@ -181,6 +189,10 @@ module.exports = {
     {
       type: 'doc',
       id: 'people',
+    },
+    {
+      type: 'doc',
+      id: 'shopping',
     },
     {
       type: 'doc',
