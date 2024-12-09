@@ -6,6 +6,8 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/12/09 - [Wikipedia Link](/posts/wikipedia-link)
+  - 24/12/01 - [Working on an iPad](/posts/working-ipad)
   - 24/11/27 - [Thanksgiving](/posts/thanksgiving)
   - 24/11/22 - [Github Codespaces](/posts/github-codespaces)
   - 24/11/22 - [George Singleton](/posts/george-singleton)
