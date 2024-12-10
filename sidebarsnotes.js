@@ -78,12 +78,25 @@ module.exports = {
       type:'category',
       label:'House',
       collapsible: true,
+      collapsed: true,
       link: {      
         type:'doc',
         id:'house/house',
       },
       items: [
-        'house/helene',
+        {
+          type:'category',
+          label:'Hurricane Helene',
+          link: {
+            type:'doc',
+            id:'house/helene',
+          },
+          items: [
+            'house/helene-ins',
+            'house/helene-ins-adjust',
+            'house/helene-ins-sum',
+          ]
+        },
         'house/studio',
         'house/bath',
         'house/build',
