@@ -2073,15 +2073,17 @@ Hail</td>
 <td>**Quantity**</td>
 <td>**Unit**</td>
 <td>**Price**</td>
-<td>**Total**</td>
-<td>**Cost**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr>
+<td colspan="5">**CONT: GARMENT & SOFT GOODS CLN**</td>
 </tr>
 </tbody>
 </table>
 
 ###      
 
-**CONT: GARMENT & SOFT GOODS CLN**
+
 
 **CONTENT MANIPULATION**
 
