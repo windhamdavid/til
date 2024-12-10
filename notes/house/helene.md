@@ -7,14 +7,17 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ![](/img/helene-1.jpg)
 
-**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
-
 <div class="responsive-image-right">
 ![](/img/helene.jpg)
 </div>
 
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+
+
+
 ## Log
 
+- 12/06 - truss manufacturer backlogged - two months out from measurements
 - 11/18 - cabinet measurements
 - 11/13 - Beth over for design measurements
 - 11/11 - subs over for measurements / estimates
@@ -75,6 +78,8 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 
 ## Insurance
+
+**Insurances Notes** @ - [/notes/house/helene-insurance](/notes/house/helene-ins)
 
 - 11/11 - claim settlement arrived in the mail 
   - spoke with agent who asked for estimate from contractor to adjust claim.
