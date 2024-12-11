@@ -8,7 +8,7 @@ hide_table_of_contents: false
 # Insurance Adjuster Report
 
 :::info
-24/12/09 - Converted the [original PDF](https://davidawindham.com/wha/Helene-State-Farm-Adjuster-Report.pdf) 📄 using pandoc to Markdown but left tables in HTML format because they're easier to convert. I made a couple adjustments to the headers and added page breaks so that it's easier to navigate.
+24/12/09 - Converted the [original PDF](https://davidawindham.com/wha/helene/Helene-State-Farm-Adjuster-Report.pdf) 📄 using pandoc to Markdown but left tables in HTML format because they're easier to convert. I made a couple adjustments to the headers and added page breaks so that it's easier to navigate.
 :::
 
 ---
@@ -1786,7 +1786,7 @@ Pages 13-15
 <td>0.00</td>
 <td>0.00</td>
 </tr>
-<tr>
+<tr style={{ borderTop: "2px solid" }}>
 <td>**Total**</td>
 <td>0.00</td>
 <td>0.00</td>
@@ -2054,7 +2054,7 @@ Hail</td>
 <td></td>
 <td></td>
 </tr>
-<tr>
+<tr style={{ borderTop: "2px solid" }}>
 <td>**Total**</td>
 <td></td>
 <td>**14,181.69**</td>
@@ -2075,148 +2075,271 @@ Hail</td>
 <td>**Price**</td>
 <td>**Total Cost**</td>
 </tr>
-<tr>
+<tr style={{ borderTop: "2px solid" }}>
 <td colspan="5">**CONT: GARMENT & SOFT GOODS CLN**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>**Miscellaneous:**</td>
+<td>8.25</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**8.25**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**CONTENT MANIPULATION**</td>
+</tr>
+<tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>General Laborer</td>
+<td>2.20 HR</td>
+<td>55.000</td>
+<td>121.18*</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>**Labor:**</td>
+<td>121.18</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**121.18**</td>
 </tr>
 </tbody>
 </table>
 
-###      
-
-
-
-**CONTENT MANIPULATION**
-
-Contractor Labor -
-
-**Miscellaneous: 8.25**
-
-**CONT: GARMENT & SOFT GOODS CLN Subtotal: 8.25**
-
-General Laborer 2.20 HR 55.000 121.18\*
-
-**GENERAL DEMOLITION**
-
-Contractor Labor -
-
-**Labor: 121.18**
-
-**CONTENT MANIPULATION Subtotal: 121.18**
-
-Demolition Laborer 1.99 HR 55.000 109.69\*
-
-Demolition Laborer 48.00 HR 48.580 2,331.84
-
-**Labor: 2,441.53**
+### Demolition
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**GENERAL DEMOLITION**</td>
+</tr>
+<tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Demolition Laborer</td>
+<td>1.99 HR</td>
+<td>55.000</td>
+<td>109.69*</td>
+</tr>
+<tr>
+<td></td>
+<td>Demolition Laborer</td>
+<td>48.00 HR</td>
+<td>48.580</td>
+<td>2,331.84</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**2,441.53**</td>
+</tr>
+<tr>
+<td colspan="5">Equipment -</td>
+</tr>
+<tr>
+<td></td>
 <td>Chipper/shredder - 6" to 8" - trailer</td>
 <td>1.00 DA</td>
 <td>249.000</td>
 <td>248.99*</td>
 </tr>
 <tr>
+<td></td>
 <td>Single axle dump truck</td>
 <td>0.20 WK</td>
 <td>995.000</td>
 <td>198.99*</td>
 </tr>
 <tr>
+<td></td>
 <td>Bucket truck - 50'-60' reach</td>
 <td>1.00 DA</td>
 <td>625.570</td>
 <td>625.54*</td>
 </tr>
 <tr>
+<td></td>
 <td>Tandem axle dump trailer</td>
 <td>0.04 WK</td>
 <td>608.000</td>
 <td>23.75*</td>
 </tr>
 <tr>
+<td></td>
 <td>Landfill charge - per ton</td>
 <td>1.67 TN</td>
 <td>51.000</td>
 <td>85.00*</td>
 </tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Equipment:**</td>
+<td style={{ borderTop: "2px solid" }}>**1,182.27**</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**3,623.80**</td>
+</tr>
 </tbody>
 </table>
 
-Equipment -
-
-**DOORS**
-
-Material -
-
-**Equipment: 1,182.27 GENERAL DEMOLITION Subtotal: 3,623.80**
-
-Liquid foam sealant for doors, windows, etc. - 24 oz. can 0.18 EA 19.171
-3.51\* Storm door assembly - Standard grade 1.00 EA 155.130 155.13
-
-**Material: 158.64**
+### Doors
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**DOORS**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
+<td>Liquid foam sealant for doors, windows, etc. - 24 oz. can</td>
+<td>0.18 EA</td>
+<td>19.171</td>
+<td>3.51\*</td>
+</tr>
+<tr>
+<td></td>
+<td>Storm door assembly - Standard grade</td>
+<td>1.00 EA</td>
+<td>155.130</td>
+<td>155.13</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**158.64**</td>
+</tr>
+<tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.39 HR</td>
 <td>55.000</td>
 <td>21.42*</td>
 </tr>
 <tr>
+<td></td>
 <td>Carpenter - Finish, Trim/Cabinet</td>
 <td>4.72 HR</td>
 <td>75.000</td>
 <td>354.00</td>
 </tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**375.42**</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**534.06**</td>
+</tr>
 </tbody>
 </table>
 
-Contractor Labor -
+Date: 11/5/2024 5:09 PM  
+Pages 17-18
 
-**DRYWALL**
+---
 
-Material -
-
-**Labor: 375.42**
-
-**DOORS Subtotal: 534.06**
+### Drywall
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**DRYWALL**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Drywall screws - grabber - (based on 25 to 50 lb box)</td>
 <td>0.06 LB</td>
 <td>3.716</td>
 <td>0.24*</td>
 </tr>
 <tr>
+<td></td>
 <td>Gypsum board, 1/2"</td>
 <td>14.19 SF</td>
 <td>0.500</td>
 <td>7.09*</td>
 </tr>
 <tr>
+<td></td>
 <td>Metal corner bead</td>
 <td>0.67 LF</td>
 <td>0.520</td>
 <td>0.35</td>
 </tr>
 <tr>
+<td></td>
 <td>Drywall joint compound - 50 lb box</td>
 <td>0.14 BX</td>
 <td>16.916</td>
 <td>2.33*</td>
 </tr>
 <tr>
+<td></td>
 <td>Drywall nails (based on 25 to 50 lb box)</td>
 <td>0.03 LB</td>
 <td>2.132</td>
 <td>0.06</td>
 </tr>
 <tr>
+<td></td>
 <td>Joint tape - 500' roll</td>
 <td>0.01 RL</td>
 <td>8.165</td>
@@ -2224,49 +2347,85 @@ Material -
 </tr>
 <tr>
 <td></td>
-<td>**Material:**</td>
-<td>**10.14**</td>
 <td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**10.14**</td>
 </tr>
 <tr>
-<td>Contractor Labor -
-Demolition Laborer</td>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Demolition Laborer</td>
 <td>0.11 HR</td>
 <td>55.000</td>
 <td>6.12*</td>
 </tr>
 <tr>
+<td></td>
 <td>Drywall Installer/Finisher</td>
 <td>0.44 HR</td>
 <td>90.000</td>
 <td>39.72*</td>
 </tr>
 <tr>
+<td></td>
 <td>Labor for Drywall labor minimum</td>
 <td>1.00 EA</td>
 <td>359.560</td>
 <td>359.56</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**405.40**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**415.54**</td>
+</tr>
 </tbody>
 </table>
 
-**FLOOR COVERING - CARPET**
+### Floor Covering - Carpet
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**FLOOR COVERING - CARPET**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Carpet - High grade - Allowance</td>
 <td>216.02 SF</td>
 <td>4.850</td>
 <td>1,047.70</td>
 </tr>
 <tr>
+<td></td>
 <td>Carpet tackless strip - 400 lf/box</td>
 <td>0.14 BX</td>
 <td>41.039</td>
 <td>5.94*</td>
 </tr>
 <tr>
+<td></td>
 <td>Carpet seaming tape - 66 lf per roll</td>
 <td>0.43 RL</td>
 <td>16.024</td>
@@ -2275,17 +2434,22 @@ Demolition Laborer</td>
 <tr>
 <td></td>
 <td></td>
-<td>**Material:**</td>
-<td>**1,060.56**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**1,060.56**</td>
 </tr>
 <tr>
-<td>Contractor Labor -
-Flooring Installer</td>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Flooring Installer</td>
 <td>2.19 HR</td>
 <td>76.000</td>
 <td>166.32*</td>
 </tr>
 <tr>
+<td></td>
 <td>Labor for Carpet labor minimum</td>
 <td>1.00 EA</td>
 <td>61.910</td>
@@ -2294,60 +2458,94 @@ Flooring Installer</td>
 <tr>
 <td></td>
 <td></td>
-<td>**Labor:**</td>
-<td>**228.23**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**228.23**</td>
 </tr>
 <tr>
-<td>Equipment -
-Carpet power stretcher</td>
+<td colspan="5">Equipment -</td>
+</tr>
+<tr>
+<td></td>
+<td>Carpet power stretcher</td>
 <td>0.31 DA</td>
 <td>40.000</td>
 <td>12.33*</td>
 </tr>
 <tr>
+<td></td>
 <td>Carpet seaming iron</td>
 <td>0.31 DA</td>
 <td>16.069</td>
 <td>4.95*</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Equipment:**</td>
+<td style={{ borderTop: "2px solid" }}>**17.28**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**1,306.07**</td>
+</tr>
 </tbody>
 </table>
 
-Material -
-
-**Labor: 405.40**
-
-**DRYWALL Subtotal: 415.54**
-
-**INSULATION**
+### Insulation
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**INSULATION**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Blown in insulation - Per 30 lb bag</td>
 <td>0.14 BG</td>
 <td>53.636</td>
 <td>7.56*</td>
 </tr>
 <tr>
-<td>Contractor Labor -</td>
 <td></td>
-<td>**Material:**</td>
-<td>**7.56**</td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**7.56**</td>
 </tr>
 <tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.20 HR</td>
 <td>55.000</td>
 <td>11.16*</td>
 </tr>
 <tr>
+<td></td>
 <td>Insulation Installer</td>
 <td>0.05 HR</td>
 <td>67.240</td>
 <td>3.48*</td>
 </tr>
 <tr>
+<td></td>
 <td>Labor for Insulation labor minimum</td>
 <td>1.00 EA</td>
 <td>153.470</td>
@@ -2356,95 +2554,125 @@ Material -
 <tr>
 <td></td>
 <td></td>
-<td>**Labor:**</td>
-<td>**168.11**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**168.11**</td>
 </tr>
 <tr>
-<td>Equipment -</td>
-<td></td>
-<td></td>
-<td></td>
+<td colspan="5">Equipment -</td>
 </tr>
 <tr>
+<td></td>
 <td>Insulation blower</td>
 <td>0.01 DA</td>
 <td>90.000</td>
 <td>0.60*</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Equipment:**</td>
+<td style={{ borderTop: "2px solid" }}>**0.60**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**176.27**</td>
+</tr>
 </tbody>
 </table>
 
-Material -
 
-**Equipment: 17.28**
+Date: 11/5/2024 5:09 PM  
+Pages 19
 
-**FLOOR COVERING - CARPET Subtotal: 1,306.07**
+---
 
-**PAINTING**
-
-Material -
-
-**Equipment: 0.60**
-
-**INSULATION Subtotal: 176.27**
+### Painting
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**PAINTING**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Latex paint</td>
 <td>0.30 GL</td>
 <td>53.397</td>
 <td>15.96*</td>
 </tr>
 <tr>
+<td></td>
 <td>Painter's putty</td>
 <td>0.02 GL</td>
 <td>26.480</td>
 <td>0.42*</td>
 </tr>
 <tr>
+<td></td>
 <td>160 - 180 grit sandpaper - per sheet</td>
 <td>0.22 SH</td>
 <td>1.030</td>
 <td>0.23</td>
 </tr>
 <tr>
+<td></td>
 <td>PVA - latex drywall primer/sealer</td>
 <td>0.05 GL</td>
 <td>19.410</td>
 <td>1.01*</td>
 </tr>
 <tr>
+<td></td>
 <td>Plastic, 4 mil - 12' x 100' roll</td>
 <td>0.04 RL</td>
 <td>62.135</td>
 <td>2.26*</td>
 </tr>
 <tr>
+<td></td>
 <td>Masking/painter's tape, 3/4" x 60 yard roll</td>
 <td>0.17 RL</td>
 <td>4.800</td>
 <td>0.80*</td>
 </tr>
 <tr>
+<td></td>
 <td>Masking paper, 12" roll</td>
 <td>0.22 RL</td>
 <td>4.810</td>
 <td>1.06</td>
 </tr>
 <tr>
+<td></td>
 <td>Exterior sealer</td>
 <td>0.13 GL</td>
 <td>38.980</td>
 <td>5.17*</td>
 </tr>
 <tr>
+<td></td>
 <td>Caulking - acrylic</td>
 <td>0.18 TB</td>
 <td>3.991</td>
 <td>0.73*</td>
 </tr>
 <tr>
+<td></td>
 <td>Exterior latex</td>
 <td>0.34 GL</td>
 <td>63.075</td>
@@ -2453,54 +2681,91 @@ Material -
 <tr>
 <td></td>
 <td></td>
-<td>**Material:**</td>
-<td>**48.79**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**48.79**</td>
 </tr>
 <tr>
-<td>Contractor Labor -
-Painter</td>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Painter</td>
 <td>2.61 HR</td>
 <td>93.000</td>
 <td>243.08*</td>
 </tr>
 <tr>
+<td></td>
 <td>Labor for Painting labor minimum</td>
 <td>1.00 EA</td>
 <td>36.200</td>
 <td>36.20</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**279.28**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**328.07**</td>
+</tr>
 </tbody>
 </table>
 
-**ROOFING**
+### Roofing
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**ROOFING**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>1 1/4" roofing nails, (based on 50 lb box)</td>
 <td>5.68 LB</td>
 <td>1.914</td>
 <td>10.88*</td>
 </tr>
 <tr>
+<td></td>
 <td>Laminated - comp. shingle</td>
 <td>2.84 SQ</td>
 <td>108.990</td>
 <td>309.78*</td>
 </tr>
 <tr>
+<td></td>
 <td>Roofing cement - per tube</td>
 <td>24.51 EA</td>
 <td>7.026</td>
 <td>172.24*</td>
 </tr>
 <tr>
+<td></td>
 <td>8d smooth box nails, (based on 50 lb box)</td>
 <td>0.49 LB</td>
 <td>1.300</td>
 <td>0.64</td>
 </tr>
 <tr>
+<td></td>
 <td>Sheathing - plywood - 1/2" CDX per specs from ind mat
 source</td>
 <td>1.11 SH</td>
@@ -2510,48 +2775,70 @@ source</td>
 <tr>
 <td></td>
 <td></td>
-<td>**Material:**</td>
-<td>**493.54**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**493.54**</td>
 </tr>
 <tr>
-<td>Contractor Labor -
-Roofer</td>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Roofer</td>
 <td>36.85 HR</td>
 <td>115.000</td>
 <td>4,237.70*</td>
 </tr>
 <tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.40 HR</td>
 <td>55.000</td>
 <td>21.76*</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**4,259.46**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal::**</td>
+<td style={{ borderTop: "2px solid" }}>**4,753.00**</td>
+</tr>
 </tbody>
 </table>
 
-Material -
-
-**Labor: 279.28**
-
-**PAINTING Subtotal: 328.07**
-
-**SIDING**
-
-Material -
-
-**Labor: 4,259.46**
-
-**ROOFING Subtotal: 4,753.00**
+### Siding
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**SIDING**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>6d stainless steel siding nails</td>
 <td>0.16 LB</td>
 <td>7.400</td>
 <td>1.20*</td>
 </tr>
 <tr>
+<td></td>
 <td>Siding - beveled - wood (clapboard) - per ind. mat.
 source</td>
 <td>22.22 SF</td>
@@ -2561,42 +2848,70 @@ source</td>
 <tr>
 <td></td>
 <td></td>
-<td>**Material:**</td>
-<td>**1.20**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**1.20**</td>
 </tr>
 <tr>
-<td>Contractor Labor -
-Siding Installer</td>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
+<td>Siding Installer</td>
 <td>0.73 HR</td>
 <td>85.000</td>
 <td>61.80*</td>
 </tr>
 <tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.19 HR</td>
 <td>55.000</td>
 <td>10.40*</td>
 </tr>
 <tr>
+<td></td>
 <td>Labor for Siding labor minimum</td>
 <td>1.00 EA</td>
 <td>132.300</td>
 <td>132.30</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**204.50**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal::**</td>
+<td style={{ borderTop: "2px solid" }}>**205.70**</td>
+</tr>
 </tbody>
 </table>
 
-**SOFFIT, FASCIA, & GUTTER**
-
-Material -
-
-**Labor: 204.50**
-
-**SIDING Subtotal: 205.70**
+### Soffit, Fascia, & Gutter
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**SOFFIT, FASCIA, & GUTTER**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Silicone caulk - 10 oz tube</td>
 <td>0.32 TB</td>
 <td>11.991</td>
@@ -2604,6 +2919,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Gutter/downspout - aluminum</td>
 <td>33.33 LF</td>
 <td>4.493</td>
@@ -2611,6 +2927,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Gutter hanging bracket - aluminum</td>
 <td>5.00 EA</td>
 <td>2.050</td>
@@ -2618,6 +2935,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Gutter guard/screen - Premium grade</td>
 <td>55.00 LF</td>
 <td>6.420</td>
@@ -2625,6 +2943,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>AC plywood - 1/4" - G1S</td>
 <td>0.42 SH</td>
 <td>48.669</td>
@@ -2632,18 +2951,12 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>4d finish nails (based on 5 lb box)</td>
 <td>0.08 LB</td>
 <td>3.098</td>
 <td>0.26*</td>
 <td></td>
-</tr>
-<tr>
-<td>**Items**</td>
-<td></td>
-<td>**Quantity**</td>
-<td>**Unit Price**</td>
-<td>**Total Cost**</td>
 </tr>
 <tr>
 <td></td>
@@ -2653,13 +2966,17 @@ Material -
 <td>7.03*</td>
 </tr>
 <tr>
-<td>Contractor Labor -</td>
 <td></td>
-<td>**Material:**</td>
-<td>**544.50**</td>
 <td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**544.50**</td>
 </tr>
 <tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
 <td>Siding Installer</td>
 <td>0.96 HR</td>
 <td>85.000</td>
@@ -2667,6 +2984,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.19 HR</td>
 <td>55.000</td>
@@ -2674,6 +2992,7 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Siding Installer</td>
 <td>8.83 HR</td>
 <td>81.110</td>
@@ -2681,50 +3000,82 @@ Material -
 <td></td>
 </tr>
 <tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>1.04 HR</td>
 <td>48.580</td>
 <td>50.75*</td>
 <td></td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**858.96**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal::**</td>
+<td style={{ borderTop: "2px solid" }}>**1,403.46**</td>
+</tr>
 </tbody>
 </table>
 
-**WINDOWS - ALUMINUM**
+Date: 11/5/2024 5:09 PM  
+Pages 20
 
-Material -
+---
 
-**Labor: 858.96**
-
-**SOFFIT, FASCIA, & GUTTER Subtotal: 1,403.46**
+### Windows - Aluminum
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**WINDOWS - ALUMINUM**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Silicone caulk - 10 oz tube</td>
 <td>1.24 TB</td>
 <td>11.991</td>
 <td>14.85*</td>
 </tr>
 <tr>
+<td></td>
 <td>Wood shims</td>
 <td>0.21 BN</td>
 <td>4.310</td>
 <td>0.91</td>
 </tr>
 <tr>
+<td></td>
 <td>Window flashing - 300 ft roll</td>
 <td>0.07 RL</td>
 <td>44.000</td>
 <td>3.23*</td>
 </tr>
 <tr>
+<td></td>
 <td>Drywall screws - grabber - (based on 25 to 50 lb box)</td>
 <td>0.13 LB</td>
 <td>3.716</td>
 <td>0.47*</td>
 </tr>
 <tr>
+<td></td>
 <td>Liquid foam sealant for doors, windows, etc. - 24 oz.
 can</td>
 <td>0.20 EA</td>
@@ -2732,12 +3083,14 @@ can</td>
 <td>3.83</td>
 </tr>
 <tr>
+<td></td>
 <td>Wood screw - #10 x 2", 1 lb box</td>
 <td>0.21 BX</td>
 <td>9.150</td>
 <td>1.93*</td>
 </tr>
 <tr>
+<td></td>
 <td>Aluminum window - horiz. slider, 12-23 SF (single glz.
 XO)</td>
 <td>1.00 EA</td>
@@ -2745,6 +3098,7 @@ XO)</td>
 <td>185.62</td>
 </tr>
 <tr>
+<td></td>
 <td>Quarter round, 3/4"</td>
 <td>18.80 LF</td>
 <td>0.956</td>
@@ -2753,80 +3107,115 @@ XO)</td>
 <tr>
 <td></td>
 <td></td>
+<td></td>
 <td>**Material:**</td>
 <td>**228.81**</td>
 </tr>
 <tr>
-<td>ntractor Labor -
-Demolition Laborer 0.50 HR 55.000 27.41*</td>
-<td></td>
-<td></td>
-<td></td>
+<td colspan="5">Contractor Labor -</td>
 </tr>
 <tr>
+<td></td>
+<td>Demolition Laborer</td>
+<td>0.50 HR</td>
+<td>55.000</td>
+<td>27.41*</td>
+</tr>
+<tr>
+<td></td>
 <td>Carpenter - Mechanic</td>
 <td>3.87 HR</td>
 <td>75.000</td>
 <td>290.49*</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**317.90**</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal::**</td>
+<td style={{ borderTop: "2px solid" }}>**546.71**</td>
+</tr>
 </tbody>
 </table>
 
-Co
-
-**WINDOWS - WOOD**
-
-Material -
-
-**Labor: 317.90**
-
-**WINDOWS - ALUMINUM Subtotal: 546.71**
+### Windows - Wood
 
 <table>
 <tbody>
 <tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**WINDOWS - WOOD**</td>
+</tr>
+<tr>
+<td colspan="5">Material -</td>
+</tr>
+<tr>
+<td></td>
 <td>Silicone caulk - 10 oz tube</td>
 <td>0.37 TB</td>
 <td>11.991</td>
 <td>4.44</td>
 </tr>
 <tr>
+<td></td>
 <td>Wood shims</td>
 <td>0.13 BN</td>
 <td>4.310</td>
 <td>0.57*</td>
 </tr>
 <tr>
+<td></td>
 <td>Window flashing - 300 ft roll</td>
 <td>0.05 RL</td>
 <td>44.000</td>
 <td>2.34*</td>
 </tr>
 <tr>
+<td></td>
 <td>8d galvanized nails, (based on 50 lb box)</td>
 <td>0.13 LB</td>
 <td>2.490</td>
 <td>0.33*</td>
 </tr>
 <tr>
+<td></td>
 <td>Wood window - casement - 3-11 sf</td>
 <td>1.00 EA</td>
 <td>399.560</td>
 <td>399.56</td>
 </tr>
 <tr>
-<td>Contractor Labor -</td>
 <td></td>
-<td>**Material:**</td>
-<td>**407.24**</td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Material:**</td>
+<td style={{ borderTop: "2px solid" }}>**407.24**</td>
 </tr>
 <tr>
+<td colspan="5">Contractor Labor -</td>
+</tr>
+<tr>
+<td></td>
 <td>Demolition Laborer</td>
 <td>0.75 HR</td>
 <td>55.000</td>
 <td>41.12*</td>
 </tr>
 <tr>
+<td></td>
 <td>Carpenter - Mechanic</td>
 <td>1.38 HR</td>
 <td>75.000</td>
@@ -2835,17 +3224,42 @@ Material -
 <tr>
 <td></td>
 <td></td>
-<td>**Labor:**</td>
-<td>**144.49**</td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Labor:**</td>
+<td style={{ borderTop: "2px solid" }}>**144.49**</td>
 </tr>
 <tr>
 <td></td>
-<td>**WINDOWS - WOOD**</td>
-<td>**Subtotal:**</td>
-<td>**551.73**</td>
+<td></td>
+<td style={{ borderTop: "2px solid" }}></td>
+<td style={{ borderTop: "2px solid" }}>**Subtotal:**</td>
+<td style={{ borderTop: "2px solid" }}>**551.73**</td>
+</tr>
+</tbody>
+</table>
+
+Date: 11/5/2024 5:09 PM  
+Pages 21
+
+---
+
+### Totals
+
+<table>
+<tbody>
+<tr>
+<td>**Items**</td>
+<td>**Quantity**</td>
+<td>**Unit**</td>
+<td>**Price**</td>
+<td>**Total Cost**</td>
+</tr>
+<tr style={{ borderTop: "2px solid" }}>
+<td colspan="5">**TOTALS**</td>
 </tr>
 <tr>
 <td>**Material**</td>
+<td></td>
 <td></td>
 <td></td>
 <td>**2,960.98**</td>
@@ -2854,10 +3268,12 @@ Material -
 <td>**Labor**</td>
 <td></td>
 <td></td>
+<td></td>
 <td>**9,804.46**</td>
 </tr>
 <tr>
 <td>**Equipment**</td>
+<td></td>
 <td></td>
 <td></td>
 <td>**1,200.15**</td>
@@ -2866,16 +3282,12 @@ Material -
 <td>**Miscellaneous**</td>
 <td></td>
 <td></td>
+<td></td>
 <td>**8.25**</td>
 </tr>
 <tr>
-<td>**Items**</td>
-<td>**Quantity**</td>
-<td>**Unit Price**</td>
-<td>**Total Cost**</td>
-</tr>
-<tr>
 <td>**Subtotal**</td>
+<td></td>
 <td></td>
 <td></td>
 <td>**13,973.84**</td>
@@ -2884,16 +3296,19 @@ Material -
 <td>Material Sales Tax</td>
 <td></td>
 <td></td>
+<td></td>
 <td>207.27</td>
 </tr>
 <tr>
 <td>Laundry &amp; D/C Tax</td>
 <td></td>
 <td></td>
+<td></td>
 <td>0.58</td>
 </tr>
 <tr>
 <td>**Total**</td>
+<td></td>
 <td></td>
 <td></td>
 <td>**14,181.69**</td>
