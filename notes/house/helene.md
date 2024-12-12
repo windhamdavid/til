@@ -7,17 +7,18 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ![](/img/helene-1.jpg)
 
+
+
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+
 <div class="responsive-image-right">
 ![](/img/helene.jpg)
 </div>
 
-**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
-
-
-
 ## Log
 
-- 12/06 - truss manufacturer backlogged - two months out from measurements
+- 12/06 - truss manufacturer backlogged 
+  - was told "12 weeks out"
 - 11/18 - cabinet measurements
 - 11/13 - Beth over for design measurements
 - 11/11 - subs over for measurements / estimates
@@ -79,29 +80,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Insurance
 
-**Insurances Notes** @ - [/notes/house/helene-insurance](/notes/house/helene-ins)
-
-- 11/11 - claim settlement arrived in the mail 
-  - spoke with agent who asked for estimate from contractor to adjust claim.
-  - spoke with contractor who said settlement is not accurate asked for another adjuster
-- 11/05 - claim estimate completed and added to claims hub portal
-- 11/05 - claims adjuster called
-  - said he was wrapping the estimate
-  - asked about food loss
-- 10/28 - met with claims adjuster ( Jonathan Bonitez Lozano ) 
-  - Appt @ 8am but showed up @ 6pm - took notes/photos
-  - submitted additional photos to insurance portal / shared damages list
-  - "allow 10 days for report" ( workdays would put it @ 11/11 )
-- 10/09 - spoke with Mr. SaintCome and scheduled appt for 10/28
-- 10/06 - adjuster called and changed in portal ( Evans SaintCome ) 
-  - returned call and left several voicemails
-- 10/01 - called adjuster assigned in portal ( Mick Kayat ) left message
-- 09/30 - "I don’t see your claim filed yet. Need me to file it for you?"
-  - Claim filed # 40-P833-5X2 ( portal says filed on 9/29 )
-  - Coverage: 400K dwelling, 300K personal property, 120K loss of use
-    - Deductible: $4,005
-- 09/27 - Notified agent via text ( Brian Schoch - State Farm Lic: SC-3612609 )
-  - agent responded "I will get the file claimed for you guys this morning"
+**Insurances Notes** @ - [/notes/house/helene-insurance](/notes/house/helene-ins) 👈🏻
 
 
 ## Contractors

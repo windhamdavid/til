@@ -58,10 +58,6 @@ module.exports = {
       ]
     },
     {
-      type:'doc',
-      id:'golf',
-    },
-    {
       type:'category',
       label:'Health',
       collapsible: true,
@@ -107,8 +103,17 @@ module.exports = {
       id:'ideas',
     },
     {
-      type:'doc',
-      id:'tennis',
+      type:'category',
+      label:'Play',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'play/play',
+      },
+      items: [
+        'play/golf',
+        'play/tennis',
+      ]
     },
     {
       type:'doc',
