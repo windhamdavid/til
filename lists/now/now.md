@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **24/12/12** - 🏠 [repairs](/notes/house/helene) / [insurance](/notes/house/helene-ins-adjust), rehab'ing a 🏥 [injury](/notes/play/tennis), & holiday 🎄 travel
 - **24/10/10** - [Hurricane Helene](/posts/hurricane-helene) 🌪️ repairs
 - **24/08/07** - girls 🎾 [season](/notes/play/tennis), training [Iris](/notes/dogs/iris) 🦮, the [yard](/notes/garden) 🌳, & thoroughly into Civilization VI.
 - **24/06/13** - AI 🤖 [project](/docs/saas/openai), mountain ⛰️ retreat, & [yard](/notes/garden) 🌳 work.

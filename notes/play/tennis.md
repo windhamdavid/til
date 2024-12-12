@@ -4,6 +4,7 @@
 
 ## Log
 
+- 24/12/08 - [hip injury](/notes/health) IT band/muscle labral tear.
 - 23/08/25 - added some more video resources
 
 ## Certification
