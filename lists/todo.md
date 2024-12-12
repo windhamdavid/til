@@ -6,9 +6,12 @@
 
 ## 🔴 Short Term
 
+- [Christmas Gifts](/lists/shopping)
+- [Travel - Holidays/Folly](/notes/travel)
+- [House](/notes/house) - [Helene](/notes/house/helene) insurance/repairs / [Studio](/notes/house/studio) build / [Bath](/notes/house/bath) remodel ( Jan - Mar )
+- [Travel](/lists/travel) - reschedule Lake Logan in spring
 - [Health](/notes/health) - Invisiline ortho appt
-- [House](/notes/house) - [Helene](/notes/house/helene) repairs / [Studio](/notes/house/studio) build / [Bath](/notes/house/bath) remodel ( Jan - Mar )
-  - Beemwo payoff / mower(s) oil change
+- Beemwo payoff / mower(s) brake fluid change
 - [Garden](/notes/garden) - stumps / tree removal / sod 
 - [Iris](/notes/dogs/iris) - service eligibility / Ovariohysterectomy
 - [Work](/notes/work) - 24' invoicing / taxes
@@ -18,11 +21,14 @@
   - Cache policies / Auto-remove old logs / Ubuntu 22 / Redis Auth
   - Personal Mastadon / PostGres PGVector / Analytics logs
   - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
-- [Tennis](/notes/tennis) - Boys Season (Feb) roster schedule / Swing vision app
-- [Travel](/lists/travel) - Sectionals (Dec) / Holidays / Folly (Jan) / reschedule Lake Logan
+  - Clean out daw/wha/directory
+- [Tennis](/notes/play/tennis) - Boys Season (Feb) roster schedule / Swing vision app
+
 
 ## 🟡 Middle Term
 
+- GWSC - Vector Embeddings
+- Build Easel Taboret
 - [Health](/notes/health) - Coffee -> Tea / exercise routine outside of tennis / biometrics
   - family - dad SLV / mom single story - assistive care/estate planning
 - [Ginny](https://ginnygast.com) - Clemson graduation
@@ -35,7 +41,7 @@
   - [DAW/DW](/docs/computers/woozie) - Fix mail@daw from wp.dw / radio.daw redis auth / customize nodejs 503s
     - API Dashboard / DW - svg animations / ActivityPub spec
 - [Learn](/lists/now/learning) - EdgeWorkers / Deno / WASM / Svelte
-- [Tennis](/notes/tennis) - train/recruit assistants to take over/ play more golf
+- [Tennis](/notes/play/tennis) - train/recruit assistants to take over/ play more golf
 
 ## 🟢 Long Term
 
@@ -56,18 +62,18 @@
 ## ⚪️ ToDo(ne)
 
 24/09 - [IRAs consult/move](/notes/work/wealth)
-| 24/10 - [Tennis](/notes/tennis) certifications
+| 24/10 - [Tennis](/notes/play/tennis) certifications
 | 24/03 - [Iris](/notes/dogs) AKC Registration
 | 24/01/09 - [Mulonni Migrate](/notes/work)
 | 24/01/08 - [Folly](/notes/travel)
 | 23/12/07 - [Christmas Shopping](/lists/shopping)
-| 23/11/27 - [Florence combo](/notes/tennis)
+| 23/11/27 - [Florence combo](/notes/play/tennis)
 | 23/11/24 - [Install Garage Floodlight](/notes/house)
 | 23/11/10 - [Charleston, SC](/notes/travel)
 | 23/10/27 - [Billing / Accounting system upgrade](/notes/work)
 | 23/10/22 - [Insect Treatments](/notes/house)
 | 23/10/21 - [Algeacide pond](/notes/garden)
-| 23/10/09 - [Girl season wrap](/notes/tennis)
+| 23/10/09 - [Girl season wrap](/notes/play/tennis)
 | 23/10/09 - [Self host Supabase](/notes/work/projects/ai)
 | 23/08/14 - [Iris Breeding rights](/notes/dogs)
 | 23/08/14 - [Boone, NC](/notes/travel)
