@@ -1,11 +1,55 @@
 # Tennis
 
-**23.01.30** - I coach the high school tennis teams and the season practice starts this afternoon. I'm adding this note so that I can keep my notes, documentation, and other reference materials in one place for easy edits.
+I played a lot of tennis as junior and started back after a twenty-five year break at age 46 because I needed the exercise. I love the game for a bunch of reasons. I started coaching the high school tennis teams a couple years ago and enjoy it as well. My favorite tennis quotes:
+
+- your biggest opponent on the court is yourself
+- don't let someone else dictate your style of play
+- control the points, the pace, the court
+- you're only as good as your weakest shots
+- equal amounts of defense and offense at the right times
+- find your opponent's biggest strength and take that away first
+- don't motivate your oppponent unless you just want a challenge
+- figure out what works and do that over and over
+- in life, there are things to worry about and tennis just isn't one of them
+
+## Stats
+
+- NTRP Rating - 4.5
+- WTN - 22.34 ( 20.5 - 24.1 Singles ) 22.65 ( Doubles )
+- Record - 76% W / 24% L
+- Right handed, two-handed back, baseline player, strong serve, short points, clever, & aggressive.
 
 ## Log
 
 - 24/12/08 - [hip injury](/notes/health) IT band/muscle labral tear.
 - 23/08/25 - added some more video resources
+
+## EHS Tennis
+
+24/12/10 - Due to a recenty injury, I decided I’d whip up a decision tree on wether of not I should resign from my tennis coaching gig before the next season. Had already been considering only doing the last of this year, but with the injury and upcoming projects, the timing is more appropriate right now. Asked my friends and parents to vote on it as well. Figured I'd put it here for posterity.
+
+
+| YEA | NAY |
+|---|---|
+|Rewarding|Taxing|
+| - Contribute back to the community - learn a lot more about the community.| - lose money - cost more than it pays because I spend it on snacks, travel, gifts, and equipment|
+| - Good reference of character - for folks that don’t know me and helps a little bit with Ginny’s involvement with the district | - too much work. have other important work priorities coming up - the SRH rebuild project and the AI project.|
+| - good way to meet new community members. Meet a lot of new people and learn more about them| - too much responsibility - AD secretary out, driving, organizing, recruiting, dealing with parents and communication.|
+| - good way to be a positive influence on kids and adults.| - takes too much time - other priorities like Iris, Ginny’s dissertation, and the house - got contractor’s here first four months of next year, taking a more active role in managing retirement accounts                             |
+| good for health | bad for health - recent injury|
+| - good for mental health, being social and interacting with a lot of others who have more serious issues.| - too much sun, stress on joints, recent muscle injury, ankle issues, wrist issue|
+| it’s fun - I have fun most of the time| - liability - good chance I’ll curse or say something inappropriate to one of the kids and end up having a lot senseless meetings so others can feel important.|
+|| - want to start a more wholistic exercise routine that sustainable - walking, swimming, pilates, yoga - emphasize stretching and low impact|
+| good at it| Got bumped to a 4.5 rating which means no personal opportunity for league play without traveling out of town.|
+| like ‘some’ of the kids on the team - good to see them grow | Not a lot of kids I like that much on the team in the coming years - lost two, more recruiting and beginners - not real thrilled about having a distant relative pulling me into other family dynamics|
+|| Not a lot of support from the local pros - taking up court space and time at the club where club pro is nearing retirement and other one is protective of his afterschool program - courts in bad condition - losing kids to GHS. |
+| keeps me on a regular schedule having practices every afternoon.| league changes - moved to AAAA and have a new division chair - not much opportunity for success|
+|| not a big fan of a lot of tennis players - too much competitiveness and I don’t think that’s really more of what we need.|
+| I like the AD - nice guy trying to do good work| young AD trying to prove himself w/ district that has some challenges means more responsibility - only fun when I don’t have to work that much.|
+|| not entirely committed to community - may build future home elsewhere|
+| I might find out that I  miss it later on and want to come back to it.| Timing is good with injury and other work going on - can always voluntarily come back and assist the team.|
+| helps grow the sport and community of tennis - good role model||
+
 
 ## Certification
 
@@ -26,6 +70,7 @@ ITF - Rules of Tennis
 SCHSL ( South Carolina High School League ) -   
 EHS - Coaches Handbook  
 
+## Policy 2024
 ## Policy 2023
 
 RE: 2023 Girls Varsity Tennis
