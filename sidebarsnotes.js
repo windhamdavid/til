@@ -34,6 +34,10 @@ module.exports = {
       ],
     },
     {
+      type:'doc',
+      id:'autos',
+    },
+    {
       type:'category',
       label:'Dogs',
       collapsible: true,

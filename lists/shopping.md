@@ -1,12 +1,44 @@
 # Shopping
 
-I keep some shopping lists over on Amazon because it's an easy way to find and organize items I'm looking for. For now, I'm just copying those list over here for posterity. In an effort to cut out the middle-man, I do try and support the vendors directly if they have their own e-commerce available.
+( 23/07/14 ) I keep some shopping lists over on Amazon because it's an easy way to find and organize items I'm looking for. For now, I'm just copying those list over here for posterity. In an effort to cut out the middle-man, I do try and support the vendors directly if they have their own e-commerce available.
 
-**23/12/08** - Just wrapped the online holiday shopping. And because I just finished, I realized that in an effort aforementioned effort to skirt the middleman, I need to add a list of vendors I like. While everyone likes to tout sustainability, the best thing to do is buy local, buy used, or don't buy anything at all.
+## Log 
+
+- **24/12/13** - seems I only use this around the holidays. this time I needed to make a list for our annual bag of goodies. We like to buy everyone the same gift for Christmas. Last year it was heated matress pads and we're going back to food this year.
+- **23/12/08** - Just wrapped the online holiday shopping. And because I just finished, I realized that in an effort aforementioned effort to skirt the middleman, I need to add a list of vendors I like. While everyone likes to tout sustainability, the best thing to do is buy local, buy used, or don't buy anything at all.
 
 ---
 
+## Current
 
+### Christmas
+
+### Trader Joe's dry goods faves
+
+- dried figs
+- ganny smith spread
+- sri lankan mango chutney
+- Honey Sesame Cashews
+- canned Trout
+- canned greek chickpeas
+- canned dolmas
+- vegan kale, cashew pesto
+- green goddess dressing
+- thai peanut dressing
+- lemon/garlic stuffed olives
+- shishito chips
+- elote nuts
+- candied pecans
+- cornbread crisps
+- ginger brew
+- diamond oak res cab
+- flower bulbs
+
+
+
+## Old Amazon Lists
+
+These are pulled from my old Amazon lists which I'm trying to migrate away from using this list. 
 
 ### Clothing
 

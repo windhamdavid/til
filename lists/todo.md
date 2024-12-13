@@ -8,11 +8,12 @@
 
 - [Christmas Gifts](/lists/shopping)
 - [Travel - Holidays/Folly](/notes/travel)
-- [House](/notes/house) - [Helene](/notes/house/helene) insurance/repairs / [Studio](/notes/house/studio) build / [Bath](/notes/house/bath) remodel ( Jan - Mar )
+- [House](/notes/house) - [Helene](/notes/house/helene) - insurance/repairs / [Studio](/notes/house/studio) build / [Bath](/notes/house/bath) remodel ( Jan - Mar )
 - [Travel](/lists/travel) - reschedule Lake Logan in spring
 - [Health](/notes/health) - Invisiline ortho appt
-- Beemwo payoff / mower(s) brake fluid change
+- [Autos](/notes/autos) - payoff / brake fluid change
 - [Garden](/notes/garden) - stumps / tree removal / sod 
+  - mower oil changes
 - [Iris](/notes/dogs/iris) - service eligibility / Ovariohysterectomy
 - [Work](/notes/work) - 24' invoicing / taxes
   - SRH (Jan) - mid-levels Epic, Block patterns, resdesign
@@ -22,6 +23,7 @@
   - Personal Mastadon / PostGres PGVector / Analytics logs
   - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
   - Clean out daw/wha/directory
+  - replace OpenAI API keys with project keys
 - [Tennis](/notes/play/tennis) - Boys Season (Feb) roster schedule / Swing vision app
 
 
