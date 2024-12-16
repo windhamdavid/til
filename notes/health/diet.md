@@ -3,10 +3,9 @@
 ## Log / Todo
 
 - 24/12/08 - **weight**: was down to 178 — back up to 185, but would like to be at 170 lbs.
-  - too much stress/tired eating in the late afternoons. 
-  - the nuts are high calorie. don't need a handful everytime you hit the pantry. 
+  - likely too much stress & tired eating in the afternoons.
 - 23/12/17 - **weight**: considering lowering my overall caloric intake to get down 15-20lbs.
-  - cut crackers/cereal/bread
+  - cut crackers/cereal/bread/bagels, **cake** & **ice cream**
   - more beans ( in salads / in soup / in place of rice )
   - walks after lunch
   - cut down on the cheese
