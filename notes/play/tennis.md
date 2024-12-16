@@ -26,7 +26,7 @@ I played a lot of tennis as junior and started back after a twenty-five year bre
 
 ## EHS Tennis
 
-24/12/10 - Due to a recenty injury, I decided I’d whip up a decision tree on wether of not I should resign from my tennis coaching gig before the next season. Had already been considering only doing the last of this year, but with the injury and upcoming projects, the timing is more appropriate right now. Asked my friends and parents to vote on it as well. Figured I'd put it here for posterity.
+24/12/10 - Due to a recenty injury, I decided I’d whip up a decision tree on wether of not I should resign from my tennis coaching gig before the next season. The timing is more appropriate right now with the injury and upcoming projects. Asked my friends and parents to vote on it as well. I've decided **that I'm staying on as head coach**, but I figured I'd put it here for posterity.
 
 
 | YEA | NAY |

@@ -9,6 +9,7 @@
 
 ## Log
 
+- 24/12/16 - added an Apple Watch mainly for biometric feedback. will [figure out an easy way](#parsing-apple-health-data) to automate and export every so often so I can store it here. 
 - 24/12/07 - hip injury ( IT band muscles / labral ) likely related to playing [tennis](/notes/play/tennis) - need to consider a more wholistic and low impact regular excersize routine like walking, swimming, pilates, & yoga. 
 - 23/12/17 - added a [Diet](/notes/health/diet) log.
 - 23/12/17 - added a ^ sleep log.
@@ -75,4 +76,56 @@ I noticed a project not too long ago on Github that allows for an open-source ex
 related 
 - Mere Medical - https://github.com/cfu288/mere-medical
 - https://github.com/k0rventen/apple-health-grafana
+
+#### Parsing Apple Health data
+
+If you’ve ever wanted to analyze your own health data, here’s how.
+
+###### Exporting as XML
+
+1. Open the [Health app](https://www.apple.com/ca/ios/health/).
+1. Tap on your profile in the top right.
+1. Tap Export All Health Data.
+1. Share the archive with yourself (e.g. via AirDrop, Files, Mail, etc.).
+
+Within the archive, you’ll find `export.xml`. This is where the main metrics are stored.
+
+##### Converting to JSON
+
+If you open `export.xml`, you'll see most of the interesting data is contained in the attributes of `Record` elements.
+So let's make a small Python script to convert those attributes to JSON.
+
+Save the following to a file called `parse.py`:
+
+```python
+import json
+import sys
+from xml.etree.ElementTree import iterparse
+
+for _, elem in iterparse(sys.argv[1]):
+    if elem.tag == "Record":
+        print(json.dumps(elem.attrib))
+```
+
+Then run:
+
+```shell
+python parse.py export.xml
+```
+
+You should immediately start seeing the data in your terminal.
+
+###### Converting to CSV
+
+Using jq, we can convert the JSON to CSV:
+
+```shell
+python parse.py export.xml | jq -r '[.endDate, .type, .unit, .value] | @csv'
+```
+
+If you prefer TSV (e.g. for processing with `cut`), replace `@csv` by `@tsv`.
+
+Save the data to a file and analyze with your favorite software.
+
+
 
