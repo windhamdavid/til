@@ -4,7 +4,7 @@
 
 - 24/12/16 - kept Robinhood account for playing 🔥
 - 24/09/12 - new broker, moved portfolio
-- 23/12/18 - needed a place to note some news on investing
+- 23/07/18 - needed a place to note some news on investing
 
 ## About
 
