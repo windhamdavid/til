@@ -2,7 +2,8 @@
 
 ## Log
 
-- 24/09/12 - new broker, moved stocks
+- 24/12/16 - kept Robinhood account for playing 🔥 around. 
+- 24/09/12 - new broker, moved portfolio
 - 23/12/18 - needed a place to note some news on investing
 
 ## About
@@ -14,8 +15,6 @@
 I really don't like talking money to folks. I always try to be straightforward and fair. I'm mostly conservative in my approach and I don't mean that in the obvious way. I mostly try to consume very little. I've noticed that being 'rich' is mostly a state of mind which means just not having to worry about it which is what I try to do most often. I certainly don't want to actively monitor money for a living and I'm at the stage in life now, where I just don't want to take on any debt, and investing in my health seems like the most advantageous thing to focus on.
 
 ## Business
-
-
 
 I remember heading into my first corporate job and all of the fellas on my team were spending half of their days trading currencies and whatnot. Since then, I've always had the attitude that my biggest investment will always be myself. I like to reinvest in my own knowledge. I told my broker that I wanted to be hands-on and since then, I've just been learning whatever I'm able. It's an amazing amount of knowledge needed to actually know what you're doing, so I'm diving in here. 
 
