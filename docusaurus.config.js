@@ -2,7 +2,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer'
 
-module.exports = {
+export default {
   title: 'David Windham | TIL',
   tagline: 'Because Today I Learned',
   url: 'https://davidawindham.com',

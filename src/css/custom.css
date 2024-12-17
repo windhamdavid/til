@@ -112,12 +112,10 @@ table td img {
 article[itemprop="blogPost"] footer {
   margin-top: 1rem !important;
 }
-
 .youtube{
   aspect-ratio: 16 / 9;
   width: 100%;
 }
-
 form input { 
   box-sizing: border-box;
   margin: 1em 0 2em;
@@ -128,15 +126,12 @@ form input {
   padding: .5em;
   width: 100%;
 }
-
 .responsive-image-right {
   float: right;
   padding: 0 0 0 20px;
   max-width: 50%;
-  height: auto;
-  
+  height: auto; 
 }
-
 @media only screen and (max-width: 768px) {
   .responsive-image-right {
     padding: 0;
