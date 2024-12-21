@@ -6,7 +6,6 @@
 
 ## 🔴 Short Term
 
-- [Christmas Gifts](/lists/shopping)
 - [Travel - Holidays/Folly](/notes/travel)
 - [House](/notes/house) - [Helene](/notes/house/helene) - insurance/repairs / [Studio](/notes/house/studio) build / [Bath](/notes/house/bath) remodel ( Jan - Mar )
 - [Travel](/lists/travel) - reschedule Lake Logan in spring
@@ -19,12 +18,10 @@
   - SRH (Jan) - mid-levels Epic, Block patterns, resdesign
   - CM (Dec) - server/site migrations
 - [Zeke](/docs/computers/zeke)/ [Woozie](/docs/computers/woozie)
-  - Cache policies / Auto-remove old logs / Ubuntu 22 / Redis Auth
-  - Personal Mastadon / PostGres PGVector / Analytics logs
-  - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidawindham.com) to [lobehub](https://github.com/lobehub/lobe-chat)
-  - Clean out daw/wha/directory
+  - Cache policies / Ubuntu 22 / Redis Auth / PostGres PGVector
+  - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidawindham.com)
   - replace OpenAI API keys with project keys
-- [Tennis](/notes/play/tennis) - Boys Season (Feb) roster schedule / Swing vision app
+- [Tennis](/notes/play/tennis) - Boys Season (Jan) roster schedule / Swing vision app
 
 
 ## 🟡 Middle Term
@@ -63,7 +60,8 @@
 
 ## ⚪️ ToDo(ne)
 
-24/09 - [IRAs consult/move](/notes/work/wealth)
+24/12 - [Christmas Gifts](/lists/shopping) - [Autos](/notes/autos) - brake fluid change
+| 24/09 - [IRAs consult/move](/notes/work/wealth)
 | 24/10 - [Tennis](/notes/play/tennis) certifications
 | 24/03 - [Iris](/notes/dogs) AKC Registration
 | 24/01/09 - [Mulonni Migrate](/notes/work)
