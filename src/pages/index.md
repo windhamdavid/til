@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2024**
+  - 24/12/22 - [Merry Christmas](/posts/merry-christmas)
   - 24/12/17 - [Quantum Computing](/posts/quantum-computing)
   - 24/12/09 - [Wikipedia Link](/posts/wikipedia-link)
   - 24/12/01 - [Working on an iPad](/posts/working-ipad)
