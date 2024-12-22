@@ -132,6 +132,10 @@ form input {
   max-width: 50%;
   height: auto; 
 }
+[data-theme='light'] img[src$='#dark-mode-only'],
+[data-theme='dark'] img[src$='#light-mode-only'] {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .responsive-image-right {
     padding: 0;
