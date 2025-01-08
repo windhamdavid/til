@@ -6,7 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
-  - 24/12/22 - [Attention Economy](/posts/attention-economy)
+  - 25/01/08 - [Attention Economy](/posts/attention-economy)
 - **2024**
   - 24/12/22 - [Merry Christmas](/posts/merry-christmas)
   - 24/12/17 - [Quantum Computing](/posts/quantum-computing)
