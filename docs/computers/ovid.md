@@ -8,6 +8,34 @@
 
 ### Log
 
+- **25.01.22** - brew upgrades ( happenstance because I always forget I used pip for yt-dlp )
+
+```sh
+david@ovid🏛 :~ » brew info         
+207 kegs, 151,651 files, 6.9GB
+==> Upgrading freetds 1.4.23 -> 1.4.24
+==> Upgrading php@8.1 8.1.30_2 -> 8.1.31
+==> Upgrading mysql@8.4 8.4.3_2 -> 8.4.3_
+==> Upgrading llvm 19.1.3 -> 19.1.7
+==> Upgrading harfbuzz 10.1.0 -> 10.2.0
+==> Upgrading pango 1.54.0 -> 1.56.1 
+==> Upgrading libheif 1.19.3 -> 1.19.5_1 
+==> Upgrading imagemagick 7.1.1-40 -> 7.1.1-43 
+==> Upgrading node 23.1.0_1 -> 23.6.1 
+==> Upgrading mongosh 2.3.3 -> 2.3.8 
+==> Upgrading mysql 9.0.1_6 -> 9.2.0
+==> Upgrading nmap 7.95 -> 7.95_1 
+==> Upgrading php 8.3.13_1 -> 8.4.3
+==> Upgrading composer 2.8.2 -> 2.8.5 
+==> Upgrading pyenv 2.4.7 -> 2.5.1
+==> Upgrading ruby-build 20240709.1 -> 20250121
+==> Upgrading rbenv 1.3.0 -> 1.3.2
+==> Upgrading rsync 3.3.0 -> 3.4.1
+==> Upgrading rust 1.82.0 -> 1.84.0
+==> Upgrading ffmpeg 7.1_3 -> 7.1_4
+==> Upgrading gnupg 2.4.6 -> 2.4.7 
+```
+
 - **24.11.13** - overwrote mysql to v.9 had to reinstall mysql8.4 to match servers.
 
 ```sh
