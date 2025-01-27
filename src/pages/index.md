@@ -9,7 +9,6 @@ description: A place to keep notes and documentation
   - 25/01/26 - [DJI Flip](/posts/dji-flip)
   - 25/01/24 - [Scout Motors Letter](/posts/scout-motors-letter)
   - 25/01/23 - [The Barron Files](/posts/the-barron-files)
-  - 25/01/21 - [Uh Oh?](/posts/uh-oh)
   - 25/01/13 - [Three Jobs](/posts/three-jobs)
   - 25/01/08 - [Attention Economy](/posts/attention-economy)
   - 25/01/05 - [William Windham](/posts/william-windham)
