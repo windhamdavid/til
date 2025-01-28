@@ -4,66 +4,44 @@
 
 ## Log
 
-
+- 25/01/28 - keeping up with the current @ [/lists/now pages](/lists/now) & not keeping up with the finished one's so I've removed because anything really notable, I'd write about elsewhere.
 - 24/11/14 - went looking for new shows and added recurring for easier reference but mainly just wanted to start a workflow using pulls since I'm using the ipad and vscode in github.dev.
 - 23/05/22 - I've arranged the page so that after it's done, I move it to the bottom and rank it in order.
 
-
-
 ---
 
-## Current
 
-#### TV Series
 
-[The Simpsons](https://en.wikipedia.org/wiki/The_Simpsons)
-| [Saturday Night Live](https://en.wikipedia.org/wiki/Saturday_Night_Live)
-| [Shōgun](https://en.wikipedia.org/wiki/Shōgun_(2024_TV_series))
-| [Gardeners' World](https://en.wikipedia.org/wiki/Gardeners%27_World)
-| [The Shrink Next Door (TV Series)](https://en.wikipedia.org/wiki/The_Shrink_Next_Door_(TV_series))
-
-### Books
-
-[Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
-| [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
-| [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
-| [The Chickenshit Club](https://en.wikipedia.org/wiki/Jesse_Eisinger)
-| [_No One Is Talking About This_](https://en.wikipedia.org/wiki/No_One_Is_Talking_About_This)
-
-### Film
-
-[Three Thousand Years of Longing](https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing)
-| [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
-| [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
-| [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
-| [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up)
-| [Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film))
-| [The Eyes of Tammy Faye](https://en.wikipedia.org/wiki/The_Eyes_of_Tammy_Faye_(2021_film))
-| [Summer of Soul](https://en.wikipedia.org/wiki/Summer_of_Soul)
-| [Flee](https://en.wikipedia.org/wiki/Flee_(film))
-| [The Worst Person in the World](https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film))
-| [Drive My Car](https://en.wikipedia.org/wiki/Drive_My_Car)
-| [Dune](https://en.wikipedia.org/wiki/Dune)
-| [Licorice Pizza](https://en.wikipedia.org/wiki/Licorice_Pizza)
-| [King Richard](https://en.wikipedia.org/wiki/King_Richard)
-| [Belfast](https://en.wikipedia.org/wiki/Belfast_(film))
-| [Bao](https://en.wikipedia.org/wiki/Bao_(film))
-| [C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film))
-| [The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch)
-| [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog)
-| [The Orville](https://en.wikipedia.org/wiki/The_Orville)
-| [Delicious](https://www.imdb.com/title/tt10738536/)
-| [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard)
-| [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
-| [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once)
-| [The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
-| [Napoleon](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
+## Film
 
 
 
-#### The 25 Best Films of 2023
+### 2024
 
-#### The 25 Best Films of 2022
+[Anora](https://en.wikipedia.org/wiki/Anora)
+| [A Real Pain](https://en.wikipedia.org/wiki/A_Real_Pain)
+| [Hard Truths](https://en.wikipedia.org/wiki/Hard_Truths)
+| [Look into My Eyes](https://en.wikipedia.org/wiki/Look_into_My_Eyes_(film))
+| [Flow](https://en.wikipedia.org/wiki/Flow_(2024_film))
+| [The Brutalist](https://en.wikipedia.org/wiki/The_Brutalist)
+| [Memoir of a Snail](https://en.wikipedia.org/wiki/Memoir_of_a_Snail)
+| [Inside the Yellow Cocoon Shell](https://en.wikipedia.org/wiki/Inside_the_Yellow_Cocoon_Shell)
+| [My Name is Alfred Hitchcock](https://en.wikipedia.org/wiki/My_Name_Is_Alfred_Hitchcock)
+
+### 2023
+
+[Openheimer](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer)
+| [Mission Impossible](https://en.wikipedia.org/wiki/Mission:_Impossible)
+| [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon_(film))
+| [John Wick](https://en.wikipedia.org/wiki/John_Wick)
+| [Past Lives](https://en.wikipedia.org/wiki/Past_Lives)
+| [Blackberry](https://en.wikipedia.org/wiki/Blackberry)
+| [Poor Things](https://en.wikipedia.org/wiki/Poor_Things)
+| [Ferrari](https://en.wikipedia.org/wiki/Ferrari)
+| [Past Lives](https://en.wikipedia.org/wiki/Past_Lives)
+| [Poor Things](https://en.wikipedia.org/wiki/Poor_Things)
+
+### 2022
 
 [David Ehrlich's Best films videos](https://www.videocountdowns.com) 
 | [Aftersun](https://en.wikipedia.org/wiki/Aftersun)
@@ -91,8 +69,35 @@
 | [Resurrection](https://en.wikipedia.org/wiki/Resurrection_(2022_film))
 | [The Northman](https://en.wikipedia.org/wiki/The_Northman)
 | [The Fabelmans](https://en.wikipedia.org/wiki/The_Fabelmans)
+| [Three Thousand Years of Longing](https://en.wikipedia.org/wiki/Three_Thousand_Years_of_Longing)
+| [Indiana Jones and the Dial of Destiny](https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Dial_of_Destiny)
+| [Killers of the Flower Moon](https://en.wikipedia.org/wiki/Killers_of_the_Flower_Moon)
+| [Elemental](https://en.wikipedia.org/wiki/Elemental_(2023_film))
+| [Don't Look Up](https://en.wikipedia.org/wiki/Don%27t_Look_Up)
+| [Bullet Train](https://en.wikipedia.org/wiki/Bullet_Train_(film))
+| [The Eyes of Tammy Faye](https://en.wikipedia.org/wiki/The_Eyes_of_Tammy_Faye_(2021_film))
+| [Summer of Soul](https://en.wikipedia.org/wiki/Summer_of_Soul)
+| [Flee](https://en.wikipedia.org/wiki/Flee_(film))
+| [The Worst Person in the World](https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World_(film))
+| [Drive My Car](https://en.wikipedia.org/wiki/Drive_My_Car)
+| [Dune](https://en.wikipedia.org/wiki/Dune)
+| [Licorice Pizza](https://en.wikipedia.org/wiki/Licorice_Pizza)
+| [King Richard](https://en.wikipedia.org/wiki/King_Richard)
+| [Belfast](https://en.wikipedia.org/wiki/Belfast_(film))
+| [Bao](https://en.wikipedia.org/wiki/Bao_(film))
+| [C'mon, C'mon](https://en.wikipedia.org/wiki/C%27mon_C%27mon_(film))
+| [The French Dispatch](https://en.wikipedia.org/wiki/The_French_Dispatch)
+| [The Power of the Dog](https://en.wikipedia.org/wiki/The_Power_of_the_Dog)
+| [The Orville](https://en.wikipedia.org/wiki/The_Orville)
+| [Delicious](https://www.imdb.com/title/tt10738536/)
+| [Melvin and Howard](https://en.wikipedia.org/wiki/Melvin_and_Howard)
+| [White Noise](https://en.wikipedia.org/wiki/White_Noise_(2022_film))
+| [Everything Everywhere All at Once](https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once)
+| [The Whale](https://en.wikipedia.org/wiki/The_Whale_(2022_film))
+| [Napoleon](https://en.wikipedia.org/wiki/Napoleon_(2023_film))
 
-#### Shakespeare-athon
+
+### Shakespeare-athon
 
 [The Tragedy of Macbeth](https://en.wikipedia.org/wiki/Macbeth)
 | [West Side Story](https://en.wikipedia.org/wiki/West_Side_Story_(2021_film))
@@ -102,66 +107,24 @@
 | [King Lear](https://en.wikipedia.org/wiki/King_Lear_(2018_film))
 | [Much Ado About Nothing](https://en.wikipedia.org/wiki/Much_Ado_About_Nothing_(2012_film))
 
-### Games
 
+## Books
 
-| [Pikmin 4](https://en.wikipedia.org/wiki/Pikmin_4)
-
-### Music
-
-[Ben Harper - Wide Open Light](https://en.wikipedia.org/wiki/Wide_Open_Light)
-| [blur - The Ballad of Darren](https://en.wikipedia.org/wiki/The_Ballad_of_Darren)
-
-### Podcasts
-
-[Smartless](https://en.wikipedia.org/wiki/SmartLess)
-| [You Made it Weird](https://en.wikipedia.org/wiki/You_Made_It_Weird_with_Pete_Holmes)
-| [Revisionist History](https://en.wikipedia.org/wiki/Revisionist_History_(podcast))
-| [WTF with Marc Maron](https://en.wikipedia.org/wiki/WTF_with_Marc_Maron)
-| [The Problem with John Stewart](https://en.wikipedia.org/wiki/The_Problem_with_Jon_Stewart)
-| [This American Life](https://en.wikipedia.org/wiki/This_American_Life)
-
----
-
-## Finished
-
-( Rating 0/100)
-
-### Books
-
-| [The Philosophy of Modern Song](https://en.wikipedia.org/wiki/The_Philosophy_of_Modern_Song) (90)
-| [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne) (60)
-| [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) (72)
-
-### Films
-
-| [Walk the Line](https://en.wikipedia.org/wiki/Walk_the_Line) (65)
-| [Once Upon a Time in Hollywood](https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood) (95)
-| [Kajillionaire](https://en.wikipedia.org/wiki/Kajillionaire) (85)
-
-#### Series
-
-[Ted Lasso](https://en.wikipedia.org/wiki/Ted_Lasso) (75)
-| [The Newsroom](https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series))
-| [My Next Guest Needs No Introduction with David Letterman](https://en.wikipedia.org/wiki/My_Next_Guest_Needs_No_Introduction_with_David_Letterman)
-| [Borgen](https://en.wikipedia.org/wiki/Borgen_(TV_series))
-| [The White Lotus](https://en.wikipedia.org/wiki/The_White_Lotus) (93)
-| [Only Murders in the Building](https://en.wikipedia.org/wiki/Only_Murders_in_the_Building) (90)
-| [DisEnchantment](https://en.wikipedia.org/wiki/Disenchantment_(TV_series)) (86)
-| [The Pentaverate](https://en.wikipedia.org/wiki/The_Pentaverate)
-| [James May: Our Man in Italy](https://en.wikipedia.org/wiki/James_May:_Our_Man_in_Italy) (85)
-| [Delicious](https://www.imdb.com/title/tt10738536/) (80)
-| [The Righteous Gemstones](https://en.wikipedia.org/wiki/The_Righteous_Gemstones) (78)
-| [Anxious People](https://en.wikipedia.org/wiki/Anxious_People_(TV_series)) (75)
-| [Altes Geld](https://en.wikipedia.org/wiki/Altes_Geld) (70)
-| [Old Enough!](https://en.wikipedia.org/wiki/Old_Enough!) (65)
-
-### Games
-
-
-[The Legend of Zelda: Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom) (100)
-| [Super Smash Brothers Ultimate](https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate) (99)
-| [Pikmin 3](https://en.wikipedia.org/wiki/Pikmin) (95)
-| [Mario Tennis Aces](https://en.wikipedia.org/wiki/Mario_Tennis_Aces) (90)
-
-### Podcast
+[Happy-Go-Lucky](https://en.wikipedia.org/wiki/Happy-Go-Lucky_(book))
+| [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
+| [A Visit from the Goon Squad](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
+| [The Chickenshit Club](https://en.wikipedia.org/wiki/Jesse_Eisinger)
+| [_No One Is Talking About This_](https://en.wikipedia.org/wiki/No_One_Is_Talking_About_This)
+| [_A Visit from the Goon Squad_](https://en.wikipedia.org/wiki/A_Visit_from_the_Goon_Squad)
+| [_The Chickenshit Club_](https://en.wikipedia.org/wiki/Jesse_Eisinger)
+| [_Revent of the Tipping Point_](https://www.pushkin.fm/audiobooks/revenge-of-the-tipping-point)
+| [_A Full Life_ - Jimmy Carter](https://en.wikipedia.org/wiki/A_Full_Life)
+| [_Beautiful Country_ - J.R. Thornton](https://www.google.com/books/edition/Beautiful_Country/6yNBCgAAQBAJ)
+| [_Capital in the Twenty-First Century_](https://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century)
+| [_James_ - Percival Everett](https://en.wikipedia.org/wiki/James_(novel))
+| [_God Bless You Otis Spunkmeyer_](https://josephearlthomas.com)
+| [_The Work of Art_ - Adam Moss](https://www.penguinrandomhouse.com/books/669522/the-work-of-art-by-adam-moss/)
+| [Come & Get It](https://www.google.com/books/edition/Come_and_Get_It_A_GMA_Book_Club_Pick/FSu4EAAAQBAJ?hl=en)
+| [_The Plot Against America_](https://en.wikipedia.org/wiki/The_Plot_Against_America)
+| [_The Corrections_](https://en.wikipedia.org/wiki/The_Corrections)
+| [_The Shock Doctrine_](https://en.wikipedia.org/wiki/The_Shock_Doctrine)

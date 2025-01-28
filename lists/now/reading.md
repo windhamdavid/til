@@ -10,6 +10,7 @@
 - 23/05/12 - [_No One Is Talking About This_](https://en.wikipedia.org/wiki/No_One_Is_Talking_About_This)
 - 23/02/10 - [The Candy House](https://en.wikipedia.org/wiki/The_Candy_House_(novel))
 - 22/10/01 - [The Curious Incident of the Dog in the Night‑Time](https://en.wikipedia.org/wiki/The_Curious_Incident_of_the_Dog_in_the_Night-Time)
+- 22/06/01 - [Jesus and John Wayne](https://en.wikipedia.org/wiki/Jesus_and_John_Wayne)
 - 22/03/01 - [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)
 
 ---
