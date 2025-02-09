@@ -2,6 +2,78 @@
 
 ## Log
 
+## 🔥 Migration
+
+Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
+
+```sh
+# everything up to date
+sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y
+# remove unused packages and files
+sudo apt autoremove -y && sudo apt autoclean -y
+
+sudo reboot
+backup
+
+sudo systemctl | grep running
+sudo systemctl stop <application_name>
+
+# allow connections on TCP port 1022 - fallback port if the main connection drops
+sudo ufw status
+sudo ufw allow 1022/tcp
+sudo ufw reload
+
+sudo iptables -L -nv --line-numbers
+sudo iptables -A INPUT -p tcp --dport 1022 -j ACCEPT
+sudo systemctl restart iptables
+sudo systemctl restart ip6tables
+
+# run update
+sudo apt install update-manager-core
+sudo vi /etc/update-manager/release-upgrades
+# make sure Prompt=lts
+
+sudo do-release-upgrade
+
+```
+**25.02.09** - setup php8.1 since 8.2 is now the default... Ubuntu 18.04 (Bionic Beaver) is now no longer supported outside of paid extended support plans. Ondřej Surý's PHP packages are only available for supported versions of Ubuntu, so are no longer available for Ubuntu 18.04.
+
+```sh
+# Install
+sudo apt install php8.1 -y
+
+sudo apt-get install -y php8.1-cli php8.1-bcmath php8.1-common php8.1-curl php8.1-gd php8.1-imagick php8.1-intl php8.1-json php8.1-mbstring php8.1-mysql php8.1-tidy php8.1-xml php8.1-zip
+
+sudo apt install php8.1-fpm
+
+sudo a2enconf php8.1-fpm.conf
+sudo systemctl restart apache2
+
+sudo systemctl start php8.1-fpm
+sudo systemctl status php8.1-fpm
+
+# SetHandler
+sudo vi /etc/apache2/sites-enabled/etc.conf
+<FilesMatch \.php$>
+  SetHandler "proxy:unix:/run/php/php8.1-fpm.sock|fcgi://localhost"
+</FilesMatch>
+or 
+Include /etc/apache2/conf-available/php8.1-fpm.conf
+
+apachectl configtest
+sudo systemctl restart apache2
+
+## Monit
+sudo vi /etc/monit/conf.d/apache2.conf
+  check process php-fpm with pidfile /run/php/php8.1-fpm.pid
+    start program = "/usr/sbin/service php8.1-fpm start" with timeout 60 seconds
+    stop program = "/usr/sbin/service php8.1-fpm stop"
+    if failed unixsocket /var/run/php/php8.1-fpm.sock then restart
+
+sudo monit reload
+sudo service monit status
+```
+
 **23.06.26** - added cron to clear logs weekly ( sun @5:50am )
 ```bash
 sudo crontab -e 
