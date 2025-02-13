@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 25/02/13 - 🦑 [Squid](/docs/computers/squid.md)
 - 25/02/09 - 🦮 [zeke migration](/docs/computers/zeke.md)
 - 25/01/22 - 🏛️ [computers/ovid](/docs/computers/ovid.md)
 - 24/12/01 - [docs/saas/github](/docs/saas/github.md)
