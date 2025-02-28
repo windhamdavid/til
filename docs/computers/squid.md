@@ -272,7 +272,8 @@ Will need to create a couple SMTP relay accounts
 ### PHP
 
 ```sh
-v8.3.16 FPM
+v8.3.17 FPM
+pkg 8.3.17-0redhat.9.250214.1431
 ```
 
 - https://support.plesk.com/hc/en-us/articles/12377086904471-How-to-calculate-pm-max-children-value-on-a-Plesk-server
