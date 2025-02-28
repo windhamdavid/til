@@ -11,15 +11,19 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 **24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
-<div class="responsive-image-right">
-![](/img/helene.jpg)
-</div>
+
 
 ## Log
 
+- 02/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
+- 02/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
+- 02/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
+- 02/12 - Kenny Talley Cabinet guy over for measurements
+- 02/11 - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
+- 02/06 - trusses delivered
+- 01/20 - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 - 12/06 - truss manufacturer backlogged 
   - was told "12 weeks out"
-- 11/18 - cabinet measurements
 - 11/13 - Beth over for design measurements
 - 11/11 - subs over for measurements / estimates
 - 11/06 - 🔨 demo for truss measurements
@@ -38,6 +42,10 @@ image: https://davidawindham.com/wha/helene-1.jpg
 - 09/27 - 🪫 Power Out 5:30am 
 
 ## Damages
+
+<div class="responsive-image-right">
+![](/img/helene.jpg)
+</div>
 
 ### Structure
 
