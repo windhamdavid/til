@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
+  - 25/02/28 - [Desk Files](/posts/desk-files)
   - 25/02/09 - [Migrate Zeke](/posts/migrate-zeke)
   - 25/01/26 - [DJI Flip](/posts/dji-flip)
   - 25/01/24 - [Scout Motors Letter](/posts/scout-motors-letter)
