@@ -2,16 +2,17 @@
 
 ### Log
 
-**24/10/28** - timeline on this got bumped due to [helene renovations](/posts/hurricane-helene).
+- **25/02/28** - electrician on 3/4 cabinets in following week. 
+  - measuring for tv mount and electrical this weekend
+- **24/10/28** - timeline on this got bumped due to [helene renovations](/posts/hurricane-helene).
+
+
 
 **24/02/05** - We decided we're gonna do the master bath remodel ([/notes/house#projects](/notes/house/)) this year, so I'll be migrating my office into the den. We're going to be turning the other office into a dressing room/walk-in closet as part of a bathroom renovation and the better half will be moving into my office.
 
 
 
-![](https://davidawindham.com/wp-content/uploads/2021/07/offices.jpg)
 
-<video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
-</video>
 
 ---
 
@@ -20,6 +21,12 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/art.studio.jpg)
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
+
+exact dimensions for tv mount 👇🏼
+![](/img/glenridge-studio-tv-mount.jpg)
+
+cabinet maker renderings 👇🏼
+![](/img/glenridge-studio-cabinets.jpg)
 
 Since it's 14 feet long, I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper. I'll use unfinished prebuilt cabinets and match the dark walnut stain to the existing mantle, rafters, and wet bar(aquarium stand) so it looks like it has been here since the house was built.
 
@@ -30,7 +37,11 @@ It's going right here 👇🏼 where the big painting is hung.
 ![](https://davidawindham.com/wp-content/themes/daw/img/studio.jpg)
 ![](/img/studio-den.jpg)
 
+existing offices 👇🏼 
+![](https://davidawindham.com/wp-content/uploads/2021/07/offices.jpg)
 
+<video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
+</video>
 ---
 
 ### Notes:
