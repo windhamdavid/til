@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 25/02/15 - 🏡 [house/helene](/notes/house/helene)
 - 24/12/16 - ❤️‍🩹 [health](/notes/health) biometrics
 - 24/12/08 - 🚽 [house/bath](/notes/house/bath)
 - 24/10/05 - 🏡 [house/helene](/notes/house/helene)
