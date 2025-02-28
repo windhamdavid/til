@@ -8,8 +8,11 @@
 
 The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den as a studio](/notes/house/studio)
 
+![glenridge-bathrooms](/img/glenridge-bathroom-remodel-mockup.jpg)
+
 ## Log
 
+- **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
 - **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
 - **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
 - **24/10/28** - timeline on this got bumped due to [helene repairs](/notes/house/helene). Contractor has given us an completion estimate of March 2025.
