@@ -22,8 +22,8 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
 
-exact dimensions for tv mount 👇🏼
-![](/img/glenridge-studio-tv-mount.jpg)
+exact dimensions for tv mount 👇🏼 ( Kanto PDX700 )
+![](/img/glenridge-studio-tv-mount-2.jpg)
 
 cabinet maker renderings 👇🏼
 ![](/img/glenridge-studio-cabinets.jpg)
