@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/03/03** - wallpaper down and paint up
 - **25/02/28** - electrician on 3/4 cabinets in following week. 
   - measuring for tv mount and electrical this weekend
 - **24/10/28** - timeline on this got bumped due to [helene renovations](/posts/hurricane-helene).
@@ -22,8 +23,8 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
 
-exact dimensions for tv mount 👇🏼 ( Kanto PDX700 )
-![](/img/glenridge-studio-tv-mount-2.jpg)
+exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical
+![](/img/glenridge-studio-tv-mount-3.jpg)
 
 cabinet maker renderings 👇🏼
 ![](/img/glenridge-studio-cabinets.jpg)
