@@ -28,6 +28,7 @@ exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical
 
 cabinet maker renderings 👇🏼
 ![](/img/glenridge-studio-cabinets.jpg)
+![](/img/glenridge-studio-paint.jpg)
 
 Since it's 14 feet long, I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper. I'll use unfinished prebuilt cabinets and match the dark walnut stain to the existing mantle, rafters, and wet bar(aquarium stand) so it looks like it has been here since the house was built.
 
