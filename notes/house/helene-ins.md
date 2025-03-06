@@ -12,6 +12,8 @@ sidebar_class_name: green
 
 ## Log 
 
+- 03/04 - 2nd adjuster came to the house and met with general and sub contractors - wrote up a new report and said he would have the final report to us in a couple days.
+  - 2nd Adjuster - Stephen Pierce - 866-787-8876 ext. 1493
 - 12/09 - spoke with general contractor regarding a revised written estimate. Since he's still waiting on subs and will not have the trusses until January, I made an easier to read/compare spreadsheet of the labor and materials costs to compare them to the adjuster's report. 
   - converted and added the [adjuster's claim settlement report](/notes/house/helene-ins-adjust.md)
   - codensed the tables into an easier to read [formatted summary](/notes/house/helene-ins-sum.md) 
@@ -45,4 +47,4 @@ https://www.statefarm.com/agent/us/sc/greenwood/brian-schoch-26hpz1ys000
 https://brianschoch.com  
 License - SC-3612609
 
-Adjuster -  Jonathan Benitez Torres - 884-445-8430
+Adjuster -  Jonathan Benitez Torres - 884-445-8430  
