@@ -15,7 +15,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
-- 03/04 - State Farm sent second inspector to meet with general contractor
+- 03/04 - State Farm sent [second inspector](/notes/house/helene-ins.md) to meet with general contractor
 - 02/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
 - 02/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
 - 02/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
