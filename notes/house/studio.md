@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/03/07** - electrical in - patch and paint this weekend
 - **25/03/03** - wallpaper down and paint up
 - **25/02/28** - electrician on 3/4 cabinets in following week. 
   - measuring for tv mount and electrical this weekend
@@ -23,12 +24,14 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
 
-exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical
-![](/img/glenridge-studio-tv-mount-3.jpg)
+exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Brian Shirley Electrician](https://www.buildzoom.com/contractor/brian-shirley) - will go ahead and pull HDMI cables for large monitor (4)(tv, audio, game, computer) - cables will run behind drawers so they're accessible
 
-cabinet maker renderings 👇🏼
-![](/img/glenridge-studio-cabinets.jpg)
+![](/img/glenridge-studio-tv-mount-3.jpg)
 ![](/img/glenridge-studio-paint.jpg)
+
+cabinet maker rendering 👇🏼 
+![](/img/glenridge-studio-cabinets.jpg)
+
 
 Since it's 14 feet long, I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper. I'll use unfinished prebuilt cabinets and match the dark walnut stain to the existing mantle, rafters, and wet bar(aquarium stand) so it looks like it has been here since the house was built.
 
@@ -45,6 +48,42 @@ existing offices 👇🏼
 <video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
 </video>
 ---
+
+
+
+### Equipment:
+
+- Processing
+  - 💻 Mac Studio / Macbook Pro
+    - trackpads / keyboards
+  - Lacie Drives
+  - Router/wifi
+- Monitors
+  - 🖥️  ViewSonic VX3267U-4K / Lenovo C32q-20
+  - Sony 85” Class X85K 4K HDR LED
+- Imaging
+  - 📷 Sony A7 / Fujufilm X-T5
+  - DJI Air / stabilizer
+  - tripods/lighting/gear
+  - lighting - godox panels
+- Audio
+  - 🔊 Onkyo TX-NR636 - https://assets.onkyo-av.com/product-manuals/TX-NR636_ADV_En_29401761_140521_2022-11-02-200945_isbb.pdf?v=1667419823
+  - 🔈 Klipsch Reference Premiere
+    - considering adding Dolby Atmos toppers
+    - Pinnacle sub/rear/center
+  - Polk Reference Monitors 
+      - switch to Yamaha HS8
+  - 🎛️ Focusrite Scarlett
+  - 🎙️ Shure SM7db/Blue Yeti
+    - rode lavaliers
+  - Nord Stage 4 88 🎹 / Yamaha MX88
+- Graphic
+  - paints/medium/cleaners
+  - glass pallettes
+  - arm lighting
+  - Epson Supertank 19"
+  - iPad pro
+
 
 ### Notes:
 
@@ -81,43 +120,6 @@ existing offices 👇🏼
 
 
 
-
-
-
-### Equipment:
-
-- Processing
-  - Mac Studio / Macbook Pro
-  - trackpads / keyboards
-  - Lacie Drives
-  - Router/wifi
-- Monitor
-  - ViewSonic VX3267U-4K / Lenovo C32q-20
-  - Sony 85” Class X85K 4K HDR LED
-- Imaging
-  - Sony A7 / Fujufilm X-T5
-  - DJI Air
-  - tripods/lighting/gear
-  - DJI stabilizer
-  - lighting - godox panels
-- Audio
-  - Onkyo Amp
-  - Polk Reference Monitors 
-      - switch to Yamaha HS8
-  - Klipsch ProMedia
-  - Pinnacle sub/rear/center
-  - Focusrite Scarlett
-  - Shure SM7db/Blue Yeti
-    - rode lavaliers
-  - Nord Stage 4 88 🎹 / Yamaha MX88
-- Graphic
-  - paints/medium/cleaners
-  - glass pallettes
-  - arm lighting
-  - Epson Supertank 19"
-  - iPad pro
-
-
 ### References:
 
 - Tom Kidd Studio setup - https://www.behance.net/gallery/43250141/Studio-Setup
@@ -128,6 +130,13 @@ existing offices 👇🏼
 
 
 ### Materials:
+
+- CyberPower CP1500AVRLCD3 Intelligent LCD UPS System, 1500VA/900W [link](https://www.amazon.com/dp/B0BCMLLSHL)
+- AC Infinity AIRPLATE P7, Quiet Cooling Cabinet Fan System with Power Outlets and USB Ports, Intelligent Thermal Triggering, for Home Theaters [link](https://www.amazon.com/dp/B0B64LC2VQ)
+- KCT 16AWG Gauge Speaker Cable Speaker Wire 100Feet Black - [link](https://www.amazon.com/dp/B06XW3FS7V)
+- VCE Brush Wall Plate Cable Pass Through Insert for Wires, Single Gang Cable Access Strap, Wall Socket [link](https://www.amazon.com/dp/B075YD8Y8V)
+
+---
 
 - (1) ($1060) Basalt Slate Laminate countertop 168" x 26" - 31 sq/ft @ $34.20 per / 1/2" thickness/Waterfall Edge [link](https://www.homedepot.com/custom-countertops/countertops/configurator/310171055)
 - (1) ($285) Solid Spruce Rough Hewn Mantel 72x5x8" [link](https://www.homedepot.com/p/Solid-Spruce-Rough-Hewn-Mantel-72-in-x-5-in-x-8-in-Fireplace-Shelf-86026-076/313356662)
