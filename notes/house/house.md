@@ -12,7 +12,7 @@
 ## Log
 
 - 25/03/05 - second [insurance adjuster](/notes/house/helene-ins-adjust.md) met with general contractor
-- 24/12/10 - added Helene [Insurance Claim](/notes/house/helene-ins)
+- 24/12/10 - added Helene [Insurance Claim](/notes/house/helene-ins-adjust.md)
 - 24/11/02 - [remodel master bath](/notes/house/bath) and [move office](/notes/house/studio)  alongside helene repairs.
 - 24/09/27 - [Hurricane Helene](/notes/house/helene) - repairs from a tree falling on house.
 - 24/02/05 - [Studio Project](/notes/house/studio) - move my office downstairs
