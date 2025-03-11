@@ -103,15 +103,15 @@ existing offices 👇🏼
 - VESA tv (85") mount w/swing angle
 - cabinet cutout for sub-woofer so it stays hidden
   - sound dampeners ( no rattle )
-- existing electrical outlets are sufficient
+- <s>existing electrical outlets are sufficient</s>
+   - added three outlets - 1 behind mount, 1 in second cabinet, and 1 to pull through
 - cable management / mounted power strips
 - table top easel and draft table
   - easel on pull-out rotate gear ( same as living room TV )
   - additional lighting for easel
   - storage for oil, watercolor, mediums, and brushes
   - mount art light for better stability
-- floating shelf above monitors 
-  - match mantle dimensions
+- <s>floating shelf above monitors</s>
 - sell/donate old desk ( 1960s... was told that it came from Disney studios originally )
   - chunk the cheap bookshelves
   - continue to use under the stairs closet to hold canvas and lighting
@@ -132,12 +132,15 @@ existing offices 👇🏼
 ### Materials:
 
 - CyberPower CP1500AVRLCD3 Intelligent LCD UPS System, 1500VA/900W [link](https://www.amazon.com/dp/B0BCMLLSHL)
-- AC Infinity AIRPLATE P7, Quiet Cooling Cabinet Fan System with Power Outlets and USB Ports, Intelligent Thermal Triggering, for Home Theaters [link](https://www.amazon.com/dp/B0B64LC2VQ)
+- AC Infinity AIRPLATE P7, Cooling Cabinet Fan System with Power Outlets and USB, Intelligent Thermal Triggering, for Home Theaters [link](https://www.amazon.com/dp/B0B64LC2VQ)
 - KCT 16AWG Gauge Speaker Cable Speaker Wire 100Feet Black - [link](https://www.amazon.com/dp/B06XW3FS7V)
-- VCE Brush Wall Plate Cable Pass Through Insert for Wires, Single Gang Cable Access Strap, Wall Socket [link](https://www.amazon.com/dp/B075YD8Y8V)
+- VCE Cable Pass Through Insert for Wires, Single Gang [link](https://www.amazon.com/dp/B075YD8Y8V)
 - TotalMount – Apple TV Mount [link](https://www.amazon.com/dp/B017K17PQ8)
+- (2)15ft HDMI cables ( audio/monitor)
 
 ---
+
+🪚 Hired a cabinet maker instead of building them 👈🏻
 
 - (1) ($1060) Basalt Slate Laminate countertop 168" x 26" - 31 sq/ft @ $34.20 per / 1/2" thickness/Waterfall Edge [link](https://www.homedepot.com/custom-countertops/countertops/configurator/310171055)
 - (1) ($285) Solid Spruce Rough Hewn Mantel 72x5x8" [link](https://www.homedepot.com/p/Solid-Spruce-Rough-Hewn-Mantel-72-in-x-5-in-x-8-in-Fireplace-Shelf-86026-076/313356662)
