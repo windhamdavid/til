@@ -134,6 +134,7 @@ Met with an assortment of contractors and got third party reviews from others be
 
 - 👉🏻 ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman- **864-943-0544** ( Beth Starling (sister-in-law)/ Anna Starling (niece)) 
   - GC Lic. #G114007 👈🏻
+  - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299
   - ✅ (sub) Roofing Unlimited - https://www.roofingunlimitedandmoreinc.com - Tim 864-378-2360
   - ✅ (sub) Cabinet Design Center - Kenny Tally - 864-992-8432/Kennyt128@gmail.com
     - https://www.linkedin.com/in/kenny-talley-73ba5688
