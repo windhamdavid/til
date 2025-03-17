@@ -15,6 +15,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 03/13 - trusses installed
 - 03/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
 - 03/04 - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
 - 02/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
@@ -137,16 +138,17 @@ Met with an assortment of contractors and got third party reviews from others be
   - ✅ (sub) Cabinet Design Center - Kenny Tally - 864-992-8432/Kennyt128@gmail.com
     - https://www.linkedin.com/in/kenny-talley-73ba5688
     - https://www.facebook.com/p/Cabinet-Design-100049049686571/
+  - ✅ (sub) Glen Jones - Tru-Fit of Greenwood Inc. - 864-374-7950 - 2320 Dixie Dr, Hodges, SC 29653
+  - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293
+  - ✅ (sub) Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
 - ✅ Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller 
   - 10/01 - preliminary damage report and safety inspection
   - ??/?? - final inspection of completed work
 - Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget
-  - 10/05 - tarped
-- ✅ (sub) Top Coat Painters - John Coates - 864-910-0293
+  - 10/05 - tarped and paid
 - ~John Ward Painting - Trey Ward - 864-223-3623~
-- ✅ (sub) Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484
 - ~Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran~
 - ~Blackwater Construction - https://builtbyblackwater.com/ - Bennie McManus~
 - ~Charles & Assoc - https://carepairremodel.com~
@@ -193,8 +195,10 @@ Met with an assortment of contractors and got third party reviews from others be
 
 ## Materials
 
-- Siding - rough cut cedar ( do not sub )
-- Shingles - Owens Corning - Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
+- Siding - rough cut ~cedar~ pine
+- Shingles 
+  - Atlas Roofing Shingles - Pristine - Oyster Shell - Atlas Roofing Shingles - Pristine - Oyster Shell
+  - Original - Owens Corning - Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
 - Paint Colors - Sherwin Williams: 
   - Exterior: Grizzle Gray ( SW 7068 ) / Trim: Pewter Tankard ( SW 0023 )
   - Interior: Canvas Tan ( SW 7531 ) / Trim: Alabaster ( SW 7008 )
