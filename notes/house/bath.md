@@ -1,79 +1,55 @@
-# Bath Remodel
+# Master Bath Remodel
 
-**24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. 
+**24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den studio](/notes/house/studio). 
+
+
+## Log
+
+- **25/03/18** - meeting with plumber re: adding gas tankless water heater
+- **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
+- **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
+- **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
+- **24/10/28** - timeline on this got bumped due to [helene repairs](/notes/house/helene). Contractor has given us a start date estimate of March 2025.
 
 
 ![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
 <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>👈🏻 before & after 👉🏻</div>
 
-The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den as a studio](/notes/house/studio)
 
 ![glenridge-bathrooms](/img/glenridge-bathroom-remodel-mockup.jpg)
 
-## Log
 
-- **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
-- **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
-- **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
-- **24/10/28** - timeline on this got bumped due to [helene repairs](/notes/house/helene). Contractor has given us an completion estimate of March 2025.
 
 ## Design
 
 We want to stay 'true' to the original house. The style is a contemporary craftsman built in 1979. The current bathrooms use hexagonal tiles, bulb makeup style vanity lighting, and contemporary hardware. Both showers/tubs are fiberglass insets but we'd like to move to a lipless tiled glassed shower and a freestanding tub. A second vanity/sink addition was made sometime during the 80s which we'd like to remove. 
 
+
 ## Materials
 
-- Tile - light colored - textured non-slip
-- Lighting - dimmable led ceiling and bulb vanity
-- Cabinets - white/light/wood colored
-- Shelves - towel/laundry
-- Mirror - single mounted - no frame
-- Shower - wand attachments
-- Bath - freestanding round non-jetted
-- Windows - matching wood shutters
-- Vent - w/heater
-
-
-### Materials List
-
-#### Bath
-
-American Standard - Aspirations 68” Freestanding ( brushed nickel  )
+- **Bath** - American Standard - Aspirations 68” Freestanding ( brushed nickel  )
 https://www.americanstandard-us.com/freestanding-bathtubs/aspirations™-68-x-34-inch-freestanding-bathtub-with-white-drain-and-overflow/white-2677004020
-
-specs - https://lixil.cdn.celum.cloud/233762_spec_2677004_Aspirations_68x34_freestanding_tub_v2_original.pdf
-
-#### Shower
-
-Head - American Standard - 3 function 4 3/4 inch ( brushed nickel )
+ - [specs](https://lixil.cdn.celum.cloud/233762_spec_2677004_Aspirations_68x34_freestanding_tub_v2_original.pdf)
+- **Shower** - Head - American Standard - 3 function 4 3/4 inch ( brushed nickel )
 https://www.americanstandard-us.com/rain-showerheads/3-function-4-3-4-inch-18-gpm-68-l-min-water-saving-showerhead/chrome-1660652002
-
-Hand - American Standard - 4 Spay Hand Shower & 24” Rail
+  - Hand - American Standard - 4 Spay Hand Shower & 24” Rail
 https://www.americanstandard-us.com/showers/shower-systems-list
-
-Valves - American Standard - Studio S 2-Handle ( brushed nickel )
+  - Valves - American Standard - Studio S 2-Handle ( brushed nickel )
 https://www.americanstandard-us.com/thermostatic-valves-and-trims/studio-s-2-handle-integrated-shower-diverter-trim-only/chrome-tu105740002
-
-#### Sinks 
-
-Faucet(s) - American Standard - Aspirations Single Handle ( brushed nickel )
+- **Sinks** 
+  - Faucet(s) - American Standard - Aspirations Single Handle ( brushed nickel )
 https://www.americanstandard-us.com/single-hole-bathroom-faucets/aspirations-single-handle-bathroom-faucet-12-gpm-45-l-min-with-lever-handle/chrome-7061101002
-
-Sinks(s) - American Standard - Aspirations Drop-in Sink Center Hole Only 
+  - Sinks(s) - American Standard - Aspirations Drop-in Sink Center Hole Only 
 https://www.americanstandard-us.com/countertop-bathroom-sinks/aspirations-drop-in-sink-center-hole-only/white-1721001020
-
-#### Tile
-
-- ?
-- ?
-- ?
-
-
-#### Toilet
-
-American Standard - Aspirations Skirted Two-Piece - https://www.americanstandard-us.com/two-piece-toilets/aspirations-skirted-two-piece-128-gpf-48-lpf-chair-height-elongated-toilet-with-seat/white-252aa899020
-
-
-#### Vent
-
-Panasonic Whisper Cozy DC 50-80-110 Ceiling Exhaust Fan with LED Light/Night Light and Heater ( 1600W ) - https://iaq.na.panasonic.com/ventilation/fans/whispercozy
+- **Toilet** - American Standard - Aspirations Skirted Two-Piece - https://www.americanstandard-us.com/two-piece-toilets/aspirations-skirted-two-piece-128-gpf-48-lpf-chair-height-elongated-toilet-with-seat/white-252aa899020
+- **Vent** - Panasonic Whisper Cozy DC 50-80-110 Ceiling Exhaust Fan with LED Light/Night Light and Heater ( 1600W ) - https://iaq.na.panasonic.com/ventilation/fans/whispercozy
+- **Water Heater** - Rheem Performance Platinum 8.4 GPM High Efficiency Indoor Gas Tankless
+- **Flooring** 
+  - Carpet - Mohawk Smart Strand - Forever Clean  - Vintage  Glamour - Havana
+https://www.mohawkflooring.com/shop/Carpet/detail/3J52/Casual_Elegance/759/Bare_Necessities?productLine=SmartStrand&carpet_types=Pattern
+  - Pad - Tempur Material with SpillSafe 7/16 in. 8 lb. Density Carpet Pad
+  - **Tile** - ?? - Tile - light colored - textured non-slip
+- **Lighting** - dimmable led ceiling and bulb vanity
+- **Cabinets** - white/light/wood colored
+- **Mirror** - single mounted - no frame
+- **Sliding Glass Door** - Anderson Fiberglass

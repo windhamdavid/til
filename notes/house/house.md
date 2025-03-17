@@ -11,6 +11,7 @@
 
 ## Log
 
+- 25/03/13 - [trusses installed](/notes/house/helene)
 - 25/03/05 - second [insurance adjuster](/notes/house/helene-ins-adjust.md) met with general contractor
 - 24/12/10 - added Helene [Insurance Claim](/notes/house/helene-ins-adjust.md)
 - 24/11/02 - [remodel master bath](/notes/house/bath) and [move office](/notes/house/studio)  alongside helene repairs.
@@ -87,10 +88,7 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 - Flooring - Dark Stained (Winsor) Oak Parquet from Anderson Flooring (Sneads - - Greenwood)
 - repaint the baseboards, chair rails, walls, and crown moulding
 
-**Interior Paint Colors**
-- Walls: Sherwin Williams Flat Canvas Tan ( SW7531 GS19 )
-- Trim:  Sherwin Williams Gloss - Alabaster ( SW7008 FF04 )
-- Ceiling: Valspar Ultra-flat Ceiling White
+
 
 ## Minor Projects
 
@@ -108,7 +106,21 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 - replace sliding doors (2)upstairs/den
   - New Sliding Doors for Master / Rec Room
 
-### Exterior Paint
+
+### Energy
+
+- Gas line hook-in ( for tankless in bath remodel )
+- Natural Gas Fireplaces - [dominion efficency report](https://cdn-dominionenergy-prd-001.azureedge.net/-/media/pdfs/south-carolina/save-energy/thermwise/desc-thermwise-fireplace-qualified-models.pdf)
+
+
+
+### Paint
+
+- Walls: Sherwin Williams Flat Canvas Tan ( SW7531 GS19 )
+- Trim:  Sherwin Williams Gloss - Alabaster ( SW7008 FF04 )
+- Ceiling: Valspar Ultra-flat Ceiling White
+- Exterior: Sherwin Williams Grizzle Grey ( SW7068 )
+- Exterior Trim: Sherwin Williams Pweter Tankard ( SW0023 )
 
 ![glenridge](/img/glenridge-paint.jpg)
 
