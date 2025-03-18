@@ -143,6 +143,7 @@ Met with an assortment of contractors and got third party reviews from others be
   - ✅ (sub) Glen Jones - Tru-Fit of Greenwood Inc. - 864-374-7950 - 2320 Dixie Dr, Hodges, SC 29653
     - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
+  - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
