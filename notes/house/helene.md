@@ -203,6 +203,8 @@ Met with an assortment of contractors and got third party reviews from others be
 
 ## Materials
 
+- Doors - WeatherShield - https://weathershield.com
+  - sliding - Aluminum over Wood/Fiberglass ( 8 week order )
 - Siding - rough cut ~cedar~ pine
 - Shingles 
   - Atlas Roofing Shingles - Pristine - Oyster Shell - Atlas Roofing Shingles - Pristine - Oyster Shell
