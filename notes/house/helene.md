@@ -15,7 +15,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
-- 3/18 - bathroom sub meeting
+- 3/18 - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
 - 3/10-19 - Framing crew - trusses installed
 - 3/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
 - 3/05 - Ferqueron Dead Pine removed ( will come back for additional pines and oak near house )
@@ -144,6 +144,9 @@ Met with an assortment of contractors and got third party reviews from others be
     - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
   - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653
+  - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, flooring, doors
+  - ✅ (sub) Emerald Plumbing - Harley Cobb
+  - ✅ (sub) Drywall - Kenny Cole 
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
