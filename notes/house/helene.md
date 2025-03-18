@@ -15,15 +15,17 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
-- 03/13 - trusses installed
-- 03/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
-- 03/04 - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
-- 02/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
-- 02/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
-- 02/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
-- 02/12 - Kenny Talley Cabinet guy over for measurements
-- 02/11 - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
-- 02/06 - trusses delivered
+- 3/18 - bathroom sub meeting
+- 3/10-19 - Framing crew - trusses installed
+- 3/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
+- 3/05 - Ferqueron Dead Pine removed ( will come back for additional pines and oak near house )
+- 3/04 - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
+- 2/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
+- 2/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
+- 2/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
+- 2/12 - Kenny Talley Cabinet guy over for measurements
+- 2/11 - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
+- 2/06 - trusses delivered
 - 01/20 - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 - 12/06 - truss manufacturer backlogged 
   - was told "12 weeks out"
@@ -134,12 +136,12 @@ Met with an assortment of contractors and got third party reviews from others be
 
 - 👉🏻 ✅ KL Timmerman - https://www.buildzoom.com/contractor/timmerman-kenneth - Kenny Timmerman- **864-943-0544** ( Beth Starling (sister-in-law)/ Anna Starling (niece)) 
   - GC Lic. #G114007 👈🏻
-  - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299
   - ✅ (sub) Roofing Unlimited - https://www.roofingunlimitedandmoreinc.com - Tim 864-378-2360
   - ✅ (sub) Cabinet Design Center - Kenny Tally - 864-992-8432/Kennyt128@gmail.com
     - https://www.linkedin.com/in/kenny-talley-73ba5688
     - https://www.facebook.com/p/Cabinet-Design-100049049686571/
   - ✅ (sub) Glen Jones - Tru-Fit of Greenwood Inc. - 864-374-7950 - 2320 Dixie Dr, Hodges, SC 29653
+    - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
 - JMP Construction - https://jmpconcretesc.com - John Parramore
