@@ -15,6 +15,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 3/19 - Mountz glass to measure rear, office, and sun room windows
 - 3/18 - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
 - 3/10-19 - Framing crew - trusses installed
 - 3/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
@@ -143,18 +144,19 @@ Met with an assortment of contractors and got third party reviews from others be
   - ✅ (sub) Glen Jones - Tru-Fit of Greenwood Inc. - 864-374-7950 - 2320 Dixie Dr, Hodges, SC 29653
     - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
-  - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653
+  - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653 - gas generator
   - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, flooring, doors
   - ✅ (sub) Emerald Plumbing - Harley Cobb
   - ✅ (sub) Drywall - Kenny Cole 
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
+- ✅ Ferqueron & Sons Tree Services - Lee Ferqueron - 864-223-4125/cell 864-980-5104 lee@ferqueronsons.com - http://www.ferqueronsons.com
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
 - ✅ Advanced Inspections - https://www.greenwoodinspector.com - Tom Miller 
   - 10/01 - preliminary damage report and safety inspection
   - ??/?? - final inspection of completed work
-- Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484
-- Superior Roofing - https://www.superiorroofinggreenwood.com - Bridget
+- ~Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484~
+- Superior Roofing ( Tarps ) - https://www.superiorroofinggreenwood.com - Bridget
   - 10/05 - tarped and paid
 - ~John Ward Painting - Trey Ward - 864-223-3623~
 - ~Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran~
@@ -207,7 +209,7 @@ Met with an assortment of contractors and got third party reviews from others be
   - sliding - Aluminum over Wood/Fiberglass ( 8 week order )
 - Siding - rough cut ~cedar~ pine
 - Shingles 
-  - Atlas Roofing Shingles - Pristine - Oyster Shell - Atlas Roofing Shingles - Pristine - Oyster Shell
+  - Atlas Roofing Shingles - Pristine - Oyster Shell - Atlas Roofing Shingles - Pristine - ~Oyster Shell~ Majestic Shake
   - Original - Owens Corning - Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
 - Paint Colors - Sherwin Williams: 
   - Exterior: Grizzle Gray ( SW 7068 ) / Trim: Pewter Tankard ( SW 0023 )
