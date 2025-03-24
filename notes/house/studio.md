@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/03/26** - cabinet contractor install
 - **25/03/07** - electrical in - patch and paint this weekend
 - **25/03/03** - wallpaper down and paint up
 - **25/02/28** - electrician on 3/4 cabinets in following week. 
