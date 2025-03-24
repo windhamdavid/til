@@ -24,9 +24,11 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
 
+
 exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Brian Shirley Electrician](https://www.buildzoom.com/contractor/brian-shirley) - will go ahead and pull HDMI cables for large monitor (4)(tv, audio, game, computer) - cables will run behind drawers so they're accessible
 
 ![](/img/glenridge-studio-tv-mount-3.jpg)
+![](/img/studio-wiring.png)
 ![](/img/glenridge-studio-paint.jpg)
 
 cabinet maker rendering 👇🏼 
