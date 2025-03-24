@@ -5,7 +5,7 @@
 
 ## Log
 
-- **25/03/18** - meeting with plumber re: adding gas tankless water heater
+- **25/03/18** - meeting with plumber re: adding gas tankless water heater - put in a CPW request for gas lines since contractor recommended over electric
 - **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
 - **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
 - **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
@@ -27,9 +27,10 @@ We want to stay 'true' to the original house. The style is a contemporary crafts
 
 ## Materials
 
-- **Bath** - American Standard - Aspirations 68” Freestanding ( brushed nickel  )
-https://www.americanstandard-us.com/freestanding-bathtubs/aspirations™-68-x-34-inch-freestanding-bathtub-with-white-drain-and-overflow/white-2677004020
- - [specs](https://lixil.cdn.celum.cloud/233762_spec_2677004_Aspirations_68x34_freestanding_tub_v2_original.pdf)
+- **Bath** - ~American Standard - Aspirations 68” Freestanding ( brushed nickel  )[specs]
+(https://lixil.cdn.celum.cloud/233762_spec_2677004_Aspirations_68x34_freestanding_tub_v2_original.pdf)~
+  - Barclay Vincent 71" - https://www.barclayproducts.com/products/vincent-71-acrylic-tub-with-integral-drain-and-overflow
+    - local supplier had a deal on this one because it was ordered and never delivered
 - **Shower** - Head - American Standard - 3 function 4 3/4 inch ( brushed nickel )
 https://www.americanstandard-us.com/rain-showerheads/3-function-4-3-4-inch-18-gpm-68-l-min-water-saving-showerhead/chrome-1660652002
   - Hand - American Standard - 4 Spay Hand Shower & 24” Rail
