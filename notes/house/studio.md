@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/03/27** - cabinets in & final trim on 3/28
 - **25/03/26** - cabinet contractor install
 - **25/03/07** - electrical in - patch and paint this weekend
 - **25/03/03** - wallpaper down and paint up
@@ -25,17 +26,6 @@ I measured up the den wall at 168" wide and 96" tall and I whipped this up as a 
 ![](/img/studio-desk.jpg)
 ![](/img/studio-desk-1.jpg)
 
-
-exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Brian Shirley Electrician](https://www.buildzoom.com/contractor/brian-shirley) - will go ahead and pull HDMI cables for large monitor (4)(tv, audio, game, computer) - cables will run behind drawers so they're accessible
-
-![](/img/glenridge-studio-tv-mount-3.jpg)
-![](/img/studio-wiring.png)
-![](/img/glenridge-studio-paint.jpg)
-
-cabinet maker rendering 👇🏼 
-![](/img/glenridge-studio-cabinets.jpg)
-
-
 Since it's 14 feet long, I'm gonna combine the now mostly neglected easel into my desk. What I'm not going to do is turn my garage into a woodworking shop even though that's tempting because I have some experience with it. The only thing new I'll need there is some new clamps, stain, and fresh sandpaper. I'll use unfinished prebuilt cabinets and match the dark walnut stain to the existing mantle, rafters, and wet bar(aquarium stand) so it looks like it has been here since the house was built.
 
 And while I'm at it, I'll likely upgrade the old [mac mini](https://davidawindham.com/mac-mini/), add a keyboard, and integrate the audio and video into it. The 96" space will allow for two people to work side by side. I'm also planning on having a lift on the I'm estimating the cost to be under a grand sans mac studio. I'll continue using it as my daily day gig, but I'd also like to venture into some more creative endeavors. I'm really hoping it'll put my eyes on the canvas as much as the monitors, but most importantly it'll be much easier to take a nap on the sofa or let Iris in and out.
@@ -50,6 +40,19 @@ existing offices 👇🏼
 
 <video src="https://davidawindham.com/media/office.mp4" width="100%" controls="controls">
 </video>
+
+<div><br/><br/></div>
+exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Brian Shirley Electrician](https://www.buildzoom.com/contractor/brian-shirley) - will go ahead and pull HDMI cables for large monitor (4)(tv, audio, game, computer) - cables will run behind drawers so they're accessible
+
+![](/img/glenridge-studio-tv-mount-3.jpg)
+![](/img/studio-wiring.png)
+![](/img/glenridge-studio-paint.jpg)
+![](/img/studio-desk-new.jpg)
+
+
+
+
+
 ---
 
 

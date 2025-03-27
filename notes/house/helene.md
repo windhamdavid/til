@@ -15,16 +15,20 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 3/26 - CPW marked utility lines for gas / [studio](/notes/house/studio.md) cabinets installed
+- 3/25-26 - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳
+  - grind two stumps and keep woodchips as mulch
+- 3/25 - WCTel on site to reroute fiber optic line
 - 3/19 - Mountz glass to measure rear, office, and sun room windows
 - 3/18 - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
-- 3/10-19 - Framing crew - trusses installed
+- 3/10-19 - Framing crew - trusses installed / siding repaired
 - 3/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
 - 3/05 - Ferqueron Dead Pine removed ( will come back for additional pines and oak near house )
 - 3/04 - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
 - 2/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
 - 2/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
 - 2/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
-- 2/12 - Kenny Talley Cabinet guy over for measurements
+- 2/12 - Cabinet guy ( Kenny Talley ) over for measurements
 - 2/11 - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
 - 2/06 - trusses delivered
 - 01/20 - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
@@ -209,7 +213,7 @@ Met with an assortment of contractors and got third party reviews from others be
   - sliding - Aluminum over Wood/Fiberglass ( 8 week order )
 - Siding - rough cut ~cedar~ pine
 - Shingles 
-  - Atlas Roofing Shingles - Pristine - Oyster Shell - Atlas Roofing Shingles - Pristine - ~Oyster Shell~ Majestic Shake
+  - Atlas Shingles - Pinnacle Pristine - ~Oyster Shell~ Majestic Shake - https://www.atlasroofing.com/products/roof-shingles/pinnacle-pristine-shingles
   - Original - Owens Corning - Oakridge Driftwood - https://www.owenscorning.com/en-us/roofing/shingles/oakridge?color=driftwood  
 - Paint Colors - Sherwin Williams: 
   - Exterior: Grizzle Gray ( SW 7068 ) / Trim: Pewter Tankard ( SW 0023 )
