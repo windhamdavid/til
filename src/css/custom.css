@@ -91,6 +91,9 @@ html[data-theme='dark'] {
 table td img {
   max-width: 100px;
 }
+#footnote-label {
+  font-size: 1.2rem;
+}
 .markdown > h2 {
   font-size: 1.5rem;
 }
