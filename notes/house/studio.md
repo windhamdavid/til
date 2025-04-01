@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/04/01** - almost done sans some hardware mounting
 - **25/03/27** - cabinets in & final trim on 3/28
 - **25/03/26** - cabinet contractor install
 - **25/03/07** - electrical in - patch and paint this weekend
@@ -48,6 +49,7 @@ exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Br
 ![](/img/studio-wiring.png)
 ![](/img/glenridge-studio-paint.jpg)
 ![](/img/studio-desk-new.jpg)
+![](/img/studio-desk-done.jpg)
 
 
 
