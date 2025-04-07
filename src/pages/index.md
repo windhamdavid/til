@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
+  - 25/04/07 - [Stu](/docs/computers/stu)
   - 25/04/01 - [Studio Desk](/notes/house/studio)
   - 25/03/31 - [Sit 'n' Whittle](/posts/sit-n-whittle)
   - 25/03/03 - [Being Busy](/posts/being-busy)
