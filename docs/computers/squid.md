@@ -2,6 +2,18 @@
 
 Setting up a new server for a project. This one has to be easily replicated and provide access to multiple systems level administrators. The named comes from a portmantuau of the hosting data center and because cephalopod intelligence is the best of the invertebrates.
 
+## Log
+
+- **25/04/09** add a passive FTP rule to the firewall 
+
+
+
+
+
+
+
+## System
+
 ```sh
 
 - Processor: Intel(R) Xeon(R) E E-2456 (12 core)
@@ -16,8 +28,6 @@ Kernel: Linux 5.14.0-503.23.2.el9_5.x86_64
 Architecture: x86-64
 
 ```
-
-## System
 
 ### AlmaLinux 9 🐧 
 
