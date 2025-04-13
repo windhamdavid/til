@@ -5,7 +5,7 @@
 
 re: https://davidawindham.com/den-studio/
 
-**25/04/07** - my new Mac Studio came in over the weekend. Right now I'm calling it Stu and it seems like it's going to stick. It's an upgrade I promised myself to go along with the new [studio project](/notes/house/studio). It's a replacement for my old Mac Mini ( [Magic](/docs/computers/magic.md) ) which was the last of my working local machines not on an ARM architecture. I remember when 1GB of memory was considered outrageous. It's a hoss and will serve as my primary desktop alongside of my laptop [Ovid](/notes/computers/ovid).
+**25/04/07** - my new Mac Studio came in over the weekend. Right now I'm calling it Stu and it seems like it's going to stick. It's an upgrade I promised myself to go along with the new [studio project](/notes/house/studio). It's a replacement for my old Mac Mini ( [Magic](/docs/computers/magic.md) ) which was the last of my working local machines not on an ARM architecture. I remember when 1GB of memory was considered outrageous. It's a hoss and will serve as my primary desktop alongside of my laptop [Ovid](/docs/computers/ovid).
 
 Every time I spin up a new machine, I take time to make considerations on possible changes. I never boot from backups or stuff new machines with previous projects. My approach is almost always minimalism. I look at my older system and ask myself what I can trim because I inevitably end up with multiple language versions, extraneous packages, and software. 
 
