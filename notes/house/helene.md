@@ -9,13 +9,16 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 
 
-**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage photos @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage and construction photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
 
 
 
 ## Log
 
-- 3/26 - CPW marked utility lines for gas / [studio](/notes/house/studio.md) cabinets installed
+- 4/10 - **Roof** replaced - 7am -> 6pm - finished 
+- 4/02 - **windows** replaced (+ sunroom/office)
+- 3/26 - CPW marked utility lines for gas 
+- 3/36 - [studio](/notes/house/studio.md) cabinets installed
 - 3/25-26 - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳
   - grind two stumps and keep woodchips as mulch
 - 3/25 - WCTel on site to reroute fiber optic line
@@ -77,63 +80,9 @@ image: https://davidawindham.com/wha/helene-1.jpg
   - Bedroom closet corner
 
 
-### Property
+## Insurance 
 
-- Food loss
-- Landscaping
-  - Lawn back/side Shrubs ( from removal )
-  - Dogwood/Cedar trees ( from removal )
-  - Pavers/Edging ( from removal )
-- Driveway cracks from crane/saw trucks footing
-- Marvin’s mailbox / Marianne’s fence
-- Damaged tree removals
-  - leaning tree(s) removed ( not covered )
-
-### Loss of Use
-
-- ( 09/30 -> 10/04 ) Power loss - work
-- ( 10/28 ) Off work all day for adjuster appointment snafu
-- ( 11/5 -> ??? ) Bedroom / Office / Master Bath
-
-
-## Insurance
-
-- 03/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
-- 03/04 - 2nd adjuster came to the house and met with general and sub contractors - wrote up a new report and said he would have the final report to us in a couple days.
-  - 2nd Adjuster - Stephen Pierce - 866-787-8876 ext. 1493
-- 12/09 - spoke with general contractor regarding a revised written estimate. Since he's still waiting on subs and will not have the trusses until January, I made an easier to read/compare spreadsheet of the labor and materials costs to compare them to the adjuster's report. 
-  - converted and added the [adjuster's claim settlement report](/notes/house/helene-ins-adjust.md)
-  - codensed the tables into an easier to read [formatted summary](/notes/house/helene-ins-sum.md) 
-- 11/18 - holding claim settlement check until adjusted
-- 11/11 - claim settlement arrived in the mail 
-  - spoke with agent who asked for estimate from contractor to adjust claim instead of sending another adjuster to the house
-  - spoke with contractor who said settlement is not accurate and requested that I ask for another adjuster
-- 11/05 - claim estimate completed and added to claims hub portal
-- 11/05 - claims adjuster called
-  - said he was wrapping the estimate and asked about food loss
-- 10/28 - met with claims adjuster ( Jonathan Bonitez Lozano? ) 
-  - Appt @ 8am but showed up @ 6pm - took notes/photos
-  - submitted additional photos to insurance portal / shared damages list
-  - "allow 10 days for report" ( workdays would put it @ 11/11 )
-- 10/09 - spoke with Mr. SaintCome and scheduled appt for 10/28
-- 10/06 - adjuster called and changed in portal ( Evans SaintCome ) 
-  - returned call and left several voicemails
-- 10/01 - called adjuster assigned in portal ( Mick Kayat ) left message
-- 09/30 - "I don’t see your claim filed yet. Need me to file it for you?"
-  - Claim filed **# 40-P833-5X2** ( portal says filed on 9/29 )
-  - Coverage: 400K dwelling, 300K personal property, 120K loss of use
-    - Deductible: $4,005
-- 09/27 - Notified agent via text ( Brian Schoch )
-  - agent responded "I will get the file claimed for you guys this morning"
-
-### Reps
-
-**Brian Schoch - State Farm** - 864-223-1077
-https://www.statefarm.com/agent/us/sc/greenwood/brian-schoch-26hpz1ys000
-https://brianschoch.com  
-License - SC-3612609
-
-Adjuster -  Jonathan Benitez Torres - 884-445-8430  
+- see [**Insurance**](/notes/house/helene-ins-sum.md)
 
 ## Contractors
 
@@ -160,8 +109,8 @@ Met with an assortment of contractors and got third party reviews from others be
   - 10/01 - preliminary damage report and safety inspection
   - ??/?? - final inspection of completed work
 - ~Greenwood Glass Co. - https://greenwoodglassco.com - 864-377-8484~
-- Superior Roofing ( Tarps ) - https://www.superiorroofinggreenwood.com - Bridget
-  - 10/05 - tarped and paid
+- ~Superior Roofing ( Tarps ) - https://www.superiorroofinggreenwood.com - Bridget~
+  - ~10/05 - tarped and paid~
 - ~John Ward Painting - Trey Ward - 864-223-3623~
 - ~Uldrick Builders - https://uldrickbuilders.com - Jacob Cochran~
 - ~Blackwater Construction - https://builtbyblackwater.com/ - Bennie McManus~
@@ -172,45 +121,31 @@ Met with an assortment of contractors and got third party reviews from others be
 - ~AP Woodworks - https://ap-woodworks.com - Andrew/Amanda Petroski~
 
 
-
 ## Construction
 
 - Roof
-  - having custom engineered trusses measured and made
-  - pull back 10-14 feet of roof to install new trusses
-    - reroute attic ductwork
-    - crane will be brought in through side yard to lift trusses
-  - entire roof will need to be re-shingled to match
+  - ~having custom engineered trusses measured and made~
+  - ~pull back 10-14 feet of roof to install new trusses~
+  - crane will be brought in through side yard to lift trusses
+  - reroute attic ductwork
+  - ~entire roof will need to be re-shingled to match~
   - replace damaged gutters/gaurds & repaint them
 - Siding
-  - replace cedar siding boards that were broken and damaged.
-  - pull back to re-weatherproof/insulate. 
+  - ~replace cedar siding boards that were broken and damaged~
+  - ~pull back to re-weatherproof~
   - repaint
 - Interior
-  - drywall will have to be pulled back to the studs 10 ft in bedroom
+  - ~drywall will have to be pulled back to the studs 10 ft in bedroom~
   - trim / repaint
   - floor/subfloor/carpet - likely entire upstairs to match
 - Windows/Doors
-  - replace bedroom window / sliding door
+  - ~replace bedroom window~ / sliding door
 
-### Landscape
-
-- pull two stumps and backfill form downed trees
-  - remove remaining debris/limbs
-- remove additional trees
-  - leaning hickory west side
-  - leaning oak south side near deck
-  - pines(3) on East border ( not damaged but future risk )
-  - sweet gum at rear and front ( just don't like them )
-- replaced damaged shrubs
-- repair/install pavers/edging
-- sod/seed back/side yard damaged from equipment
-- patch cracks in driveway damaaged from equipment
-
-## Materials
+### Materials
 
 - Doors - WeatherShield - https://weathershield.com
   - sliding - Aluminum over Wood/Fiberglass ( 8 week order )
+  - WeatherShield 'Driftwood' most closely matches SW Pewter Tankard trim.
 - Siding - rough cut ~cedar~ pine
 - Shingles 
   - Atlas Shingles - Pinnacle Pristine - ~Oyster Shell~ Majestic Shake - https://www.atlasroofing.com/products/roof-shingles/pinnacle-pristine-shingles
@@ -221,3 +156,26 @@ Met with an assortment of contractors and got third party reviews from others be
 - Stain - Ready Seal Pecan Semi-transparent
 - Carpet - StainMaster Signature Unmatched Super Fine open loop 
   - StainMaster padding/underlay
+
+### Punch Lists
+
+#### Exterior
+
+- Gutters - replace
+- Chimney Chase Windshield / Caps
+- Exterior Paint ( touch up spots on chase / ladders )
+
+#### Interior
+
+## Landscape
+
+- ~pull two stumps and backfill form downed trees~
+  - ~remove remaining debris/limbs~
+- ~remove additional trees~
+  - leaning oak south side near deck
+  - pines(3) on East border ( not damaged but future risk )
+- replaced damaged shrubs
+- repair/install pavers/edging
+- sod/seed back/side yard damaged from equipment
+- patch cracks in driveway damaged from equipment
+
