@@ -2,6 +2,7 @@
 
 ### Log
 
+- **25/04/05** - done ✅ write up @ https://davidawindham.com/den-studio/
 - **25/04/01** - almost done sans some hardware mounting
 - **25/03/27** - cabinets in & final trim on 3/28
 - **25/03/26** - cabinet contractor install
