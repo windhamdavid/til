@@ -7,9 +7,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-background-color:#d9d9d9;
-  --ifm-navbar-background-color:#e2e2e2;
-  --ifm-color-primary: #AC0000;
+  --ifm-background-color:#ffffff;
+  --ifm-navbar-background-color:#e9e9e9;
+  --ifm-color-primary: #9b0000;
   --ifm-color-primary-dark: #C01E1E;
   --ifm-color-primary-darker: #880707;
   --ifm-color-primary-darkest: #420101;
@@ -22,8 +22,8 @@
   --ifm-h3-font-size: 1.2rem;
 }
 html[data-theme='dark'] {
-  --ifm-background-color:#484c57;
-  --ifm-navbar-background-color:#535763;
+  --ifm-background-color:#2b2f37;
+  --ifm-navbar-background-color:#3f424b;
   --ifm-footer-background-color:#535763;
   --ifm-alert-background-color: #383a42;
   --ifm-color-primary: #25c2a0;
@@ -56,7 +56,7 @@ html[data-theme='dark'] {
   background-color: #e2e2e2 !important;
 }
 .toggleTrack_32Fl {
-  background-color: #484c57;
+  background-color: #2b2f37;
 }
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -71,7 +71,7 @@ html[data-theme='dark'] {
   content: '\1F31E';
 }
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
- background-color: #484c57 !important;
+ background-color: #2b2f37 !important;
 }
 .header-homepage-link {
   font-family: 'Times New Roman', Times, serif !important;
