@@ -1,8 +1,10 @@
 # Den Studio
 
+![](https://davidawindham.com/wp-content/uploads/2025/04/studio.jpg)
+
 ### Log
 
-- **25/04/05** - done ✅ write up @ https://davidawindham.com/den-studio/
+- **25/04/12** write up @ [**davidawindham.com/den-studio/**](https://davidawindham.com/den-studio/)
 - **25/04/01** - almost done sans some hardware mounting
 - **25/03/27** - cabinets in & final trim on 3/28
 - **25/03/26** - cabinet contractor install
@@ -16,13 +18,9 @@
 
 **24/02/05** - We decided we're gonna do the master bath remodel ([/notes/house#projects](/notes/house/)) this year, so I'll be migrating my office into the den. We're going to be turning the other office into a dressing room/walk-in closet as part of a bathroom renovation and the better half will be moving into my office.
 
-
-
-
-
----
-
 I measured up the den wall at 168" wide and 96" tall and I whipped this up as a start.
+
+
 
 ![](/img/art.studio.jpg)
 ![](/img/studio-desk.jpg)

@@ -13,11 +13,32 @@ Every time I spin up a new machine, I take time to make considerations on possib
 
 - **25/04/07** - init 🔥
 
+## Peripheral
+
+🛜 TP-link Deco XE75 Pro ( ethernet ䷇ )  
+🖥️ (2) ViewSonic 32" VX3267U-4K / Sony X85K  
+📷 FujiFilm XT-1 / Nikon Z50II  
+🔈 Onkyo TX-NR636 / WiiM / Polk monitors/center/sub  
+🎛️ Auturia MiniFuse / 🎹 Auturia Mk3  / 🎙️ Blue
+
+## Software
+
+**Productivity** - Alfred, Obsidian, Acrobat, Notes, Reminders  
+**Development** - Terminal, Xcode, Visual Studio Code, Cursor, Transmit, TablesPlus, DBngin, Docker, Insomnia, Postman, Proton , GPG Suite  
+**Design** - Adobe Illustrator/Photoshop/InDesign, Figma, Color Picker  
+**A/V** - Monitor Control, Handbrake, Logic/Final Cut Pro, Adobe Premier/Audition/Encoder, Screenflow, OBS, Audio Hijack/Loopback  
+**System** - Mail, Messages, Reminders, Calendar, Numbers, Pages, Photos, Passwords  
+**Browsers** - Safari, Orion, Firefox Developer  
+**AI** - Claude/OpenAI/Gemini/CoPilot APIs ( for Cursor, VSCode, Kagi Assistant)  
+**Deprecated** - Wirecast, Logseq, Slack
+
 ## System
 
 ### Preferences
 
-Nothing new here: still prefer the un-natural trackpad direction and I've taken to the arial screen savers. 
+- 'unnatural' track pad direction
+- aerial screen savers
+- dark mode always 
 
 #### Network
 - switching to Quad9 over Google for DNS b/c more privacy and a bit faster ( .1 ms )
@@ -25,7 +46,7 @@ Nothing new here: still prefer the un-natural trackpad direction and I've taken 
 
 ### MacOS
 
-I use a good bit of Apple software mainly because of the convenience and interoperability. Passwords, Calendars, Mail, Pages, Photos, Notes, Reminders, Safari, and so on.
+I use a good bit of Apple software mainly because of the convenience and interoperability.
 
 #### iCloud
 
@@ -33,22 +54,26 @@ I switched to an Apple One account several years ago so now I use the 2TB libera
 
 ### Finder / Files
 
-Show system Library and add additional folders. I've now migrated to using pretty much the exact same file structure on all of my backup and remote drives prefixing them with the machine name. /Projects and /Sites are the two main add-ons and I use acronyms in both. /Graphics are in /Pictures and so on.
+Show system Library and add additional folders. I've now migrated to using pretty much the exact same file structure on all of my backup and remote drives prefixing them with the machine name. /Projects and /Sites are the two main add-ons and I organize by acronyms and dates for both.
 
-```sh 
+```bash
 .
-└── stu/
-    └── Users/
-        └── david/
-            ├── Desktop
-            ├── Documents
-            ├── Downloads
-            ├── Library
-            ├── Music
-            ├── Pictures
-            ├── Projects
-            ├── Public
-            └── Sites
+├── _silver (2005-2009)
+├── _macs (2009-2014)
+├── _magic (2012-2025)
+├── _ovid (2021-)
+└── _stu (2025-)
+  └── david/
+      ├── Desktop (projects/_desk - never use)
+      ├── Documents (daw,car,compute,family,finance,health,house,student,travel,work)
+      ├── Downloads (working directory)
+      ├── Library (show Library in finder)
+      ├── Music (hijack,logic,audition)
+      ├── Movies (audio,premier,screenflow,finalcut)
+      ├── Pictures ( graphics,scans - org by year )
+      ├── Projects (org by acronym/yr - all assets including docs - _notes.md root )
+      ├── Public ( rarely use )
+      └── Sites ( working projects by acronym - mapped in etc/hosts)
 ```
 
 I like to use [QLMarkdown](https://github.com/sbarex/QLMarkdown) & [Syntax Highlight](https://github.com/sbarex/SourceCodeSyntaxHighlight) as homebrew casks so that I have code and markdown previews within the finder and preview. I use the Base16 Brush Trees themes for syntax highlighting and the Github theme for Markdown.
@@ -140,22 +165,9 @@ Server built:   Jan 20 2025 19:35:41
 
 ### Node
 ### Databases
-
-
 ### Integration
 ### Audit & Testing
 ### Frameworks
-## Software
-### Browsers
-### Communications
-### Productivity
-### Design
-### A/V
 
-## Peripheral
 
-🛜 tp-link Deco XE75 Pro ( ethernet ䷇ )  
-🖥️ (2) ViewSonic 32" VX3267U-4K / Sony X85K 4K  
-📷 FujiFilm XT-1  
- 🔈 Onkyo TX-NR636 / WiiM DAC / Polk/Klipsch reference/sub  
-🎛️ Focusrite Scarlett / 🎹 Nord Stage 4 88  / 🎙️ Blue yeti 
+
