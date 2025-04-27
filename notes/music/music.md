@@ -12,9 +12,22 @@
 
 In Obsidian, I'm able to use the ABC Notation ( https://en.wikipedia.org/wiki/ABC_notation ) via https://www.abcjs.net - will need to pull the library in for using it here. 
 
-```sh
+I added two tools for [Music Notation](abcjs) but I can only use them with ```mdx``` using ```jsx``` embedding.
 
-```music-abc
+```js
+<ABC notation={`
+X:1
+T:Example
+M:4/4
+L:1/8
+K:C
+C,D,E,F, G,A,B,C DEFG ABcd|efgab c'd'e'f' g'a'b'c''|
+`} 
+/>
+
+```
+
+```js
 {
   "tablature": [{"instrument": "piano"}]
 }

@@ -146,3 +146,16 @@ form input {
     height: auto;
   }
 }
+
+.ReactPiano__Key--active.ReactPiano__Key--natural {
+  background: #25c2a0 !important;
+}
+.ReactPiano__Key--active.ReactPiano__Key--natural {
+  border: 1px solid #1d957b !important;
+}
+.ReactPiano__Key--active.ReactPiano__Key--accidental {
+  background: #156e5b !important;
+}
+.ReactPiano__Key--active.ReactPiano__Key--accidental {
+  border: 1px solid rgb(16, 68, 57) !important;
+}
