@@ -1,21 +1,32 @@
 import { Piano } from 'react-piano';
 import 'react-piano/dist/styles.css';
 import ABCNotation from '@site/src/components/ABCNotation';
+import ReactPlayer from 'react-player'
 
 # Notation
 
-Flipping through a bunch of pdfs for scales isn't going to cut it so I'm adding two libraries to help me with music notation. The first is a library for rendering piano keys and the second is a library for rendering ABC notation.
+Flipping through a bunch of pdfs or watching videos for scales isn't going to cut it so I'm adding two libraries to help me make some music notation. The first is a library for rendering piano keys and the second is a library for rendering ABC notation.
 
 - [react-piano](https://github.com/kevinsqi/react-piano)
-- [abcjs](https://www.abcjs.net/)
+- [ABC.js](https://www.abcjs.net/)
 - [ABC Notation](https://en.wikipedia.org/wiki/ABC_notation)
 
 
-## Piano Example
+<ReactPlayer
+  url='https://davidawindham.com/wha/music-notation.mp4'
+  controls={true}
+  width='100%'
+  height='100%'
+/>
+
+## React Piano Example 
+
+## C Major Scale
 
 <Piano
   noteRange={{ first: 48, last: 74 }}
   width={600}
+  activeNotes={[60, 62, 64, 65, 67, 69, 71, 72]}
   playNote={(midiNumber) => {
     console.log(midiNumber);
   }}
@@ -23,6 +34,48 @@ Flipping through a bunch of pdfs for scales isn't going to cut it so I'm adding 
     console.log(midiNumber);
   }}
 />
+
+```js
+<Piano
+  noteRange={{ first: 48, last: 74 }}
+  width={600}
+  activeNotes={[60, 62, 64, 65, 67, 69, 71]}
+  playNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+  stopNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+/>
+```
+
+## D Major Scale
+
+<Piano
+  noteRange={{ first: 48, last: 74 }}
+  width={600}
+  activeNotes={[50, 52, 54, 55, 57, 59, 61, 62]}
+  playNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+  stopNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+/>
+
+```js
+<Piano
+  noteRange={{ first: 48, last: 74 }}
+  width={600}
+  activeNotes={[50, 52, 54, 55, 57, 59, 61, 62]}
+  playNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+  stopNote={(midiNumber) => {
+    console.log(midiNumber);
+  }}
+/>
+```
 
 ## ABC Notation Example
 
@@ -33,7 +86,18 @@ L:1/8
 K:C
 C,D,E,F, G,A,B,C DEFG ABcd|efgab c'd'e'f' g'a'b'c''|`} />
 
-You can add interactive features by setting more options:
+```js
+<ABCNotation notation={`
+X:1
+T:Example
+M:4/4
+L:1/8
+K:C
+C,D,E,F, G,A,B,C DEFG ABcd|efgab c'd'e'f' g'a'b'c''|
+`} 
+/>
+
+```
 
 <ABCNotation 
   notation={`X:1
@@ -50,3 +114,23 @@ K:C
     }
   }}
 />
+
+```js
+<ABCNotation notation={`
+X:1
+T:Example with chord symbols
+M:4/4
+L:1/4
+K:C
+"C"CDEF|"G"GABc|"F"FEDC|"C"C4|
+`} 
+  options={{
+    add_classes: true,
+    responsive: 'resize',
+    clickListener: (abcElem) => {
+      console.log(abcElem);
+    }
+  }}
+/>
+
+```
