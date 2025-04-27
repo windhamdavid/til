@@ -1,7 +1,13 @@
 # Autos
 
-see - https://davidawindham.com/automobiles/
+24/12/13 - Need a place to make notes about the automobiles. wished I'd had these notes going while I was dealing with the def fluid on the diesel. 
+
 
 ## Log
 
-- 24/12/13 - wished I'd had these notes going while I was dealing with the def fluid on the diesel. 
+
+## see also 
+
+- https://davidawindham.com/automobiles/
+- https://davidawindham.com/its-electric/
+
