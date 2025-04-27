@@ -15,6 +15,8 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 4/16 - **Gas** lines installed
+- 4/10 - **Roof** replaced - 7am -> 6pm - finished 
 - 4/10 - **Roof** replaced - 7am -> 6pm - finished 
 - 4/02 - **windows** replaced (+ sunroom/office)
 - 3/26 - CPW marked utility lines for gas 

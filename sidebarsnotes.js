@@ -107,6 +107,17 @@ module.exports = {
     },
     {
       type:'category',
+      label:'Music',
+      collapsible: true,
+      link: {      
+        type:'doc',
+        id:'music/music',
+      },
+      items: [
+      ]
+    },
+    {
+      type:'category',
       label:'Play',
       collapsible: true,
       link: {      
