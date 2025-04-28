@@ -115,6 +115,7 @@ module.exports = {
       },
       items: [
         'music/abcjs',
+        'music/scales',
       ]
     },
     {
