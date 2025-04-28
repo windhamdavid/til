@@ -5,6 +5,7 @@
 
 ## Log
 
+- 25/04/27 - added [notation](abcjs) and [scales](scales)
 - 25/04/25 - [new keyboard](/posts/arturia)
 
 
