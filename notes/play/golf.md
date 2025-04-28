@@ -7,3 +7,7 @@ Although I'm not currently playing much, I'm putting this page here because I kn
 ## Courses 
 
 ## Instruction
+
+## Dog Friendly
+
+I have a note in my desktop files entitled "dog friendly golf" mainly as a reminder to write up an essay on how I think playing golf while walking my dog is the perfect activity. More courses should be dog friendly. I'll make it happen before I get old because that's exactly what my grandfather did every morning. He'd load up his dog and go walk nine holes. It's how I got introduced to golf when I was just a wee lad. 
