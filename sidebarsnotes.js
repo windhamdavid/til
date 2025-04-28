@@ -114,6 +114,7 @@ module.exports = {
         id:'music/music',
       },
       items: [
+        'music/logic',
         'music/abcjs',
         'music/scales',
         'music/theory',
