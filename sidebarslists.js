@@ -139,13 +139,11 @@ module.exports = {
       collapsible: true,
       link: {
         type:'doc',
-        id:'food',
+        id:'food/food',
       },
       items: [
-        {
-          type: 'doc',
-          id: 'grocery',
-        },
+        'food/grocery',
+        'food/recipe',
       ],
     },  
     {

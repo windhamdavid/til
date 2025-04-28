@@ -36,7 +36,7 @@ toc_min_heading_level: 2
 - 23/08/22 - [Emerson Quote](quotes) 
 - 23/07/16 - [Next](next) & [Now](now/now.md)
 - 23/07/16 - Todo(ne) for Now page
-- 23/05/12 - [Grocery](grocery) and [Shopping](shopping)
+- 23/05/12 - [Grocery](food/grocery) and [Shopping](shopping)
 - 22/11/16 - [Music](art/music), [Feeds](feeds), and [Tweets](tweets)
 - 22/07/18 - [Up next](next) as a replacement for bookmarks
 - 22/04/06 - [Words](words), [Quotes](quotes), [Concepts](concepts), and [Trivia](trivia)
@@ -46,7 +46,7 @@ toc_min_heading_level: 2
 [now](now/now.md)
 | [todo](todo)
 | [next](next.md)
-| [grocery](grocery.md)
+| [grocery](food/grocery.md)
 | [shopping](shopping.md)
 | [art](art/art.md)
 | [literature](art/lit.md)
