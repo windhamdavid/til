@@ -13,10 +13,7 @@ module.exports = {
         id:'art/art',
       },
       items: [
-        { 
-          type:'doc',
-          id:'art/design', 
-        },
+        'art/design',         
         {
           type: 'category',
           label: 'Education',
@@ -30,7 +27,8 @@ module.exports = {
             'art/education/design',
             'art/education/media',
           ],
-        }
+        },
+        'art/paint',
       ],
     },
     {

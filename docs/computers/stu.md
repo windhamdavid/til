@@ -1,5 +1,9 @@
 # Stu 🪩
 
+![stu](/img/stu-disco.jpg)
+
+Stu Discothèque - Days of Future Future ( [ep. 548](https://simpsons.fandom.com/wiki/Days_of_Future_Future)] April 13, 2014 )
+Disco Stu becomes Nothing Stu at a center called MovingOn where Bart undergoes neural implants and Homer is being cloned by Frink. 
 
 ## Notes
 
