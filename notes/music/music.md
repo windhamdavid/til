@@ -21,6 +21,14 @@ In Obsidian, I'm able to use the ABC Notation ( https://en.wikipedia.org/wiki/AB
 
 ## References
 
+- https://www.onlinemusictools.com
+- https://www.pianoscales.org
+- https://www.youtube.com/@DavidMagyelPiano
+- https://github.com/ZaneH/piano-trainer
+- https://www.youtube.com/@BillHilton
+- https://soundofemotions.eu
+
+
 ## See Also
 
 - [/lists/art/music](/lists/art/music/)
