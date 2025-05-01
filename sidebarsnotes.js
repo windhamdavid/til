@@ -92,6 +92,7 @@ module.exports = {
           items: [
             'house/helene-ins-sum',
             'house/helene-ins-adjust',
+            'house/helene-repairs',
           ]
         },
         'house/studio',

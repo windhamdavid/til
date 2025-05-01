@@ -2,9 +2,28 @@
 
 ![](https://davidawindham.com/wp-content/uploads/2025/04/studio.jpg)
 
+### Contractor Invoice
+
+- Fabricate and install lower cabinets with pull out shelving for printer.
+  - The center will be desk area.
+  - Fabricate bookcases to set on top
+  - * Height to be about 29 1/4". With counter top the overall height will be around 30".
+  - * Alder wood will be used.
+  - Labor and materials - **$8,200.00**
+- Install smooth black Formica countertop the width of the room.
+  - * The counter top will have 1 seam due to the length.
+  - Labor and materials - **$1,000.00**
+- Install an outlet for the printer
+  - install 1 quad outlet
+  - install TV outlet
+  - * use existing circuit
+  - Labor and materials - **$937.00**
+- **Total** - **$10,137.00**
+
+
 ### Log
 
-- **25/04/12** write up @ [**davidawindham.com/den-studio/**](https://davidawindham.com/den-studio/)
+- **25/04/12** - 🔥 finished - write up @ [**davidawindham.com/den-studio/**](https://davidawindham.com/den-studio/)
 - **25/04/01** - almost done sans some hardware mounting
 - **25/03/27** - cabinets in & final trim on 3/28
 - **25/03/26** - cabinet contractor install
