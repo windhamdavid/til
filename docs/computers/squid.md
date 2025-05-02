@@ -211,42 +211,54 @@ plesk bin extension --uninstall extension_name
 plesk bin extension --disable extension_name
 plesk bin extension --enable extension_name
 ```
+Active Extensions - left a couple may use later as ( disabled )
+```sh
+acronis-backup
+advisor
+composer ( disabled )
+configurations-troubleshooter
+dnssec
+firewall
+git
+imunify360
+letsencrypt
+log-browser
+monitoring
+nodejs ( disabled )
+ntp-timesync
+panel-ini-editor
+repair-kit
+servershield ( disabled )
+site-import ( disabled )
+ssh-terminal - SSH Terminal
+sslit
+wp-toolkit( disabled )
+```
+
+### Panel
+
+panel.ini editor to clean up the admin panels and disable some applications and extensions.
 
 ```sh
-
-plesk bin extension --disable servershield
-plesk bin extension --disable laravel
-plesk bin extension --disable plesk-sitejet
-plesk bin extension --disable xovi
-plesk bin extension --disable nodejs
-plesk bin extension --disable composer
-plesk bin extension --disable wp-toolkit
-
-- acronis-backup - Acronis Backup
-- advisor - Advisor
-- composer - PHP Composer
-- configurations-troubleshooter - Webserver Configurations Troubleshooter
-- dnssec - Plesk DNSSEC
-- git - Git
-- heavy-metal-skin - Skins and Color Schemes
-- help-center - Help Center
-- imunify360 - Imunify
-- laravel - Laravel Toolkit
-- letsencrypt - Let's Encrypt
-- log-browser - Log Browser
-- mfa - Multi-Factor Authentication (MFA)
-- monitoring - Monitoring
-- nodejs - Node.js Toolkit
-- ntp-timesync - NTP Timesync
-- panel-ini-editor - Panel.ini Editor
-- plesk-sitejet - Sitejet Builder
-- repair-kit - Repair Kit
-- servershield - ServerShield by Cloudflare
-- site-import - Site Import
-- ssh-terminal - SSH Terminal
-- sslit - SSL It!
-- wp-toolkit - WP Toolkit
-- xovi- SEO Toolkit
+[ext-notifier]
+sitejetPromo = false
+[ext-plesk-sitejet]
+enableOnSiteApplicationWizard = false
+[extPleskSitejet]
+enablePromoBanner = false
+[gdpr]
+cookieBox.enabled = false
+[promos]
+enabled = off
+[aps]
+serverAppsPromoEnabled = off
+catalogsCustomization = on
+enabled = false
+[ext-catalog]
+contextAds = off
+[extensions]
+blacklist = joomla-toolkit, plesk-sitejet
+catalog.enabled = off
 ```
 
 ### Mail
