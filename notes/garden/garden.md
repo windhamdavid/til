@@ -4,6 +4,9 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
+- 25/05/01 - engaged landscape architect re: irrigation and sod
+- 25/03/25 - removed three (3) pines and an additional oak close to the house
+- 24/09/28 - lost a hickory and an oak tree during [helene](/notes/house/helene.md)
 - 24/04/30 - added [pests](#pests)
 - 23/05/23 - [oak tree removed](/posts/white-oak)
 
@@ -155,9 +158,11 @@ See Also: [/lists/shopping#garden](/lists/shopping#garden)
 
 ## Providers
 
+- Ferqueron & Sons Tree Services - http://www.ferqueronsons.com 
 - Timberline Tree Service ( Troy ) (864) 953-0002 / [Facebook ](https://www.facebook.com/people/Timberline-Tree-Service-LLC/100062993750660/)
 - Landscape Supply - (864) 388-2138 / [Facebook](https://www.facebook.com/people/Landscape-Supply-of-Greenwood/100063548891226/)
 - Jerry' Greenhouse  -  (864) 229-1591 / [Facebook](https://www.facebook.com/jerrysgwd/)
+- Wyatt Farms - https://www.wyattfarms.com
 
 ---
 
