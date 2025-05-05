@@ -31,8 +31,7 @@ Apply texture at repair area. |
 (**5**) Caulk, prime, and putty one new side and touch up handrails. |
 Caulk, prime, and putty soffit on both sides and siding as needed. |
 Paint inside bedroom, bath, and closet ceiling, trim, and walls. |
-Exterior | **$4860.00**
-Interior | **$3071.25**
+Exterior $4860.00 Interior $3071.25 |
 |
 (**6**) Install approximately 114 lf og Alcoa 6" seamless aluminum guttering to the home. | **??**
 Install approximately 75lf of commercial 3 x 4 downspout to gutter system. |
