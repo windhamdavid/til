@@ -131,6 +131,21 @@ david@stu:~ » claude
 
 ### Languages
 
+#### Rust
+
+used rustup - https://www.rust-lang.org/tools/install 
+
+```sh
+david@stu🪩:~ » brew install rustup
+david@stu🪩:~ » rustup-init
+// installs:
+// rustc - the Rust compiler
+// cargo - the Rust package manager
+// rustup - the Rust toolchain manager
+david@stu🪩:~ » rustc --version
+rustc 1.86.0 (05f9846f8 2025-03-31)
+```
+
 #### JS
 
 ##### Node.js 
