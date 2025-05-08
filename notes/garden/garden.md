@@ -4,6 +4,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
+- 25/05/07 - talked with some landscape guys about [chemicals](#chemicals)
 - 25/05/01 - engaged landscape architect re: irrigation and sod
 - 25/03/25 - removed three (3) pines and an additional oak close to the house
 - 24/09/28 - lost a hickory and an oak tree during [helene](/notes/house/helene.md)
@@ -118,6 +119,12 @@ pothos
 ---
 
 ## Pests
+
+### Chemicals
+
+- Bifenthrin - to treat mulch and yard for ants and fleas [link](https://www.amazon.com/Bifenthrin-7-9-generic-Talstar-Gallon/dp/B00DGUY2LO/)
+- Relegate - keep back undergrowth and can mix with others for smaller weeds.
+[link](https://www.amazon.com/Relegate-Herbicide-Gallon-61-Triclopyr/dp/B09MGGN6CM)
 
 ### Bugs
 
