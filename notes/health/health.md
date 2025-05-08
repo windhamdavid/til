@@ -9,6 +9,7 @@
 
 ## Log
 
+- 25/05/08 - talked with a fella recently who had prostate cancer. considering my doc has only prescribed one medicine in the last ten years for an enlarged prostate, I wanted to make a note about new PSA ( prostate-specific antigen ) tests available so I could follow up on my next appointment. 
 - 24/12/16 - added an Apple Watch mainly for biometric feedback. will [figure out an easy way](#parsing-apple-health-data) to automate and export every so often so I can store it here. 
 - 24/12/07 - hip injury ( IT band muscles / labral ) likely related to playing [tennis](/notes/play/tennis) - need to consider a more wholistic and low impact regular excersize routine like walking, swimming, pilates, & yoga. 
 - 23/12/17 - added a [Diet](/notes/health/diet) log.
@@ -21,6 +22,7 @@
 
 - lose 15 lbs
 - Shingles Vaccine
+- ask about regular PSA tests
 
 ## Status
 
