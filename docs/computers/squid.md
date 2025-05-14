@@ -146,13 +146,18 @@ sudo firewall-cmd --zone=public --remove-port=80/tcp --permanent
 sudo firewall-cmd --reload
 # list all ports
 sudo netstat -tunlp
+```
 
-### Mail
+### ModSecurity
+
+Plesk settings for ModSecurity are listed under the `Web Appliation Firewall` settings and are mainly used to protect against SQL injection, cross-site scripting (XSS), Cross-Site Request Forgery (CSRF), Distributed Denial of Service (DDoS) and other common attacks. The default rulesets are Comodo, OWASP, Atomic with paid upgrades for two of them. OWASP is the strictest but causes some errors with WordPress and the default rules. There are exclusion plugins available ( https://github.com/coreruleset/wordpress-rule-exclusions-plugin ) but I like to use Atomic since it has less false positives and offers pre-configured security policies that align with compliance standards like PCI, DSS, and HIPAA.
+
+## Mail
 
 - Mail
     - _Fail_ for un-routable email.
     - _nobody_ user
-```
+
 
 #### IPTables
 
