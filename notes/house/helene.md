@@ -15,6 +15,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 ## Log
 
+- 6/02 - **Demolition** started upstairs
 - 4/16 - **Gas** lines installed
 - 4/10 - **Roof** replaced - 7am -> 6pm - finished 
 - 4/10 - **Roof** replaced - 7am -> 6pm - finished 
