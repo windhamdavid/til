@@ -5,6 +5,7 @@
 
 ## Log
 
+- **25/06/02** - Demolition begun
 - **25/03/18** - meeting with plumber re: adding gas tankless water heater - put in a CPW request for gas lines since contractor recommended over electric
 - **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
 - **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
@@ -17,7 +18,7 @@
 
 
 ![glenridge-bathrooms](/img/glenridge-bathroom-remodel-mockup.jpg)
-
+![glenridge-bathrooms](https://davidawindham.com/wha/glenridge/img/master-2.jpg)
 
 
 ## Design
