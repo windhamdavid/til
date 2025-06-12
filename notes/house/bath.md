@@ -5,6 +5,8 @@
 
 ## Log
 
+- **25/06/03** - Quarle's / Snead's supply shopping
+  - picked out tile, carpet, and hardware
 - **25/06/02** - Demolition begun
 - **25/03/18** - meeting with plumber re: adding gas tankless water heater - put in a CPW request for gas lines since contractor recommended over electric
 - **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
@@ -28,22 +30,24 @@ We want to stay 'true' to the original house. The style is a contemporary crafts
 
 ## Materials
 
+We've decided to switch over to Moen hardware after hearing some feedback from others especially regarding their warranty and replacement policies. We've also decided to go with chrome over brushed nickel because it's easier to match up other hardware and vary between brands. **MOEN - Voss line**
+
 - **Bath** - ~American Standard - Aspirations 68” Freestanding ( brushed nickel  )[specs]
 (https://lixil.cdn.celum.cloud/233762_spec_2677004_Aspirations_68x34_freestanding_tub_v2_original.pdf)~
   - Barclay Vincent 71" - https://www.barclayproducts.com/products/vincent-71-acrylic-tub-with-integral-drain-and-overflow
     - local supplier had a deal on this one because it was ordered and never delivered
-- **Shower** - Head - American Standard - 3 function 4 3/4 inch ( brushed nickel )
-https://www.americanstandard-us.com/rain-showerheads/3-function-4-3-4-inch-18-gpm-68-l-min-water-saving-showerhead/chrome-1660652002
-  - Hand - American Standard - 4 Spay Hand Shower & 24” Rail
-https://www.americanstandard-us.com/showers/shower-systems-list
-  - Valves - American Standard - Studio S 2-Handle ( brushed nickel )
-https://www.americanstandard-us.com/thermostatic-valves-and-trims/studio-s-2-handle-integrated-shower-diverter-trim-only/chrome-tu105740002
+- **Shower** - Head - ~American Standard - 3 function 4 3/4 inch ( brushed nickel )
+https://www.americanstandard-us.com/rain-showerheads/3-function-4-3-4-inch-18-gpm-68-l-min-water-saving-showerhead/chrome-1660652002~
+  - Hand - ~American Standard - 4 Spay Hand Shower & 24” Rail
+https://www.americanstandard-us.com/showers/shower-systems-list~
+  - Valves - ~American Standard - Studio S 2-Handle ( brushed nickel )
+https://www.americanstandard-us.com/thermostatic-valves-and-trims/studio-s-2-handle-integrated-shower-diverter-trim-only/chrome-tu105740002~
 - **Sinks** 
-  - Faucet(s) - American Standard - Aspirations Single Handle ( brushed nickel )
-https://www.americanstandard-us.com/single-hole-bathroom-faucets/aspirations-single-handle-bathroom-faucet-12-gpm-45-l-min-with-lever-handle/chrome-7061101002
-  - Sinks(s) - American Standard - Aspirations Drop-in Sink Center Hole Only 
-https://www.americanstandard-us.com/countertop-bathroom-sinks/aspirations-drop-in-sink-center-hole-only/white-1721001020
-- **Toilet** - American Standard - Aspirations Skirted Two-Piece - https://www.americanstandard-us.com/two-piece-toilets/aspirations-skirted-two-piece-128-gpf-48-lpf-chair-height-elongated-toilet-with-seat/white-252aa899020
+  - Faucet(s) - ~American Standard - Aspirations Single Handle ( brushed nickel )
+https://www.americanstandard-us.com/single-hole-bathroom-faucets/~aspirations-single-handle-bathroom-faucet-12-gpm-45-l-min-with-lever-handle/chrome-7061101002
+  - Sinks(s) - ~American Standard - Aspirations Drop-in Sink Center Hole Only 
+https://www.americanstandard-us.com/countertop-bathroom-sinks/aspirations-drop-in-sink-center-hole-only/white-1721001020~
+- **Toilet** - ~American Standard - Aspirations Skirted Two-Piece - https://www.americanstandard-us.com/two-piece-toilets/aspirations-skirted-two-piece-128-gpf-48-lpf-chair-height-elongated-toilet-with-seat/white-252aa899020~
 - **Vent** - Panasonic Whisper Cozy DC 50-80-110 Ceiling Exhaust Fan with LED Light/Night Light and Heater ( 1600W ) - https://iaq.na.panasonic.com/ventilation/fans/whispercozy
 - **Water Heater** - Rheem Performance Platinum 8.4 GPM High Efficiency Indoor Gas Tankless
 - **Flooring** 
