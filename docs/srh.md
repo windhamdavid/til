@@ -2,7 +2,7 @@
 
 ## URL Rewrite Setup for MyChart Provider Finder 
 
-SRH wants to use a vanity URL for a third party hosted application which only presented IIS xml configuration documentation so I'm translating it here for transparency. I've included Claude.ai and Github Copilot translations from the origin 👉🏻 📄 [documentation](https://davidawindham.com/wha/srh_rewrites.pdf)
+SRH wants to use a vanity URL for a third party hosted application which only presented IIS xml configuration documentation so I'm translating it here for transparency. I've included Claude.ai and Github Copilot translations from the original 👉🏻 📄 [documentation](https://davidawindham.com/wha/srh_rewrites.pdf)
 
 ## Variables
 
@@ -133,7 +133,7 @@ SRH wants to use a vanity URL for a third party hosted application which only pr
 
 ### Claude Translation 
 
-# Nginx configuration equivalent to IIS rules
+#### Nginx configuration equivalent to IIS rules
 
 ```sh
 server {
