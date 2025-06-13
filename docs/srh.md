@@ -18,7 +18,7 @@ SRH wants to use a vanity URL for a third party hosted application which only pr
 <rule name="Provider Finder Example" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
   <match url="providers*" />
   <conditions logicalGrouping="MatchAll" trackAllCaptures="false" />
-  <action type="Rewrite" url="https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/-/providers{R:1}?host=MySelfRegional" />
+  <action type="Rewrite" url="https://mychart-np.et1235.epichosted.com/MySRHTST/-/providers{R:1}?host=MySelfRegional" />
 </rule>
 
 <rule name="Vanity MyChart Redirect Example" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
@@ -26,13 +26,13 @@ SRH wants to use a vanity URL for a third party hosted application which only pr
     <conditions>
       <add input="{HTTP_ACCEPT}" pattern="*text/html*" />
     </conditions>
-  <action type="Redirect" url="https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/{R:1}" redirectType="Found" />
+  <action type="Redirect" url="https://mychart-np.et1235.epichosted.com/MySRHTST/{R:1}" redirectType="Found" />
 </rule>
 
 <rule name="Assets Example" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
   <match url="MySelfRegional/*" />
   <conditions logicalGrouping="MatchAll" trackAllCaptures="false" />
-  <action type="Rewrite" url="https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/{R:1}" />
+  <action type="Rewrite" url="https://mychart-np.et1235.epichosted.com/MySRHTST/{R:1}" />
 </rule>
 
 <rule name="MyChart Redirect Example" patternSyntax="Wildcard" stopProcessing="true">
@@ -40,7 +40,7 @@ SRH wants to use a vanity URL for a third party hosted application which only pr
     <conditions>
       <add input="{HTTP_ACCEPT}" pattern="*text/html*" />
     </conditions>
-  <action type="Redirect" url=" https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/{R:1} " />
+  <action type="Redirect" url=" https://mychart-np.et1235.epichosted.com/MySRHTST/{R:1} " />
 </rule>
 
 <rule name="Hosted Provider Finder Example" preCondition="Hosted Provider Finder Precondition" enabled="true" patternSyntax="Wildcard">
@@ -78,22 +78,22 @@ SRH wants to use a vanity URL for a third party hosted application which only pr
 ```sh
 # Provider Finder Example
     location ~ ^/providers(.*)$ {
-        rewrite ^/providers(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/-/providers$1?host=MySelfRegional break;
+        rewrite ^/providers(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/-/providers$1?host=MySelfRegional break;
     }
     
     # Vanity MyChart Redirect Example
     location ~ ^/MySelfRegional/(.*)$ {
         if ($http_accept ~* "text/html") {
-            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1;
+            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
         }
         # Assets Example (if not text/html)
-        proxy_pass https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1;
+        proxy_pass https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
     }
     
     # MyChart Redirect Example
     location ~ ^/\ MySelfRegional/(.*)$ {
         if ($http_accept ~* "text/html") {
-            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1;
+            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
         }
     }
     
@@ -143,24 +143,24 @@ server {
     # Rule 1: Provider Finder Example
     # IIS: providers* -> rewrite to external URL with query param
     location ~* ^/providers(.*)$ {
-        rewrite ^/providers(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/-/providers$1?host=MySelfRegional last;
+        rewrite ^/providers(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/-/providers$1?host=MySelfRegional last;
     }
 
     # Rule 2: Vanity MyChart Redirect Example  
     # IIS: MySelfRegional/* with HTML accept header -> redirect
     location ~* ^/MySelfRegional/(.*)$ {
         if ($http_accept ~* "text/html") {
-            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1;
+            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
         }
         # If not HTML request, fall through to Rule 3 (Assets Example)
-        rewrite ^/MySelfRegional/(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1 last;
+        rewrite ^/MySelfRegional/(.*)$ https://mychart-np.et1235.epichosted.com/MySRHTST/$1 last;
     }
 
     # Rule 4: MyChart Redirect Example (with spaces - appears to be duplicate/typo)
     # This seems to be a duplicate of Rule 2 with extra spaces, handling it as fallback
     location ~* ^/\s*MySelfRegional/(.*)$ {
         if ($http_accept ~* "text/html") {
-            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/MySRHTST/$1;
+            return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
         }
     }
 
@@ -218,3 +218,59 @@ Important Notes:
 4. Conditional Logic: IIS conditions become Nginx if statements, though Nginx's if is generally discouraged except for simple cases like checking headers.
 
 5. External Rewrites: Your rules rewrite to external URLs, which Nginx handles well with the rewrite directive.
+
+
+---
+
+## CURRENT CONFIG
+
+```sh
+location ~ ^/providers(.*)$ {
+	rewrite ^/providers(.*)$ /MySRHTST/-/providers$1?host=MySelfRegional break;
+	proxy_pass https://mychart-np.et1235.epichosted.com;
+}
+
+# Vanity MyChart Redirect Example
+location ~ ^/MySelfRegional/(.*)$ {
+
+	# Assets Example (if not text/html)
+	proxy_pass https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
+}
+
+# MyChart Redirect Example
+location ~ ^/\ MySelfRegional/(.*)$ {
+	if ($http_accept ~* "text/html") {
+		return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
+	}
+}
+
+# Hosted Provider Finder Example
+# Note: This rule is complex and might need custom Nginx modules for HTML parsing
+# The following is a simplified approximation
+location ~ ^/-/providers {
+	if ($args ~* "host=") {
+
+	}
+}
+
+# Provider Finder Canonical URL Rewrite
+# Note: This requires more complex HTML parsing that's not standard in Nginx
+# Consider using a JavaScript solution or Nginx with Lua module
+location ~ ^/(app/providers|/-/providers) {
+	set $do_rewrite 0;
+
+	if ($uri ~* "(\/app\/providers|\/-\/providers)") {
+		set $do_rewrite 1;
+	}
+
+	if ($args ~* "host=") {
+		set $do_rewrite 1;
+	}
+
+	if ($do_rewrite = 1) {
+		# Would need ngx_http_subs_filter_module or Lua for HTML tag manipulation
+		# This is a placeholder - actual implementation requires more advanced modules
+		rewrite ^.*(app\/providers|\/-\/providers)(.*)$ https://providers.selfregional.org/providers$2 break;
+	}
+}
+```
