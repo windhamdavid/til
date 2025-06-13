@@ -224,6 +224,65 @@ Important Notes:
 
 ## CURRENT CONFIG
 
+**note** the ```underscores_in_header``` directive is required and the ```sub_filter``` module is not available in the current nginx build. 
+
+```sh
+underscores_in_headers on;
+
+location / {
+  rewrite ^/(.*)$ /MySRHTST/-/providers/$1?host=MySelfRegional break;
+  proxy_set_header Host $host;
+  proxy_set_header X-Real-IP $remote_addr;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header X-Forwarded-Proto $scheme;
+  proxy_set_header RequestVerificationToken $http_requestverificationtoken;
+  proxy_pass https://mychart-np.et1235.epichosted.com;
+}
+
+# Vanity MyChart Redirect Example
+location ~ ^/MySelfRegional/(.*)$ {
+  # Assets Example (if not text/html)
+  proxy_set_header Host $host;
+  proxy_set_header X-Real-IP $remote_addr;
+  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  proxy_set_header X-Forwarded-Proto $scheme;
+  proxy_set_header RequestVerificationToken $http_requestverificationtoken;
+  proxy_pass https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
+}
+
+# MyChart Redirect Example
+location ~ ^/\ MySelfRegional/(.*)$ {
+  if ($http_accept ~* "text/html") {
+    return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
+  }
+}
+
+# Hosted Provider Finder Example
+location ~ ^/-/providers {
+  if ($args ~* "host=") {
+    # Implementation needed
+  }
+}
+
+# Canonical URL Rewrite (modified to not use providers)
+location ~ ^/(app/providers|/-/providers) {
+  set $do_rewrite 0;
+  if ($uri ~* "(\/app\/providers|\/-\/providers)") {
+    set $do_rewrite 1;
+  }
+  if ($args ~* "host=") {
+    set $do_rewrite 1;
+  }
+  if ($do_rewrite = 1) {
+    # Modified to use domain root instead of /providers
+    rewrite ^.*(app\/providers|\/-\/providers)(.*)$ https://providers.selfregional.org$2 break;
+  }
+}
+```
+
+this was the original test run under the ```/providers``` subdirectory
+
+
 ```sh
 underscores_in_headers on;
 
