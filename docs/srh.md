@@ -225,8 +225,16 @@ Important Notes:
 ## CURRENT CONFIG
 
 ```sh
+underscores_in_headers on;
+
+# Provider Finder Example
 location ~ ^/providers(.*)$ {
 	rewrite ^/providers(.*)$ /MySRHTST/-/providers$1?host=MySelfRegional break;
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+	proxy_set_header RequestVerificationToken $http_requestverificationtoken;
 	proxy_pass https://mychart-np.et1235.epichosted.com;
 }
 
@@ -234,6 +242,11 @@ location ~ ^/providers(.*)$ {
 location ~ ^/MySelfRegional/(.*)$ {
 
 	# Assets Example (if not text/html)
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+	proxy_set_header RequestVerificationToken $http_requestverificationtoken;
 	proxy_pass https://mychart-np.et1235.epichosted.com/MySRHTST/$1;
 }
 
