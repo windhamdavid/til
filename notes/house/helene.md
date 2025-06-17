@@ -9,13 +9,15 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 
 
-**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage and construction photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+**24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage and construction photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene) 
 
 
 
 ## Log
 
-- 6/02 - **Demolition** ( 4.5 days 2,3,4,10,11 )
+- 6/18 - Upstairs plumbing
+- 6/17 - Sewer Main Repair
+- 6/02 - **Master** Demo ( 4.5 days 2,3,4,10,11 )
 - 4/16 - **Gas** lines installed
 - 4/10 - **Roof** replaced - 7am -> 6pm - finished 
 - 4/10 - **Roof** replaced - 7am -> 6pm - finished 
