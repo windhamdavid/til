@@ -226,6 +226,8 @@ Important Notes:
 
 ---
 
+<div><br/><br/></div>
+
 ## CURRENT CONFIG
 
 **note** the ```underscores_in_header``` directive is required and the ```sub_filter``` module is not available in the current nginx build. 
@@ -348,5 +350,152 @@ location ~ ^/(app/providers|/-/providers) {
 		# This is a placeholder - actual implementation requires more advanced modules
 		rewrite ^.*(app\/providers|\/-\/providers)(.*)$ https://providers.selfregional.org/providers$2 break;
 	}
+}
+```
+
+---
+
+<div><br/><br/></div>
+
+## DEBUG LINK ERROR
+
+Epic team found an error where the "bio links from the slots are incorrect" ( the popup window links for each provider above the scheduling time ). The current error is from a redirect loop causing a ```499``` 'Client Closed Request' error. I found that even before the proxy, the url is change and replaces the ```CustomHostID``` with the ```MyChartSiteName``` ( ```MySelfRegional``` -> ```MySRHTST``` ) e.g.:  
+
+https://mychart-np.et1235.epichosted.com/MySelfRegional/app/providers/details?id=WP-24ZbgpnUzW4-2B-2Fz8NuLocNwBA-3D-3D-24sJ0udur53-2FhX6H4Z4O26dH2yxiAz4AP1Nk8QQ7Vkiug-3D  
+👇🏼 ♻️  
+https://mychart-np.et1235.epichosted.com/MySRHTST/app/providers/details?id=WP-24ZbgpnUzW4-2B-2Fz8NuLocNwBA-3D-3D-24sJ0udur53-2FhX6H4Z4O26dH2yxiAz4AP1Nk8QQ7Vkiug-3D
+
+
+I also noticed that even when the link switches out the ```CustomHostID``` with the ```MyChartSiteName``` it still does not function and only functions when the ```CustomHostID``` is completely removed. e.g.:  
+
+https://providers.selfregional.org/MySelfRegional/app/providers/details?id=WP-24ZbgpnUzW4-2B-2Fz8NuLocNwBA-3D-3D-24sJ0udur53-2FhX6H4Z4O26dH2yxiAz4AP1Nk8QQ7Vkiug-3D  
+👇🏼 ❌  
+https://providers.selfregional.org/MySRHTST/app/providers/details?id=WP-24ZbgpnUzW4-2B-2Fz8NuLocNwBA-3D-3D-24sJ0udur53-2FhX6H4Z4O26dH2yxiAz4AP1Nk8QQ7Vkiug-3D  
+👇🏼 ✅  
+https://providers.selfregional.org/app/providers/details?id=WP-24ZbgpnUzW4-2B-2Fz8NuLocNwBA-3D-3D-24sJ0udur53-2FhX6H4Z4O26dH2yxiAz4AP1Nk8QQ7Vkiug-3D
+
+
+So we need to remove ```/MySelfRegional/``` from the 'bio link in slots' ( the ```.providerBioLink``` class ). I suspect the 'Hosted Provider Finder' and 'Canonical URL' translations are the culprit since it's designed to replace the ```CustomHostID``` with the ```MyChartSiteName``` for certain HTML tags. The 'Canonical URL' rule is explicitly set to rewrite links via ```filterByTags="Link"```. Here are the two IIS rules from the documentation:
+
+```xml
+<rule name="Hosted Provider Finder Example" preCondition="Hosted Provider Finder Precondition" enabled="true" patternSyntax="Wildcard">
+  <match filterByTags="Area, Base, Form, Frame, Head, IFrame, Img, Input, Link, Script, CustomTags" customTags="Hosted Provider Finder Collection" pattern="/MyChartSiteName/*" negate="false" />
+  <action type="Rewrite" value="/CustomHostID/{R:1}" />
+</rule>
+<preCondition name="Hosted Provider Finder Precondition">
+  <add input="{REQUEST_URI}" pattern="/-/providers" />
+  <add input="{QUERY_STRING}" pattern="host=" />
+</preCondition>
+<customTags>
+  <tags name="Hosted Provider Finder Collection">
+      <tag name="meta" attribute="content" />
+      <tag name="use" attribute="xlink:href" />
+  </tags>
+</customTags>
+
+<rule name="Provider Finder Canonical URL Rewrite Example" preCondition="Provider Finder Canonical URL Precondition">
+  <match filterByTags="Link" pattern="^https?:\/\/[^ ]*(app\/providers|\/-\/providers)([^ ]*)/" />
+  <action type="Rewrite" value=" CustomDomain/CustomProviderFinder {R:2}" />
+ </rule>
+<preCondition name="Provider Finder Canonical URL Precondition" logicalGrouping="MatchAny">
+  <add input="{REQUEST_URI}" pattern="(\/app\/providers|\/-\/providers)" />
+  <add input="{QUERY_STRING}" pattern="host=" />
+</preCondition>
+```
+
+As noted in the original translation, these rules depend on a custom nginx module. So I recompiled nginx with the ```--with-http_sub_module``` in order to use the ```sub_filter``` module to test. Here's the build:
+
+```sh
+************@mdev:~ » nginx -V
+nginx version: nginx/1.26.3
+built with OpenSSL 3.0.7 1 Nov 2022 (running with OpenSSL 3.2.2 )
+TLS SNI support enabled
+configure arguments: --prefix=/usr/share --sbin-path=/usr/sbin/nginx 
+--conf-path=/etc/nginx/nginx.conf --modules-path=/usr/share/nginx/modules 
+--error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log 
+--lock-path=/var/lock/nginx.lock --pid-path=/run/nginx.pid --http-client-body-temp-path=/var/lib/nginx/body 
+--http-fastcgi-temp-path=/var/lib/nginx/fastcgi --http-proxy-temp-path=/var/lib/nginx/proxy 
+--http-scgi-temp-path=/var/lib/nginx/scgi --http-uwsgi-temp-path=/var/lib/nginx/uwsgi 
+--user=nginx --group=nginx --with-file-aio --with-compat 
+--with-ld-opt=-L/var/jenkins/workspace/unix/plesk/packages/brotli/brotli.files/usr/lib64
+--with-http_ssl_module --with-http_realip_module 
+// highlight-next-line
+--with-http_sub_module 
+--with-http_dav_module --with-http_gzip_static_module --with-http_stub_status_module 
+--with-http_v2_module --with-http_v3_module --add-dynamic-module=mod_brotli 
+--add-dynamic-module=mod_passenger/src/nginx_module --add-dynamic-module=mod_pagespeed
+--add-dynamic-module=mod_security --add-dynamic-module=mod_geoip2
+```
+
+
+
+I translated the rule again several times, tested, and discovered:
+
+- Nginx's ```sub_filter``` module cannot target specific HTML tags or attributes like IIS
+- Can NOT wrap the ```sub_filter``` in an ```if``` statement
+- In order to use tag/attribute-specific replacements, we would need Nginx with the Lua module (OpenResty) or a
+a proxy layer that can modify HTML like Node.js
+
+
+
+
+```sh
+location ~ ^/(app/providers|/-/providers)(.*)$ {
+    # Apply to HTML
+    sub_filter_types text/html;
+    # Apply sub_filter for all requests to this location
+    sub_filter '/MySelfRegional/' '/MySRHTST/';
+    # Repeat for all instances
+    sub_filter_once off;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_pass https://mychart-np.et1235.epichosted.com;
+
+}
+```
+
+In order to use tag/attribute-specific replacements, we would need Nginx with the Lua module (OpenResty) or a
+a proxy layer that can modify HTML (like Node.js middleware) Here's an example rule:
+
+```sh
+# Using OpenResty/Nginx+Lua for more precise filtering
+
+# Define lua function for HTML transformation
+init_by_lua_block {
+    function modify_provider_urls(content)
+        -- Use regex to find and modify only URLs in link tags
+        return string.gsub(content, '<link[^>]+href="(https?://[^"]*)(app/providers|/-/providers)([^"]*)"', 
+                                    '<link href="https://providers.selfregional.org%3"')
+    end
+}
+
+map $request_uri$query_string $provider_finder_condition {
+    "~(\/app\/providers|\/-\/providers)" 1;
+    "~host=" 1;
+    default 0;
+}
+
+location ~ ^/(app/providers|/-/providers) {
+    proxy_pass https://mychart-np.et1235.epichosted.com;
+    
+    header_filter_by_lua_block {
+        if ngx.var.provider_finder_condition == "1" and 
+           ngx.header.content_type and 
+           string.find(ngx.header.content_type, "text/html") then
+            ngx.header.content_length = nil
+        end
+    }
+    
+    body_filter_by_lua_block {
+        if ngx.var.provider_finder_condition == "1" and 
+           ngx.header.content_type and 
+           string.find(ngx.header.content_type, "text/html") then
+            local chunk = ngx.arg[1]
+            local modified_chunk = modify_provider_urls(chunk)
+            ngx.arg[1] = modified_chunk
+        end
+    }
 }
 ```
