@@ -499,3 +499,34 @@ location ~ ^/(app/providers|/-/providers) {
     }
 }
 ```
+
+
+## FINAL FINAL CONFIG
+
+```sh
+underscores_in_headers on;
+
+location / {
+	rewrite ^/(.*)$ /MySRHTST/-/providers/$1?host=MySelfRegional break;
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+	proxy_set_header RequestVerificationToken $http_requestverificationtoken;
+	proxy_pass https://mychart-np.et1235.epichosted.com;
+}
+
+location ~ ^/MySelfRegional/(.*)$ {
+	set $subpath $1;
+	if ($http_accept ~* "text/html") {
+		return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$subpath$is_args$args;
+	}
+	rewrite ^ /MySRHTST/$subpath break;
+	proxy_pass https://mychart-np.et1235.epichosted.com;
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+}
+```
+
