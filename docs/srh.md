@@ -228,7 +228,7 @@ Important Notes:
 
 <div><br/><br/></div>
 
-## CURRENT CONFIG
+## Test Config
 
 **note** the ```underscores_in_header``` directive is required and the ```sub_filter``` module is not available in the current nginx build. 
 
@@ -357,7 +357,7 @@ location ~ ^/(app/providers|/-/providers) {
 
 <div><br/><br/></div>
 
-## DEBUG LINK ERROR
+## Debug Link Error
 
 Epic team found an error where the "bio links from the slots are incorrect" ( the popup window links for each provider above the scheduling time ). The current error is from a redirect loop causing a ```499``` 'Client Closed Request' error. I found that even before the proxy, the url is change and replaces the ```CustomHostID``` with the ```MyChartSiteName``` ( ```MySelfRegional``` -> ```MySRHTST``` ) e.g.:  
 
@@ -501,7 +501,7 @@ location ~ ^/(app/providers|/-/providers) {
 ```
 
 
-## FINAL FINAL CONFIG
+## Final Test Config
 
 ```sh
 underscores_in_headers on;
@@ -519,7 +519,7 @@ location / {
 location ~ ^/MySelfRegional/(.*)$ {
 	set $subpath $1;
 	if ($http_accept ~* "text/html") {
-		return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$subpath$is_args$args;
+    return 302 https://mychart-np.et1235.epichosted.com/MySRHTST/$subpath$is_args$args;
 	}
 	rewrite ^ /MySRHTST/$subpath break;
 	proxy_pass https://mychart-np.et1235.epichosted.com;
@@ -530,3 +530,31 @@ location ~ ^/MySelfRegional/(.*)$ {
 }
 ```
 
+## Production Config
+
+```sh
+underscores_in_headers on;
+
+location / {
+	rewrite ^/(.*)$ /MySRH/-/providers/$1?host=MySelfRegional break;
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+	proxy_set_header RequestVerificationToken $http_requestverificationtoken;
+	proxy_pass https://mychart.et1235.epichosted.com;
+}
+
+location ~ ^/MySelfRegional/(.*)$ {
+	set $subpath $1;
+	if ($http_accept ~* "text/html") {
+		return 302 https://mychart.et1235.epichosted.com/MySRH/$subpath$is_args$args;
+	}
+	rewrite ^ /MySRH/$subpath break;
+	proxy_pass https://mychart.et1235.epichosted.com;
+	proxy_set_header Host $host;
+	proxy_set_header X-Real-IP $remote_addr;
+	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+	proxy_set_header X-Forwarded-Proto $scheme;
+}
+```
