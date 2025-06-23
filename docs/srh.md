@@ -557,4 +557,10 @@ location ~ ^/MySelfRegional/(.*)$ {
 	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 	proxy_set_header X-Forwarded-Proto $scheme;
 }
+
+location ~ ^/\ MySelfRegional/(.*)$ {
+	if ($http_accept ~* "text/html") {
+		return 302 https://mychart.selfregional.org/mysrh/$1;
+	}
+}
 ```
