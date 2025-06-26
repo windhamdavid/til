@@ -41,13 +41,15 @@ Leaning more into the custom walk in cabinetry instead of framing in additional 
 
 Selected the cabinetry color and tiles ( note the wall tiles are hexagon and not square )
 
+<div class="responsive-image-right" style={{maxWidth:370}}>
+![glenridge-bathrooms](/img/glenridge-bath-counter.jpg)
+</div>
+
 <div style={{maxWidth:400}}>
 ![glenridge-bathrooms](/img/glenridge-bath-materials.jpg)
 </div>
 
-<div style={{maxWidth:400}}>
-![glenridge-bathrooms](/img/glenridge-bath-counter.jpg)
-</div>
+
 
 We've decided to switch over to Moen hardware after hearing some feedback from others especially regarding their warranty and replacement policies. We've also decided to go with chrome over brushed nickel because it's easier to match up other hardware and vary between brands. **MOEN - Voss line**
 
