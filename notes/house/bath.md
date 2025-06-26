@@ -5,7 +5,9 @@
 
 ## Log
 
-- **25/06/17** - Plumber
+- **25/06/26** - Electrician/GC on site
+- **25/06/24** - Framer finishing out layout ( 1 day )
+- **25/06/17** - Plumbers on site reworking layout ( 3 days )
 - **25/06/11** - Demolition ( [photos](https://davidawindham.com/wha/glenridge/#bath) )
 - **25/06/03** - Quarle's / Snead's supply shopping - tile, carpet, and hardware
 - **25/06/02** - Demolition begun
@@ -26,8 +28,26 @@
 
 We want to stay 'true' to the original house. The style is a contemporary craftsman built in 1979. The current bathrooms use hexagonal tiles, bulb makeup style vanity lighting, and contemporary hardware. Both showers/tubs are fiberglass insets but we'd like to move to a lipless tiled glassed shower and a freestanding tub. A second vanity/sink addition was made sometime during the 80s which we'd like to remove. 
 
+## Dressing Room
+
+Leaning more into the custom walk in cabinetry instead of framing in additional closets but would like the majority of them them to have doors - e.g.
+
+<div style={{maxWidth:600}}>
+![glenridge-bathrooms](/img/glenridge-bath-dressing.jpg)
+</div>
+
 
 ## Materials
+
+Selected the cabinetry color and tiles ( note the wall tiles are hexagon and not square )
+
+<div style={{maxWidth:400}}>
+![glenridge-bathrooms](/img/glenridge-bath-materials.jpg)
+</div>
+
+<div style={{maxWidth:400}}>
+![glenridge-bathrooms](/img/glenridge-bath-counter.jpg)
+</div>
 
 We've decided to switch over to Moen hardware after hearing some feedback from others especially regarding their warranty and replacement policies. We've also decided to go with chrome over brushed nickel because it's easier to match up other hardware and vary between brands. **MOEN - Voss line**
 
