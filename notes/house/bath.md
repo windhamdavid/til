@@ -28,27 +28,17 @@
 
 We want to stay 'true' to the original house. The style is a contemporary craftsman built in 1979. The current bathrooms use hexagonal tiles, bulb makeup style vanity lighting, and contemporary hardware. Both showers/tubs are fiberglass insets but we'd like to move to a lipless tiled glassed shower and a freestanding tub. A second vanity/sink addition was made sometime during the 80s which we'd like to remove. 
 
-## Dressing Room
-
-Leaning more into the custom walk in cabinetry instead of framing in additional closets but would like the majority of them them to have doors - e.g.
-
-<div style={{maxWidth:600}}>
-![glenridge-bathrooms](/img/glenridge-bath-dressing.jpg)
-</div>
-
+![glenridge-bathrooms](/img/glenridge-bath-cabinets.jpg)
 
 ## Materials
 
 Selected the cabinetry color and tiles ( note the wall tiles are hexagon and not square )
 
+![glenridge-bathrooms](/img/glenridge-bath-materials.jpg)
+
 <div class="responsive-image-right" style={{maxWidth:370}}>
 ![glenridge-bathrooms](/img/glenridge-bath-counter.jpg)
 </div>
-
-<div style={{maxWidth:400}}>
-![glenridge-bathrooms](/img/glenridge-bath-materials.jpg)
-</div>
-
 
 
 We've decided to switch over to Moen hardware after hearing some feedback from others especially regarding their warranty and replacement policies. We've also decided to go with chrome over brushed nickel because it's easier to match up other hardware and vary between brands. **MOEN - Voss line**
@@ -80,3 +70,11 @@ https://www.mohawkflooring.com/shop/Carpet/detail/3J52/Casual_Elegance/759/Bare_
 - **Cabinets** - white/light/wood colored
 - **Mirror** - single mounted - no frame
 - **Sliding Glass Door** - Anderson Fiberglass
+
+## Dressing Room
+
+Leaning more into the custom walk in cabinetry instead of framing in additional closets but would like the majority of them them to have doors - e.g.
+
+
+![glenridge-bathrooms](/img/glenridge-bath-dressing.jpg)
+
