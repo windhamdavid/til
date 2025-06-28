@@ -109,8 +109,8 @@ ID: 3197
 
 ### User
 
-wp-user: admin/cejsip-8vInxa-jipciz
-ID: 3197
+wp-user: *****/*****************  
+ID: *****
 
 
 
