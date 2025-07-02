@@ -11,6 +11,21 @@
 
 ## Log
 
+- 24/7/02 - [**Master**](/notes/house/bath) drywall
+- 25/6/30-7/1 - [**Master**](/notes/house/bath) electrical
+- 25/6/17-20 - [**Master**](/notes/house/bath) plumbing
+- 25/6/02 - [**Master**](/notes/house/bath) Demo ( 4.5 days 2,3,4,10,11 )
+- 25/4/16 - **Gas** lines installed
+- 25/4/10 - **Roof** replaced - 7am -> 6pm - finished 
+- 25/4/02 - **windows** replaced (+ sunroom/office)
+- 25/3/26 - CPW marked utility lines for gas 
+- 25/3/36 - [studio](/notes/house/studio.md) cabinets installed
+- 25/3/25-26 - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳
+  - grind two stumps and keep woodchips as mulch
+- 25/3/25 - WCTel on site to reroute fiber optic line
+- 25/3/19 - Mountz glass to measure rear, office, and sun room windows
+- 25/3/18 - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
+- 25/3/10-19 - Framing crew - trusses installed / siding repaired
 - 25/03/13 - [trusses installed](/notes/house/helene)
 - 25/03/05 - second [insurance adjuster](/notes/house/helene-ins-adjust.md) met with general contractor
 - 24/12/10 - added Helene [Insurance Claim](/notes/house/helene-ins-adjust.md)

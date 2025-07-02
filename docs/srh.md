@@ -548,7 +548,7 @@ location / {
 location ~ ^/MySelfRegional/(.*)$ {
 	set $subpath $1;
 	if ($http_accept ~* "text/html") {
-		return 302 https://mychart.et1235.epichosted.com/MySRH/$subpath$is_args$args;
+		return 302 https://mychart.selfregional.org/MySRH/$subpath$is_args$args;
 	}
 	rewrite ^ /MySRH/$subpath break;
 	proxy_pass https://mychart.et1235.epichosted.com;

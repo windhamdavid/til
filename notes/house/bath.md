@@ -5,6 +5,7 @@
 
 ## Log
 
+- **25/07/02** - Drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
 - **25/06/26** - Electrician/GC on site
 - **25/06/24** - Framer finishing out layout ( 1 day )
 - **25/06/17** - Plumbers on site reworking layout ( 3 days )
