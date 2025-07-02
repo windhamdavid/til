@@ -103,10 +103,13 @@ Met with an assortment of contractors and got third party reviews from others be
     - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
   - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653 - gas generator
-  - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, flooring, doors
-  - ✅ (sub) Emerald Plumbing - Harley Cobb
-  - ✅ (sub) Drywall - Kenny Cole 
+  - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, tile, flooring, doors
+  - ✅ (sub) Emerald Plumbing - Harley Cobb ( Austin )
+  - ✅ (sub) Drywall - Kenny Cole ( finishing ) / Wall to Wall Drywall - David Strickland ( hanging )
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
+
+--- 
+
 - ✅ Ferqueron & Sons Tree Services - Lee Ferqueron - 864-223-4125/cell 864-980-5104 lee@ferqueronsons.com - http://www.ferqueronsons.com
 - JMP Construction - https://jmpconcretesc.com - John Parramore
   - ✅ R&G Landscaping - https://randgtreeservices.com - Kolby Gantt - 864-992-5766
