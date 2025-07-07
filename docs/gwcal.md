@@ -2,13 +2,35 @@
 
 ## Log 
 
-- **25/05/28** 
+- **25/07/07**
+  - fixed CloudFlare DNS
+  - migrated DNS back to host
+  - removed unused files and databases
+  - removed unused databases
+  - archived and zip'd all removals
+  - down from **50 to 30GB**
+- **25/06/28** 
   - accepted tech admin account on bluehost
   - modified existing user to administrator
   - inventoried site
   - inspected logs
   - installed query monitor to inspect performance and errors
   - billed two(2) hours
+
+
+## Info 
+162.241.216.248
+
+ns1.bluehost.com
+ns2.bluehost.com
+
+CARTER.NS.CLOUDFLARE.COM
+KEYLA.NS.CLOUDFLARE.COM
+
+
+**48.78 GB of the 50 GB of storage available**
+
+
 
 :::danger[Fault Summary]
 
@@ -126,6 +148,29 @@ ID: *****
 - Logs
   - last logs stored are from 2023??
 
+
+### Files 
+
+- .website_e2abb3a4
+- dev
+- hemlockct
+- fequeronandsons
+- heritagecompany
+- /home/greenwood/www/www
+- igreenwoodsc
+- 👉🏻 landerfilmfestival
+- robertfstevenson
+- robertfstevenson-old2
+- robertfstevenson-old
+- robertsellsgreenwood
+- springfieldcalendar
+- staging
+- staging_backup
+- website_9f50938f
+- wordpress
+
+
+
 ### Database
 
 - db: greenwx6_greenwood_calendar2013
@@ -134,7 +179,25 @@ ID: *****
 - Majority of tables are formatted with MyISAM --> Need to be converted to InnoDB
 - Duplicated sets of tables: other prefix wpstg0, 
 - unused tables - old gravity forms, BuddyPress, IG contacts, MLW quizzes, totalsoft, etc. 
-- unused databases: 
+
+databases: 
+  - greenwx6_337 - N/A
+  - greenwx6_boMvsx3 - http://dev.heritagecompany.com
+  - greenwx6_calendar - N/A
+  - greenwx6_classifieds - http://greenwoodcalendar.com/classifieds
+  - greenwx6_d8c - N/A
+  - 👉🏻 greenwx6_greenwood_calendar2013 👉🏻 GreenwoodCalendar
+  - greenwx6_jzhkSvt - http://heritagecompany.com
+  - greenwx6_ss_dbname46d - http://www.igreenwoodsc.com/
+  - greenwx6_ss_dbnamec0c - https://www.robertfstevenson.com
+  - greenwx6_surebuilder - N/A
+  - greenwx6_wordpress8b5 - http://www.greenwoodcalendar.com/
+  - greenwx6_WP034 - http://greenwoodcalendarmedia.com
+  - greenwx6_wp215 - https://greenwoodcalendar.com/staging/1676341279623
+  - greenwx6_WPAVL - https://greenwoodcalendar.com/1676341279623
+  - 👉🏻 greenwx6_WPQ4D 👉🏻 LanderFilmFestival
+  - greenwx6_wp_u9y3 - http://greenwoodcalendar.com
+
 
 slow queries:
 ```sql
