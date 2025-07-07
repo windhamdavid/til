@@ -6,8 +6,6 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
-  - 25/07/06 - [Glastonbury](/posts/glastonbury)
-  - 25/07/05 - [Whig Loyalist](/posts/whig-loyalist)
   - 25/06/14 - [GT2 RS](/posts/gt2-rs)
   - 25/04/25 - [Arturia](/posts/arturia)
   - 25/04/07 - [Stu](/docs/computers/stu)
