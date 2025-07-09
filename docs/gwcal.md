@@ -2,6 +2,10 @@
 
 ## Log 
 
+- **25/07/08**
+  - stripped down database
+  - converted all tables to InnoDB and ut8mb4_unicode_ci ( or 520_ci )
+  - localhost version running
 - **25/07/07**
   - fixed CloudFlare DNS
   - migrated DNS back to host
@@ -153,6 +157,18 @@ ID: *****
 - Logs
   - last logs stored are from 2023??
 
+
+### Crawler 
+
+```sh
+./crawler \
+--url=https://greenwoodcalendar.com \
+  --disable-javascript  \
+  --disable-styles \
+  --disable-fonts \
+  --disable-images \
+  --disable-files
+```
 
 ### Files 
 
@@ -401,6 +417,28 @@ I think you could get rid of the Bakery
 
 3829 Published
 
+### Tables
+
+```sql
+ALTER TABLE wp_Gc13_commentmeta ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_comments ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_links ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_options ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_postmeta ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_posts ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_users ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_usermeta ENGINE=InnoDB;
+
+
+ALTER TABLE wp_Gc13_links ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_terms ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_term_taxonomy ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_term_relationships ENGINE=InnoDB;
+ALTER TABLE wp_Gc13_commentmeta ENGINE=InnoDB;
+
+alter table wp_Gc13_ewwwio_queue convert to character set utf8mb4 collate utf8mb4_unicode_ci;
+
+```
 
 ### DB Tables
 
@@ -410,13 +448,13 @@ I think you could get rid of the Bakery
 ❌ remove, ⚠️ maybe, ✅ keep, & ❇️ system
 
 
-❇️ wp_Gc13_actionscheduler_actions  
-❇️ wp_Gc13_actionscheduler_claims  
-❇️ wp_Gc13_actionscheduler_groups  
-❇️ wp_Gc13_actionscheduler_logs  
+⚠️ wp_Gc13_actionscheduler_actions  
+⚠️ wp_Gc13_actionscheduler_claims  
+⚠️ wp_Gc13_actionscheduler_groups  
+⚠️ wp_Gc13_actionscheduler_logs  
 
-wp_Gc13_advps_optionset  
-wp_Gc13_advps_thumbnail  
+❌ wp_Gc13_advps_optionset  
+❌ wp_Gc13_advps_thumbnail  
 
 ❌ wp_Gc13_aioseo_cache  
 ❌ wp_Gc13_aioseo_notifications  
@@ -451,343 +489,350 @@ wp_Gc13_advps_thumbnail
 ❌ wp_Gc13_bp_xprofile_groups  
 ❌ wp_Gc13_bp_xprofile_meta  
 
-wp_Gc13_bv_activities_store  
+❌ wp_Gc13_bv_activities_store  
 
-wp_Gc13_cartflows_ca_cart_abandonment  
-wp_Gc13_cartflows_ca_email_history  
-wp_Gc13_cartflows_ca_email_templates  
-wp_Gc13_cartflows_ca_email_templates_meta 
+❌ wp_Gc13_cartflows_ca_cart_abandonment  
+❌ wp_Gc13_cartflows_ca_email_history  
+❌ wp_Gc13_cartflows_ca_email_templates  
+❌ wp_Gc13_cartflows_ca_email_templates_meta 
 
-wp_Gc13_ce4wp_abandoned_checkout  
-wp_Gc13_ce4wp_contacts  
+❌ wp_Gc13_ce4wp_abandoned_checkout  
+❌ wp_Gc13_ce4wp_contacts  
 
 ❇️ wp_Gc13_commentmeta  
 ❇️ wp_Gc13_comments  
 
-wp_Gc13_cpk_wpcsv_export_queue  
-wp_Gc13_cpk_wpcsv_log  
-wp_Gc13_crw_crosswords  
-wp_Gc13_crw_editors  
-wp_Gc13_crw_projects  
-wp_Gc13_ctf_feeds_posts  
-wp_Gc13_ctf_posts  
+❌ wp_Gc13_cpk_wpcsv_export_queue  
+❌ wp_Gc13_cpk_wpcsv_log  
 
-wp_Gc13_e_events  
+❌ wp_Gc13_crw_crosswords  
+❌ wp_Gc13_crw_editors  
+❌ wp_Gc13_crw_projects  
 
-wp_Gc13_em_bookings  
-wp_Gc13_em_events  
-wp_Gc13_em_locations  
-wp_Gc13_em_meta  
-wp_Gc13_em_tickets  
-wp_Gc13_em_tickets_bookings  
+❌ wp_Gc13_ctf_feeds_posts  
+❌ wp_Gc13_ctf_posts  
 
-wp_Gc13_ewwwio_images  
-wp_Gc13_ewwwio_queue  
+❌ wp_Gc13_e_events  
 
-wp_Gc13_flag_album  
-wp_Gc13_flag_comments  
-wp_Gc13_flag_gallery  
-wp_Gc13_flag_pictures  
+❌ wp_Gc13_em_bookings  
+❌ wp_Gc13_em_events  
+❌ wp_Gc13_em_locations  
+❌ wp_Gc13_em_meta  
+❌ wp_Gc13_em_tickets  
+❌ wp_Gc13_em_tickets_bookings  
 
-wp_Gc13_frm_fields  
-wp_Gc13_frm_forms  
-wp_Gc13_frm_item_metas  
-wp_Gc13_frm_items  
+⚠️ wp_Gc13_ewwwio_images  
+⚠️ wp_Gc13_ewwwio_queue  
 
-wp_Gc13_gf_addon_feed  
-wp_Gc13_gf_addon_payment_callback  
-wp_Gc13_gf_addon_payment_transaction  
-wp_Gc13_gf_draft_submissions  
-wp_Gc13_gf_entry  
-wp_Gc13_gf_entry_meta  
-wp_Gc13_gf_entry_notes  
-wp_Gc13_gf_form  
-wp_Gc13_gf_form_meta  
-wp_Gc13_gf_form_revisions  
-wp_Gc13_gf_form_view  
-wp_Gc13_gf_rest_api_keys  
+❌ wp_Gc13_flag_album  
+❌ wp_Gc13_flag_comments  
+❌ wp_Gc13_flag_gallery  
+❌ wp_Gc13_flag_pictures  
 
-wp_Gc13_gg_folders  
-wp_Gc13_gg_galleries  
-wp_Gc13_gg_galleries_excluded  
-wp_Gc13_gg_galleries_resources  
-wp_Gc13_gg_photos  
-wp_Gc13_gg_photos_pos  
-wp_Gc13_gg_photos_settings  
-wp_Gc13_gg_settings_presets  
-wp_Gc13_gg_settings_sets  
-wp_Gc13_gg_stats  
-wp_Gc13_gg_tags  
+❌ wp_Gc13_frm_fields  
+❌ wp_Gc13_frm_forms  
+❌ wp_Gc13_frm_item_metas  
+❌ wp_Gc13_frm_items  
 
-wp_Gc13_ig_actions  
-wp_Gc13_ig_blocked_emails  
-wp_Gc13_ig_campaigns  
-wp_Gc13_ig_contact_meta  
-wp_Gc13_ig_contactmeta  
-wp_Gc13_ig_contacts  
-wp_Gc13_ig_contacts_ips  
-wp_Gc13_ig_forms  
-wp_Gc13_ig_links  
-wp_Gc13_ig_lists  
-wp_Gc13_ig_lists_contacts  
-wp_Gc13_ig_mailing_queue  
-wp_Gc13_ig_queue  
-wp_Gc13_ig_sending_queue  
-wp_Gc13_ig_workflows  
-wp_Gc13_ig_workflows_queue 
+⚠️ ✅ awp_Gc13_gf_addon_feed  
+⚠️ ✅ awp_Gc13_gf_addon_payment_callback  
+⚠️ ✅ awp_Gc13_gf_addon_payment_transaction  
+⚠️ ✅ awp_Gc13_gf_draft_submissions  
+⚠️ ✅ awp_Gc13_gf_entry  
+⚠️ ✅ awp_Gc13_gf_entry_meta  
+⚠️ ✅ awp_Gc13_gf_entry_notes  
+⚠️ ✅ awp_Gc13_gf_form  
+⚠️ ✅ awp_Gc13_gf_form_meta  
+⚠️ ✅ awp_Gc13_gf_form_revisions  
+⚠️ ✅ awp_Gc13_gf_form_view  
+⚠️ ✅ awp_Gc13_gf_rest_api_keys  
 
-wp_Gc13_iwp_backup_status 
+❌ wp_Gc13_gg_folders  
+❌ wp_Gc13_gg_galleries  
+❌ wp_Gc13_gg_galleries_excluded  
+❌ wp_Gc13_gg_galleries_resources  
+❌ wp_Gc13_gg_photos  
+❌ wp_Gc13_gg_photos_pos  
+❌ wp_Gc13_gg_photos_settings  
+❌ wp_Gc13_gg_settings_presets  
+❌ wp_Gc13_gg_settings_sets  
+❌ wp_Gc13_gg_stats  
+❌ wp_Gc13_gg_tags  
 
-wp_Gc13_jetpack_sync_queue  
+❌ wp_Gc13_ig_actions  
+❌ wp_Gc13_ig_blocked_emails  
+❌ wp_Gc13_ig_campaigns  
+❌ wp_Gc13_ig_contact_meta  
+❌ wp_Gc13_ig_contactmeta  
+❌ wp_Gc13_ig_contacts  
+❌ wp_Gc13_ig_contacts_ips  
+❌ wp_Gc13_ig_forms  
+❌ wp_Gc13_ig_links  
+❌ wp_Gc13_ig_lists  
+❌ wp_Gc13_ig_lists_contacts  
+❌ wp_Gc13_ig_mailing_queue  
+❌ wp_Gc13_ig_queue  
+❌ wp_Gc13_ig_sending_queue  
+❌ wp_Gc13_ig_workflows  
+❌ wp_Gc13_ig_workflows_queue 
+
+❌ wp_Gc13_iwp_backup_status 
+
+❌ wp_Gc13_jetpack_sync_queue  
 
 ❇️ wp_Gc13_links  
 
-wp_Gc13_mlw_qm_audit_trail  
-wp_Gc13_mlw_question_terms  
-wp_Gc13_mlw_questions  
-wp_Gc13_mlw_quiz_theme_settings  
-wp_Gc13_mlw_quizzes  
-wp_Gc13_mlw_results  
-wp_Gc13_mlw_themes  
+❌ wp_Gc13_mlw_qm_audit_trail  
+❌ wp_Gc13_mlw_question_terms  
+❌ wp_Gc13_mlw_questions  
+❌ wp_Gc13_mlw_quiz_theme_settings  
+❌ wp_Gc13_mlw_quizzes  
+❌ wp_Gc13_mlw_results  
+❌ wp_Gc13_mlw_themes  
 
-wp_Gc13_ms_snippets  
+❌ wp_Gc13_ms_snippets  
 
-wp_Gc13_mwai_filemeta  
-wp_Gc13_mwai_files  
+❌ wp_Gc13_mwai_filemeta  
+❌ wp_Gc13_mwai_files  
 
-wp_Gc13_my_calendar  
-wp_Gc13_my_calendar_categories  
-wp_Gc13_my_calendar_category_relationships  
-wp_Gc13_my_calendar_events  
-wp_Gc13_my_calendar_location_relationships  
-wp_Gc13_my_calendar_locations  
-wp_Gc13_my_calendar_payments  
+❌ wp_Gc13_my_calendar  
+❌ wp_Gc13_my_calendar_categories  
+❌ wp_Gc13_my_calendar_category_relationships  
+❌ wp_Gc13_my_calendar_events  
+❌ wp_Gc13_my_calendar_location_relationships  
+❌ wp_Gc13_my_calendar_locations  
+❌ wp_Gc13_my_calendar_payments  
 
 ❇️ wp_Gc13_options  
 
-wp_Gc13_pmxe_exports  
-wp_Gc13_pmxe_google_cats  
-wp_Gc13_pmxe_posts  
-wp_Gc13_pmxe_templates  
-wp_Gc13_postmeta  
-wp_Gc13_posts  
-wp_Gc13_posts_backup  
-wp_Gc13_presto_player_audio_presets  
-wp_Gc13_presto_player_email_collection  
-wp_Gc13_presto_player_presets  
-wp_Gc13_presto_player_videos  
-wp_Gc13_presto_player_visits  
-wp_Gc13_presto_player_webhooks  
-wp_Gc13_rank_math_internal_links  
-wp_Gc13_rank_math_internal_meta  
-wp_Gc13_rank_math_redirections  
-wp_Gc13_rank_math_redirections_cache 
+❌ wp_Gc13_pmxe_exports  
+❌ wp_Gc13_pmxe_google_cats  
+❌ wp_Gc13_pmxe_posts  
+❌ wp_Gc13_pmxe_templates  
 
-wp_Gc13_rg_form  
-wp_Gc13_rg_form_meta  
-wp_Gc13_rg_form_view  
-wp_Gc13_rg_incomplete_submissions  
-wp_Gc13_rg_lead  
-wp_Gc13_rg_lead_detail  
-wp_Gc13_rg_lead_detail_long  
-wp_Gc13_rg_lead_meta  
-wp_Gc13_rg_lead_notes  
-wp_Gc13_rg_stripe  
-wp_Gc13_rg_stripe_transaction  
-wp_Gc13_rg_userregistration  
+❇️ wp_Gc13_postmeta  
+❇️ wp_Gc13_posts  
 
-wp_Gc13_rotating_ad  
-wp_Gc13_rotating_ad_groups 
+❌ wp_Gc13_posts_backup  
 
-wp_Gc13_rs_exclude  
-wp_Gc13_rs_folders  
-wp_Gc13_rs_maps  
-wp_Gc13_rs_membership_presets  
-wp_Gc13_rs_photos  
-wp_Gc13_rs_photos_pos  
-wp_Gc13_rs_resources  
-wp_Gc13_rs_settings_presets  
-wp_Gc13_rs_settings_sets  
-wp_Gc13_rs_sliders  
-wp_Gc13_rs_sorting  
-wp_Gc13_rs_stats  
-wp_Gc13_rs_tags  
-wp_Gc13_rs_videos  
+❌ wp_Gc13_presto_player_audio_presets  
+❌ wp_Gc13_presto_player_email_collection  
+❌ wp_Gc13_presto_player_presets  
+❌ wp_Gc13_presto_player_videos  
+❌ wp_Gc13_presto_player_visits  
+❌ wp_Gc13_presto_player_webhooks  
 
-wp_Gc13_sbr_feed_caches  
-wp_Gc13_sbr_feed_locator  
-wp_Gc13_sbr_feeds  
-wp_Gc13_sbr_reviews_posts  
-wp_Gc13_sbr_sources  
+❌ wp_Gc13_rank_math_internal_links  
+❌ wp_Gc13_rank_math_internal_meta  
+❌ wp_Gc13_rank_math_redirections  
+❌ wp_Gc13_rank_math_redirections_cache 
 
-wp_Gc13_shslider  
+❌ wp_Gc13_rg_form  
+❌ wp_Gc13_rg_form_meta  
+❌ wp_Gc13_rg_form_view  
+❌ wp_Gc13_rg_incomplete_submissions  
+❌ wp_Gc13_rg_lead  
+❌ wp_Gc13_rg_lead_detail  
+❌ wp_Gc13_rg_lead_detail_long  
+❌ wp_Gc13_rg_lead_meta  
+❌ wp_Gc13_rg_lead_notes  
+❌ wp_Gc13_rg_stripe  
+❌ wp_Gc13_rg_stripe_transaction  
+❌ wp_Gc13_rg_userregistration  
 
-wp_Gc13_signups  
-wp_Gc13_snippets  
+❌ wp_Gc13_rotating_ad  
+❌ wp_Gc13_rotating_ad_groups 
 
-wp_Gc13_suretriggers_webhook_requests  
+❌ wp_Gc13_rs_exclude  
+❌ wp_Gc13_rs_folders  
+❌ wp_Gc13_rs_maps  
+❌ wp_Gc13_rs_membership_presets  
+❌ wp_Gc13_rs_photos  
+❌ wp_Gc13_rs_photos_pos  
+❌ wp_Gc13_rs_resources  
+❌ wp_Gc13_rs_settings_presets  
+❌ wp_Gc13_rs_settings_sets  
+❌ wp_Gc13_rs_sliders  
+❌ wp_Gc13_rs_sorting  
+❌ wp_Gc13_rs_stats  
+❌ wp_Gc13_rs_tags  
+❌ wp_Gc13_rs_videos  
 
-wp_Gc13_taxonomymeta  
+❌ wp_Gc13_sbr_feed_caches  
+❌ wp_Gc13_sbr_feed_locator  
+❌ wp_Gc13_sbr_feeds  
+❌ wp_Gc13_sbr_reviews_posts  
+❌ wp_Gc13_sbr_sources  
 
-wp_Gc13_tec_events  
-wp_Gc13_tec_occurrences  
-wp_Gc13_tec_series_relationships  
+❌ wp_Gc13_shslider  
+
+❌ wp_Gc13_signups  
+
+❌ wp_Gc13_snippets  
+
+❌ wp_Gc13_suretriggers_webhook_requests  
+
+❌ wp_Gc13_taxonomymeta  
+
+✅ wp_Gc13_tec_events  
+✅ wp_Gc13_tec_occurrences  
+✅ wp_Gc13_tec_series_relationships  
 
 ❇️ wp_Gc13_term_relationships  
 ❇️ wp_Gc13_term_taxonomy  
 ❇️ wp_Gc13_termmeta  
 ❇️ wp_Gc13_terms  
 
-wp_Gc13_tm_taskmeta  
-wp_Gc13_tm_tasks  
+❌ wp_Gc13_tm_taskmeta  
+❌ wp_Gc13_tm_tasks  
 
-wp_Gc13_totalsoft_fonts  
-wp_Gc13_totalsoft_poll_answers  
-wp_Gc13_totalsoft_poll_dbt  
-wp_Gc13_totalsoft_poll_id  
-wp_Gc13_totalsoft_poll_iminqu  
-wp_Gc13_totalsoft_poll_iminqu_1  
-wp_Gc13_totalsoft_poll_impoll  
-wp_Gc13_totalsoft_poll_impoll_1  
-wp_Gc13_totalsoft_poll_imwibu  
-wp_Gc13_totalsoft_poll_imwibu_1  
-wp_Gc13_totalsoft_poll_inform  
-wp_Gc13_totalsoft_poll_manager  
-wp_Gc13_totalsoft_poll_quest_im  
-wp_Gc13_totalsoft_poll_results  
-wp_Gc13_totalsoft_poll_stpoll  
-wp_Gc13_totalsoft_poll_stpoll_1  
-wp_Gc13_totalsoft_poll_stwibu  
-wp_Gc13_totalsoft_poll_stwibu_1  
+❌ wp_Gc13_totalsoft_fonts  
+❌ wp_Gc13_totalsoft_poll_answers  
+❌ wp_Gc13_totalsoft_poll_dbt  
+❌ wp_Gc13_totalsoft_poll_id  
+❌ wp_Gc13_totalsoft_poll_iminqu  
+❌ wp_Gc13_totalsoft_poll_iminqu_1  
+❌ wp_Gc13_totalsoft_poll_impoll  
+❌ wp_Gc13_totalsoft_poll_impoll_1  
+❌ wp_Gc13_totalsoft_poll_imwibu  
+❌ wp_Gc13_totalsoft_poll_imwibu_1  
+❌ wp_Gc13_totalsoft_poll_inform  
+❌ wp_Gc13_totalsoft_poll_manager  
+❌ wp_Gc13_totalsoft_poll_quest_im  
+❌ wp_Gc13_totalsoft_poll_results  
+❌ wp_Gc13_totalsoft_poll_stpoll  
+❌ wp_Gc13_totalsoft_poll_stpoll_1  
+❌ wp_Gc13_totalsoft_poll_stwibu  
+❌ wp_Gc13_totalsoft_poll_stwibu_1  
 
-wp_Gc13_trustreviews_biz  
-wp_Gc13_trustreviews_review  
-wp_Gc13_trustreviews_stats  
+❌ wp_Gc13_trustreviews_biz  
+❌ wp_Gc13_trustreviews_review  
+❌ wp_Gc13_trustreviews_stats  
 
 ❇️ wp_Gc13_usermeta  
 ❇️ wp_Gc13_users  
 
-wp_Gc13_w3tc_cdn_pathmap  
-wp_Gc13_w3tc_cdn_queue  
+❌ wp_Gc13_w3tc_cdn_pathmap  
+❌ wp_Gc13_w3tc_cdn_queue  
 
-wp_Gc13_wc_admin_note_actions  
-wp_Gc13_wc_admin_notes  
-wp_Gc13_wc_category_lookup  
-wp_Gc13_wc_customer_lookup  
-wp_Gc13_wc_download_log  
-wp_Gc13_wc_order_addresses  
-wp_Gc13_wc_order_coupon_lookup  
-wp_Gc13_wc_order_operational_data  
-wp_Gc13_wc_order_product_lookup  
-wp_Gc13_wc_order_stats  
-wp_Gc13_wc_order_tax_lookup  
-wp_Gc13_wc_orders  
-wp_Gc13_wc_orders_meta  
-wp_Gc13_wc_product_attributes_lookup  
-wp_Gc13_wc_product_download_directories  
-wp_Gc13_wc_product_meta_lookup  
-wp_Gc13_wc_rate_limits  
-wp_Gc13_wc_reserved_stock  
-wp_Gc13_wc_tax_rate_classes  
-wp_Gc13_wc_webhooks  
+❌ wp_Gc13_wc_admin_note_actions  
+❌ wp_Gc13_wc_admin_notes  
+❌ wp_Gc13_wc_category_lookup  
+❌ wp_Gc13_wc_customer_lookup  
+❌ wp_Gc13_wc_download_log  
+❌ wp_Gc13_wc_order_addresses  
+❌ wp_Gc13_wc_order_coupon_lookup  
+❌ wp_Gc13_wc_order_operational_data  
+❌ wp_Gc13_wc_order_product_lookup  
+❌ wp_Gc13_wc_order_stats  
+❌ wp_Gc13_wc_order_tax_lookup  
+❌ wp_Gc13_wc_orders  
+❌ wp_Gc13_wc_orders_meta  
+❌ wp_Gc13_wc_product_attributes_lookup  
+❌ wp_Gc13_wc_product_download_directories  
+❌ wp_Gc13_wc_product_meta_lookup  
+❌ wp_Gc13_wc_rate_limits  
+❌ wp_Gc13_wc_reserved_stock  
+❌ wp_Gc13_wc_tax_rate_classes  
+❌ wp_Gc13_wc_webhooks  
 
-wp_Gc13_wfAuditEvents  
-wp_Gc13_wfBlockedIPLog  
-wp_Gc13_wfBlocks7  
-wp_Gc13_wfConfig  
-wp_Gc13_wfCrawlers  
-wp_Gc13_wfFileChanges  
-wp_Gc13_wfFileMods  
-wp_Gc13_wfHits  
-wp_Gc13_wfHoover  
-wp_Gc13_wfIssues  
-wp_Gc13_wfKnownFileList  
-wp_Gc13_wfLiveTrafficHuman  
-wp_Gc13_wfLocs  
-wp_Gc13_wfLogins  
-wp_Gc13_wfls_2fa_secrets  
-wp_Gc13_wfls_role_counts  
-wp_Gc13_wfls_settings  
-wp_Gc13_wfNotifications  
-wp_Gc13_wfPendingIssues  
-wp_Gc13_wfReverseCache  
-wp_Gc13_wfSecurityEvents  
-wp_Gc13_wfSNIPCache  
-wp_Gc13_wfStatus  
-wp_Gc13_wfTrafficRates  
-wp_Gc13_wfWafFailures  
+⚠️ ✅ wp_Gc13_wfAuditEvents  
+⚠️ ✅ wp_Gc13_wfBlockedIPLog  
+⚠️ ✅ wp_Gc13_wfBlocks7  
+⚠️ ✅ wp_Gc13_wfConfig  
+⚠️ ✅ wp_Gc13_wfCrawlers  
+⚠️ ✅ wp_Gc13_wfFileChanges  
+⚠️ ✅ wp_Gc13_wfFileMods  
+⚠️ ✅ wp_Gc13_wfHits  
+⚠️ ✅ wp_Gc13_wfHoover  
+⚠️ ✅ wp_Gc13_wfIssues  
+⚠️ ✅ wp_Gc13_wfKnownFileList  
+⚠️ ✅ wp_Gc13_wfLiveTrafficHuman  
+⚠️ ✅ wp_Gc13_wfLocs  
+⚠️ ✅ wp_Gc13_wfLogins  
+⚠️ ✅ wp_Gc13_wfls_2fa_secrets  
+⚠️ ✅ wp_Gc13_wfls_role_counts  
+⚠️ ✅ wp_Gc13_wfls_settings  
+⚠️ ✅ wp_Gc13_wfNotifications  
+⚠️ ✅ wp_Gc13_wfPendingIssues  
+⚠️ ✅ wp_Gc13_wfReverseCache  
+⚠️ ✅ wp_Gc13_wfSecurityEvents  
+⚠️ ✅ wp_Gc13_wfSNIPCache  
+⚠️ ✅ wp_Gc13_wfStatus  
+⚠️ ✅ wp_Gc13_wfTrafficRates  
+⚠️ ✅ wp_Gc13_wfWafFailures  
 
-wp_Gc13_woocommerce_api_keys  
-wp_Gc13_woocommerce_attribute_taxonomies  
-wp_Gc13_woocommerce_downloadable_product_permissions  
-wp_Gc13_woocommerce_log  
-wp_Gc13_woocommerce_order_itemmeta  
-wp_Gc13_woocommerce_order_items  
-wp_Gc13_woocommerce_payment_tokenmeta  
-wp_Gc13_woocommerce_payment_tokens  
-wp_Gc13_woocommerce_sessions  
-wp_Gc13_woocommerce_shipping_zone_locations  
-wp_Gc13_woocommerce_shipping_zone_methods  
-wp_Gc13_woocommerce_shipping_zones  
-wp_Gc13_woocommerce_tax_rate_locations  
-wp_Gc13_woocommerce_tax_rates  
-wp_Gc13_woocommerce_termmeta  
+❌ wp_Gc13_woocommerce_api_keys  
+❌ wp_Gc13_woocommerce_attribute_taxonomies  
+❌ wp_Gc13_woocommerce_downloadable_product_permissions  
+❌ wp_Gc13_woocommerce_log  
+❌ wp_Gc13_woocommerce_order_itemmeta  
+❌ wp_Gc13_woocommerce_order_items  
+❌ wp_Gc13_woocommerce_payment_tokenmeta  
+❌ wp_Gc13_woocommerce_payment_tokens  
+❌ wp_Gc13_woocommerce_sessions  
+❌ wp_Gc13_woocommerce_shipping_zone_locations  
+❌ wp_Gc13_woocommerce_shipping_zone_methods  
+❌ wp_Gc13_woocommerce_shipping_zones  
+❌ wp_Gc13_woocommerce_tax_rate_locations  
+❌ wp_Gc13_woocommerce_tax_rates  
+❌ wp_Gc13_woocommerce_termmeta  
 
-wp_Gc13_wpforms_logs  
-wp_Gc13_wpforms_payment_meta  
-wp_Gc13_wpforms_payments  
-wp_Gc13_wpforms_tasks_meta  
+❌ wp_Gc13_wpforms_logs  
+❌ wp_Gc13_wpforms_payment_meta  
+❌ wp_Gc13_wpforms_payments  
+❌ wp_Gc13_wpforms_tasks_meta  
 
-wp_Gc13_wplc_chat_msgs  
-wp_Gc13_wplc_chat_sessions  
-wp_Gc13_wplc_offline_messages  
-wp_Gc13_wplc_webhooks  
+❌ wp_Gc13_wplc_chat_msgs  
+❌ wp_Gc13_wplc_chat_sessions  
+❌ wp_Gc13_wplc_offline_messages  
+❌ wp_Gc13_wplc_webhooks  
 
-wp_Gc13_wpo_404_detector  
+❌ wp_Gc13_wpo_404_detector  
 
-wp_Gc13_wpstg_queue  
+❌ wp_Gc13_wpstg_queue  
 
-wp_Gc13_yoast_indexable  
-wp_Gc13_yoast_indexable_hierarchy  
-wp_Gc13_yoast_migrations  
-wp_Gc13_yoast_primary_term  
-wp_Gc13_yoast_prominent_words  
-wp_Gc13_yoast_seo_links  
-wp_Gc13_yoast_seo_meta  
+✅ wp_Gc13_yoast_indexable  
+✅ wp_Gc13_yoast_indexable_hierarchy  
+✅ wp_Gc13_yoast_migrations  
+✅ wp_Gc13_yoast_primary_term  
+✅ wp_Gc13_yoast_prominent_words  
+✅ wp_Gc13_yoast_seo_links  
+✅ wp_Gc13_yoast_seo_meta  
 
-wp_Gc13_zbs_admlog  
-wp_Gc13_zbs_aka  
-wp_Gc13_zbs_companies  
-wp_Gc13_zbs_contacts  
-wp_Gc13_zbs_customfields  
-wp_Gc13_zbs_dbmigration_meta  
-wp_Gc13_zbs_dbmigration_posts  
-wp_Gc13_zbs_event_reminders  
-wp_Gc13_zbs_events  
-wp_Gc13_zbs_externalsources  
-wp_Gc13_zbs_forms  
-wp_Gc13_zbs_invoices  
-wp_Gc13_zbs_lineitems  
-wp_Gc13_zbs_logs  
-wp_Gc13_zbs_meta  
-wp_Gc13_zbs_notifications  
-wp_Gc13_zbs_object_links  
-wp_Gc13_zbs_quotes  
-wp_Gc13_zbs_quotes_templates  
-wp_Gc13_zbs_security_log  
-wp_Gc13_zbs_segments  
-wp_Gc13_zbs_segments_conditions  
-wp_Gc13_zbs_settings  
-wp_Gc13_zbs_sys_cronmanagerlogs  
-wp_Gc13_zbs_sys_email  
-wp_Gc13_zbs_sys_email_hist  
-wp_Gc13_zbs_tags  
-wp_Gc13_zbs_tags_links  
-wp_Gc13_zbs_tax_table  
-wp_Gc13_zbs_temphash  
-wp_Gc13_zbs_tracking  
-wp_Gc13_zbs_transactions  
-wp_Gc13_zbscrm_api_keys  
+❌ wp_Gc13_zbs_admlog  
+❌ wp_Gc13_zbs_aka  
+❌ wp_Gc13_zbs_companies  
+❌ wp_Gc13_zbs_contacts  
+❌ wp_Gc13_zbs_customfields  
+❌ wp_Gc13_zbs_dbmigration_meta  
+❌ wp_Gc13_zbs_dbmigration_posts  
+❌ wp_Gc13_zbs_event_reminders  
+❌ wp_Gc13_zbs_events  
+❌ wp_Gc13_zbs_externalsources  
+❌ wp_Gc13_zbs_forms  
+❌ wp_Gc13_zbs_invoices  
+❌ wp_Gc13_zbs_lineitems  
+❌ wp_Gc13_zbs_logs  
+❌ wp_Gc13_zbs_meta  
+❌ wp_Gc13_zbs_notifications  
+❌ wp_Gc13_zbs_object_links  
+❌ wp_Gc13_zbs_quotes  
+❌ wp_Gc13_zbs_quotes_templates  
+❌ wp_Gc13_zbs_security_log  
+❌ wp_Gc13_zbs_segments  
+❌ wp_Gc13_zbs_segments_conditions  
+❌ wp_Gc13_zbs_settings  
+❌ wp_Gc13_zbs_sys_cronmanagerlogs  
+❌ wp_Gc13_zbs_sys_email  
+❌ wp_Gc13_zbs_sys_email_hist  
+❌ wp_Gc13_zbs_tags  
+❌ wp_Gc13_zbs_tags_links  
+❌ wp_Gc13_zbs_tax_table  
+❌ wp_Gc13_zbs_temphash  
+❌ wp_Gc13_zbs_tracking  
+❌ wp_Gc13_zbs_transactions  
+❌ wp_Gc13_zbscrm_api_keys  
 
 ---
 
