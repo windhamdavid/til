@@ -5,6 +5,7 @@
 
 ## Log
 
+- **25/07/10** - Electrician - adjust hall outlet
 - **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
 - **25/07/02** - Drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
 - **25/06/26** - Electrician/GC on site
