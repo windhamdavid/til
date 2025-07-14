@@ -913,6 +913,10 @@ david@stu🪩:~/sites/gwcal » wp doctor check autoload-options-size
 ```
 
 Total Size = 1111735  
+Total Tables = 1881
+
+✅ Corrected options tables = 365  ( option_id(s) are starting over a million @ with 1,058,5987 )
+
 
 - astra_docs_data	102444
 - option_tree_settings	88830
@@ -2851,3 +2855,8 @@ Total Size = 1111735
 - wpo_weekly_cron_tasks	None	Jul 15, 2025 @ 08:19:14 - Once Weekly	Orphan!
 - ❌ wpo_prune_webp_logs	None	Jul 15, 2025 @ 12:19:13 - Once Weekly	Orphan!
 - wp_delete_temp_updater_backups	None	Jul 15, 2025 @ 16:01:54 - Once Weekly	Wordpress core
+
+
+### Action Scheduler
+
+Remove all - woocommerce and wpforms
