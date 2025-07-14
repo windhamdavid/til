@@ -4,7 +4,7 @@
 
 ## 🔥 Migration
 
-Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
+**25.04.11** - Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
 
 ```sh
 # everything up to date
