@@ -471,6 +471,41 @@ wflogs
 
 3829 Published
 
+### Media uploads/
+
+**19.09 GB** 
+
+Removed:
+
+- adbc_uploads_9n9k1f8pxoa4/
+- appointments-log
+- awpcp
+- bpfb
+- buddypress
+- elementor
+- formidable
+- gravity_forms
+- grid-gallery
+- group-avatars
+- ig-logs
+- js_composer
+- powerpress
+- qsm_themes
+- rank-math
+- supsystic-slider
+- wc-logs
+- woocommerce/
+- wpallexport
+- wpcf7_uploads
+- wpcsv_backups
+- wpforms
+- wpo
+- wpseo-redirects
+- wpstaging/
+- zbscrm-store
+
+
+
 ### Tables
 
 ```sql
