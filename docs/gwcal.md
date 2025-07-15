@@ -475,9 +475,14 @@ wflogs
 
 **19.09 GB** 
 
-Removed:
+Removed all .webp images **13GB**
+Removed all thumbnails 
+Regenerated all thumbnails **8.5GB**
 
-- adbc_uploads_9n9k1f8pxoa4/
+
+
+
+Removed:
 - appointments-log
 - awpcp
 - bpfb
