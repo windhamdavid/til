@@ -11,6 +11,7 @@
 
 ## Log
 
+- 24/7/14-15 - [**Master**](/notes/house/bath) drywall & insulation
 - 24/7/02 - [**Master**](/notes/house/bath) drywall
 - 25/6/30-7/1 - [**Master**](/notes/house/bath) electrical
 - 25/6/17-20 - [**Master**](/notes/house/bath) plumbing
@@ -19,7 +20,7 @@
 - 25/4/10 - **Roof** replaced - 7am -> 6pm - finished 
 - 25/4/02 - **windows** replaced (+ sunroom/office)
 - 25/3/26 - CPW marked utility lines for gas 
-- 25/3/36 - [studio](/notes/house/studio.md) cabinets installed
+- 25/3/36 - [**Studio**](/notes/house/studio.md) cabinets installed
 - 25/3/25-26 - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳
   - grind two stumps and keep woodchips as mulch
 - 25/3/25 - WCTel on site to reroute fiber optic line

@@ -5,6 +5,10 @@
 
 ## Log
 
+- **24/7/15** - Insulation
+- **24/7/02** - Drywall
+- **25/6/30-7/1** - Electrical
+- **25/6/17-20** -  Plumbing
 - **25/07/10** - Electrician - adjust hall outlet
 - **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
 - **25/07/02** - Drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
