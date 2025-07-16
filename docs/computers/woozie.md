@@ -1,4 +1,4 @@
-# Woozie 🐕‍🦺
+# Woozie 🦮
 
 ## Notes
 

@@ -67,7 +67,8 @@ https://www.americanstandard-us.com/single-hole-bathroom-faucets/~aspirations-si
 https://www.americanstandard-us.com/countertop-bathroom-sinks/aspirations-drop-in-sink-center-hole-only/white-1721001020~
 - **Toilet** - ~American Standard - Aspirations Skirted Two-Piece - https://www.americanstandard-us.com/two-piece-toilets/aspirations-skirted-two-piece-128-gpf-48-lpf-chair-height-elongated-toilet-with-seat/white-252aa899020~
 - **Vent** - Panasonic Whisper Cozy DC 50-80-110 Ceiling Exhaust Fan with LED Light/Night Light and Heater ( 1600W ) - https://iaq.na.panasonic.com/ventilation/fans/whispercozy
-- **Water Heater** - Rheem Performance Platinum 8.4 GPM High Efficiency Indoor Gas Tankless
+- **Water Heater** - ~Rheem Performance Platinum 8.4 GPM High Efficiency Indoor Gas Tankless~ 
+Rinnai High Efficiency 7.5 GPM Residential 180,000 BTU Natural Gas Interior Tankless Water Heater
 - **Flooring** 
   - Carpet - Mohawk Smart Strand - Forever Clean  - Vintage  Glamour - Havana
 https://www.mohawkflooring.com/shop/Carpet/detail/3J52/Casual_Elegance/759/Bare_Necessities?productLine=SmartStrand&carpet_types=Pattern
