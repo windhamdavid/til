@@ -16,7 +16,8 @@ module.exports = {
         'computers/stu',
         'computers/woozer',
         'computers/woozie',
-        'computers/zeke'
+        'computers/zeke',
+        'computers/zeker'
       ],
     },
     {
