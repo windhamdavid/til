@@ -11,7 +11,9 @@
 
 ## Log
 
+- 24/7/17 - Sliding Door Installation & drywall finishing
 - 24/7/14-15 - [**Master**](/notes/house/bath) drywall & insulation
+- 24/7/10-11 - [**Exterior**](/notes/house/helene) exterior paint
 - 24/7/02 - [**Master**](/notes/house/bath) drywall
 - 25/6/30-7/1 - [**Master**](/notes/house/bath) electrical
 - 25/6/17-20 - [**Master**](/notes/house/bath) plumbing
