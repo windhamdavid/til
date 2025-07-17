@@ -5,6 +5,7 @@
 
 ## Log
 
+- **24/7/17** - Sliding Glass Door Installation
 - **24/7/15** - Insulation
 - **24/7/02** - Drywall
 - **25/6/30-7/1** - Electrical
