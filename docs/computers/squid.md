@@ -3,7 +3,7 @@
 Setting up a new server for a project. This one has to be easily replicated and provide access to multiple systems level administrators. The named comes from a portmantuau of the hosting data center and because cephalopod intelligence is the best of the invertebrates.
 
 ## Log
-
+- **25/07/21** bypass nginx [proxy rule](/docs/srh#production-config) changed by CVE-2024-42516
 - **25/04/09** add a passive FTP rule to the firewall 
 
 
