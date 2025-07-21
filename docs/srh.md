@@ -534,6 +534,7 @@ location ~ ^/MySelfRegional/(.*)$ {
 
 ```sh
 underscores_in_headers on;
+proxy_ssl_server_name off;
 
 location / {
 	rewrite ^/(.*)$ /MySRH/-/providers/$1?host=MySelfRegional break;
