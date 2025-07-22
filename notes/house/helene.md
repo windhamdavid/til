@@ -97,6 +97,7 @@ Met with an assortment of contractors and got third party reviews from others be
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
   - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653 - gas generator
   - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, tile, flooring, doors
+    - Salvadore - tile 
   - ✅ (sub) Emerald Plumbing - Harley Cobb ( Austin )
   - ✅ (sub) Drywall - Kenny Cole ( finishing ) 
     - ✅ Wall to Wall Drywall - David Strickland ( hanging )
