@@ -5,6 +5,7 @@
 
 ## Log
 
+- **24/7/28-29** - Doors/Trim
 - **24/7/21-23** - Tile guys
 - **24/7/17** - Sliding Glass Door Installation
 - **24/7/15** - Insulation
