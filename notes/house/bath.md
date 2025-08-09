@@ -2,15 +2,16 @@
 
 **24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den studio](/notes/house/studio). 
 
+📷 **photos** @ https://davidawindham.com/wha/glenridge/#bath
 
 ## Log
 
-- **24/8/04** - Painters
-- **24/7/28-29** - Doors/Trim
-- **24/7/21-23** - Tile guys
-- **24/7/17** - Sliding Glass Door Installation
-- **24/7/15** - Insulation
-- **24/7/02** - Drywall
+- **25/8/04-8** - Painters
+- **25/7/28-29** - Doors/Trim
+- **25/7/21-23** - Tile guys
+- **25/7/17** - Sliding Glass Door Installation
+- **25/7/15** - Insulation
+- **25/7/02** - Drywall
 - **25/6/30-7/1** - Electrical
 - **25/6/17-20** -  Plumbing
 - **25/07/10** - Electrician - adjust hall outlet
