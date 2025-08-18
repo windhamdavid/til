@@ -6,6 +6,7 @@
 
 ## Log
 
+- **25/8/15,18** - Plumbing/CPW - Tankless
 - **25/8/04-8** - Painters
 - **25/7/28-29** - Doors/Trim
 - **25/7/21-23** - Tile guys
@@ -40,9 +41,12 @@
 
 We want to stay 'true' to the original house. The style is a contemporary craftsman built in 1979. The current bathrooms use hexagonal tiles, bulb makeup style vanity lighting, and contemporary hardware. Both showers/tubs are fiberglass insets but we'd like to move to a lipless tiled glassed shower and a freestanding tub. A second vanity/sink addition was made sometime during the 80s which we'd like to remove. 
 
-![glenridge-bathrooms](/img/glenridge-bath-cabinets.jpg)
+
 
 ## Materials
+
+**Water Heater** - Navien NPE-210A2 180,000 BTU Condensing Premium Gas Tankless Water Heater - 
+https://www.navieninc.com/products/npe-210a2
 
 Selected the cabinetry color and tiles ( note the wall tiles are hexagon and not square )
 
@@ -84,10 +88,21 @@ https://www.mohawkflooring.com/shop/Carpet/detail/3J52/Casual_Elegance/759/Bare_
 - **Mirror** - single mounted - no frame
 - **Sliding Glass Door** - Anderson Fiberglass
 
+## Cabinets
+
+- Finish MinWax Weathered Oak
+- Berenson Hardware -  https://www.berensonhardware.com/catsearch/139/chrome
+- Aspire - https://www.berensonhardware.com/catsearch/222/aspire/
+- Doors (6) 9242-1026-P Aspire Polished Chrome Knob - https://www.berensonhardware.com/itemdetail/9242-1026-P?c=222
+- Drawers (8) 9233-1026-P Aspire 128mm CC Polished Chrome Pull - https://www.berensonhardware.com/itemdetail/9233-1026-P?c=222
+
+
+![glenridge-bathrooms](/img/glenridge-bath-cabinets.jpg)
+
 ## Dressing Room
 
 Leaning more into the custom walk in cabinetry instead of framing in additional closets but would like the majority of them them to have doors - e.g.
 
 
-![glenridge-bathrooms](/img/glenridge-bath-dressing.jpg)
+![glenridge-bathrooms](/img/house-bath-dressing.jpg)
 
