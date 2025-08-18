@@ -46,7 +46,10 @@ We want to stay 'true' to the original house. The style is a contemporary crafts
 ## Materials
 
 **Water Heater** - Navien NPE-210A2 180,000 BTU Condensing Premium Gas Tankless Water Heater - 
-https://www.navieninc.com/products/npe-210a2
+https://www.navieninc.com/products/npe-210a2 
+- about https://www.youtube.com/watch?v=i4w4PCM-fVI
+- set temp to 130 which is a bit hotter than standard 120
+
 
 Selected the cabinetry color and tiles ( note the wall tiles are hexagon and not square )
 
