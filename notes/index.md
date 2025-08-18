@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 25/08/16 - 🚰 [house/bath](/notes/house/bath)
 - 25/04/26 - 🎹 [music/music](/notes/music/)
 - 25/03/03 - 🎨 [house/studio](/notes/house/studio)
 - 25/02/15 - 🏡 [house/helene](/notes/house/helene)
