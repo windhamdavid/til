@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
+  - 25/08/22 - [The Was](/posts/the-was)
   - 25/08/14 - [Cannonball Run](/posts/cannonball-run)
   - 25/07/06 - [Glastonbury](/posts/glastonbury)
   - 25/07/05 - [Whig Loyalist](/posts/whig-loyalist)
