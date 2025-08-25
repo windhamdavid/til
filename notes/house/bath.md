@@ -6,6 +6,7 @@
 
 ## Log
 
+- **25/8/25** - Electrician
 - **25/8/15,18** - Plumbing/CPW - Tankless
 - **25/8/04-8** - Painters
 - **25/7/28-29** - Doors/Trim

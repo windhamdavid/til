@@ -129,7 +129,9 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 
 - Gas line hook-in ( for tankless in bath remodel )
 - Natural Gas Fireplaces - [dominion efficency report](https://cdn-dominionenergy-prd-001.azureedge.net/-/media/pdfs/south-carolina/save-energy/thermwise/desc-thermwise-fireplace-qualified-models.pdf)
-
+  - bi-directional ( coaxial ) direct vent with blower & temp controls
+  - inserts to use existing chimneys
+  - Valor G3 / Mendota FV32
 
 
 ### Paint
