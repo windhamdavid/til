@@ -6,6 +6,8 @@
 
 ## Log
 
+- **25/8/27-28** - Carpenter Dressing Room
+- **25/8/26** - Plumbing Hardware
 - **25/8/25** - Electrician
 - **25/8/15,18** - Plumbing/CPW - Tankless
 - **25/8/04-8** - Painters
