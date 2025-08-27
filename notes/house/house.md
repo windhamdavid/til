@@ -6,6 +6,7 @@
 
 [bath](bath.md)
 | [build](build.md)
+| [fireplaces](fire.md)
 | [helene](helene.md)
 | [studio](studio.md)
 
@@ -132,6 +133,7 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
   - bi-directional ( coaxial ) direct vent with blower & temp controls
   - inserts to use existing chimneys
   - Valor G3 / Mendota FV32
+  - sizes - den 30x24", living 36x24"
 
 
 ### Paint

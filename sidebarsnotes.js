@@ -96,6 +96,8 @@ module.exports = {
           ]
         },
         'house/studio',
+        'house/kitchen',
+        'house/fire',
         'house/bath',
         'house/build',
       ]
