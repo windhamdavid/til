@@ -6,18 +6,19 @@
 
 ## Log
 
-- **25/8/27-28** - Carpenter Dressing Room
-- **25/8/26** - Plumbing Hardware
-- **25/8/25** - Electrician
-- **25/8/15,18** - Plumbing/CPW - Tankless
-- **25/8/04-8** - Painters
-- **25/7/28-29** - Doors/Trim
-- **25/7/21-23** - Tile guys
-- **25/7/17** - Sliding Glass Door Installation
-- **25/7/15** - Insulation
-- **25/7/02** - Drywall
-- **25/6/30-7/1** - Electrical
-- **25/6/17-20** -  Plumbing
+- **25/09/02** - Painters ( interior ) / plumbing repair
+- **25/08/27-28** - Carpenter Dressing Room
+- **25/08/26** - Plumbing Hardware
+- **25/08/25** - Electrician
+- **25/08/15,18** - Plumbing/CPW - Tankless
+- **25/08/04-8** - Painters
+- **25/07/28-29** - Doors/Trim
+- **25/07/21-23** - Tile guys
+- **25/07/17** - Sliding Glass Door Installation
+- **25/07/15** - Insulation
+- **25/07/02** - Drywall
+- **25/06/30-7/1** - Electrical
+- **25/06/17-20** -  Plumbing
 - **25/07/10** - Electrician - adjust hall outlet
 - **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
 - **25/07/02** - Drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
