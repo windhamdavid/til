@@ -4,7 +4,7 @@
 
 We had a gas fireplace in our last house. It wasn't any more efficient or charming that the wood burning fireplaces. It was just gas logs and a blower. This time it's gonna be direct vent.. where the entire unit is sealed and pulls the oxygen down from the chimney. Now that the gas lines are in, I had to get some measurements to get the process started. I've started this note on the pricing and install options.  
 
-estimate guess is at least **$8000** - even if it saves a couple hundred a month for the four cold months, it'd take ten years. 
+estimate guess is at least **$8000** - even if it saves a couple hundred a month for the four cold months, it'd take ten years for them to pay off. 
 
 - ✅ Gas line hook-in ( for tankless in [bath remodel](bath.md) )
 - Natural Gas Fireplaces - [dominion efficency report](https://cdn-dominionenergy-prd-001.azureedge.net/-/media/pdfs/south-carolina/save-energy/thermwise/desc-thermwise-fireplace-qualified-models.pdf)
