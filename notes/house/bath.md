@@ -6,7 +6,8 @@
 
 ## Log
 
-- **25/09/02** - Painters ( interior ) / plumbing repair
+- **25/09/02-04** - Painters ( interior )
+- **25/09/03** - plumbing ( downstairs )
 - **25/08/27-28** - Carpenter Dressing Room
 - **25/08/26** - Plumbing Hardware
 - **25/08/25** - Electrician
@@ -33,6 +34,12 @@
 - **24/12/07** - added tub, sinks, and hardware to [materials](#materials)
 - **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
 - **24/10/28** - timeline on this got bumped due to [helene repairs](/notes/house/helene). Contractor has given us a start date estimate of March 2025.
+
+
+## ToDo
+
+<div><br/><br/></div>
+---
 
 
 ![glenridge-bathrooms](/img/glenridge-bathrooms.jpg)
@@ -106,7 +113,7 @@ https://www.mohawkflooring.com/shop/Carpet/detail/3J52/Casual_Elegance/759/Bare_
 
 ![glenridge-bathrooms](/img/glenridge-bath-cabinets.jpg)
 
-## Dressing Room
+## Dressing
 
 Leaning more into the custom walk in cabinetry instead of framing in additional closets but would like the majority of them them to have doors - e.g.
 
