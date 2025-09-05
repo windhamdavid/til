@@ -153,6 +153,7 @@ Met with an assortment of contractors and got third party reviews from others be
     - ✅ (sub) Framer - Robbie Sudduth - 864-344-4299 - https://www.facebook.com/SudduthsConstructionAndRemodel/
   - ✅ (sub) Interior Framer - Ed Wachs - Abbeville
   - ✅ (sub) Top Coat Painters - John Coates - 864-910-0293 - https://www.linkedin.com/in/john-coates-b4438343
+    - Cody, Dylan
   - ✅ (sub) All Things Electric - Brian Shirley - 864-554-5949 - 116 Townsend Rd W, Hodges, SC, 29653 - gas generator
   - ✅ (sub) Sneads Building Supply - Andrew Snead - Carpet, tile, flooring, doors
     - Salvadore - tile 
@@ -160,6 +161,7 @@ Met with an assortment of contractors and got third party reviews from others be
   - ✅ (sub) Drywall - Kenny Cole ( finishing ) 
     - ✅ Wall to Wall Drywall - David Strickland ( hanging )
   - ✅ (sub) Mountz Glass Company - https://mountzglass.com - 864-229-1545
+  - ✅ (sub) Accent Granite - https://accentgraniteinteriors.com - Dwayne Brown - 706-319-1884
   
 --- 
 
