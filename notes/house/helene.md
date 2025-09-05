@@ -26,6 +26,7 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
   - exterior Paint - touch up other tree damaged spots on chase siding
   - exterior paint - after gutter replacement
   - remove old truss
+  - install exterior light
 - Interior
   - HVAC - ducts / vents - should match others
   - Bathroom countertop & sinks
