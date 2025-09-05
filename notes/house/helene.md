@@ -25,9 +25,11 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
   - chimney chaise windshield & caps
   - exterior Paint - touch up other tree damaged spots on chase siding
   - exterior paint - after gutter replacement
+  - remove old truss
 - Interior
   - HVAC - ducts / vents - should match others
   - Bathroom countertop & sinks
+  - Kneewall countertops
   - Shower Glass & hardware
   - Plumbing - bath, toilet, sinks
   - Bathroom Hardware - handrails, hooks
