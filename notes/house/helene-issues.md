@@ -16,6 +16,8 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - Communication lackluster
   - quotes and invoicing incomplete
   - requested payment before work was completed
+  - Inconsistent notice of subcontractors arriving onsite
+    - sometimes no notice and sometimes just 15 minute notice
 - Timeliness 
   - slow pace - some contractors will work for just a couple of hours a day for a week.
 - Broken Sewer Line
@@ -26,18 +28,23 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - contractor puked in the yard because he came hungover
   - left food trash in buckets upstairs that caused a bug infestation
 - had to drive over to GA to confirm quartz because couldn't get what was promised
-- 
+- didn't communicate the schluter was horizontal and not vertical
+- didn't fix cut drywall in downstairs bathroom for quite some time
+  - left it open and we taped the piece back into it
+
 
 **Craftsmanship**
 
+- messed up the hot water install so we didn't have cold water for a day
+- poured water under the house instead of piping it out
 - left a pile of debris in the yard for three months
-- left the old sliding door in the yard for two months
+- left the old sliding door in the yard for a month
 - we personally hauled off several loads of trash
 - drywall not consistent or square in spots
   - dropping drywall at hvac intake
   - not square where the corners meet
   - didn't use the waterproof type throughout the bathroom
-  - make patches where it should have been an entire board replaced
+  - made patches where it should have been an entire board replaced
 - ripped out a closet that didn't need to be removed
 - threw away good materials and unnecessary demo
   - duct vents, bi-fold doors
@@ -50,9 +57,11 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - trash in yard
 - broken hardware on bifold doors
 - paint on tile floor
+- had to repaint and drywall because of poor work
+- didn't install backing support for grab bar
 
 **Costs**
 
 - Requested payment before work was completed
   - saying that y'all 'had a lot of money' out there
-- promissed to charge costs on materials
+- promised to charge costs on materials
