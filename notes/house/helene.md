@@ -21,7 +21,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 - chimney chaise windshield & caps
 - exterior Paint - touch up other tree damaged spots on chase siding
 - exterior paint - touch up after gutter replacement
-- issues @ [/notes/house/helene/issues](/notes/house/helene-issues.md)
+
 
 ## Log
 
