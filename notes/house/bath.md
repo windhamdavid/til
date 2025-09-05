@@ -6,26 +6,8 @@
 
 ## Log
 
-- **25/09/02-04** - Painters ( interior )
-- **25/09/03** - plumbing ( downstairs )
-- **25/08/27-28** - Carpenter Dressing Room
-- **25/08/26** - Plumbing Hardware
-- **25/08/25** - Electrician
-- **25/08/15,18** - Plumbing/CPW - Tankless
-- **25/08/04-8** - Painters
-- **25/07/28-29** - Doors/Trim
-- **25/07/21-23** - Tile guys
-- **25/07/17** - Sliding Glass Door Installation
-- **25/07/15** - Insulation
-- **25/07/02** - Drywall
-- **25/06/30-7/1** - Electrical
-- **25/06/17-20** -  Plumbing
-- **25/07/10** - Electrician - adjust hall outlet
-- **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
-- **25/07/02** - Drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
-- **25/06/26** - Electrician/GC on site
-- **25/06/24** - Framer finishing out layout ( 1 day )
-- **25/06/17** - Plumbers on site reworking layout ( 3 days )
+main construction log is @ [/notes/house/helene](/notes/house/helene)
+
 - **25/06/11** - Demolition ( [photos](https://davidawindham.com/wha/glenridge/#bath) )
 - **25/06/03** - Quarle's / Snead's supply shopping - tile, carpet, and hardware
 - **25/06/02** - Demolition begun
@@ -35,8 +17,6 @@
 - **24/11/01** - started an [idea book of photos](https://www.houzz.com/ideabooks/178757457/list/bathroom) for finishing and other details.
 - **24/10/28** - timeline on this got bumped due to [helene repairs](/notes/house/helene). Contractor has given us a start date estimate of March 2025.
 
-
-## ToDo
 
 <div><br/><br/></div>
 ---
