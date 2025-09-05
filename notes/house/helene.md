@@ -11,45 +11,78 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 **24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage and construction photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene) 
 
+*This project spurred on two additional projects because we decided to renovate the bathroom in the process and we had to move my office for the work. We're using the same general contractor and I'm documenting them separately @ [/notes/house/bath](Bath) & [/notes/house/studio](/notes/house/studio)
 
+
+## ToDo
+
+- upper deck & railings
+- gutters replaced
+- chimney chaise windshield & caps
+- exterior Paint - touch up other tree damaged spots on chase siding
+- exterior paint - touch up after gutter replacement
+- issues @ [notes/house/helene/issues](notes/house/helene-issues.md)
 
 ## Log
 
-- main log @ [/notes/house/](/notes/house)
-- 3/25-26 - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳
-  - grind two stumps and keep woodchips as mulch
-- 3/25 - WCTel on site to reroute fiber optic line
-- 3/19 - Mountz glass to measure rear, office, and sun room windows
-- 3/18 - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
-- 3/10-19 - Framing crew - trusses installed / siding repaired
-- 3/10 - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
-- 3/05 - Ferqueron Dead Pine removed ( will come back for additional pines and oak near house )
-- 3/04 - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
-- 2/29 - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
-- 2/28 - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
-- 2/24 - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
-- 2/12 - Cabinet guy ( Kenny Talley ) over for measurements
-- 2/11 - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
-- 2/06 - trusses delivered
-- 01/20 - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
-- 12/06 - truss manufacturer backlogged 
-  - was told "12 weeks out"
-- 11/13 - Beth over for design measurements
-- 11/11 - subs over for measurements / estimates
-- 11/06 - 🔨 demo for truss measurements
-- 11/05 - State Farm claim estimate completed
-- 11/02 - Clear out master bed/bath & move downstairs 
-- 10/31 - Truss Engineers on site
-- 10/28 - General contractor on site
-- 10/28 - Insurance adjuster on site
-- 10/05 - Roof covered 🏚️
-- 10/04 - Trees 🌳 removed from roof/yard
-- 10/03 - 🔋 Power Restored 8pm ( 7 days )
-- 10/02 - Inspector safety/damage report 📄
-- 09/29 - Roads cleared 
-- 09/28 - Debris cleared front/drive
-- 09/27 - Trees fell @ 6am
-- 09/27 - 🪫 Power Out 5:30am 
+- **25/09/05** - Painters ( exterior )
+- **25/09/02-04** - Painters ( interior )
+- **25/09/03** - Plumbing ( downstairs fix )
+- **25/08/27-28** - Carpenter Dressing Room
+- **25/08/26** - Plumbing Tankless & Fix hot water issue
+- **25/08/25** - Electrician Crawlspace Tankless
+- **25/08/15,18** - Plumbing/CPW - Tankless
+- **25/08/04-8** - Painters
+- **25/07/28-29** - Doors/Trim
+- **25/07/21-23** - Tile Bathroom
+- **24/07/17** - Sliding Door Installation & drywall finishing
+- **24/07/14-15** - [Master](/notes/house/bath) drywall & insulation
+- **24/07/10-11** - [Exterior](/notes/house/helene) exterior paint
+- **25/07/10** - Electrician - adjust hall outlet
+- **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
+- **24/07/02** - [Master](/notes/house/bath) drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
+- **25/06/30-7/1** - [Master](/notes/house/bath) electrical
+- **25/06/26** - Electrician/GC on site
+- **25/06/17-20** - [Master](/notes/house/bath) plumbing
+- **25/06/03** - Quarle's / Snead's supply shopping - tile, carpet, and hardware
+- **25/06/02** - [Master](/notes/house/bath) Demo ( 4.5 days 2,3,4,10,11 )
+- **25/04/16** - Gas lines installed
+- **25/04/10** - Roof replaced - 7am -> 6pm - finished 
+- **25/04/02** - windows replaced (+ sunroom/office)
+- **25/03/26** - CPW marked utility lines for gas 
+- **25/03/03-6** - [Studio](/notes/house/studio.md) cabinets installed
+- **25/03/5-6** - Ferqueron & Sons - remove two side pines and rear leaning oak 🌳 grind two stumps and keep woodchips as mulch
+- **25/03/25** - WCTel on site to reroute fiber optic line
+- **25/03/19** - Mountz glass to measure rear, office, and sun room windows
+- **25/03/18** - GC meeting ( painter, carpet, doors, plumbing, tankless, gas line )
+- **25/03/10-19** - Framing crew - trusses installed / siding repaired
+- **25/03/10** - State Farm [Revised Claim Estimate](/notes/house/helene-ins-adjust.md) uploaded to claim portal
+- **25/03/05** - Ferqueron Dead Pine removed ( will come back for additional pines and oak near house )
+- **25/03/04** - State Farm sent [second inspector](/notes/house/helene-ins-adjust.md) to meet with general contractor
+- **25/02/29** - Lee [Ferqueron](http://www.ferqueronsons.com) to take out a pine and consult on other trees within house striking distance. 
+- **25/02/28** - got bathroom remodel specs @ [/notes/house/bath](/notes/house/bath)
+- **25/02/28** - contractor has us on the schedule starting in a couple weeks. Got at final mockup of the remodel. 
+- **25/02/24** - general contractor 🔨 finally has us "on their schedule in a couple of weeks. Maybe the week of the 10th or the 17th" ( March ) - Downstairs cabinets will begin next week. 
+- **25/02/12** - Cabinet guy ( Kenny Talley ) over for measurements
+- **25/02/11** - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
+- **25/02/06** - trusses delivered
+- **25/01/20** - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+- **24/12/06** - truss manufacturer backlogged - was told "12 weeks out"
+- **24/11/13** - Beth over for design measurements
+- **24/11/11** - subs over for measurements / estimates
+- **24/11/06** - 🔨 demo for truss measurements
+- **24/11/05** - State Farm claim estimate completed
+- **24/11/02** - Clear out master bed/bath & move downstairs 
+- **24/10/31** - Truss Engineers on site
+- **24/10/28** - General contractor and Insurance Adjuster meeting on site
+- **24/10/05** - Roof covered 🏚️
+- **24/10/04** - Trees 🌳 removed from roof/yard
+- **24/10/03** - 🔋 Power Restored 8pm ( 7 days )
+- **24/10/02** - Inspector safety/damage report 📄
+- **24/09/29** - Roads cleared 
+- **24/09/28** - Debris cleared front/drive
+- **24/09/27** - Trees fell @ 6am
+- **24/09/27** - 🪫 Power Out 5:30am 
 
 ## Damages
 
@@ -160,15 +193,6 @@ Met with an assortment of contractors and got third party reviews from others be
 - Carpet - StainMaster Signature Unmatched Super Fine open loop 
   - StainMaster padding/underlay
 
-### Punch Lists
-
-#### Exterior
-
-- Gutters - replace
-- Chimney Chase Windshield / Caps
-- Exterior Paint ( touch up spots on chase / ladders )
-
-#### Interior
 
 ## Landscape
 
