@@ -15,15 +15,33 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 *This project spurred on two additional projects because we decided to renovate the bathroom in the process and we had to move my office for the work. We're using the same general contractor and I'm documenting them separately @ [/notes/house/bath](/notes/house/bath) & [/notes/house/studio](/notes/house/studio)
 
+---
 
 ## ToDo
 
-- upper deck & railings
-- gutters replaced
-- chimney chaise windshield & caps
-- exterior Paint - touch up other tree damaged spots on chase siding
-- exterior paint - touch up after gutter replacement
+- Exterior
+  - upper deck & railings
+  - gutters replaced
+  - chimney chaise windshield & caps
+  - exterior Paint - touch up other tree damaged spots on chase siding
+  - exterior paint - after gutter replacement
+- Interior
+  - HVAC - ducts / vents - should match others
+  - Bathroom countertop & sinks
+  - Shower Glass & hardware
+  - Plumbing - bath, toilet, sinks
+  - Bathroom Hardware - handrails, hooks
+  - Dressing room drawers & bench top
+  - Electrical - lighting, switches, fans
+    - add closet lighting that was removed
+  - Flooring - carpet/padding master, dressing, office, & stairs
+- Insurance 
+  - reinspected
+  - reimbursed
 
+<div><br/></div>
+
+---
 
 ## Log
 
@@ -85,6 +103,10 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 - **24/09/28** - Debris cleared front/drive
 - **24/09/27** - Trees fell @ 6am
 - **24/09/27** - 🪫 Power Out 5:30am 
+
+<div><br/></div>
+
+---
 
 ## Damages
 

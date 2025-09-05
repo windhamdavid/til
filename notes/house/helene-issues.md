@@ -40,6 +40,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - make patches where it should have been an entire board replaced
 - ripped out a closet that didn't need to be removed
 - threw away good materials and unnecessary demo
+  - duct vents, bi-fold doors
 - broke glass into the yard by tossing shower doors over the ledge
 - didn't plug the two HVAC vents that were ducted into the closed ceiling
 - didn't patch the ceiling until months after the trusses installed
