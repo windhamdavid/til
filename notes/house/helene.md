@@ -11,7 +11,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 **24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene) and published additional damage and construction photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene) 
 
-*This project spurred on two additional projects because we decided to renovate the bathroom in the process and we had to move my office for the work. We're using the same general contractor and I'm documenting them separately @ [/notes/house/bath](Bath) & [/notes/house/studio](/notes/house/studio)
+*This project spurred on two additional projects because we decided to renovate the bathroom in the process and we had to move my office for the work. We're using the same general contractor and I'm documenting them separately @ [/notes/house/bath](/notes/house/bath) & [/notes/house/studio](/notes/house/studio)
 
 
 ## ToDo
