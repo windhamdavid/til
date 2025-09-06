@@ -35,7 +35,8 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 
 **Craftsmanship**
 
-- messed up the hot water install so we didn't have cold water for a day
+- leaking seal on pipe that ran into the wall and stained the ceiling on the floor below in both the den and downstairs bathroom
+- hot water install mixed with cold water so we didn't have cold water for a couple days
 - poured water under the house instead of piping it out
 - left a pile of debris in the yard for three months
 - left the old sliding door in the yard for a month
@@ -59,6 +60,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - paint on tile floor
 - had to repaint and drywall because of poor work
 - didn't install backing support for grab bar
+- spilled a heavy amount of paint thinner into the subfloor which then permeated the house for a week causing headaches and eye irritation. So potent that any heating element like our oven on the first floor gave off a lighter fluid smell for a week.
 
 **Costs**
 
