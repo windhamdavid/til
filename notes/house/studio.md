@@ -87,6 +87,7 @@ exact dimensions 👇🏼 for tv mount( Kanto PDX700 ) 🔴 for electrical - [Br
 - Monitors
   - 🖥️  ViewSonic VX3267U-4K / Lenovo C32q-20
   - Sony 85” Class X85K 4K HDR LED
+    - Kanto PDX700 full-motion mount
 - Imaging
   - 📷 Sony A7 / Fujufilm X-T5
   - DJI Air / stabilizer
