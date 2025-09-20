@@ -48,6 +48,8 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 ## Log
 
+- **25/09/18** - countertop install / glass measure / GC by
+- **25/09/17** - gutter guy by to measure again
 - **25/09/08** - Carpenter Dressing Room Drawers
 - **25/09/05** - [Bath](/notes/house/bath) Countertop ( [Accent Granite](https://accentgraniteinteriors.com) ) onsite measure
 - **25/09/05** - Painters ( exterior - second finish )
