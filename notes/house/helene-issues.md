@@ -31,6 +31,8 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - didn't communicate the schluter was horizontal and not vertical
 - didn't fix cut drywall in downstairs bathroom for quite some time
   - left it open and we taped the piece back into it
+- had contractors on site past normal working hours
+  - once until almost dark (7:30pm 9/22 subfloor) sawing
 
 
 **Craftsmanship**

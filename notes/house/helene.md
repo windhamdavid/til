@@ -48,6 +48,9 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 ## Log
 
+- **25/09/24** - new gutters
+- **25/09/23** - new subfloor / gutter removal
+- **25/09/22** - subfloor demo
 - **25/09/18** - countertop install / glass measure / GC by
 - **25/09/17** - gutter guy by to measure again
 - **25/09/08** - Carpenter Dressing Room Drawers
