@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **25/09/25** - wrapping [master 🛁](/notes/house/bath) & fall trip 🍁 to Shanandoah.
 - **25/07/01** - summer 🥵 - halfway through the [master 🛁/🛏️ reno](https://davidawindham.com/wha/glenridge/#bath) .
 - **25/04/17** - last week of 🎾, [studio](https://davidawindham.com/den-studio/) + [stu](/docs/computers/stu) 🖥️ done, & new [roof](https://daw.stu/wha/glenridge/#helene-repairs)🏡 .
 - **25/02/28** - 70° & Jonquils are blooming 🌷 - [roof](/notes/house/helene), [studio](/notes/house/studio) & [bath](/notes/house/bath) projects.
