@@ -48,6 +48,7 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 ## Log
 
+- **25/09/28** - electrical
 - **25/09/25** - new carpet
 - **25/09/24** - new gutters
 - **25/09/23** - new subfloor / gutter removal
