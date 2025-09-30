@@ -70,6 +70,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - downstairs ceiling repair from two separate leaks and jackhammer cracking
 - downstairs bathroom paint
 - stairwell trim paint baseboards
+- carpet to tile transition
 
 **Minor**
 - window treatments 
@@ -82,7 +83,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 
 - Timeliness 
   - slow pace - some contractors will work for just a couple of hours a day for a week.
-  - took **over a year** to complete the project
+  - took **over a year** to complete the project or **9 months** if you account for the truss manufacturing delay
 - very little inspection of work 
 - General contractor has only been by the site once to check up on work
   - after the trusses were installed
