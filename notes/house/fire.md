@@ -6,13 +6,26 @@ We had a gas fireplace in our last house. It wasn't any more efficient or charmi
 
 estimate guess is at least **$8000** - even if it saves a couple hundred a month for the four cold months, it'd take ten years for them to pay off. 
 
-- ✅ Gas line hook-in ( for tankless in [bath remodel](bath.md) )
-- Natural Gas Fireplaces - [dominion efficency report](https://cdn-dominionenergy-prd-001.azureedge.net/-/media/pdfs/south-carolina/save-energy/thermwise/desc-thermwise-fireplace-qualified-models.pdf)
-  - bi-directional ( coaxial ) direct vent with blower & temp controls
-  - inserts to use existing chimneys
-  - Valor G3 / Mendota FV32
-  - sizes - den 30x24", living 36x24"
-
 ![fireplace](/img/glen-buck-den.jpg)
 ![fireplace](/img/glen-buck-living.jpg)
+
+## Product
+
+- ✅ Gas line hook-in ( for tankless in [bath remodel](bath.md) )
+- Natural Gas Fireplaces - [dominion efficiency report](https://cdn-dominionenergy-prd-001.azureedge.net/-/media/pdfs/south-carolina/save-energy/thermwise/desc-thermwise-fireplace-qualified-models.pdf)
+  - bi-directional ( coaxial ) direct vent with blower & temp controls
+  - inserts to use existing chimneys
+  - **Valor G3** / Mendota FV32
+  - sizes - den 30x24", living 36x24"
+- Valor G3 - https://www.valorfireplaces.com/
+  - G3.5 - https://www.valorfireplaces.com/gas-fireplace-inserts/g35.php
+  - G3 - https://www.valorfireplaces.com/gas-fireplace-inserts/g3.php
+
+
+## Vendors
+
+- Buck Pool and Spa - https://buckstovepoolandspa.com
+- Kirk Pool and Hearth - https://kirkspool.com
+- Bluesky Chimney Services - https://blessyourhearth.com
+- Top Hat Chimney Services - https://tophatgreenville.com
 
