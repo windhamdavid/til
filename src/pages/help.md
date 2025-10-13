@@ -61,6 +61,7 @@ npm run serve
 
 ---
 
+- **25/10/13** - 3.8.1 -> 3.9.1
 - **25/04/47** - added abcjs ^6.4.4 & react-piano ^3.1.3 for [/Notes/Music/Notation](/notes/music/abcjs)
 - **25/01/23** - 3.6.3 -> 3.7.0
 - **24/24/02** - 3.6.1 -> 3.6.3

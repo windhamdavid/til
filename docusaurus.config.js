@@ -7,13 +7,15 @@ export default {
   tagline: 'Because Today I Learned',
   url: 'https://davidawindham.com',
   baseUrl: '/til/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'windhamdavid',
   projectName: 'til',
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownImages: 'throw',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
