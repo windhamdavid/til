@@ -12,18 +12,17 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 
 **Exterior**
 - rear upper deck & railings
-  - deck light
+  - ~~deck light~~
 - chimney seal, cap, & wrap
 - caps on doubled 2x12s
   - was told they would be caulked to look like 4x12s
 - insulation and pipes in crawlspace
 - gap sealant on gas exhaust
-  - end screens on gas exhaust
 - proper drainage valves on hot water heater
 - gutters left metal intact from previous gutters
   - leaving visible gaps under the shingles that are large enough that small critters could enter the attic. 
-  - missing downspouts on gutters
-  - hole in gutter to right of entrance
+  - ~~missing downspouts on gutters~~
+  - ~~hole in gutter to right of entrance~~
   - water dripping along wood under upper gutter.
   - leaking downspout connector entrance
 - painting in spots
@@ -35,12 +34,14 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - or 2 since you're leaving two extra trim
 
 **Interior**
-- electrical
-  - missing closet lights
-  - dimming led cans
+
 - bathroom hardware
+  - shower handrails
 - hvac ductwork 
 - broken shower wand tube
+- bad water pressure
+  - remove water restrictors?
+  - check sewer leak?
 - bathtub not properly installed
   - slides around
   - no backsplash or water proofing on the wall of bathtub
@@ -63,6 +64,11 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - drawers/hardware
   - stained seat top
   - lighting
+- electrical
+  - dimming led cans
+  - dressing room light/switch
+  - bathroom upside down
+  - stairway light switch
 - lots of bad drywall work
   - crooked wall in bedroom corner
   - tape marks in ceiling
@@ -145,6 +151,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - trash/food in yard, nails/metal in bushes
 - paint on window hardware
 - paint on tile floor
+- paint spills on front porch
 - had to repaint and drywall because of poor work
 - didn't install backing support for grab bar
 - spilled a heavy amount of paint thinner into the subfloor which then permeated the house for a week causing headaches and eye irritation. So potent that any heating element like our oven on the first floor gave off a lighter fluid smell for a week.

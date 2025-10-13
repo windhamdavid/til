@@ -48,8 +48,13 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 ## Log
 
+- **25/10/13** - Glass/mirror
+- **25/10/13** - Caulk/Paint touchup
+- **25/10/09-10** - Trimwork
+- **25/10/09** - HVAC ductwork & vents
+- **25/10/1-6** - OOT
 - **25/09/28-29** - electricians
-- **25/09/25** - new carpet
+- **25/09/25-26** - new carpet
 - **25/09/24** - new gutters
 - **25/09/23** - new subfloor / gutter removal
 - **25/09/22** - subfloor demo
