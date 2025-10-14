@@ -44,12 +44,16 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - check sewer leak?
 - bathtub not properly installed
   - slides around
+    - no blocking as specified in manual
+  - no additional 2x12s as specified in manual
   - no backsplash or water proofing on the wall of bathtub
   - white caulk on bathtub filler
 - sliding door not caulked
   - sliding poor trim paint/stain
 - ceiling fan
 - paint on tile floor
+- no backing support for grab bars behind tile
+  - broken grab bar install
 - damaged bi-fold doors
   - broken hardware on bifold doors
   - split wood on the base of doors
@@ -60,6 +64,8 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
   - need latch on attic door
 - missing baseboards and crown molding
 - carpet doesn't meet baseboards
+  - carpet transition to tile
+  - feel tacks on bare feet
 - dressing room 
   - drawers/hardware
   - stained seat top
