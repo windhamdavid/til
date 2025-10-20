@@ -170,3 +170,5 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - quotes and invoicing incomplete
   - requested payment before work was completed
   - no discussion of invoicing changes
+
+
