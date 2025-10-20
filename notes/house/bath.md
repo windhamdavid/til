@@ -1,13 +1,16 @@
 # Master Bath
 
+**25/10/20** - Master Bath project is wrapped after getting the grab bars set today. 
+
+![glenridge-bathrooms](/img/glenridge-bath.jpg)
+
 **24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den studio](/notes/house/studio). 
 
 📷 **photos** @ https://davidawindham.com/wha/glenridge/#bath
 
 ## Log
 
-main construction log is @ [/notes/house/helene](/notes/house/helene)
-
+- **main** construction log is @ [/notes/house/helene](/notes/house/helene)
 - **25/06/11** - Demolition ( [photos](https://davidawindham.com/wha/glenridge/#bath) )
 - **25/06/03** - Quarle's / Snead's supply shopping - tile, carpet, and hardware
 - **25/06/02** - Demolition begun
@@ -35,6 +38,11 @@ We want to stay 'true' to the original house. The style is a contemporary crafts
 
 
 ## Materials
+
+### Colors
+
+- Mapei Colors - 5001 Alabaster ( bath ) / Pewter - 02 ( floor )
+- Schluter color - TSBG Greige 
 
 **Water Heater** - Navien NPE-210A2 180,000 BTU Condensing Premium Gas Tankless Water Heater - 
 https://www.navieninc.com/products/npe-210a2 
