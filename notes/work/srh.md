@@ -1,0 +1,72 @@
+# SRH
+
+( **25/10/23** ) I first started working for SRH in early 2015 making edits and code changes at the request of another web developer. In early 2016 I was asked to build a physicians directory to replace the existing system. It was published in May of that year, but the first invoice directly to SRH was in 2017. Since then, my schedule has been flexible enough that I've just been helping out however I'm able. Here are a list of related tasks and responsibilities I'm working on:
+
+- maintain and monitor host infrastructure
+  - daily email notices on security, upgrades, and system changes
+  - meetings & communications with hosts and internal IT dept staff
+  - server upgrades / migrations / configuration
+    - associated DNS / configuration changes
+  - backup configuration / restore
+    - localhost development for build and testing
+    - system spec sync to localhost
+  - server upgrades & security patches
+  - database server upgrades
+  - programming language upgrades
+  - operating system upgrades
+  - emergency off-hours 
+    - security and migrations
+    - deter or stop abusive IPs and hacking attempts
+    - recover from errors
+- build 
+  - custom applications & features
+    - banner alert functionality
+    - analytics integration
+    - provider finder w/ Press Ganey review integration
+  - design, build, and publish new websites
+      - current site rebuild
+        - migrating legacy code into new editor
+        - organizing old content/media
+      - urgent care project
+        - two week timeline with Epic widget integration
+  - host proxy for providers
+    - helped the Epic team debug and create a way to proxy using Nginx
+      - multiple meetings with internal staff and Epic team
+    - created exports and spreadsheets of all existing provider data
+  - custom web forms with email functionality
+- maintain 
+  - websites and application code
+    - daily email notices on usage, security, and upgrades
+    - 3 internal applications - marketing, development, and analytics
+    - 7 websites ( Main, Residency, Foundation, Providers, Rehab, Health Partners, Plastic, Dev )
+    - test and run website upgrades
+      - WordPress plugins / themes / core
+        - usually on a bi-monthly schedule unless it's a security vulnerability
+    - database maintenance/repair as needed
+    - log code changes in git repository
+    - monitor 
+      - search console alerts for website errors and performance
+      - API usage reporting
+      - analytics reporting
+      - downtime & error log alerts
+      - web forms
+  - website content
+    - communicate with staff about changes 
+      - usually multiple times per day
+      - reports and graphics for presentations
+    - mockup sites, features, pages & layouts
+    - manage users & permissions
+      - password / security / errors
+    - manage media library files
+      - optimize file sizes
+    - create/edit images, media, copy, & graphics
+    - manage file asset repository
+      - providers images / video
+      - marketing dept assets
+    - media editing 
+      - photo, video, graphics, pdf 
+- debug third party code/web related items
+  - social posts / redirects / QR codes
+  - google maps, business listings, account, youtube, devices, etc.
+- consult & advise on other web and software related projects
+
