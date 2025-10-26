@@ -48,7 +48,6 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 
 ## Log
 
-
 - **25/10/20** - Ed - grab bars
 - **25/10/17** - Ken - grab bars
 - **25/10/15** - chimney/chaise caps measure
