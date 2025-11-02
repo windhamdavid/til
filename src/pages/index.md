@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2025**
+  - 25/11/02 - [Food Economics](/posts/food-economics)
   - 25/10/26 - [Dead Air](/posts/dead-air)
   - 25/09/19 - [Easy Start](/posts/easy-start)
   - 25/09/12 - [Typepad](/posts/typepad)
