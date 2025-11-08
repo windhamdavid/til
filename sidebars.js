@@ -8,6 +8,7 @@ module.exports = {
       type: 'category',
       label: 'Computers',
       items: [
+        'computers/kos',
         'computers/lisa',
         'computers/macs',
         'computers/magic',
