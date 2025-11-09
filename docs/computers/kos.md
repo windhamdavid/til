@@ -29,11 +29,11 @@ Welcome to Ubuntu 24.04.3 LTS (GNU/Linux 6.14.0-1014-azure x86_64)
  System information as of Sat Nov  8 11:05:00 EST 2025
   System load:  0.6                 Processes:             225
   Usage of /:   41.4% of 246.94GB   Users logged in:       0
-  Memory usage: 4%                  IPv4 address for eth0: 172.17.0.4
+  Memory usage: 4%                  IPv4 address for eth0: ███.███.███.███
   Swap usage:   0%
 Expanded Security Maintenance for Applications is enabled.
 0 updates can be applied immediately.
-Last login: Sat Nov  8 10:56:18 2025 from 64.53.100.22
+Last login: Sat Nov  8 10:56:18 2025 from ███.███.███.███
 █████████@██████████████🏛️:~ » lscpu
 Architecture:                x86_64
   CPU op-mode(s):            32-bit, 64-bit
