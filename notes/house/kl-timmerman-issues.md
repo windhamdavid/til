@@ -1,94 +1,102 @@
 ---
-title: Issues
+title: Renovation Issues
 image: https://davidawindham.com/wha/helene-1.jpg
+hide_table_of_contents: true
 draft: true
 ---
 
-# Issues
+:::warning[Private Page]
 
-We've had some hiccups along the way, so I just wanted to start list of issues we've had with the general contractor and sub contractors so they're not forgotten when we need to reference them.
+:::
+
+These are our notes related to the hurrican helene [repairs](/notes/house/helene) and post helene renovations on the [studio](/notes/house/studio), master, and [bath](/notes/house/bath). I'm using this page to share some questions and comments with the contractor and the boss. We've also started a document for the contractor [costs](/notes/house/kl-timmerman-costs).
+
+
+## KL Timmerman Enterprises, LLC 
+
+## Quality Control Issues
+
+We've had some hiccups along the way, so I just wanted to start list of issues we've had with the general contractor and sub contractors so they're not forgotten if we need to reference them.
 
 ## Punch List
 
 **Exterior**
 - rear upper deck & railings
   - ~~deck light~~
-- chimney seal, cap, & wrap
+- ~~chimney seal, cap, & wrap~~
 - caps on doubled 2x12s
   - was told they would be caulked to look like 4x12s
 - insulation and pipes in crawlspace
 - gap sealant on gas exhaust
-- proper drainage valves on hot water heater
+- proper drainage valves on hot water heater?
 - gutters left metal intact from previous gutters
   - leaving visible gaps under the shingles that are large enough that small critters could enter the attic. 
   - ~~missing downspouts on gutters~~
   - ~~hole in gutter to right of entrance~~
   - water dripping along wood under upper gutter.
-  - leaking downspout connector entrance
+  - ~~leaking downspout connector entrance~~
 - painting in spots
+  - siding
+  - paint spills on porch, side of house, and upper deck
 - front doors - were measured but not follow up
-- haul off
-  - truss & doors
-  - ladder from painters
-- replace 3 gallons of exterior paint
-  - or 2 since you're leaving two extra trim
+- ~~haul off~~
+  - ~~truss & doors~~
+  - ~~ladder from painters~~
+- replace 3 gallons of exterior paint 👈🏻
 
 **Interior**
 
 - bathroom hardware
-  - shower handrails
-- hvac ductwork 
-- broken shower wand tube
-- bad water pressure
-  - remove water restrictors?
+  - ~~shower handrails~~
+- ~~hvac ductwork~~ 
+- ~~broken shower wand tube~~
+- ~~bad water pressure~~
+  - ~~remove water restrictors?~~
   - check sewer leak?
-- bathtub not properly installed
+  - had failed to clean out heads on faucets.
+- bathtub not properly installed 👈🏻
   - slides around
     - no blocking as specified in manual
   - no additional 2x12s as specified in manual
-  - no backsplash or water proofing on the wall of bathtub
+  - no backsplash or water proofing on the wall of bathtub 👈🏻
   - white caulk on bathtub filler
 - sliding door not caulked
   - sliding poor trim paint/stain
-- ceiling fan
+- ~~ceiling fan~~
 - paint on tile floor
-- no backing support for grab bars behind tile
-  - broken grab bar install
+- ~~no backing support for grab bars behind tile~~
+  - ~~broken grab bar install~~
 - damaged bi-fold doors
   - broken hardware on bifold doors
-  - split wood on the base of doors
+  - split wood on the base of closet doors
 - door hardware for bedroom
 - cracked floor trim from carpet puller
-- closet shelves needs to be split for attic
-  - need to replace closet shelves
-  - need latch on attic door
-- missing baseboards and crown molding
-- carpet doesn't meet baseboards
-  - carpet transition to tile
-  - feel tacks on bare feet
+- ~~closet shelves needs to be split for attic~~
+  - didn't closet shelves
+- ~~carpet doesn't meet baseboards~~
+  - carpet transition to tile 👈🏻
+  - ~~feel tacks on bare feet~~
 - dressing room 
   - drawers/hardware
   - stained seat top
-  - lighting
-- electrical
-  - dimming led cans
-  - dressing room light/switch
-  - bathroom upside down
-  - stairway light switch
-- lots of bad drywall work
+  - lighting? extra switch? 👈🏻
+  - ~~bathroom switches upside down~~
+  - ~~stairway light switch~~
+- lots of questionable drywall/paint work 👈🏻
   - crooked wall in bedroom corner
   - tape marks in ceiling
   - wavy at bed entrance - too many repair pieces
-- downstairs ceiling repair from two separate leaks and jackhammer cracking
-- downstairs bathroom paint
+  - splotchy above bed
+  - spots on bathroom ceiling
+- downstairs ceiling repair from two separate leaks and jackhammer cracking 👈🏻
+- downstairs bathroom paint 👈🏻
 - stairwell trim paint baseboards
-- carpet to tile transition
+
 
 **Minor**
 - window treatments 
   - tub / vertical blinds
   - remove curtain rod
-- tv mount
 
 
 ## Management
@@ -96,11 +104,11 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - Timeliness 
   - slow pace - some contractors will work for just a couple of hours a day for a week.
   - took **over a year** to complete the project or **9 months** if you account for the truss manufacturing delay
-- very little inspection of work 
-- General contractor has only been by the site once to check up on work
-  - after the trusses were installed
+- very little inspection of work - **NO** final inspection
+- General contractor has only been by the site twice to check up on work
+  - after the trusses were installed and after the the paint
 - Assistant to GC not on site often
-  - once was after a leak
+  - once on an emergency call after a leak
 - Not much supervision of subs
 - Communication lackluster
   - Inconsistent notice of subcontractors arriving onsite
@@ -117,6 +125,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - had to drive over to GA to confirm quartz because couldn't get what was promised
 - didn't fix cut drywall in downstairs bathroom for three months
   - left it open and we taped the piece back into it
+  - still not painted
 - contractors on site past normal working hours
 - contractor fishing in pond putting fish in bucket
 
@@ -125,7 +134,7 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - studio left without hardware for three months
 - leaking seal on pipe that ran into the wall and stained the ceiling on the floor below in both the den and downstairs bathroom
 - hot water install mixed with cold water
-  - we didn't have cold water for a couple days
+  - we didn't have cold water for a couple of days
 - covered existing electrical outlets
 - didn't seal off area of drywall sanding
   - no ventilation or air treatment
@@ -167,8 +176,8 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 
 ## Billing
 
-- quotes and invoicing incomplete
-  - requested payment before work was completed
-  - no discussion of invoicing changes
-
-
+- quotes and invoicing inconsistent. 
+- Showed up on site requesting payment before work was completed or inspected
+- No discussion of invoicing changes
+- Invoicing duplicate errors
+- aggressive labor charges
