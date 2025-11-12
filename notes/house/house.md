@@ -12,8 +12,9 @@
 
 ## Log
 
-- 25/??/?? - [Master Bath](/notes/house/bath) Complete
-- 25/??/?? - [Helene Repairs](/notes/house/helene) Complete
+- 25/11/11 - New Garage Door
+- 25/10/21 - [Master Bath](/notes/house/bath) Complete
+- 25/10/21 - [Helene Repairs](/notes/house/helene) Complete
 - 25/04/10 - [New Roof and trusses](/notes/house/helene)
 - 25/03/05 - second [insurance adjuster](/notes/house/helene-ins-adjust.md) met with general contractor
 - 24/12/10 - added Helene [Insurance Claim](/notes/house/helene-ins-adjust.md)
@@ -101,12 +102,6 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
   - Anderson Double Oak 3/4 glass - $9,000
   - Masonite Texture Fiberglass 3/4 glass - $2,500
     - Oak Skin Pecan finish on the textured Masonite Line 400.
-
-### Garage Doors
-
-- replace garage doors
-  - Clopay Fiberglass - Canyon Ridge Carriage House 4-Layer Cypress Medium Finish
-- replace sliding doors (2)upstairs/den
   - New Sliding Doors for Master / Rec Room
 
 
@@ -165,3 +160,4 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 |New Roof|Paint Dining/Kitchen|
 |Radiant panels under roofline|Add Fiber Optic to home|
 |Re-insulate crawl space|New Patio set for decks|
+||replace garage door|
