@@ -9,14 +9,103 @@ draft: true
 
 :::
 
-These are our notes related to the hurrican helene [repairs](/notes/house/helene) and post helene renovations on the [studio](/notes/house/studio), master, and [bath](/notes/house/bath). I'm using this page to share some questions and comments with the contractor and the boss. We've also started a document for the contractor [costs](/notes/house/kl-timmerman-costs).
+These are our notes related to the hurrican helene [repairs](/notes/house/helene) and post helene renovations on the [studio](/notes/house/studio), master, and [bath](/notes/house/bath). I'm using this page to share some questions and comments with the contractor and the boss.
 
+
+## Quality Control
+
+We've had some hiccups along the way, so I just wanted to start list of issues we've had with the general contractor and sub contractors so they're not forgotten if we need to reference them.
 
 ## KL Timmerman Enterprises, LLC 
 
-## Quality Control Issues
+[log](/notes/house/kl-timmerman-log)
+| [costs](/notes/house/kl-timmerman-costs)
+| [estimates](/pdf/KLTimmerman-Estimates.pdf)
+| [invoices](/pdf/KLTimmerman-Invoices.pdf)
+| [issues](/notes/house/)
 
-We've had some hiccups along the way, so I just wanted to start list of issues we've had with the general contractor and sub contractors so they're not forgotten if we need to reference them.
+## Management
+
+- Showed up on site unannounced requesting payment before work was completed or inspected
+- Invoicing duplicate errors
+  - No discussion of invoices
+- Timeliness 
+  - slow pace - some contractors will work for just a couple of hours a day for a week.
+  - took **over a year** to complete the project or **9 months** if you account for the truss manufacturing delay
+- very little inspection of work - **NO** final inspection
+- General contractor has only been by the site twice to check up on work
+  - after the trusses were installed and after the the paint
+- Assistant to GC not on site often
+  - once on an emergency call after a leak
+- Not much supervision of subs
+- Communication lackluster
+  - Inconsistent notice of subcontractors arriving onsite
+    - sometimes no notice and sometimes just 15 minute notice
+- Broken Sewer Line
+  - blowout line crushed by one of the haul off trucks or the lift equipment
+- Subcontractors
+  - contractor 💩 in our backyard - dog was eating something and noticed the roll of toilet paper
+  - contractors peeing in our driveway
+  - contractor puked in the yard because he came hungover
+  - left food trash in buckets upstairs that caused am indoor bug infestation
+  - dumped rotten food in bushes
+  - paint in bushes and on house in cleaning
+- had to drive over to GA to confirm quartz because couldn't get what was promised
+- didn't fix cut drywall in downstairs bathroom for three months
+  - left it open and we taped the piece back into it
+  - still not painted
+- contractors on site past normal working hours
+- contractor fishing in pond putting fish in bucket
+
+## Craftsmanship
+
+- studio left without hardware for three months
+- leaking seal on pipe that ran into the wall and stained the ceiling on the floor below in both the den and downstairs bathroom
+- hot water install mixed with cold water
+  - we didn't have cold water for a couple of days
+- covered existing electrical outlets
+- didn't seal off area of drywall sanding
+  - no ventilation or air treatment
+  - didn't replace hvac intakes
+- installed tile inset the wrong direction
+- poured water under the house instead of piping it out
+- left a pile of debris in the yard for three months
+- left the old sliding door in the yard for a month
+- we personally hauled off several loads of trash
+- popcorn ceiling has visible seams
+- drywall not consistent or square in spots
+  - dropping drywall at hvac intake
+  - not square where the corners meet
+  - didn't use the waterproof type throughout the bathroom
+  - made patches where it should have been an entire board replaced
+  - bubbles showing through the paint
+- ripped out a closet that didn't need to be removed
+- threw away good materials and unnecessary demo
+  - duct vents & bi-fold doors
+  - replaced solid wood closet and room doors with lesser quality
+- broke glass into the yard by tossing shower doors over the ledge
+- didn't plug the two HVAC vents that were ducted into the closed ceiling
+- found a previously split truss just one truss back from what was installed
+  - noticed but didn't mention it to us or offer to replace
+    - given we had ordered one additional truss that was left at our house
+- left the extra truss in our yard for nine months
+- didn't patch the ceiling until months after the trusses installed
+  - $600 heating cost to heat ceiling area
+- didn't tile all the way to the ceiling in shower as requested
+- don't clean up after work
+  - trash/food in yard, nails/metal in bushes
+- paint on window hardware
+- paint on tile floor
+- paint spills on front porch
+- had to repaint and drywall because of poor work
+- didn't install backing support for grab bar
+- spilled a heavy amount of paint thinner into the subfloor which then permeated the house for a week causing headaches and eye irritation. So potent that any heating element like our oven on the first floor gave off a lighter fluid smell for a week.
+- window treatments 
+  - tub / vertical blinds
+  - remove curtain rod
+- put the new carpet down before the contractors had finished the other work
+  - carpet has visable seams
+  - carpet doesn't extent far enough under baseboards
 
 ## Punch List
 
@@ -92,92 +181,3 @@ We've had some hiccups along the way, so I just wanted to start list of issues w
 - downstairs bathroom paint 👈🏻
 - stairwell trim paint baseboards
 
-
-**Minor**
-- window treatments 
-  - tub / vertical blinds
-  - remove curtain rod
-
-
-## Management
-
-- Timeliness 
-  - slow pace - some contractors will work for just a couple of hours a day for a week.
-  - took **over a year** to complete the project or **9 months** if you account for the truss manufacturing delay
-- very little inspection of work - **NO** final inspection
-- General contractor has only been by the site twice to check up on work
-  - after the trusses were installed and after the the paint
-- Assistant to GC not on site often
-  - once on an emergency call after a leak
-- Not much supervision of subs
-- Communication lackluster
-  - Inconsistent notice of subcontractors arriving onsite
-    - sometimes no notice and sometimes just 15 minute notice
-- Broken Sewer Line
-  - blowout line crushed by one of the haul off trucks or the lift equipment
-- Subcontractors
-  - contractor 💩 in our backyard - dog was eating something and noticed the roll of toilet paper
-  - contractors peeing in our driveway
-  - contractor puked in the yard because he came hungover
-  - left food trash in buckets upstairs that caused am indoor bug infestation
-  - dumped rotten food in bushes
-  - paint in bushes and on house in cleaning
-- had to drive over to GA to confirm quartz because couldn't get what was promised
-- didn't fix cut drywall in downstairs bathroom for three months
-  - left it open and we taped the piece back into it
-  - still not painted
-- contractors on site past normal working hours
-- contractor fishing in pond putting fish in bucket
-
-## Craftsmanship
-
-- studio left without hardware for three months
-- leaking seal on pipe that ran into the wall and stained the ceiling on the floor below in both the den and downstairs bathroom
-- hot water install mixed with cold water
-  - we didn't have cold water for a couple of days
-- covered existing electrical outlets
-- didn't seal off area of drywall sanding
-  - no ventilation or air treatment
-  - didn't replace hvac intakes
-- installed tile inset the wrong direction
-- left hvac ducts unpatched for months. I finally patched them.
-- poured water under the house instead of piping it out
-- left a pile of debris in the yard for three months
-- left the old sliding door in the yard for a month
-- we personally hauled off several loads of trash
-- popcorn ceiling has visible seams
-- drywall not consistent or square in spots
-  - dropping drywall at hvac intake
-  - not square where the corners meet
-  - didn't use the waterproof type throughout the bathroom
-  - made patches where it should have been an entire board replaced
-- ripped out a closet that didn't need to be removed
-- threw away good materials and unnecessary demo
-  - duct vents, bi-fold doors
-- broke glass into the yard by tossing shower doors over the ledge
-- didn't plug the two HVAC vents that were ducted into the closed ceiling
-- found a previously split truss just one truss back from what was installed
-  - didn't mention it to us
-- left the extra truss in our yard for nine months
-- didn't patch the ceiling until months after the trusses installed
-  - $600 heating cost to heat ceiling area
-- didn't tile all the way to the ceiling in shower as requested
-- don't clean up after work
-  - trash/food in yard, nails/metal in bushes
-- paint on window hardware
-- paint on tile floor
-- paint spills on front porch
-- had to repaint and drywall because of poor work
-- didn't install backing support for grab bar
-- spilled a heavy amount of paint thinner into the subfloor which then permeated the house for a week causing headaches and eye irritation. So potent that any heating element like our oven on the first floor gave off a lighter fluid smell for a week.
-- put the new carpet down before the contractors had finished the other work
-  - carpet has visable seams
-  - carpet doesn't extent far enough under baseboards
-
-## Billing
-
-- quotes and invoicing inconsistent. 
-- Showed up on site requesting payment before work was completed or inspected
-- No discussion of invoicing changes
-- Invoicing duplicate errors
-- aggressive labor charges

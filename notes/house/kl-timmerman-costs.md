@@ -10,9 +10,15 @@ hide_table_of_contents: true
 
 
 
-These are the cost related to the hurrican helene [repairs](/notes/house/helene) and post helene renovations on the [studio](/notes/house/studio), master, and [bath](/notes/house/bath). Here are links to the .pdfs for the original [Estimates](/pdf/KLTimmerman-Estimates.pdf) and [Invoices](/pdf/KLTimmerman-Invoices.pdf). I'm using this page to share some questions and comments with the contractor and the boss.
+I'm using this page to share some questions and comments with the contractor and the boss.. These are the cost related to the hurrican helene [repairs](/notes/house/helene) and post helene renovations on the [studio](/notes/house/studio), master, and [bath](/notes/house/bath). Here are links to the .pdfs for the original [Estimates](/pdf/KLTimmerman-Estimates.pdf) and [Invoices](/pdf/KLTimmerman-Invoices.pdf). Here is the work [log](/notes/house/kl-timmerman-log).
 
 ## KL Timmerman Enterprises, LLC 
+
+[log](/notes/house/kl-timmerman-log)
+| [costs](/notes/house/kl-timmerman-costs)
+| [estimates](/pdf/KLTimmerman-Estimates.pdf)
+| [invoices](/pdf/KLTimmerman-Invoices.pdf)
+| [issues](/notes/house/)
 
 ### Invoice(s)  # 35435 / # 35457 / # 35663 / # 35701
 
