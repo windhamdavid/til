@@ -17,6 +17,7 @@ toc_min_heading_level: 2
 
 ## Log
 
+- 25/11/14 - 🦃 [thanksgiving](/lists/food/thanksgiving)
 - 25/01/26 - 📖 [reading](/lists/now/reading)
 - 24/12/13 - add faves to [shopping](/lists/shopping)
 - 24/11/19 - organize [Github stars](/lists/stars)

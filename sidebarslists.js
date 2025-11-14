@@ -144,6 +144,7 @@ module.exports = {
       items: [
         'food/grocery',
         'food/recipe',
+        'food/thanksgiving',
       ],
     },  
     {
