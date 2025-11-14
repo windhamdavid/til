@@ -4,7 +4,7 @@ This is literally the most important list I have and I use it weekly. We use the
 
 ## TOC 
 
-[Grocery](grocery) | [Recipes](recipe)
+[Grocery](grocery) | [Recipes](recipe) | [Thanksgiving](thanksgiving)
 
 ## Groceries 
 
