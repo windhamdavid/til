@@ -4,8 +4,9 @@
 
 ## Menu
 
-Here's the full menu. Might notice there is no bird because they don't sit well with my dad. Plus even since I lost the opportunity to get the farm raised big organic gobblers I also kinda prefer a ham. 
+![](/img/Thanksgiving-menu.jpg)
 
+Might notice there is no bird because they don't sit well with my dad. Plus even since I lost the opportunity to get the farm raised big organic gobblers I also kinda prefer a ham. 
 
 
 #### Double Smoked Ham
