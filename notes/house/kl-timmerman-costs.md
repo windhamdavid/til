@@ -18,7 +18,7 @@ I'm using this page to share some questions and comments with the contractor and
 | [costs](/notes/house/kl-timmerman-costs)
 | [estimates](/pdf/KLTimmerman-Estimates.pdf)
 | [invoices](/pdf/KLTimmerman-Invoices.pdf)
-| [issues](/notes/house/)
+| [notes](/notes/house/kl-timmerman-issues)
 
 ### Invoice(s)  # 35435 / # 35457 / # 35663 / # 35701
 
@@ -83,7 +83,8 @@ I'm using this page to share some questions and comments with the contractor and
 |16.  Install ceiling fan in the master bedroom - labor only||||
 ||- Remove and reset the exterior light fixture by the sliding glass patio door.|||
 |||||
-||TOTAL|$44,633.23|✅|
+||<b>TOTAL</b>|<b>$44,633.23</b>||
+||BALANCE|$0|✅ Paid|
 |||||
 
 <div><br/><br/></div>
@@ -110,7 +111,7 @@ I'm using this page to share some questions and comments with the contractor and
 |1. Quarles quote||$3607.29||
 |2. Toilet from Quarles||$306.79||
 |3. Moen rough-in valve for shower ||$194.41||
-|4. Toilet - American Standard Aspirations 252AA899.020 * with tax ||$1,781.55|👈🏻 $450 from Home Depot?|
+|4. Toilet - American Standard Aspirations 252AA899.020 * with tax ||$1,781.55|👈🏻⁉️ $450 from Home Depot?|
 |ELECTRICAL||||
 |Bathroom 1. Demo existing as needed.|- Install customer provided heater/fan combo outside shower area and switched on door wall opposite of shower.|||
 ||- Install an outlet on the bathroom entry door wall opposite of shower.|||
@@ -119,7 +120,7 @@ I'm using this page to share some questions and comments with the contractor and
 ||- Install 2 GFI's - to be located on left and right walls of vanity.|||
 |Master bedroom ||||
 |1. Install new ceiling fan - switch to be located on left wall entering the bedroom.|- Switch the 2 existing outlets on long wall of bedroom for lamps - switch to be located of left wall entering the bedroom.|||
-||Labor and materials |$5,225.00|👈🏻|
+||Labor and materials |$5,225.00||
 ||Panasonic Whisper Coy heater/van 811A * Customer provided|||
 ||2 vanity lights |$503.05||
 ||CREDIT FOR INSTALLATION OF CEILING FAN FROM INSURANCE. |-$250.00||
@@ -155,7 +156,7 @@ I'm using this page to share some questions and comments with the contractor and
 |4. Vanity top and sinks|- Template and install|||
 ||Allowance for top and sinks Actual cost |$3,833.40||
 |5. Shower door TO BE ON FINAL DRAW|- Custom shower door and installation allowance. |$3000.00||
-|6. Mirror - remove existing mirror and reinstall.||$250.00|👈🏻⁉️ duplicate|
+|6. Mirror - remove existing mirror and reinstall.||$250.00||
 |7. Install bathroom accessories|Grab bar 50.00 each * WILL BE ON FINAL INOICE|$0.00||
 ||Towel bars, robe hooks, toilet paper holder, and 2 hand towel rings.|$125.00||
 ||Allowance on accessories * Cost of accessories including closet pulls |$388.64||
@@ -170,11 +171,12 @@ I'm using this page to share some questions and comments with the contractor and
 ||Installed outside light fixture |$80.00||
 ||Installed uarter round in carpeted rooms|$200.00||
 ||Quarter round|$61.63||
-|9. Hung sheetrock on ceiling at upstairs bedroom and repaired closet ceiling and wall. |- Applied texture at repair area.|$2835.00|👈🏻|
-|10. Caulked, primed, and puttied one new side and touched up handrails.||$7331.25|👈🏻⁉️|
+|9. Hung sheetrock on ceiling at upstairs bedroom and repaired closet ceiling and wall. |- Applied texture at repair area.|$2835.00||
+|10. Caulked, primed, and puttied one new side and touched up handrails.||$7331.25|👈🏻⁉️ what is this?|
 |11. Blown in insulation in master bedroom ceiling. |* This was considerably less.|$480.00||
 |||||
 ||<b>TOTAL</b>|<b>$93,006.97</b>||
+||BALANCE|$0|✅ Paid|
 |||||
 
 <div><br/><br/></div>
@@ -189,7 +191,7 @@ I'm using this page to share some questions and comments with the contractor and
 |||||
 |REGARDING INVOICE #35663||||
 |1. Page 4 - Item # 5 - Shower door was invoiced at $3000.00 - Actual cost was $2918.00|- Labor and materials to install custom door. |-$82.00||
-|2. Page 4 - Item #6 - Mirror - *|- cut existing mirror and installed |$190.00|👈🏻⁉️ duplicate|
+|2. Page 4 - Item #6 - Mirror - *|- cut existing mirror and installed |$190.00||
 |3. Page 5 - Item #7 - install bathroom accessories|- Installed grab bar |$50.00||
 |||||
 |Remaining items from the Insurance estimate that have not been invoiced.||||
