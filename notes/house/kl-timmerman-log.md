@@ -18,9 +18,7 @@ These are the dates of the work performed on site
 
 [log](/notes/house/kl-timmerman-log)
 | [costs](/notes/house/kl-timmerman-costs)
-| [estimates](/pdf/KLTimmerman-Estimates.pdf)
-| [invoices](/pdf/KLTimmerman-Invoices.pdf)
-| [issues](/notes/house/)
+| [notes](/notes/house/kl-timmerman-issues)
 
 ## Log
 
@@ -48,58 +46,58 @@ These are the dates of the work performed on site
 |**25/09/22**    | subfloor demo|3||
 |**25/09/18**    | countertop install|3||
 |**25/09/18**    | glass measure / GC by|1||
-|**25/09/17**    | gutter guy by to measure again|||
-|**25/09/08**    | carpenter dressing room drawers|||
-|**25/09/05**    | bath counter measure|||
-|**25/09/05**    | - painters ( exterior - second finish )|||
-|**25/09/04**    | - painters ( interior )|||
-|**25/09/03**    | - painters ( interior )|||
-|**25/09/02**    | painters ( interior )|||
+|**25/09/17**    | gutter guy by to measure again|1||
+|**25/09/08**    | carpenter dressing room drawers|5||
+|**25/09/05**    | bath counter measure|1||
+|**25/09/05**    | - painters ( exterior - second finish )|2||
+|**25/09/04**    | - painters ( interior )|4||
+|**25/09/03**    | - painters ( interior )|4||
+|**25/09/02**    | painters ( interior )|3||
 |**25/09/03**    | plumbing ( *downstairs bathroom fix )||(separate vendor/invoice)|
-|**25/08/28**    | - carpenter - dressing Room|||
-|**25/08/27**    | carpenter - dressing Room|||
-|**25/08/26**    | plumbing Tankless & Fix hot water issue|||
-|**25/08/25**    | electrician crawlspace tankless|5||
-|**25/08/15,18** | plumbing/CPW - Tankless|||
-|**25/08/04-8**  | painters|||
-|**25/07/28-29** | doors/Trim|||
-|**25/07/21-23** | tile install Bathroom|||
-|**24/07/17**    | sliding Door Installation & drywall finishing|||
-|**24/07/14-15** | drywall & insulation|||
-|**24/07/10-11** | exterior paint|||
-|**25/07/10**    | electrician - adjust hall outlet|||
-|**25/07/07**    | - drywall Mud ( 2 days ) / Adjust kneewall|||
-|**24/07/02**    | drywall up|||
-|**25/06/30-1**  | electrical|||
-|**25/06/26**    | electrician/GC on site meeting|||
-|**25/06/20**    | plumbers|||
-|**25/06/18**    | plumbers - Austin & Christian|||
-|**25/06/17**    | plumbers - Harvey & Austin |||
-|**25/06/03**    | Quarle's / Snead's supply shopping|||
-|**25/06/11**    | - Demo|||
-|**25/06/10**    | - Demo|||
-|**25/06/04-11** | - Demo|||
-|**25/06/03-11** | - Demo|||
+|**25/08/28**    | - carpenter - dressing Room|4||
+|**25/08/27**    | carpenter - dressing Room|3||
+|**25/08/26**    | plumbing Tankless & Fix hot water issue|2||
+|**25/08/25**    | electrician crawlspace tankless|2||
+|**25/08/15,18** | plumbing/CPW - Tankless|3||
+|**25/08/04-8**  | painters|3||
+|**25/07/28-29** | doors/Trim|3||
+|**25/07/21-23** | tile install Bathroom|7||
+|**24/07/17**    | sliding Door Installation & drywall finishing|5||
+|**24/07/14-15** | drywall & insulation|5||
+|**24/07/10-11** | exterior paint|3||
+|**25/07/10**    | electrician - adjust hall outlet|2||
+|**25/07/07**    | - drywall Mud ( 2 days ) / Adjust kneewall|4||
+|**24/07/02**    | drywall up|5||
+|**25/06/30-1**  | electrical|2||
+|**25/06/26**    | electrician/GC on site meeting|1||
+|**25/06/20**    | plumbers|3||
+|**25/06/18**    | plumbers - Austin & Christian|3||
+|**25/06/17**    | plumbers - Harvey & Austin |2||
+|**25/06/03**    | Quarle's / Snead's supply shopping|1||
+|**25/06/11**    | - Demo|4||
+|**25/06/10**    | - Demo|5||
+|**25/06/04-11** | - Demo|5||
+|**25/06/03-11** | - Demo|6||
 |**25/06/02-11** | Demo Tank & Austin (x2) ( 4.5 days 2,3,4,10,11 )|||
-|**25/04/10**    | roofer roof replaced - 7am -> 6pm - finished |||
-|**25/03/27**    | - cabinets|||
-|**25/03/26**    | cabinets installed|||
-|**25/03/19**    | glass measure|||
-|**25/03/18**    | Beth over for walkthrough mockup|||
-|**25/03/19**    | - Framing (x4) crew|||
-|**25/03/18**    | - Framing (x4) crew|||
-|**25/03/17**    | - Framing (x4) crew|||
-|**25/03/13**    | - Framing (x4) crew|||
-|**25/03/12**    | - Framing (x4) crew|||
-|**25/03/11**    | - Framing (x4) crew|||
-|**25/03/10**    | Framing crew - trusses installed / siding repaired|||
-|**25/02/28**    | received final mockup of the remodel from Beth |||
-|**25/02/12**    | cabinet guy over for measurements|||
-|**25/02/06**    | trusses delivered|||
-|**24/11/13**    | Beth over for design measurements|||
+|**25/04/10**    | roofer roof replaced - 7am -> 6pm - finished |9||
+|**25/03/27**    | - cabinets(downstairs)|4||
+|**25/03/26**    | cabinets(downstairs) installed|5||
+|**25/03/19**    | glass measure|1||
+|**25/03/18**    | Beth over for walkthrough mockup|1||
+|**25/03/19**    | - Framing (x4) crew|4||
+|**25/03/18**    | - Framing (x4) crew|6||
+|**25/03/17**    | - Framing (x4) crew|7||
+|**25/03/13**    | - Framing (x4) crew|5||
+|**25/03/12**    | - Framing (x4) crew|6||
+|**25/03/11**    | - Framing (x4) crew|7||
+|**25/03/10**    | Framing crew - trusses installed / siding repaired|4||
+|**25/02/28**    | received final mockup of the remodel from Beth |n/a||
+|**25/02/12**    | cabinet guy over for measurements|1||
+|**25/02/06**    | trusses delivered|1||
+|**24/11/13**    | Beth over for design measurements|1||
 |**24/11/11**    |  truss measurements|||
 |**24/11/06**    | demo for truss measurements|3||
 |**24/10/28**    | Ken and Insurance Adjuster meet|2||
 ||||
 |**TOTAL**| **DAYS**|**HOURS**|
-||||
+||**75 Days**|**241 Hours**|
