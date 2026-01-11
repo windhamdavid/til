@@ -7,12 +7,21 @@
 The importance of a good palette can't be understated. I'm a big fan of simple and consistent. I'd rather obscure the actual color and capture the light to retain the feel. Ruined a number of paintings halfway into em by experimenting with a new color.   
 
 
-Here's a good reference site - https://www.paintlist.com
+## References
+
+- _Artists Handbook Of Materials And Techniques_ - Ralph Mayer - https://archive.org/details/in.ernet.dli.2015.70073
+- https://www.paintlist.com
+- https://charlescecilstudios.com
+- https://www.artiscreation.com/Color_index_names.html
+- https://www.artiscreation.com/books.html
+
 
 
 ## Toxic 
 
 ☠️ https://davidawindham.com/black-oil-stand-oil/
+
+Gamblin safety for schools - https://gamblincolors.com/studio-safety/guideforschools/
 
 **Toxicity**: lead, cadmium, mercury, cobalt, barium, chromium, arsenic
 
@@ -56,7 +65,17 @@ Moderate
 
 ## Brands
 
-- M. Graham, Sennelier, Old Holland, 
+Sometimes different colors for different brands but these are my favorites in order:
+
+- M. Graham
+- Sennelier 
+- Old Holland
+- Micheal Harding
+- Gamblin
+- Lefranc & Bourgeois ( but the tubes keep busting on me - every busted tube in my box is this brand ... also evidently bought out by W&N and can't get em in the US anymore )
+- Windsor & Newton
+
+
 
 ## Colors
 
@@ -85,7 +104,11 @@ Moderate
 
 ## Mediums
 
+### Fat Over Lean
 
+keep cracks from appearing because lower layers dry before top layers. thin lower layers and upper layers should use more oil - hence more fat. 
+
+### Glazing
 
 ## Inventory
 
