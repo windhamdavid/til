@@ -5,15 +5,24 @@
 My favorite painting instructor from college had me on the only palette I ever really knew. I don't remember exactly what it was but I still have the old tubes of paint. 
 
 
-primarily these:
-- cadmium red 
-- cadmium yellow
-- ultramarine 
-- burnt umber
-- yellow ochre
-- white
+## Palettes
 
-bigger:
+
+min: 
+- yellow orchre
+- alizarin crimson
+- ultramarine
+- titanium
+
+primary:
+- yellow ochre/cad light
+- cadmium red/crimson 
+- blue ultramarine/cobalt/cerulean
+- green - viridian/cad
+- burnt umber/sienna/ivory
+- titanium
+
+large:
 - titanium white ⚪️
 - titanium buff
 - naples yellow
@@ -35,7 +44,26 @@ bigger:
 - raw umber
 - ivory black ⚫️
 
-## Palletes
+classic:
+- yellows - Orchre/Naples
+- blues - Ultramarine/Prussian
+- reds - Vermilion/Rose Madder
+- greens - Terra Verte
+- dark - van dyke/ivory
+
+split primary ( warm/cool)
+- yellow - cad / lemon or naples
+- red - cad or vermilion / crimson or quinacridone
+- blue - ultramarine / cerulean
+- ivory/titanium
+
+portraiture:
+- yellow - orchre / cad
+- red - cad/crimson
+- blue - ultramarine / cerulean
+- burnt/raw umber & sienna
+
+
 
 
 ## Colors
