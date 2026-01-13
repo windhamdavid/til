@@ -10,6 +10,10 @@ There are several things I'd like to give a shot:
 
 ## TOC
 
+
+- [paint](paint)
+- [painters](painters)
+- [palette](palette)
 - [design](design)
 - [education/design](education/design.md)
 - [education/education](education/education.md)
