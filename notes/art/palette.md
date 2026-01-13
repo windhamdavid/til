@@ -9,9 +9,15 @@ My favorite painting instructor from college had me on the only palette I ever r
 
 
 min: 
-- yellow orchre
+- yellow ochre
 - alizarin crimson
 - ultramarine
+- titanium
+
+- yello ochre
+- cad red
+- prussian blue
+- van dyke brown
 - titanium
 
 primary:
