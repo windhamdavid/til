@@ -11,10 +11,34 @@ Without being a luddite avoiding social media, I'd like to create a feed of acco
 - Mark Boedges - https://www.markboedges.com
 - Will Rochfort - https://www.williamrochfort.com
 - Guillermo Garcia - https://www.guillermolorca.com
+- Bryan Mark Taylor - https://bryanmarktaylor.com
+- Zhaoming Wu - https://www.instagram.com/zhaomingwuartist
+- Kimball Geisler - https://www.kimballgeisler.com
+- Daniel Graves - https://danielgravesart.com
+- Charles Cecil - https://charlescecilstudios.com
+- Bill Killebrew - 
+- Brent Cotton - https://www.cottonfinearts.com
+- West Fraser - https://westfraserstudio.com
 
 
 ## Watercolor 
 
+- Karen Mai - https://www.karenmaiart.com
+- Joseph Zbukvic - https://www.josephzbukvic.com
+
 ## Galleries
 
 - Red Piano - https://redpianoartgallery.com
+- Blue Spiral - https://bluespiral1.com
+- Principle Gallery - https://www.principlegallery.com
+
+## Juried
+
+- https://artascend.com/jury
+
+## Events
+
+## For Sale 
+
+- Manning Williams - https://peteranthonyfineart.com/merl-haggard-drunk-beer-chasing-guns-misery-guns/
+

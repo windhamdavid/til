@@ -14,6 +14,7 @@ min:
 - ultramarine
 - titanium
 
+min deeper:
 - yello ochre
 - cad red
 - prussian blue
@@ -29,20 +30,20 @@ primary:
 - titanium
 
 large:
-- titanium white ⚪️
+- titanium white
 - titanium buff
 - naples yellow
-- cadmium yellow 🟡
+- cadmium yellow
 - yellow orchre
 - raw sienna 
 - vermillion
 - venetian rouge
-- cadmium red 🔴
+- cadmium red
 - burnt umber
 - alizarin crimson
 - ultramarine
 - cerulean
-- cobalt blue 🔵
+- cobalt blue
 - veridian
 - phthalo
 - cobalt green
