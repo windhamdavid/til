@@ -29,6 +29,7 @@ module.exports = {
           ],
         },
         'art/paint',
+        'art/painters',
         'art/palette',
       ],
     },
