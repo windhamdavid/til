@@ -19,6 +19,8 @@ Without being a luddite avoiding social media, I'd like to create a feed of acco
 - Bill Killebrew - 
 - Brent Cotton - https://www.cottonfinearts.com
 - West Fraser - https://westfraserstudio.com
+- Leng Jun - https://www.instagram.com/lengjunofficial/
+
 
 
 ## Watercolor 

@@ -5,10 +5,11 @@ description: A place to keep notes and documentation
 
 # Today I Learned
 
-- **2025**
+- **2026**
   - 26/01/13 - [Monopoly](/posts/monopoly)
   - 26/01/06 - [Peace Walk](/posts/peace-walk)
   - 26/01/04 - [Paint Toxicity](/notes/art/paint)
+- **2025**
   - 25/11/19 - [SSDs](/posts/ssds)
   - 25/11/02 - [Food Economics](/posts/food-economics)
   - 25/10/26 - [Dead Air](/posts/dead-air)
