@@ -13,7 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
-- **26/01/18** - dog 🦮 walking and 💀 doom-scrolling daily, projects 💻 💰 while it's cold 🥶 
+- **26/01/18** - [dog](/notes/dogs/iris) 🦮 walking and 💀 [doom-scrolling](/posts/monopoly) daily, [projects](/docs/computers/kos) 💻 💰 while it's cold 🥶 
 - **25/11/02** - homey 🏡 cooking 🍲 , night showers 🛁, & early 🛌
 - **25/09/25** - wrapping [master 🛁](/notes/house/bath) & fall trip 🍁 to Shanandoah.
 - **25/07/01** - summer 🥵 - halfway through the [master 🛁/🛏️ reno](https://davidawindham.com/wha/glenridge/#bath) .
