@@ -1,6 +1,6 @@
 # Paint
 
-25/01/04 - reworking my desk so that the right side is usable for painting. organizing a bunch of old ( as in some are 28 years old ) watercolor and oil paints. It's been so long I've forgotten names and the qualities of each so I'm starting a new reference card here.
+26/01/04 - reworking my desk so that the right side is usable for painting. organizing a bunch of old ( as in some are 28 years old ) watercolor and oil paints. It's been so long I've forgotten names and the qualities of each so I'm starting a new reference card here.
 
 ## Notes
 

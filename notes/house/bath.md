@@ -39,6 +39,14 @@ We want to stay 'true' to the original house. The style is a contemporary crafts
 
 ## Materials
 
+For Ferguson Home:
+- (7x) Moen Voss Double Robe Hook Model YB5103CH Chrome
+- (2x) Moen Voss 3 Light 22" Wide Bathroom Vanity Light Model YB5163CH Chrome
+- Moen Voss Pivoting Toilet Paper Holder Model YB5108CH Chrome
+- Moen Voss Towel Ring MOdel YB5186CH Chrome
+- Moen Voss Toilet Tank Lever Model YB5101CH Chrome
+
+
 ### Colors
 
 - Mapei Colors - 5001 Alabaster ( bath ) / Pewter - 02 ( floor )
