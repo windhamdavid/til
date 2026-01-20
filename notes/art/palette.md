@@ -1,6 +1,6 @@
 # Palette
 
-25/01/10 - Lot of opinions here. I used to have a nice off the hip understanding and feel for the palette via professors, instructors, others, study & practice. It's been twenty five years and I just found myself googling the difference between ivory and lamp black so I'm just going to note reference palettes and preferences here. 
+26/01/10 - Lot of opinions here. I used to have a nice off the hip understanding and feel for the palette via professors, instructors, others, study & practice. It's been twenty five years and I just found myself googling the difference between ivory and lamp black so I'm just going to note reference palettes and preferences here. 
 
 My favorite painting instructor from college had me on the only palette I ever really knew. I don't remember exactly what it was but I still have the old tubes of paint. 
 
@@ -71,7 +71,23 @@ portraiture:
 - burnt/raw umber & sienna
 
 
+## Watercolor 
 
+- Azo Yellow (GRW018)
+- Burnt Sienna (GRW020)
+- Cadmium Red Lt. (GRW050)
+- Cadmium Yellow (GRW060)
+- Cerulean Blue (GRW080)
+- Cobalt Blue (GRW090)
+- Cobalt Teal (GRW097)
+- Hooker's Green (GRW108)
+- Maroon Perylene (GRW113)
+- Quinacridone Rose (GRW156)
+- Raw Sienna (GRW160)
+- Raw Umber (GRW170)
+- Sap Green (GRW174)
+- Ultramarine Blue (GRW190)
+- Yellow Ochre (GRW200)
 
 ## Colors
 
@@ -92,3 +108,10 @@ Black:
 Grey: 
 - payne's - coolest blue - shadows
 - van dyke brown - 
+
+
+## Brushes
+
+- Kolinsky Round Brush Size 8
+- MAESTRO water colour brush 
+- round Siberian Kolinsky
