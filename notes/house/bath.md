@@ -8,6 +8,8 @@
 
 📷 **photos** @ https://davidawindham.com/wha/glenridge/#bath
 
+![glenridge-dressing](/img/glenridge-bath-dressing.jpg)
+
 ## Log
 
 - **main** construction log is @ [/notes/house/helene](/notes/house/helene)
