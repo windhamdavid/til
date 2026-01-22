@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2026**
+  - 26/01/21 - [Storyboard](/posts/storyboard)
   - 26/01/13 - [Monopoly](/posts/monopoly)
   - 26/01/06 - [Peace Walk](/posts/peace-walk)
   - 26/01/04 - [Paint Toxicity](/notes/art/paint)
