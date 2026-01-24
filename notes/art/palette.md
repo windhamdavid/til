@@ -4,6 +4,7 @@
 
 My favorite painting instructor from college had me on the only palette I ever really knew. I don't remember exactly what it was but I still have the old tubes of paint. 
 
+![](/img/palette.jpg)
 
 ## Palettes
 
