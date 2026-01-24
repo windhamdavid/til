@@ -2,6 +2,8 @@
 
 26/01/04 - reworking my desk so that the right side is usable for painting. organizing a bunch of old ( as in some are 28 years old ) watercolor and oil paints. It's been so long I've forgotten names and the qualities of each so I'm starting a new reference card here.
 
+![](/img/paint.jpg)
+
 ## Notes
 
 The importance of a good palette can't be understated. I'm a big fan of simple and consistent. I'd rather obscure the actual color and capture the light to retain the feel. Ruined a number of paintings halfway into em by experimenting with a new color.   
