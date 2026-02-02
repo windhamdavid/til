@@ -143,3 +143,8 @@ Moderate
 - toluidine red and yellow (insoluble azo pigment)
 - viridian (hydrated chromic oxide)
 - zinc white (zinc oxide)
+
+
+Glossary 
+
+- Imprimatura
