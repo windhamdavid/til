@@ -20,6 +20,8 @@ Without being a luddite avoiding social media, I'd like to create a feed of acco
 - Brent Cotton - https://www.cottonfinearts.com
 - West Fraser - https://westfraserstudio.com
 - Leng Jun - https://www.instagram.com/lengjunofficial/
+- Jill Hooper - https://www.jillhooperfineart.com
+
 
 
 
@@ -33,6 +35,8 @@ Without being a luddite avoiding social media, I'd like to create a feed of acco
 - Red Piano - https://redpianoartgallery.com
 - Blue Spiral - https://bluespiral1.com
 - Principle Gallery - https://www.principlegallery.com
+- Ann Long - https://annlongfineart.com/
+
 
 ## Juried
 
