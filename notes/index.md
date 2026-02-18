@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 26/02/18 - 🤖 [projects/RAG](/notes/work/projects/ai-rag)
 - 26/01/02 - 🎨 [art/paint](/notes/art/paint)
 - 25/08/16 - 🚰 [house/bath](/notes/house/bath)
 - 25/04/26 - 🎹 [music/music](/notes/music/)
