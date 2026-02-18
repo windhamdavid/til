@@ -164,6 +164,7 @@ module.exports = {
           },
           items: [
             'work/projects/ai',
+            'work/projects/ai-rag',
             'work/projects/game',
             'work/projects/gzet',
             'work/projects/ham',
