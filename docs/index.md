@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 26/02/23 - 👾 [AI Agents](/docs/ai/ai.md)
 - 25/11/08 - 🏛️ [Kosmo](/docs/computers/kos.md)
 - 25/04/07 - 🪩 [Stu](/docs/computers/stu.md)
 - 25/02/13 - 🦑 [Squid](/docs/computers/squid.md)

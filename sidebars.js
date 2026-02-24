@@ -6,6 +6,18 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'AI',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'ai/ai',
+      },
+      items: [
+        'ai/ai',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Computers',
       items: [
         'computers/kos',
