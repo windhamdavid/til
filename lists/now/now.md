@@ -13,7 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
-- **26/03/30** - 400 🌷 bulbs we [planted](/notes/garden) coming in, 🦷 crown, & more 🤖 [AI](posts/mcp).
+- **26/03/30** - 400 🌷 bulbs we [planted](/notes/garden) coming in, 🦷 crown, & more 🤖 [AI](/posts/mcp).
 - **26/01/18** - 💻 [projects](/docs/computers/kos) while it's cold 🥶 - [dog](/notes/dogs/iris) 🦮 walking and 💀 [doom-scrolling](/posts/monopoly) daily. 
 - **25/11/02** - homey 🏡 cooking 🍲 , night showers 🛁, & early 🛌
 - **25/09/25** - wrapping [master 🛁](/notes/house/bath) & fall trip 🍁 to Shanandoah.
