@@ -13,6 +13,8 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Notes
 
+**26/03/21** - had a lift, a boom truck, an excavator, and an assortment of other trucks in the yard throughout the repairs and renovations last year so repairs there. Also added in 10lbs of wildflower and 400+ naturalizing bulbs.  
+
 **24/04/39** - we noticed the first flea of the season. Adding [pests](#pests) to the TOC here to keep notes. Going to try using nematodes this year since the diatomaceous earth tends to get wet in our humid environment too quickly.
 
 **24/04/02** - Since Iris has been tearing up and making trails in the yard, I've been thinking about switching out part of it to more wild grasses ( and weeds 😂 ). More of a Laissez-Faire Meadow[^1] since I manually pick some of the weeds. 
@@ -86,7 +88,48 @@ This is a sticky subject between my wife and myself. I'd prefer a lush barefoot 
 
 I built several raised garden beds in the middle of our front lawn which I keep a variety of plants going. Sometimes I plant a bunch of summer vegetables, but it's mostly herbs and flowers.
 
-### Perennials  
+### Perennials 
+
+
+### Wildflower
+
+- Baby's Breath
+- Blanketflower
+- Bachelor's Buttons, Dwf Blue
+- California Poppy
+- Purple Coneflower
+- Lanceleaf Coreopsis
+- Scarlet Flax
+- Mixed Color Corn Poppy
+- Dames Rocket
+- Rocket Larkspur
+- Cosmos 'Sensation Mix'
+- Black-Eyed Susan
+- Clasping Coneflower
+- Sweet William
+- Plains Coreopsis
+
+
+### Bulbs
+
+- Wood Hyacinths (Spanish Bells)
+- Jeanne d’Arc Giant Crocus
+- Crocus (Mixed – from garden set)
+- Glory of the Snow (Chionodoxa)
+- Grape Hyacinth (Muscari)
+- Cantab Dwarf Iris (Iris reticulata)
+- Grecian Windflower (Anemone blanda)
+- Dutch Iris (Blue Iris)
+- Yellow Daffodils
+- Tulips (Red/Yellow – from mix)
+- Little Beauty Botanical Tulip
+- Little Princess Botanical Tulip
+- Tarda Botanical Tulip
+- Persian Pearl Botanical Tulips
+- Drumstick Allium (Allium sphaerocephalon)
+- Bi-Color Asiatic Lily Blend
+- Pretty Woman Orienpet Lily
+
 
 ### Annuals
 
