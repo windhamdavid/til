@@ -4,6 +4,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
+- 26/03/21 - spring 🌹 back at it 
 - 25/05/07 - talked with some landscape guys about [chemicals](#chemicals)
 - 25/05/01 - engaged landscape architect re: irrigation and sod
 - 25/03/25 - removed three (3) pines and an additional oak close to the house
