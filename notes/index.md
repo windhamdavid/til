@@ -7,6 +7,8 @@ slug: /
 
 ## Log
 
+- 26/03/23 - 🏡 [house/kitchen](/notes/house/kitchen)
+- 26/03/20 - 🌳 [notes/garden](/notes/garden)
 - 26/02/18 - 🤖 [projects/RAG](/notes/work/projects/ai-rag)
 - 26/01/02 - 🎨 [art/paint](/notes/art/paint)
 - 25/08/16 - 🚰 [house/bath](/notes/house/bath)
