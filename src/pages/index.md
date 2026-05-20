@@ -6,6 +6,7 @@ description: A place to keep notes and documentation
 # Today I Learned
 
 - **2026**
+  - 26/05/20 - [Wildflowers](/posts/wildflowers)
   - 26/04/11 - [Weeds](/posts/weeds)
   - 26/03/27 - [Death & Taxes](/posts/death-taxes)
   - 26/02/24 - [Model Context Protocol](/posts/mcp)
