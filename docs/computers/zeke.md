@@ -3,7 +3,7 @@
 ## Log
 
 ---
-**26.05.28** - Haven't migrated yet 😂 Apache upgrade won't load http2 even on event module FTR.
+**26.05.28** - Haven't migrated yet 😂 Apache upgrade won't load http2 even on event module FTR. Tried a quick reinstall - no dice 🎲 so migration should be on the agenda soon. Will migrate IP so I don't have to fiddle with the domains or backport a buggy http2 module.
 ---
 
 ## 🔥 Migration
