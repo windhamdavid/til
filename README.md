@@ -3,8 +3,25 @@
 
 ---  
 
-## Notes:
+## About
+This is a place to store some notes and documentation. It was originally built as a way to make notes on interesting things I learn based on one of my favorite sub-reddit/[TIL](https://www.reddit.com/r/todayilearned/). While installing it the first time I wrote 'Today I learned that Google will translate to and from [Zulu](https://en.wikipedia.org/wiki/Zulu_language)'.  
 
+![zulu](https://davidawindham.com/til/img/zulu.png)  
+
+ > The page above in this site referring to the database and computer [operating system](https://en.wikipedia.org/wiki/Ubuntu) and not the [Zulu philosophy](https://en.wikipedia.org/wiki/Ubuntu_(philosophy))  of a universal bond of sharing that connects all humanity. 
+
+I'm often searching online documentation for answers to commands, configurations, and error messages. I figured that since I spend most of my working time with the terminal, git, and text files, a more efficient and easier method of documenting the time I spend reading other documentation would be to build my own TIL. This way the information I learn will be easy to record, search and edit. The problem is that I've found myself repeating those searches because of the breadth and depth of the amount of functions and libraries involved in development. My wife suggested I call it TIHIDI 'this is how I did it' after explaining what I was working on. It makes sense to use a static documentation instead of database because it's quicker, easier to search, under version control, and the file formats are interoperable with other software and publishing frameworks.  
+
+I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays. I'll keep the LOG in the [README](https://code.davidawindham.com/david/til/src/master/README.md), add a [help page](/help), and some [vi cheat sheets](/docs/shell/vi) to get started because I'm always forgetting some of them.
+
+Here's a map 👇🏼
+
+[![md-graph map](https://davidawindham.com/til/img/til.jpg)](https://davidawindham.com/til/img/til.jpg)
+
+## Log
+
+- 26/06/06 - reworking the [AI page](https://davidawindham.com/til/ai): dropping Markprompt/OpenAI for a self-hosted assistant — Claude (Haiku) + local vector search over my own notes/docs/lists/posts, answers that link back to the source pages, as a little pop-up "Clippy" widget I can drop on any of my sites. Only answers from my stuff. Backend rides on my [ralph](https://code.davidawindham.com/david/ralph) RAG/MCP server (SQLite + sqlite-vec + local Ollama embeddings).
+- 26/06/06 - upgrades ( 3.9.2 👉🏼 3.10.1) all good 👍🏼
 - 24/11/23 - dev branch for .devcontainer / codespace
 - 24/11/17 - upgrades ( 3.5.2 👉🏼 3.6.1 ) all good 👍🏼
   - 3.6 switched to Rust 🦀 rspack, SWC, Lightning CSS for faster builds
@@ -29,19 +46,3 @@ Migrated this version from Gitbook because it wasn't playing nicely with Node.js
 
 While working on another project yesterday afternoon, I ran into set of documentation ([https://docs.feathersjs.com/](https://docs.feathersjs.com/)) that I spent a lot of time reading and will likely forget about sometime soon after I abandon using the library in other projects. Of course I stuffed a bookmark of the documentation into my quasi organized set of chrome bookmarks based on each project, but the fact that the documentation was hosted using [Gitbook](https://github.com/GitbookIO/gitbook), reminded me of a practice I've seen others do.
 
-## About
-This is a place to store some notes and documentation. It was originally built as a way to make notes on interesting things I learn based on one of my favorite sub-reddit/[TIL](https://www.reddit.com/r/todayilearned/). While installing it the first time I wrote 'Today I learned that Google will translate to and from [Zulu](https://en.wikipedia.org/wiki/Zulu_language)'.  
-
-![zulu](https://davidawindham.com/til/img/zulu.png)  
-
- > The page above in this site referring to the database and computer [operating system](https://en.wikipedia.org/wiki/Ubuntu) and not the [Zulu philosophy](https://en.wikipedia.org/wiki/Ubuntu_(philosophy))  of a universal bond of sharing that connects all humanity. 
-
-
-
-I'm often searching online documentation for answers to commands, configurations, and error messages. I figured that since I spend most of my working time with the terminal, git, and text files, a more efficient and easier method of documenting the time I spend reading other documentation would be to build my own TIL. This way the information I learn will be easy to record, search and edit. The problem is that I've found myself repeating those searches because of the breadth and depth of the amount of functions and libraries involved in development. My wife suggested I call it TIHIDI 'this is how I did it' after explaining what I was working on. It makes sense to use a static documentation instead of database because it's quicker, easier to search, under version control, and the file formats are interoperable with other software and publishing frameworks.  
-
-I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays. I'll keep the LOG in the [README](https://code.davidawindham.com/david/til/src/master/README.md), add a [help page](/help), and some [vi cheat sheets](/docs/shell/vi) to get started because I'm always forgetting some of them.
-
-Here's a map 👇🏼
-
-[![md-graph map](https://davidawindham.com/til/img/til.jpg)](https://davidawindham.com/til/img/til.jpg)
