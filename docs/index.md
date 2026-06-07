@@ -51,7 +51,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ### AI
 
-[ai](ai/ai)
+[ai](/docs/ai/ai.md)
 
 ### Computers
 
