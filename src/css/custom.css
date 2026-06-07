@@ -50,7 +50,19 @@ html[data-theme='dark'] {
   --color-cyan: #bbffee;
   --color-blue: #aaccff;
   --color-purple: #ddbbff;
-  --color-pink: #ffcccc; 
+  --color-pink: #ffcccc;
+}
+/* Flowchart edges/arrows: white in dark mode (see src/pages/map.md).
+   Docusaurus wraps each diagram in .docusaurus-mermaid-container (no .mermaid class). */
+[data-theme='dark'] .docusaurus-mermaid-container .flowchart-link,
+[data-theme='dark'] .docusaurus-mermaid-container .edgePath .path {
+  stroke: #ffffff !important;
+}
+[data-theme='dark'] .docusaurus-mermaid-container .marker,
+[data-theme='dark'] .docusaurus-mermaid-container .arrowheadPath,
+[data-theme='dark'] .docusaurus-mermaid-container marker path {
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
 }
 .toggleTrack_node_modules-\@docusaurus-theme-classic-lib-next-theme-Toggle-styles-module {
   background-color: #e2e2e2 !important;

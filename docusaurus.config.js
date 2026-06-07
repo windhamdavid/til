@@ -113,6 +113,11 @@ export default {
     },
     mermaid: {
       theme: {light: 'base', dark: 'base'},
+      options: {
+        // Mermaid blocks click/href links under the default 'strict' level.
+        // 'loose' enables them — safe here since all diagrams are self-authored.
+        securityLevel: 'loose',
+      },
     },
     colorMode: {
       defaultMode: 'dark',

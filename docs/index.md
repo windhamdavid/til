@@ -152,8 +152,8 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ### Projects
 
-[SRH](srh)
-| [gwcal](gwcal)
+| [SRH](projects/srh)
+| [gwcal](projects/gwcal)
 
 ### SasS
 

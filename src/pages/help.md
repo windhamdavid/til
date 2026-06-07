@@ -39,6 +39,7 @@ gitGraph
     commit id: "2"  tag: "v2.0"
     commit id: "3.5"  tag: "v3.5"
     commit id: "3.6.1"  tag: "v3.6"
+    commit id: "3.10.1"  tag: "v3.10"
     checkout main
     merge docusaurus
 ```

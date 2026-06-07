@@ -4,6 +4,8 @@
 | [Ovid](ovid)
 | [Macs](macs)
 | [Magic](magic)
+| [Stu](stu)
+| [Squid](squid)
 | [Zeke](zeke)
 | [Zeker](zeker)
 | [Woozer](woozer)
