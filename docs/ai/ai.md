@@ -22,4 +22,26 @@ Still mostly for Ci and workflow integration but sometimes for review or debuggi
 
 ## MCP Ralph
 
+My sandbox repo for Claude Code experiments — and where the RAG/MCP server lives.
+
 - https://github.com/windhamdavid/ralph
+- https://code.davidawindham.com/david/ralph
+
+The `mcp-server/` is a local [Model Context Protocol](https://modelcontextprotocol.io) filesystem server (`ralph-fs`) plus a RAG pipeline — SQLite + [sqlite-vec](https://github.com/asg017/sqlite-vec) for vector storage and local [Ollama](https://ollama.com) (`nomic-embed-text`) embeddings. It chunks markdown, embeds it, and does KNN search entirely offline. It already exposes filesystem tools (read/write/search) and RAG tools (ingest/search/list/delete) to Claude Code, and its path allowlist already includes this TIL repo.
+
+## Site Assistant (Clippy)
+
+26/06/06 - Ripping out the old [Markprompt](https://markprompt.com) widget on the [AI page](/ai) (it used their hosted vector DB + OpenAI) and replacing it with my own thing built on the Ralph RAG server above. The idea: a little pop-up "Clippy" bot I can drop on any of my sites that **only** answers from my own notes/docs/lists/posts and links back to the source pages.
+
+How it fits together:
+
+- **Index** — a script walks the TIL content, skips drafts/private/partials, chunks + embeds it locally, and stores each chunk's public URL so citations resolve to real pages.
+- **Ask** — a new `/api/ask` endpoint on the Ralph server embeds the question, vector-searches the index, and hands the top matches to Claude (Haiku 4.5) with Anthropic's [native citations](https://docs.claude.com/en/docs/build-with-claude/citations) turned on, streaming the answer back over SSE.
+- **Widget** — a small framework-free JS bundle (floating launcher + chat panel) embeddable on any site via a `<script>` tag; on the AI page it renders inline.
+
+Notes to self:
+
+- Anthropic has no embeddings API — that's why embeddings stay local (Ollama). Claude only does the generation.
+- It's a public, paid endpoint, so: per-IP rate limiting, question-length caps, Haiku for cost, no conversation persistence.
+- The index is the trust boundary — keep draft/private notes out of it (the ingest filters frontmatter).
+- Full plan + build steps live in `CLAUDE.md` (both here and in ralph).
