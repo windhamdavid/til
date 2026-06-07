@@ -15,6 +15,12 @@ I'm often searching online documentation for answers to commands, configurations
 
 I'm hoping it'll help me keep my bookmarks as little less cluttered and it'll leave my [desk page](https://davidawindham.com/desk) free for longer form essays. I'll keep the LOG in the [README](https://code.davidawindham.com/david/til/src/master/README.md), add a [help page](/help), and some [vi cheat sheets](/docs/shell/vi) to get started because I'm always forgetting some of them.
 
+You could start with a [sitemap](/map/)
+
 Here's a map from June 2023👇🏼
 
 [![til_map](/img/til.png)](/img/til.png)
+
+Here's a map from June 2026👇🏼
+
+[![til_map](/img/til-1.png)](/img/til-1.png)
