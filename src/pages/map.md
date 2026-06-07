@@ -8,16 +8,7 @@ hide_table_of_contents: true
 
 # Map
 
-I need a map because it helps me keep up with the structure of this website.
 
-- About / Ancestors Bio CV
-- Code / Activity Commits Repos Issues Wiki
-- Contact / Chat Contract Form Guestbook Inquiry Mailing Pay Support
-- Invoice / Clients Billing Payments Project Tasks Tickets Quotes
-- Desk / Bookmarks Reader Archive Categories Tags Search
-- TIL / AI Search Docs Lists Notes Posts Help
-- Studio / App Art Broadcast Code Design Media Web Radio Chess
-- Sitemap / Analytics Privacy Copyright
 
 ```mermaid
 %%{
@@ -26,7 +17,7 @@ I need a map because it helps me keep up with the structure of this website.
   }
 }%%
 mindmap
-  root)DAW.com(
+  root)DAW.com 💻(
     About 📕
       Ancestors
       Bio
@@ -86,15 +77,15 @@ mindmap
         Software
         Versioning
       Ideas
-      Notes
+      Notes 🗒️
         art
         dogs
         garden
         house
         personal
         work
-      Lists
-        Now
+      Lists ✅
+        Now ⌚️
           Learning
           Listening
           Playing

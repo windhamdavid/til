@@ -41,6 +41,7 @@ slug: /
 ## TOC
 
 [art](art/art.md)
+| [autos](autos.md)
 | [dogs](dogs/dogs.md)
 | [Iris](dogs/iris.md)
 | [ideas](ideas.md)
@@ -48,11 +49,14 @@ slug: /
 | [golf](play/golf.md)
 | [health](health/health.md)
 | [house](house/house.md)
+| [music](music/music.md)
+| [play](play/play.md)
 | [tennis](play/tennis.md)
 | [travel](travel.md)
 | [work](work/work.md)
 | [work/clients](work/clients.md)
-| [work/projects](work/projects/ai.md)
+| [work/clients/srh](work/srh.md)
+| [work/projects](work/projects/index.md)
 | [work/wealth](work/wealth.md)
 
 

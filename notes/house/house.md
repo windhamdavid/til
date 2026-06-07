@@ -9,6 +9,12 @@
 | [fireplaces](fire.md)
 | [helene](helene.md)
 | [studio](studio.md)
+| [helene repairs](helene-repairs.md)
+| [helene ins](helene-ins-sum.md)
+| [helene adjust](helene-ins-adjust.md)
+| [reno log](kl-timmerman-log.md)
+| [reno costs](kl-timmerman-costs.md)
+| [reno issues](kl-timmerman-issues.md)
 
 ## Log
 
