@@ -135,6 +135,7 @@ export default {
         {to: 'about/',activeBasePath: 'til',label: 'About',position: 'left'},
         {to: 'ai', label: 'AI',position: 'left'},
         {to: 'docs/',activeBasePath: 'docs',label: 'Docs',position: 'left'},
+        {to: 'graph',activeBasePath: 'graph',label: 'Graph',position: 'left'},
         {to: 'lists/',activeBasePath: 'lists',label: 'Lists',position: 'left'},
         {to: 'notes/',activeBasePath: 'notes',label: 'Notes',position: 'left'},
         {to: 'posts/',activeBasePath: 'posts',label: 'Posts',position: 'left'}, 

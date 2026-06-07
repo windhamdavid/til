@@ -33,12 +33,9 @@ const DOC_SECTIONS = [
   { dir: 'lists', base: '/lists', group: 'lists' },
 ];
 const BLOG_SECTIONS = [{ dir: 'posts', base: '/posts', group: 'posts' }];
-const PAGES = [
-  { route: '/', label: 'Home', group: 'page' },
-  { route: '/ai', label: 'AI Assistant', group: 'page' },
-  { route: '/help', label: 'Help', group: 'page' },
-  { route: '/map', label: 'Map', group: 'page' },
-  { route: '/about', label: 'About', group: 'page' },
+const PAGES_DIR = 'src/pages';                                 // about.md, ai.mdx, map.md, …
+const MANUAL_NODES = [                                          // routes with no .md in src/pages
+  { route: '/graph', label: 'Graph', group: 'page' },          // graph.jsx
   { route: '/posts', label: 'Posts (blog index)', group: 'page' },
 ];
 
@@ -113,7 +110,7 @@ const addNode = (route, label, group, partial = false) => {
   if (!nodes.has(route)) nodes.set(route, partial ? { id: route, label, group, partial: true } : { id: route, label, group });
   if (!byLc.has(route.toLowerCase())) byLc.set(route.toLowerCase(), route);
 };
-PAGES.forEach((p) => addNode(p.route, p.label, p.group));
+MANUAL_NODES.forEach((p) => addNode(p.route, p.label, p.group));
 
 let skipped = 0, noSlug = 0;
 
@@ -158,6 +155,16 @@ for (const { dir, base, group } of BLOG_SECTIONS) {
   }
 }
 
+// standalone pages (src/pages/*.md|mdx) — parse their bodies so About/Map/AI/Home connect
+for (const file of walk(join(ROOT, PAGES_DIR))) {
+  const name = basename(file).replace(/\.mdx?$/, '');
+  if (name.startsWith('_')) continue;
+  const { data, body } = parseFrontmatter(readFileSync(file, 'utf8'));
+  const route = name === 'index' ? '/' : `/${name}`;
+  addNode(route, titleOf(data, body, name), 'page');
+  files.push({ base: '', rel: name, route, body }); // base '' → relative links resolve from site root
+}
+
 // ---------- link resolution ----------
 const matchRoute = (r) => (r == null ? null : nodes.has(r) ? r : byLc.get(r.toLowerCase()) || null);
 
@@ -193,12 +200,14 @@ const links = [];
 const unresolved = new Map();
 const LINK_RE = /\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 const HREF_RE = /href=["']([^"']+)["']/g;
+const CLICK_RE = /^\s*click\s+\S+\s+"([^"]+)"/gm;             // mermaid: click NODE "url" (map.md)
 
 for (const { base, rel, route, body } of files) {
   const targets = new Set();
   let m;
   while ((m = LINK_RE.exec(body))) targets.add(m[1]);
   while ((m = HREF_RE.exec(body))) targets.add(m[1]);
+  while ((m = CLICK_RE.exec(body))) targets.add(m[1]);
   for (const t of targets) {
     const dest = resolveLink(t, base, rel);
     if (!dest) {
