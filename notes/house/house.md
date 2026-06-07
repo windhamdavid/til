@@ -8,6 +8,7 @@
 | [build](build.md)
 | [fireplaces](fire.md)
 | [helene](helene.md)
+| [kitchen](kitchen.md)
 | [studio](studio.md)
 | [helene repairs](helene-repairs.md)
 | [helene ins](helene-ins-sum.md)
