@@ -49,6 +49,10 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ---
 
+### AI
+
+[ai](ai/ai)
+
 ### Computers
 
 [Ovid](computers/ovid)
@@ -145,6 +149,11 @@ I use this library of documents as a quick reference to find technical answers, 
 | Raycast
 | Alfred
 | Pandoc
+
+### Projects
+
+[SRH](srh)
+| [gwcal](gwcal)
 
 ### SasS
 
