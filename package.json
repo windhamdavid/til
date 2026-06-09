@@ -5,8 +5,9 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "graph": "node scripts/build-graph.mjs",
+    "recent": "node scripts/build-recent.mjs",
     "start": "docusaurus start",
-    "prebuild": "node scripts/build-graph.mjs",
+    "prebuild": "node scripts/build-graph.mjs && node scripts/build-recent.mjs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

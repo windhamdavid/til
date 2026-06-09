@@ -159,6 +159,52 @@ form input {
   }
 }
 
+/* Home page "Recently" column — latest items from each section log (src/components/Recent) */
+.til-recent {
+  float: right;
+  width: 300px;
+  margin: 0.4rem 0 1.5rem 2rem;
+  padding: 0.5rem 1rem 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+  /* no font-size → inherit the page content size so it matches the left column */
+}
+.til-recent-head {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.72em;
+  opacity: 0.6;
+  margin: 0.5rem 0 0.25rem;
+}
+.til-recent-title {
+  font-size: 1.05em;
+  margin: 0.75rem 0 0.35rem;
+}
+.til-recent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.til-recent li {
+  margin: 0.2rem 0;
+  line-height: 1.3;
+}
+.til-recent-date {
+  color: var(--ifm-color-emphasis-600);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85em;
+  margin-right: 0.4rem;
+}
+@media (max-width: 996px) {
+  .til-recent {
+    float: none;
+    width: auto;
+    margin: 1rem 0 1.5rem;
+  }
+}
+
 .ReactPiano__Key--active.ReactPiano__Key--natural {
   background: #25c2a0 !important;
 }
