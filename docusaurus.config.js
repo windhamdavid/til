@@ -18,6 +18,7 @@ export default {
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
+  clientModules: ['./src/clientModules/ask-widget.js'],
   plugins: [
     'plugin-image-zoom',
     require.resolve('docusaurus-plugin-matomo'),
