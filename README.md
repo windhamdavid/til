@@ -18,6 +18,15 @@ Here's a map 👇🏼
 
 [![md-graph map](https://davidawindham.com/til/img/til.jpg)](https://davidawindham.com/til/img/til.jpg)
 
+## Todo
+
+Things I'd like to automate so this place stays current instead of rotting — most of them are the same shape: pull from some external source and render it to a markdown file.
+
+- [ ] **Sync Apple Reminders → [lists/todo.md](lists/todo.md)** — I keep real todos in Apple Reminders but rarely mirror them here. Find an easy export/sync (a Shortcut, or a small script via `reminders-cli` / AppleScript → markdown) so the [Todo list](https://davidawindham.com/til/lists/todo) isn't hand-maintained.
+- [ ] **Sync Last.fm → [lists/now/listening.md](lists/now/listening.md)** — pull recent scrobbles from the Last.fm API and render to markdown so [Now / Listening](https://davidawindham.com/til/lists/now/listening) updates itself.
+- [ ] **Generalize the "external source → markdown" sync** — both of the above are identical in shape, so build one small repeatable pattern (a `scripts/sync-*.mjs` per source, run on a schedule or in the prebuild step) so the next one is trivial: Letterboxd → Watching, StoryGraph/Goodreads → Reading, Strava → … etc.
+- [ ] **Import my other sites as markdown for the davo-bot corpus** — convert my other sites (davidawindham.com, davidwindham.com, srh, …) to markdown and feed them into the [ralph](https://code.davidawindham.com/david/ralph) RAG / vector pipeline, so the AI [davo-bot](https://davidawindham.com/til/ai) answers from my whole web presence, not just this TIL site — more complete retrieval and citations.
+
 ## Log
 
 - 26/06/06 - reworking the [AI page](https://davidawindham.com/til/ai): dropping Markprompt/OpenAI for a self-hosted assistant — Claude (Haiku) + local vector search over my own notes/docs/lists/posts, answers that link back to the source pages, as a little pop-up "Clippy" widget I can drop on any of my sites. Only answers from my stuff. Backend rides on my [ralph](https://code.davidawindham.com/david/ralph) RAG/MCP server (SQLite + sqlite-vec + local Ollama embeddings).
