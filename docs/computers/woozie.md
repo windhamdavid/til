@@ -1065,6 +1065,10 @@ sudo apt-get install -y nodejs
 david@woozie:~ » node --version
 v18.16.0
 
+#updated for dependency 26/6/9
+david@woozie:/etc/apt/sources.list.d » node --version
+v24.16.0
+
 ```
 
 ### PHP
