@@ -2,9 +2,26 @@
 
 ## Notes
 
+**26.06.24** - Going to upgrade and migrate this server sometime soon. 
+
 **23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidawindham.com/human-updates-available/).
 
 ## Log
+
+**26.06.24** - had a PID mismatch issue with Monit failing on the php-fpm processes so I swapped them over to using systemctl. 
+
+```bash
+check process php7.4-fpm matching "php-fpm: master process \(/etc/php/7.4/fpm/php-fpm.conf\)"
+    start program = "/bin/systemctl start php7.4-fpm"
+    stop program = "/bin/systemctl stop php7.4-fpm"
+    if failed unixsocket /run/php/php7.4-fpm.sock then restart
+
+check process php8.3-fpm matching "php-fpm: master process \(/etc/php/8.3/fpm/php-fpm.conf\)"
+    start program = "/bin/systemctl start php8.3-fpm"
+    stop program = "/bin/systemctl stop php8.3-fpm"
+    if failed unixsocket /run/php/php8.3-fpm.sock then restart
+```
+
 
 **23.06.26** - added cron to clear logs weekly ( sun @5:50am )
 ```bash
