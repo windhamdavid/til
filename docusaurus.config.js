@@ -3,9 +3,9 @@
 import {themes as prismThemes} from 'prism-react-renderer'
 
 export default {
-  title: 'David Windham | TIL',
+  title: 'David Windham',
   tagline: 'Because Today I Learned',
-  url: 'https://davidawindham.com',
+  url: 'https://davidwindham.com',
   baseUrl: '/til/',
   favicon: 'img/favicon.ico',
   organizationName: 'windhamdavid',

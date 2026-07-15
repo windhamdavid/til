@@ -9,6 +9,9 @@
 # VSCode
 .vscode
 
+# Claude
+/_claude
+
 # Obsidian
 /docs/.obsidian/*
 /notes/.obsidian/*
