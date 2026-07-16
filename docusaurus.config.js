@@ -18,7 +18,7 @@ export default {
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
-  clientModules: ['./src/clientModules/ask-widget.js'],
+  clientModules: ['./src/clientModules/ask-widget.js', './src/clientModules/nav-underline.js'],
   plugins: [
     'plugin-image-zoom',
     require.resolve('docusaurus-plugin-matomo'),
@@ -143,12 +143,10 @@ export default {
         {to: 'help', label: 'Help', position: 'left'},
         {type: 'search', position: 'left'},
         {
-          href: 'https://davidawindham.com/desk',
-          label: 'David A. Windham',
-          'aria-label': 'David A. Windham',
-          className: 'header-homepage-link',
-          target: '_self',
+          type: 'html',
           position: 'right',
+          value:
+            '<a class="header-homepage-link dw-brand" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-controls="dw-nav" title="David A. Windham">David A. Windham</a>',
         },
       ],
     },
