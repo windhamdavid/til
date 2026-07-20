@@ -1,5 +1,5 @@
 /**
- * Site offcanvas top-nav — mirrors the parent site (davidawindham.com).
+ * Site offcanvas top-nav — mirrors the parent site (davidwindham.com).
  * The "David A. Windham" brand (a .dw-brand in the navbar) opens a slide-down
  * bar with About/Desk/Studio/Work and a "magic line" underline that follows the
  * hovered item. Injected at <body> level (not inside the navbar) because the
@@ -14,10 +14,10 @@ if (typeof document !== 'undefined') {
     '<div class="dw-offcanvas" id="dw-nav" role="dialog" aria-label="Site navigation">' +
       '<nav class="dw-offcanvas-nav">' +
         '<ul class="dw-nav">' +
-          '<li><a href="https://davidawindham.com/about">About</a></li>' +
-          '<li><a href="https://davidawindham.com/desk">Desk</a></li>' +
-          '<li><a href="https://davidawindham.com/studio">Studio</a></li>' +
-          '<li><a href="https://davidawindham.com/work">Work</a></li>' +
+          '<li><a href="https://davidwindham.com/about">About</a></li>' +
+          '<li><a href="https://davidwindham.com/desk">Desk</a></li>' +
+          '<li><a href="https://davidwindham.com/studio">Studio</a></li>' +
+          '<li><a href="https://davidwindham.com/work">Work</a></li>' +
           '<span class="dw-nav-underline" aria-hidden="true"></span>' +
         '</ul>' +
       '</nav>' +

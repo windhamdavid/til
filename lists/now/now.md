@@ -13,6 +13,7 @@ Adding this list as a way to pull info for my main now page @ https://davidawind
 
 ## Log
 
+- **26/07/20** - watering 🪴 daily 🥵, changed 🛏️-⏰ to get up before the ☀️.  
 - **26/05/23** - major 🖥️ [project](/notes/house/studio/) almost wrapped and new mudroom [floors](/notes/house).
 - **26/03/20** - 400 🌷 bulbs we [planted](/notes/garden) coming in, 🦷 crown, & more 🤖 [AI](/posts/mcp).
 - **26/01/18** - 💻 [projects](/docs/computers/kos) while it's cold 🥶 - [dog](/notes/dogs/iris) 🦮 walking and 💀 [doom-scrolling](/posts/monopoly) daily. 
