@@ -17,6 +17,7 @@ toc_min_heading_level: 2
 
 ## Log
 
+- 26/07/22 - 🎵 [26.7 playlist](/lists/art/music/playlist_2026)
 - 25/11/14 - 🦃 [thanksgiving](/lists/food/thanksgiving)
 - 25/01/26 - 📖 [reading](/lists/now/reading)
 - 24/12/13 - add faves to [shopping](/lists/shopping)

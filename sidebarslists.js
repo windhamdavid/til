@@ -99,8 +99,13 @@ module.exports = {
             },
             {
               type:'doc',
+              id: 'art/music/playlist_2026',
+              label:'2026 +',
+            },
+            {
+              type:'doc',
               id: 'art/music/playlist_2020',
-              label:'- 2020',
+              label:'2020-2025',
             },
             {
               type:'doc',
