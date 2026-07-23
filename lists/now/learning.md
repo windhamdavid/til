@@ -1,5 +1,6 @@
 # Learning
 
+- 26/02/20 - [MCP](/posts/mcp/)
 - 24/08/07 - Mocha -> [Jest](https://jestjs.io)
 - 24/04/21 - [htmx](https://htmx.org)
 - 23/11/14 - [from Jeff Koons](https://www.masterclass.com/classes/jeff-koons-teaches-art-and-creativity)

@@ -19,6 +19,8 @@
 
 ## Log
 
+- 26/06/01 - New range/fridge and exhaust ductwork in the ([kitchen](kitchen.md))
+- 26/05/22 - New Mudroom floors
 - 25/11/11 - New Garage Door
 - 25/10/21 - [Master Bath](/notes/house/bath) Complete
 - 25/10/21 - [Helene Repairs](/notes/house/helene) Complete

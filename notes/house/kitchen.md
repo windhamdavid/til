@@ -1,14 +1,16 @@
 # Kitchen
 
-( future project 2026? )
+26/07/23 - we've now got all the appliances replaced and are ready to start in on the countertop project which will also involve removing the old jenn-air grill. We've picked an installer and narrowed down the options on quartz contertops. We even found that the old trash compactor had a reversible plate in the front of it that gave us a nice muted green color instead of the white. 
+
+26/06/02 - we installed the range vent ourselves and as always a three hour project turned into an all day event. 
 
 26/03/23 - got some time next week and we've decided to go ahead and tackle the stove hood issue... mainly because we cooked a big batch of bacon the other day and the house smelled like it for two days. I'd previously stored the parts for it in quote from the vendor but since that's gone, I'm gonna put em here. 
 
 - ✅ new dishwasher
-- counter depth fridge
+- ✅ new oven
+- ✅ counter depth fridge
 - remove jenn-air grill
-- new hood
-  - using old jenn-air exhaust
+- ✅ new hood
 - new countertops
   - wrap around bar seating
 - ✅ new under cabinet lighting
