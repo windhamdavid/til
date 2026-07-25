@@ -4,6 +4,7 @@ I enjoy gardening and yard work. I sometimes call this document site my little d
 
 ## Log
 
+- 26/07/25 - planted this season: 4 nellie stevens hollies, 3 live oaks, 4 camellias, 6 hydrangeas, some native grasses, and some st. augustine and centipede grasses. 
 - 26/03/21 - spring 🌹 back at it 
 - 25/05/07 - talked with some landscape guys about [chemicals](#chemicals)
 - 25/05/01 - engaged landscape architect re: irrigation and sod
