@@ -20,6 +20,7 @@ module.exports = {
       type: 'category',
       label: 'Computers',
       items: [
+        'computers/cotton',
         'computers/kos',
         'computers/lisa',
         'computers/macs',
@@ -29,8 +30,7 @@ module.exports = {
         'computers/stu',
         'computers/woozer',
         'computers/woozie',
-        'computers/zeke',
-        'computers/zeker'
+        'computers/zeke'
       ],
     },
     {
