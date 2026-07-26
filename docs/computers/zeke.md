@@ -8,7 +8,7 @@
 
 ## 🔥 Migration
 
-**25.07.16** - Officially DEPRECATED 🔥 -> Migrating to [Zeker](/docs/computers/zeker) 👈🏼 .
+**25.07.16** - Officially DEPRECATED 🔥 -> Migrating to [Cotton](/docs/computers/cotton) 👈🏼 .
 **25.07.16** - Six (6) virtual hosts still running. Will remove over the next year. Expanded Security Maintenance (ESM) runs through April 2028.   
 **25.04.11** - Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
 
