@@ -95,59 +95,79 @@ I built several raised garden beds in the middle of our front lawn which I keep 
 
 ### Wildflower
 
-- Baby's Breath
-- Blanketflower
-- Bachelor's Buttons, Dwf Blue
-- California Poppy
-- Purple Coneflower
-- Lanceleaf Coreopsis
-- Scarlet Flax
-- Mixed Color Corn Poppy
-- Dames Rocket
-- Rocket Larkspur
-- Cosmos 'Sensation Mix'
-- Black-Eyed Susan
-- Clasping Coneflower
-- Sweet William
-- Plains Coreopsis
+Baby's Breath
+ / Blanketflower
+ / Bachelor's Buttons, Dwf Blue
+ / California Poppy
+ / Purple Coneflower
+ / Lanceleaf Coreopsis
+ / Scarlet Flax
+ / Mixed Color Corn Poppy
+ / Dames Rocket
+ / Rocket Larkspur
+ / Cosmos 'Sensation Mix'
+ / Black-Eyed Susan
+ / Clasping Coneflower
+ / Sweet William
+ / Plains Coreopsis
 
 
 ### Bulbs
 
-- Wood Hyacinths (Spanish Bells)
-- Jeanne d’Arc Giant Crocus
-- Crocus (Mixed – from garden set)
-- Glory of the Snow (Chionodoxa)
-- Grape Hyacinth (Muscari)
-- Cantab Dwarf Iris (Iris reticulata)
-- Grecian Windflower (Anemone blanda)
-- Dutch Iris (Blue Iris)
-- Yellow Daffodils
-- Tulips (Red/Yellow – from mix)
-- Little Beauty Botanical Tulip
-- Little Princess Botanical Tulip
-- Tarda Botanical Tulip
-- Persian Pearl Botanical Tulips
-- Drumstick Allium (Allium sphaerocephalon)
-- Bi-Color Asiatic Lily Blend
-- Pretty Woman Orienpet Lily
+Wood Hyacinths (Spanish Bells)
+ / Jeanne d’Arc Giant Crocus
+ / Crocus (Mixed – from garden set)
+ / Glory of the Snow (Chionodoxa)
+ / Grape Hyacinth (Muscari)
+ / Cantab Dwarf Iris (Iris reticulata)
+ / Grecian Windflower (Anemone blanda)
+ / Dutch Iris (Blue Iris)
+ / Yellow Daffodils
+ / Tulips (Red/Yellow – from mix)
+ / Little Beauty Botanical Tulip
+ / Little Princess Botanical Tulip
+ / Tarda Botanical Tulip
+ / Persian Pearl Botanical Tulips
+ / Drumstick Allium (Allium sphaerocephalon)
+ / Bi-Color Asiatic Lily Blend
+ / Pretty Woman Orienpet Lily
 
 
 ### Annuals
 
-| Flowers | Veg | Herb |
-|--|--|--|
-|  | Peas | |
-| Delphinium | Tomatoes | |
-| Fox Glove | Cucumber | Garlic |
-| Dahlias | Peppers | Pineapple Sage |
-| Hyacinth | Eggplant | Rosemary |
-| Amaryllis | Cantaloupe | Sweet Basil|
-| Yellow Flower? |  | Catnip |
-| Purple Spiky Flower? |  | Orange Mint |
-| White Flower Daisy? |  | Sage|
-| Orange/Yellow Flower Daisy? |  | Oregano |
-| Silver foliage with Yellow flower? | Pumpkin | |
+#### Flowers
+
+Delphinium
+ / Fox Glove
+ / Dahlias
+ / Hyacinth
+ / Amaryllis
+ / Yellow Flower?
+ / Purple Spiky Flower?
+ / White Flower Daisy?
+ / Orange/Yellow Flower Daisy?
+ / Silver foliage with Yellow flower?
+
+#### Veg
+
+Peas
+ / Tomatoes
+ / Cucumber
+ / Peppers
+ / Eggplant
+ / Cantaloupe
+ / Pumpkin
+
+#### Herb
+
+Garlic
+ / Pineapple Sage
+ / Rosemary
+ / Sweet Basil
+ / Catnip
+ / Orange Mint
+ / Sage
+ / Oregano
 
 ### Potted
 
@@ -166,6 +186,8 @@ pothos
 ## Pests
 
 ### Chemicals
+
+**NONE** - I quit using them. I use cedercide to repel insects and I'm using cedar mulch. 
 
 - Bifenthrin - to treat mulch and yard for ants and fleas [link](https://www.amazon.com/Bifenthrin-7-9-generic-Talstar-Gallon/dp/B00DGUY2LO/)
 - Relegate - keep back undergrowth and can mix with others for smaller weeds.
