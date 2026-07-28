@@ -61,11 +61,11 @@ sudo apt-get --with-new-pkgs upgrade
 ```bash
 # create a cron for recurring invoices that runs everday at 9am
 crontab -e
-0 9 * * * wget -O - https://sandbox.davidawindham.com/invoice/invoices/cron/recur/'CRON-KEY' >/dev/null 2>&1
+0 9 * * * wget -O - https://sandbox.davidwindham.com/invoice/invoices/cron/recur/'CRON-KEY' >/dev/null 2>&1
 ```
 
 
-20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidawindham.com/shall-we-play-a-game/](https:davidawindham.com/shall-we-play-a-game/):
+20/03/11 - had a DDOS issue and did some quick reconfigurations: Just making notes here wrote a post about it at [https:davidwindham.com/shall-we-play-a-game/](https:davidwindham.com/shall-we-play-a-game/):
 
 
 ```bash  
@@ -82,7 +82,7 @@ perl /usr/share/doc/libapache2-mod-evasive/examples/.pl
 RewriteEngine on
 RewriteCond %{REQUEST_METHOD} ^(CONNECT|GET|HEAD|OPTIONS|POST|PROFIND|PUT) [NC]
 #RewriteRule ^(.*)$ http://%{REMOTE_ADDR}/ [R=301,L]
-RewriteRule (.*) http://chess.davidawindham.com$1 [R=301, L]
+RewriteRule (.*) http://davidwindham.com/chess$1 [R=301, L]
 <Proxy *>
    Order deny,allow
    Deny from all
@@ -149,11 +149,11 @@ sudo vi /etc/apache2/sites-available/default.conf
    </VirtualHost>
 
 # test it
-curl -A "googlebot" https://davidawindham.com/
+curl -A "googlebot" https://davidwindham.com/
 curl -A "SemrushBot" https://code.davidawindham.com/
 curl -A "masscan" https://code.davidawindham.com/
-curl -I https://davidawindham.com/ -e http://100dollars-seo.com
-curl -I https://davidawindham.com/ -e http://zx6.ru
+curl -I https://davidwindham.com/ -e http://100dollars-seo.com
+curl -I https://davidwindham.com/ -e http://zx6.ru
 
 ## don't log longview
 /etc/apache2/conf-available/other-vhosts-access-log.conf

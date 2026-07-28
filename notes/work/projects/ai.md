@@ -99,9 +99,9 @@ I've recently started learning how to create embeddings using vector databases w
 ---
 ## References
 
-1. _Slow Thinking_ - https://davidawindham.com/slow-thinking/
-2. _A Second Brain_ - https://davidawindham.com/a-second-brain/
-3. _Artificial Intelligence_ - https://davidawindham.com/artificial-intelligence/
-4. _Artificial Intelligence (Part 2)_ - https://davidawindham.com/artificial-intelligence-2/
+1. _Slow Thinking_ - https://davidwindham.com/slow-thinking/
+2. _A Second Brain_ - https://davidwindham.com/a-second-brain/
+3. _Artificial Intelligence_ - https://davidwindham.com/artificial-intelligence/
+4. _Artificial Intelligence (Part 2)_ - https://davidwindham.com/artificial-intelligence-2/
 5. TIL SasS OpenAI - [/docs/saas/OpenAI](/docs/saas/openai)
 6. MarkPrompt - [https://markprompt.com/docs#react](https://markprompt.com/docs#react)

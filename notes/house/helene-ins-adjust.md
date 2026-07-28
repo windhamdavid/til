@@ -8,12 +8,12 @@ hide_table_of_contents: false
 # Insurance Adjuster Report
 
 :::warning[Revised Claim Estimate ]
-25/03/10 - Recieved the revised [claim estimate](https://davidawindham.com/wha/helene/Helene-State_Farm-Structural_Damage_Claim_Revised-25.3.10.pdf) 📄 which I'll [use to compare](/notes/house/helene-ins-sum.md) against the repair cost. Haven't updated the info below from the revised estimate yet.
+25/03/10 - Recieved the revised [claim estimate](https://davidwindham.com/wha/helene/Helene-State_Farm-Structural_Damage_Claim_Revised-25.3.10.pdf) 📄 which I'll [use to compare](/notes/house/helene-ins-sum.md) against the repair cost. Haven't updated the info below from the revised estimate yet.
 :::
 
 
 :::info[Claim Estimate]
-24/12/09 - Converted the [original PDF](https://davidawindham.com/wha/helene/Helene-State-Farm-Adjuster-Report.pdf) 📄 using pandoc to Markdown but left tables in HTML format because they're easier to convert. I made a couple adjustments to the headers and added page breaks so that it's easier to navigate.
+24/12/09 - Converted the [original PDF](https://davidwindham.com/wha/helene/Helene-State-Farm-Adjuster-Report.pdf) 📄 using pandoc to Markdown but left tables in HTML format because they're easier to convert. I made a couple adjustments to the headers and added page breaks so that it's easier to navigate.
 :::
 
 ---

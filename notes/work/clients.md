@@ -20,4 +20,4 @@ I value my long term relationships with clients. I have some for almost twenty y
 
 9. I like to love my work and happy clients are what make it possible. If you are in anyway known as difficult to work with, please don’t contact me.
 
-If all of these make sense to you, please head on over to my [contact page](https://davidawindham.com/contact) and let’s get started.
+If all of these make sense to you, please head on over to my [contact page](https://davidwindham.com/contact) and let’s get started.

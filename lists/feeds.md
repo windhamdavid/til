@@ -1,6 +1,6 @@
 # Feeds
 
-I needed a place to keep an ongoing list of the feeds I pull into my [feed reader](/docs/host/Miniflux). My reader syncs with my [bookmarks](/docs/host/Shaarli) which pull into my [website](https://davidawindham.com/desk). I try to focus on authors and not publishers. I prefer to 'hear it' from the source instead of secondhand information if it's a link to a secondary source, I will go there and bookmark the original. I mostly just skim for headlines that may be relevant to me. The majority of these will pick For recreational reading I use Reddit and Apple News... anything to try to avoid mindless scrolling the internet.
+I needed a place to keep an ongoing list of the feeds I pull into my [feed reader](/docs/host/Miniflux). My reader syncs with my [bookmarks](/docs/host/Shaarli) which pull into my [website](https://davidwindham.com/desk). I try to focus on authors and not publishers. I prefer to 'hear it' from the source instead of secondhand information if it's a link to a secondary source, I will go there and bookmark the original. I mostly just skim for headlines that may be relevant to me. The majority of these will pick For recreational reading I use Reddit and Apple News... anything to try to avoid mindless scrolling the internet.
 
 ## Added
 

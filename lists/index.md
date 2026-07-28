@@ -11,7 +11,7 @@ toc_min_heading_level: 2
 
 **A list of lists for non-technical stuff.**
 
-**21/12/20** - This page was originally published at [https://davidawindham.com/listing-lists/](https://davidawindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about the original post. I'm using it as a place to keep some non-technical lists. **23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
+**21/12/20** - This page was originally published at [https://davidwindham.com/listing-lists/](https://davidwindham.com/listing-lists/)<sub>1</sub>. I've moved this old repo into this TIL project to simplify. It was inspired by the first awesome list that Sindre Sorhus created which you can read about the original post. I'm using it as a place to keep some non-technical lists. **23/12/08** - Reorganized the sidebar navigation to separate out the most commonly edited lists so I could prioritize and get to them faster.
 
 
 
@@ -78,6 +78,6 @@ toc_min_heading_level: 2
 
 ## References
 
-1. _Listing Lists_ - https://davidawindham.com/listing-lists/
+1. _Listing Lists_ - https://davidwindham.com/listing-lists/
 2. Sindre Sorhus - _Awesome Lists_ - https://github.com/sindresorhus/awesome
 

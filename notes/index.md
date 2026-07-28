@@ -65,7 +65,7 @@ slug: /
 
 ## About
 
-I wrote an essay about this page @ [**davidawindham.com/a-second-brain/**](https://davidawindham.com/a-second-brain/)
+I wrote an essay about this page @ [**davidwindham.com/a-second-brain/**](https://davidwindham.com/a-second-brain/)
 
 **22/05/07** - I've separated the **technical** to [Docs](/docs/) and the **non-technical** to [Notes](index.md). As always, this Notes page started with me trying to solve something. It really bothers me for anything to take away my attention. In this case, I was trying to keep my Apple TV home screen clean so I don't have to see or surf through offers of other stuff to watch.  I curate an 'up next' list and I usually make notes that sync between my devices when someone mentions a movie or show. I usually handle this with 'quick Notes' that sync between devices. That mostly works, but the problem I'd like to have them all in one place so that I can archive and search what I've already watched much the same way I database my music listening habits. This will give me a simple searchable place to store it all without any complex APIs, databases, or whatnot. It's a work in progress :sweat_smile:.
 

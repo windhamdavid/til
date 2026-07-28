@@ -1,6 +1,6 @@
 # OpenAI
 
-After my [most recent experiments](https://davidawindham.com/artificial-intelligence-2/) with OpenAI I'm gonna need a doc for OpenAI references. I'm starting by building personal chatbot assistants for my own todo lists, calendars, and documentation because I can clearly see a useful application for some of my clients who host large amounts of internal and public documentation. Although there will likely be hundreds of service as software projects for this, I'd like to built my own so that I can better understand them. 
+After my [most recent experiments](https://davidwindham.com/artificial-intelligence-2/) with OpenAI I'm gonna need a doc for OpenAI references. I'm starting by building personal chatbot assistants for my own todo lists, calendars, and documentation because I can clearly see a useful application for some of my clients who host large amounts of internal and public documentation. Although there will likely be hundreds of service as software projects for this, I'd like to built my own so that I can better understand them. 
 
 ### Docs
 

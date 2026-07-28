@@ -6,7 +6,7 @@ The first moving picture I actually remember watching was Star Trek when I could
 
 - 24/01/27 - shared a clip of Bill Murray singing _Peace, Love, and Understanding_ from _Lost in Translation_ to some friends and got to thinking about making a collage of clips that have just stuck with me. Figured I'd need work up a list of those films first so I've added some more here alongside of [Scenes](#scenes).  
 - 23/12/18 - added Holiday Movies because I got asked for my favorites
-- 23/02/10 - wrote about [White Lotus](https://davidawindham.com/the-white-lotus/)
+- 23/02/10 - wrote about [White Lotus](https://davidwindham.com/the-white-lotus/)
 - 23/02/03 - wrote about [Once Upon a Time in Hollywood](/posts/once-upon-time-hollywood)  
 - 17/10/15 - just starting a list...perhaps at some point, I'll come back in here and rank them. 
 

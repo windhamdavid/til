@@ -37,14 +37,14 @@
 - 2002 - **Carriage** - 17 Franklin Street, Charleston SC
 - 2004 - **Bamboo** - 10450 Old Georgetown Road, McClellanville SC
 - 2009 - **Farm** - 82 Yarborough Road, Trenton SC
-- 2011 - **Wilton** - [104 Wilton Street, Greenwood SC](https://davidawindham.com/wha/wilton/)
-- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC ( [photos & renderings](https://davidawindham.com/wha/glenridge/) )
+- 2011 - **Wilton** - [104 Wilton Street, Greenwood SC](https://davidwindham.com/wha/wilton/)
+- 2016 - **Glenridge** - 102 Glenridge Circle, Greenwood SC ( [photos & renderings](https://davidwindham.com/wha/glenridge/) )
 - ???? - **Build** - [a future build](/notes/house/build)
 
 ### Glenridge
 
 ![glenridge](/img/glenridge.jpg)
-<div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>☝🏼 full size rendering is @ [/wha/glenridge](https://davidawindham.com/wha/glenridge/#render)</div>
+<div style={{display: 'flex',  justifyContent:'center', alignItems:'center', marginBottom:'20px'}}>☝🏼 full size rendering is @ [/wha/glenridge](https://davidwindham.com/wha/glenridge/#render)</div>
 
 We asked the neighborhood developer who sold the house for the architectural renderings but he didn't have them. We spoken to the original owners ( Lee & Sandra Foltz ) who had the house built in 1979 who said the house was built by Henry Reynolds. The neighborhood ( [Gatewood](https://gatewoodclub.com) ) was established on 450 acres in 1973 and is just outside the Greenwood city limits.
 
@@ -86,7 +86,7 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 ### Dining/Living
 
 - ✅ completed **Oct 2019**
-- photos @ https://davidawindham.com/wha/glenridge/#dining
+- photos @ https://davidwindham.com/wha/glenridge/#dining
 - Removing the wall between the formal/informal dining area
 - Rewireing the existing outlets to other locations ( as specified in detailed rendering )
 - Relocating the two existing floor to ceiling cabinets to the garage.

@@ -1,6 +1,6 @@
 # Macs 🐶
 
-was ~~my~~ main machine from 2013 to 2021. I'll  keep it up to date and running for general usage. The name came from [https://davidawindham.com/anthropomorphizing-machines/](https://davidawindham.com/anthropomorphizing-machines/)
+was ~~my~~ main machine from 2013 to 2021. I'll  keep it up to date and running for general usage. The name came from [https://davidwindham.com/anthropomorphizing-machines/](https://davidwindham.com/anthropomorphizing-machines/)
 
 #### notes:
 
@@ -28,7 +28,7 @@ sphp 7.2
 sphp 7.4
 
 ############### had to redo pecl in 7.4.2 -> 7.4.4 update ######
-### https://davidawindham.com/til/lang/php.html
+### https://davidwindham.com/til/lang/php.html
 
 david@macs:~ » php --ini  
 Configuration File (php.ini) Path: /usr/local/etc/php/7.4  

@@ -18,4 +18,4 @@ I'm not sure why I added this list yet... I suppose it's in the tradition of kee
 
 ### I followed on Twitter
 
-[Twitter Followed](tweets_follow)
+[Twitter Followed](/lists/tweets_follow)

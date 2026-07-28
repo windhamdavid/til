@@ -102,7 +102,7 @@ keep cracks from appearing because lower layers dry before top layers. thin lowe
 
 ## Toxic 
 
-☠️ https://davidawindham.com/black-oil-stand-oil/
+☠️ https://davidwindham.com/black-oil-stand-oil/
 
 Gamblin safety for schools - https://gamblincolors.com/studio-safety/guideforschools/
 

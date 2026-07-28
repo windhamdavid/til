@@ -152,7 +152,7 @@ david@zeke:~ » pro security-status
 SSLProtocol all -SSLv3 -TLSv1 -TLSv1.1
 ```
 
-**23.02.03** - Leaving Zeke ( this server ) on version 18.04.6 for now. EOL ( End of Life ) is April 2023, so it will also be upgraded soon. Decided to bring [Woozer](woozer) up to Ubuntu v22.04.1 first and enable the Ubuntu pro ESM ( Expanded Security Maintenance ) https://ubuntu.com/pro/tutorial  
+**23.02.03** - Leaving Zeke ( this server ) on version 18.04.6 for now. EOL ( End of Life ) is April 2023, so it will also be upgraded soon. Decided to bring [Woozer](/docs/computers/woozer) up to Ubuntu v22.04.1 first and enable the Ubuntu pro ESM ( Expanded Security Maintenance ) https://ubuntu.com/pro/tutorial  
 
 
 disable the Expanded Security Maintenance notification. 

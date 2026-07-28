@@ -1,6 +1,6 @@
 # Future Build
 
-(20/07/29) We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've got my original notes on the build and architecture @ https://davidawindham.com/architecture/
+(20/07/29) We'd like to build one more house that's single story, accessible, affordable, easy-to-maintain, and energy-efficient. Large lot, views, quiet, near quality grocery/healthcare/rec.  I've got my original notes on the build and architecture @ https://davidwindham.com/architecture/
 
 
 
@@ -46,7 +46,7 @@
 
 ![house-build](/img/house-build.jpg)
 
-<video src="https://davidawindham.com/media/house_build.mp4" width="100%" controls="controls">
+<video src="https://davidwindham.com/media/house_build.mp4" width="100%" controls="controls">
 </video>
 
 ### Inspiration
@@ -162,7 +162,7 @@ Ecusta Trail - Hendersonville to Brevard - https://www.ecustatrail.org
 
 ### Architecture
 
-Architecture - https://davidawindham.com/architecture/
+Architecture - https://davidwindham.com/architecture/
 
 - Cold Frame Steel
 

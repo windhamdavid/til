@@ -1,6 +1,6 @@
 # Lisa 📱
 
-M1 iPad Pro - on the road or couch. The name is a reference to the [1983 Apple model and Lisa Simpson](https://davidawindham.com/lisa/) which is appropriate given the amount of time spent on [_The Simpsons - Tapped Out_](https://davidawindham.com/the-simpsons/). Although it's mostly remote configuration and third party apps here, I need a place to keep some references.
+M1 iPad Pro - on the road or couch. The name is a reference to the [1983 Apple model and Lisa Simpson](https://davidwindham.com/lisa/) which is appropriate given the amount of time spent on [_The Simpsons - Tapped Out_](https://davidwindham.com/the-simpsons/). Although it's mostly remote configuration and third party apps here, I need a place to keep some references.
 
 
 ## Log

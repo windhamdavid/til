@@ -1,6 +1,6 @@
 # Video
 
-**23/08/27** - A video come through my feed from Jason Kottke and because I thought it was good, I went through my standard routine, logged in, and liked it as a sort of bookmark. I also spent a bit of time this last weekend editing video, so it got me to thinking about the ability to find previous references in one place.  I bookmark a bit through [my bookmarks](https://davidawindham.com/bookmarks), but it's not tied into my semantic search experiments like this is... so I'm migrating over here.
+**23/08/27** - A video come through my feed from Jason Kottke and because I thought it was good, I went through my standard routine, logged in, and liked it as a sort of bookmark. I also spent a bit of time this last weekend editing video, so it got me to thinking about the ability to find previous references in one place.  I bookmark a bit through [my bookmarks](https://davidwindham.com/bookmarks), but it's not tied into my semantic search experiments like this is... so I'm migrating over here.
 
 
 ### Vimeo ( ♡ likes )

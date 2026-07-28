@@ -3,7 +3,7 @@
  *
  * Production: the widget bundle (/ask/widget.js) and its API (/ask/api/ask) are
  * served by the ralph RAG/MCP server behind an Apache proxy at
- * davidawindham.com/ask/. Local dev: they're served directly by the ralph HTTP
+ * davidwindham.com/ask/. Local dev: they're served directly by the ralph HTTP
  * server on http://localhost:3001 (routes /ask/widget.js and /api/ask), so the
  * dev site loads them cross-origin from there.
  *

@@ -11,7 +11,7 @@ Although it's been forked off as Gitea, I still prefer the original version beca
 **23.07.17** - found a domain pointing at the IP proxy so I added a catch-all on the default .conf and this to code.daw to keep the content from showing under another domain.
 ```bash
 RewriteEngine on
-RewriteCond %{HTTP_HOST} !code.davidwindham.com
+RewriteCond %{HTTP_HOST} !code.davidawindham.com
 RewriteRule ^(.*)$ - [F]
 ```
 
@@ -100,9 +100,9 @@ sudo certbot delete --cert-name code.davidawindham.com
 
 # change the domain -> dns edit
 sudo a2ensite code.davidawindham.com.conf
-sudo a2dissite cd.davidawindham.com.conf
+sudo a2dissite cd.davidwindham.com.conf
 sudo systemctl reload apache2
-sudo rm cd.davidawindham.com.conf
+sudo rm cd.davidwindham.com.conf
 sudo certbot --apache -d code.davidawindham.com -d www.code.davidawindham.com
 sudo vi gogs/custom/conf/app.ini
 

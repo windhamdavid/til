@@ -4,7 +4,7 @@
 
 **26.06.24** - Going to upgrade and migrate this server sometime soon. 
 
-**23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidawindham.com/human-updates-available/).
+**23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidwindham.com/human-updates-available/).
 
 ## Log
 
@@ -87,7 +87,7 @@ scp -P (port) -C -i ~/.ssh/tempkey -p user@ip.ip.ip.ip:/home/user/file /home/use
 45.79.219.165  
 http://173.230.130.234  
 http://45.79.219.165  
-https://dev.davidawindham.com  
+https://dev.davidwindham.com  
 2600:3c02::f03c:93ff:fefc:319e  
 Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64)  
 AMD EPYC 7542 32-Core Processor  
@@ -166,8 +166,8 @@ david@ovid🏛 :~ » ssh user@173.230.130.234
 sudo vi /etc/hosts
 
 127.0.0.1       localhost
-173.230.130.234 dev.davidawindham.com
-2600:3c02::f03c:93ff:fefc:319e dev.davidawindham.com
+173.230.130.234 dev.davidwindham.com
+2600:3c02::f03c:93ff:fefc:319e dev.davidwindham.com
 
 mkdir -p ~/.ssh && sudo chmod -R 700 ~/.ssh/
 logout
@@ -349,15 +349,15 @@ mysqlcheck -o gg --user=******* --password='*******'
 
 # monitor-cron.sh
 #!/bin/sh
-awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidawindham.com/html/**********/index.html - >> /home/*******/logs/cron.log 2>&1
+awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | goaccess -a -o /var/www/dev.davidwindham.com/html/**********/index.html - >> /home/*******/logs/cron.log 2>&1
 
-goaccess /var/log/nginx/access.log -o /var/www/dev.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
+goaccess /var/log/nginx/access.log -o /var/www/dev.davidwindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/*******/logs/cron.log 2>&1
 
 # monitor-archive.sh
 #!/bin/sh
-cp /var/www/dev.davidawindham.com/html/monitor/nginx/index.html /var/www/dev.davidawindham.com/html/monitor/nginx/$(date +"%y%m%d").html
+cp /var/www/dev.davidwindham.com/html/monitor/nginx/index.html /var/www/dev.davidwindham.com/html/monitor/nginx/$(date +"%y%m%d").html
 
-cp /var/www/dev.davidawindham.com/html/monitor/index.html /var/www/dev.davidawindham.com/html/monitor/$(date +"%y%m%d").html
+cp /var/www/dev.davidwindham.com/html/monitor/index.html /var/www/dev.davidwindham.com/html/monitor/$(date +"%y%m%d").html
 
 
 
@@ -501,23 +501,23 @@ log-format %v:%^ %h %^[%d:%t %^] "%r" %s %b "%R" "%u"
 # cron to keep it updated for quick reference
 sudo vi ~/user/scripts/monitor.sh
 #! /bin/bash
-goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html >> /home/user/logs/cron.log 2>&1
-goaccess /var/log/nginx/access.log -o /var/www/dv.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/user/logs/cron.log 2>&1
+goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidwindham.com/html/monitor/index.html >> /home/user/logs/cron.log 2>&1
+goaccess /var/log/nginx/access.log -o /var/www/dv.davidwindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T' >> /home/user/logs/cron.log 2>&1
 # run daily @ 1:31am
 sudo crontab -e
 31 1  * * * /home/user/scripts/monitor.sh
 
 # Nginx log format
-sudo goaccess /var/log/nginx/access.log -o /var/www/dv.davidawindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T'
+sudo goaccess /var/log/nginx/access.log -o /var/www/dv.davidwindham.com/html/monitor/nginx/index.html --log-format='%h %^[%d:%t %^] "%r" %s %b "%R" "%u" %T'
 
 # real time output
-sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html --real-time-html
+sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidwindham.com/html/monitor/index.html --real-time-html
 
 # from command line with no output daemonized
-sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidawindham.com/html/monitor/index.html --real-time-html --daemonize > /dev/null 2>&1 &
+sudo goaccess /var/log/apache2/other_vhosts_access.log -o /var/www/dv.davidwindham.com/html/monitor/index.html --real-time-html --daemonize > /dev/null 2>&1 &
 
 # add virtual hosts to requests
-sudo awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | sudo goaccess -a -o /var/www/dv.davidawindham.com/html/monitor/index.html
+sudo awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | sudo goaccess -a -o /var/www/dv.davidwindham.com/html/monitor/index.html
 ```
 
 ### Monit
@@ -695,7 +695,7 @@ sudo vi /etc/apache2/mods-enabled
     Require local
     Require ip 127.0.0.1
     Require ip ***.**.**.**
-    Require host dev.davidawindham.com
+    Require host dev.davidwindham.com
   </Location>
   <IfModule mod_proxy.c>
     ProxyStatus on
@@ -721,7 +721,7 @@ sudo logrotate /etc/logrotate.d/apache2
 # truncate logs
 sudo truncate -s 0 /var/log/apache2/*.log
 sudo truncate -s 0 /var/log/linode/*.log
-sudo truncate -s 0 /var/www/dev.davidawindham.com/log/*.log
+sudo truncate -s 0 /var/www/dev.davidwindham.com/log/*.log
 sudo truncate -s 0 /var/www/code.davidawindham.com/log/*.log
 ```
 
@@ -821,7 +821,7 @@ sudo certbot renew --dry-run
 ```bash
 AuthName "Uh... What'cha doing?"
 AuthType Basic
-AuthUserFile /var/www/dev.davidawindham.com/.htpasswd
+AuthUserFile /var/www/dev.davidwindham.com/.htpasswd
 <RequireAny>
     Require ip 127.0.0.1
     Require valid-user
@@ -829,19 +829,19 @@ AuthUserFile /var/www/dev.davidawindham.com/.htpasswd
 ```
 
 ```bash
-sudo mkdir -p /var/www/dev.davidawindham.com/{html,log,backup}
-sudo chown david:www-data -R /var/www/dev.davidawindham.com/
-sudo chmod -R 755 /var/www/dev.davidawindham.com/html
-sudo vi /etc/apache2/sites-available/dev.davidawindham.com.conf
+sudo mkdir -p /var/www/dev.davidwindham.com/{html,log,backup}
+sudo chown david:www-data -R /var/www/dev.davidwindham.com/
+sudo chmod -R 755 /var/www/dev.davidwindham.com/html
+sudo vi /etc/apache2/sites-available/dev.davidwindham.com.conf
 
 <VirtualHost *:80>
   ServerAdmin web@davidwindham.com
-  ServerName dev.davidawindham.com
-  ServerAlias www.dev.davidawindham.com
+  ServerName dev.davidwindham.com
+  ServerAlias www.dev.davidwindham.com
   DirectoryIndex index.html index.php
-  Documentroot /var/www/dev.davidawindham.com/html
+  Documentroot /var/www/dev.davidwindham.com/html
 
-  <Directory /var/www/dev.davidawindham.com/html>
+  <Directory /var/www/dev.davidwindham.com/html>
     Options Indexes FollowSymLinks
     DirectoryIndex index.html index.php
     AllowOverride All
@@ -864,19 +864,19 @@ sudo vi /etc/apache2/sites-available/dev.davidawindham.com.conf
   SetEnvIf Remote_Addr "::1" dontlog
   SetEnvIf Request_URI "^/server-status*$" dontlog
   SetEnvIf Request_URI "^/monit/$" dontlog
-  ErrorLog /var/www/dev.davidawindham.com/log/error.log
-  CustomLog /var/www/dev.davidawindham.com/log/access.log combined env=!dontlog
+  ErrorLog /var/www/dev.davidwindham.com/log/error.log
+  CustomLog /var/www/dev.davidwindham.com/log/access.log combined env=!dontlog
   CustomLog ${APACHE_LOG_DIR}/other_vhosts_access.log vhost_combined env=!dontlog
 </VirtualHost>
 
-sudo a2ensite dev.davidawindham.com.conf
-sudo certbot --apache -d dev.davidawindham.com -d www.dev.davidawindham.com
+sudo a2ensite dev.davidwindham.com.conf
+sudo certbot --apache -d dev.davidwindham.com -d www.dev.davidwindham.com
 
 <VirtualHost *:443>
 ...
 Include /etc/letsencrypt/options-ssl-apache.conf
-SSLCertificateFile /etc/letsencrypt/live/dev.davidawindham.com/fullchain.pem
-SSLCertificateKeyFile /etc/letsencrypt/live/dev.davidawindham.com/privkey.pem
+SSLCertificateFile /etc/letsencrypt/live/dev.davidwindham.com/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/dev.davidwindham.com/privkey.pem
 </VirtualHost>
 
 sudo systemctl restart apache2

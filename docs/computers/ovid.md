@@ -2,7 +2,7 @@
 
 ## Notes
 
-11/23/21 - I wrote a quick post about why I purchased it and why I named it Ovid @ [https://davidawindham.com/ovid](https://davidawindham.com/ovid) and I'll document the rest of the it here. Picked him up from the Apple Store. Moved my old laptop so that I could share the screen for referencing configuration. Booted her up and loaded up activity monitor and command line top to watch the processes. I always avoid using the migration assistant so that I can start clean. My main goal is to keep the machine as minimal and simple as possible. I am going to try and avoid running any x86 processes under Rosetta in my attempt to go fully ARM [https://davidawindham.com/arm/](https://davidawindham.com/arm/).
+11/23/21 - I wrote a quick post about why I purchased it and why I named it Ovid @ [https://davidwindham.com/ovid](https://davidwindham.com/ovid) and I'll document the rest of the it here. Picked him up from the Apple Store. Moved my old laptop so that I could share the screen for referencing configuration. Booted her up and loaded up activity monitor and command line top to watch the processes. I always avoid using the migration assistant so that I can start clean. My main goal is to keep the machine as minimal and simple as possible. I am going to try and avoid running any x86 processes under Rosetta in my attempt to go fully ARM [https://davidwindham.com/arm/](https://davidwindham.com/arm/).
 
 &nbsp;
 
