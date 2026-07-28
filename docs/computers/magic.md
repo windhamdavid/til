@@ -1,10 +1,10 @@
 # Magic 🖥
 
 My secondary machine ( i7 mac mini )  
-My current main machine is [Macs](macs)  
-**[https://davidawindham.com/mac-mini/](https://davidawindham.com/mac-mini/)**  
-**[https://davidawindham.com/anthropomorphizing-machines/](https://davidawindham.com/anthropomorphizing-machines/)**  
-**[https://davidawindham.com/arm/](https://davidawindham.com/arm/)**
+My current main machine is [Macs](/docs/computers/macs)  
+**[https://davidwindham.com/mac-mini/](https://davidwindham.com/mac-mini/)**  
+**[https://davidwindham.com/anthropomorphizing-machines/](https://davidwindham.com/anthropomorphizing-machines/)**  
+**[https://davidwindham.com/arm/](https://davidwindham.com/arm/)**
 
 ### Notes:
 **22/11/8** - Preparing for my annual machine cleaning and migration to ARM.  In doing so, I've moved the magic mini up to the office to act as a server on which to drop my development projects during the migration. I previously had used the mini as a media server in the den but I've found that it's easier to user AirPlay from a tablet.  I'll leave a breadcrumb trail here of the specifics as a reference. 

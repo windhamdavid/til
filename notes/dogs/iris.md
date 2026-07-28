@@ -1,6 +1,6 @@
 # Iris
 
-I wrote a post about Iris @ https://davidawindham.com/iris
+I wrote a post about Iris @ https://davidwindham.com/iris
 
 ## Log
 
@@ -13,7 +13,7 @@ I wrote a post about Iris @ https://davidawindham.com/iris
 - 23/06/09 - 12 Weeks  
   - Cautious but confident. Understands "No, Yes, Sit, Come, Here and her name". Decent recall off leash. Eats everything. Gets testy in the afternoons and wants to chew and nip. 
   - will have last round of vaccines next week.
-  - added updated 12 week photos @ https://davidawindham.com/iris/
+  - added updated 12 week photos @ https://davidwindham.com/iris/
 - 23.03.09 - Puppies Born 👈🏼
 - 23.03.10 - 60 day due date
 - 23.04.22 - 6 week litter pick 

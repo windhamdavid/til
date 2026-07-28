@@ -6,14 +6,14 @@
 
 **24/11/01** - Master bath remodel project involves combining two bathrooms, adding double doors, removing two closets, and converting a bedroom to a dressing room walk in. The secondary vanity in the master was a previous addition which will be removed. Ginny will be taking the upstairs office and I will be moving mine into the [den studio](/notes/house/studio). 
 
-📷 **photos** @ https://davidawindham.com/wha/glenridge/#bath
+📷 **photos** @ https://davidwindham.com/wha/glenridge/#bath
 
 ![glenridge-dressing](/img/glenridge-bath-dressing.jpg)
 
 ## Log
 
 - **main** construction log is @ [/notes/house/helene](/notes/house/helene)
-- **25/06/11** - Demolition ( [photos](https://davidawindham.com/wha/glenridge/#bath) )
+- **25/06/11** - Demolition ( [photos](https://davidwindham.com/wha/glenridge/#bath) )
 - **25/06/03** - Quarle's / Snead's supply shopping - tile, carpet, and hardware
 - **25/06/02** - Demolition begun
 - **25/03/18** - meeting with plumber re: adding gas tankless water heater - put in a CPW request for gas lines since contractor recommended over electric

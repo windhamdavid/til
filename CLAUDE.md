@@ -5,7 +5,7 @@ Guidance for Claude Code when working in this repository.
 ## What this is
 
 **TIL ("Today I Learned")** — David Windham's personal knowledge base and notes
-site, published at https://davidawindham.com/til/ (baseUrl `/til/`). It's a place
+site, published at https://davidwindham.com/til/ (baseUrl `/til/`). It's a place
 to store notes, documentation, lists, and posts. Built with
 [Docusaurus](https://docusaurus.io/) v3.10.x (React 18). Content is Markdown/MDX,
 authored partly through Obsidian (each content dir may have a git-ignored

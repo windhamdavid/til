@@ -219,7 +219,7 @@ It reminds me of being in school and the many years bringing my wife lunch, who 
 
 And if you are able could you send me a picture of you from your shoulders and up? 
 
-I do not have a headshot, but here’s a photo of me playing tennis. - https://davidawindham.com/collaboration-vs-competition/
+I do not have a headshot, but here’s a photo of me playing tennis. - https://davidwindham.com/collaboration-vs-competition/
 
 
 I’m happy to be coaching the Emerald High School Tennis teams. Even though I have a lot of tennis experience, I am relatively new to coaching. In 2022, I was asked to be assistant coach by the previous coach and the athletic director at Emerald asked me if I’d be interested in becoming head coach in 2022. I work as an independent software and web developer so my schedule is gracious enough to allow me to coach and play tennis. I’ve found great rewards from watching the kids learn and grow. I grew up in Columbia and played a lot of tennis as a junior becoming all-region in high school and state-ranked. I had some really good coaches as a junior and a scholarship to play tennis at Lander. At the time, I told my parents that ‘I didn’t want to live in Greenwood’, so it’s funny how things work out. I started back playing tennis about six years ago for the health benefits. Tennis is a very rewarding and demanding sport both physically and mentally. My approach is that I want them to grow as players who are able to have fun in the process. Ginny, my wife, also plays tennis and will be my assistant coach. She is the director of Special Education for Greenwood District 50. Ginny previously worked as the lead psychologist for the district and had an office at Emerald for many years.

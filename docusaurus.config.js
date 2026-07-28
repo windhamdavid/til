@@ -7,6 +7,7 @@ export default {
   tagline: 'Because Today I Learned',
   url: 'https://davidwindham.com',
   baseUrl: '/til/',
+  trailingSlash: true,
   favicon: 'img/favicon.ico',
   organizationName: 'windhamdavid',
   projectName: 'til',

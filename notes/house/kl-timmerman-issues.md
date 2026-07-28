@@ -1,6 +1,6 @@
 ---
 title: Renovation Notes
-image: https://davidawindham.com/wha/helene-1.jpg
+image: https://davidwindham.com/wha/helene-1.jpg
 hide_table_of_contents: true
 ---
 

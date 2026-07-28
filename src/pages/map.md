@@ -223,66 +223,66 @@ flowchart LR
   LISTS --> LS_QUOT["Quotes"]
   LISTS --> LS_WORDS["Words"]
 
-  click ROOT "https://davidawindham.com" _blank
+  click ROOT "https://davidwindham.com" _blank
   click DWCOM "https://davidwindham.com" _blank
-  click ABOUT "https://davidawindham.com/about" _blank
-  click DESK "https://davidawindham.com/desk" _blank
+  click ABOUT "https://davidwindham.com/about" _blank
+  click DESK "https://davidwindham.com/desk" _blank
   click CODE "https://code.davidawindham.com" _blank
-  click CONTACT "https://davidawindham.com/contact" _blank
-  click STUDIO "https://davidawindham.com/studio" _blank
-  click TIL "https://davidawindham.com/til/" _blank
+  click CONTACT "https://davidwindham.com/contact" _blank
+  click STUDIO "https://davidwindham.com/studio" _blank
+  click TIL "https://davidwindham.com/til/" _blank
 
-  click AI "https://davidawindham.com/til/ai" _blank
-  click DOCS "https://davidawindham.com/til/docs/" _blank
-  click NOTES "https://davidawindham.com/til/notes/" _blank
-  click LISTS "https://davidawindham.com/til/lists/" _blank
-  click POSTS "https://davidawindham.com/til/posts/" _blank
-  click HELP "https://davidawindham.com/til/help" _blank
+  click AI "https://davidwindham.com/til/ai" _blank
+  click DOCS "https://davidwindham.com/til/docs/" _blank
+  click NOTES "https://davidwindham.com/til/notes/" _blank
+  click LISTS "https://davidwindham.com/til/lists/" _blank
+  click POSTS "https://davidwindham.com/til/posts/" _blank
+  click HELP "https://davidwindham.com/til/help" _blank
 
-  click DC_COMP "https://davidawindham.com/til/docs/computers/kos" _blank
-  click DC_DATA "https://davidawindham.com/til/docs/data/data" _blank
-  click DC_DB "https://davidawindham.com/til/docs/db/MongoDB" _blank
-  click DC_ED "https://davidawindham.com/til/docs/editors/atom" _blank
-  click DC_FW "https://davidawindham.com/til/docs/waf/deno" _blank
-  click DC_LANG "https://davidawindham.com/til/docs/lang/Golang" _blank
-  click DC_SAAS "https://davidawindham.com/til/docs/saas/akamai" _blank
-  click DC_SRV "https://davidawindham.com/til/docs/server/apache" _blank
-  click DC_HOST "https://davidawindham.com/til/docs/host/Discourse" _blank
-  click DC_SHELL "https://davidawindham.com/til/docs/shell/dotfiles" _blank
-  click DC_SW "https://davidawindham.com/til/docs/localhost/macos" _blank
-  click DC_VER "https://davidawindham.com/til/docs/editors/git" _blank
+  click DC_COMP "https://davidwindham.com/til/docs/computers/kos" _blank
+  click DC_DATA "https://davidwindham.com/til/docs/data/data" _blank
+  click DC_DB "https://davidwindham.com/til/docs/db/MongoDB" _blank
+  click DC_ED "https://davidwindham.com/til/docs/editors/atom" _blank
+  click DC_FW "https://davidwindham.com/til/docs/waf/deno" _blank
+  click DC_LANG "https://davidwindham.com/til/docs/lang/Golang" _blank
+  click DC_SAAS "https://davidwindham.com/til/docs/saas/akamai" _blank
+  click DC_SRV "https://davidwindham.com/til/docs/server/apache" _blank
+  click DC_HOST "https://davidwindham.com/til/docs/host/Discourse" _blank
+  click DC_SHELL "https://davidwindham.com/til/docs/shell/dotfiles" _blank
+  click DC_SW "https://davidwindham.com/til/docs/localhost/macos" _blank
+  click DC_VER "https://davidwindham.com/til/docs/editors/git" _blank
 
-  click NT_ART "https://davidawindham.com/til/notes/art/art" _blank
-  click NT_DOGS "https://davidawindham.com/til/notes/dogs/dogs" _blank
-  click NT_GAR "https://davidawindham.com/til/notes/garden/garden" _blank
-  click NT_HOUSE "https://davidawindham.com/til/notes/house/house" _blank
-  click NT_WORK "https://davidawindham.com/til/notes/work/work" _blank
+  click NT_ART "https://davidwindham.com/til/notes/art/art" _blank
+  click NT_DOGS "https://davidwindham.com/til/notes/dogs/dogs" _blank
+  click NT_GAR "https://davidwindham.com/til/notes/garden/garden" _blank
+  click NT_HOUSE "https://davidwindham.com/til/notes/house/house" _blank
+  click NT_WORK "https://davidwindham.com/til/notes/work/work" _blank
 
-  click LS_NOW "https://davidawindham.com/til/lists/now/now" _blank
-  click LS_LEARN "https://davidawindham.com/til/lists/now/learning" _blank
-  click LS_LISTEN "https://davidawindham.com/til/lists/now/listening" _blank
-  click LS_PLAY "https://davidawindham.com/til/lists/now/playing" _blank
-  click LS_READ "https://davidawindham.com/til/lists/now/reading" _blank
-  click LS_WATCH "https://davidawindham.com/til/lists/now/watching" _blank
-  click LS_NEXT "https://davidawindham.com/til/lists/next" _blank
-  click LS_TODO "https://davidawindham.com/til/lists/todo" _blank
-  click LS_GROC "https://davidawindham.com/til/lists/food/grocery" _blank
-  click LS_SHOP "https://davidawindham.com/til/lists/shopping" _blank
-  click LS_ART "https://davidawindham.com/til/lists/art/art" _blank
-  click LS_LIT "https://davidawindham.com/til/lists/art/lit" _blank
-  click LS_MOT "https://davidawindham.com/til/lists/art/motion" _blank
-  click LS_MUS "https://davidawindham.com/til/lists/art/music/music" _blank
-  click LS_VIS "https://davidawindham.com/til/lists/art/visual" _blank
-  click LS_CON "https://davidawindham.com/til/lists/concepts" _blank
-  click LS_DES "https://davidawindham.com/til/lists/design" _blank
-  click LS_FEED "https://davidawindham.com/til/lists/feeds" _blank
-  click LS_LISTS "https://davidawindham.com/til/lists/lists" _blank
-  click LS_PLACES "https://davidawindham.com/til/lists/places/places" _blank
-  click LS_PEOPLE "https://davidawindham.com/til/lists/people" _blank
-  click LS_THINGS "https://davidawindham.com/til/lists/things" _blank
-  click LS_TRIV "https://davidawindham.com/til/lists/trivia" _blank
-  click LS_TWEET "https://davidawindham.com/til/lists/tweets" _blank
-  click LS_QUOT "https://davidawindham.com/til/lists/quotes" _blank
-  click LS_WORDS "https://davidawindham.com/til/lists/words" _blank
+  click LS_NOW "https://davidwindham.com/til/lists/now/now" _blank
+  click LS_LEARN "https://davidwindham.com/til/lists/now/learning" _blank
+  click LS_LISTEN "https://davidwindham.com/til/lists/now/listening" _blank
+  click LS_PLAY "https://davidwindham.com/til/lists/now/playing" _blank
+  click LS_READ "https://davidwindham.com/til/lists/now/reading" _blank
+  click LS_WATCH "https://davidwindham.com/til/lists/now/watching" _blank
+  click LS_NEXT "https://davidwindham.com/til/lists/next" _blank
+  click LS_TODO "https://davidwindham.com/til/lists/todo" _blank
+  click LS_GROC "https://davidwindham.com/til/lists/food/grocery" _blank
+  click LS_SHOP "https://davidwindham.com/til/lists/shopping" _blank
+  click LS_ART "https://davidwindham.com/til/lists/art/art" _blank
+  click LS_LIT "https://davidwindham.com/til/lists/art/lit" _blank
+  click LS_MOT "https://davidwindham.com/til/lists/art/motion" _blank
+  click LS_MUS "https://davidwindham.com/til/lists/art/music/music" _blank
+  click LS_VIS "https://davidwindham.com/til/lists/art/visual" _blank
+  click LS_CON "https://davidwindham.com/til/lists/concepts" _blank
+  click LS_DES "https://davidwindham.com/til/lists/design" _blank
+  click LS_FEED "https://davidwindham.com/til/lists/feeds" _blank
+  click LS_LISTS "https://davidwindham.com/til/lists/lists" _blank
+  click LS_PLACES "https://davidwindham.com/til/lists/places/places" _blank
+  click LS_PEOPLE "https://davidwindham.com/til/lists/people" _blank
+  click LS_THINGS "https://davidwindham.com/til/lists/things" _blank
+  click LS_TRIV "https://davidwindham.com/til/lists/trivia" _blank
+  click LS_TWEET "https://davidwindham.com/til/lists/tweets" _blank
+  click LS_QUOT "https://davidwindham.com/til/lists/quotes" _blank
+  click LS_WORDS "https://davidwindham.com/til/lists/words" _blank
 ```
 

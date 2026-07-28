@@ -25,7 +25,7 @@
 * Upstream master [https://github.com/laravel/laravel](https://github.com/laravel/laravel)  
 
 ### Links
-* Laravel Cheatsheet [https://davidawindham.com/til/host/laravel.html](https://davidawindham.com/til/host/laravel.html)
+* Laravel Cheatsheet [https://davidwindham.com/til/host/laravel.html](https://davidwindham.com/til/host/laravel.html)
 * Laravel Documentation [https://laravel.com/docs/5.7/](https://laravel.com/docs/5.7/)
 
 ### References

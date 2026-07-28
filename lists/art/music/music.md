@@ -12,7 +12,7 @@ I listen to quite a bit of music and I like all the kinds. I like to listen when
 
 ## Now
 
-Since about 2011, I've tracked almost most all of my listening habits and I pull that information into a page on my personal website. If you want to see an overview of what I'm listening to [**right now**](https://davidawindham.com/studio/music) @ [https://davidawindham.com/studio/music](https://davidawindham.com/studio/music). I'd imagine that these lists will grow to the thousands of tracks, so I'm only adding favorite artists when I remind myself how much I enjoy their music and I'll go in and try to rank them at some point.  
+Since about 2011, I've tracked almost most all of my listening habits and I pull that information into a page on my personal website. If you want to see an overview of what I'm listening to [**right now**](https://davidwindham.com/studio/music) @ [https://davidwindham.com/studio/music](https://davidwindham.com/studio/music). I'd imagine that these lists will grow to the thousands of tracks, so I'm only adding favorite artists when I remind myself how much I enjoy their music and I'll go in and try to rank them at some point.  
 
 ## Playlists
 

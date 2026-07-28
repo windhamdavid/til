@@ -1,6 +1,6 @@
 
 
-[https://photo.davidawindham.com/](https://photo.davidawindham.com/)  
+[https://davidwindham.com/photo/](https://davidwindham.com/photo/)  
 [https://code.davidawindham.com/david/lychee](https://code.davidawindham.com/david/lychee)  
 ~~[https://github.com/electerious/Lychee](https://github.com/electerious/Lychee)~~  
 [https://github.com/LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee)  
@@ -119,5 +119,5 @@ david@macs:~/sites/lychee/src(dw⚡) » git status
 
 resolve Unmerged paths -> commit & Push
 
-david@woozer:/var/www/photo.davidawindham.com/html(dw○) » git pull origin dw
+david@woozer:/var/www/davidwindham.com/photo/html(dw○) » git pull origin dw
 ```

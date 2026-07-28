@@ -2,9 +2,9 @@
 
 # Tweets
 
-I wrote an essay about this page at **[https://davidawindham.com/twitter](https://davidawindham.com/twitter)**. 
+I wrote an essay about this page at **[https://davidwindham.com/twitter](https://davidwindham.com/twitter)**. 
 
-I mostly quit using Twitter and this is a list of my tweets ( [https://twitter.com/windhamdavid](https://twitter.com/windhamdavid) ) in chronological order starting with the first. I also made a list of the [people I followed](tweets_follow) so that I could pull most of them into another platform. 
+I mostly quit using Twitter and this is a list of my tweets ( [https://twitter.com/windhamdavid](https://twitter.com/windhamdavid) ) in chronological order starting with the first. I also made a list of the [people I followed](/lists/tweets_follow) so that I could pull most of them into another platform. 
 
 According to my archive, over 15 years I had:  
 **828** Tweets, **78** Likes, **88** Blocked accounts, & **3** Muted accounts. 
@@ -192,7 +192,7 @@ According to my archive, over 15 years I had:
 |the chickens came in the mail today.. only one doa.|2009-02-23|
 |@iammattthomas - yes on the bullshit branding agencies!!..  ps. I was in the Ogelthorpe dorm same year. I think we've met back in 91|2009-02-23|
 |"@MCHammer - whoa - slow down hammer, don't hurt em."|2009-02|
-|the chickens are cute - http://davidawindham.com/images/chickens.jpg|2009-02-23|
+|the chickens are cute - http://davidwindham.com/images/chickens.jpg|2009-02-23|
 |if only these two went together - http://jobs.37signals.com/jobs/4877 and http://tinyurl.com/cr8zj8|2009-02-25|
 |"something seems weird about feeding eggs to chickens, but they really seem to like them."|2009-02-25|
 |Guassian helps with aliasing artifacts but is also the formula for a fuzzy financial future - http://en.wikipedia.org/wiki/David_X._Li|2009-02-26|
@@ -229,7 +229,7 @@ According to my archive, over 15 years I had:
 |@TheASF Happy 10th Birthday - http://www.apache.org/ - wishing I was in Amsterdam for Apachecon and the hashish :\ |2009-03-26|
 |"@smithk14 thks for the serious distraction, I just installed Wolfenstein 3D on my iphone - http://www.idsoftware.com/wolfenstein3dclassic/"|2009-03-26|
 |@plutado http://drupal.org is (still) down.|2009-03-26|
-|that's enough textmate time.  I just can't get it rolling.  I'm going to work on a painting - http://davidawindham.com/demiurgic/img/art.gif|2009-03-26|
+|that's enough textmate time.  I just can't get it rolling.  I'm going to work on a painting - http://davidwindham.com/demiurgic/img/art.gif|2009-03-26|
 |@apeatling you must be traveling.. it's way too late in BC to be working?|2009-03-27|
 |"In fact, adults are exposed to screens for about 8.5 hours on any given day - http://www.nytimes.com/2009/03/27/business/media/27adco.html"|2009-03-27|
 |"@apeatling @donncha @photomatt how about this idea. wpmu and buddypress could be modified to work as a VLE, like Moodle and Blackboard"|2009-03-27|
@@ -255,7 +255,7 @@ According to my archive, over 15 years I had:
 |RT @smithk14 Amazon managed Hadoop infrastructure? This could be quite interesting. http://tr.im/i8NP|2009-04-02|
 |"RT @jasonbradford "Twitter is real life, it's not a game. People can get hurt" The opening line for my Twoap-Opera, Twubble In Twitterville."|2009-04-02|
 |@danbenjamin- yes|2009-04-03|
-|"this is a note i wrote in 3rd grade, something was poisoning my brain? - http://davidawindham.com/images/in_the_future.jpg"|2009-04-03|
+|"this is a note i wrote in 3rd grade, something was poisoning my brain? - http://davidwindham.com/images/in_the_future.jpg"|2009-04-03|
 |"is building an iphone app for farming.  Watch out all you tractor driving, overall wearing, iphone toting farmers out there."|2009-04-08|
 |is working on a three letter domain for the first time ever.|2009-04-09|
 |is taking advantage of the push notification in the iphone 3.0 SDK|2009-04-11|

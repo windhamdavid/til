@@ -8,6 +8,6 @@
 
 ## see also 
 
-- https://davidawindham.com/automobiles/
-- https://davidawindham.com/its-electric/
+- https://davidwindham.com/automobiles/
+- https://davidwindham.com/its-electric/
 

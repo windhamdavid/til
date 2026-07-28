@@ -30,7 +30,7 @@ function BlogListPageContent(props) {
   return (
     <BlogLayout sidebar={sidebar}>
       <h1>Posts</h1>
-      <p>( 22/11/28 ) I'm using these posts to make chronological thoughts, ideas, opinions and 'today I learned(s)' for  items that don't necessarily need to reference at a later point like my <a href="https://davidawindham.com/til/docs">docs</a>, <a href="https://davidawindham.com/til/lists">lists</a>, and <a href="https://davidawindham.com/til/notes">notes</a>. And because it's faster than writing posts for my <a href="https://davidawindham.com/desk">desk page</a>, I tend to use it more often for jotting down quick posts or drafting longer posts that'll end up on my <a href="https://davidawindham.com/desk">desk</a>.</p>
+      <p>( 22/11/28 ) I'm using these posts to make chronological thoughts, ideas, opinions and 'today I learned(s)' for  items that don't necessarily need to reference at a later point like my <a href="https://davidwindham.com/til/docs">docs</a>, <a href="https://davidwindham.com/til/lists">lists</a>, and <a href="https://davidwindham.com/til/notes">notes</a>. And because it's faster than writing posts for my <a href="https://davidwindham.com/desk">desk page</a>, I tend to use it more often for jotting down quick posts or drafting longer posts that'll end up on my <a href="https://davidwindham.com/desk">desk</a>.</p>
       <hr/>
       <br/>
       <BlogPostItems items={items} />

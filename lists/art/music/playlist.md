@@ -12,7 +12,7 @@ tags:
 
 ### Ham
 
-I made this playlist for  [https://davidawindham.com/net-jockey/](https://davidawindham.com/net-jockey/), [https://the-ham.org](https://the-ham.org), & [http://radio.davidawindham.com](http://radio.davidawindham.com),
+I made this playlist for  [https://davidwindham.com/net-jockey/](https://davidwindham.com/net-jockey/), [https://the-ham.org](https://the-ham.org), & [http://davidwindham.com/radio](http://davidwindham.com/radio),
 
 |Artist(s)|Track|Album|
 |---|---|---|
@@ -116,7 +116,7 @@ I made this playlist for  [https://davidawindham.com/net-jockey/](https://davida
 
 ### Kris
 
-I made this playlist for [https://davidawindham.com/kristopher-roland-windham/](https://davidawindham.com/kristopher-roland-windham/)
+I made this playlist for [https://davidwindham.com/kristopher-roland-windham/](https://davidwindham.com/kristopher-roland-windham/)
 
 Artist(s) | Track | Album
 ---|---|---
@@ -214,7 +214,7 @@ Grateful Dead | Stella Blue - 2013 Remaster | Wake of the Flood (2013 Remaster)
 
 ### Greasy
 
-I made this playlist for [https://davidawindham.com/greasy-medlin/](https://davidawindham.com/greasy-medlin/)
+I made this playlist for [https://davidwindham.com/greasy-medlin/](https://davidwindham.com/greasy-medlin/)
 
 |Artist(s)|Track|Album|
 |---|---|---|

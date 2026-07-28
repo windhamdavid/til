@@ -1,6 +1,6 @@
 ---
 title: Hurricane Helene
-image: https://davidawindham.com/wha/helene-1.jpg
+image: https://davidwindham.com/wha/helene-1.jpg
 ---
 
 # Helene
@@ -11,7 +11,7 @@ image: https://davidawindham.com/wha/helene-1.jpg
 
 **24/10/05** - Hurricane Helene rolled through last week and did some damage mainly from the three and a half ton oak tree that fell on the house. I'm taking photos and making notes here to keep up with the details. I wrote up a post @ [/posts/hurricane-helene](/posts/hurricane-helene)
 
-Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene) 
+Photos 📷 @ [/wha/glenridge/#helene](https://davidwindham.com/wha/glenridge/#helene) 
 
 *This project spurred on two additional projects because we decided to renovate the bathroom in the process and we had to move my office for the work. We're using the same general contractor and I'm documenting them separately @ [/notes/house/bath](/notes/house/bath) & [/notes/house/studio](/notes/house/studio)
 
@@ -81,7 +81,7 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 - **24/07/10-11** - [Exterior](/notes/house/helene) exterior paint
 - **25/07/10** - Electrician - adjust hall outlet
 - **25/07/07** - Drywall Mud ( 2 days ) / Adjust kneewall
-- **24/07/02** - [Master](/notes/house/bath) drywall up [📷](https://davidawindham.com/wha/glenridge/#bath)
+- **24/07/02** - [Master](/notes/house/bath) drywall up [📷](https://davidwindham.com/wha/glenridge/#bath)
 - **25/06/30-7/1** - [Master](/notes/house/bath) electrical
 - **25/06/26** - Electrician/GC on site
 - **25/06/17-20** - [Master](/notes/house/bath) plumbing
@@ -107,7 +107,7 @@ Photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#
 - **25/02/12** - Cabinet guy ( Kenny Talley ) over for measurements
 - **25/02/11** - Submitted general contractor repair 🧾 estimate and tarp bill to State Farm claims portal
 - **25/02/06** - trusses delivered
-- **25/01/20** - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidawindham.com/wha/glenridge/#helene)
+- **25/01/20** - added additional damage photos 📷 @ [/wha/glenridge/#helene](https://davidwindham.com/wha/glenridge/#helene)
 - **24/12/06** - truss manufacturer backlogged - was told "12 weeks out"
 - **24/11/13** - Beth over for design measurements
 - **24/11/11** - subs over for measurements / estimates

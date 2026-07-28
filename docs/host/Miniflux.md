@@ -1,8 +1,8 @@
 # MiniFlux
 
-[davidawindham.com/reader](https://davidawindham.com/reader)
+[davidwindham.com/reader](https://davidwindham.com/reader)
 
-I use miniflux as my feed reader. It's fast, has keyboard shortcuts, and the database stays tiny. It saves me a lot of time from aimlessly scrolling the web and it allows me to share my bookmarks with my [bookmarking tool](Shaarli) so that I can tag and categorize content. It keeps me from using the 'follow' model at other sites.  I try to focus on the authors and not large publishers. I prefer a minimal amount of content over the firehose.  I pull in feeds from various websites, podcasts, substack, twitter, medium, and elsewhere. 
+I use miniflux as my feed reader. It's fast, has keyboard shortcuts, and the database stays tiny. It saves me a lot of time from aimlessly scrolling the web and it allows me to share my bookmarks with my [bookmarking tool](/docs/host/Shaarli) so that I can tag and categorize content. It keeps me from using the 'follow' model at other sites.  I try to focus on the authors and not large publishers. I prefer a minimal amount of content over the firehose.  I pull in feeds from various websites, podcasts, substack, twitter, medium, and elsewhere. 
 
 ### Docs 
 

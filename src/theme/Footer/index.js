@@ -96,7 +96,7 @@ const HTML = `<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-
 								<li><a href="/desk/archive" title="Archive"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-box-archive"></use></svg> Archive</a></li>
 								<li><a href="/studio/music/"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-microphone"></use></svg> Audio</a></li>
 								<li><a href="https://davidwindham.com/rtc"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-comment"></use></svg> Chat</a></li>
-								<li><a href="http://chess.davidwindham.com"><span class="chess-html">&#9814;</span> Chess</a></li>
+								<li><a href="http://davidwindham.com/chess"><span class="chess-html">&#9814;</span> Chess</a></li>
 								<li><a href="http://code.davidawindham.com"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-code"></use></svg> Code</a></li>
 								<li><a href="/contact"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-envelope"></use></svg> Contact</a></li>
 							</ul>
@@ -109,12 +109,12 @@ const HTML = `<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-
 								<li><a href="/"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-house"></use></svg> Home</a></li>
 								<li><a href="/studio/art/" title="Art"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-paintbrush"></use></svg> Paint</a></li>
 								<li><a href="/pay"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-credit-card"></use></svg> Pay</a></li>
-								<li><a href="http://photo.davidwindham.com" title="Photo"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-camera-retro"></use></svg> Photo</a></li>
+								<li><a href="http://davidwindham.com/photo" title="Photo"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-camera-retro"></use></svg> Photo</a></li>
 							</ul>
 						</div>
 						<div class="col-4">
 							<ul class="footer-links">
-								<li><a href="http://radio.davidawindham.com"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-microphone"></use></svg> Radio</a></li>
+								<li><a href="http://davidwindham.com/radio"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-microphone"></use></svg> Radio</a></li>
 								<li><a href="/shop"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-credit-card"></use></svg> Shop</a></li>
 								<li><a href="/sitemap"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-sitemap"></use></svg> Sitemap</a></li>
 								<li><a href="/about/analytics/" title="analytics"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-gauge"></use></svg> Stats</a></li>

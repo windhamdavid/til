@@ -1,6 +1,6 @@
 # ToDo
 
-**23.05.31** - I added this page as a copy of my Reminders. I detailed my workflow in https://davidawindham.com/slow-thinking/. **23/12/08** -  made an Apple Shortcut to export them to markdown and consolidate the **ToDo(ne)** list here.
+**23.05.31** - I added this page as a copy of my Reminders. I detailed my workflow in https://davidwindham.com/slow-thinking/. **23/12/08** -  made an Apple Shortcut to export them to markdown and consolidate the **ToDo(ne)** list here.
 
 ---
 
@@ -19,7 +19,7 @@
   - CM (Dec) - server/site migrations
 - [Zeke](/docs/computers/zeke)/ [Woozie](/docs/computers/woozie)
   - Cache policies / Ubuntu 22 / Redis Auth / PostGres PGVector
-  - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidawindham.com)
+  - [AI](/notes/work/projects/ai) - retrieval from Github actions / switch [ai.daw](https://ai.davidwindham.com)
   - replace OpenAI API keys with project keys
 - [Tennis](/notes/play/tennis) - Boys Season (Jan) roster schedule / Swing vision app
 
@@ -93,7 +93,7 @@
 | 23/07 - [add Stripe to GG](/docs/computers/zeke)
 | 23/07 - [remove motion sensor on floods](/notes/house)
 | 23/07 - [migrate gogs](/lists/index.md)
-| 23/07 - [essay on 'second brain'](https://davidawindham.com/a-second-brain/)
+| 23/07 - [essay on 'second brain'](https://davidwindham.com/a-second-brain/)
 | 23/02 - [azelea bed](/notes/garden)
 | 23/01 - [Annual Invoicing](/notes/work)
 | 23/07 - [transfer SSL certs](/docs/computers/zeke)
@@ -101,4 +101,4 @@
 | 23/07 - [pine straw](/notes/house)
 | 22/07 - [new fire alarm for garage](/notes/house)
 | 22/12 - [christmas cards](/notes/health)
-| 22/03 - [truck transmission](https://davidawindham.com/automobiles/)
+| 22/03 - [truck transmission](https://davidwindham.com/automobiles/)

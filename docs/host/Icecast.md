@@ -16,7 +16,7 @@ wget -qO - http://icecast.org/multimedia-obs.key | sudo apt-key add -
 wget -qO - https://download.opensuse.org/repositories/multimedia:/xiph/xUbuntu_18.04/Release.key  | sudo apt-key add -
 ```
 
-**11/08/18** - I'll need this for later. A server update to Icecast overwrote ( because I was in a rush and didn't pay attention for the first couple of inputs ) some of the xml files I was using to pull data into my broadcast page @ [radio.davidawindham.com](http://radio.davidawindham.com)
+**11/08/18** - I'll need this for later. A server update to Icecast overwrote ( because I was in a rush and didn't pay attention for the first couple of inputs ) some of the xml files I was using to pull data into my broadcast page @ [davidwindham.com/radio](http://davidwindham.com/radio)
 
 ```bash
 
