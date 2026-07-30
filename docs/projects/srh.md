@@ -4,6 +4,188 @@ draft: false
 
 # SRH
 
+## SST Report 
+
+
+### Epic Location-Department Source of Truth — Website Audit
+
+_Cross-references `Epic Location-Department Source of Truth.xlsx` (Departments sheet, 3,482 rows) against `inc/seo/locations-nap.json` (63 locations)._
+
+---
+
+### Summary
+
+| Metric | Count |
+|---|---:|
+| Epic Departments (all) | 3,482 |
+| Epic Departments in SRH-region cities¹ | 517 |
+| Epic Departments SRH-branded (name starts `SRH-` or ext-name `Self…/SRH…`) | 212 |
+| NAP locations (excludes skip_format) | 59 |
+| Matched (Epic → NAP by phone) | 113 |
+| Real discrepancies to review | 3 |
+| Structural: satellite depts (city mismatch, expected)² | 26 |
+| Epic-only depts (SRH-branded, not on website) | 108 |
+| NAP-only locations (no phone match in Epic) | 20 |
+
+¹ Cities: Greenwood, Abbeville, Edgefield, Laurens, Newberry, Clinton, McCormick, Ninety Six, Saluda, Johnston, Due West, Hodges, Waterloo, Joanna, Whitmire, Prosperity, and other SRH catchment cities.  
+² A clinic like Advanced Cardiology Associates has ONE NAP entry (Greenwood parent) but Epic tracks separate depts for its Saluda, Laurens, Clinton satellite offices — these show as "city mismatches" but reflect Epic's more granular structure, not errors.
+
+---
+
+### Relevant Fields (Excel → NAP)
+
+Of the **209 columns** in the Departments sheet and **174 columns** in Locations, only these are meaningful for the public-facing website:
+
+#### Departments sheet
+
+| Excel column | Maps to NAP field | Notes |
+|---|---|---|
+| `DEPARTMENT_ID` | (used by Epic widgets) | The scheduling widgets on `/urgent-care/`, `/locations/*` reference these IDs via `data-additionalparams-department` |
+| `DEPARTMENT_NAME` | (internal) | Internal shorthand (e.g. `SRH-UC SALUDA`) — not public-facing |
+| `DEPT_ABBREVIATION` | (internal) | Ignore |
+| `SPECIALTY` | `medicalSpecialty[]` | Direct match after case normalization |
+| `EXTERNAL_NAME` | `name` | The customer-facing name (e.g. "Self Medical Center Saluda"). **Discrepancy source** — see below |
+| `PHONE_NUMBER` | `phone` | Public phone. **Primary match key**. |
+| `APPOINTMENT_PHONE` | `phone` (usually same) | Fallback if PHONE_NUMBER unset |
+| `ADDRESS_HOUSE_NUM` | `address.streetAddress` (partial) | Street number only — Epic does NOT store the full street name. Not useful in isolation. |
+| `ADDRESS_CITY` | `address.addressLocality` | Verify only |
+| `ADDRESS_ZIP_CODE` | `address.postalCode` | Verify only (Epic uses ZIP+4 format) |
+| `ADDRESS_STATE_C` | `address.addressRegion` | Numeric code (41 = SC in Epic) — need lookup table to translate |
+| `RECORD_STATUS` | — | 0/1 = active. Filter to exclude deactivated depts. |
+| `SERV_AREA_ID` | — | 14 = SRH service area. Useful pre-filter. |
+| `EXPSCHED_ENABLED_YN` | — | Whether Epic OpenScheduling widget is enabled for the dept. Cross-reference target for Epic widget deployment. |
+
+**Ignore** — 195+ columns of Epic-internal config: `MASTER_POOL_ID`, `COVERING_POOL_NAME`, `FLASH_CARD_PRT_ROU`, `MAR_LABEL_PRNTR_ID`, `RTLS_ARRV_EVNT_ID`, all `RPT_GRP_*` codes, etc. These are operational config with no public-website use.
+
+#### Locations sheet
+
+The Locations sheet is Epic's **service-area** roster, not physical clinic locations (as I'd initially expect). Rows include entities like "SELF REGIONAL HEALTHCARE FACILITY", "PRISMA HEALTH", "BAPTIST EASLEY SERVICE AREA" — mostly out-of-network reference data. **Only useful columns**:
+
+| Excel column | Notes |
+|---|---|
+| `LOC_ID` | Reference key (not used by website) |
+| `LOC_NAME` | Service-area name — mostly generic, not clinic-level |
+| `EXTERNAL_NAME` | Rarely differs from LOC_NAME |
+| `FAX_NUM` | Fax number |
+| `EMERG_PHONE` | Emergency line |
+
+**For the website, the Departments sheet is where all the useful matching happens** — the Locations sheet has little clinic-level granularity.
+
+---
+
+### Real Discrepancies to Review
+
+#### 🚨 Saluda Urgent Care phone mismatch (highest priority)
+
+- **NAP** (`saluda` entry): `+1-864-725-5355`
+- **Epic** (dept 140006889 `SRH-UC SALUDA`): `864-445-2173`
+- **Search across all 517 SRH-region Epic depts**: NO dept has `864-725-5355` in any phone field.
+
+This number was entered from the page content the user provided when the Saluda page was first built. It disagrees with Epic's source of truth. Epic's `864-445-2173` is the shared front-desk line for the Self Medical Center Saluda facility (used by the Family Healthcare, Radiology, and Urgent Care depts at that address).
+
+**Action**: Verify with the clinic which number should ring the Urgent Care line. If `864-725-5355` is a newly-provisioned direct line not yet reflected in Epic, no action needed except a note. If it's a typo/wrong number, update NAP + Saluda page (`_thumbnail_id=18893` page content).
+
+#### ZIP-code mismatches (3)
+
+These are genuine data errors — NAP and Epic disagree on the postal code for a location the site tracks:
+
+| NAP slug | Epic dept | Issue |
+|---|---|---|
+| `sports-medicine-center` | 140006853 (SRH-UC GWD) | zip: NAP=29646 vs Epic=29649 |
+| `family-healthcare-west-greenwood` | 140006874 (SRH-FHC WEST GWD) | zip: NAP=29647 vs Epic=29649 |
+| `sports-medicine-center` | 140006882 (SRH-UC RADIOLOGY) | zip: NAP=29646 vs Epic=29649 |
+
+---
+
+### Structural: Satellite Departments (Not Errors)
+
+These 26 "city mismatches" are Epic tracking satellite clinics of multi-city practices. The NAP has one parent entry per practice; Epic has one dept per city location. Example: **Advanced Cardiology Associates** (Greenwood parent in NAP) matches Epic depts for its Saluda, Laurens, and Clinton offices.
+
+| NAP practice | Also has Epic depts in… |
+|---|---|
+| `advanced-cardiology-associates` | 4 satellite dept(s) — 140006822, 140006887, 140006891, 140116002 |
+| `advanced-gastroenterology` | 2 satellite dept(s) — 140006832, 140006835 |
+| `advanced-obstetrics-gynecology` | 1 satellite dept(s) — 140006849 |
+| `advanced-podiatry` | 2 satellite dept(s) — 140006833, 140006945 |
+| `advanced-pulmonology` | 1 satellite dept(s) — 140006837 |
+| `advanced-surgical-associates` | 2 satellite dept(s) — 140006832, 140006835 |
+| `advanced-vascular` | 2 satellite dept(s) — 140006832, 140006835 |
+| `lakelands-ear-nose-throat` | 3 satellite dept(s) — 140006895, 140006896, 140006897 |
+| `lakelands-nephrology` | 1 satellite dept(s) — 140006834 |
+| `orthopaedic-associates-lakelands` | 3 satellite dept(s) — 140006830, 140006831, 140006836 |
+| `pain-management-center` | 2 satellite dept(s) — 140006938, 140006943 |
+| `self-medical-center-laurens` | 1 satellite dept(s) — 140006980 |
+| `urological-services` | 1 satellite dept(s) — 140006839 |
+| `western-carolina-psychiatric-associates` | 1 satellite dept(s) — 140006840 |
+
+**Recommendation**: leave NAP structure as-is (one entry per practice reads better as a website Location Card). If a satellite location needs its own page/card (like the Saluda urgent care we just built), promote it to a top-level NAP entry.
+
+---
+
+### NAP-only Locations (20)
+
+These NAP entries don't match any Epic dept by phone. Reasons:
+
+#### External / partner facilities (expected — no Epic dept)
+
+| NAP slug | Reason |
+|---|---|
+| `abbeville-area-medical-center` | Partner hospital — separate org, no Epic dept |
+| `abbeville-area-healthcare-center` | External |
+| `edgefield-county-healthcare` | Partner hospital |
+| `lakelands-nursing-and-rehabilitation-center` | External skilled nursing partner |
+
+#### To verify (should have an Epic dept)
+
+| NAP slug | NAP phone | Notes |
+|---|---|---|
+| `womens-health-of-the-lakelands` | 864-725-5100 | Check Epic for a dept with this exact phone number |
+| `lakelands-plastic-surgery` | 864-223-0505 | Check Epic for a dept with this exact phone number |
+| `occupational-health-services` | 864-223-6625 | Check Epic for a dept with this exact phone number |
+| `advanced-cardiothoracic-surgery` | 864-725-7900 | Check Epic for a dept with this exact phone number |
+| `wound-healing-institute` | 864-725-4138 | Check Epic for a dept with this exact phone number |
+| `advanced-emergency-physicians` | 864-725-4799 | Check Epic for a dept with this exact phone number |
+| `neonatology-specialists` | 864-725-4449 | Check Epic for a dept with this exact phone number |
+| `advanced-radiation-oncology` | 864-725-4741 | Check Epic for a dept with this exact phone number |
+| `anesthesiology-services` | 864-227-8242 | Check Epic for a dept with this exact phone number |
+| `imaging-center` | 864-725-7150 | Check Epic for a dept with this exact phone number |
+| `bariatric-services` | 864-725-4911 | Check Epic for a dept with this exact phone number |
+| `edgefield-community-pharmacy` | 803-384-4140 | Check Epic for a dept with this exact phone number |
+| `saluda` | 864-725-5355 | Check Epic for a dept with this exact phone number |
+
+---
+
+### Epic-only SRH Departments (108)
+
+Epic tracks 108 SRH-branded depts that don't appear in the website's NAP. Most are:
+
+- **Sub-department of a clinic** — e.g. `SRH-CARDIOLOGY-SS` (Saluda satellite of Advanced Cardiology), `SRH-ORTHO OT` (occupational therapy sub-dept)
+- **Hospital-internal** — e.g. `SRH-SURGE 4 WEST`, `SRH-VASCULAR ACCESS`, `SRH-SCOTL` (operative suites)
+- **Radiology/lab sub-nodes** — `SRH-ORTHO RADIOLOGY-SS`, `NATERA LABORATORY`
+- **Behavioral health sub-programs** — `SRH-BEHAVIORAL HEALTH ADOLESCENT`, `SRH-MCFM-BH`
+
+**None of these should be added to the public NAP** — they aren't patient-facing standalone locations. The website's NAP correctly captures clinic-level entities, and Epic's finer-grained dept tracking is for operational scheduling.
+
+Full list saved to [`/tmp/audit-crossref.json`](/tmp/audit-crossref.json) → `epic_only`.
+
+---
+
+### Recommendations
+
+1. **Verify + reconcile Saluda phone**: 864-725-5355 (NAP) vs 864-445-2173 (Epic).
+2. **Fix ZIP typos** in NAP for the 3 entries listed above.
+3. **Verify NAP-only entries** — check with Epic admin whether the following SHOULD have Epic depts (may indicate a scheduling gap): `womens-health-of-the-lakelands`, `wound-healing-institute`, `advanced-emergency-physicians`, `imaging-center`, etc.
+4. **Preserve NAP's clinic-level structure** — do not add Epic's 108 sub-depts to the website. Satellite locations get their own NAP entry only when they warrant a distinct public page (like the recent Saluda Urgent Care buildout).
+5. **Consider capturing Epic `DEPARTMENT_ID` in NAP** — add an optional `epic_department_id` field so future audits are ID-matched rather than phone-matched. Would make widget deployment easier too (currently department IDs are hand-coded in page markup).
+
+---
+
+_Generated by cross-referencing `_claude/locations-nap.json` against the Epic Excel export._
+
+---
+
+<br/><br/><br/><br/>
+
 ## URL Rewrite Setup for MyChart Provider Finder 
 
 SRH wants to use a vanity URL for a third party hosted application which only presented IIS xml configuration documentation so I'm translating it here for transparency. I've included Claude.ai and Github Copilot translations from the original 👉🏻 📄 [documentation](https://davidwindham.com/wha/srh_rewrites.pdf)
