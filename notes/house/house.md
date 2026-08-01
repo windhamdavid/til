@@ -149,8 +149,8 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 
 |Todo|ToDone|
 |--|--|
-|Carpet - upstairs/downstairs|Add flood lighting in front of garage (McDaniel Electric)|
-|Refinish/Repaint Back Lower Deck|Remove security sensors from exterior flood lighting|
+|[Kitchen](/notes/house/kitchen) countertops/backsplash|replace garage door|
+|Carpe/flooring - ~~upstairs~~/downstairs|Add flood lighting in front of garage (McDaniel Electric)|
 |Refinish/Repaint Back Lower Deck|Remove/Reuse Firewood stack|
 |Convert compactor to compost and add pull out trash bin|New dishwasher|
 |Replace living fireplace brass with nickel|Living Room Suite / Chairs from BB|
@@ -166,7 +166,9 @@ Here's 👇🏼 the first sketch I made in 2016 of potential changes.
 |Plant Magnolia where white pine came down|remove panel insulation from attic|
 |Stone Pathways around west side of house|paint exterior|
 |Solar panels for South Facing roofline / Converter / Battery Storage|replace chimney/chase|
-|New Roof|Paint Dining/Kitchen|
 |Radiant panels under roofline|Add Fiber Optic to home|
 |Re-insulate crawl space|New Patio set for decks|
-||replace garage door|
+||Paint Dining/Kitchen|
+||re-insulate attic|
+||new roof|
+||Remove security sensors from exterior flood lighting|
