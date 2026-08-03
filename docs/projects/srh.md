@@ -218,7 +218,7 @@ _Cross-references `Epic Location-Department Source of Truth.xlsx` (Departments s
 
 ---
 
-### Summary
+#### Summary
 
 | Metric | Count |
 |---|---:|
@@ -237,11 +237,11 @@ _Cross-references `Epic Location-Department Source of Truth.xlsx` (Departments s
 
 ---
 
-### Relevant Fields (Excel → NAP)
+#### Relevant Fields (Excel → NAP)
 
 Of the **209 columns** in the Departments sheet and **174 columns** in Locations, only these are meaningful for the public-facing website:
 
-#### Departments sheet
+##### Departments sheet
 
 | Excel column | Maps to NAP field | Notes |
 |---|---|---|
@@ -262,7 +262,7 @@ Of the **209 columns** in the Departments sheet and **174 columns** in Locations
 
 **Ignore** — 195+ columns of Epic-internal config: `MASTER_POOL_ID`, `COVERING_POOL_NAME`, `FLASH_CARD_PRT_ROU`, `MAR_LABEL_PRNTR_ID`, `RTLS_ARRV_EVNT_ID`, all `RPT_GRP_*` codes, etc. These are operational config with no public-website use.
 
-#### Locations sheet
+##### Locations sheet
 
 The Locations sheet is Epic's **service-area** roster, not physical clinic locations (as I'd initially expect). Rows include entities like "SELF REGIONAL HEALTHCARE FACILITY", "PRISMA HEALTH", "BAPTIST EASLEY SERVICE AREA" — mostly out-of-network reference data. **Only useful columns**:
 
@@ -278,9 +278,9 @@ The Locations sheet is Epic's **service-area** roster, not physical clinic locat
 
 ---
 
-### Real Discrepancies to Review
+#### Real Discrepancies to Review
 
-#### 🚨 Saluda Urgent Care phone mismatch (highest priority)
+##### 🚨 Saluda Urgent Care phone mismatch (highest priority)
 
 - **NAP** (`saluda` entry): `+1-864-725-5355`
 - **Epic** (dept 140006889 `SRH-UC SALUDA`): `864-445-2173`
@@ -290,7 +290,7 @@ This number was entered from the page content the user provided when the Saluda 
 
 **Action**: Verify with the clinic which number should ring the Urgent Care line. If `864-725-5355` is a newly-provisioned direct line not yet reflected in Epic, no action needed except a note. If it's a typo/wrong number, update NAP + Saluda page (`_thumbnail_id=18893` page content).
 
-#### ZIP-code mismatches (3)
+##### ZIP-code mismatches (3)
 
 These are genuine data errors — NAP and Epic disagree on the postal code for a location the site tracks:
 
@@ -302,7 +302,7 @@ These are genuine data errors — NAP and Epic disagree on the postal code for a
 
 ---
 
-### Structural: Satellite Departments (Not Errors)
+#### Structural: Satellite Departments (Not Errors)
 
 These 26 "city mismatches" are Epic tracking satellite clinics of multi-city practices. The NAP has one parent entry per practice; Epic has one dept per city location. Example: **Advanced Cardiology Associates** (Greenwood parent in NAP) matches Epic depts for its Saluda, Laurens, and Clinton offices.
 
@@ -327,11 +327,11 @@ These 26 "city mismatches" are Epic tracking satellite clinics of multi-city pra
 
 ---
 
-### NAP-only Locations (20)
+#### NAP-only Locations (20)
 
 These NAP entries don't match any Epic dept by phone. Reasons:
 
-#### External / partner facilities (expected — no Epic dept)
+##### External / partner facilities (expected — no Epic dept)
 
 | NAP slug | Reason |
 |---|---|
@@ -340,7 +340,7 @@ These NAP entries don't match any Epic dept by phone. Reasons:
 | `edgefield-county-healthcare` | Partner hospital |
 | `lakelands-nursing-and-rehabilitation-center` | External skilled nursing partner |
 
-#### To verify (should have an Epic dept)
+##### To verify (should have an Epic dept)
 
 | NAP slug | NAP phone | Notes |
 |---|---|---|
@@ -360,7 +360,7 @@ These NAP entries don't match any Epic dept by phone. Reasons:
 
 ---
 
-### Epic-only SRH Departments (108)
+#### Epic-only SRH Departments (108)
 
 Epic tracks 108 SRH-branded depts that don't appear in the website's NAP. Most are:
 
@@ -374,7 +374,7 @@ Epic tracks 108 SRH-branded depts that don't appear in the website's NAP. Most a
 
 ---
 
-### Recommendations
+#### Recommendations
 
 1. **Verify + reconcile Saluda phone**: 864-725-5355 (NAP) vs 864-445-2173 (Epic).
 2. **Fix ZIP typos** in NAP for the 3 entries listed above.
