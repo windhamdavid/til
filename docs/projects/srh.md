@@ -6,8 +6,213 @@ draft: false
 
 ## SST Report 
 
+### Epic Provider Source of Truth Audit - 26/08/03
 
-### Epic Location-Department Source of Truth — Website Audit
+_Cross-references `Epic_Provider_Source_of_Truth.xlsx` (Sheet1, 122,831 provider rows × 272 columns) against `inc/seo/locations-nap.json` (275 providers across 49 locations)._
+
+---
+
+#### Summary
+
+| Metric | Count |
+|---|---:|
+| Epic providers (all types, all statuses) | 122,831 |
+| Epic Internal + Active + clinical¹ | 1,354 |
+| Epic SRH-affiliated patient-facing² | 710 |
+| NAP providers (across 49 locations) | 275 |
+| **Matched** (NAP ↔ Epic) | **249** (90%) |
+| Ambiguous (multiple Epic candidates) | 11 |
+| No match (not in Epic Active+Internal+Clinical) | 15 |
+| Epic-only (SRH-affiliated clinicians NOT on website) | 469 |
+
+¹ `REFERRAL_SOURCE_TYPE=Internal` AND `ACTIVE_STATUS=Active` AND `PROV_TYPE` ∈ \{Physician, Physician Assistant, Nurse Practitioner, Resident Physician\}.  
+² Additionally filtered to those whose `PRIMARY_DEPT_ID`/`DEF_DEPARTMENT_ID` is one of the 517 SRH-region department IDs identified in SOT.md.
+
+---
+
+#### Relevant Fields (Excel → NAP)
+
+Of the **272 columns** in the Epic provider sheet, ~15 are meaningful for the public-facing website. The other ~257 are Epic-internal operational config (SSN, DEA numbers, pool assignments, order routing, MAR settings, EMR flags, etc.) with no website use.
+
+| Excel column | Maps to NAP field | Notes |
+|---|---|---|
+| `PROV_ID` | (potential future NAP field) | Epic's unique provider ID. **Recommendation**: add optional `epic_prov_id` to NAP so future audits are ID-matched. |
+| `PROV_NAME` | `providers[].name` | Format: `LAST, FIRST MIDDLE`. Must be reversed and stripped of middle names/initials for NAP comparison. |
+| `EXTERNAL_NAME` | `providers[].name` | Occasionally present; usually cleaner than PROV_NAME. |
+| `PROV_TYPE` | (implicit in name credential) | `Physician`, `Physician Assistant`, `Nurse Practitioner`, `Resident Physician` for patient-facing. Skip: `Registered Nurse`, `Technician`, `Nursing Student`, `Medical Assistant`, etc. |
+| `CLINICIAN_TITLE` | Credential in `providers[].name` | `MD`, `DO`, `PA`, `PA-C`, `NP`, `FNP`, `DPM`, etc. |
+| `ACTIVE_STATUS` | — (filter only) | `Active` / `Inactive` / `NULL`. Website should only ever surface `Active`. |
+| `REFERRAL_SOURCE_TYPE` | — (filter only) | `Internal` = SRH-affiliated. `External` = outside referral provider (do not display). |
+| `TAKING_NEW_PAT_YN` | `providers[].acceptsNewPatients` (potential) | Currently NAP tracks this only at location level; could add per-provider. |
+| `TAKING_WALKINS_YN` | — | Rarely used; consider for Urgent Care providers. |
+| `DEF_DEPARTMENT_ID` / `PRIMARY_DEPT_ID` | → cross-references Epic Depts | Links providers to their home department. Both fields must be checked (Epic sometimes uses one, sometimes the other). |
+| `OFFICE_PHONE_NUM` | (verify NAP location phone) | Direct-dial for the provider. Sometimes differs from the location's main line. |
+| `NPI` | (potential future NAP field) | National Provider Identifier. Useful for Schema.org `identifier`. |
+| `PROV_START_DATE` | — | Employment start date. Useful for "New Providers" surfaces. |
+| `DEPARTURE_DATE` | — | If populated, provider has left → should trigger removal from NAP. |
+| `PRACTICE_NAME_C` | — | Practice group affiliation code. |
+
+**Ignore** — 257+ operational columns: `MASTER_POOL_ID`, `DEA_NUMBER`, `SSN`, all `RPT_GRP_*`, `PIN_ID`, `SUPERV_POOL_*`, `FLASH_CARD_PRT_ROU`, `MAR_*` flags, `IP_*` inpatient flags, `MIPS_*`, `EDI_*`, DICOM/pool/router config, etc.
+
+---
+
+#### Match Quality Breakdown
+
+| Match type | Count |
+|---|---:|
+| exact (SRH dept) | 221 |
+| last-name in SRH dept | 26 |
+| wider (not in SRH-region depts) | 1 |
+| first-prefix in SRH | 1 |
+
+The **last-name-only** matches are cases where the NAP first name uses a nickname or a shortened form, but only ONE Epic candidate had that last name in an SRH-region dept — so the match is safe. Examples:
+
+- NAP `Larry Holmes, M.D.` → Epic `HOLMES, STEVEN LARRY` (ID `37823`)
+- NAP `Michael Bryant, M.D.` → Epic `BRYANT, ROBERT MICHAEL` (ID `35610`)
+- NAP `Caroline Souter, APRN` → Epic `SOUTER, WILLIAM` (ID `SRP26579`)
+- NAP `Jacqueline Waldron, RN, CNP` → Epic `WALDRON, JACQUELYN B` (ID `41509`)
+- NAP `Nick Petrus, PA` → Epic `PETRUS, NICHOLAS` (ID `SPA80699`)
+
+---
+
+#### Ambiguous Matches (11)
+
+These NAP providers share a last name with multiple Epic providers in SRH-region depts. First names don't obviously align — often nickname vs formal name. Manual resolution recommended.
+
+| NAP location | NAP name | Epic candidates (id: name @ dept) |
+|---|---|---|
+| `family-healthcare-ninety-six` | Patricia V. Goodman, APRN-BC | `15282` GOODMAN, MARGARET @ SRH-RAD-XRAY<br/>`SRH23090` GOODMAN, BRIAN @ SMG-ADV CARDIAC SURG |
+| `pain-management-center` | Kitty Russell, NP | `23590` RUSSELL, MARTHA KATHLEEN @ SMG-GREENWOOD PAIN MGT<br/>`40569` RUSSELL, JOHN ANDREW HAWS @ SRH-ADV OBGYN<br/>`40570` RUSSELL, KIMBERLY J @ SRH-INT MED GWD |
+| `urological-services` | Pres Turner, M.D. | `41381` TURNER, ALLAN P @ SMG-NEPHROLOGY SERVICE<br/>`41384` TURNER, MICHAEL DAWES @ AAMC-AAHC FAMILY PRACTICE<br/>`41386` TURNER, WILLIAM PRESTON @ SMG-UROLOGY SERVICES |
+| `family-healthcare-north-greenwood` | David Riley, M.D. | `40403` RILEY IV, EUSTACE DAVID @ SMG-FHC NORTH GWD<br/>`40407` RILEY, RALPH N @ SRH-JOHNSTON MEDICAL CTR |
+| `internal-medicine-piedmont` | O.M. Cobb, M.D. | `36028` COBB JR, ORR M @ SMG-INT MED PIEDMONT<br/>`SRP80730` COBB, MICHAEL @ SRH-RAD-XRAY |
+| `montgomery-center` | Reed Davis, M.D. | `80103` DAVIS, DAVID OLIVER @ SMG-NEONATOLOGY<br/>`SRP81184` DAVIS, COKELETTA @ SRH-OP SUPPORTIVE CARE |
+| `advanced-radiation-oncology` | Clint Wood, M.D. | `41822` WOOD IV, E CLINT @ SRH-RADIATION ONCOLOGY<br/>`SRP81437` WOOD, CASE @ SMG-UROLOGY SERVICES |
+| `anesthesiology-services` | Kelley Watson, M.D. | `SRP11665` WATSON, ROBERT @ SRH-RAD-XRAY<br/>`SRS96599` WATSON, CLAY @ SMG-WESTERN CAROLINA |
+| `anesthesiology-services` | Paul Velky, M.D. | `310` VELKY, BENJAMIN JOSEPH @ SRH-MCFM-FM<br/>`44091` VELKY, SARA KENNEDY @ SRH-HOSPITALISTS |
+| `greenwood` | Lynne Sutton, M.D. | `70843` SUTTON, ELENA @ SMG-EMC GWD<br/>`89515` SUTTON III, JOHN PERRY @ SMG-ADV CARDIAC SURG |
+| `abbeville-area-healthcare-center` | Julie Moore, LISW-CP | `392` MOORE, SARA POOLE @ SMG-CLINTON FAMILY MED<br/>`39415` MOORE, DOUGLAS @ AAMC-AAHC FAMILY PRACTICE |
+
+**Likely resolutions** (from name patterns):
+
+- `Kitty Russell, NP` @ pain-management-center → **Martha Kathleen Russell** (23590). "Kitty" is a common nickname for Katherine/Kathleen.
+- `Pres Turner, M.D.` @ urological-services → **William Preston Turner** (41386). "Pres" = Preston.
+- Others: verify with each clinic's admin.
+
+---
+
+#### No-match NAP Providers (15)
+
+These NAP-listed providers do NOT appear in the Epic **Active + Internal + Clinical** filtered set. Common explanations:
+
+- **Contracted / external groups**: Anesthesiology, Emergency Medicine, Hospital Medicine, and Radiology are frequently contracted physician groups (locum tenens or contract entities). Epic tracks them as `REFERRAL_SOURCE_TYPE=External`, which we filtered out. They are legitimately on the site but not in the "employed" Epic pool.
+- **Non-physician clinicians**: Audiology (Au.D., CCC-A) or LPC (Licensed Professional Counselor) may be under different `PROV_TYPE` categories (Technologist, Behavioral Health, etc.) — outside our clinical filter.
+- **Recently departed**: If `DEPARTURE_DATE` is set, Epic flips them Inactive but the website may still list them briefly.
+- **Data-entry variation**: Occasional typos or missing middle-name context that made the automated match fail.
+
+| NAP location | NAP provider | Likely reason |
+|---|---|---|
+| `lakelands-ear-nose-throat` | Brittney Biere, Au.D., CCC-A | Audiologist — likely tracked under different PROV_TYPE |
+| `family-healthcare-ware-shoals` | Asante Buffaloe, M.D. | Verify — may be recently added, departed, or misspelled |
+| `advanced-cardiology-associates` | Mario Rodriguez, M.D. | Verify — may be recently added, departed, or misspelled |
+| `advanced-emergency-physicians` | Ben Calton, D.O. | Likely contracted ER group |
+| `hospital-medicine-specialists` | Joanne Boggs, M.D. | Likely contracted hospitalist group |
+| `hospital-medicine-specialists` | Moises Salcie, M.D. | Likely contracted hospitalist group |
+| `hospital-medicine-specialists` | Lhissa Santana, M.D. | Likely contracted hospitalist group |
+| `montgomery-center` | Karla Madrid, M.D. | Verify — may be recently added, departed, or misspelled |
+| `advanced-obstetrics-gynecology` | Stephanie Shafer, NP | Verify — may be recently added, departed, or misspelled |
+| `anesthesiology-services` | Bob DiBenedetto, M.D. | Likely contracted anesthesiology group |
+| `anesthesiology-services` | Fred Hubbard, M.D. | Likely contracted anesthesiology group |
+| `anesthesiology-services` | Alexandra Lataille, M.D. | Likely contracted anesthesiology group |
+| `anesthesiology-services` | Hugo Nova, M.D. | Likely contracted anesthesiology group |
+| `anesthesiology-services` | Korey Springman, M.D. | Likely contracted anesthesiology group |
+| `due-west-family-practice` | Cameron Hipp, LPC | Licensed counselor/therapist — tracked under different PROV_TYPE |
+
+---
+
+#### Epic-only Providers (469)
+
+Epic tracks **469 SRH-affiliated clinical providers** who do NOT appear anywhere in the website's NAP. Split by whether they're hospital-based operational staff vs clinic-facing:
+
+##### Hospital-based / operational (321 — correctly absent from website)
+
+Providers assigned to hospital departments (radiology, ER, hospitalists, surgery support, inpatient services) don't get individual clinic listings on the public site. These are correctly absent:
+
+| Epic dept | Provider count |
+|---|---:|
+| `SRH-RAD-XRAY` | 143 |
+| `SRH-EMERGENCY DEPT` | 39 |
+| `SRH-HOSPITALISTS` | 35 |
+| `SMG-ADV CARDIAC SURG` | 17 |
+| `SMG-ADV SURGICAL` | 10 |
+| `SRH-RAD-CAT SCAN` | 9 |
+| `ABV-EMERGENCY DEPT` | 8 |
+| `SMG-NEONATOLOGY` | 8 |
+| `ECH-EMERGENCY DEPT` | 7 |
+| `SMG-READY FOR SURGERY` | 6 |
+| `SMG-VIRTUAL SERVICES` | 6 |
+| `SMG-HOSPITAL MED` | 5 |
+| `SRH-OP SUPPORTIVE CARE` | 5 |
+| `SRH-BEHAVIORAL HEALTH ADOLESCENT` | 5 |
+| `SMG-ADV EMERGENCY` | 4 |
+| _(…10 more depts)_ | 14 |
+
+##### Clinic-facing (148 — possible NAP gaps to review)
+
+Providers assigned to depts that look like patient-facing clinics but don't appear on the website. Worth a manual review — these may be genuine gaps in the NAP roster.
+
+| Epic dept | Providers |
+|---|---|
+| `SMG-EMC GWD` (10) | HARRISON, TEENA JO; FORD-SCALES, KRISTI D; NOBLES, MICHELLE; FREEL, PAUL; SUTTON, ELENA; …5 more |
+| `SRH-ADVANCED CARDIOLOGY` (8) | CASE, RACHEL LEIGH; CHERRY, STEPHEN; PAGUNTALAN, JOHN CENAROSA; HOLLIDAY, CASEY; TOSTON, LY; …3 more |
+| `SMG-ORTHOPAEDICS` (7) | CHRISTIAN JR, RICHARD MORTON; GRAY, CHARLES D; BAKER, ALAN J; GORANSON, REBECCA D; TATKO, BRADLEY; …2 more |
+| `SMG-UROLOGY SERVICES` (7) | TURNER, WILLIAM PRESTON; PARRAMORE III, HERMAN WILLIAM; GWYNN, ERIC S; CALIFANO, JOHN; MAJOR, NICHOLAS; …2 more |
+| `SMG-ADV CARDIOLOGY` (6) | GANJEHEI, LEILA; SMITH, DAVID; SKAF, JAD; WILLIAMS, NICHOLE; LAWSON, JORDAN; …1 more |
+| `SMG-EMC LRNS` (6) | STRICKLAND, AMY LEDFORD; PEELER, RONALD; CORDLE, RANDOLPH JAY; LECLAIR, ROSS; MATURE, KENDELL; …1 more |
+| `SMG-WESTERN CAROLINA` (4) | SIMONS, DAVID W; ADEN, MARIAH; PRICE, KATHERINE; WATSON, CLAY |
+| `SMG ADV OBGYN` (4) | AUSTIN, THOMAS COLE; ADDY, DOUGLAS M; HOLSOPPLE, AMANDA LEE; MURPHY, BRYAN |
+| `SRH-MONTGOMERY CTR-FM` (4) | HATCHER, HARVEY FLOYD; ROBINSON, HUGH COLEMAN; GOODROE, BENJAMIN SETH; MCCOOL, LOGAN |
+| `AAMC-AAHC FAMILY PRACTICE` (4) | KOLB, CHARLES ALLEN; MOORE, DOUGLAS; TURNER, MICHAEL DAWES; SOMMERS, DANIELLE M |
+| `SRH-ADV OBGYN` (4) | SCHAFER, STEPHANIE; MURRAY, HALEY; WHITE, EMMA; DIDIER, AARON |
+| `SRH-LDRP` (3) | PADEN, MERRI MADDOX; BEAUDROT, JOSEPH L; BRIGMAN, SHELLEY D |
+| `SRH-MEDICAL ONCOLOGY` (3) | WELTZ, MARTIN; PASCO, CATHY PUTMAN; JOHNSON, ALEXANDER |
+| `GGC-GREENWOOD` (3) | BURNS, WILLIAM BOYCE; SKINNER, STEVEN ALBERT; PATTERSON, WESLEY GORDON |
+| `SMG-GREENWOOD PAIN MGT` (3) | RUSSELL, MARTHA KATHLEEN; CRAIN, LAURA PAIGE; HEWAN-LOWE, LISSA |
+| `SRHP-EMC FAMILY MED` (3) | RAINES, ERIKA M; TROTTER, HEATHER; MATHIS, BYRON |
+| `SMG-NEPHROLOGY SERVICE` (3) | SHELTON, JOLEEN MARY; SPRAGUE, AMY; DESAI, NIRAJ |
+| `SMG-INT MED PIEDMONT` (3) | COBB JR, ORR M; HOLMAN, JOHN W; STENNETT, WHITNEY P |
+| `SRH-FHC NINETY SIX` (3) | VAUGHN-GOODMAN, PATRICIA M; CUNNINGHAM, JAMIE; LEWIS, STEPHANIE |
+| `SRH-BEHAVIORAL HEALTH ACUTE` (3) | MACEDA, MELISSA PEREZ; KHAN, SANAULLA; CHAMBERS, KATIE |
+
+---
+
+#### Recommendations
+
+1. **Resolve ambiguous first names** — the 11 ambiguous matches can be fixed by asking each clinic's admin. Once resolved, the NAP name could be updated to match Epic's canonical form.
+
+2. **Verify the 15 no-match NAP providers**:
+   - Confirm anesthesiology / hospital medicine / ER providers are actually contracted (external), and if so, mark them clearly in NAP.
+   - Fix any typos in NAP that caused the match to fail.
+   - Check `DEPARTURE_DATE` in Epic for these providers — if they've left, remove from NAP.
+
+3. **Review the 148 clinic-facing Epic-only providers** — some may be genuine NAP gaps. Highest-count depts to check first:
+   - `SMG-EMC GWD` (10 providers not on website)
+   - `SRH-ADVANCED CARDIOLOGY` (8 providers not on website)
+   - `SMG-ORTHOPAEDICS` (7 providers not on website)
+   - `SMG-UROLOGY SERVICES` (7 providers not on website)
+   - `SMG-ADV CARDIOLOGY` (6 providers not on website)
+
+4. **Add `epic_prov_id` to NAP provider entries** — makes future audits ID-matched rather than name-matched. Pairs with the `epic_department_id` recommendation from SOT.md.
+
+5. **Consider adding per-provider `acceptsNewPatients`** to NAP, sourced from Epic's `TAKING_NEW_PAT_YN`. Currently NAP only tracks this at the location level.
+
+6. **Automate the audit** — this cross-reference could run weekly and flag discrepancies. Would catch departures (Epic sets `DEPARTURE_DATE`) and additions (new Epic provider in a website-listed dept) proactively.
+
+
+_Generated by cross-referencing `locations-nap.json` against `Epic_Provider_Source_of_Truth.xlsx`. Full match data in `/tmp/prov-audit.json`._
+
+
+### Epic Location-Department Source of Truth — Website Audit - 26/07/30
 
 _Cross-references `Epic Location-Department Source of Truth.xlsx` (Departments sheet, 3,482 rows) against `inc/seo/locations-nap.json` (63 locations)._
 
