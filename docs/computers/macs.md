@@ -1,8 +1,10 @@
 # Macs 🐶
 
-was ~~my~~ main machine from 2013 to 2021. I'll  keep it up to date and running for general usage. The name came from [https://davidwindham.com/anthropomorphizing-machines/](https://davidwindham.com/anthropomorphizing-machines/)
+Macs was ~~my~~ main machine from 2013 to 2021. It was an i9 Macbook Pro and the name Macs came from - [https://davidwindham.com/anthropomorphizing-machines/](https://davidwindham.com/anthropomorphizing-machines/). I recycled it when I upgraded laptops to [Ovid](/docs/computers/ovid)
 
-#### notes:
+
+
+## Notes
 
 using mkcert
 
