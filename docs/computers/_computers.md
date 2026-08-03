@@ -11,3 +11,4 @@
 | [Woozer](woozer)
 | [Woozie](woozie)
 | [Kosmo](kos) 
+| [Cotton](cotton) 

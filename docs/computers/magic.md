@@ -1,16 +1,124 @@
 # Magic 🖥
 
-My secondary machine ( i7 mac mini )  
-My current main machine is [Macs](/docs/computers/macs)  
-**[https://davidwindham.com/mac-mini/](https://davidwindham.com/mac-mini/)**  
-**[https://davidwindham.com/anthropomorphizing-machines/](https://davidwindham.com/anthropomorphizing-machines/)**  
-**[https://davidwindham.com/arm/](https://davidwindham.com/arm/)**
+Late 2012 i7 mac mini. 
+My current main machine is [~~Macs~~](/docs/computers/macs) [~~Ovid~~](/docs/computers/ovid) [Stu](/docs/computers/stu)
 
-### Notes:
-**22/11/8** - Preparing for my annual machine cleaning and migration to ARM.  In doing so, I've moved the magic mini up to the office to act as a server on which to drop my development projects during the migration. I previously had used the mini as a media server in the den but I've found that it's easier to user AirPlay from a tablet.  I'll leave a breadcrumb trail here of the specifics as a reference. 
+## Log
+
+- 🔥 26/08/03 - I decided to convert this old machine into a local server that I can use for testing and mirroring production servers since it's got an i7 processor and enough memory to run locally. 
+- 22/11/8 - Preparing for my annual machine cleaning and migration to ARM.  In doing so, I've moved the magic mini up to the office to act as a server on which to drop my development projects during the migration. I previously had used the mini as a media server in the den but I've found that it's easier to user AirPlay from a tablet.  I'll leave a breadcrumb trail here of the specifics as a reference. 
+- 20/07/27 - I finally took it out of commission long enough to migrate to the ARM ( [https://davidwindham.com/arm/](https://davidwindham.com/arm/) ) architecture and replace the old drive with an SSD - [https://davidwindham.com/mac-mini](https://davidwindham.com/mac-mini). 
+
+
+## Ubuntu
+
+- 24.04 - Late 2012 Quad-Core i7 is native 64-bit EFI so not bootloader 32-bit workarounds. 
+- gotta go ```autoinstall``` so I don't need a headless monitor
+
+1. flash Server ISO to USB drive
+2. create a configuration file named user-data inside the USB's root directory containing your user details, SSH keys, network settings, and disk wiping rules.
+```sh
+#cloud-config
+autoinstall:
+  version: 1
+  interactive-sections: []
+  
+  # Set system identity & login credentials
+  identity:
+    hostname: macmini-server
+    username: admin
+    # Default password below is: "ubuntu"
+    # To generate a custom SHA-512 password hash, run on a Mac/Linux terminal:
+    # python3 -c 'import crypt; print(crypt.crypt("yourpassword", crypt.mksalt(crypt.METHOD_SHA512)))'
+    password: "$6$rounds=4096$rounds=4096$c3VwZXJzZWNyZXQ$mR6wY0GZ2M9O7JzG3w0JzX1qV7x0JzX1qV7x0JzX1qV7x0JzX1qV7x0JzX1qV7x0JzX1qV7x0JzX1qV7x"
+
+  # Automatically enable OpenSSH server during install
+  ssh:
+    install-server: true
+    allow-pw: true
+
+  # Automatically format the internal drive (overwrites macOS completely)
+  storage:
+    layout:
+      name: direct
+
+  # Reboot automatically when the installation finishes
+  late-commands:
+    - "curtin in-target -- shutdown -r now"
+```
+
+
+3. edit the GRUB menu configuration on the USB drive to append autoinstall to the boot flags.
+4. Plug the USB into the Mac mini, power it on, hold Option, press Enter (to hit the default EFI boot option blindly).
+5. Ubuntu will read the configuration file, wipe the internal drive, set up SSH, reboot automatically, and come online on your local network—all with zero display attached.
+
+### Linux install notes
+
+```sh
+# Create the systemd unit file
+sudo bash -c 'cat <<EOF > /etc/systemd/system/mac-power-on.service
+[Unit]
+Description=Set Mac mini auto power on after AC loss
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/setpci -s 0:1f.0 0xa4.b=0
+
+[Install]
+WantedBy=multi-user.target
+EOF'
+
+# Reload systemd and enable the service
+sudo systemctl daemon-reload
+sudo systemctl enable mac-power-on.service
+
+# Test-run the command once
+sudo setpci -s 0:1f.0 0xa4.b=0
+```
+
+install mac fan controll (macfanctld)
+
+```sh
+sudo apt update
+sudo apt install -y macfanctld
+sudo systemctl enable --now macfanctld
+```
+
+Enable Auto-Power-On After Power Failure
+```sh
+sudo setpci -s 0:1f.0 0xa4.b=0
+```
+add systemd
+```sh 
+sudo bash -c 'cat <<EOF > /etc/systemd/system/mac-power-on.service
+[Unit]
+Description=Set Mac mini auto power on after AC loss
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/setpci -s 0:1f.0 0xa4.b=0
+
+[Install]
+WantedBy=multi-user.target
+EOF'
+
+sudo systemctl daemon-reload
+sudo systemctl enable mac-power-on.service
+```
+
+Prevent Idle Sleep & Hibernation
+```sh
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+```
+
+## Notes:
+
 ```sh
 $magic
 ```
+
 ### Network
 Moved it to have an ethernet connection to the main router and reserved the IP address: **192.168.7.177** so that it's available to all of the machines on the network. 
 
