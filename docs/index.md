@@ -151,10 +151,6 @@ I use this library of documents as a quick reference to find technical answers, 
 | Alfred
 | Pandoc
 
-### Projects
-
-| [SRH](projects/srh)
-| [gwcal](projects/gwcal)
 
 ### SasS
 
