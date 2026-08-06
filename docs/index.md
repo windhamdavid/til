@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 26/08/06 - 👾 [Ralph](/docs/ai/ralph.md)
 - 26/08/03 - 🖥️ [Magic](/docs/computers/magic.md)
 - 26/06/24 - 🦮 [Woozie](/docs/computers/woozie.md)
 - 26/02/23 - 👾 [AI](/docs/ai/ai.md)
@@ -53,6 +54,7 @@ I use this library of documents as a quick reference to find technical answers, 
 ### AI
 
 [ai](ai/ai.md)
+[Ralph](ai/ralph.md)
 
 ### Computers
 

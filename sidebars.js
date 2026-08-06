@@ -14,6 +14,7 @@ module.exports = {
       },
       items: [
         'ai/ai',
+        'ai/ralph',
       ],
     },
     {
