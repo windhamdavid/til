@@ -1,6 +1,17 @@
 # AI
 
-26/02/23 - I've gradually been adopting more agent involvement into my workflow and I really need to start making and keeping some docs on the setups as they evolve.  
+## Log
+
+- 26/05/05 - added  added another essay @ [https://davidwindham.com/artificial-intelligence-part-5/](https://davidwindham.com/artificial-intelligence-part-5/) 
+- 26/02/24 - added [Ralph](/docs/ai/ralph.md) and published a writeup @ [Model Context Protocol](/posts/mcp)
+- 26/02/23 - I've gradually been adopting more agent involvement into my workflow and I really need to start making and keeping better docs on the setups as they evolve.  
+- 23/05/09 - added an AI feature and documented @ [https://davidwindham.com/artificial-intelligence-part-3/](https://davidwindham.com/artificial-intelligence-part-3/)
+- 22/07/19 - first write up @ [https://davidwindham.com/artificial-intelligence/](https://davidwindham.com/artificial-intelligence/)
+
+## MCP Ralph
+
+RAG/MCP server for all projects - [Ralph](/docs/ai/ralph.md) 👈🏻
+
 
 ## Claude 
 
@@ -19,15 +30,6 @@ For this repo, the answer to "where do I add the clarification rule we just disc
 ## CoPilot
 
 Still mostly for Ci and workflow integration but sometimes for review or debugging. prefer the integrated claude chat and code open in the terminal. It's nice to be able to flop around models and providers.
-
-## MCP Ralph
-
-My sandbox repo for Claude Code experiments — and where the RAG/MCP server lives.
-
-- https://github.com/windhamdavid/ralph
-- https://code.davidawindham.com/david/ralph
-
-The `mcp-server/` is a local [Model Context Protocol](https://modelcontextprotocol.io) filesystem server (`ralph-fs`) plus a RAG pipeline — SQLite + [sqlite-vec](https://github.com/asg017/sqlite-vec) for vector storage and local [Ollama](https://ollama.com) (`nomic-embed-text`) embeddings. It chunks markdown, embeds it, and does KNN search entirely offline. It already exposes filesystem tools (read/write/search) and RAG tools (ingest/search/list/delete) to Claude Code, and its path allowlist already includes this TIL repo.
 
 ## Site Assistant (Clippy)
 
