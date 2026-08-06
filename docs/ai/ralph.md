@@ -2,7 +2,11 @@
 
 A sandbox repository for learning and experimenting with AI. I'm using it as my parent Model Context Protocol server for other projects so that I can wire in additional features and plugins that are reusable between projects.
 
+<img src="/til/img/ralph-model.png" alt="Ralph's three reuse channels: the marketplace ships the diagram plugin, mcp-server ships ralph-fs + RAG, and tools/ installs codebase-memory — all three reaching other projects" width="400" align="right"></img>
+
+
 <img src="https://davidwindham.com/til/img/ralph-loop.jpg" alt="Ralph loop" width="400"></img>
+
 
 ## Log
 
@@ -10,12 +14,19 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 
 ## Features
 
+
+
 - **CLAUDE.md** — project-level instructions that guide Claude Code's behavior in this repo
 - **MCP server** — local filesystem MCP server (`ralph-fs`) exposing file operations as tools to Claude Code
 - **RAG** — local retrieval-augmented generation pipeline backed by SQLite, with **hybrid search** (sqlite-vec semantic + FTS5 keyword) and in-process embeddings (no daemon)
-- **AI assistant** — "davo-bot 2000", a public citation-enabled chat widget powered by Claude, styled as a macOS terminal, grounded in the local RAG index and embeddable on any site
+- **AI assistant** — "davo-bot 2000", a public citation-enabled chat widget, styled as a macOS terminal, grounded in the local RAG index and embeddable on any site
 - **Codebase graph** — pinned, config-touching-nothing installer for `codebase-memory-mcp`, a third-party code-graph MCP server shared across projects
+- **Plugins** — this repo is a plugin marketplace; `diagram` generates editable Excalidraw system maps and installs into any project
 - **Dual remotes** — changes pushed to both GitHub and a self-hosted Gitea instance
+
+
+
+<br clear="all"/>
 
 ## Remotes
 
@@ -23,6 +34,39 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 |------|-----|
 | origin | https://github.com/windhamdavid/ralph.git |
 | code | https://code.davidawindham.com/david/ralph.git |
+
+## Reuse across projects
+
+Ralph is the parent repo in the sense that capabilities are *developed and versioned* here and then used from anywhere. That reuse is **not** filesystem inheritance — sitting above `Sites/` gives a project nothing. `CLAUDE.md`, `.claude/settings.json`, and `.mcp.json` are all scoped to the directory they live in and never propagate to a sibling.
+
+What reaches other projects does so through one of three deliberate channels:
+
+| Channel | Distributes | Reaches other projects via | Cost per session |
+|---|---|---|---|
+| [Plugin marketplace](#plugins) | skills, commands, agents | `/plugin install <name>@ralph` | **none until invoked** |
+| [MCP server](#using-it-from-other-projects) | tools (`ralph-fs`) | `claude mcp add --scope user` | tool schemas, always loaded |
+| [Pinned installer](#codebase-graph) | third-party binaries | `tools/*.sh` + a registration you run | none until registered |
+
+### Choosing between them
+
+**Prefer a plugin.** Skills load on demand, so a dozen of them cost nothing in a session that never uses one. This is the default for anything that is knowledge or procedure rather than a live capability.
+
+**Use an MCP server when you need a running process** — something holding a database handle, a network connection, or an index. The cost is real and fixed: `codebase-memory`'s schemas measure ~6,500 tokens injected into *every* session it's registered in, used or not, versus ~20,500 tokens for the whole of `mcp-server/src`. Register at user scope only when you'll genuinely use it everywhere; otherwise scope it per-project.
+
+**Use a pinned installer for third-party binaries.** The artifact lands outside this repo (`~/.local/bin`) so a user-scope registration doesn't break when Ralph is moved or re-cloned; only the pinned installer is version-controlled. See [tools/install-codebase-memory.sh](https://github.com/windhamdavid/ralph/blob/main/tools/install-codebase-memory.sh).
+
+### What lives where
+
+```
+.claude-plugin/marketplace.json   ← the catalog other projects install from
+plugins/<name>/                   ← one directory per plugin
+  .claude-plugin/plugin.json
+  skills/ commands/ agents/       ← auto-discovered by convention
+tools/                            ← pinned installers for external binaries
+mcp-server/                       ← the ralph-fs MCP server (TypeScript)
+```
+
+Adding a plugin means a directory under `plugins/` and an entry in `marketplace.json` — no other wiring. Iterate against a local path (`/plugin marketplace add /Users/david/Sites/ralph`) and switch to `windhamdavid/ralph` once it's stable.
 
 ## MCP Server
 
@@ -223,6 +267,46 @@ query_graph  "MATCH (n:Section) RETURN n.name, n.file_path LIMIT 3"
 Because graphs are keyed by project inside the shared cache, daw_til's graph is queryable from a Ralph session and vice versa.
 
 **Tradeoff:** a user-scope registration loads all 15 of its tools into every session in every project, used or not. If that's noise, register it per-project instead — the binary path and shared cache are unchanged, only the scope moves.
+
+Measured on this repo: its MCP tool schemas are ~24KB (**~6,500 tokens**) loaded into every session whether or not a tool is called, while Ralph's entire TypeScript source is ~20,500 tokens. On a codebase this size the graph can't pay for itself — it earns its keep on large, unfamiliar repos where it saves you from opening files you didn't need.
+
+## Plugins
+
+`.claude-plugin/marketplace.json` makes this repo a plugin marketplace, which is how work developed here becomes reusable in other projects. Unlike an MCP server, a plugin's skills cost **nothing** until invoked — the lesson from the token measurement above.
+
+```bash
+/plugin marketplace add /Users/david/Sites/ralph   # local path, for iterating
+/plugin marketplace add windhamdavid/ralph         # from GitHub
+/plugin install diagram@ralph
+```
+
+### diagram — Excalidraw system maps
+
+`plugins/diagram/` generates editable `.excalidraw` files for explaining a system to people who don't have the code in their head.
+
+```bash
+python3 plugins/diagram/skills/excalidraw/scripts/build_excalidraw.py \
+  --spec plugins/diagram/examples/ralph-layout.spec.json \
+  --out ralph-layout.excalidraw
+```
+
+Open the result at [excalidraw.com](https://excalidraw.com) or in VS Code via the `pomdtr.excalidraw-editor` extension. `plugins/diagram/examples/` holds a worked example — this repo drawn as its three reuse channels.
+
+Style comes from a named theme rather than being restated per diagram; `slate` (white line art on a slate canvas, sans-serif, no fills) is the default the skill reaches for, and individual keys override it.
+
+**Why a script rather than the model emitting JSON.** Excalidraw elements carry ~25 fields each plus *two-way* references between shapes, their labels, and arrows. Miss one backlink and the file still opens — blank, or with every label silently dropped. The script owns the schema and refuses to write a file that fails validation, so a clean exit means it will render.
+
+```bash
+build_excalidraw.py --validate diagram.excalidraw
+```
+
+Checks label/container backlinks, arrow bindings, and z-order indices. That last one is subtle: Excalidraw sorts elements by comparing `index` as a **string**, so unpadded values put `a10` before `a2` and the layering scrambles once a diagram exceeds nine elements — the indices are zero-padded for that reason.
+
+Output is deterministic: element seeds derive from a hash of the node id, so regenerating an unchanged spec produces a byte-identical file and edits give clean diffs.
+
+**Sharing with a non-technical audience:** export to `.excalidraw.svg`. It renders as an ordinary image anywhere — GitHub, a README, a slide — while remaining a fully editable drawing.
+
+**Not needed:** an Excalidraw Plus account or API key. This writes files locally and makes no network calls. The [Excalidraw+ MCP](https://plus.excalidraw.com/docs/mcp) is a separate, complementary thing — it syncs diagrams to a hosted Plus workspace for shareable links. If you add it, register it at **user scope**, never in this repo's `.mcp.json`: that file is committed and pushed to two remotes, one of them public.
 
 ## RAG
 
