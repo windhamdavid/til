@@ -247,7 +247,7 @@ flowchart LR
   click DC_LANG "https://davidwindham.com/til/docs/lang/Golang" _blank
   click DC_SAAS "https://davidwindham.com/til/docs/saas/akamai" _blank
   click DC_SRV "https://davidwindham.com/til/docs/server/apache" _blank
-  click DC_HOST "https://davidwindham.com/til/docs/host/Discourse" _blank
+  click DC_HOST "https://davidwindham.com/til/docs/host/Drupal" _blank
   click DC_SHELL "https://davidwindham.com/til/docs/shell/dotfiles" _blank
   click DC_SW "https://davidwindham.com/til/docs/localhost/macos" _blank
   click DC_VER "https://davidwindham.com/til/docs/editors/git" _blank

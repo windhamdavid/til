@@ -192,8 +192,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ### Server Hosted
 
-[Discourse](host/Discourse)
-| [Drupal](host/Drupal)
+[Drupal](host/Drupal)
 | Docusaurus
 | [Gitea](host/Gitea)
 | Gastby
@@ -204,18 +203,14 @@ I use this library of documents as a quick reference to find technical answers, 
 | [InvoicePlane](host/InvoicePlane)
 | [Laravel](host/Laravel)
 | [Lychee](host/Lychee)
-| [MailCow](host/Mailcow)
 | [Miniflux](host/Miniflux)
-| [nodebb](host/Nodebb)
 | Outstatic
 | [Piwik](host/Piwik)
 | [Shaarli](host/Shaarli)
 | TinaCMS
-| [siege-sproxy](host/Siege-sproxy)
-| [Webmin](host/Webmin)
 | [WordPress](host/WordPress)
 | [WordPress-Block](host/WordPress-Block)
-| [Zammad](host/Zammad)
+| [Archive](host/Archive)
 
 ### Shell
 

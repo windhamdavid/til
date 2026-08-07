@@ -134,7 +134,6 @@ module.exports = {
       type: 'category',
       label: 'Server Hosted',
       items: [
-        'host/Discourse',
         'host/Drupal',
         'host/Gitea',
         'host/Gogs',
@@ -142,18 +141,14 @@ module.exports = {
         'host/InvoicePlane',
         'host/Laravel',
         'host/Lychee',
-        'host/Mailcow',
         'host/Miniflux',
-        'host/Nodebb',
         'host/Piwik',
         'host/Shaarli',
-        'host/Siege-sproxy',
-        'host/Webmin',
         {
           type:'category',
           label:'WordPress',
           collapsible: true,
-          link: {      
+          link: {
             type:'doc',
             id:'host/WordPress',
           },
@@ -165,7 +160,7 @@ module.exports = {
             }
           ]
         },
-        'host/Zammad',
+        'host/Archive',
       ],
     },
     {
