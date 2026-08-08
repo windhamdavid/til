@@ -12,11 +12,11 @@ toc_max_heading_level: 4
 
 ## Notes
 
-This computer is named after Cotton - [https://davidwindham.com/cotton-2/](https://davidwindham.com/cotton-2/) because it'll be right up under my feet and at my fingertips.
+This computer is named after Cotton ( [https://davidwindham.com/cotton-2/](https://davidwindham.com/cotton-2/) ) after my cat because I like to [anthropomophize machines](https://davidwindham.com/anthropomorphizing-machines/) and it'll be right up under my feet.
 
-It seems like I stagger migrations every other year between servers.  It seems I'm always looking to up the horsepower but I think this will be the first remote machine I lease with some dedicated GPU horsepower for spitting out more complex API requests.  I've also also decided that instead of playing whack-a-mole with production server configurations, I'd just host an almost exact copy locally so that I can rsync em up anytime. Although most of my production servers are using AMD Ryzen processors, ~~I can use my old [mac mini](/docs/computers/macs) with an intel i7 as a substitute~~... after running through a quick test of the old mac mini, it seems that the old thermal paste is dried out causing too much heat and I'm worried that with a different fan control from Ubuntu I'm going to run into problems on down the road because it'll be in a cabinet alongside of an amplifier that also generates heat. I'm going with a new Ryzen 7 box instead.
+It seems like I stagger migrations every other year between servers.  It seems I'm always looking to up the horsepower but I think the next remote will be the first machine I lease with some dedicated GPU horsepower for spitting out more complex API requests. Instead of playing whack-a-mole with production server configurations, I'd just host an almost exact copy locally so that I can rsync em up anytime. Although most of my production servers are using AMD Ryzen processors, ~~I can use my old [mac mini](/docs/computers/macs) with an intel i7 as a substitute~~... after running through a quick test of the old mac mini, it seems that the old thermal paste is dried out causing too much heat and I'm worried that with a different fan control I'm going to run into problems on down the road because it'll be in a cabinet alongside of an amplifier that also generates heat. I'm going with a new Ryzen 7 box instead.
 
-
+Aside from the server mirro, it'll handle network backups also going to provide a headless API server for running LLMs so I'm not constantly adding and removing billions of parameters and 20GB models to my primary machine and so I've got a local AI that's reliable and trainable. When the the M5 Ultra is released, I'll bump up [Stu](/docs/computers/stu.md) so I can use the horsepower. The headless server will handle persistent storage, web mirroring, databases, and Time Machine backups, while my studio retains its full processing and unified memory power for running large models.
 
 ## Hardware
 
@@ -84,9 +84,6 @@ sudo netplan apply
 ```
 
 ```sh
-
-
-
 [ Internet ] 
      │
 [ Calix Primary Router ] (Subnet: 192.168.7.X) 
@@ -209,5 +206,134 @@ apt-get –-purge remove packagename
 
 ### Cron 
 
+## Proxy Tunnel
+
+- FRP - [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
+- Rathole - [https://github.com/rathole-org/rathole](https://github.com/rathole-org/rathole)
+
+## Nginx Proxy Manager
+## Docker
+## Kubernetes K3
+
+e.g.:
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-production-mirror
+  labels:
+    app: dev-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dev-web
+  template:
+    metadata:
+      labels:
+        app: dev-web
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: webroot
+          mountPath: /usr/share/nginx/html # Or your specific app directory
+      volumes:
+      - name: webroot
+        hostPath:
+          path: /var/www # Points directly to your Ubuntu host directory
+          type: Directory
+```
 
 ## Remote RSync
+
+## SMB NAS
+
+will mount an external drive so that I can cron backups of the computers on the network and shift AI models on and off it. 
+
+```sh
+sudo mkdir -p /mnt/timemachine
+sudo chown -R nobody:nogroup /mnt/timemachine
+sudo chmod -R 777 /mnt/timemachine
+sudo apt install samba -y
+sudo vi /etc/samba/smb.conf
+
+[TimeMachine]
+comment = Mac Time Machine Backup
+path = /mnt/timemachine
+browseable = yes
+writeable = yes
+create mask = 0600
+directory mask = 0700
+vfs objects = catia fruit streams_xattr
+fruit:time machine = yes
+fruit:time machine max size = 1T
+
+sudo adduser --no-create-home --disabled-login --shell /bin/false tmuser
+sudo chown -R tmuser: /mnt/timemachine
+sudo smbpasswd -a tmuser
+sudo systemctl restart smbd
+```
+
+#### Connection
+
+- Open Finder and press Cmd + K (or click Go > Connect to Server in the top menu bar).
+- Enter your Ubuntu server's IP address using the SMB protocol: smb://your-server-ip
+- Click Connect and enter the username (macuser) and password you created in Step 3.
+- Open System Settings > General > Time Machine on your Mac.
+- Click Add Backup Disk... and select the TimeMachine folder from the network list.
+
+## Ollama
+
+```sh
+OLLAMA_HOST=http://your-server-ip:11434 ollama pull qwen2.5-coder:32b
+OLLAMA_HOST=http://your-server-ip:11434 ollama list
+OLLAMA_HOST=http://your-server-ip:11434 ollama rm qwen2.5-coder:32b
+
+  ┌─────────────────────────────────┐          ┌─────────────────────────────────┐
+  │      M4 Pro / M5 Ultra Mac      │          │     Beelink EQR7 Mini PC        │
+  │     (Heavy Compute Center)      │          │      (Storage & Dev Server)     │
+  └────────────────┬────────────────┘          └────────────────┬────────────────┘
+                   │                                            │
+                   │           1. Requests Model File           │
+                   │───────────────────────────────────────────>│
+                   │                                            │
+                   │           2. Streams GGUF over LAN         │
+                   │<───────────────────────────────────────────│
+                   │                                            │
+         ┌─────────┴─────────┐                        ┌─────────┴──────────┐
+         │ • Runs Ollama     │                        │ • Dev Mirror       │
+         │ • 70B+ Models     │                        │ • MySQL/Postgres   │
+         │ • Blazing VRAM    │                        │ • Time Machine NAS │
+         └───────────────────┘                        │ • 2TB model cache  │
+                                                      └────────────────────┘
+
+sudo mkdir -p /mnt/storage/ai-models
+sudo chown -R macuser: /mnt/storage/ai-models
+sudo vi /etc/samba/smb.conf
+
+[AI-Models]
+comment = Central GGUF Model Storage
+path = /mnt/storage/models
+browseable = yes
+writeable = yes
+guest ok = no
+valid users = macuser
+
+sudo systemctl restart smbd
+```
+
+- Open Finder and press Cmd + K.
+- Type smb://cotton-ip/AI-Models and click Connect.
+- Enter your macuser credentials and check the box to Remember this password in my keychain.
+- Open System Settings > General > Login Items on your Mac.
+- Under the Open at Login section, click the + icon, navigate to your network locations, and add the mounted AI-Models volume. It will now mount silently every time your Mac boots.
+
+```sh
+vi ~/.zshrc
+
+export OLLAMA_MODELS="/Volumes/AI-Models"
+```
