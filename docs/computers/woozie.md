@@ -2,9 +2,8 @@
 
 ## Notes
 
-**26.06.24** - Going to upgrade and migrate this server sometime soon. 
-
-**23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidwindham.com/human-updates-available/).
+- **26.08.10** - basic tune up [ went through all error.logs and fixed. added custom /scripts to review logs, updated blocklist and removed blocks from per site logs ]. Adding local mirror [Cotton](/docs/computers/cotton.md) before any new migration.
+- **23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidwindham.com/human-updates-available/).
 
 ## Log
 
