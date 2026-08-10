@@ -7,6 +7,7 @@ slug: /
 
 ## Log
 
+- 26/08/09 - 💵 [notes/work/trades](/notes/work/trades.md)
 - 26/07/25 - 🌳 [notes/garden](/notes/garden)
 - 26/03/23 - 🏡 [house/kitchen](/notes/house/kitchen)
 - 26/03/20 - 🌳 [notes/garden](/notes/garden)

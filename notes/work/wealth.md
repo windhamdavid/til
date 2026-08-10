@@ -2,6 +2,8 @@
 
 ## Log
 
+- 26/08/09 - looking into using [APIs](/notes/work/trades.md) 📈
+- 25/04/16 - investment banker meeting - not impressed 🥱
 - 24/12/16 - kept Robinhood account for playing 🔥
 - 24/09/12 - new broker, moved portfolio
 - 23/07/18 - needed a place to note some news on investing

@@ -1,16 +1,16 @@
 # Zeke 🐕‍🦺
 
-## Log
+Zeke was named after [https://davidwindham.com/zeke/](https://davidwindham.com/zeke/) because I like to [anthropomophize machines](https://davidwindham.com/anthropomorphizing-machines/).
 
----
-**26.05.28** - Haven't migrated yet 😂 Apache upgrade won't load http2 even on event module FTR. Tried a quick reinstall - no dice 🎲 so migration should be on the agenda soon. Will migrate IP so I don't have to fiddle with the domains or backport a buggy http2 module.
----
+## Log
 
 ## 🔥 Migration
 
-**25.07.16** - Officially DEPRECATED 🔥 -> Migrating to [Cotton](/docs/computers/cotton) 👈🏼 .
-**25.07.16** - Six (6) virtual hosts still running. Will remove over the next year. Expanded Security Maintenance (ESM) runs through April 2028.   
-**25.04.11** - Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
+- **26.08.09** - Officially DEPRECATED 🚫 -> Migrated to [Woozie](/docs/computers/woozie.md) in a two step while I wire up [Cotton](/docs/computers/cotton) locally so I can spin up a fresh 📦 with some additional 🐴🔋 for more complex API requests.
+- **26.05.28** - Haven't migrated yet 😂 Apache upgrade won't load http2 even on event module FTR. Tried a quick reinstall - no dice 🎲 so migration should be on the agenda soon. Will migrate IP so I don't have to fiddle with the domains or backport a buggy http2 module.
+👈🏼 .
+- **25.07.16** - Six (6) virtual hosts still running. Will remove over the next year. Expanded Security Maintenance (ESM) runs through April 2028.   
+- **25.04.11** - Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
 
 ```sh
 # everything up to date
