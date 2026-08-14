@@ -111,7 +111,7 @@ export default {
     },
     prism: {
       theme: prismThemes.oneDark,
-      additionalLanguages: ['php', 'rust', 'bash', 'shell-session', 'swift', 'diff'],
+      additionalLanguages: ['php', 'rust', 'bash', 'shell-session', 'swift', 'diff', 'nginx', 'apacheconf'],
     },
     mermaid: {
       theme: {light: 'base', dark: 'base'},
