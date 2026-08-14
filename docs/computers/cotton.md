@@ -10,6 +10,79 @@ toc_max_heading_level: 4
   - Ubuntu 26.04 LTS (Resolute Raccoon) will run until 2031 or 2036 with ESM.
 
 
+```sh
+david@stu🪩:~ » ssh cotton
+Welcome to Ubuntu 26.04 LTS (GNU/Linux 7.0.0-29-generic x86_64)
+
+       _                        
+       \`*-.                    
+        )  _`-.                 
+       .  : `. .                
+       : _   '  \               
+       ; *` _.   `*-._          
+       `-.-'          `-.       
+         ;       `       `.     
+         :.       .        \    
+         . \  .   :   .-'   .   
+         '  `+.;  ;  '      :   
+         :  '  |    ;       ;-. 
+         ; '   : :`-:     _.`* ;
+      .*' /  .*' ; .*`- +'  `*'
+      `*-*   `*-*  `*-*'
+
+
+     .     . .              .       .  . 
+. . ...-..-| |-. .-. .-.-..-| .-.. ...-| 
+ ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
+
+
+ System information as of Thu Aug 13 07:53:25 PM EDT 2026
+
+  System load:  0.0                Temperature:             46.0 C
+  Usage of /:   2.4% of 454.88GB   Processes:               293
+  Memory usage: 3%                 Users logged in:         0
+  Swap usage:   0%                 IPv4 address for enp2s0: 192.168.*.***
+
+Expanded Security Maintenance for Applications is enabled.
+
+0 updates can be applied immediately.
+
+
+Last login: Thu Aug 13 13:23:03 2026 from 192.168.*.***
+david@cotton🐈:~ » lscpu
+Architecture:                x86_64
+  CPU op-mode(s):            32-bit, 64-bit
+  Address sizes:             48 bits physical, 48 bits virtual
+  Byte Order:                Little Endian
+CPU(s):                      16
+  On-line CPU(s) list:       0-15
+Vendor ID:                   AuthenticAMD
+  Model name:                AMD Ryzen 7 7735U with Radeon Graphics
+    CPU family:              25
+    Model:                   68
+    Thread(s) per core:      2
+    Core(s) per socket:      8
+    Socket(s):               1
+    Stepping:                1
+    Frequency boost:         enabled
+    CPU(s) scaling MHz:      27%
+    CPU max MHz:             4821.1401
+    CPU min MHz:             406.6030
+    BogoMIPS:                5389.98
+    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx f
+                             xsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good no
+                             pl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse
+                             3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_le
+                             gacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt t
+                             ce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_psta
+                             te ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt
+                             _a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_
+                             occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoi
+                             nvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassi
+                             sts pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes
+                              vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap
+```
+
 ## Notes
 
 This computer is named after Cotton ( [https://davidwindham.com/cotton-2/](https://davidwindham.com/cotton-2/) ) after my cat because I like to [anthropomophize machines](https://davidwindham.com/anthropomorphizing-machines/) and it'll be right up under my feet.
@@ -53,10 +126,22 @@ Beelink EQR7 Mini PC,AMD Ryzen 7 7735U - 24GB LPDDR5 RAM 500GB M.2 PCIE4.0x4 SSD
 
 ## Network
 
-[http://192.168.7.1](http://192.168.7.1)
 - DHCP to reserve a static IP on the router 
-- Dynamic DNS to map domain without home IP
-- DMZ enabled for device
+- **LAN-only — no DMZ, no port forward.** Decided 2026-08-14, see below.
+
+**Cotton's address is a DHCP reservation at the Calix router**, bound to the cabled port's MAC
+(`enp2s0`). It is *not* a netplan static — since we control the router here, the reservation is
+the one place to look, unlike woozie's leased box where there was no access to the DHCP server.
+Verify with `ip -4 -o addr show enp2s0`; it will read `dynamic`, which is correct.
+
+(Addresses and MACs are masked on this page — real values are in the private ops repo.)
+
+The netplan static below is kept as reference only (it is what woozie's leased-box situation
+required). Two traps if it is ever actually needed: use `netplan apply`, not `netplan try` —
+`try` reports "Configuration accepted" while silently reverting to `dhcp4: true`, because it
+cannot survive the SSH session the address change itself kills. And the interface on this box
+is `enp2s0`, not `enp3s0`.
+
 ```sh
 ip r | grep default
 # interface name
@@ -68,15 +153,17 @@ network:
   version: 2
   renderer: networkd
   ethernets:
-    enp3s0: # Change to your interface name
+    enp2s0: # this box's cabled port — confirm with `ip a`
       dhcp4: no
       addresses:
-        - 192.168.1.200/24 # server P
+        - 192.168.*.***/24 # server IP — must be on the router's subnet
       routes:
         - to: default
-          via: 192.168.7.1 # router IP
+          via: 192.168.*.1 # router IP
       nameservers:
         addresses:
+          - 192.168.*.1 # router
+          - 1.1.1.1
 ```
 
 ```sh
@@ -86,50 +173,109 @@ sudo netplan apply
 ```sh
 [ Internet ] 
      │
-[ Calix Primary Router ] (Subnet: 192.168.7.X) 
+[ Calix Primary Router ] (Subnet: 192.168.*.X) 
      │
-     ├──> [ Cotton ] (DMZ Target IP: 192.168.7.200)
+     ├──> [ Cotton ] (LAN only — reserved IP: 192.168.*.***)
      │
      ▼ (WAN Port)
-[ TP-Link Deco Mesh ] (Subnet: 192.168.68.X │ WAN IP: 192.168.7.122)
+[ TP-Link Deco Mesh ] (Subnet: 192.168.68.X │ WAN IP: 192.168.*.***)
      │
-     └──> [ stu ] (Permanent Manual IP: 192.168.68.74)
+     └──> [ stu ] (Permanent Manual IP: 192.168.*.***)
 ```
 
-router - enable and add 192.168.7.200 into the DMZ Hosts
+### Why no DMZ
+
+Cotton is **not** in the router's DMZ and has no port forward. Decided 2026-08-14.
+
+The DMZ forwards *every* port, not one. Cotton's whole job is holding mirrors of production
+databases and Time Machine backups — putting that entire surface on the public internet so
+that Samba, Ollama and anything added later is exposed *by default rather than by decision*
+is a bad trade.
+
+The two things I actually wanted turn out not to need it:
+
+- **rsync from cotton to a remote host is outbound.** Cotton opens the connection, so it works
+  behind a fully closed inbound firewall. `ufw default allow outgoing` covers it.
+- **SSH from another machine at home is LAN traffic.** Also no exposure needed.
+
+That leaves only *inbound SSH while away from home*. If that becomes a real need, use a mesh
+VPN (Tailscale/WireGuard) — it opens **no inbound ports at all**, since cotton dials out; it
+authenticates better than SSH-on-a-port; and it survives the home IP changing, which is the
+problem dynamic DNS was in these notes to solve. Failing that, forward the **single** SSH port
+rather than enabling DMZ.
 
 ## Ubuntu 
+
 
 ### Install
 
 1. Flash the Bootable USB Drive 
 - balenaEtcher - [https://etcher.balena.io](https://etcher.balena.io)
-- 64B AMD from [https://ubuntu.com/download/server](https://ubuntu.com/download/server)
+- 64-bit AMD (amd64) from [https://ubuntu.com/download/server](https://ubuntu.com/download/server) — the 7735U is x86, *not* ARM
 
 2. GRUB install
 -```F7``` on startup
+  - If the F7 popup doesn't appear or the USB isn't listed, enter BIOS with ```Del``` and set
+    Boot Option #1 to the USB device in Boot Option Priorities, then **F4** to save and exit
+    (this board saves on F4, not F10). Boot Override only lists fully-enumerated UEFI devices,
+    so a USB can be missing there while still present in the priority list.
+  - Boot → Fast Boot must be **Disabled** — when enabled its ```USB Support = Partial Initial```
+    setting enumerates keyboards but skips USB mass storage, hiding the installer drive.
+  - Pull the USB at the post-install reboot, then set Boot Option #1 back.
   - choose: Install Ubuntu Server
     - wired ethernet interface - *note user/pass IP
+    - **Storage — grow the root LV.** The default "entire disk + LVM group" allocates only
+      ~100GB to the root logical volume and leaves the rest of the 500GB NVMe unused in the
+      volume group. On the storage screen select the root LV → Edit → set size to max.
   - Enable OpenSSH Server
   - Reboot
 
+3. Resize the root LV (if the install step above was missed)
+
+Safe on a running system — ```resize2fs``` grows a mounted ext4 filesystem online, so there is
+no unmount and no reboot. Check for free space in the volume group first; ```VFree``` shows what
+was left behind.
+
+```sh
+lsblk
+df -h /
+sudo vgs && sudo lvs
+
+# if VFree > 0 on ubuntu-vg
+sudo lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+df -h /
+```
+
+If ```vgs``` reports no volume groups, the install used a plain partition rather than LVM. There
+is nothing to extend — confirm ```df -h /``` already shows the full disk. Converting a live root
+filesystem to LVM in place is not practical; that would be a reinstall.
 
 ```sh
 ssh me@ip
 sudo apt list --upgradable
 sudo apt update && sudo apt upgrade -y
-sudo ufw allow ssh
+# LAN-only posture (no DMZ, no port forward).
+#
+# Do NOT use `ufw allow ssh` — that opens 22, and sshd here listens on the obscured port via
+# the ssh.socket override. Add the allow rule BEFORE tightening the defaults or you drop your
+# own session.
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow from 192.168.*.0/24 to any port <ssh-port> proto tcp comment 'SSH from LAN'
 sudo ufw enable
+sudo ufw status verbose
 
-sudo ufw allow 80/tcp comment 'Public HTTP'
-sudo ufw allow 443/tcp comment 'Public HTTPS'
+# Add per service as each one lands — scoped to the LAN, never to 'any':
+# sudo ufw allow from 192.168.*.0/24 to any port 80,443 proto tcp comment 'HTTP/S on LAN'
+# sudo ufw allow from 192.168.*.0/24 to any port 445  proto tcp comment 'Samba / Time Machine'
+# sudo ufw allow from 192.168.*.0/24 to any port 5353 proto udp comment 'mDNS discovery'
 
-# block stu from DMZ server - DHCP reserve IP/device
-sudo ufw deny out to 192.168.68.74 comment 'block stu'
-sudo ufw allow from 192.168.68.74 to any port <port> proto tcp comment 'SSH stu'
-sudo ufw allow from 192.168.7.122 to any port 22 proto tcp comment 'SSH from internal mesh network'
-sudo ufw deny out to 192.168.7.122 comment 'Block cotton from scanning network router'
-sudo ufw reload
+> **The `/24` is deliberate — a rule naming stu's own mesh address can never match.** The Deco
+> NATs, so everything behind it arrives wearing the Deco's WAN address, not its own. Confirmed
+> from a live session: `SSH_CONNECTION` on cotton reports the mesh WAN as the source, never
+> stu's `192.168.68.x` address. The upshot is that ufw cannot tell stu apart from anything else
+> on the mesh — the NAT has already collapsed them into one source.
 
 
 sudo timedatectl set-timezone 'America/New_York'
@@ -206,12 +352,189 @@ apt-get –-purge remove packagename
 
 ### Cron 
 
+## Web Server
+
+nginx in front, Apache behind it, PHP-FPM behind that.
+
+```sh
+   nginx :80/:443         TLS, static, bot blocklist
+      │ proxy_pass
+   Apache 127.0.0.1:8080  vhosts, .htaccess
+      │ proxy_fcgi
+   PHP-FPM 8.5            unix socket
+```
+
+I kept Apache rather than going straight to PHP-FPM because my sites carry ~70 `.htaccess`
+files — hundreds of rewrites, plus expires/auth blocks, the largest 300 lines. Porting that
+is a project, and WordPress plugins keep *writing* `.htaccess` at runtime, so they'd look
+like they worked while nothing read them.
+
+### Apache
+
+```sh
+sudo apt install apache2
+
+# move off :80 BEFORE nginx exists, or nginx can't bind
+sudo sed -i 's/^Listen 80$/Listen 127.0.0.1:8080/' /etc/apache2/ports.conf
+sudo sed -i 's/<VirtualHost \*:80>/<VirtualHost 127.0.0.1:8080>/' \
+  /etc/apache2/sites-available/000-default.conf
+
+# Apache does no TLS here. These are inert only while ssl_module is off — a stray
+# `a2enmod ssl` would grab 0.0.0.0:443 out from under nginx.
+sudo sed -i 's/^\(\s*\)Listen 443/\1#Listen 443/' /etc/apache2/ports.conf
+
+echo "ServerName localhost" | sudo tee -a /etc/apache2/apache2.conf   # silences AH00558
+
+sudo a2enmod proxy proxy_fcgi setenvif remoteip rewrite headers expires
+sudo a2enconf php8.5-fpm
+sudo apachectl configtest && sudo systemctl restart apache2
+
+ss -lntp | grep -E ':(80|443|8080)'    # expect ONLY 127.0.0.1:8080
+```
+
+> Enable the module *before* any conf using its directives — `remoteip.conf` first gives
+> `Invalid command 'RemoteIPHeader'` and Apache won't start. And `restart`, not `reload`,
+> after `a2enmod`.
+
+#### mod_remoteip 
+
+Behind a proxy every request reaches Apache from `127.0.0.1`. Without this that's what lands
+in `access.log` for everything — which kills goaccess, per-site log review, and the IP
+blocklist built *from* those logs, since I'd be blacklisting my own proxy.
+
+`/etc/apache2/conf-available/remoteip.conf` → `sudo a2enconf remoteip`
+
+```apacheconf
+RemoteIPHeader X-Forwarded-For
+RemoteIPInternalProxy 127.0.0.1
+RemoteIPInternalProxy ::1
+
+# %h logs the connection peer (still 127.0.0.1); %a logs what mod_remoteip resolved.
+# Overrides the Ubuntu defaults — same strings with %h -> %a.
+LogFormat "%v:%p %a %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" vhost_combined
+LogFormat "%a %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%a %l %u %t \"%r\" %>s %O" common
+```
+
+`RemoteIPInternalProxy` is a security control — it's why `X-Forwarded-For` is trusted from my
+proxy and nowhere else. Without it anyone could forge the header and walk through the blocklist.
+
+### nginx
+
+```sh
+sudo apt install nginx
+sudo vi /etc/nginx/sites-available/default
+```
+
+```nginx
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    server_name _;
+
+    # blocklist at the EDGE — blocked requests never reach Apache or PHP
+    # include /etc/nginx/bots.d/blockbots.conf;
+    # include /etc/nginx/bots.d/ddos.conf;
+
+    client_max_body_size 64m;      # keep >= PHP upload_max_filesize
+
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+
+        proxy_http_version 1.1;
+        proxy_set_header Host              $host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host  $host;
+
+        proxy_connect_timeout 30s;
+        proxy_send_timeout    60s;
+        proxy_read_timeout    60s;
+    }
+}
+```
+
+TLS goes on with `certbot --nginx`, not `--apache`. Apache needs no certs.
+
+##
+Not used — I configure nginx directly. Left here as a pointer in case I want a UI for the
+container side later: [https://nginxproxymanager.com](https://nginxproxymanager.com)
+
+### PHP-FPM
+
+Resolute ships **8.5**; neither 8.3 nor 8.4 is in the repos, and getting 8.4 would mean the
+`ondrej/php` PPA for one major — not worth a third-party repo whose updates bypass Pro/ESM.
+
+```sh
+sudo apt install php8.5-fpm php8.5-cli php8.5-common \
+  php8.5-bcmath php8.5-curl php8.5-gd php8.5-imagick php8.5-intl \
+  php8.5-mbstring php8.5-mysql php8.5-readline php8.5-sqlite3 \
+  php8.5-xml php8.5-zip
+```
+
+> **No `php8.5-opcache` package** — it's compiled in as of 8.5, and asking for it fails the
+> whole line. Check with `php -m | grep -i opcache`.
+
+Tuning drops into `/etc/php/8.5/{fpm,cli}/conf.d/99-cotton.ini` rather than `php.ini` — not
+because php.ini gets clobbered (it's ucf-managed, edits survive) but because 20 reviewable
+lines copy forward to the next server and the next PHP version, where finding my changes
+inside 1,885 lines means diffing against stock.
+
+```ini
+memory_limit = 512M
+upload_max_filesize = 50M
+post_max_size = 50M            ; must be >= upload_max_filesize
+max_execution_time = 30
+max_input_time = 60
+realpath_cache_size = 256k
+realpath_cache_ttl = 3600
+display_errors = Off
+log_errors = On
+date.timezone = UTC
+expose_php = Off
+```
+
+Stock defaults are 128M / 2M / 8M — the 2M cap breaks WP media uploads and fails vaguely.
+Install into **both** `fpm/` and `cli/`; wp-cli reads the CLI copy.
+
+> **`error_log` deliberately unset.** With `log_errors On` and no path, FPM passes errors up
+> the FastCGI channel and Apache writes them to *that vhost's* `error.log` as
+> `AH01071: Got error 'PHP message: ...'` — which is what gives them per-site attribution and
+> what `clear-logs.sh` globs for. A central `error_log` removes them from the per-site logs
+> entirely (verified), leaving the review script quiet but looking fine.
+>
+> `date.timezone = UTC` also deliberate — WP calls `date_default_timezone_set('UTC')` every
+> request, so setting local time here would only affect pre-WP fatals and CLI, giving a mix.
+> PHP timestamps run ahead of the web logs by the UTC offset.
+
+### Verifying the chain
+
+```sh
+# 1. proxying? Don't use `curl -I` and read Server: — nginx strips the upstream
+#    header and stamps its own, so it says nginx either way. Compare content.
+curl -s http://127.0.0.1/ | grep -o '<title>[^<]*</title>'
+curl -s http://127.0.0.1:8080/ | grep -o '<title>[^<]*</title>'   # should match
+
+# 2. mod_remoteip — must come from ANOTHER machine; on-box shows 127.0.0.1 legitimately
+sudo tail -2 /var/log/apache2/access.log      # expect the real client IP
+
+# 3. PHP through FPM, with REMOTE_ADDR intact
+printf '<?php echo PHP_SAPI, " ", $_SERVER["REMOTE_ADDR"], "\n";' > /var/www/html/_check.php
+curl -s http://192.168.*.***/_check.php       # expect: fpm-fcgi <real client ip>
+rm /var/www/html/_check.php
+
+sudo chown -R david:www-data /var/www/html    # wp-cli needs no sudo
+```
+
+`X-Forwarded-For` absent inside PHP is correct — mod_remoteip consumes it once used. Gone,
+alongside a real `REMOTE_ADDR`, is the signature of it working.
+
 ## Proxy Tunnel
 
 - FRP - [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
 - Rathole - [https://github.com/rathole-org/rathole](https://github.com/rathole-org/rathole)
 
-## Nginx Proxy Manager
 ## Docker
 ## Kubernetes K3
 
