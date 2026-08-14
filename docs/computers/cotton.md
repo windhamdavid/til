@@ -4,9 +4,11 @@ toc_max_heading_level: 4
 
 # Cotton 🐈
 
+( 26/07/15 ) This machine is mounted in a cabinet beneath my desk with temp controlled fans on it. It's got several purposes but the primary one is acting as a local mirror for remote hosts so that I can rsync between them. It's also going to be used as home automation hub for making backups and providing remote network access. I named it [Cotton after my cat](https://davidwindham.com/cotton-2/) because I like [anthropomorphising machines](https://davidwindham.com/anthropomorphizing-machines/), he was resilient, and it'll always be up under my feet. 
+
 ## Log
 
-- **26/07/15** - placeholder for updated server to replace [Zeke](/docs/computers/zeke)
+- **26/07/15** - placeholder for updated server to act as an local downstream server for replacing [Zeke](/docs/computers/zeke)
   - Ubuntu 26.04 LTS (Resolute Raccoon) will run until 2031 or 2036 with ESM.
 
 
@@ -258,7 +260,7 @@ sudo apt update && sudo apt upgrade -y
 # LAN-only posture (no DMZ, no port forward).
 #
 # Do NOT use `ufw allow ssh` — that opens 22, and sshd here listens on the obscured port via
-# the ssh.socket override. Add the allow rule BEFORE tightening the defaults or you drop your
+# the ssh.socket override. Add the allow rule BEFORE tightening the defaults, or I drop my
 # own session.
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
@@ -457,8 +459,9 @@ server {
 
 TLS goes on with `certbot --nginx`, not `--apache`. Apache needs no certs.
 
-##
-Not used — I configure nginx directly. Left here as a pointer in case I want a UI for the
+#### proxy manager
+
+Not used — I configure nginx directly. Left as a pointer in case I want a UI for the
 container side later: [https://nginxproxymanager.com](https://nginxproxymanager.com)
 
 ### PHP-FPM
@@ -508,7 +511,7 @@ Install into **both** `fpm/` and `cli/`; wp-cli reads the CLI copy.
 > request, so setting local time here would only affect pre-WP fatals and CLI, giving a mix.
 > PHP timestamps run ahead of the web logs by the UTC offset.
 
-### Verifying the chain
+### Verify Chain
 
 ```sh
 # 1. proxying? Don't use `curl -I` and read Server: — nginx strips the upstream
@@ -534,6 +537,8 @@ alongside a real `REMOTE_ADDR`, is the signature of it working.
 
 - FRP - [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
 - Rathole - [https://github.com/rathole-org/rathole](https://github.com/rathole-org/rathole)
+
+## Wireguard
 
 ## Docker
 ## Kubernetes K3
