@@ -114,7 +114,14 @@ module.exports = {
     {
       type: 'category',
       label: 'Server Tools',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'server/server',
+      },
       items: [
+        'server/migration',
+        'server/scripts',
         'server/apache',
         'server/docker',
         'server/goaccess',
