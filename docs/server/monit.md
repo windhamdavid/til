@@ -1,210 +1,199 @@
+# Monit
 
+- [mmonit.com/monit](https://mmonit.com/monit/)
+- [documentation](https://mmonit.com/monit/documentation/monit.html)
 
-- [https://mmonit.com/monit/](https://mmonit.com/monit/)
-- [https://mmonit.com/monit/documentation/monit.html](https://mmonit.com/monit/documentation/monit.html)
+## Log
 
+- **26/08/15** — added `apache2` + `php8.5-fpm` checks to [Cotton](/docs/computers/cotton).
+  Three things bit me, all recorded below under [Gotchas](#gotchas): 26.04's hardened
+  `monit.service` breaks the FPM socket check, `protocol fastcgi` does not exist, and a `.bak`
+  file left in `conf.d/` gets parsed.
+- **26/08/15** — fixed a long-standing typo in Woozie's `apache2.conf`: line 3 read
+  `start program = "... stop apache2"`. Monit takes the **last** `start program`, so a
+  Monit-initiated start would have stopped Apache. Latent since Feb 2023 — it only fires on an
+  explicit `monit stop`, never from a check.
+- **26/06/24** — PID mismatch with the php-fpm processes on Woozie; Monit reported them down
+  while they were fine. Swapped from `with pidfile` to `matching "php-fpm: master process ..."`
+  and start/stop via `systemctl`.
 
-###Installing Monit
+## Gotchas
 
-[Source](https://www.linode.com/docs/uptime/monitoring/monitoring-servers-with-monit)  
-Update your system and install Monit. Some distros require that Monit be manually enabled and started.
+#### Ubuntu 26.04 strips CAP_DAC_OVERRIDE and the FPM socket check fails
 
-### Arch
+The shipped unit runs Monit as root but with capabilities cut to
+`CAP_DAC_READ_SEARCH CAP_NET_RAW CAP_SYS_PTRACE`. Connecting to a unix socket needs **write**
+permission; `CAP_DAC_READ_SEARCH` only bypasses *read* checks. PHP-FPM's socket is
+`srw-rw---- www-data:www-data`, so `connect()` returns EACCES and Monit reports
+**"Connection failed"** against a perfectly healthy pool — then restarts it, fails again, and
+trips the restart-timeout into `Not monitored`.
 
-    sudo pacman -Syu && sudo pacman -S monit
-    sudo systemctl enable monit && sudo systemctl start monit
+22.04 ships an unconfined unit, so Woozie never sees this. It is a 26.04 property.
 
-### CentOS
+```ini
+# /etc/systemd/system/monit.service.d/override.conf
+[Service]
+CapabilityBoundingSet=CAP_DAC_READ_SEARCH CAP_NET_RAW CAP_SYS_PTRACE CAP_DAC_OVERRIDE
+```
 
-Monit is available in the [EPEL repository](https://fedoraproject.org/wiki/EPEL).
+```sh
+sudo systemctl daemon-reload && sudo systemctl restart monit
+systemctl show monit -p CapabilityBoundingSet
+```
 
-    sudo yum update && sudo yum install epel-release
-    sudo yum update && sudo yum install monit
+`daemon-reload` alone is not enough — capabilities are fixed at process start, so it needs a
+**restart**. Do not "fix" this by setting `listen.mode = 0666` on the FPM pool; that makes the
+socket writable by every local user to satisfy a monitoring check.
 
-To enable and start the daemon in CentOS 7:
+#### There is no `fastcgi` protocol
 
-    sudo systemctl enable monit && sudo systemctl start monit
+Monit speaks http, mysql, redis, smtp, pgsql and friends — **not FastCGI**. Writing
+`protocol fastcgi` is a parse error, and a parse error takes the **whole daemon** down, not
+just that check. Always `monit -t` before `monit reload`.
 
-To enable and start the daemon in CentOS 6:
+#### `conf.d/` is globbed, so backups get parsed
 
-    sudo chkconfig monit on && sudo service start monit
+Leaving `apache2.conf.bak-<date>` next to `apache2.conf` gives
+`Service name conflict, apache2 already defined`. Keep backups outside the directory. Same
+trap as `cron.d`, `logrotate.d`, `sites-enabled` and `sudoers.d`.
 
-### Debian / Ubuntu
+#### "Not monitored" means disabled, not failing
 
-Debian and Ubuntu automatically start and enable Monit after installation.
+`if 5 restarts within 5 cycles then timeout` sets a service to `Not monitored` after repeated
+restart failures — deliberately, to stop a crash loop. It stays that way until
+`monit monitor <service>`. Worth `monit summary | grep -i "not monitored"` occasionally;
+anything listed is silently unwatched.
 
-    sudo apt-get update && sudo apt-get upgrade
-    sudo apt-get install monit
+#### Status right after a reload is stale
 
-### Fedora
+The poll interval is `set daemon`, so a freshly reloaded check reads `initializing` or shows
+the previous state for up to that long. Wait a cycle before believing it.
 
-    sudo dnf update && sudo dnf install monit
-    sudo systemctl enable monit && sudo systemctl start monit
+## Install
 
-### Restarting Monit
+Ubuntu starts and enables it automatically:
 
- If you're using a Linux distro with systemd (CentOS 7, Debian 8, Fedora 22):
+```sh
+sudo apt update && sudo apt install monit
+sudo systemctl status monit
+```
 
-    sudo systemctl restart monit
+```sh
+sudo monit -t              # validate config — ALWAYS before reload
+sudo monit reload          # re-read config
+sudo monit summary         # one line per service
+sudo monit status <svc>    # detail, including why a check failed
+sudo monit monitor <svc>   # re-enable a service left "Not monitored"
+```
 
-If your distro has System V (CentOS 6, Debian 7) or Upstart (Ubuntu 14.04):
+The local HTTP interface answers without auth if `allow localhost` is set, which is handy when
+I cannot sudo:
 
-    sudo service monit restart
+```sh
+curl -s "http://127.0.0.1:2812/_status?format=text"
+```
 
-##Configure the Monit Daemon
+## Daemon config
 
-Monit's configuration is in the file `/etc/monit/monitrc`. Open this file now in your favorite text editor. We'll start by setting up the monit process itself.
+`/etc/monit/monitrc`. Drop-ins live in `/etc/monit/conf.d/` (and `conf-enabled/` on newer
+Ubuntu) and must be **`0600 root:root`** or Monit refuses to start.
 
-### Polling Frequency
-
-    set daemon 300
-
-This is the interval (in seconds) at which Monit runs its tests. The value you choose will depend on how many tests you define, how quickly you need Monit to act on events, and how much load the tests themselves add to your server. Begin by running Monit at the default setting of two minutes and evaluate its performance. If you change this value, you will need to [restart Monit](#restarting-monit).
-
-Consider setting the testing interval at up to 5 minutes if minimizing a load on your server is more important than instant alerts and responses.
-
-To have Monit delay starting on system boot, include the delay line:
-
-    set daemon 300
-        with start delay 240
-
-Other processes may take some time to complete their own startup. Including the delay line will prevent Monit from sending alerts that all services are down every time you boot the server.
-
-###Alerting
-
-Monit can optionally alert you by email when it triggers on an event. It can use a Mail Transfer Agent (MTA) on the local host if you have one configured, or an outside mail server that will accept incoming SMTP traffic from your host. See Linux System Administration Basics - Sending Email From Your Server for help with configuring this.
-
-Specify what server you will send mail through on this line:
-
-    set mailserver mail.example.com
-
-If you need to specify a port other than the default for SMTP (25), add it following the server name:
-
-    set mailserver mail.example.com port 2025
-
-You can also specify multiple mail servers by entering more than one server name, separated by comma:
-
-    set mailserver mail.example.com, backupmail.example.com
-
-Monit will try each server in turn until one succeeds. It will **not** _retry_ if no servers succeed, unless you also configure the event queue. To do this, you specify a directory to store the undelivered messages and how many messages you want to allow to queue up. The config file defaults normally suffice:
-
-    set eventqueue
-        basedir /var/lib/monit/events
-        slots 100
-
-Enter the email address to which Monit should deliver its alerts:
-
-    set alert your.email@example.com
-
-If you prefer to receive alerts as text messages, use your cell provider's email-to-text gateway if one is provided. You can find a list of providers at Wikipedia, here: [Email-to-SMS gateways](https://en.wikipedia.org/wiki/SMS_gateway#Use_with_email_clients).
-
-###Web service
-
-Finally, as far as configuring Monit itself, you can enable the embedded web server to display all your system tests as a web page:
-
-    set httpd port 2812
-
-If there is no other web server running on your host, Monit can run on port 80 if you specify `port 80` in the config file.
-
-You can optionally restrict web interface access to just your IP address.
-
-    set httpd port 2812
-        allow 10.0.0.1 (your ip address)
-
-:::note
-
->
->If you choose to implement the web interface, be sure the port Monit uses (default 2812) is exposed to the devices on which you'll be viewing it. You may need to configure your firewall package or iptables if you have a default deny policy. See Securing Your Server - Configuring a Firewall.
-
-:::
-
-##Configure Monit's Checking Actions
-
-###System Values
-
-Monit can monitor server resource utilization and alert you when your server is under unusual load:
-
-    check system mail
-        if loadavg (5min) > 2.0 then alert
-        if memory usage > 85% then alert
-        if cpu usage (user) > 60% then alert
-
-Here, Monit has been instructed to alert when the load average, total system memory use or CPU usage exceeds the specified limits. You should set these limits based on your server's normal operating values.
-
-A good way to determine the alert thresholds is to set them low (you will receive frequent alerts) and then adjust them higher if alerts are more frequent than the situation requires. The actual tested values which triggered the alert will be included in the alert message, and you can use these to gauge what is a good threshold limit for your server.
-
-###Processes
-
-Most servers are running a set of critical services that are their reason for existing. If those services are not running and reachable, the server is down for all practical purposes. Monit can check on running processes and stop, start or restart them as needed.
-
-    check process apache-server with pidfile /run/apache2.pid
-        if cpu > 95% for 3 cycles then alert
-
-For the `check process` statement, Monit requires an associated .pid file. Many common Linux server programs put a `.pid` file within the `/run` directory (`/var/run` on earlier Debian versions.) You can look for the location of the `.pid` file in your program's documentation, man page, or init script. In this example, the `apache2` process uses a file named `apache2.pid` in the `/run` directory. The result of this command sequence is that Monit will alert if this Apache process starts to use too much CPU for a minimum of three cycles. With `set daemon 300` defined in the global configuration, if Apache uses more than 95% CPU for 3 x 300 seconds, or 15 minutes, then Monit will trigger.
-
-You can test more than one parameter in a single check statement. The Apache program spawns children as needed to serve requests. If a large number of requests come in and continue unabated for 25 minutes, the test added here will alert on it.
-
-    check process apache-server with pidfile /run/apache2.pid
-        if children > 255 for 5 cycles then alert
-        if cpu usage > 95% for 3 cycles then alert
-
-Monit can do more than simply check the resource utilization of a process. It supports a number of protocols for testing the actual connectivity of a service. Among them are DNS, HTTP, IMAP, SMTP, LDAP, and SSH. So, we can ask our Apache server for a response and then act on the result:
-
-    check process apache-server with pidfile /run/apache2.pid
-        start program = "systemctl start apache2" with timeout 40 seconds
-        stop program  = "systemctl stop apache2"
-        if children > 255 for 5 cycles then alert
-        if cpu usage > 95% for 3 cycles then alert
-        if failed port 80 protocol http then restart
-
-Plenty is happening in the newly added lines of this check statement, including the best feature of Monit: automated process management. In lines 2 and 3, Monit has been programmed on how to start and stop the process being checked. In line 6, Monit has been programmed to use HTTP on port 80 to send a GET request to this running instance of Apache. By default it will send a normal `GET "/"` request. If Apache returns an HTTP status code of 400 or greater, Monit will alert _and_ restart the process using the commands given.
-
-The commands shown above are systemd compatible for a distribution using systemd (for example, Debian 8). If your server instead uses SysV or Upstart (ex. Debian 7 or Ubuntu 14.04), use these instead:
-
-        start program = "service apache2 start" with timeout 40 seconds
-        stop program  = "service apache2 stop"
-
-###Filesystem
-
-Monit can check filesystem properties such as whether a file exists, if its size is larger or smaller than specified, and what permissions are assigned. Another useful application is to test the timestamp of log files that should be updating.
-
-    check file mail.log with path /var/log/mail.log
-        if timestamp > 10 minutes then alert
-
-This mail server is normally busy around the clock. If the mail.log file has not been touched for ten minutes, something is probably wrong and you should be alerted.
-
-You can also use the filesystem monitor to confirm that cron jobs have completed correctly. Add a line in your job script (that will only be reached upon success) to `touch <filename>`, then have Monit check the file's timestamp age. If it's an hourly job, use a value `> 65 minutes`. If it's an overnight job, use `> 25 hours`. The extra margin allows for some variability in job time-to-complete.
-
-So for example, consider a nightly backup script that cron can run in the wee hours. In that script should be a line that only executes after a successful backup:
-
-    touch /tmp/backup-ok
-
-Then, in `/etc/monit/monitrc` you'd have:
-
-    check file nightly-backup with path /tmp/backup-ok
-        if timestamp > 25 hours then alert
-
-If the backup does not complete, then the next morning an alert message will be waiting, and the server's Monit web page will show nightly-backup with a red status of "Timestamp failed."
-
-###Remote Hosts
-
-Perhaps you are not a system admin at all; you are a web designer who works with many client sites on different hosts. Wouldn't it be nice to proactively respond to site outages even before a client calls? It is! You can configure Monit to check all your client sites' statuses and alert you immediately if they are down:
-
-    check host web-server with address www.example.com
-        if failed port 80 protocol http with timeout 30 seconds then alert
-
-Monit can test many protocols, not just HTTP:
-
-    check host mail-server with address mail.example.com
-        if failed port 143 protocol IMAP with timeout 30 seconds then alert
-        if failed port 587 protocol SMTP with timeout 30 seconds then alert
-        if failed port 22 protocol ssh with timeout 20 seconds then alert
-
-If you have more than one server, it's a good idea to have each one monitor another. If you only run Monit on one host, and that host goes completely off-line, Monit will be unable to notify you about the problem. By running a second instance of Monit on another server, you can set up each one to alert if the other one goes off-line.
-
-Note that it is possible to change the alert recipient from the globally-defined address in the `set alert` statement to another recipient using the `noalert` keyword.
-
-    check host web-server with address www.example.com
-        if failed port 80 protocol http with timeout 30 seconds then alert
-        alert someone.else@example.com
-        noalert your.email@example.com
+```apacheconf
+set daemon 120                 # poll interval in seconds
+    with start delay 240       # let other services finish booting first
+```
+
+Without the start delay, every reboot produces a full set of "service is down" alerts while
+things are still coming up.
+
+```apacheconf
+set mailserver smtp.example.com port 587
+    username "user@example.com" password "app-specific"
+    using tls
+set alert me@example.com
+
+set eventqueue
+    basedir /var/lib/monit/events
+    slots 100
+```
+
+The event queue matters: without it Monit does **not** retry a failed alert delivery, so an
+outage that also breaks mail is an outage I never hear about.
+
+```apacheconf
+set httpd port 2812 and
+    use address 127.0.0.1
+    allow localhost
+```
+
+Binding to localhost and putting nginx in front with TLS + basic auth is better than exposing
+2812 — that is how it is done on [Cotton](/docs/computers/cotton).
+
+## Checks
+
+#### System and filesystem
+
+```apacheconf
+check system $HOST
+  if loadavg (5min) > 4 then alert
+  if memory usage > 85% then alert
+  if cpu usage (user) > 90% for 5 cycles then alert
+
+check filesystem rootfs with path /
+  if space usage > 85% then alert
+```
+
+#### A process with a pidfile
+
+```apacheconf
+check process apache2 with pidfile /run/apache2/apache2.pid
+    start program   = "/bin/systemctl start apache2"   with timeout 60 seconds
+    stop program    = "/bin/systemctl stop apache2"    with timeout 60 seconds
+    restart program = "/bin/systemctl restart apache2" with timeout 120 seconds
+    if children > 255 for 5 cycles then alert
+    if cpu usage > 85% for 5 cycles then alert
+    if failed host 127.0.0.1 port 8080 protocol http request "/" then restart
+    if 5 restarts within 5 cycles then timeout
+```
+
+Behind a reverse proxy, point the port check at the **backend** port and be explicit about the
+host — otherwise a later reader "corrects" it to 80, which nginx owns.
+
+Always include the restart-timeout line. Without it a crash-looping service is restarted
+forever and the alert that matters drowns in the noise.
+
+#### A process matched by name
+
+Better than a pidfile when the pidfile is unreliable — which it was for php-fpm:
+
+```apacheconf
+check process php8.5-fpm matching "php-fpm: master process \(/etc/php/8.5/fpm/php-fpm.conf\)"
+    start program = "/bin/systemctl start php8.5-fpm" with timeout 60 seconds
+    stop program  = "/bin/systemctl stop php8.5-fpm"  with timeout 60 seconds
+    if failed unixsocket /run/php/php8.5-fpm.sock then restart
+    if 5 restarts within 5 cycles then timeout
+```
+
+The **socket** check is the one that matters. The FPM master can be alive while every worker is
+wedged, and Apache's `proxy_fcgi` talks to the socket, not the process — a process-only check
+would call that healthy.
+
+#### A file, to prove a cron job ran
+
+```apacheconf
+check file nightly-backup with path /tmp/backup-ok
+    if timestamp > 25 hours then alert
+```
+
+Have the job `touch /tmp/backup-ok` on a path only reached on success. This catches the case a
+process check never will: the job ran, exited 0, and did nothing useful.
+
+#### A remote host
+
+```apacheconf
+check host code with address code.example.com
+    if failed port 443 protocol https with timeout 30 seconds then alert
+```
+
+If Monit only runs on one box and that box dies, nothing tells me. Two hosts checking each
+other covers it.

@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 26/08/15 - 💾 [server/migration](/docs/server/migration.md)
 - 26/08/08 - 🐈 [Cotton](/docs/computers/cotton.md)
 - 26/08/06 - 👾 [Ralph](/docs/ai/ralph.md)
 - 26/08/03 - 🖥️ [Magic](/docs/computers/magic.md)
@@ -60,6 +61,8 @@ I use this library of documents as a quick reference to find technical answers, 
 ### Computers
 
 [Ovid](computers/ovid)
+| [Cotton](computers/cotton)
+| [Kosmo](computers/kos)
 | [Lisa](computers/lisa)
 | [Macs](computers/macs)
 | [Magic](computers/magic)
@@ -229,8 +232,3 @@ I use this library of documents as a quick reference to find technical answers, 
 [Git](editors/git)
 | [Subversion](editors/subversion)
 
----
-
-## Removed
-
-23/12/10 - Server Hosted/~~PhProject~~ - combined project manager, hadn't used for years.
