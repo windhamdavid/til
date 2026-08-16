@@ -1,4 +1,4 @@
-# Zeke 🐕‍🦺
+# Zeke 🐕
 
 Zeke was named after [https://davidwindham.com/zeke/](https://davidwindham.com/zeke/) because I like to [anthropomophize machines](https://davidwindham.com/anthropomorphizing-machines/).
 
