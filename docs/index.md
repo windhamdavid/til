@@ -15,6 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
+- 26/08/16 - 💾 [server/scripts](/docs/server/scripts.md)
 - 26/08/15 - 💾 [server/migration](/docs/server/migration.md)
 - 26/08/08 - 🐈 [Cotton](/docs/computers/cotton.md)
 - 26/08/06 - 👾 [Ralph](/docs/ai/ralph.md)
