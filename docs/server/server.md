@@ -40,5 +40,7 @@ Quick answers to the things I look up most:
 | move databases between boxes | [`db-sync.sh`](scripts#db-syncsh) |
 | see what a host exposes to the internet | [`scan-exposure.sh`](scripts#scan-exposuresh) |
 | review or clear per-site logs | [`clear-logs.sh`](scripts#clear-logssh) |
+| find IPs worth adding to the blocklist | [`log-digest.sh`](scripts#log-digestsh) |
+| see who is actually hitting the sites | [`log-digest.sh`](scripts#log-digestsh) |
 | move a fleet to a new server | [Migration](migration) |
 | work out why Monit says a healthy service failed | [Monit → Gotchas](monit#gotchas) |
