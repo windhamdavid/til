@@ -24,7 +24,7 @@ I use this library of documents as a quick reference to find technical answers, 
 - 25/11/08 - 🏛️ [Kosmo](/docs/computers/kos.md)
 - 25/04/07 - 🪩 [Stu](/docs/computers/stu.md)
 - 25/02/13 - 🦑 [Squid](/docs/computers/squid.md)
-- 25/02/09 - 🦮 [zeke migration](/docs/computers/zeke.md)
+- 25/02/09 - 🐕 [zeke migration](/docs/computers/zeke.md)
 - 25/01/22 - 💻 [computers/ovid](/docs/computers/ovid.md)
 - 24/12/01 - [docs/saas/github](/docs/saas/github.md)
 - 24/11/23 - [Lisa](/docs/computers/lisa.md)
