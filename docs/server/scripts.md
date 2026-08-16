@@ -10,6 +10,10 @@ is `/root/.my.cnf`, not mine.
 
 ## Log
 
+- **26/08/16** — wrote `log-digest.sh` after looking at Grafana/Loki, SigNoz and PostHog and
+  deciding none of them answered the actual question. Its first run produced **16,636**
+  blocklist candidates, including a search crawler and my own house. Fixing that taught me
+  more than the tool does.
 - **26/08/15** — wrote `db-sync.sh` for the [migration](/docs/server/migration) work. One
   script, both directions, always run from the local box because it is the one behind NAT.
 - **26/08/15** — rewrote `mysql-cron.sh`. Enumerating databases instead of using a hardcoded
@@ -171,6 +175,71 @@ GoAccess reports from the Apache and nginx logs, daily 06:00; the archive script
 HTML before it is regenerated, Sunday 05:55.
 
 Both append to `~/logs/cron.log`, which has no rotation and grows unbounded.
+
+---
+
+## log-digest.sh
+
+Pulls the web logs off the remote boxes and reduces them to a digest small enough to actually
+read — with **paste-ready blocklist candidates** at the end, which is the point of it.
+
+```sh
+./log-digest.sh                 # digest to stdout
+./log-digest.sh -o digest.md    # and to a file
+./log-digest.sh --no-pull       # re-analyse the cache, no network
+```
+
+Run it on the **local box**, same reasoning as `db-sync.sh` — it is behind NAT so it is always
+the active party, and it reuses the restricted rsync key that already exists for pulling
+`/var/www`. That key's scope happens to cover the per-site logs, so no new access was needed.
+
+#### Why a digest and not a dashboard
+
+Production alone holds ~2M access lines. A dashboard answers *"draw me the 4xx rate"*. It does
+not answer *"this user agent is new this week and it is walking wp-login across every site in
+alphabetical order"* — and the second question is the one I care about. That needs the log
+reduced to facts, not plotted. The output is markdown I can read directly or hand to Claude;
+feeding either one raw logs is worse **and** more expensive, because ~97% of the volume is 200s
+carrying no information.
+
+It also replaces the blacklist review I was doing by hand. Anything not already in `custom.d`
+and not whitelisted comes out formatted as `Require not ip <addr>`, ready to paste.
+
+#### The thresholds exist because the first version was useless
+
+It produced **16,636** candidates. 98% of them qualified on a single "probe path" hit, and the
+top two entries were a major search crawler and **my own home IP address**. Three fixes:
+
+- **Probe paths are tiered.** `/.env`, `/.git`, `/vendor`, `wp-config` are conclusive — nothing
+  legitimate requests them — and qualify at two hits. `wp-login.php`, `xmlrpc.php` and
+  `/wp-admin` are *ambiguous*: real people log in and link-following crawlers fetch them
+  constantly. They never qualify an address on their own. That one change was most of the
+  16,636.
+- **Declared crawlers are excluded** and reported separately. One crawler was ~48% of all
+  traffic. Whether it may index the sites is a `robots.txt` decision, not something to arrive
+  at by pasting a generated list.
+- **The runner's own WAN address is excluded**, looked up fresh each run because it is dynamic.
+  The local box shares the house address with every machine I develop from, so my own admin
+  traffic read as an attacker.
+
+Result: 16,636 → ~700.
+
+#### Things that fail silently
+
+- **No `custom.d` found** → candidates are not filtered against the existing blocklist, so the
+  list quietly fills with addresses already blocked. The digest prints a warning for this, but
+  only if you read the header.
+- **WAN lookup fails** → my own traffic can appear as a candidate. Also warned, same caveat.
+- **SSH attackers are NOT in the blocklist section.** `custom.d` is Apache-level, so pasting a
+  brute-forcer there blocks it from the websites and does *nothing* to sshd. Those get their
+  own section, and the answer for them is fail2ban or a firewall deny.
+- **CIDR suppression only matches /24.** A wider prefix already in the blocklist will not
+  suppress its members, so expect the occasional duplicate suggestion.
+
+#### Still to do
+
+`auth.log` needs a second restricted key per host — the existing one is scoped to the web root
+and cannot see it. Until then the SSH section stays empty.
 
 ---
 
