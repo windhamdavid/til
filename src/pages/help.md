@@ -46,7 +46,7 @@ gitGraph
 
 #### Repos
 
-- https://code.davidawindham.com/david/til
+- https://davidwindham.com/code/til
 - https://github.com/windhamdavid/til
 
 ### Docusaurus

@@ -13,7 +13,7 @@ I've used WordPress for hundreds of projects and I think I owe a certain debt of
 ## Builds
 
 - https://wp.davidwindham.com
-- https://code.davidawindham.com/david/wp
+- https://davidwindham.com/code/wp
 - [https://github.com/windhamdavid/wp](https://github.com/windhamdavid/wp)
 - [https://github.com/windhamdavid/wordpress-develop](https://github.com/windhamdavid/wordpress-develop)
 

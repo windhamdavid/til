@@ -97,7 +97,7 @@ const HTML = `<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-
 								<li><a href="/studio/music/"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-microphone"></use></svg> Audio</a></li>
 								<li><a href="https://davidwindham.com/rtc"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-comment"></use></svg> Chat</a></li>
 								<li><a href="http://davidwindham.com/chess"><span class="chess-html">&#9814;</span> Chess</a></li>
-								<li><a href="http://code.davidawindham.com"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-code"></use></svg> Code</a></li>
+								<li><a href="http://davidwindham.com/code"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-code"></use></svg> Code</a></li>
 								<li><a href="/contact"><svg class="dw-icon" aria-hidden="true" focusable="false"><use href="#dw-envelope"></use></svg> Contact</a></li>
 							</ul>
 						</div>

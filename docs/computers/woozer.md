@@ -150,8 +150,8 @@ sudo vi /etc/apache2/sites-available/default.conf
 
 # test it
 curl -A "googlebot" https://davidwindham.com/
-curl -A "SemrushBot" https://code.davidawindham.com/
-curl -A "masscan" https://code.davidawindham.com/
+curl -A "SemrushBot" https://davidwindham.com/code/
+curl -A "masscan" https://davidwindham.com/code/
 curl -I https://davidwindham.com/ -e http://100dollars-seo.com
 curl -I https://davidwindham.com/ -e http://zx6.ru
 

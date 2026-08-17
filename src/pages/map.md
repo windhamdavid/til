@@ -227,7 +227,7 @@ flowchart LR
   click DWCOM "https://davidwindham.com" _blank
   click ABOUT "https://davidwindham.com/about" _blank
   click DESK "https://davidwindham.com/desk" _blank
-  click CODE "https://code.davidawindham.com" _blank
+  click CODE "https://davidwindham.com/code" _blank
   click CONTACT "https://davidwindham.com/contact" _blank
   click STUDIO "https://davidwindham.com/studio" _blank
   click TIL "https://davidwindham.com/til/" _blank
