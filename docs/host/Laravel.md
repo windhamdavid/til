@@ -20,7 +20,7 @@
 
 
 ### Code
-* Origin master [https://code.davidawindham.com/david/laravel/](https://code.davidawindham.com/david/laravel/)
+* Origin master [https://davidwindham.com/code/laravel/](https://davidwindham.com/code/laravel/)
 * Code master [https://github.com/windhamdavid/laravel](https://github.com/windhamdavid/laravel)
 * Upstream master [https://github.com/laravel/laravel](https://github.com/laravel/laravel)  
 

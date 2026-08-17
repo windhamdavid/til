@@ -8,6 +8,28 @@ Although it's been forked off as Gitea, I still prefer the original version beca
 
 ## Log
 
+**26.08.17** - upgraded **0.12.11 -> 0.14.3** and moved from `code.daw` to **`davidwindham.com/code`**. Rehearsed the whole thing on [Cotton](/docs/computers/cotton) against a copy of the live database first, which was worth doing — nothing below was obvious from the release notes.
+
+Built from source with Go 1.26 rather than taking a release binary, because I patch it (see below). Checked `GLIBC` first: the build box is newer than the server, and a binary needing a glibc the target does not have fails at start with nothing useful in the log.
+
+**Config schema changed in 0.13 and the renames are not cosmetic.** `[service]`→`[auth]`, `[mailer]`→`[email]`, `DB_TYPE`→`TYPE`, `PASSWD`→`PASSWORD`, `ROOT_URL`→`EXTERNAL_URL`, `LANDING_PAGE`→`LANDING_URL`, `APP_NAME`→`BRAND_NAME`. Two that cost me time:
+
+- **`DB_TYPE` unset makes 0.14 default to PostgreSQL**, so it drives a pgx connection at MariaDB and reports `unknown message type: i` — which reads like corruption or a network fault, not a renamed key.
+- **`LANDING_URL` needs its value changed too**, not just the key. 0.12 took a bare page name (`explore`); 0.14 takes a path and prepends the subpath, so `explore` composes to `/codeexplore`.
+
+**A `$` in the database password is impossible in 0.13+.** `conf.go` sets `File.ValueMapper = os.ExpandEnv`, so every config value goes through environment expansion and there is **no escape syntax**. Mine had one; it presented as `Access denied (using password: YES)` while the identical string logged in fine with the `mysql` client. Took the opportunity to give Gogs its own database user scoped to its own schema instead of the shared account it had been using.
+
+**Migrations are one-way.** 0.12.11 → 0.14.3 ran three, including re-hashing every access token. Dump the database first or the old binary is not a rollback.
+
+**Templates.** Mine were forks of 0.12's and referenced fields 0.14 no longer defines — `AvatarLink` became `AvatarURL`, `HomeLink` became `HomeURLPath`. Rather than patch them I did a three-way merge against 0.12 and 0.14 stock with `git merge-file`, which replayed my changes onto the new versions; seven of nine merged clean. Worth knowing that upstream had moved 48 lines in `base/footer.tmpl` alone, so keeping the old fork would have quietly discarded all of it.
+
+**Subpath hosting works in 0.14 and did not in 0.12.** `EXTERNAL_URL` with a path is honoured and `AppSubURL` resolves — 0.12.11 ignored it and emitted root-relative links regardless. Any asset referenced from a template needs `{{AppSubURL}}` rather than a hardcoded `/css/...`, or it 404s against the parent site the moment Gogs moves under a path.
+
+**I also patch it for single-user URLs**, so repositories live at `/code/<repo>` instead of `/code/<user>/<repo>`. Two functions and a routing middleware, kept as a patch applied at build time so an upgrade fails loudly rather than silently dropping it.
+
+**Crawlers.** The old host was serving **1.44M requests**, and **75% of them were `/commit/`, `/src/`, `/raw/` and `/blame/` URLs** — a git server is a combinatorial URL space and effectively infinite to crawl. The robots.txt said `Allow: /`. Fixed, and the rules had to move to the **root** `robots.txt` of the parent domain, because crawlers fetch `/robots.txt` and never `/code/robots.txt`.
+
+
 **23.07.17** - found a domain pointing at the IP proxy so I added a catch-all on the default .conf and this to code.daw to keep the content from showing under another domain.
 ```bash
 RewriteEngine on
@@ -56,6 +78,11 @@ sudo systemctl status gogs
              └─31027 /home/******/gogs/gogs web
 ```
 ### Migration
+
+> **Historical — this describes the 2023 move to `code.daw` as its own subdomain, on 0.12.**
+> Gogs now runs at `davidwindham.com/code` on 0.14.3; see the 26.08.17 log entry above. The
+> hostnames and certbot commands below were correct at the time and are kept as a record.
+
 
 Moving from [Woozer](/docs/computers/woozer) -> to [Woozie](/docs/computers/woozie)
 
@@ -112,7 +139,11 @@ sudo rm -rf gogs_old
 sudo systemctl restart gogs
 ```
 
-### Original Install 
+### Original Install
+
+> **Historical — the original 0.12-era install on its own subdomain.** Kept for the shape of
+> it; the current arrangement differs in hostname, version and configuration schema.
+
 ```bash
 sudo apt-get install golang-go
 

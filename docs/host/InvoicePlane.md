@@ -6,7 +6,7 @@ I use InvoicePlane for my client invoicing. Self-hosted CodeIgniter app, no
 subscription and nobody else holding my billing history.
 
 [https://invoice.davidwindham.com](https://invoice.davidwindham.com)  
-[https://code.davidawindham.com/david/InvoicePlane](https://code.davidawindham.com/david/InvoicePlane)  
+[https://davidwindham.com/code/InvoicePlane](https://davidwindham.com/code/InvoicePlane)  
 ~~[https://sandbox.davidwindham.com/invoice/](https://sandbox.davidwindham.com/invoice/)~~
 
 ## Log

@@ -33,7 +33,7 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 | Name | URL |
 |------|-----|
 | origin | https://github.com/windhamdavid/ralph.git |
-| code | https://code.davidawindham.com/david/ralph.git |
+| code | https://davidwindham.com/code/ralph.git |
 
 ## Reuse across projects
 

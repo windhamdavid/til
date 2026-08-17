@@ -1,7 +1,7 @@
 
 
 [https://davidwindham.com/photo/](https://davidwindham.com/photo/)  
-[https://code.davidawindham.com/david/lychee](https://code.davidawindham.com/david/lychee)  
+[https://davidwindham.com/code/lychee](https://davidwindham.com/code/lychee)  
 ~~[https://github.com/electerious/Lychee](https://github.com/electerious/Lychee)~~  
 [https://github.com/LycheeOrg/Lychee](https://github.com/LycheeOrg/Lychee)  
 
@@ -9,8 +9,8 @@
 
 ```shell
 david@ovid:~/sites/daw_photo(master○) » git remote -v                                                                      1 ↵
-code	https://code.davidawindham.com/david/lychee.git (fetch)
-code	https://code.davidawindham.com/david/lychee.git (push)
+code	https://davidwindham.com/code/lychee.git (fetch)
+code	https://davidwindham.com/code/lychee.git (push)
 origin	https://github.com/windhamdavid/Lychee.git (fetch)
 origin	https://github.com/windhamdavid/Lychee.git (push)
 upstream	https://github.com/LycheeOrg/Lychee.git (fetch)
@@ -59,8 +59,8 @@ From https://github.com/LycheeOrg/Lychee
 
 ```shell
 david@macs:~/sites/lychee(dw○) » git remote -v
-code	https://code.davidawindham.com/david/lychee.git (fetch)
-code	https://code.davidawindham.com/david/lychee.git (push)
+code	https://davidwindham.com/code/lychee.git (fetch)
+code	https://davidwindham.com/code/lychee.git (push)
 origin	https://github.com/windhamdavid/Lychee.git (fetch)
 origin	https://github.com/windhamdavid/Lychee.git (push)
 upstream	https://github.com/electerious/Lychee.git (fetch)

@@ -36,7 +36,7 @@ export default {
         path: 'notes',
         routeBasePath: 'notes',
         sidebarPath: require.resolve('./sidebarsnotes.js'),
-        editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        editUrl:'https://davidwindham.com/code/til/src/main/',
         showLastUpdateTime: true,
       },
     ],
@@ -47,7 +47,7 @@ export default {
         path: 'lists',
         routeBasePath: 'lists',
         sidebarPath: require.resolve('./sidebarslists.js'),
-        editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        editUrl:'https://davidwindham.com/code/til/src/main/',
         showLastUpdateTime: true,
       },
     ],
@@ -66,7 +66,7 @@ export default {
           type: null,
         },
         showReadingTime: false,
-        editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        editUrl:'https://davidwindham.com/code/til/src/main/',
       },
     ],
     [
@@ -84,7 +84,7 @@ export default {
           type: null,
         },
         showReadingTime: false,
-        editUrl:'https://code.davidawindham.com/david/til/src/main/',
+        editUrl:'https://davidwindham.com/code/til/src/main/',
       },
     ],
   ],
@@ -158,7 +158,7 @@ export default {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:'https://code.davidawindham.com/david/til/src/main/',
+          editUrl:'https://davidwindham.com/code/til/src/main/',
           showLastUpdateTime: true,
         },
         blog: {
@@ -171,7 +171,7 @@ export default {
             type: null,
           },
           showReadingTime: false,
-          editUrl:'https://code.davidawindham.com/david/til/src/main/',
+          editUrl:'https://davidwindham.com/code/til/src/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

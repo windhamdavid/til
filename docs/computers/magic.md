@@ -130,7 +130,7 @@ It's going to be permanently stuck on MacOS 11 Catalina due to Monterey not supp
 
 ### Terminal
 Oh My ZSH configuration to match servers and other machines. I use an identifying emoji ( Macs 🐶 / Magic 🎱 / Zeke 🦊 / Woozer 🐻  )for each prompt to make it easier to differentiate the machines.
-Migrated dotfiles using my repo @ [https://code.davidawindham.com/david/dotfiles](https://code.davidawindham.com/david/dotfiles)
+Migrated dotfiles using my repo @ [https://davidwindham.com/code/dotfiles](https://davidwindham.com/code/dotfiles)
 
 ### Databases
 Duplicated all of my existing project databases:

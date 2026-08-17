@@ -582,7 +582,7 @@ sudo service monit status
 
 ### Blacklist
 
-see repo @ https://code.davidawindham.com/david/custom.d
+see repo @ https://davidwindham.com/code/custom.d
 
 ```bash
 # apache

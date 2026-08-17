@@ -97,7 +97,7 @@ david@stu:~ » xcode-select –install
 
 ### Terminal
 
-dotfiles @ https://code.davidawindham.com/david/dotfiles - Not on Warp, Hyper, Neovim or iTerm. default terminal with [Oh-My-Zsh](https://ohmyz.sh) & [Vundle](https://github.com/VundleVim/Vundle.vim)
+dotfiles @ https://davidwindham.com/code/dotfiles - Not on Warp, Hyper, Neovim or iTerm. default terminal with [Oh-My-Zsh](https://ohmyz.sh) & [Vundle](https://github.com/VundleVim/Vundle.vim)
 
 ```sh
 david@stu:~ » sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

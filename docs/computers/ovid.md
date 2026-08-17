@@ -236,7 +236,7 @@ Vim & Vundle - plugins ( NERDTree, NERDTree-Git, Fugative ) colors ( sunburst, v
 david@ovid:~ » git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-**dotfiles** @ [https://code.davidawindham.com/david/dotfiles](https://code.davidawindham.com/david/dotfiles)  
+**dotfiles** @ [https://davidwindham.com/code/dotfiles](https://davidwindham.com/code/dotfiles)  
 
 Oh My Zsh - ( aliases, plugins, theme )
 macos, git, gulp, grunt, brew, yarn, textmate, vscode, history-substring-search, zsh-autosuggestions, zsh-syntax-highlighting

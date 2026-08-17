@@ -523,7 +523,7 @@ sudo service apache2 reload
 
 # update lists  
 sudo wget https://raw.githubusercontent.com/mitchellkrogza/apache-ultimate-bad-bot-blocker/master/Apache_2.4/custom.d/globalblacklist.conf -O /etc/apache2/custom.d/globalblacklist.conf
-# let's git it to sync it - https://code.davidawindham.com/custom.d
+# let's git it to sync it - https://davidwindham.com/code/custom.d
 git filter-branch -f --prune-empty --subdirectory-filter Apache_2.4/custom.d master
 git fetch upstream
 git merge upstream/master   

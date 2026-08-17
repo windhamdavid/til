@@ -12,7 +12,9 @@ authored partly through Obsidian (each content dir may have a git-ignored
 `.obsidian/` vault).
 
 Remotes: `origin` → GitHub (windhamdavid/til), `code` → self-hosted Gitea
-(code.davidawindham.com/david/til). `editUrl`s point at the Gitea `main` branch.
+(`https://davidwindham.com/code/david/til.git`). Gogs is patched for single-user URLs, so the
+short `davidwindham.com/code/<repo>` form also resolves and is what prose/`editUrl`s use.
+`editUrl`s point at the Gitea `main` branch.
 
 ## Commands
 

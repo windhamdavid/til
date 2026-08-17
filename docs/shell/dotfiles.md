@@ -2,7 +2,7 @@
 
 ### my dotfiles  
 - [https://github.com/windhamdavid/dotfiles/](https://github.com/windhamdavid/dotfiles/)  
-- [https://code.davidawindham.com/david/dotfiles](https://code.davidawindham.com/david/dotfiles)  
+- [https://davidwindham.com/code/dotfiles](https://davidwindham.com/code/dotfiles)  
 
 ---
 
