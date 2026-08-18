@@ -58,7 +58,7 @@ register the plugin there and add a matching sidebar file.
 - Posts use a `YYYY/YYYY-MM-DD-posts.md` naming pattern with front matter
   (`title`, `slug`, `description`, `tags`, `image`, often
   `hide_table_of_contents: true`). Use `<!-- truncate -->` to mark the fold.
-- Dark mode is the default; Mermaid diagrams are enabled.
+- Light mode is the default (matches the parent site); Mermaid diagrams are enabled.
 - Search is `docusaurus-lunr-search` (local), not Algolia.
 - `src/pages/ai.mdx` is **git-ignored** — don't assume it's committed.
 - The README holds a human-readable changelog/LOG of upgrades and changes.
