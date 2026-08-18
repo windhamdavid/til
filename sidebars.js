@@ -13,8 +13,8 @@ module.exports = {
         id:'ai/ai',
       },
       items: [
-        'ai/ai',
         'ai/ralph',
+        'ai/claude',
       ],
     },
     {
