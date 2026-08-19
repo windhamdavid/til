@@ -10,6 +10,11 @@ is `/root/.my.cnf`, not mine.
 
 ## Log
 
+- **26/08/19** — found that the 08/15 `mysql-cron.sh` rewrite had quietly sent a week of
+  backups to `/root`. It used `$HOME/backups`, and the job runs from root's crontab, where
+  cron sets `HOME` from `/etc/passwd`. It dumped every database correctly, pruned, and exited
+  `0` — into a directory the account that consumes the dumps cannot read. Nothing alerted,
+  because nothing failed.
 - **26/08/16** — wrote `log-digest.sh` after looking at Grafana/Loki, SigNoz and PostHog and
   deciding none of them answered the actual question. Its first run produced **16,636**
   blocklist candidates, including a search crawler and my own house. Fixing that taught me
@@ -77,7 +82,9 @@ Weekly dump of every database plus `mysqlcheck --analyze`. Cron, Sunday 01:11.
 ls -lh ~/backups/$(date +%Y%m%d).*.sql.gz
 ```
 
-Environment overrides: `BACKUP_DIR` (default `~/backups`), `KEEP_DAYS` (default 30).
+Environment overrides: `BACKUP_DIR` and `KEEP_DAYS` (default 30). `BACKUP_DIR` defaults to a
+**hardcoded absolute path**, deliberately not `$HOME/backups` — see below. Override it for
+testing; leave it alone in cron.
 
 #### What it does that the old version did not
 
@@ -93,12 +100,37 @@ Environment overrides: `BACKUP_DIR` (default `~/backups`), `KEEP_DAYS` (default 
   the dump.
 - **Dumps to `.partial` and renames on success.** A plain `>` truncates *before* mysqldump
   runs, so a failure leaves a 0-byte file that looks fine in a directory listing.
+- **Reports the count and the path on the way out** — `done: 16 dump(s) in <dir>`. A run that
+  dumps nothing now cannot look like a run that worked.
+- **Chowns each dump to the consuming user when running as root**, `id -u` guarded so it is a
+  no-op by hand. Root writing into my home directory produces `root:root 0600` files that I
+  cannot read — and a backup its consumer cannot open is not a backup.
 - **`mysqlcheck --analyze`, not `-o`.** Every table is InnoDB, which has no OPTIMIZE — MariaDB
   turns it into a full table rebuild plus ANALYZE, hence the *"doing recreate + analyze
   instead"* notice. That rebuilt every table weekly to reclaim space InnoDB reuses anyway, and
   the rebuild takes brief exclusive metadata locks that can queue queries behind a long-running
   one. Run OPTIMIZE by hand against specific tables when
   `information_schema.TABLES.DATA_FREE` shows real waste.
+
+#### Things that fail silently
+
+- **`$HOME` is not an address.** It is whatever `/etc/passwd` says for the user the job runs
+  as, which is rarely the user who owns the files. Under root's crontab `$HOME` is `/root`, so
+  `BACKUP_DIR="${BACKUP_DIR:-$HOME/backups}"` sent every dump there — successfully. The prune
+  ran, against the wrong directory. The exit code was `0`. **When a path is a contract with
+  another process, hardcode it and say why in a comment.** Here the contract is
+  [`db-sync.sh`](#db-syncsh), which pulls through a key whose forced command is locked to one
+  directory: dumps written anywhere else are unreachable by design, so the sync kept succeeding
+  against a four-day-old snapshot. A sync that silently serves stale data is worse than one
+  that fails.
+- **Piping `SHOW DATABASES` straight into `grep` reports grep's exit status, not mysql's.** An
+  auth failure yields empty input, grep exits `1` for "no match", and `set -e` kills the script
+  — indistinguishable from a successful query whose rows were all filtered out. The database
+  list is now captured and checked before it is filtered, and an empty list is a hard failure
+  rather than a quiet zero-dump success.
+- **Globs expand before `sudo` elevates.** `sudo rm /root/backups/*.gz` is expanded by the
+  calling user's shell, which cannot read `/root` — so it dies on "no matches" having done
+  nothing. Put the glob inside the elevated shell: `sudo sh -c 'rm /root/backups/*.gz'`.
 
 ---
 
