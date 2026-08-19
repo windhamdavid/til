@@ -419,3 +419,20 @@ ul.dw-nav li a:hover { color: #25c2a0; }
   .dw-offcanvas { transition: none; }
   .dw-nav-underline { transition: opacity 0.3s ease; }
 }
+/* ===== Front page only (src/pages/index.mdx, wrapperClassName: til-home) =====
+   Drop the list markers on the year list. Deliberately narrow:
+     - html.til-home  → the front page and nothing else
+     - article > ul   → the page's own top-level list
+   so every other page keeps its middots, and .til-recent is untouched (it sits
+   in an <aside>, not a direct child of <article>).
+   Markup is NOT changed — the parent site's inc/utils.php pull_til() reads the
+   built til/index.html and selects `ul li ul li`, which still matches. ===== */
+html.til-home article > ul,
+html.til-home article > ul ul {
+  list-style: none;
+}
+
+/* breathing room above the front-page title */
+html.til-home article > header > h1 {
+  padding-top: 2rem;
+}
