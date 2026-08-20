@@ -10,7 +10,6 @@
 | [Stu](stu)
 | [Squid](squid)
 | [Zeke](zeke)
-| [Zeker](zeker)
 | [Woozer](woozer)
 | [Woozie](woozie)
 | [Kosmo](kos) 
