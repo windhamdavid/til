@@ -28,12 +28,12 @@ Every time I spin up a new machine, I take time to make considerations on possib
 ## Software
 
 **Productivity** - Alfred, Obsidian, Acrobat, Notes, Reminders  
-**Development** - Terminal, Xcode, Visual Studio Code, Cursor, Transmit, TablesPlus, DBngin, Docker, Insomnia, Postman, Proton , GPG Suite  
+**Development** - Terminal, Xcode, Visual Studio Code, Transmit, TablesPlus, DBngin, Docker, Insomnia, Postman, Proton , GPG Suite  
 **Design** - Adobe Illustrator/Photoshop/InDesign, Figma, Color Picker  
 **A/V** - Monitor Control, Handbrake, Logic/Final Cut Pro, Adobe Premier/Audition/Encoder, Screenflow, OBS, Audio Hijack/Loopback  
 **System** - Mail, Messages, Reminders, Calendar, Numbers, Pages, Photos, Passwords  
 **Browsers** - Safari, Orion, Firefox Developer  
-**AI** - Claude/OpenAI/Gemini/CoPilot APIs ( for Cursor, VSCode, Kagi Assistant)  
+**AI** - Claude/OpenAI/Gemini/CoPilot APIs ( for VSCode, Kagi Assistant)  
 **Deprecated** - Wirecast, Logseq, Slack
 
 ## System
@@ -107,11 +107,14 @@ david@stu:~ » git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bund
 ## Development
 ### Editors
 
-editor history: Notepad++ -> Textmate -> Sublime -> Atom -> JetBrains -> VSCode -> Cursor  
-[Cursor](https://www.cursor.com) is better than Copilot and is a fork so I sync other features and plugins I like. finds lint errors faster. biggest workflow change ✅ I've made in a while. added Gemini, Claude, OpenAI keys for Cursor
+editor history: Notepad++ -> Textmate -> Sublime -> Atom -> JetBrains -> VSCode -> Cursor -> **VSCode**
+
+**26/08** — back on VS Code, and Cursor is off the machine entirely. It was a VS Code fork, so
+coming back is mostly the extensions and keybindings I was syncing across anyway, and the
+Gemini / Claude / OpenAI keys moved with me.
 
 ```sh
-david@stu:~ » /<repo>/ . cursor
+david@stu🪩:~ » cd /<repo> && code .
 ```
 
 #### AI
@@ -198,23 +201,6 @@ stable-aarch64-apple-darwin (active, default)
 > `rustc --version` returns "command not found" even though the toolchain is installed and
 > current. Add `~/.cargo/bin` to PATH, or call them by full path.
 
-#### JS
-
-##### Node.js 
-
-```sh
-david@stu🪩:~ » curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-david@stu🪩:~ » nvm install --lts
-david@stu🪩:~ » node -v
-v22.13.1
-david@stu🪩:~ » nvm -v 
-0.40.2
-david@stu🪩:~ » node -v
-v22.13.1
-david@stu🪩:~ » npm -v 
-10.9.2
-```
-
 #### TypeScript
 
 Not installed globally — per-project via npm rather than a global `tsc`.
@@ -297,6 +283,20 @@ nginx version: nginx/1.31.4
 ```
 
 ### Node
+
+Via `nvm` rather than the Homebrew formula, so a project can pin its own version.
+
+```sh
+david@stu🪩:~ » curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+david@stu🪩:~ » nvm install --lts
+david@stu🪩:~ » node -v
+v22.13.1
+david@stu🪩:~ » nvm -v
+0.40.2
+david@stu🪩:~ » npm -v
+11.6.2
+```
+
 ### Databases
 
 ```sh
