@@ -126,8 +126,56 @@ david@stu:~ » claude
 ### Packages
 
 #### Homebrew
+
+161 formulae, 3 casks — but only **21 installed on request**. The other 140 arrived as
+dependencies, worth remembering before pruning: `brew uninstall` runs autoremove and takes
+orphans with it, so the reversal is messier than the install.
+
+```sh
+david@stu🪩:~ » brew list --installed-on-request --formula | wc -l
+      21
+david@stu🪩:~ » brew list --pinned --versions
+apr-util 1.6.3_1
+httpd 2.4.63
+libnghttp2 1.70.0
+mariadb 11.7.2
+```
+
+**Four formulae are pinned**, so a bare `brew upgrade` skips them and says so:
+
+- **httpd** — PHP loads as `mod_php`, and `libphp.so` is compiled against the httpd headers
+  present at build time. Upgrading Apache underneath it leaves a module that may not load,
+  which shows up as Apache refusing to start or serving `.php` as plain text.
+- **apr-util, libnghttp2** — pinning httpd does not pin what it links against. These would
+  still move on a bare upgrade, and `brew cleanup` then drops the old dylibs.
+- **mariadb** — see Databases.
+
 #### PIP
+
+Python is Homebrew's, not Apple's. `uv` for anything project-scoped.
+
+```sh
+david@stu🪩:~ » pip3 --version
+pip 26.1.2 (python 3.14)
+david@stu🪩:~ » uv --version
+uv 0.12.5
+```
+
 #### PECL
+
+One extension only — xdebug and opcache ship with `php@8.3` itself.
+
+```sh
+david@stu🪩:~ » pecl list
+imagick 3.8.1   stable
+```
+
+> **Every `php@8.3` patch upgrade wipes the PECL registry.** It lives inside the Cellar version
+> directory while the `.so` files live outside it in `lib/php/pecl/`. So after a PHP upgrade
+> `pecl list` reads empty while the extension still loads — it needs *reinstalling*, not
+> upgrading. Two more traps, both hit 26/08/20: PECL will not overwrite a `.so` that is
+> currently loaded, so comment the `extension=` line out first; and never `sudo pecl install` —
+> the root-owned file it leaves behind blocks every later rebuild.
 
 ### Languages
 
@@ -142,9 +190,13 @@ david@stu🪩:~ » rustup-init
 // rustc - the Rust compiler
 // cargo - the Rust package manager
 // rustup - the Rust toolchain manager
-david@stu🪩:~ » rustc --version
-rustc 1.86.0 (05f9846f8 2025-03-31)
+david@stu🪩:~ » rustup toolchain list
+stable-aarch64-apple-darwin (active, default)
 ```
+
+> `rustc` and `cargo` live in `~/.cargo/bin`, which is **not on the shell PATH here** — so
+> `rustc --version` returns "command not found" even though the toolchain is installed and
+> current. Add `~/.cargo/bin` to PATH, or call them by full path.
 
 #### JS
 
@@ -163,14 +215,69 @@ david@stu🪩:~ » npm -v
 10.9.2
 ```
 
-#### TypeSript
+#### TypeScript
+
+Not installed globally — per-project via npm rather than a global `tsc`.
 
 #### PHP
+
+Two versions installed, and **the running one is deliberately not the newest**.
+
+```sh
+david@stu🪩:~ » php -v
+PHP 8.3.33 (cli) (built: Jul 28 2026 17:56:10) (NTS)
+    with Xdebug v3.4.2
+    with Zend OPcache v8.3.33
+```
+
+`php@8.3` is what Apache loads and what the shell resolves. The unversioned `php` formula is
+also installed (8.5.9) but out of the running stack — only PATH order keeps it there, so
+anything resolving `/opt/homebrew/bin/php` directly gets 8.5. Worth knowing before chasing a
+mystery version difference in an editor.
+
+**8.3 because that is what the client server runs.** Developing against a newer interpreter
+than production is how deprecations ship:
+
+| host | PHP | MariaDB |
+|---|---|---|
+| client prod | 8.3 (most sites) | 11.4 |
+| my prod | 8.4 | 10.6 |
+| local mirror | 8.5 | 11.8 |
+| **stu** | **8.3.33** | **11.7.2** |
+
+The local mirror is the machine that deliberately runs *ahead* — it models the next server.
+stu matches the oldest live target instead.
+
+`php.ini` is a dev profile: `memory_limit 512M`, `max_execution_time 360`,
+`upload_max_filesize`/`post_max_size` 80M, `display_errors On`, `error_reporting E_ALL`,
+xdebug on port 9001.
+
 #### Python
+
+```sh
+david@stu🪩:~ » python3 --version
+Python 3.14.6
+```
+
+Homebrew's `python@3.14`, not `/usr/bin/python3`.
+
 #### Ruby
+
+Nothing installed — only Apple's system Ruby, 2.6.10 from 2022 and deprecated. If anything
+needs Ruby seriously it gets a version manager, not this.
+
+```sh
+david@stu🪩:~ » ruby --version
+ruby 2.6.10p210 (2022-04-12) [universal.arm64e-darwin25]
+```
+
 #### Go
-#### Rust
+
+Not installed.
+
 #### Dart
+
+Not installed.
 
 ### Servers
 #### Apache
@@ -181,9 +288,31 @@ Server built:   Jan 20 2025 19:35:41
 ```
 #### Nginx
 
+Installed and current, but **not running** — Apache serves the local sites. Kept for testing
+config against the remote hosts, which front everything with nginx.
+
+```sh
+david@stu🪩:~ » nginx -v
+nginx version: nginx/1.31.4
+```
 
 ### Node
 ### Databases
+
+```sh
+david@stu🪩:~ » mariadb -N -B -e 'SELECT VERSION();'
+11.7.2-MariaDB
+```
+
+**Pinned.** Homebrew offers 12.x, and taking it would put stu ahead of everything it develops
+against — the next server is 11.8. 11.7 sits deliberately between the oldest live target (11.4)
+and that one. No early-warning value in running a version nothing will deploy, and a major bump
+runs `mariadb-upgrade` against the data directory, which is one-way without a dump.
+
+The collation default also changed at **11.4**. Dumps restored here need `--databases` so they
+carry their own `CREATE DATABASE ... COLLATE`, or the local server invents one with its own
+default and the mismatch surfaces months later as an "Illegal mix of collations".
+
 ### Integration
 ### Audit & Testing
 ### Frameworks
