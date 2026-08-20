@@ -89,7 +89,9 @@ Vendor ID:                   AuthenticAMD
 
 It seems like I stagger migrations every other year between servers.  It seems I'm always looking to up the horsepower but I think the next remote will be the first machine I lease with some dedicated GPU horsepower for spitting out more complex API requests. Instead of playing whack-a-mole with production server configurations, I'd just host an almost exact copy locally so that I can rsync em up anytime. Although most of my production servers are using AMD Ryzen processors, ~~I can use my old [mac mini](/docs/computers/macs) with an intel i7 as a substitute~~... after running through a quick test of the old mac mini, it seems that the old thermal paste is dried out causing too much heat and I'm worried that with a different fan control I'm going to run into problems on down the road because it'll be in a cabinet alongside of an amplifier that also generates heat. I'm going with a new Ryzen 7 box instead.
 
-Aside from the server mirro, it'll handle network backups and provide a headless API server for running LLMs so I'm not constantly adding and removing billions of parameters and 20GB models to my primary machine and so I've got a local AI that's reliable and trainable. When the the M5 Ultra is released, I'll bump up [Stu](/docs/computers/stu.md) so I can use the horsepower. The headless server will handle persistent storage, web mirroring, databases, and Time Machine backups, while my studio retains its full processing and unified memory power for running large models.
+Aside from the server mirror, it'll handle persistent storage, web mirroring and databases, while the studio machine keeps its processing and unified memory for running large models. When the M5 Ultra is released I'll bump up [Stu](/docs/computers/stu.md) so I can use the horsepower.
+
+> I originally planned to run LLMs here too — a headless API server, so I wasn't constantly adding and removing 20GB models on my primary machine. **Dropped 2026-08-20.** Inference is memory-bandwidth-bound, and a 15-28W Ryzen 7735U with a Radeon 680M has roughly a fifth of an M4 Max's bandwidth and no usable acceleration. Serving the models from here over Samba is worse still: Ollama memory-maps model files rather than loading them once, so it becomes random-access network I/O for the whole session over a gigabit link, across a NAT hop. Models belong on a drive attached directly to the machine doing the inference.
 
 ## Hardware
 
@@ -538,7 +540,63 @@ alongside a real `REMOTE_ADDR`, is the signature of it working.
 
 ## Wireguard
 
+Not installed. The kernel module ships with the running kernel
+(`/lib/modules/7.0.0-29-generic/kernel/drivers/net/wireguard/wireguard.ko.zst`), so only
+`wireguard-tools` would be needed.
+
+**Deferred 2026-08-20 to the next server build rather than retrofitted here.** The reasoning is
+worth keeping, because the obvious arrangement is the wrong one:
+
+- **Cotton cannot be the WireGuard *server*.** The Calix has no port forwards, no DMZ and UPnP
+  disabled — all deliberate — and the WAN address is dynamic. Making cotton reachable means
+  undoing that posture *and* adding DDNS to cope with the rotation.
+- **The remote host should be the server; cotton a client.** It has a static public address and
+  is already internet-facing. Cotton dials out and holds the tunnel up with
+  `PersistentKeepalive`, so no inbound rule is needed at home and the router posture is
+  untouched.
+- **It would fix the NAT asymmetry.** `db-sync.sh` is built around cotton being the only party
+  that can initiate, because nothing can reach *it*. A held-up tunnel reverses that for the
+  first time.
+- **The real payoff is retiring the dynamic-IP pin.** Several `authorized_keys` entries pin
+  `from=` to the house WAN address, which rotates — the failure mode is a bare
+  `Permission denied (publickey)` that reads like a key problem. Tunnel addresses never rotate,
+  are unroutable from the internet, and are reachable only by an authenticated peer. That is
+  strictly better than allowlisting any public address.
+- **WireGuard is silent to unauthenticated probes.** It never replies without a valid key, so
+  it does not show up as an open port in a `-p-` sweep.
+
 ## Docker
+
+Not installed, deliberately.
+
+Considered 2026-08-20 for trialling a containerised app, and rejected — the app went to its own
+cloud instance instead so it stays separable and handover-able. Two things to remember if it is
+ever installed here:
+
+- **Docker bypasses ufw.** It writes its own iptables rules *ahead* of ufw's chains, so a
+  published port stays reachable even when ufw says that port is denied. Bind published ports
+  to loopback (`127.0.0.1:PORT:80`) and put nginx in front, rather than trusting the firewall to
+  hold. Harmless on a LAN-only box with no forwards; the habit matters on anything exposed.
+- **Cotton is the reference build for the next server.** Anything installed here has a way of
+  becoming baseline by default. If Docker lands, mark it explicitly as evaluation rather than
+  part of the build, or it propagates.
+
+## Remote RSync
+
+Cotton pulls; it is never pushed to. That is not a preference — it sits behind NAT with no
+forwards, so nothing upstream can reach it, and every transfer has to be initiated from here.
+
+- Key: `~/.ssh/woozie-dumps`, matched on the far end by a **forced command**
+  (`rrsync -ro <dumpdir>`) so it can read dumps and do nothing else. It cannot run `mysql`,
+  cannot get a shell, and cannot write.
+- Driven by `scripts/db-sync.sh` — one script, both directions, always run from here.
+- **The far-end key is pinned with `from=` to the house WAN address, which is dynamic.** When it
+  rotates the sync fails with a bare `Permission denied (publickey)` that looks like a key
+  problem. Check the current WAN address against the pin *first*. This is the main argument for
+  the WireGuard plan above.
+- A second restricted key for `/var/log` is planned so the log digest can run from here on the
+  same read-only footing.
+
 ## Kubernetes K3
 
 e.g.:
@@ -572,94 +630,4 @@ spec:
         hostPath:
           path: /var/www # Points directly to your Ubuntu host directory
           type: Directory
-```
-
-## Remote RSync
-
-## SMB NAS
-
-will mount an external drive so that I can cron backups of the computers on the network and shift AI models on and off it. 
-
-```sh
-sudo mkdir -p /mnt/timemachine
-sudo chown -R nobody:nogroup /mnt/timemachine
-sudo chmod -R 777 /mnt/timemachine
-sudo apt install samba -y
-sudo vi /etc/samba/smb.conf
-
-[TimeMachine]
-comment = Mac Time Machine Backup
-path = /mnt/timemachine
-browseable = yes
-writeable = yes
-create mask = 0600
-directory mask = 0700
-vfs objects = catia fruit streams_xattr
-fruit:time machine = yes
-fruit:time machine max size = 1T
-
-sudo adduser --no-create-home --disabled-login --shell /bin/false tmuser
-sudo chown -R tmuser: /mnt/timemachine
-sudo smbpasswd -a tmuser
-sudo systemctl restart smbd
-```
-
-#### Connection
-
-- Open Finder and press Cmd + K (or click Go > Connect to Server in the top menu bar).
-- Enter your Ubuntu server's IP address using the SMB protocol: smb://your-server-ip
-- Click Connect and enter the username (macuser) and password you created in Step 3.
-- Open System Settings > General > Time Machine on your Mac.
-- Click Add Backup Disk... and select the TimeMachine folder from the network list.
-
-## Ollama
-
-```sh
-OLLAMA_HOST=http://your-server-ip:11434 ollama pull qwen2.5-coder:32b
-OLLAMA_HOST=http://your-server-ip:11434 ollama list
-OLLAMA_HOST=http://your-server-ip:11434 ollama rm qwen2.5-coder:32b
-
-  ┌─────────────────────────────────┐          ┌─────────────────────────────────┐
-  │      M4 Pro / M5 Ultra Mac      │          │     Beelink EQR7 Mini PC        │
-  │     (Heavy Compute Center)      │          │      (Storage & Dev Server)     │
-  └────────────────┬────────────────┘          └────────────────┬────────────────┘
-                   │                                            │
-                   │           1. Requests Model File           │
-                   │───────────────────────────────────────────>│
-                   │                                            │
-                   │           2. Streams GGUF over LAN         │
-                   │<───────────────────────────────────────────│
-                   │                                            │
-         ┌─────────┴─────────┐                        ┌─────────┴──────────┐
-         │ • Runs Ollama     │                        │ • Dev Mirror       │
-         │ • 70B+ Models     │                        │ • MySQL/Postgres   │
-         │ • Blazing VRAM    │                        │ • Time Machine NAS │
-         └───────────────────┘                        │ • 2TB model cache  │
-                                                      └────────────────────┘
-
-sudo mkdir -p /mnt/storage/ai-models
-sudo chown -R macuser: /mnt/storage/ai-models
-sudo vi /etc/samba/smb.conf
-
-[AI-Models]
-comment = Central GGUF Model Storage
-path = /mnt/storage/models
-browseable = yes
-writeable = yes
-guest ok = no
-valid users = macuser
-
-sudo systemctl restart smbd
-```
-
-- Open Finder and press Cmd + K.
-- Type smb://cotton-ip/AI-Models and click Connect.
-- Enter your macuser credentials and check the box to Remember this password in my keychain.
-- Open System Settings > General > Login Items on your Mac.
-- Under the Open at Login section, click the + icon, navigate to your network locations, and add the mounted AI-Models volume. It will now mount silently every time your Mac boots.
-
-```sh
-vi ~/.zshrc
-
-export OLLAMA_MODELS="/Volumes/AI-Models"
 ```
