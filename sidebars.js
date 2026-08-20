@@ -20,6 +20,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Computers',
+      collapsible: true,
+      link: {
+        type:'doc',
+        id:'computers/computers',
+      },
       items: [
         'computers/cotton',
         'computers/kos',
