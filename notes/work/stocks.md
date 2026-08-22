@@ -13,7 +13,7 @@ My first foray into investing happened in seventh grade when a parent who was a 
 
 ### Approach
 
-DFV ( Deep F*&k*ng Value ) - I don't know enough yet about financial analysis so I try to trust the analysts. I generally try to gauge the future and invest in companies that have strong value alongside of ethics and leadership. Because I don't want to keep an eye on it, I don't like short positions. I want stay diversified to provide a little absorption to the bumps.   I don't want to read the news everyday. I don't believe in infinite growth and I have realistic expectations. I'm generally trying to beat inflation and I don't need my money to outlive me.
+DFV ( Deep F*&k*ng Value ) - I don't know enough yet about financial analysis so I try to trust the analysts. I generally try to gauge the future and invest in companies that have strong value alongside of ethics and leadership. Because I don't want to keep an eye on it, I don't like short positions. I want to stay diversified to provide a little absorption to the bumps.   I don't want to read the news everyday. I don't believe in infinite growth and I have realistic expectations. I'm generally trying to beat inflation and I don't need my money to outlive me.
 
 ### Now
 
