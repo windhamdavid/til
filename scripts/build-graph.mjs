@@ -34,6 +34,10 @@ const DOC_SECTIONS = [
 ];
 const BLOG_SECTIONS = [{ dir: 'posts', base: '/posts', group: 'posts' }];
 const PAGES_DIR = 'src/pages';                                 // about.md, ai.mdx, map.md, …
+// Client work: gitignored on disk, and kept out of the graph too — graph.json IS
+// tracked, so anything walked here lands in the public repo regardless of .gitignore
+// or a page's draft flag. Full-path match, so notes/work/projects (personal) stays in.
+const PRIVATE_PATHS = ['docs/projects'];
 const MANUAL_NODES = [                                          // routes with no .md in src/pages
   { route: '/graph', label: 'Graph', group: 'page' },          // graph.jsx
   { route: '/posts', label: 'Posts (blog index)', group: 'page' },
@@ -47,6 +51,7 @@ function walk(dir) {
   for (const name of entries) {
     if (name.startsWith('.') || name === 'node_modules') continue; // skip .obsidian etc.
     const full = join(dir, name);
+    if (PRIVATE_PATHS.some((p) => { const abs = join(ROOT, p); return full === abs || full.startsWith(abs + '/'); })) continue;
     const st = statSync(full);
     if (st.isDirectory()) out.push(...walk(full));
     else if (/\.mdx?$/.test(name)) out.push(full);                // include _partials (hubs)
