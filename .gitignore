@@ -36,3 +36,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+# client project reporting — kept local, never committed
+docs/_projects/
+docs/projects/
