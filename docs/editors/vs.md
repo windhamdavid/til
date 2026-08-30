@@ -4,7 +4,76 @@ Visual Studio Code is my primary text editor. I occasionally use JetBrains and I
 
 ## Notes
 
+**26/08/27** - wrote down the current setup on [Stu](/docs/computers/stu) — 1.135.0, 43 extensions. The `### others` extension list below is from the Ovid era and is out of date.
+
 **11/26/21** - added Visual Studio Code (& Insiders) to [Ovid](/docs/computers/ovid) and need to make some notes as I get along.  
+
+## Stu 🪩
+
+Current configuration, **26/08/27** — VS Code `1.135.0` (arm64) on [Stu](/docs/computers/stu).
+Settings live in `~/Library/Application Support/Code/User/`.
+
+### Settings
+
+| | |
+|---|---|
+| Editor font | `Andale, Menlo, Monaco, 'Courier New', monospace` at 16px, ligatures off |
+| Terminal font | `'Andale Mono'` at 15px, minimum contrast ratio 5 |
+| Theme | Dark Modern, minimap off, whitespace off, tree sticky-scroll off |
+| Indent | 2 spaces |
+| Markdown | formatted by `markdown-table-prettify` |
+| Prose | cSpell on html + md only, case-sensitive, diagnostics as hints; Harper with `LongSentences` off |
+| Copilot | on everywhere except plaintext, markdown, and commit messages |
+| Claude Code | docked in the panel (`claudeCode.preferredLocation`) |
+| `.htaccess` | associated with `c` so it highlights |
+
+The `workbench.colorCustomizations` block is doing most of the work — roughly thirty overrides
+that flatten the chrome into two tones:
+
+- editor and panels `#2b2f37`
+- activity bar, sidebar, tabs, status bar, title bar `#30333a`
+- terminal `#232323`
+
+The trick is that every `*.border` is set to the *same* value as the background behind it, which
+is what removes the seams between panes rather than just recolouring them.
+
+Worth noting those are the same values as this site's dark theme — `#2b2f37` is the TIL
+background and `#232323` is the ink colour from the [parent site's palette](/docs/computers/stu).
+
+### Keybindings
+
+One override only:
+
+```json
+{ "key": "ctrl+cmd+v", "command": "extension.csvToMarkdown" }
+```
+
+### Extensions
+
+43 installed. The ones that earn their place:
+
+**Editing** — VIM (vscodevim), Code Spell Checker, Harper, Markdown Table Prettify, MDX,
+Markdown Footnotes, Markdown Preview GitHub Styles, md-graph
+
+**Data** — Rainbow CSV, Edit CSV, csvtomarkdown, Table Editor, XML, YAML
+
+**Remote & containers** — Remote SSH (+ Edit), Remote Containers, Remote Explorer, Docker,
+Containers, Codespaces
+
+**Languages** — Python (+ Pylance, debugpy, python-envs), C/C++ (+ extension pack, themes,
+devtools), CMake (+ Tools), ESLint, Apache
+
+**Git** — GitLens, GitHub Actions, GitHub Theme
+
+**AI** — Claude Code
+
+**Other** — Excalidraw, PDF viewer, Firefox debugger, Speech
+
+**Mine** — [markdown-preview-bg](https://marketplace.visualstudio.com/items?itemName=windhamdavid.markdown-preview-bg),
+[wikipedia-link](https://marketplace.visualstudio.com/items?itemName=windhamdavid.wikipedia-link)
+
+Full list any time with `code --list-extensions --show-versions`.
+
 
 ## Extensions
 
