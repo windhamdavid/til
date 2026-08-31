@@ -55,6 +55,17 @@ What reaches other projects does so through one of three deliberate channels:
 
 **Use a pinned installer for third-party binaries.** The artifact lands outside this repo (`~/.local/bin`) so a user-scope registration doesn't break when Ralph is moved or re-cloned; only the pinned installer is version-controlled. See [tools/install-codebase-memory.sh](https://github.com/windhamdavid/ralph/blob/main/tools/install-codebase-memory.sh).
 
+### Not a channel: project-specific tools
+
+A fourth kind of thing lives here that is **not** a reuse channel: standalone CLIs in `tools/`, kept in Ralph because this is where tooling gets developed and versioned. They are not installed anywhere — you run them.
+
+- `tools/last-fm-snapshot/` — pulls a Last.fm listening snapshot and writes Docusaurus markdown into `daw_til`. Project-specific: its output belongs to exactly one site.
+- `tools/reminders-export/` — turns Apple Reminders into markdown the local chat reads for context. Feeds the substrate rather than any one project.
+
+Note `installers/` is a different thing again: it holds pinned installers for *third-party* binaries that land outside this repo. `tools/` holds programs written here that produce files.
+
+The distinction is worth keeping visible, because the two categories fail differently. A reuse channel is judged on what it costs *every* project that installs it. A project-specific tool is judged on whether its output lands somewhere appropriate — which is why the scrobble output is [excluded from the RAG index](#collections): it is generated data with no prose to answer a question, and the corpus it would otherwise join is one a public widget quotes from.
+
 ### What lives where
 
 ```
@@ -67,6 +78,231 @@ mcp-server/                       ← the ralph-fs MCP server (TypeScript)
 ```
 
 Adding a plugin means a directory under `plugins/` and an entry in `marketplace.json` — no other wiring. Iterate against a local path (`/plugin marketplace add /Users/david/Sites/ralph`) and switch to `windhamdavid/ralph` once it's stable.
+
+## Models
+
+Three models are in play, and they run in three different places:
+
+| Model | Role | Where it runs |
+|-------|------|---------------|
+| `Xenova/bge-small-en-v1.5` | embeddings (384-dim) — [RAG](#rag) indexing and query | in-process, Transformers.js / ONNX |
+| `claude-haiku-4-5` | generation + citations for the public `/api/ask` | Anthropic API |
+| `llama3.2` | generation for the local-only `/api/chat` | Ollama on `stu`, never deployed |
+
+The split is what keeps the deploy small. Document vectors are baked into `rag.db` at ingest time on the
+`stu`, so the hosted server only ever embeds the incoming *question* — no Ollama, no GPU, one Node process.
+See [Deployment](#deployment-ollama-free-server).
+
+`nomic-embed-text` may still be sitting in a local Ollama install. Nothing imports it — it predates the move
+to in-process embeddings and can go with `ollama rm nomic-embed-text`.
+
+### Where the weights live
+
+| Path | Holds | Override |
+|------|-------|----------|
+| `mcp-server/.model-cache` | the ONNX embedding model (~130MB), kept outside `node_modules` so `npm ci` can't wipe it; ships with deploys | `EMBED_CACHE_DIR` |
+| `~/.ollama/models` | Ollama's blobs (`llama3.2`, plus anything else pulled) | `OLLAMA_MODELS` |
+
+### Swapping the embedding model
+
+`EMBED_MODEL` overrides the embedder, but it is not a drop-in. Vectors from different models aren't
+comparable, and the `rag_embeddings` vec0 table fixes its width at create time (`EMBEDDING_DIM = 384` in
+`src/rag/db.ts`), so a model of a different dimensionality means recreating that table and reindexing both
+collections — not just changing the name. `RAG_MAX_DISTANCE`, the relevance gate that produces the widget's
+"I don't know", is tuned to the current model's distance distribution and has to be re-tuned with it.
+
+### Upgrade assessment — working notes
+
+_Captured 2026-08-30 from a planning conversation about swapping the embedder, adding a reranker, and moving
+model weights to an external volume. **None of this is implemented yet**; it records what the repo actually
+does today and what an upgrade would cost._
+
+The reranker and the model relocation are both good calls, but three of the premises didn't match what's in
+the repo.
+
+#### The embedding model isn't `nomic-embed-text`
+
+`embeddings.ts` runs `Xenova/bge-small-en-v1.5` in-process via Transformers.js — 384-dim, no daemon.
+`nomic-embed-text` is a leftover 274MB Ollama pull that nothing imports; the only Ollama consumer left is
+`llama3.2` for `local.ts`'s `/api/chat`. So there's no nomic→X swap; there's a bge-small→X swap, and the
+column is `float[384]`, not 768.
+
+That also changes the deployment math. `/api/ask` embeds the incoming question at query time **on woozie**,
+so whatever you pick has to run there on CPU. bge-small is 128MB ONNX and ~10ms. Qwen3-Embedding-0.6B is
+~600M params — several hundred MB quantized and a couple orders of magnitude slower per query. That's the
+real constraint on the embedding swap, not disk.
+
+#### The reranker is the strong idea, and it's independent
+
+`retrieve.ts` already does vec KNN + FTS5 BM25 → RRF → relevance gate, pulling `CANDIDATES = 30` and cutting
+to `topK`. A cross-encoder slots in exactly there: rerank the 30 fused candidates down to 6. Crucially it
+needs **no schema change and no reindex** — pure query-time addition, rollback is an env flag. And its own
+comment at `retrieve.ts:5-8` says the embedder "compresses this corpus into a narrow distance band", which is
+the exact failure a reranker fixes. Do this first; it may make the embedding swap unnecessary.
+
+#### Rollback: parallel vec table, not a second collection
+
+`collection` is a column on `rag_documents`; the vec0 dimension is fixed per *table*. A 1024-dim vector can't
+go into `rag_embeddings` under any collection value. Duplicating the corpus into a second collection would
+also double `rag_documents` and skew BM25 stats, so you'd no longer be comparing like with like.
+
+Instead: add `rag_embeddings_1024` as a second vec0 table sharing rowid with the same `rag_documents`. Both
+vector spaces over identical chunks, one env var picks which table retrieval reads, rollback is instant, and
+the A/B is clean. Then it's genuinely one commit — new table + backfill script + read switch — with nothing
+destructive.
+
+One hazard to plan for: `DEFAULT_MAX_DISTANCE = 0.9` is tuned to bge-small's distance distribution, and it's
+what produces the off-topic "I don't know" on the public widget. A new embedder invalidates that constant and
+silently changes what the widget refuses to answer. It needs re-tuning as part of the swap, and the eval set
+should include the off-topic cases, not just the hits. (Note the `sqlite3` CLI here has no `vec0` module, so
+eval tooling has to go through node.)
+
+#### Models on Blue25: yes for Ollama, no for the embedder
+
+Disk headroom is the reason, though the numbers need reading carefully. The APFS container is 94.5%
+consumed with 27.2GB not allocated, and `df` reports ~25GiB available — but Settings > Storage says ~150GB,
+because it counts **purgeable** space and `df` doesn't. The difference is mostly one Time Machine local
+snapshot that `diskutil apfs listSnapshots disk3s5` marks `Purgeable: Yes` / "limits the minimum size of
+APFS Container disk3".
+
+So a 20GB pull would probably succeed — macOS evicts that snapshot under pressure. The objection isn't a
+hard wall, it's that the headroom is reclaimable-on-demand rather than owned: the OS chooses when to free
+it, and doing so discards a local restore point. None of this is an Ollama limit — Ollama has no quota and
+writes until the volume fills. Blue25 has 1.4TB of actually-unallocated space.
+
+Ollama runs only on `stu` here, so `OLLAMA_MODELS=/Volumes/Blue25/_ralph/MODELS/ollama` is clean; worst case
+the volume is out and `/api/chat` is down. Ollama isn't running as a service right now
+(`brew services` shows `none`), so a shell env var covers `ollama serve` — but the macOS app would need
+`launchctl setenv`.
+
+Leave `.model-cache` on the internal disk though. It's 128MB, it gets rsynced to woozie as part of the deploy
+artifact, and it's on the critical path for the thing that must always work. Moving it to a separate volume
+buys 128MB and adds a mount-order failure mode where Transformers.js silently re-downloads from HF. If a much
+larger embedder lands later, relocate *those* weights and keep a fallback path.
+
+#### On Qwen 3.6 35B-A3B
+
+Specs per [canirun.ai](https://www.canirun.ai/model/qwen3.6-35b-a3b): 36B total parameters, 3.0B active,
+sparse MoE (256 experts, 8 active), 256K context, released 2026-04. It behaves like a small model for
+throughput while needing the full weight set resident.
+
+| Quant | Size | On a 36GB M4 Max |
+|-------|------|------------------|
+| `Q4_K_M` | 18.9 GB | comfortable — this is the one to pull |
+| `Q5_K_M` | 23.6 GB | borderline against Metal's default wired limit (~75% of RAM) |
+| `Q6_K` | 28.2 GB | needs `iogpu.wired_limit_ratio` raised |
+| `Q8_0` | 37.4 GB | exceeds total RAM |
+
+Stated minimum RAM is 20.1GB and recommended 33.5GB; the recommendation is aimed at the larger quants, so
+`Q4_K_M` on 36GB is fine and leaves ~15GB for the OS and KV cache.
+
+The 256K context is irrelevant here — `/api/chat` sends `TOP_K = 5` chunks of ≤1500 chars, so a couple of
+thousand tokens. What *is* relevant: `local.ts` sets no `options.num_ctx` on its Ollama request, so it
+inherits Ollama's small default and silently truncates from the front. Worth fixing before judging any
+retrieval change on that path — otherwise better-retrieved chunks get dropped before the model sees them.
+
+Two intended uses, and they pull in different directions:
+
+1. **Generation for `/api/chat`** — swaps `llama3.2` in `local.ts`. Short contexts, low memory, easy.
+2. **A local coding assistant in VS Code** — long contexts over real files, running *alongside* VS Code,
+   Node, and whatever else. This is the demanding one: `Q4_K_M`'s 18.9GB plus an Electron host plus a KV
+   cache that grows with context is what will actually strain 36GB. Budget context deliberately (32–64K,
+   not 256K) and treat `num_ctx` as a memory knob, not a free parameter.
+
+Neither is on the path that ships. Public `/api/ask` generation is locked to Haiku 4.5, so retrieval work
+validated here still has to be measured against the eval set, not against how the local chat feels.
+
+VS Code needs a client extension to talk to Ollama — none is installed today. Continue.dev was the usual
+recommendation but has been acquired by Cursor and is no longer independent; the open-source code remains
+public. Current options: **Cline** (agentic, open source, takes an Ollama base URL), **Roo Code** (a Cline
+fork with per-mode model selection — useful for local-cheap / Claude-hard splits), or **Twinny** (light,
+local-first, completion-focused).
+
+Of those, **Kilo** suits this setup best: per-mode model selection (Code/Architect/Debug/Custom) maps onto
+the local-cheap / Claude-hard split, and its Ollama docs name the settings that actually matter here — an
+explicit `num_ctx` with a 32k recommended floor, and an adjustable request timeout (default 10 minutes,
+itself a fair warning about local prefill). Cline is the more established agent and has a "Use Compact
+Prompt" mode for local inference — a setting that exists because its default system prompt is large enough
+to hurt when you're spending from a 32k budget.
+
+Also under consideration, both **editors rather than extensions** — they replace VS Code instead of plugging
+into it:
+
+- **[Zed](https://zed.dev)** — standalone, written in Rust, open source. Agentic editing, edit prediction,
+  inline assistant, parallel agent threads, and external agents over ACP (Claude Agent, Codex). Its landing
+  page doesn't state Ollama support; verify before counting on it.
+- **[Void](https://voideditor.com)** — a VS Code *fork*, so themes, keybinds, and settings transfer in one
+  click. Open source, YC-backed (Glass Devtools), **in beta**. Supports Ollama directly, plus FIM models for
+  tab completion, and Agent/Gather/chat modes with checkpoints.
+
+The fork question is the real trade: Void keeps the VS Code muscle memory, Zed abandons it for speed and a
+cleaner agent story. Neither is a small switch, and Void's beta status argues for waiting.
+
+Note that completion and chat want different models: tab completion needs fill-in-the-middle support, which
+instruct models like 35B-A3B handle poorly. The usual setup is a small coder base model for FIM plus the
+larger model for chat and agent work.
+
+#### Suggested order
+
+1. Ollama models → Blue25 (cheap, independent, unblocks big pulls)
+2. Build a fixed eval set — queries with expected source URLs, plus off-topic cases
+3. Reranker behind an env flag, measured against the eval set
+4. Only then the embedding swap, via parallel vec table + re-tuned distance gate
+
+### M5 Ultra
+
+Open question: whether to replace `stu` — a 36GB M4 Max Mac Studio (`Mac16,9`) — with a **96GB M5 Ultra Mac
+Studio**. Note this is a same-class upgrade: `stu` is already an always-on desktop, so the only variable is
+memory (and whatever bandwidth an Ultra adds over a Max). Recorded here because the Qwen sizing above is
+the concrete case for and against it. The M5 Ultra's own specs are taken as a premise — core counts and
+bandwidth aren't verified here, and only the memory figure drives the argument below.
+
+#### What 96GB actually changes
+
+Metal reserves roughly 75% of unified memory for the GPU by default, so usable budget goes from ~27GB to
+~72GB. Against Qwen 3.6 35B-A3B:
+
+| Quant | Size | 36GB M4 Max | 96GB M5 Ultra |
+|-------|------|-------------|---------------|
+| `Q4_K_M` | 18.9 GB | fits, ~8GB spare | trivial, large KV headroom |
+| `Q5_K_M` | 23.6 GB | borderline at the wired limit | comfortable |
+| `Q6_K` | 28.2 GB | needs `iogpu.wired_limit_ratio` raised | comfortable |
+| `Q8_0` | 37.4 GB | exceeds total RAM | comfortable |
+| `F16` | 74.3 GB | impossible | possible, past the default wired limit |
+
+The honest reading: **`stu` already runs the model you'd actually run.** `Q4_K_M` fits today with room to
+spare, and the quality gap from Q4 to Q8 on a 3B-active MoE is real but modest. The upgrade doesn't
+unlock the stated use case; it makes it roomier.
+
+#### The arguments that do hold
+
+- **Context, not weights.** The binding constraint for a coding assistant is the KV cache, which grows with
+  context while the weights stay fixed. 96GB is what turns "budget 32–64K carefully" into "use the 256K".
+- **Concurrency.** At 36GB the model competes with VS Code's Electron host, Node servers, and Claude Code
+  for the same pool. 96GB means it stops being a zero-sum allocation.
+- **Bandwidth.** An Ultra is two Max dies, so memory bandwidth should roughly double — and bandwidth is what
+  sets token throughput. Not verified for M5; worth confirming before it counts as a reason.
+- **Ingest and reindex** currently pin `stu` while they run. More headroom makes that a background job
+  rather than a stop-everything one.
+- **Headroom for the next model,** which will be larger. 36GB is already the ceiling for this one at high
+  quant.
+
+#### The arguments against
+
+- **Nothing that ships is affected.** Public `/api/ask` runs Haiku 4.5 on woozie, and the RAG embedder is a
+  128MB CPU model. Neither gets faster or better with more local memory — this is purely an experimentation
+  purchase.
+- **It doesn't fix the disk problem.** The 95%-full volume is `stu`'s boot disk, and a new box starts the
+  same clock unless the storage habits change. Blue25 relocation is the cheap fix either way.
+- **It's not what's blocking the RAG work.** The reranker needs no new hardware, and the eval set is what
+  decides whether retrieval improved. Buying a Studio answers a different question than the one being asked.
+
+#### Where that leaves it
+
+Justified if local models become a daily driver — a coding assistant used in earnest, or an always-on host
+for the local stack. Not justified by the RAG upgrade, which runs the same on both machines. The cheap moves
+(`OLLAMA_MODELS` → Blue25, `Q4_K_M`, a `num_ctx` that fits) should come first, if only because they establish
+whether local models get used enough to warrant the box.
 
 ## MCP Server
 
@@ -328,6 +564,18 @@ The MCP server includes a local retrieval-augmented generation (RAG) pipeline th
 | `rag_list_documents` | List all indexed source files with chunk count and last-ingested timestamp. |
 | `rag_delete_document` | Remove all indexed chunks for a given source file. |
 
+### Collections
+
+Every chunk is tagged with the published corpus it belongs to, and the vocabulary is a **closed set of two** — `daw` (davidwindham.com site content) and `daw_til` (the daw_til docs site) — defined in `mcp-server/src/rag/collections.ts`.
+
+This is a namespace, not a category label. The index backs a public widget that quotes what it retrieves, so before collections existed, pointing `rag_ingest_directory` at any project wrote straight into the corpus the widget cites from, with nothing to distinguish site content from a scratch repo's notes. Both ingest tools now **require** a collection, so an ingest that can't name one fails instead of quietly publishing.
+
+Retrieval filters to the collections it was asked for. `/api/ask` passes `PUBLIC_COLLECTIONS` explicitly at the public boundary; the local chat passes every collection in its own database, which is safe because that process is never deployed and never reaches a cloud model. The filter is applied *inside* the retrievers (sqlite-vec's `rowid IN (…)` pre-filter and an FTS5 `AND`), not over their output — post-filtering a global top-30 would starve the smaller collection whenever the other dominates the neighborhood.
+
+Rows matching no collection are **unreachable rather than deleted**: retrieval names the collections it wants instead of excluding a blocklist, so anything unrecognized fails closed. `rag_list_documents` surfaces them under `(no collection)` for cleanup.
+
+Adding a third collection means editing that file — deliberately, so it stays a review checkpoint rather than something an agent can mint mid-session.
+
 ### Chunking strategy
 
 Text is chunked in `mcp-server/src/rag/chunker.ts`:
@@ -406,6 +654,34 @@ own notes and links every claim back to the source page. It's a small, framework
 the macOS-aqua **terminal window** on [davidwindham.com](https://davidwindham.com), embeddable on any
 site via a single `<script>` tag, running against this same `mcp-server/` backend — no new service. The
 local Ollama-backed `/api/chat` is left untouched; this is a separate, public, stateless path.
+
+### Two servers, two processes
+
+`mcp-server/` builds **three** entrypoints. They share `src/rag/*` — retrieval, embeddings, chunking —
+and nothing else:
+
+| Entrypoint | Serves | Model | Port | Deployed |
+|---|---|---|---|---|
+| `dist/public.js` | `/api/ask`, `/ask/widget.js`, `/ask/demo` | Claude | 3001 | woozie |
+| `dist/local.js` | `/`, `/api/chat`, `/api/conversations*` | Ollama | 3002 | never |
+| `dist/index.js` | MCP stdio tools | — | none | — |
+
+They were one Hono app on one port until the split. Two things were wrong with that. The deployed host
+carried the whole chat surface — including `/api/conversations` with **DELETE** and no authentication —
+kept unreachable only because Apache proxies just two paths; that is defense by vhost config, one proxy
+edit from exposing conversation history on a public box. And because `index.ts` also started the HTTP
+server, every Claude Code session holding the MCP server raced to bind 3001 (survivable — `EADDRINUSE`
+was caught — but it made the chat window's availability depend on which process won).
+
+**The local chat is Ollama-only, deliberately.** It has no Claude path at all. This is the server whose
+`RAG_DB_PATH` can point at a private index, and retrieval feeds whatever it finds straight into the
+generation request — a cloud model would transmit those chunks off the machine, so "indexed locally"
+would stop meaning "stayed local". The guarantee is a property of the process, not a conditional inside it.
+
+```bash
+npm run public    # davo-bot on :3001
+npm run local     # chat window on :3002 (what ai.stu proxies)
+```
 
 ### Generation + citations
 
