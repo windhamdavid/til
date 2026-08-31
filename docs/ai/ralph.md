@@ -2,10 +2,11 @@
 
 A sandbox repository for learning and experimenting with AI. I'm using it as my parent Model Context Protocol server for other projects so that I can wire in additional features and plugins that are reusable between projects.
 
-<img src="/til/img/ralph-model.png" alt="Ralph's three reuse channels: the marketplace ships the diagram plugin, mcp-server ships ralph-fs + RAG, and tools/ installs codebase-memory — all three reaching other projects" width="400" align="right"></img>
 
 
 <img src="https://davidwindham.com/til/img/ralph-loop.jpg" alt="Ralph loop" width="400"></img>
+
+<img src="/til/img/ralph-model.svg" alt="Ralph as substrate: machines and personal data (Stu, Ovid, Lisa, plus Contacts, Reminders and Calendar) feed Ralph's tools and index; from there the marketplace ships the diagram plugin, mcp-server ships ralph-fs and the RAG corpus split into the daw / daw_til collections, installers/ pins third-party binaries, and tools/ holds standalone CLIs — all reaching any project" width="100%"></img>
 
 
 ## Log
