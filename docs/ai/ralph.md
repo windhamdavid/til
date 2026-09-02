@@ -11,7 +11,15 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 
 ## Log
 
-
+- **26/09/02** - 🦙 local model stood up and the [architecture](#architecture) written down.
+  - Qwen 3.6 35B-A3B on Ollama, weights on an external volume, driven by [Cline](#on-qwen-36-35b-a3b) in VS Code.
+    Loads 100% GPU at 32k context on 36GB. Ollama had to go to 0.33.2 first — 0.17.0 couldn't read the
+    architecture at all and failed in a way that reads like a corrupt download.
+  - `rag-query.mjs` closes the last gap in the invariant that [every MCP tool wraps something runnable by
+    hand](#the-invariant) — the index was previously reachable only through a client that wanted a model.
+  - Found while testing it: `better-sqlite3` was compiled against a different Node than the one on PATH, so
+    **all six RAG tools had been failing silently**. The fallback degraded better than the primary did.
+- **26/08/06** - 👾 first written up.
 
 ## Features
 
@@ -23,7 +31,11 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 - **AI assistant** — "davo-bot 2000", a public citation-enabled chat widget, styled as a macOS terminal, grounded in the local RAG index and embeddable on any site
 - **Codebase graph** — pinned, config-touching-nothing installer for `codebase-memory-mcp`, a third-party code-graph MCP server shared across projects
 - **Plugins** — this repo is a plugin marketplace; `diagram` generates editable Excalidraw system maps and installs into any project
-- **Dual remotes** — changes pushed to both GitHub and a self-hosted Gitea instance
+- **Local model** — Qwen 3.6 35B-A3B on Ollama as a supervisor/reviewer, so routine work survives a provider
+  outage; the [architecture](#architecture) is built so the fallback doesn't have to be good
+- **Shell-first floor** — every MCP tool is a thin wrapper over something runnable by hand, `rag_search`
+  included (`scripts/rag-query.mjs`), so the index is reachable from a terminal with no model in the path
+- **Dual remotes** — changes pushed to both GitHub and a self-hosted Gogs instance
 
 
 
@@ -46,7 +58,7 @@ What reaches other projects does so through one of three deliberate channels:
 |---|---|---|---|
 | [Plugin marketplace](#plugins) | skills, commands, agents | `/plugin install <name>@ralph` | **none until invoked** |
 | [MCP server](#using-it-from-other-projects) | tools (`ralph-fs`) | `claude mcp add --scope user` | tool schemas, always loaded |
-| [Pinned installer](#codebase-graph) | third-party binaries | `tools/*.sh` + a registration you run | none until registered |
+| [Pinned installer](#codebase-graph) | third-party binaries | `installers/*.sh` + a registration you run | none until registered |
 
 ### Choosing between them
 
@@ -54,14 +66,14 @@ What reaches other projects does so through one of three deliberate channels:
 
 **Use an MCP server when you need a running process** — something holding a database handle, a network connection, or an index. The cost is real and fixed: `codebase-memory`'s schemas measure ~6,500 tokens injected into *every* session it's registered in, used or not, versus ~20,500 tokens for the whole of `mcp-server/src`. Register at user scope only when you'll genuinely use it everywhere; otherwise scope it per-project.
 
-**Use a pinned installer for third-party binaries.** The artifact lands outside this repo (`~/.local/bin`) so a user-scope registration doesn't break when Ralph is moved or re-cloned; only the pinned installer is version-controlled. See [tools/install-codebase-memory.sh](https://github.com/windhamdavid/ralph/blob/main/tools/install-codebase-memory.sh).
+**Use a pinned installer for third-party binaries.** The artifact lands outside this repo (`~/.local/bin`) so a user-scope registration doesn't break when Ralph is moved or re-cloned; only the pinned installer is version-controlled. See [installers/install-codebase-memory.sh](https://davidwindham.com/code/ralph/src/main/installers/install-codebase-memory.sh).
 
 ### Not a channel: project-specific tools
 
-A fourth kind of thing lives here that is **not** a reuse channel: standalone CLIs in `tools/`, kept in Ralph because this is where tooling gets developed and versioned. They are not installed anywhere — you run them.
+A fourth kind of thing lives here that is **not** a reuse channel: standalone CLIs in [tools/](https://davidwindham.com/code/ralph/src/main/tools), kept in Ralph because this is where tooling gets developed and versioned. They are not installed anywhere — you run them.
 
-- `tools/last-fm-snapshot/` — pulls a Last.fm listening snapshot and writes Docusaurus markdown into `daw_til`. Project-specific: its output belongs to exactly one site.
-- `tools/reminders-export/` — turns Apple Reminders into markdown the local chat reads for context. Feeds the substrate rather than any one project.
+- [tools/last-fm-snapshot/](https://davidwindham.com/code/ralph/src/main/tools/last-fm-snapshot) — pulls a Last.fm listening snapshot and writes Docusaurus markdown into `daw_til`. Project-specific: its output belongs to exactly one site.
+- [tools/reminders-export/](https://davidwindham.com/code/ralph/src/main/tools/reminders-export) — turns Apple Reminders into markdown the local chat reads for context. Feeds the substrate rather than any one project.
 
 Note `installers/` is a different thing again: it holds pinned installers for *third-party* binaries that land outside this repo. `tools/` holds programs written here that produce files.
 
@@ -74,7 +86,8 @@ The distinction is worth keeping visible, because the two categories fail differ
 plugins/<name>/                   ← one directory per plugin
   .claude-plugin/plugin.json
   skills/ commands/ agents/       ← auto-discovered by convention
-tools/                            ← pinned installers for external binaries
+installers/                       ← pinned installers for external binaries
+tools/                            ← standalone CLIs (last-fm-snapshot, reminders-export)
 mcp-server/                       ← the ralph-fs MCP server (TypeScript)
 ```
 
@@ -82,13 +95,20 @@ Adding a plugin means a directory under `plugins/` and an entry in `marketplace.
 
 ## Models
 
-Three models are in play, and they run in three different places:
+Four models are in play, and only one of them ships:
 
 | Model | Role | Where it runs |
 |-------|------|---------------|
 | `Xenova/bge-small-en-v1.5` | embeddings (384-dim) — [RAG](#rag) indexing and query | in-process, Transformers.js / ONNX |
 | `claude-haiku-4-5` | generation + citations for the public `/api/ask` | Anthropic API |
 | `llama3.2` | generation for the local-only `/api/chat` | Ollama on `stu`, never deployed |
+| `qwen3.6:35b-a3b-q4_K_M` | local coding assistant / supervisor, driven by [Cline](#on-qwen-36-35b-a3b) | Ollama on `stu`, weights on Blue25 |
+
+The fourth is the newest and the least settled — added 2026-09-02 as the local fallback the
+[architecture](#architecture) is built around, not as a quality play. It is 23GB resident and cannot
+share memory with `llama3.2`, so the two Ollama models take turns; Ollama's idle unload is what keeps that
+from being a conflict. Sizing, the client decision, and the measurements are further down under
+[On Qwen 3.6 35B-A3B](#on-qwen-36-35b-a3b).
 
 The split is what keeps the deploy small. Document vectors are baked into `rag.db` at ingest time on the
 `stu`, so the hosted server only ever embeds the incoming *question* — no Ollama, no GPU, one Node process.
@@ -102,7 +122,13 @@ to in-process embeddings and can go with `ollama rm nomic-embed-text`.
 | Path | Holds | Override |
 |------|-------|----------|
 | `mcp-server/.model-cache` | the ONNX embedding model (~130MB), kept outside `node_modules` so `npm ci` can't wipe it; ships with deploys | `EMBED_CACHE_DIR` |
-| `~/.ollama/models` | Ollama's blobs (`llama3.2`, plus anything else pulled) | `OLLAMA_MODELS` |
+| `~/.ollama/models` → `/Volumes/Blue25/_ralph/MODELS/ollama` | Ollama's blobs (`llama3.2`, `qwen3.6`, `nomic-embed-text`) | **symlink, not `OLLAMA_MODELS`** — see below |
+
+`OLLAMA_MODELS` is deliberately unused. Ollama runs as a `brew services` agent, and `brew services`
+regenerates its launchd plist from the formula on every restart — so the variable would be wiped by the next
+`brew services restart`. The store is symlinked instead, which also fails safer: pointed at an unmounted
+`/Volumes/Blue25/...`, Ollama would create that tree on the internal disk and quietly fill it, where a
+dangling symlink simply cannot be written through.
 
 ### Swapping the embedding model
 
@@ -171,10 +197,19 @@ hard wall, it's that the headroom is reclaimable-on-demand rather than owned: th
 it, and doing so discards a local restore point. None of this is an Ollama limit — Ollama has no quota and
 writes until the volume fills. Blue25 has 1.4TB of actually-unallocated space.
 
-Ollama runs only on `stu` here, so `OLLAMA_MODELS=/Volumes/Blue25/_ralph/MODELS/ollama` is clean; worst case
-the volume is out and `/api/chat` is down. Ollama isn't running as a service right now
-(`brew services` shows `none`), so a shell env var covers `ollama serve` — but the macOS app would need
-`launchctl setenv`.
+**Done 2026-09-02, but not with `OLLAMA_MODELS`.** Ollama now runs as a `brew services` agent, and
+`brew services` regenerates its launchd plist from the formula on every restart — so an `OLLAMA_MODELS`
+entry added there is wiped by the next `brew services restart`. The store itself was relocated instead:
+
+    ~/.ollama/models -> /Volumes/Blue25/_ralph/MODELS/ollama
+
+The symlink also fails *safer* than the env var. With `OLLAMA_MODELS` pointed at an unmounted
+`/Volumes/Blue25/...`, Ollama creates that tree on the internal disk and quietly fills it — the exact
+outcome this section is trying to avoid. A dangling symlink cannot be written through, so an absent volume
+is a loud failure and `/api/chat` is down, which was the accepted worst case anyway.
+
+Two env vars *do* come from the formula and survive restarts, confirmed on the running process:
+`OLLAMA_FLASH_ATTENTION=1` and `OLLAMA_KV_CACHE_TYPE=q8_0`. The second is load-bearing for the sizing above.
 
 Leave `.model-cache` on the internal disk though. It's 128MB, it gets rsynced to woozie as part of the deploy
 artifact, and it's on the critical path for the thing that must always work. Moving it to a separate volume
@@ -187,20 +222,35 @@ Specs per [canirun.ai](https://www.canirun.ai/model/qwen3.6-35b-a3b): 36B total 
 sparse MoE (256 experts, 8 active), 256K context, released 2026-04. It behaves like a small model for
 throughput while needing the full weight set resident.
 
-| Quant | Size | On a 36GB M4 Max |
-|-------|------|------------------|
-| `Q4_K_M` | 18.9 GB | comfortable — this is the one to pull |
-| `Q5_K_M` | 23.6 GB | borderline against Metal's default wired limit (~75% of RAM) |
-| `Q6_K` | 28.2 GB | needs `iogpu.wired_limit_ratio` raised |
-| `Q8_0` | 37.4 GB | exceeds total RAM |
+| Quant | Size (canirun) | Ollama tag | Actual | On a 36GB M4 Max |
+|-------|------|------|------|------------------|
+| `Q4_K_M` | 18.9 GB | `qwen3.6:35b-a3b-q4_K_M` | **23 GB** | pulled 2026-09-02 — **loads 100% GPU at 32k ctx** |
+| `Q4_K_M` (mtp) | — | `qwen3.6:35b-a3b-mtp-q4_K_M` | 23 GB | multi-token-prediction variant, untested |
+| `Q5_K_M` | 23.6 GB | | | borderline against Metal's default wired limit (~75% of RAM) |
+| `Q6_K` | 28.2 GB | | | needs `iogpu.wired_limit_ratio` raised |
+| `Q8_0` | 37.4 GB | | | exceeds total RAM |
 
-Stated minimum RAM is 20.1GB and recommended 33.5GB; the recommendation is aimed at the larger quants, so
-`Q4_K_M` on 36GB is fine and leaves ~15GB for the OS and KV cache.
+**The canirun figures run ~20% light.** Ollama's actual `Q4_K_M` is 23GB, not 18.9GB — close to what the
+table called borderline for `Q5_K_M`, so treat the third column as the real one and the estimates as a
+lower bound.
+
+Measured 2026-09-02, first load: `ollama ps` reports **23 GB / 100% GPU / 32768 context**, cold start plus a
+trivial generation in **13.8s**, system memory free dropping to **11%**. So it fits — with `OLLAMA_FLASH_ATTENTION=1`
+and `OLLAMA_KV_CACHE_TYPE=q8_0` doing the work that makes 32k viable at this weight — but there is no room
+for a second resident model. `llama3.2` for `/api/chat` and this cannot both be warm; Ollama's idle unload
+(~4 min) is what makes that survivable rather than a conflict.
 
 The 256K context is irrelevant here — `/api/chat` sends `TOP_K = 5` chunks of ≤1500 chars, so a couple of
 thousand tokens. What *is* relevant: `local.ts` sets no `options.num_ctx` on its Ollama request, so it
 inherits Ollama's small default and silently truncates from the front. Worth fixing before judging any
 retrieval change on that path — otherwise better-retrieved chunks get dropped before the model sees them.
+
+**Ollama must be recent enough to know the architecture.** The first load failed with
+`unknown model architecture: 'qwen35moe'` on Ollama **0.17.0** — nothing to do with memory or storage; it
+failed at architecture dispatch before allocating anything. Upgrading to **0.33.2** fixed it outright.
+Worth knowing because the error text points at a blob path and reads like a corrupt-download or
+out-of-memory problem, which sends you debugging the wrong thing entirely. `/api/chat` was re-tested across
+that sixteen-version jump and is unaffected — NDJSON streaming and citation URLs both intact.
 
 Two intended uses, and they pull in different directions:
 
@@ -219,12 +269,30 @@ public. Current options: **Cline** (agentic, open source, takes an Ollama base U
 fork with per-mode model selection — useful for local-cheap / Claude-hard splits), or **Twinny** (light,
 local-first, completion-focused).
 
-Of those, **Kilo** suits this setup best: per-mode model selection (Code/Architect/Debug/Custom) maps onto
-the local-cheap / Claude-hard split, and its Ollama docs name the settings that actually matter here — an
-explicit `num_ctx` with a 32k recommended floor, and an adjustable request timeout (default 10 minutes,
-itself a fair warning about local prefill). Cline is the more established agent and has a "Use Compact
+**Chosen 2026-09-02: Cline**, running Qwen 3.6 35B-A3B. It's the more established agent of the three, open
+source with no licensing question (unlike OpenClaude, evaluated and parked), and it has a "Use Compact
 Prompt" mode for local inference — a setting that exists because its default system prompt is large enough
-to hurt when you're spending from a 32k budget.
+to hurt when you're spending from a 32k budget. Decisively, it takes **stdio MCP servers with per-server
+`env`**, the same shape `.mcp.json` uses to hand `ralph-fs` its `RALPH_ALLOWED_DIRS`, which is what makes
+the [architecture](#architecture)'s control-plane design possible at all.
+
+Kilo was the runner-up and remains the better *documented* setup for this: per-mode model selection
+(Code/Architect/Debug/Custom) maps onto the local-cheap / Claude-hard split, and its Ollama docs name the
+settings that actually matter — an explicit `num_ctx` with a 32k recommended floor, and an adjustable
+request timeout (default 10 minutes, itself a fair warning about local prefill). Cline's Ollama docs name
+no context minimum at all, so **take Kilo's 32k floor as the number to set anyway**; it's the same Ollama
+knob either way.
+
+**Two caveats, both found the same day, and together they reopen the client question.** Cline's built-in
+tools can't be disabled — `autoApprove` controls approval prompts, not availability — so the MCP boundary
+constrains what runs *unattended*, not what the model can reach. And its **CLI is account-gated**: the
+provider config writes fine and the local model genuinely answers (Ollama logged `200 | 43.79s | POST
+/api/chat`), but the CLI then discards the turn with `Unauthorized: ... re-authenticate your Cline account`.
+Inference isn't the gate; the session layer is. That retracts the terminal-first half of the case for
+Cline — the VS Code extension works and is the surface, which is what VS Code agent mode already offered
+with no account and with tools that *can* be deselected. See
+[docs/architecture.md](#architecture); the decision stands for now but should not be assumed to
+survive a real side-by-side.
 
 Also under consideration, both **editors rather than extensions** — they replace VS Code instead of plugging
 into it:
@@ -245,7 +313,7 @@ larger model for chat and agent work.
 
 #### Suggested order
 
-1. Ollama models → Blue25 (cheap, independent, unblocks big pulls)
+1. ~~Ollama models → Blue25~~ — **done 2026-09-02** (symlinked, not `OLLAMA_MODELS`; see above)
 2. Build a fixed eval set — queries with expected source URLs, plus off-topic cases
 3. Reranker behind an env flag, measured against the eval set
 4. Only then the embedding swap, via parallel vec table + re-tuned distance gate
@@ -304,6 +372,7 @@ Justified if local models become a daily driver — a coding assistant used in e
 for the local stack. Not justified by the RAG upgrade, which runs the same on both machines. The cheap moves
 (`OLLAMA_MODELS` → Blue25, `Q4_K_M`, a `num_ctx` that fits) should come first, if only because they establish
 whether local models get used enough to warrant the box.
+
 
 ## MCP Server
 
@@ -381,170 +450,6 @@ npm run build   # compiles TypeScript to dist/
 npm start       # run the server directly
 ```
 
-## Codebase graph
-
-[codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) is a third-party MCP server that indexes a repository into a persistent code graph, so an agent can query structure instead of reading files. It isn't vendored here — it's a C static binary distributed via GitHub Releases, and nothing in `mcp-server/` links against it. This repo owns only the **pinned installer**.
-
-<video src="https://davidwindham.com/media/ralph-map.mp4" width="100%" controls="controls">
-</video>
-<div style={{display: 'flex',  justifyContent:'center', alignItems:'center', fontSize:'small', marginBottom:'20px'}}><i>visualization of the code graph from this repo</i></div>
-
-### Installing
-
-```bash
-./tools/install-codebase-memory.sh              # -> ~/.local/bin
-./tools/install-codebase-memory.sh --dir=/path  # somewhere else
-./tools/install-codebase-memory.sh --ui         # variant with the 3D graph UI
-```
-
-The script pins an exact release, downloads the archive for your platform, verifies its SHA-256 against `checksums.txt`, verifies its Sigstore provenance with `gh attestation verify`, ad-hoc-signs it on macOS (the binary ships unsigned, so Gatekeeper otherwise kills it), smoke-tests `--version`, and prints the registration command.
-
-**It changes no configuration.** That's the reason it exists rather than upstream's `curl | bash`: upstream's `install` subcommand rewrites MCP client config across ~43 "client surfaces", which includes `~/.claude.json` — where the user-scope `ralph-fs` registration lives. Upstream also always fetches *latest*; at pre-1.0 RC that's an unannounced binary swap under every project at once. Here, updating means bumping `VERSION` at the top of the script, in git, where it's reviewable.
-
-A checksum only proves the archive matches a file served by the same host that served the checksum, so a failed *attestation* is treated as fatal while a missing `gh` is not — an actively bad signal differs from an unchecked one.
-
-### Why the binary lives outside this repo
-
-A user-scope MCP registration is a single absolute path consulted from every project. Pointing it inside `Sites/ralph` would break the server in *every* project the moment this repo is moved, renamed, or re-cloned — so the artifact goes to `~/.local/bin` and only the installer is version-controlled.
-
-```
-tools/install-codebase-memory.sh   ← committed; pins the version
-~/.local/bin/codebase-memory-mcp   ← the artifact it produces
-~/.cache/codebase-memory-mcp/      ← all project graphs (CBM_CACHE_DIR)
-```
-
-Leave `CBM_CACHE_DIR` at its default for the same reason.
-
-### Using it across projects
-
-Unlike `ralph-fs`, this server isn't scoped to a working directory — one instance manages many repos, each indexed by absolute path and queried by name. So it needs one registration, not one per project:
-
-```bash
-claude mcp add --scope user codebase-memory -- ~/.local/bin/codebase-memory-mcp
-```
-
-```
-index_repository(repo_path="/Users/david/Sites/daw_til")   # once per repo
-list_projects()                                            # what's indexed
-<query tools>(project="Users-david-Sites-daw_til")         # from any project
-```
-
-Project names are derived from the absolute path (`/Users/david/Sites/daw_til` → `Users-david-Sites-daw_til`), not the bare directory name — use `list_projects` to get the exact string.
-
-Both repos then live in one store and are queryable from any session, regardless of cwd:
-
-```json
-{"projects":[
-  {"name":"Users-david-Sites-ralph",   "root_path":"/Users/david/Sites/ralph",   "nodes":469,  "edges":867},
-  {"name":"Users-david-Sites-daw_til", "root_path":"/Users/david/Sites/daw_til", "nodes":3474, "edges":3675}
-]}
-```
-
-Indexing is fast (~5s for ralph, ~8s for daw_til, daemon startup included) and applies `.gitignore` plus its own skip-lists without configuration — daw_til's `node_modules`, `.docusaurus`, `build`, and `static` were all excluded automatically.
-
-### Testing it without registering anything
-
-The binary is a CLI as well as an MCP server, so it can be exercised end to end before it's wired into any client. Point `CBM_CACHE_DIR` somewhere disposable and nothing outside that directory is touched:
-
-```bash
-export CBM_CACHE_DIR=/tmp/cbm-test
-codebase-memory-mcp cli index_repository '{"repo_path":"/Users/david/Sites/ralph"}'
-codebase-memory-mcp cli --json search_graph --project Users-david-Sites-ralph --query "safePath" --limit 5
-codebase-memory-mcp cli --json query_graph --project Users-david-Sites-ralph \
-  --query "MATCH (a)-[r]->(b) WHERE b.name = 'safePath' RETURN a.name, type(r), a.file_path"
-```
-
-Note `--json` goes *before* the tool name; after it, it's parsed as a tool flag. Bare `cli <tool>` prints human-readable text instead.
-
-### 3D graph visualization
-
-Requires the `--ui` variant — the standard binary doesn't embed the frontend. Two things are counterintuitive:
-
-```bash
-codebase-memory-mcp --ui=true --port=9749   # persists config, then EXITS — serves nothing
-codebase-memory-mcp daemon start            # the daemon owns the UI
-open http://localhost:9749
-```
-
-The first command looks like it should start a server and doesn't; the **daemon** is what serves the UI, so `daemon start` is the step that actually brings it up. And the daemon starts **permanent** — it survives session end and idle, so retire it deliberately:
-
-```bash
-codebase-memory-mcp daemon stop
-```
-
-`daemon start` may warn `the daemon did not accept the UI configuration` and then serve the UI correctly anyway — observed on `v0.9.1-rc.1`. Check `daemon status`, which reports the bound URL, before chasing it.
-
-### What it's good for, and what it isn't
-
-Indexing both repos makes the split obvious:
-
-| | ralph | daw_til |
-|---|---|---|
-| Nodes / edges | 469 / 867 | 3474 / 3675 |
-| Dominant node type | Function, Method | `Section` (2541 markdown headings) |
-| `search_graph` results | accurate | **0 for every query** |
-
-`search_graph`'s BM25 index covers code symbols and filters non-code labels as noise, so on a docs repo it returns nothing even though the nodes exist — they're reachable only via `query_graph` Cypher. This is a **code** tool. For daw_til's prose the RAG index above is the right instrument and already works; the graph earns its keep on repos like `mcp-server/`, where it answers questions grep can't:
-
-```
-MATCH (a)-[r]->(b) WHERE b.name = 'safePath' RETURN a.name, type(r), a.file_path
-→ 10 CALLS edges, one per tool handler  (verified against grep: exactly 10)
-```
-
-The daw_til nodes are indexed, just not searchable — worth knowing so an empty `search_graph` isn't mistaken for a failed index:
-
-```
-search_graph --query "ubuntu"                            → total: 0
-query_graph  "MATCH (n:Section) RETURN n.name, n.file_path LIMIT 3"
-  Tweets          lists/tweets_follow.md
-  "Future Build"  notes/house/build.md
-  Concepts        notes/house/build.md
-```
-
-Because graphs are keyed by project inside the shared cache, daw_til's graph is queryable from a Ralph session and vice versa.
-
-**Tradeoff:** a user-scope registration loads all 15 of its tools into every session in every project, used or not. If that's noise, register it per-project instead — the binary path and shared cache are unchanged, only the scope moves.
-
-Measured on this repo: its MCP tool schemas are ~24KB (**~6,500 tokens**) loaded into every session whether or not a tool is called, while Ralph's entire TypeScript source is ~20,500 tokens. On a codebase this size the graph can't pay for itself — it earns its keep on large, unfamiliar repos where it saves you from opening files you didn't need.
-
-## Plugins
-
-`.claude-plugin/marketplace.json` makes this repo a plugin marketplace, which is how work developed here becomes reusable in other projects. Unlike an MCP server, a plugin's skills cost **nothing** until invoked — the lesson from the token measurement above.
-
-```bash
-/plugin marketplace add /Users/david/Sites/ralph   # local path, for iterating
-/plugin marketplace add windhamdavid/ralph         # from GitHub
-/plugin install diagram@ralph
-```
-
-### diagram — Excalidraw system maps
-
-`plugins/diagram/` generates editable `.excalidraw` files for explaining a system to people who don't have the code in their head.
-
-```bash
-python3 plugins/diagram/skills/excalidraw/scripts/build_excalidraw.py \
-  --spec plugins/diagram/examples/ralph-layout.spec.json \
-  --out ralph-layout.excalidraw
-```
-
-Open the result at [excalidraw.com](https://excalidraw.com) or in VS Code via the `pomdtr.excalidraw-editor` extension. `plugins/diagram/examples/` holds a worked example — this repo drawn as its three reuse channels.
-
-Style comes from a named theme rather than being restated per diagram; `slate` (white line art on a slate canvas, sans-serif, no fills) is the default the skill reaches for, and individual keys override it.
-
-**Why a script rather than the model emitting JSON.** Excalidraw elements carry ~25 fields each plus *two-way* references between shapes, their labels, and arrows. Miss one backlink and the file still opens — blank, or with every label silently dropped. The script owns the schema and refuses to write a file that fails validation, so a clean exit means it will render.
-
-```bash
-build_excalidraw.py --validate diagram.excalidraw
-```
-
-Checks label/container backlinks, arrow bindings, and z-order indices. That last one is subtle: Excalidraw sorts elements by comparing `index` as a **string**, so unpadded values put `a10` before `a2` and the layering scrambles once a diagram exceeds nine elements — the indices are zero-padded for that reason.
-
-Output is deterministic: element seeds derive from a hash of the node id, so regenerating an unchanged spec produces a byte-identical file and edits give clean diffs.
-
-**Sharing with a non-technical audience:** export to `.excalidraw.svg`. It renders as an ordinary image anywhere — GitHub, a README, a slide — while remaining a fully editable drawing.
-
-**Not needed:** an Excalidraw Plus account or API key. This writes files locally and makes no network calls. The [Excalidraw+ MCP](https://plus.excalidraw.com/docs/mcp) is a separate, complementary thing — it syncs diagrams to a hosted Plus workspace for shareable links. If you add it, register it at **user scope**, never in this repo's `.mcp.json`: that file is committed and pushed to two remotes, one of them public.
-
 ## RAG
 
 The MCP server includes a local retrieval-augmented generation (RAG) pipeline that lets Claude index and semantically search markdown and text files entirely offline.
@@ -559,10 +464,10 @@ The MCP server includes a local retrieval-augmented generation (RAG) pipeline th
 
 | Tool | Description |
 |------|-------------|
-| `rag_ingest_file` | Chunk, embed, and index a single `.md` or `.txt` file. Re-ingesting replaces existing chunks. |
-| `rag_ingest_directory` | Recursively walk a directory and ingest every `.md` / `.txt` / `.mdx` file. |
-| `rag_search` | Hybrid search (semantic + keyword, RRF-fused) returning the top-k most relevant chunks with source and match info. Off-topic queries return nothing. |
-| `rag_list_documents` | List all indexed source files with chunk count and last-ingested timestamp. |
+| `rag_ingest_file` | Chunk, embed, and index a single `.md` or `.txt` file. Requires `collection`. Re-ingesting replaces existing chunks. |
+| `rag_ingest_directory` | Recursively walk a directory and ingest every `.md` / `.txt` / `.mdx` file. Requires `collection`. |
+| `rag_search` | Hybrid search (semantic + keyword, RRF-fused) returning the top-k most relevant chunks with source and match info. Optional `collection` scopes it to one. Off-topic queries return nothing. |
+| `rag_list_documents` | List indexed source files grouped by collection, with chunk count and last-ingested timestamp. |
 | `rag_delete_document` | Remove all indexed chunks for a given source file. |
 
 ### Collections
@@ -614,13 +519,50 @@ Tuning knobs (env): `RAG_MAX_DISTANCE` (semantic gate), `EMBED_MODEL` / `EMBED_Q
 
 **Embeddings run in-process** (Transformers.js / `bge-small-en-v1.5`) — no Ollama needed for RAG. The ~130MB ONNX model downloads from the Hugging Face hub on first use and is cached thereafter. Override the model via `EMBED_MODEL` (a reindex is required if you change it).
 
-Ollama is only needed for the **`/api/chat`** local-LLM path (llama3.2 generation), not for embeddings or `/api/ask`. If you use that path, run Ollama with `OLLAMA_CHAT_MODEL` available (default `llama3.2`); `OLLAMA_HOST` defaults to `http://localhost:11434`.
+Ollama is only needed by the **local chat server** (`dist/local.js`, llama3.2 generation) — not for embeddings, not for `/api/ask`, and not on the deployed host at all. If you use that path, run Ollama with `OLLAMA_CHAT_MODEL` available (default `llama3.2`); `OLLAMA_HOST` defaults to `http://localhost:11434`.
 
 ### Storage
 
 The SQLite database is stored at `.rag/rag.db` and is created automatically on first use. The directory is excluded from version control.
 
-This index is a **fixed corpus** — davidawindham.com plus daw_til, backing the ask widget — not per-project state. It lives at one path regardless of which project the server is invoked from, so set `RAG_DB_PATH` explicitly rather than letting it fall back to `ROOT_DIR/.rag/rag.db`; that keeps the index from moving if `ROOT_DIR` ever changes. Anything genuinely per-project (a code-review graph, say) belongs in its own store keyed by repo, not in this one.
+This index is a **fixed corpus** — the two [collections](#collections) backing the ask widget — not per-project state. It lives at one path regardless of which project the server is invoked from, so set `RAG_DB_PATH` explicitly rather than letting it fall back to `ROOT_DIR/.rag/rag.db`; that keeps the index from moving if `ROOT_DIR` ever changes. Anything genuinely per-project (a code-review graph, say) belongs in its own store keyed by repo, not in this one — the collection enum enforces that rather than leaving it to discipline.
+
+The schema is versioned via `PRAGMA user_version`; opening a database at v1 adds the `collection` column and classifies existing rows by source path in one pass, logging the counts. It runs once and is safe to re-open.
+
+### Querying the index from a shell
+
+`rag_search` is the one MCP tool with no hand-runnable equivalent, and the index *is* the accumulated
+knowledge — so during a provider outage the notes were unreachable from a terminal. `scripts/rag-query.mjs`
+closes that: retrieval needs no generation model (`retrieveHybrid()` is a plain function, embeddings run
+in-process), so this is the same hybrid search the tool performs, printed to stdout.
+
+```bash
+cd mcp-server
+npm run rag:query -- supabase auth        # or: node scripts/rag-query.mjs supabase auth
+```
+
+```
+3 result(s) for "supabase auth"
+
+1. AI
+   /Users/david/Sites/daw_til/notes/work/projects/ai.md
+   https://davidwindham.com/til/notes/work/projects/ai
+   chunk 7 · daw_til · rrf 0.0318 · vector+keyword, dist 0.8015
+
+   ... ## Resources - ChatGPT for Supabase Docs - https://supabase.com/blog/chatgpt-supabase-docs ...
+```
+
+| Flag | |
+|---|---|
+| `-k, --top-k <n>` | how many chunks (default 5) |
+| `-c, --collection <name>` | restrict to `daw` or `daw_til` |
+| `--max-distance <n>` | semantic relevance gate (default `RAG_MAX_DISTANCE`, else 0.9) |
+| `-f, --full` | print whole chunks instead of a snippet |
+| `--paths` | source paths only, deduped, best match first — pipe to `xargs` |
+| `--json` | the raw rows, for `jq` |
+
+Exit status follows `grep`: **0** matched, **1** nothing matched, **2** usage or runtime error — so
+`rag-query.mjs foo --paths | xargs less` and `rag-query.mjs foo || echo nope` both behave.
 
 ### Manually ingesting a directory
 
@@ -628,10 +570,10 @@ When the MCP tools are unavailable (e.g. after a fresh build before Claude Code 
 
 ```bash
 cd mcp-server
-node scripts/ingest-dir.mjs /path/to/directory
+node scripts/ingest-dir.mjs /path/to/directory --collection daw_til
 ```
 
-The script walks the directory recursively, ingests every `.md` and `.txt` file, and prints a per-file summary with chunk counts.
+The script walks the directory recursively, ingests every `.md` and `.txt` file, and prints a per-file summary with chunk counts. `--collection` is required and has no default: unlike the two site scripts, this one applies no draft filtering and attaches no citation URL, so a run against the wrong tree would otherwise put unreviewed content in front of the public widget.
 
 ```
 Found 53 files to ingest...
@@ -653,8 +595,7 @@ Ingested 53 files → 629 total chunks.
 Building on the RAG pipeline above, a public-facing chat assistant that answers **only** from David's
 own notes and links every claim back to the source page. It's a small, framework-free widget styled like
 the macOS-aqua **terminal window** on [davidwindham.com](https://davidwindham.com), embeddable on any
-site via a single `<script>` tag, running against this same `mcp-server/` backend — no new service. The
-local Ollama-backed `/api/chat` is left untouched; this is a separate, public, stateless path.
+site via a single `<script>` tag.
 
 ### Two servers, two processes
 
@@ -724,8 +665,13 @@ Ingest is idempotent per site (clears that site's rows first). Currently:
 - **davidwindham.com** — single-page portfolio; `sites/davidwindham.com/index.md` → `https://davidwindham.com/`.
   (The export was generated once by converting the live page to markdown with `turndown`; it's a committed
   file you can curate.)
-- **davidawindham.com (legacy)** — the old WordPress site; its posts/pages now redirect to davidwindham.com, so
-  the ingest maps `sites/davidawindham.com/` to `baseUrl: https://davidwindham.com` (the export dir keeps its name).
+- **davidwindham.com-wp (legacy WordPress)** — the old WordPress site, once served at davidawindham.com; its
+  posts/pages now redirect to davidwindham.com, so the ingest maps `sites/davidwindham.com-wp/` to the same
+  `baseUrl: https://davidwindham.com`. Every file carries a frontmatter `url:`, which is authoritative — the
+  export's directory name never influences a citation.
+
+Each export's origin is recorded in `metadata.kind` (`site` / `wp`); the TIL corpus is tagged `til` by
+`ingest-daw-til.mjs`, which reads the live Docusaurus repo directly and has no export dir under `sites/`.
 
 ### The widget
 
@@ -838,9 +784,455 @@ The server is one Node process plus a `rag.db` you build locally and ship. Helpe
    ```
 
    Public `/ask/api/ask` → backend `/api/ask`; public `/ask/widget.js` → backend `/ask/widget.js`. The chat
-   UI (`/`) and `/api/chat` stay private (not proxied).
+   The chat UI and `/api/chat` are not merely unproxied — `deploy.sh` no longer ships them, so they are absent from the host.
 
 Reindex after content updates with `node scripts/ingest-daw-til.mjs` (locally, then re-ship `rag.db`).
 
 _Remaining: wire the widget into the daw_til Docusaurus site (load site-wide + replace the legacy Markprompt
 block on the AI page)._
+
+## Plugins
+
+`.claude-plugin/marketplace.json` makes this repo a plugin marketplace, which is how work developed here becomes reusable in other projects. Unlike an MCP server, a plugin's skills cost **nothing** until invoked — the lesson from the token measurement above.
+
+```bash
+/plugin marketplace add /Users/david/Sites/ralph   # local path, for iterating
+/plugin marketplace add windhamdavid/ralph         # from GitHub
+/plugin install diagram@ralph
+```
+
+### diagram — Excalidraw system maps
+
+`plugins/diagram/` generates editable `.excalidraw` files for explaining a system to people who don't have the code in their head.
+
+```bash
+python3 plugins/diagram/skills/excalidraw/scripts/build_excalidraw.py \
+  --spec plugins/diagram/examples/ralph-layout.spec.json \
+  --out ralph-layout.excalidraw
+```
+
+Open the result at [excalidraw.com](https://excalidraw.com) or in VS Code via the `pomdtr.excalidraw-editor` extension. `plugins/diagram/examples/` holds a worked example — this repo drawn as its three reuse channels.
+
+**Iterating on a spec:** `--watch` rebuilds on every save, and the VS Code editor picks the file back up on its own as long as the canvas has no unsaved edits of its own.
+
+```bash
+build_excalidraw.py --spec ralph-model.seed.json --out ralph-model.excalidraw --watch
+```
+
+Polling `mtime` keeps it stdlib-only — no `fswatch`, no install step. Two details make it usable rather than merely working: a spec that is briefly unparseable (any editor mid-save) logs the error and **leaves the last good file in place** instead of exiting, and each build lands via a temp file plus atomic rename, so the editor can never read a half-written diagram and show a blank canvas.
+
+**Hand edits win over the spec.** The builder records a SHA-256 of every file it writes (`.<name>.buildstamp`, gitignored) and refuses to overwrite a drawing that no longer matches — so dragging boxes in Excalidraw, then leaving a `--watch` running, can't silently destroy the layout. `--force` overrides.
+
+The refusal is not conservatism: the round trip is genuinely lossy. Box geometry back-ports into a spec cleanly (`x`/`y`/`width`/`height` overrides land within 0.005px), but **arrow paths cannot** — Excalidraw recomputes them when you move a shape, the builder recomputes them from node centers, and the two disagree by up to ~167px. Once a diagram has been arranged by hand, the `.excalidraw` is the source of truth and the spec becomes a record of the model rather than of the layout.
+
+Style comes from a named theme rather than being restated per diagram; `slate` (white line art on a slate canvas, sans-serif, no fills) is the default the skill reaches for, and individual keys override it.
+
+**Why a script rather than the model emitting JSON.** Excalidraw elements carry ~25 fields each plus *two-way* references between shapes, their labels, and arrows. Miss one backlink and the file still opens — blank, or with every label silently dropped. The script owns the schema and refuses to write a file that fails validation, so a clean exit means it will render.
+
+```bash
+build_excalidraw.py --validate diagram.excalidraw
+```
+
+Checks label/container backlinks, arrow bindings, and z-order indices. That last one is subtle: Excalidraw sorts elements by comparing `index` as a **string**, so unpadded values put `a10` before `a2` and the layering scrambles once a diagram exceeds nine elements — the indices are zero-padded for that reason.
+
+Output is deterministic: element seeds derive from a hash of the node id, so regenerating an unchanged spec produces a byte-identical file and edits give clean diffs.
+
+**Sharing with a non-technical audience:** export to `.excalidraw.svg`. It stays a fully editable
+drawing while displaying as an ordinary image in most places — but not all, so check the one you
+care about. Gogs (`davidwindham.com/code`) serves raw `.svg` as `text/plain` with
+`X-Content-Type-Options: nosniff`, because an SVG is XML text and its raw handler branches on
+content; the header then forbids the browser from sniffing past it, and `<img>` renders nothing.
+A `.png` from the same handler comes back as `image/png` and displays. Hence `ralph-model.png`
+beside the `.svg` here: the SVG remains the editable source, the PNG is what the README embeds.
+Re-export both when the drawing changes —
+
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
+      --force-device-scale-factor=2 --window-size=1712,1104 \
+      --screenshot=ralph-model.png file://$PWD/ralph-model.excalidraw.svg
+
+**Not needed:** an Excalidraw Plus account or API key. This writes files locally and makes no network calls. The [Excalidraw+ MCP](https://plus.excalidraw.com/docs/mcp) is a separate, complementary thing — it syncs diagrams to a hosted Plus workspace for shareable links. If you add it, register it at **user scope**, never in this repo's `.mcp.json`: that file is committed and pushed to two remotes, one of them public.
+
+## Codebase graph
+
+[codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) is a third-party MCP server that indexes a repository into a persistent code graph, so an agent can query structure instead of reading files. It isn't vendored here — it's a C static binary distributed via GitHub Releases, and nothing in `mcp-server/` links against it. This repo owns only the **pinned installer**.
+
+### Installing
+
+```bash
+./installers/install-codebase-memory.sh              # -> ~/.local/bin
+./installers/install-codebase-memory.sh --dir=/path  # somewhere else
+./installers/install-codebase-memory.sh --ui         # variant with the 3D graph UI
+```
+
+The script pins an exact release, downloads the archive for your platform, verifies its SHA-256 against `checksums.txt`, verifies its Sigstore provenance with `gh attestation verify`, ad-hoc-signs it on macOS (the binary ships unsigned, so Gatekeeper otherwise kills it), smoke-tests `--version`, and prints the registration command.
+
+**It changes no configuration.** That's the reason it exists rather than upstream's `curl | bash`: upstream's `install` subcommand rewrites MCP client config across ~43 "client surfaces", which includes `~/.claude.json` — where the user-scope `ralph-fs` registration lives. Upstream also always fetches *latest*; at pre-1.0 RC that's an unannounced binary swap under every project at once. Here, updating means bumping `VERSION` at the top of the script, in git, where it's reviewable.
+
+A checksum only proves the archive matches a file served by the same host that served the checksum, so a failed *attestation* is treated as fatal while a missing `gh` is not — an actively bad signal differs from an unchecked one.
+
+### Why the binary lives outside this repo
+
+A user-scope MCP registration is a single absolute path consulted from every project. Pointing it inside `Sites/ralph` would break the server in *every* project the moment this repo is moved, renamed, or re-cloned — so the artifact goes to `~/.local/bin` and only the installer is version-controlled.
+
+```
+installers/install-codebase-memory.sh   ← committed; pins the version
+~/.local/bin/codebase-memory-mcp   ← the artifact it produces
+~/.cache/codebase-memory-mcp/      ← all project graphs (CBM_CACHE_DIR)
+```
+
+Leave `CBM_CACHE_DIR` at its default for the same reason.
+
+### Using it across projects
+
+Unlike `ralph-fs`, this server isn't scoped to a working directory — one instance manages many repos, each indexed by absolute path and queried by name. So it needs one registration, not one per project:
+
+```bash
+claude mcp add --scope user codebase-memory -- ~/.local/bin/codebase-memory-mcp
+```
+
+```
+index_repository(repo_path="/Users/david/Sites/daw_til")   # once per repo
+list_projects()                                            # what's indexed
+<query tools>(project="Users-david-Sites-daw_til")         # from any project
+```
+
+Project names are derived from the absolute path (`/Users/david/Sites/daw_til` → `Users-david-Sites-daw_til`), not the bare directory name — use `list_projects` to get the exact string.
+
+Both repos then live in one store and are queryable from any session, regardless of cwd:
+
+```json
+{"projects":[
+  {"name":"Users-david-Sites-ralph",   "root_path":"/Users/david/Sites/ralph",   "nodes":469,  "edges":867},
+  {"name":"Users-david-Sites-daw_til", "root_path":"/Users/david/Sites/daw_til", "nodes":3474, "edges":3675}
+]}
+```
+
+Indexing is fast (~5s for ralph, ~8s for daw_til, daemon startup included) and applies `.gitignore` plus its own skip-lists without configuration — daw_til's `node_modules`, `.docusaurus`, `build`, and `static` were all excluded automatically.
+
+### Testing it without registering anything
+
+The binary is a CLI as well as an MCP server, so it can be exercised end to end before it's wired into any client. Point `CBM_CACHE_DIR` somewhere disposable and nothing outside that directory is touched:
+
+```bash
+export CBM_CACHE_DIR=/tmp/cbm-test
+codebase-memory-mcp cli index_repository '{"repo_path":"/Users/david/Sites/ralph"}'
+codebase-memory-mcp cli --json search_graph --project Users-david-Sites-ralph --query "safePath" --limit 5
+codebase-memory-mcp cli --json query_graph --project Users-david-Sites-ralph \
+  --query "MATCH (a)-[r]->(b) WHERE b.name = 'safePath' RETURN a.name, type(r), a.file_path"
+```
+
+Note `--json` goes *before* the tool name; after it, it's parsed as a tool flag. Bare `cli <tool>` prints human-readable text instead.
+
+### 3D graph visualization
+
+Requires the `--ui` variant — the standard binary doesn't embed the frontend. Two things are counterintuitive:
+
+```bash
+codebase-memory-mcp --ui=true --port=9749   # persists config, then EXITS — serves nothing
+codebase-memory-mcp daemon start            # the daemon owns the UI
+open http://localhost:9749
+```
+
+The first command looks like it should start a server and doesn't; the **daemon** is what serves the UI, so `daemon start` is the step that actually brings it up. And the daemon starts **permanent** — it survives session end and idle, so retire it deliberately:
+
+```bash
+codebase-memory-mcp daemon stop
+```
+
+`daemon start` may warn `the daemon did not accept the UI configuration` and then serve the UI correctly anyway — observed on `v0.9.1-rc.1`. Check `daemon status`, which reports the bound URL, before chasing it.
+
+### What it's good for, and what it isn't
+
+Indexing both repos makes the split obvious:
+
+| | ralph | daw_til |
+|---|---|---|
+| Nodes / edges | 469 / 867 | 3474 / 3675 |
+| Dominant node type | Function, Method | `Section` (2541 markdown headings) |
+| `search_graph` results | accurate | **0 for every query** |
+
+`search_graph`'s BM25 index covers code symbols and filters non-code labels as noise, so on a docs repo it returns nothing even though the nodes exist — they're reachable only via `query_graph` Cypher. This is a **code** tool. For daw_til's prose the RAG index above is the right instrument and already works; the graph earns its keep on repos like `mcp-server/`, where it answers questions grep can't:
+
+```
+MATCH (a)-[r]->(b) WHERE b.name = 'safePath' RETURN a.name, type(r), a.file_path
+→ 10 CALLS edges, one per tool handler  (verified against grep: exactly 10)
+```
+
+The daw_til nodes are indexed, just not searchable — worth knowing so an empty `search_graph` isn't mistaken for a failed index:
+
+```
+search_graph --query "ubuntu"                            → total: 0
+query_graph  "MATCH (n:Section) RETURN n.name, n.file_path LIMIT 3"
+  Tweets          lists/tweets_follow.md
+  "Future Build"  notes/house/build.md
+  Concepts        notes/house/build.md
+```
+
+Because graphs are keyed by project inside the shared cache, daw_til's graph is queryable from a Ralph session and vice versa.
+
+**Tradeoff:** a user-scope registration loads all 15 of its tools into every session in every project, used or not. If that's noise, register it per-project instead — the binary path and shared cache are unchanged, only the scope moves.
+
+Measured on this repo: its MCP tool schemas are ~24KB (**~6,500 tokens**) loaded into every session whether or not a tool is called, while Ralph's entire TypeScript source is ~20,500 tokens. On a codebase this size the graph can't pay for itself — it earns its keep on large, unfamiliar repos where it saves you from opening files you didn't need.
+
+## Architecture
+
+_Written 2026-09-01. This describes the intended shape and audits how far the repo
+currently is from it. Where the two differ, the gap is named rather than smoothed over._
+
+### The problem this shape solves
+
+Ralph's capabilities are reached almost entirely through Claude Code today. That is a
+good primary — it is the best of the available clients — but it makes a third-party
+provider a single point of failure for operating things that are otherwise entirely
+local: a SQLite index on this machine, a Node server on loopback, an rsync to a box
+over SSH.
+
+The failure being designed against is not really "the API is down." It is that
+**operational knowledge accumulates in conversations rather than in runnable form**, so
+an outage turns routine work into archaeology. A local model does not fix that on its
+own — a weaker model reading undocumented scripts under time pressure is worse than
+doing it by hand.
+
+So the goal is inverted: make the fallback not need to be good.
+
+### Three layers
+
+| Layer | What it is | Depends on | Interface |
+|---|---|---|---|
+| 1. Clients | Claude Code (primary), a local agent (fallback) | a model, possibly a provider | conversation |
+| 2. `ralph-fs` MCP | the 12 tools + the path boundary | Node, the repo | tool calls |
+| 3. CLIs | `npm` scripts, `tools/`, `scripts/`, `deploy/deploy.sh` | a shell | typed commands |
+
+Each layer is independently usable, and they degrade in that order. Layer 1 is
+swappable by design — no client is the architecture. Layer 3 is the floor, and the
+floor has no model in it at all.
+
+#### The invariant
+
+**Every MCP tool is a thin wrapper over something that can also be run by hand.**
+
+This is the whole design in one line. It is what makes "the fallback doesn't have to be
+good" concrete rather than aspirational, and it means the runbook is not a separate
+document that drifts — the runbook is Layer 3, written down.
+
+A tool that is the *only* way to perform an operation breaks the floor, and should be
+treated as a defect rather than a convenience.
+
+### Audit: where the invariant holds
+
+| MCP tool | Shell equivalent | Holds |
+|---|---|---|
+| `read_file`, `write_file`, `list_directory`, `create_directory`, `delete_file`, `file_info`, `search_files` | `cat`, heredoc, `ls`, `mkdir`, `rm`, `stat`, `rg` | yes — Unix already is the floor |
+| `rag_ingest_directory` | `scripts/ingest-dir.mjs` | yes |
+| `rag_list_documents` | `sqlite3 .rag/rag.db` over `rag_documents` | yes — a plain table, no `vec0` needed |
+| `rag_ingest_file` | none; `ingest-dir.mjs` takes a directory | partial |
+| `rag_delete_document` | `sqlite3` can reach `rag_documents`, but the paired `rag_embeddings` rows need the `vec0` module the CLI does not load | no |
+| `rag_search` | `scripts/rag-query.mjs` (`npm run rag:query`) | yes |
+
+The filesystem half is sound because Unix supplied the floor before we did. The RAG
+half is where the shape was unfinished, and `rag_search` was the load-bearing one: the
+index *is* the accumulated knowledge, and it could only be queried through an MCP client
+or the `:3002` web UI, both of which want a model. During a provider outage with nothing
+pulled locally, the notes were unreachable from a terminal.
+
+Closed 2026-09-02 by `scripts/rag-query.mjs`. Retrieval needs no generation model —
+embeddings are in-process via Transformers.js and `retrieveHybrid()` in
+`src/rag/retrieve.ts` is already a plain function — so the script is a thin argument
+parser and a printer over the same call the tool makes, with grep's exit-status
+convention so it composes with `xargs` and `||`.
+
+**Remaining, in order:** a delete path that owns both tables, then `ingest-file` parity.
+
+#### A floor that does not run is not a floor
+
+Writing `rag-query.mjs` surfaced this: `better-sqlite3` had been compiled against Node
+v22 (`NODE_MODULE_VERSION 127`) while the default `node` here is v24 (`137`), so anything
+opening the index aborted before it started. Fixed 2026-09-02 with `npm rebuild
+better-sqlite3`.
+
+It was never only a Layer 3 problem. `.mcp.json` invokes the server as bare `node`, so
+**all six RAG tools were failing too** — confirmed by calling `rag_search` and getting the
+module-version message instead of results. The filesystem tools were unaffected; they
+never load the native module.
+
+Which is this document's own subject in miniature, and it cuts against the story the
+layers tell: the fallback was fine — hand a script a different interpreter and it runs —
+while the *primary* was down, silently, because a native module was pinned to a runtime
+nobody declared. Layer 3 degraded better than Layer 2 did.
+
+Nobody noticed because nothing exercises either path on an ordinary day, which is the
+argument already made under *Where the supervisor attaches*. The rebuild is also not a
+durable fix: it binds the module to whatever `node` happened to be active, and the next
+`nvm` default change breaks it again. Pinning the runtime — an `.nvmrc` plus an absolute
+interpreter path in `.mcp.json` — is the fix that survives, and is still open.
+
+### Layer 2 is the control plane
+
+The MCP server is not a convenience wrapper; it is where restrictions are enforced, and
+that placement is deliberate. Any agent client ships its own bash/file/grep tools, and
+those answer to the client's permission model — code that lives elsewhere, versioned by
+someone else, changeable in a release you did not read.
+
+`src/utils/path-safety.ts` resolves every path and throws `McpError` unless it falls
+inside `ALLOWED_DIRS` (default: `ralph`, `daw_til`, `srh`; overridable per registration
+via `RALPH_ALLOWED_DIRS`). `ROOT_DIR` is kept deliberately separate so widening the
+allowlist cannot silently move what relative paths resolve against.
+
+Two consequences worth stating:
+
+- A supervisor's capability should come from these tools with the client's native tools
+  **restricted**, not merely unused. Otherwise the boundary is nominal.
+- `ALLOWED_DIRS` holding only local paths already satisfies the standing rule that
+  nothing autonomous touches `woozie`, `kosmo`, or `squid`. Deployment stays a typed
+  command at Layer 3, run by a person.
+
+Anything a supervisor needs that the tools cannot express is an argument for a new tool
+here — never for loosening the client.
+
+### Where the supervisor attaches
+
+It is a reviewer, not a chat surface; there is already a good chat surface. So it is
+*invoked* — on a diff, on a commit, or on a schedule — rather than opened.
+
+That choice also solves rot. A backup exercised only during an outage is an assumption,
+not a backup: the day it matters is the day you discover the model was never pulled,
+`num_ctx` was never verified, and the tool boundary was never tested. Wiring the
+supervisor as a hook or a scheduled review means it earns its keep on ordinary days
+with a second opinion, and the same path is the one you fall back to.
+
+**Decided 2026-09-02: Cline drives it, running Qwen 3.6 35B-A3B on Ollama.** OpenClaude
+was evaluated first and parked on licensing grounds (a fork of proprietary Claude Code
+source); Cline is open source with no such question over it, is the more established of
+the extensions surveyed in the README, and — the part that actually decides it — takes
+stdio MCP servers with per-server `env`, which is the shape `.mcp.json` already uses to
+hand `ralph-fs` its `RALPH_ALLOWED_DIRS`. The point of Layer 2 is that this stays cheap
+to revisit if it disappoints.
+
+What the choice forces:
+
+- **`Q4_K_M`** (18.9GB) is the quant, per the sizing in the README — a coding assistant
+  runs alongside an Electron host, so the larger quants are not on the table.
+- **Budget `num_ctx` deliberately** (32–64K, not the model's 256K). Cline's Ollama docs
+  name no minimum, so the number is ours to set and it is a memory knob.
+- **Turn on "Use Compact Prompt"** (Settings → Features). Cline documents it for exactly
+  this case; its default system prompt is large enough to eat a local context budget.
+- **Ollama models onto Blue25 first.** Unchanged as the first step — an 18.9GB pull is
+  the reason that item was first in the README's order.
+
+**The unresolved part is the boundary, and it is the important one.** Cline's built-in
+tools (`read_file`, `write_to_file`, `execute_command`, `search_files`, `list_files`)
+have no documented way to be disabled; `autoApprove` governs *approval prompts*, not
+availability. So the design's "capability comes from the 12 MCP tools with the client's
+native tools restricted, not merely unused" cannot be enforced as written.
+
+The workable version is to enforce it on *unattended* capability rather than on
+availability: auto-approve the `ralph-fs` tools and leave every native tool requiring a
+click. Anything the supervisor does on its own then goes through the path boundary in
+`path-safety.ts`; anything outside it stops and asks a person. That is weaker than
+revoking the tools and should be written down as such rather than described as a
+sandbox. The hard guarantee — that nothing autonomous reaches `woozie`, `kosmo`, or
+`squid` — does not rest on this, since `ALLOWED_DIRS` holds only local paths and deploys
+stay a typed Layer 3 command.
+
+Cline's CLI is real — `cline` 3.0.61, with `cline mcp add`, `-P/--provider`, and
+`cline auth`. **It does not work with a local model, though the failure is subtler than
+a refusal.** Tested 2026-09-02:
+
+- Provider config writes fine with no account: `actModeApiProvider = "ollama"`,
+  `actModeOllamaModelId`, `ollamaBaseUrl`. (`cline auth ollama -b <url>` errors —
+  "base URL is only supported for OpenAI and OpenAI-compatible providers" — but writes
+  the settings anyway. `--apikey` is demanded for a provider that takes no key.)
+- **The local model answers.** Ollama logged the CLI's request:
+  `200 | 43.79s | POST "/api/chat"`.
+- The CLI then discards it: `Unauthorized: Please make sure you're using the latest
+  version of Cline and re-authenticate your Cline account.` The saved session holds the
+  prompt and no reply.
+
+So inference is not the gate; something in the session layer is account-gated and throws
+away a completed local turn — 44 seconds of local compute spent to reach an auth error.
+Two `hook dispatch failed: session.hook requires a valid hook event payload` errors fire
+first, so the `Unauthorized` may be downstream of those rather than a hard requirement;
+separating them needs a signed-in comparison that has not been run. `cline config` and
+the auth wizard also refuse to run without a TTY, so this was not tested by the path a
+person would actually use.
+
+**This retracts the terminal-first argument for Cline.** The client was picked partly
+because a CLI suits the habit better than a VS Code panel; if that CLI needs a Cline
+account, the argument does not survive, and the surface is the extension — which does
+work, sharing `~/.cline/data/globalState.json` with the CLI. A local fallback whose
+terminal surface phones home is close to the opposite of the point, per the continuity
+argument this document opens with.
+
+One default to watch on whichever surface: `--auto-approve` is documented as "tool
+auto-approval for all tools (default: **true**)", and a bare `cline "prompt"` starts in
+act mode with it on — the opposite of what the paragraph above wants.
+
+#### The boundary gap may not be Cline's to fix — VS Code agent mode
+
+Noticed 2026-09-02, after the decision, and it bears directly on the gap rather than on
+the choice of model. VS Code's own agent mode (shipping in 1.136, no extension to
+install) now takes local models, and on the two points that decide this it is stronger
+than Cline:
+
+- **No account, no subscription.** "BYOK models work without signing into a GitHub
+  account and without a Copilot plan." A fallback that needs a third-party login before
+  it starts is not a fallback, so this was the objection to check first; it does not
+  hold.
+- **Tools can be *deselected*, not merely left unapproved.** "Select or deselect tools
+  to control which ones are available for the current request" — applying to built-in,
+  MCP, and extension tools alike, with profile-wide tool sets and per-agent tool lists
+  in prompt files. That is the thing Cline has no documented way to do, and it is
+  precisely the sentence this document could not enforce: *capability comes from the 12
+  MCP tools with the client's native tools restricted, not merely unused.*
+
+`ollama show` confirms the model qualifies for agent mode, which requires tool calling:
+capabilities are `completion, vision, tools, thinking`.
+
+Two caveats. VS Code's built-in Ollama provider is **deprecated** in favour of the
+official Ollama extension, so the obvious path is the one being retired. And local
+models there lose semantic search, inline completions, and anything embedding-backed —
+irrelevant for a reviewer that reads diffs, relevant if it were meant to replace
+day-to-day assistance.
+
+**Not acted on, but the balance has shifted.** Cline's VS Code extension is configured
+and working end to end, and the comparison that matters — how the model behaves under
+each harness on a real review — cannot be read out of documentation. But Cline now loses
+on both axes it was chosen for: its CLI is account-gated, so it is no more terminal-first
+than VS Code is, and its built-in tools cannot be deselected, so it cannot express the
+boundary this document specifies. VS Code agent mode gives up neither. Test both on a
+real review; do not assume the 2026-09-02 decision survives it.
+
+### Degradation
+
+| Condition | What still works |
+|---|---|
+| Anthropic down, local model ready | Layers 2 and 3; supervisor reviews, `/api/chat` answers from the index |
+| Anthropic down, no local model | Layer 3 only — every routine operation, typed by hand, plus `rag-query` once it exists |
+| Ollama down | Layers 1 and 3; the public widget is unaffected, it never used Ollama |
+| This machine down | `davo-bot` on `woozie` keeps serving `/api/ask`; vectors are baked into `rag.db` at ingest |
+
+The last row is not an accident — it is why the embedder runs in-process and the hosted
+server needs no Ollama.
+
+### Deliberately not in this shape
+
+- **A second chat UI.** `:3002` already answers from the index. The supervisor is a
+  different interaction, not another window.
+- **Model-driven deployment.** Deploys stay a typed command. See the standing rule on
+  production hosts.
+- **A universal abstraction over clients.** MCP already is one. Wrapping it again buys
+  nothing and adds a layer that can itself break.
+
+### Open questions
+
+1. ~~Which local model, and which client drives it.~~ **Decided 2026-09-02** — Cline
+   driving Qwen 3.6 35B-A3B; see *Where the supervisor attaches*. The model half is
+   settled and is the half that cost the most to establish. The client half is **open
+   again**: Cline's CLI turned out to be account-gated, which retracts the terminal-first
+   half of the case for it, and its built-in tools cannot be deselected, which is the one
+   requirement this document states. VS Code agent mode meets both. Test them on a real
+   review before treating the client as decided.
+2. Whether the supervisor runs as a Claude Code hook, on a schedule, or both.
+3. Whether this repo goes private before the runbook lands — the topology (`woozie`,
+   `/var/www/apps/davo-bot`, the systemd unit, the ports) is already published, and a
+   runbook layered on that is a better map than either alone.
