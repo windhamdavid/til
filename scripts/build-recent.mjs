@@ -22,7 +22,7 @@ const graph = JSON.parse(readFileSync(join(ROOT, 'src/data/graph.json'), 'utf8')
 const routes = new Set(graph.nodes.map((n) => n.id));
 const routesLc = new Map(graph.nodes.map((n) => [n.id.toLowerCase(), n.id]));
 
-function normalizeUrl(url, base) {
+function normalizePath(url, base) {
   let u = url.split('#')[0].split('?')[0].replace(/\.mdx?$/i, '');
   if (!u.startsWith('/')) u = `${base}/${u}`;
   u = u.replace(/\/{2,}/g, '/');
@@ -36,6 +36,15 @@ function normalizeUrl(url, base) {
     if (routes.has(collapsed)) return collapsed;
   }
   return u; // best effort
+}
+
+// Keep any #fragment from the log line. The path is resolved without it (route
+// lookups and the folder-index collapse need a clean path), then it's re-attached,
+// so the homepage "Recently" links land on the same anchor the source log does.
+function normalizeUrl(url, base) {
+  const i = url.indexOf('#');
+  const hash = i === -1 ? '' : url.slice(i);
+  return normalizePath(url, base) + hash;
 }
 
 const LINK_RE = /\[([^\]]+)\]\(([^)\s]+)\)/;
