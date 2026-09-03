@@ -11,6 +11,15 @@ A sandbox repository for learning and experimenting with AI. I'm using it as my 
 
 ## Log
 
+- **26/09/03** - 🔍 the client decision reversed by measuring it, and a 13th tool.
+  - VS Code agent mode replaces Cline after one afternoon: **3 requests against Cline's 18**, a third of the
+    context, no proxy, thinking left on. The mechanism is the tool protocol — Cline parses XML back out of
+    prose, VS Code uses native function calling where the runtime enforces the schema.
+  - `git_diff` added — the first tool built *because* of the supervisor rather than inherited. A reviewer's
+    central question is "what changed?", and the alternative was enabling a terminal tool, which dissolves
+    the boundary the whole design draws.
+  - The boundary held: `path-safety.ts` rejected a path the model invented, under a client nothing was
+    configured to constrain. First time that claim was exercised outside Claude Code.
 - **26/09/02** - 🦙 local model stood up and the [architecture](#architecture) written down.
   - Qwen 3.6 35B-A3B on Ollama, weights on an external volume, driven by [Cline](#on-qwen-36-35b-a3b) in VS Code.
     Loads 100% GPU at 32k context on 36GB. Ollama had to go to 0.33.2 first — 0.17.0 couldn't read the
@@ -269,7 +278,23 @@ public. Current options: **Cline** (agentic, open source, takes an Ollama base U
 fork with per-mode model selection — useful for local-cheap / Claude-hard splits), or **Twinny** (light,
 local-first, completion-focused).
 
-**Chosen 2026-09-02: Cline**, running Qwen 3.6 35B-A3B. It's the more established agent of the three, open
+**Chosen 2026-09-03: VS Code agent mode**, running Qwen 3.6 35B-A3B — replacing Cline a day after picking
+it, on measurements rather than reading. Same model, same prompt, same afternoon: **3 requests against
+Cline's 18**, a peak prompt of **11,974 tokens against 32,767** (Cline hit the ceiling exactly), ~28 seconds
+against minutes of retries, thinking left **on** where Cline needed it forced off, and no proxy. The
+mechanism is the tool protocol — Cline describes tools as XML in the prompt and parses them back out of
+prose, so a small model has to follow ~15k tokens of instructions; VS Code uses native function calling,
+where the runtime enforces the schema. Handed the same tool with a required boolean, the model filled it in
+correctly first time.
+
+Deselecting VS Code's **built-in** tools was what made it work — with them enabled the model fabricated a
+path into VS Code's own workspace storage instead of calling `rag_search`; with only `ralph-fs` exposed (all
+12 tools, not a narrowed set) it chose correctly. `path-safety.ts` rejected that fabricated path, which is
+the [Layer 2 boundary](#architecture) holding under a client it was never configured for. Cline has
+been uninstalled. The superseded reasoning is kept below, because the argument that picked wrong is the
+useful part.
+
+**Superseded 2026-09-02: Cline**, running Qwen 3.6 35B-A3B. It's the more established agent of the three, open
 source with no licensing question (unlike OpenClaude, evaluated and parked), and it has a "Use Compact
 Prompt" mode for local inference — a setting that exists because its default system prompt is large enough
 to hurt when you're spending from a 32k budget. Decisively, it takes **stdio MCP servers with per-server
@@ -293,6 +318,68 @@ Cline — the VS Code extension works and is the surface, which is what VS Code 
 with no account and with tools that *can* be deselected. See
 [docs/architecture.md](#architecture); the decision stands for now but should not be assumed to
 survive a real side-by-side.
+
+##### Turn thinking off, or tool calling breaks
+
+The first real Cline session failed with *"Cline hit repeated tool call failures. Try guiding it with a new
+prompt"* — on the question *"what model are you using?"*, which needs no tool at all. Ollama's log exonerates
+the server completely: every request returned `200` with `truncated = 0`, at `n_tokens = 16505`. The model
+answered; Cline couldn't use the answer.
+
+Reproduced against Ollama directly with a minimal Cline-shaped prompt (a system message demanding exactly one
+XML tool call), holding everything else constant and toggling `think`:
+
+| `think` | thinking tokens | tool emitted |
+|---------|-----------------|--------------|
+| `true` | **10,752** | `<search_wikipedia>` — **invented; not in the allowed set** |
+| `false` | 0 | `<ask_followup_question>` — valid, and it answered the question |
+
+So with reasoning on it spent 10.7k tokens and hallucinated a tool that was never offered; Cline rejects the
+unknown tool, retries, gets another invention, and reports repeated failures. With reasoning off it picked a
+real tool on the first attempt.
+
+**Two settings fix it**, both in Cline: **Adaptive Thinking → None**, and **Settings → Features → Use Compact
+Prompt**. The second matters because the arithmetic is tight — a 16.5k system prompt plus 10.7k of thinking is
+27k of a 32k budget before anything useful is said. `ollama show` reports `thinking` among the model's
+capabilities and it is **on by default**; Ollama accepts `think:false` per request, and Cline has a `think`
+boolean it can send.
+
+**Read this as one observation, not a verdict.** It is a single prompt shape on a single day, and what it
+establishes is narrow: that a default made a working setup look broken, and that the visible error pointed
+somewhere other than the cause. It does *not* establish that the model is good at agentic work with thinking
+off — that needs real tasks. It is worth knowing that both logs said `200`, so nothing outside a deliberate
+A/B would have found this; the same class of problem as the `num_ctx` truncation above, and the reason both
+are written down rather than remembered.
+
+##### Running it: the settings that matter
+
+Four things, none of them obvious, all found by hitting them:
+
+- **Use a 64K model variant.** VS Code refuses to run agent mode below 64K (*"Ollama is using a 32K context
+  window"*). Ollama's server default is 32,768 and the extension exposes no context setting, so the fix
+  belongs to the model:
+
+      printf 'FROM qwen3.6:35b-a3b-q4_K_M\nPARAMETER num_ctx 65536\n' > Modelfile
+      ollama create qwen3.6:35b-a3b-64k -f Modelfile
+
+  This costs **no disk** — Ollama shares the weight layers between the two entries — and **no memory**: still
+  23GB, still 100% GPU, still 11% free, because `OLLAMA_KV_CACHE_TYPE=q8_0` keeps the cache small enough that
+  doubling the window is nearly free. Baking it into the model beats `OLLAMA_CONTEXT_LENGTH` on the service,
+  which `brew services` would wipe on its next restart — the same trap as `OLLAMA_MODELS`, [above](#models-on-blue25-yes-for-ollama-no-for-the-embedder).
+  Note the two entries differ *only* by that parameter and sort adjacently in the picker, so a 32K warning
+  usually means the wrong one is selected rather than a stale cache.
+
+- **Deselect VS Code's built-in tools.** Not optional — it is what makes the model work, not merely what the
+  [architecture](#architecture) wants. Leave all 13 `ralph-fs` tools enabled; narrowing further is
+  unnecessary.
+
+- **Consider dropping the six mutating tools too.** `write_file`, `create_directory`, `delete_file`,
+  `rag_ingest_file`, `rag_ingest_directory`, `rag_delete_document`. A reviewer reads and diffs; it does not
+  write, and `rag_delete_document` can quietly damage the index that *is* the accumulated knowledge.
+
+- **Servers start lazily.** An MCP server showing as stopped is normal, not broken — it starts on first tool
+  use. After a rebuild adds a tool, though, a warm process keeps serving the old list: `MCP: List Servers` →
+  *Restart*, and watch for the tool count (13, not 12).
 
 Also under consideration, both **editors rather than extensions** — they replace VS Code instead of plugging
 into it:
@@ -389,6 +476,7 @@ whether local models get used enough to warrant the box.
 | `file_info` | Get metadata (size, dates, permissions, type) for a file or directory |
 | `delete_file` | Delete a file or directory (non-empty directories require `recursive: true`) |
 | `search_files` | Search for files matching a glob pattern |
+| `git_diff` | Unified diff of a repo's changes — working tree, staged, or against a ref. Read-only. `stat: true` for the file list first. Refs are validated so one can't turn into a git option, and the resolved work-tree root is re-checked against the allowlist. |
 
 ### Path safety
 
@@ -405,7 +493,12 @@ The allowlist is **env-driven**, so the same build can serve different directory
 
 ### Configuration
 
-The server is registered in `.mcp.json` and enabled via `.claude/settings.local.json`:
+The server is registered in `.mcp.json` and enabled via `.claude/settings.local.json`. **One file serves both
+clients** — Claude Code reads it, and VS Code reads a workspace-root `.mcp.json` natively (not via
+`chat.mcp.discovery.enabled`, whose sources are Claude Desktop, Windsurf and Cursor — there is no Claude Code
+entry, so disabling discovery does nothing here). Registering `ralph-fs` a second time at VS Code's user
+scope produces **two servers with identical tools**, which is worth avoiding on its own and doubly so with a
+small model: 26 near-identical entries in the picker is how it starts fabricating paths.
 
 ```json
 // .mcp.json
@@ -413,7 +506,7 @@ The server is registered in `.mcp.json` and enabled via `.claude/settings.local.
   "mcpServers": {
     "ralph-fs": {
       "type": "stdio",
-      "command": "node",
+      "command": "/Users/david/.nvm/versions/node/v24.20.0/bin/node",
       "args": ["/Users/david/Sites/ralph/mcp-server/dist/index.js"],
       "env": {
         "RAG_DB_PATH": "/Users/david/Sites/ralph/.rag/rag.db",
@@ -424,6 +517,13 @@ The server is registered in `.mcp.json` and enabled via `.claude/settings.local.
   }
 }
 ```
+
+**`command` is an absolute interpreter path, deliberately.** Bare `node` resolves against whatever `nvm` has
+made default, and on 2026-09-02 that drifted ahead of the runtime `better-sqlite3` was compiled for — every
+RAG tool failed with `NODE_MODULE_VERSION 127 vs 137` while the filesystem tools kept working, because only
+the RAG half loads the native module. Nothing reported it; the tools simply errored. A GUI-launched VS Code
+compounds it by not inheriting a shell `PATH` at all. Pinning the path fixes both, at the cost of one line to
+update whenever the default moves *and* the module is rebuilt.
 
 Widening `RALPH_ALLOWED_DIRS` to all of `/Sites` is a real tradeoff: any session that can reach this server can then read and write across every site. Fine on a personal machine, but the allowlist stops being a meaningful boundary at that point.
 
@@ -1023,6 +1123,7 @@ treated as a defect rather than a convenience.
 | MCP tool | Shell equivalent | Holds |
 |---|---|---|
 | `read_file`, `write_file`, `list_directory`, `create_directory`, `delete_file`, `file_info`, `search_files` | `cat`, heredoc, `ls`, `mkdir`, `rm`, `stat`, `rg` | yes — Unix already is the floor |
+| `git_diff` | `git -C <repo> --no-pager diff --no-color …` | yes — the tool *is* the command |
 | `rag_ingest_directory` | `scripts/ingest-dir.mjs` | yes |
 | `rag_list_documents` | `sqlite3 .rag/rag.db` over `rag_documents` | yes — a plain table, no `vec0` needed |
 | `rag_ingest_file` | none; `ingest-dir.mjs` takes a directory | partial |
@@ -1043,6 +1144,29 @@ convention so it composes with `xargs` and `||`.
 
 **Remaining, in order:** a delete path that owns both tables, then `ingest-file` parity.
 
+#### `git_diff`, and why it is not a terminal tool
+
+Added 2026-09-03, the first tool added *because* of the supervisor rather than inherited
+from the filesystem server. A reviewer's central question is "what changed?", and nothing
+in the previous twelve tools could answer it — which makes the obvious fix enabling the
+client's terminal tool, and that dissolves the boundary this document exists to draw.
+
+So the capability comes from here instead, kept as narrow as the job allows: fixed
+argument vectors through `execFile` with no shell, read-only (it never stages, writes, or
+checks anything out), output truncated rather than unbounded, and two checks that are less
+obvious than they look —
+
+- **Refs are validated against `^[A-Za-z0-9][A-Za-z0-9._/@^~-]*$`.** A ref is a positional
+  argument, so one beginning with `-` is read as an option instead. `base:
+  "--output=/tmp/pwned"` is rejected rather than passed to git.
+- **The work-tree root is re-checked after resolution.** The supplied path passing
+  `safePath()` is not sufficient: it may be a subdirectory, and a checkout can point its
+  work tree somewhere else entirely, so `rev-parse --show-toplevel` is run first and its
+  answer is put back through `isPathAllowed()`.
+
+Both are cases where the boundary would have held for the path the caller named while
+leaking the tree git actually reads.
+
 #### A floor that does not run is not a floor
 
 Writing `rag-query.mjs` surfaced this: `better-sqlite3` had been compiled against Node
@@ -1061,10 +1185,19 @@ while the *primary* was down, silently, because a native module was pinned to a 
 nobody declared. Layer 3 degraded better than Layer 2 did.
 
 Nobody noticed because nothing exercises either path on an ordinary day, which is the
-argument already made under *Where the supervisor attaches*. The rebuild is also not a
+argument already made under *Where the supervisor attaches*. The rebuild was also not a
 durable fix: it binds the module to whatever `node` happened to be active, and the next
-`nvm` default change breaks it again. Pinning the runtime — an `.nvmrc` plus an absolute
-interpreter path in `.mcp.json` — is the fix that survives, and is still open.
+`nvm` default change would break it again.
+
+**Closed 2026-09-03:** `.mcp.json` now names an absolute interpreter
+(`/Users/david/.nvm/versions/node/v24.20.0/bin/node`) rather than bare `node`. That
+survives an `nvm` default change, and it is also required for VS Code, which when launched
+from the Dock inherits no shell `PATH` at all. One registration now serves both clients —
+VS Code reads a workspace-root `.mcp.json` natively — so the pin applies to both from one
+version-controlled file. What remains is the reverse direction: the path must be updated
+by hand if the default moves *and* `better-sqlite3` is rebuilt against it. An `.nvmrc`
+would document the intended version but cannot enforce it here, since neither client reads
+one.
 
 ### Layer 2 is the control plane
 
@@ -1100,7 +1233,49 @@ not a backup: the day it matters is the day you discover the model was never pul
 supervisor as a hook or a scheduled review means it earns its keep on ordinary days
 with a second opinion, and the same path is the one you fall back to.
 
-**Decided 2026-09-02: Cline drives it, running Qwen 3.6 35B-A3B on Ollama.** OpenClaude
+**Decided 2026-09-03: VS Code agent mode drives it, running Qwen 3.6 35B-A3B on Ollama.**
+Cline was chosen on 2026-09-02 and replaced a day later, on measurements rather than
+reading. The record of why is kept below rather than deleted, because the reasoning that
+picked wrong is the useful part.
+
+Same model, same prompt (*"use rag_search to find what my notes say about pgvector, and
+give me the source paths"*), same day:
+
+| | Cline | VS Code agent |
+|---|---|---|
+| requests for one task | **18** | **3** |
+| peak prompt | **32,767** — the context ceiling | **11,974** |
+| wall clock | minutes of retries | ~28s |
+| thinking | had to be forced off | left on, harmless |
+| proxy required | yes | no |
+| built-in tools restrictable | no | **yes — and it was necessary** |
+
+The mechanism is the tool protocol. Cline describes its tools as XML *in the prompt* and
+parses them back out of prose, so compliance depends on the model following ~15k tokens
+of instructions; it invented tool names with thinking on, and omitted required parameters
+with thinking off. VS Code uses **native function calling**, where the schema is enforced
+by the runtime — the same model, handed the same tool with a required boolean, filled it
+in correctly on the first attempt with thinking left on.
+
+Two findings worth keeping:
+
+- **Deselecting VS Code's built-in tools was what made it work.** With them enabled the
+  model fabricated a path into VS Code's own workspace storage instead of calling
+  `rag_search`; with only `ralph-fs` exposed — all 12 tools, not a narrowed set — it chose
+  correctly. So the tool restriction this document asks for on *security* grounds turned
+  out to be a *capability* fix as well. That is a happy accident, not a principle, but it
+  removes the tension between the two.
+- **The boundary held under an unfamiliar client.** `path-safety.ts` rejected that
+  fabricated path with an `McpError` — the workspace was inside `ALLOWED_DIRS` and the
+  model went outside it unprompted. Nothing was configured client-side to make that
+  happen, which is the whole claim of Layer 2 and had never been exercised outside Claude
+  Code until now. The model then suggested widening `ALLOWED_DIRS` to include VS Code's
+  storage; that is exactly the move this document rules out, and the rejection is the
+  feature.
+
+The superseded Cline reasoning follows.
+
+**Superseded 2026-09-02: Cline drives it, running Qwen 3.6 35B-A3B on Ollama.** OpenClaude
 was evaluated first and parked on licensing grounds (a fork of proprietary Claude Code
 source); Cline is open source with no such question over it, is the more established of
 the extensions surveyed in the README, and — the part that actually decides it — takes
@@ -1225,13 +1400,21 @@ server needs no Ollama.
 
 ### Open questions
 
-1. ~~Which local model, and which client drives it.~~ **Decided 2026-09-02** — Cline
-   driving Qwen 3.6 35B-A3B; see *Where the supervisor attaches*. The model half is
-   settled and is the half that cost the most to establish. The client half is **open
-   again**: Cline's CLI turned out to be account-gated, which retracts the terminal-first
-   half of the case for it, and its built-in tools cannot be deselected, which is the one
-   requirement this document states. VS Code agent mode meets both. Test them on a real
-   review before treating the client as decided.
+1. ~~Which local model, and which client drives it.~~ **Answered 2026-09-03** — VS Code
+   agent mode driving Qwen 3.6 35B-A3B, on measurements rather than documentation: 3
+   requests against Cline's 18, a third of the context, no workarounds, and built-in tools
+   that can actually be deselected. See *Where the supervisor attaches*. The model half is
+   the half that cost the most to establish, but "settled" overstates it — the first real
+   agentic session produced invented tool calls until thinking was turned off, and one
+   good A/B is not a track record. The client half is **open again**: Cline's CLI turned
+   out to be account-gated, which retracts the terminal-first half of the case for it, and
+   its built-in tools cannot be deselected, which is the one requirement this document
+   states. VS Code agent mode meets both.
+
+   What both halves need is the same thing and it is not more reading: real tasks, run
+   under each configuration, judged on whether the output is usable. Until then this
+   fallback is unexercised, which is precisely the failure mode argued against under
+   *Where the supervisor attaches* — a backup nobody runs on an ordinary day.
 2. Whether the supervisor runs as a Claude Code hook, on a schedule, or both.
 3. Whether this repo goes private before the runbook lands — the topology (`woozie`,
    `/var/www/apps/davo-bot`, the systemd unit, the ports) is already published, and a
