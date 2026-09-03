@@ -18,6 +18,10 @@ module.exports = {
       ],
     },
     {
+      type:'doc',
+      id: 'assistant/assistant',
+    },
+    {
       type: 'category',
       label: 'Computers',
       collapsible: true,
