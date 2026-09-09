@@ -2,7 +2,7 @@
 
 ## How to Build an AI Assistant
 
-Instructions for setting up a personal knowledge base that an AI assistant can actually use, written for non-technical people. It's the practical companion to [Second Brain Docs](/posts/second-brain-docs) — the essay makes the argument, this section is the steps. What you end up with is a folder of plain text files on your own computer that you can read and an assistant can read, with no subscription that owns your notes and no format that stops opening. None of it requires anything like [Ralph](/docs/ai/ralph.md), which is the version I run for my own work — that one is a server with an index, its own tools and a local model behind it, and it's documented separately for anyone who wants to go that far. Everything here is the same idea without the machinery.
+Instructions for setting up a personal knowledge base that an AI assistant can actually use, written for non-technical people. It's the practical companion to [Second Brain Docs](/posts/second-brain-docs) — the essay makes the argument, this section is the steps. What you end up with is a folder of plain text files on your own computer that you can read and an assistant can read, with no subscription that owns your notes and no format that stops opening. None of it requires anything like [Ralph](/docs/ai/ralph/ralph.md), which is the version I run for my own work — that one is a server with an index, its own tools and a local model behind it, and it's documented separately for anyone who wants to go that far. Everything here is the same idea without the machinery.
 
 _P.S. This is really written for my wife. Everyone else is welcome to it, but I'll be tailoring it as we learn how it's being used._
 

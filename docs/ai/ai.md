@@ -7,7 +7,7 @@ I'm still not calling it intellegence, but that's likely the John Henry in me. I
 - 26/08/06 - starting to have some decently informed opinions about workflow, models and structure
   - my daily drivers are Opus 5 and Qwen 2.5 local
 - 26/05/05 - added  added another essay @ [https://davidwindham.com/artificial-intelligence-part-5/](https://davidwindham.com/artificial-intelligence-part-5/) 
-- 26/02/24 - added [Ralph](/docs/ai/ralph.md) and published a writeup @ [Model Context Protocol](/posts/mcp) 
+- 26/02/24 - added [Ralph](/docs/ai/ralph/ralph.md) and published a writeup @ [Model Context Protocol](/posts/mcp) 
 - 25/06/14 - started using [Cursor](https://cursor.com) *stopped a couple months later - back to VSC
 - 23/05/09 - added an AI feature and documented @ [https://davidwindham.com/artificial-intelligence-part-3/](https://davidwindham.com/artificial-intelligence-part-3/)
 - 22/07/19 - first write up @ [https://davidwindham.com/artificial-intelligence/](https://davidwindham.com/artificial-intelligence/)
@@ -16,7 +16,7 @@ I'm still not calling it intellegence, but that's likely the John Henry in me. I
 
 ## Ralph
 
-RAG/MCP server for all projects - [Ralph](/docs/ai/ralph.md) 👈🏻. I'm trying to keep ralph on top of all other AI related projects and providers so 'he' can function as my local first workflow agent. 
+RAG/MCP server for all projects - [Ralph](/docs/ai/ralph/ralph.md) 👈🏻. I'm trying to keep ralph on top of all other AI related projects and providers so 'he' can function as my local first workflow agent. 
 
 ---
 

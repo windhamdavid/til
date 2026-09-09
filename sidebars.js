@@ -13,7 +13,21 @@ module.exports = {
         id:'ai/ai',
       },
       items: [
-        'ai/ralph',
+        {
+          type:'category',
+          label:'Ralph',
+          collapsible: true,
+          link: {
+            type:'doc',
+            id:'ai/ralph/ralph',
+          },
+          items: [
+            'ai/ralph/architecture',
+            'ai/ralph/models',
+            'ai/ralph/server',
+            'ai/ralph/plugins',
+          ],
+        },
         'ai/claude',
       ],
     },
