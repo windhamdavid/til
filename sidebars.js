@@ -88,7 +88,8 @@ module.exports = {
         'editors/jetbrains',
         'editors/sublime',
         'editors/textmate',
-        'editors/vs'
+        'editors/vs',
+        'editors/zed'
       ],
     },
     {

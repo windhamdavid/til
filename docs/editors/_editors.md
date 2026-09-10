@@ -12,4 +12,5 @@
 | [UNIX](unix) 
 | [Vi](vi) 
 | [VS](vs) 
-| [Zsh](zsh
+| [Zsh](zsh)
+| [Zed](zed)
