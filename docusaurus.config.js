@@ -2,6 +2,11 @@
 
 import {themes as prismThemes} from 'prism-react-renderer'
 
+// Broken links/images throw on `npm run build` so a typo can never ship, but only
+// warn under `npm start` — otherwise a half-typed link crashes the dev server
+// mid-edit instead of hot-reloading. Docusaurus sets NODE_ENV=production for build.
+const onBroken = process.env.NODE_ENV === 'production' ? 'throw' : 'warn'
+
 export default {
   title: 'David Windham',
   tagline: 'Because Today I Learned',
@@ -14,8 +19,8 @@ export default {
   markdown: {
     mermaid: true,
     hooks: {
-      onBrokenMarkdownLinks: 'throw',
-      onBrokenMarkdownImages: 'throw',
+      onBrokenMarkdownLinks: onBroken,
+      onBrokenMarkdownImages: onBroken,
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
