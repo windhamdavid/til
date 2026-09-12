@@ -8,6 +8,19 @@ tags:
 
 # Playlists
 
+## 26.8
+
+| Title | Artist | Album |
+| --- | --- | --- |
+| Melt | Stephan Moccio | Scenes from a Velvet Room: Track by Track with Stephan Moccio |
+| Phil’s First Tear | Kolonel Djafaar | Getaway |
+| Amami (feat. Minami Kizuki) | Yussef Dayes | Amami (feat. Minami Kizuki) |
+| Kan Ya Makan | Nesrine | Kan Ya Makan (Once Upon a Time) |
+| Rain Dance | Akusmi & Sarathy Korwar | Terra Incognita |
+| Kaleidoscopes | Béla Fleck, Edmar Castañeda & Antonio Sánchez | BEATrio |
+| Walk As One | Arun Ramamurthy Trio | New Moon |
+| Live From Soul In the Horn | Salaam Remi | Black On Purpose |
+
 ## 26.7
 
 links 🔗 👉🏻 [Apple](https://geo.music.apple.com/playlist/pl.u-WabZzpjummWBk?app=music&at=11lt62&ct=playlistlink&ls=1), [Spotify](https://open.spotify.com/playlist/7qhYrSkjztAxuaX2Ay9WyW), [Youtube](https://music.youtube.com/playlist?list=PLMezKWxgi9Ws)
@@ -102,3 +115,44 @@ links 🔗 👉🏻 [Apple](https://geo.music.apple.com/playlist/pl.u-WabZzpjumm
 | Shadows Lean Against My Song | Abdullah Ibrahim | The Song Is My Story |
 | Farewell Transmission | Kevin Morby & Waxahatchee | Farewell Transmission / The Dark Don't Hide It |
 | Dokuz Seki/Esmerim | Goran Kajfes Subtropic Arkestra | The Reason Why Vol. 2 |
+
+## 26.2
+
+| Title | Artist | Album |
+| --- | --- | --- |
+| My Funny Valentine | Herbie Hancock | The Piano |
+| Talking Drum (feat. John Medeski, Jorge Roeder & Kenny Wollesen) | Julian Lage | Scenes From Above (feat. John Medeski, Jorge Roeder & Kenny Wollesen) |
+| When I Win the Lottery | Camper Van Beethoven | Key Lime Pie |
+| After the Last Sky | Anouar Brahem, Anja Lechner, Django Bates & Dave Holland | After the Last Sky |
+| Once Upon a Time There Was an Ocean | Paul Simon | Surprise |
+| Roland the Headless Thompson Gunner | Warren Zevon | Excitable Boy |
+| Small Town | Bill Frisell & Thomas Morgan | Small Town |
+| Almost Grown | Chuck Berry | Berry Is On Top |
+| 100% Endurance | Yard Act | The Overload |
+| Shine On You Crazy Diamond (Pts. 6-9) | Pink Floyd | Wish You Were Here 50 |
+| A Time Mirror (Biophony) | Max Richter | In A Landscape |
+| It Don't Suit Me (Like Before) | John Moreland | Big Bad Luv |
+| Shuggie | Foxygen | We Are the 21st Century Ambassadors of Peace & Magic |
+| You and Your Friend | Dire Straits | On Every Street |
+| Not Guilty (2004 Remaster) | George Harrison | George Harrison |
+| This Is a Photograph | Kevin Morby | This Is a Photograph |
+| Working for the Man | Roy Orbison | The Monument Singles Collection |
+| When the Candle Burns Low | Ann Peebles | I Believe to My Soul |
+| The Ghost of Lady Day | Charles Lloyd | The Sky Will Still Be There Tomorrow |
+| Brothers and Sisters | Blur | Think Tank (Special Edition) |
+| You Must Believe In Spring (Remastered 2022) | Bill Evans | You Must Believe In Spring (Remastered 2022) |
+| When the World Was Young | Bob Dylan | Triplicate (Sampler) |
+| Like Someone In Love | John Coltrane | Lush Life (Remastered) |
+| My Funny Valentine (Live) | Jerry Garcia, Merl Saunders, John Kahn & Bill Vitt | Live At Keystone, Vol. 2 |
+| Zambita Pa' Don Felix | Capicua Trio | Zambita Pa' Don Felix |
+
+
+## 26.1
+
+| Title | Artist | Album |
+| --- | --- | --- |
+| Movement VI (feat. Bryan Senti) | Francesca Guccione | Movement VI (feat. Bryan Senti) |
+| Levania | Damian Marhulets | Magic, Madness, Sadness |
+| Drift | Alexandra Hamilton-Ayres | Lucid Distance |
+| The Wick That Slits the Shadow | Snorri Hallgrímsson | The Importance of Birds |
+

@@ -28,9 +28,13 @@ I like to create music playlist from new releases about every month or so. I sta
 / [Christmas](playlist#christmas)
 
 ### Dated
-[2022](playlist_2020)
+[2026](playlist_2026)
+/ [2025](playlist_2020)
+/ [2024](playlist_2020#2024)
+/ [2023](playlist_2020#2023)
+/ [2022](playlist_2020#2022)
 / [2021](playlist_2020#2021)
-/ [2020](playlist_2020#2206)
+/ [2020](playlist_2020#2020)
 / [2019](playlist_2015)
 / [2018](playlist_2015#2018)
 / [2017](playlist_2015#2017)

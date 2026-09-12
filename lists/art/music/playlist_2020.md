@@ -1,6 +1,6 @@
 ---
-title: 2020 Playlists
-description: 2020 Playlists
+title: 2025-2020 Playlists
+description: 2025-2020 Playlists
 tags:
   - Music
   - Albums
@@ -8,6 +8,209 @@ tags:
 ---
 
 # Playlists
+
+## 2025
+
+### 25/11
+Artist(s) | Track | Album 
+---|---|---
+Don Was | Nubian Lady | Groove In The Face Of Adversity
+Willie Nelson | If We Make It Through December | Workin' Man: Willie Sings Merle
+
+### 25/04
+Artist(s) | Track | Album 
+---|---|---
+Wolfgang Haffner | El Vito (with Studnitzky, Daniel Stelter, Christopher Dell, Lars Danielsson & Jan Lundgren) | Kind of Spain (with Jan Lundgren, Daniel Stelter, Studnitzky, Christopher Dell & Lars Danielsson)
+Jonathan Wilson | Loving You | Rare Birds
+Leszek Możdżer, Lars Danielsson & Zohar Fresco | Enjoy the Silence | Beamo
+Greg Garrison, Grant Gordy, Alex Hargreaves & Joe K. Walsh | Mahjong | Bluegrass and the Abstract Truth
+Lee "Scratch" Perry | Panic In Babylon | Panic In Babylon
+Anouar Brahem | The Astounding Eyes of Rita | The Astounding Eyes of Rita
+Joe Henry | One Too Many Mornings | I'm Not There (Original Soundtrack)
+Jess Gillam & Jess Gillam Ensemble | 24 Preludes for Violin & Piano, Op. 46: No. 15, Adagio sognando (Arr. Vennart for Saxophone & Ensemble) | PRISM, Vol. 1
+Quiet Hollers | Medicine | Amen Breaks
+Gilad Hekselman | Downhill From Here (feat. Larry Grenadier & Marcus Gilmore) | Downhill From Here (feat. Larry Grenadier & Marcus Gilmore)
+Maxwell Quartet | String Quartet in F Major, Op. 74 No. 2: II. Andante grazioso | Haydn: String Quartets Op. 74 - Folk Music from Scotland
+Jerry Garcia, Merl Saunders, John Kahn & Bill Vitt | My Funny Valentine (Live) | Live At Keystone, Vol. 2
+Matteo Myderwyk | Nostalgia | A brief nostalgia
+Fantastic Negrito | Push Back | The Last Days of Oakland
+Kenny Barron | Beyond This Place (feat. Kiyoshi Kitagawa, Johnathan Blake, Immanuel Wilkins & Steve Nelson) | Beyond This Place
+Bill Frisell & Thomas Morgan | Small Town | Small Town
+Ruisi Quartet | String Quartet in G Minor, Op. 20 No. 3, Hob. III:33: III. Poco adagio | Növények
+
+## 2024
+
+### 24/12
+Artist(s) | Track | Album 
+---|---|---
+Baby Rose | Landslide | Landslide
+St. Vincent | Salvaje | Todos Nacen Gritando
+Father John Misty | Josh Tillman and the Accidental Dose | Mahashmashana
+Franz Ferdinand | Night Or Day | The Human Fear
+Fat Freddy's Drop | Slo Mo | Slo Mo
+LCD Soundsystem | x-ray eyes | x-ray eyes
+Yard Act | 100% Endurance | The Overload
+
+### 24/06
+Artist(s) | Track | Album 
+---|---|---
+Dr. Dog | Still Can’t Believe | Dr. Dog
+Ray Charles | Abraham, Martin and John | A Message From the People
+of Montreal | Soporific Cell | Lady on the Cusp
+Ray Charles | America the Beautiful | A Message From the People
+Futurebirds | Bloom | Easy Company
+Nathaniel Rateliff & The Night Sweats | David and Goliath | South of Here
+Heavy MakeUp, Edie Brickell, C.J. Camerieri & Trever Hagen | Here It Comes | Here It Comes
+Vanessa da Mata & Ben Harper | Boa Sorte (Good Luck) | Hôtel Costes 11
+Matt Duncan | The Keys | Soft Times
+
+### 24/03
+Artist(s) | Track | Album 
+---|---|---
+Iron & Wine & Fiona Apple | All in Good Time | Light Verse
+Rufus Wainwright | Perfect Day | Perfect Day
+Khruangbin | Pon Pón | A LA SALA
+Beyoncé | AMERIICAN REQUIEM | COWBOY CARTER
+Paul Simon | Seven Psalms: The Lord / Love Is Like a Braid / My Professional Opinion / Your Forgiveness / Trail of Volcanoes / The Sacred Harp / Wait | Seven Psalms
+Mark Knopfler | Two Pairs Of Hands | One Deep River (Deluxe)
+
+### 24/01
+Artist(s) | Track | Album 
+---|---|---
+Bahamas | I Must Be In A Good Place Now | I Must Be In A Good Place Now
+Khruangbin | A Love International | A LA SALA
+Dire Straits | Wild West End (Live at the Rainbow, London, UK, 12/1979) | Live 1978–1992 (2023 Remasters)
+Cosmo Pyke | Outlaw | Outlaw
+Wilco | Space Oddity (Live) | Live on Mountain Stage: Outlaws and Outliers
+Sam Gendel & Fabiano do Nascimento | Poeira | The Room
+Bahamas | Please Forgive My Heart | Repackaged Love Songs
+David Murphy | Citi na gCumann | Citi na gCumann
+Steve Roach & Robert Rich | Spirals of Desire | Waves of Now
+Warpaint | Common Blue | Common Blue
+Brittany Howard | To Be Still | What Now
+
+## 2023
+
+### 23/11
+Artist(s) | Track | Album 
+---|---|---
+Killer Mike & André 3000 | SCIENTISTS & ENGINEERS (feat. Future & Eryn Allen Kane) | MICHAEL
+André 3000 | Ants To You, Gods To Who ? | New Blue Sun
+Paul Simon | Once Upon a Time There Was an Ocean | Surprise
+Brian Eno | Chamber Lightness 3 | Chamber Lightness
+The Kinks | New Victoria Suite - (A) Face in the Crowd [Live 1975] [2023 Mix] | The Journey, Pt. 2
+Yard Act | Dream Job | Where’s My Utopia?
+Bob Marley & The Wailers | Stir It Up (Jamaican Extra Organ Version) | Catch A Fire (50th Anniversary)
+The Rolling Stones | Mess It Up | Hackney Diamonds (Live Edition)
+Dave Stewart & Hannah Koppenburg | Bar Italia Blues | Cloud Walking
+Black Pumas | Tomorrow | Chronicles of a Diamond
+Bob Dylan | Tomorrow Is a Long Time (Live at Nippon Budokan Hall, Tokyo, Japan - February 28, 1978) | The Complete Budokan 1978 (Live)
+Yussef Dayes | Birds of Paradise | Black Classical Music
+Brainstory | Nobody But You | Sounds Good
+The Beatles | Now And Then | Now And Then
+Ali Sethi & Nicolas Jaar | Muddat | Muddat
+Cherry Glazerr | Bad Habit | I Don't Want You Anymore
+Wilco | Evicted | Cousin
+Pachyman | Sale el Sol | Switched-On
+Little Dragon & April + Vista | Layers | Slipping Into Color
+James Blake | Fire The Editor | Playing Robots Into Heaven
+
+### 23/10
+Artist(s) | Track | Album 
+---|---|---
+Cat Power | She Belongs to Me (Live at the Royal Albert Hall) | Cat Power Sings Dylan: The 1966 Royal Albert Hall Concert
+Neal Francis | Changes, Pts. 1 & 2 (Live) | Francis Comes Alive (Deluxe Edition)
+Norah Jones & Questlove | Why Am I Treated So Bad (feat. Christian McBride) [From "Norah Jones is Playing Along" Podcast] | Why Am I Treated So Bad (feat. Christian McBride) [From “Norah Jones is Playing Along” Podcast]
+Dengue Fever | Wake Me Up Slowly | Ting Mong
+Allah-Las | Dust | Zuma 85
+Khruangbin | August 10 (Live at The Fillmore Miami) | Live at the Fillmore Miami
+Stephen Marley | Cast The First Stone (feat. Damian "Jr. Gong" Marley) | Old Soul
+Skyway Man | The Holding On | Flight of the Long Distance Healer
+Roger Waters | Us and Them | The Dark Side of the Moon Redux
+The Rolling Stones & Lady Gaga | Sweet Sounds Of Heaven (Edit) | Sweet Sounds Of Heaven
+Dylan LeBlanc | Coyote | Coyote (Expanded Edition)
+
+### 23/09
+Artist(s) | Track | Album 
+---|---|---
+Roger Waters | Time | The Dark Side of the Moon Redux
+Mali Obomsawin & Magdalena Abrego | There There | There There
+Hiss Golden Messenger | I Saw the New Day in the World | Jump for Joy
+Brian Eno | Overground | Top Boy (Score from the Original Series)
+Frank Zappa | Fifty-Fifty (Basic Tracks, Take 7) | Over-Nite Sensation (50th Anniversary)
+Babe Rainbow | Juice of the Sun | Juice of the Sun
+Jon Batiste | Master Power | World Music Radio
+New Regency Orchestra | Mambo Rama (Lex Blondin Rework) | Mambo Rama
+Bill Evans Trio | Come Rain or Shine | Portrait in Jazz
+Cat Power | Ballad of a Thin Man (Live at the Royal Albert Hall) | Cat Power Sings Dylan: The 1966 Royal Albert Hall Concert
+Roger Waters | Breathe | The Dark Side of the Moon Redux
+Allison Russell | Springtime | The Returner
+Trond Kallevåg | Fargo (feat. Selma French, Daniela Reyes, Jo Berger Myhre, Håkon Aase & Ola Øverby) | Amerikabåten (feat. Selma French, Daniela Reyes, Jo Berger Myhre, Håkon Aase & Ola Øverby)
+Brian Eno | Lighthouse#411(2019) | Lighthouse#411(2019)
+Bill Evans & Jim Hall | Darn That Dream | Undercurrent
+
+### 23/04
+Artist(s) | Track | Album 
+---|---|---
+Rose City Band | Chasing Rainbows | Garden Party
+Geese | Cowboy Nudes | 3D Country
+Ben Von Wildenhaus | Mount Harissa | Mount Harissa
+Shakey Graves | Chupacadabra | Deadstock: A Shakey Graves Day Anthology
+Kurt Vile | Kurt Runner | (watch my moves)
+Steve Roach | Sit with Me | Rest of Life
+Angel Olsen | Nothing's Free | Forever Means
+Playing for Change | Queen Bee (feat. Taj Mahal, Ben Harper, Rosanne Cash & Paula Fuga) | Queen Bee (feat. Taj Mahal, Ben Harper, Rosanne Cash & Paula Fuga)
+Unknown Mortal Orchestra | Nadja | V
+Fruit Bats | It All Comes Back | A River Running to Your Heart
+Andrew Bird | Never Fall Apart: Epilogue | Never Fall Apart
+The Wood Brothers | Pilgrim | Heart is the Hero
+Spoon | I Can't Give Everything Away | I Can't Give Everything Away
+Kevin Morby | Like a Flower | Music From Montana Story
+St. Paul & The Broken Bones | Sea Star | Angels In Science Fiction
+Youth Lagoon | Idaho Alien | Heaven Is a Junkyard
+Brian Eno | A Thought (Instrumental) | FOREVERANDEVERNOMORE (FOREVER VOICELESS EDITION)
+Fontaines D.C. | ' Cello Song | ' Cello Song
+Mississippi John Hurt | Goodnight Irene | Last Sessions
+Little Richard | Goodnight Irene | Little Richard Is Back (And There's a Whole Lotta Shakin' Goin' On!)
+Charley Pride | All His Children (From the Universal / Newman-Foreman Picture "Sometimes A Great Notion") | The Essential Charley Pride
+
+### 23/02
+Artist(s) | Track | Album 
+---|---|---
+Sam Cooke | The Best Things In Life Are Free (Live at the Copacabana, NYC, July 1964) | Sam Cooke at the Copa (Recorded Live at the Copacabana, New York City, July 7 & 8, 1964)
+Gorillaz | Silent Running (feat. Adeleye Omotayo) | Cracker Island
+Yo La Tengo | Aselestine | This Stupid World
+Andy Shauf | Telephone | Norm
+Fruit Bats | Rushin' River Valley | A River Running to Your Heart
+The National | Tropic Morning News | First Two Pages of Frankenstein
+The Nude Party | Ride On | Rides On
+Frank Zappa | Outside Now (Live At Mudd Club, NYC, May 8, 1980) | Mudd Club/Munich '80 (Live)
+De La Soul | The Magic Number | The Magic Number
+Okonski | Dark Moon | Magnolia
+Scott McMicken and THE EVER-EXPANDING | What About Now | Shabang
+Brad Mehldau | I Am The Walrus | Your Mother Should Know: Brad Mehldau Plays The Beatles
+The Arcs | Sunshine | Electrophonic Chronic
+Julian Lage | The Layers | The Layers
+Bonny Light Horseman | Once on Another Day (feat. Anaïs Mitchell, Eric D. Johnson & Josh Kaufman) | Once on Another Day (feat. Anaïs Mitchell, Eric D. Johnson & Josh Kaufman)
+The Shins | Australia (Peter Bjorn and John Remix) | Australia (Peter Bjorn and John Remix)
+Steve Roach | Terrasoma | Church of the Heavenly Rest, New York City
+Toots & The Maytals | 54-46 Was My Number | In the Dark
+Bonnie Raitt | Just Like That | Just Like That...
+Brandi Carlile | Broken Horses | In These Silent Days
+Ali Farka Touré | Safari | Voyageur
+Willie Nelson | Tiger By The Tail | I Don't Know A Thing About Love (The Songs of Harlan Howard)
+Brian Eno, Jon Hopkins & Leo Abrahams | Surfacing | Small Craft
+The Arcs | A Man Will Do Wrong | Electrophonic Chronic
+Unknown Mortal Orchestra | Layla | V
+Carole King | Home Again (Live From Central Park, New York City, May 26, 1973) | Home Again - Live From Central Park, New York City, May 26, 1973
+Bob Dylan | Not Dark Yet (Version 1) | Fragments - Time Out of Mind Sessions (1996-1997): The Bootleg Series, Vol. 17
+Dave Matthews Band | Madman's Eyes | Walk Around The Moon
+Jonah Yano & BADBADNOTGOOD | The Ordinary Is Ordinary Because It Ordinarily Repeats | Portrait of a Dog
+Gina Birch | I Play My Bass Loud | I Play My Bass Loud
+Rickie Lee Jones | Just in Time | Pieces of Treasure
+Surprise Chef | Pash Rash | Friendship EP
+Jon Hopkins, Ram Dass & East Forest | Sit Around the Fire | Music for Psychedelic Therapy
+The Arcs | Behind The Eyes | Electrophonic Chronic
 
 ## 2022
 
