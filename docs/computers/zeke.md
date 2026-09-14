@@ -2,15 +2,162 @@
 
 Zeke was named after [https://davidwindham.com/zeke/](https://davidwindham.com/zeke/) because I like to [anthropomophize machines](https://davidwindham.com/anthropomorphizing-machines/).
 
+Since the 26.04 rebuild Zeke sits at the far end of the **Woozie → Cotton → Zeke** chain — a staging step
+for the migration rather than a second production box. That move is a while off yet; this rebuild was about
+having it set up and ready to roll when it happens, and I'll probably try a few other builds on it in the
+meantime. It's going to run **nginx** this time rather than Apache, so it is deliberately *not* a copy of
+[Woozie](/docs/computers/woozie)'s config — the point is to see what nginx does for performance before the
+real move. [Cotton](/docs/computers/cotton) stays the reference for practice; the web stack is where this
+box is allowed to diverge.
+
 ## Log
 
-## 🔥 Migration
-
+- **26.09.14** - Stack up 🌐 nginx + php-fpm + MariaDB + phpMyAdmin + Monit, mirroring Cotton but
+  **without Apache** — Cotton keeps it on a loopback port and nothing routes to it anyway, so
+  there was no reason to carry it over. Real Let's Encrypt cert this time rather than mkcert, and
+  one basic-auth gate at the server level since this box is actually on the internet. Remembered
+  to exempt the ACME challenge path from that gate, which is the sort of thing that would
+  otherwise fail at renewal two months from now with nobody watching. phpMyAdmin at `/pma/`,
+  Monit at `/monit/`.
+- **26.09.14** - Longview 📊 Lost more time than I'd like to admit to this. The install URL from
+  the dashboard carries the **install code**, which is *not* the **API key** that goes in
+  `/etc/linode/longview.key` — both are the same shape, so pasting the wrong one gives you a
+  well-formed key the collector rejects as "is made up". Two other things worth writing down:
+  Linode's Longview repo publishes nothing for `resolute`, so the apt source needs pointing at
+  `noble` (same `1.1.5xenial1` package either way — I checksummed it against
+  [Woozie](/docs/computers/woozie) and the agent binary is byte-identical), and a Longview key is
+  **8-4-4-16**, not a standard GUID's 8-4-4-4-12. That last one reads as a malformed GUID and
+  absolutely is not — I "fixed" it twice by adding a hyphen and broke a perfectly good key both
+  times. The agent's own regex at `Longview.pl:85` settles it. Also: the init script is from 2013
+  and has no stale-pidfile handling, so a failed start leaves an orphan and the next start spawns
+  a second agent — `pkill` before restarting or you get several running at once, each posting a
+  different old key.
+- **26.09.14** - Base build done 🧰 Upgraded to 26.04.1, attached Ubuntu Pro (ESM infra + apps +
+  livepatch), timezone off the image default and onto Eastern, locked SSH to keys only with root
+  login off, cleaned the MOTD down to just the useful bits with the dog art on top, and put zsh +
+  oh-my-zsh on with the `daw` theme so the prompt carries the 🐕. Two debconf prompts on the
+  upgrade were worth slowing down for: `grub-pc` wanted to know which disk to write to — the root
+  one, not the swap one — and `sshd_config` offered to replace my hardening with the package
+  default, which would have quietly re-permitted root login by key. Read the diff, kept mine.
+  Also learned SSH drops out mid-upgrade while `openssh-server` is replaced and stays down as long
+  as a prompt is blocking, so the box pings but won't accept connections. Have the console open.
+- **26.09.14** - Rebuilt on Ubuntu 26.04 LTS 🧱 Back in about a minute, and the socket override bound
+  both stacks first time so the trap below never bit. I'd grabbed the host key with `ssh-keyscan` before
+  the first root login and checked it again on the moved port afterwards — verifying from two independent
+  points beats blind-accepting the fingerprint you're shown. Only the SSH port is reachable now; 22,
+  Monit's port and MySQL are all closed from outside. IPv6 SSH is bound and confirmed with `ss` on the box,
+  but I couldn't prove it from [Stu](/docs/computers/stu) — that Mac has no global v6 route, only ULA
+  addresses, so the timeout was my end. Worth retesting from somewhere with real v6.
+- **26.09.14** - Wrote out the 26.04 rebuild sequence before clicking Rebuild 🧱 The `ssh.socket` trap is the one that'll bite — `Port` in `sshd_config` is inert on 24.04+, and a bare `ListenStream` binds IPv6-only. Needs both stacks here since this box has a v6 address.
+- **26.09.13** - Correction to myself: not powered off 🐕 still up and serving. Captured `iptables-save` and `ip6tables-save` before the wipe so the rules survive the box. Only the dev host still resolves here — everything else moved to [Woozie](/docs/computers/woozie) a month ago. Crontab is empty, nothing scheduled runs.
 - **26.08.09** - Officially DEPRECATED 🚫 -> Migrated to [Woozie](/docs/computers/woozie.md) in a two step while I wire up [Cotton](/docs/computers/cotton) locally so I can spin up a fresh 📦 with some additional 🐴🔋 for more complex API requests.
 - **26.05.28** - Haven't migrated yet 😂 Apache upgrade won't load http2 even on event module FTR. Tried a quick reinstall - no dice 🎲 so migration should be on the agenda soon. Will migrate IP so I don't have to fiddle with the domains or backport a buggy http2 module.
 👈🏼 .
 - **25.07.16** - Six (6) virtual hosts still running. Will remove over the next year. Expanded Security Maintenance (ESM) runs through April 2028.   
 - **25.04.11** - Gotta run a clean install on Ubuntu 24.04 LTS to migrate Zeke🦮. Will put this off until summer when my schedule clears up. I'll get around it by migrating to [Woozie](/docs/computers/woozie) 🐕‍🦺
+
+
+## 🧰 What's on the box
+
+As built 2026-09-14, after the 26.04 rebuild. This is the reference state — the operational
+detail and the reasoning behind each choice live in `_servers/zeke/`.
+
+### Hardware / VM
+
+| | |
+|---|---|
+| Provider | Linode (Akamai), us-southeast |
+| CPU | 4 × AMD EPYC 7713 |
+| RAM | 7.8 GiB |
+| Swap | 511 MiB — on its own disk (`sdb`), not a swapfile |
+| Disks | `sda` 159.5 G (root, ext4) · `sdb` 512 M (swap) |
+| Usage | 157 G total, 3.6 G used, 3% |
+
+Two disks is the Linode default layout and it matters at upgrade time: `grub-pc` offers both,
+and the bootloader belongs on the **root disk**, never the swap one.
+
+### OS
+
+| | |
+|---|---|
+| Release | Ubuntu 26.04.1 LTS (`resolute`) |
+| Kernel | 7.0.0-31-generic |
+| Arch | amd64 |
+| Init | systemd 259 |
+
+### Access
+
+- SSH on a **non-default port (`####`)**, moved via a `ssh.socket` drop-in — *not* `sshd_config`,
+  which is inert for `Port` under socket activation. Bound on **both** stacks.
+- **Key auth only.** `PasswordAuthentication no`, `PermitRootLogin no`. Verified by attempting a
+  root login with a valid key and getting `Permission denied (publickey)`.
+- One admin user in the `sudo` group, password sudo (not NOPASSWD).
+- ed25519 key, one per machine, named for the host.
+- Serial console (LISH) is the out-of-band path and is unaffected by any of the above — it goes
+  through `login`/PAM, not sshd, which is what makes it a real recovery route.
+
+### Security
+
+- **ufw** 0.36.2 — default deny incoming, allow outgoing. SSH is `limit`ed (rate-limited), not
+  plain `allow`; 80 and 443 are open ahead of the web stack. **Nothing else.** An external scan
+  of 35 common and risky ports finds exactly one open.
+- Only one non-loopback listener on the whole box. `systemd-resolved` and the NTP daemon are both
+  bound to loopback.
+- **Ubuntu Pro** attached — `esm-infra`, `esm-apps`, `livepatch`. The ESM repos are deb822
+  `.sources` files, so a `grep '^deb'` finds nothing and looks like a failure; check with
+  `apt-cache policy` instead.
+- `unattended-upgrades` enabled. No automatic reboot.
+
+### Installed
+
+| | |
+|---|---|
+| Shell | zsh 5.9 + oh-my-zsh, `daw` theme (dpoggi + the machine emoji) |
+| Web | nginx 1.28.3 |
+| PHP | 8.5.4 via **php-fpm**, socket `/run/php/php8.5-fpm.sock` |
+| Database | MariaDB 11.8.6 — bound to loopback only |
+| Admin | phpMyAdmin 5.2.3 at `/pma/` · Monit 5.35.2 at `/monit/` |
+| TLS | certbot 4.0.0, Let's Encrypt |
+| Metrics | linode-longview 1.1.5 |
+| Tooling | git 2.53.0 · curl 8.18.0 · openssl 3.5.5 · python 3.14.4 · ufw 0.36.2 |
+
+PHP modules match Cotton's set: `bcmath bz2 cli common curl fpm gd imagick intl mbstring
+mcrypt mysql readline sqlite3 xml zip`.
+
+### The web stack, and how it differs from Woozie
+
+**nginx → php-fpm directly. No Apache.** Woozie is Apache; Cotton keeps apache2 on a loopback
+port behind a catch-all but nothing actually routes to it — PHP has been going straight to
+php-fpm there for a while. Zeke drops Apache entirely, which is the whole point of this box.
+
+Everything sits behind **one basic-auth gate at the server level**, because unlike Cotton this
+machine is on the public internet. Verified: `/`, `/pma/` and `/monit/` all return 401 before
+anything else happens.
+
+| path | serves |
+|---|---|
+| `/` | landing page, docroot `/var/www/<site>/html` |
+| `/pma/` | phpMyAdmin, via a **symlink** into the docroot, not an `alias` |
+| `/monit/` | proxied to Monit on loopback |
+
+Three details that are load-bearing rather than decorative:
+
+- **`/.well-known/acme-challenge/` is exempted from basic auth**, on both the HTTP and HTTPS
+  server blocks, with `^~` so no regex location can steal it. Without this, renewal fails with
+  a 401 — **60 days after issuance**, long after anyone is watching. Cotton needs no equivalent
+  because mkcert never validates anything.
+- **phpMyAdmin is reached by symlink, not `alias`.** With `alias`, a regex PHP location has to
+  rebuild `SCRIPT_FILENAME` by hand and gets it subtly wrong. A symlink keeps ordinary `root`
+  semantics and the generic `.php` handler just works.
+- **Monit needs three directives together** — `proxy_redirect`, `proxy_cookie_path` and
+  `sub_filter` — because it emits absolute URLs and its buttons otherwise jump to the site root.
+  `Accept-Encoding` must also be cleared or `sub_filter` silently does nothing to a gzipped body.
+
+### Deliberately *not* installed
+
+`apache2` · `docker` · `fail2ban`
+
+## 🔥 Migration
 
 ```sh
 # everything up to date
@@ -24,13 +171,13 @@ backup
 sudo systemctl | grep running
 sudo systemctl stop <application_name>
 
-# allow connections on TCP port 1022 - fallback port if the main connection drops
+# allow connections on TCP port **** - fallback port if the main connection drops
 sudo ufw status
-sudo ufw allow 1022/tcp
+sudo ufw allow ****/tcp
 sudo ufw reload
 
 sudo iptables -L -nv --line-numbers
-sudo iptables -A INPUT -p tcp --dport 1022 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport **** -j ACCEPT
 sudo systemctl restart iptables
 sudo systemctl restart ip6tables
 
@@ -68,6 +215,101 @@ Include /etc/apache2/conf-available/php8.1-fpm.conf
 
 apachectl configtest
 sudo systemctl restart apache2
+
+## 🧱 Rebuild — Ubuntu 26.04
+
+An **in-place Rebuild keeps the IP**, so DNS, the `/etc/hosts` entry on [Cotton](/docs/computers/cotton), the
+whitelist config and the db-sync target all stay correct. What changes is host identity and the box's own
+config — nothing that addresses it. Cotton is the reference build, so match it rather than copying the old
+box forward.
+
+### Pre-flight
+
+- Upload the `ed25519` public key to the provider profile and tick it in the Rebuild dialog. Image is
+  **Ubuntu 26.04 LTS** to match Cotton.
+- `iptables-save` / `ip6tables-save` first — the rules are the only record of what was open, and the wipe
+  takes them.
+- Note the **DNS TTL before the move, not after.** It was 86400s (24h) here, so resolvers keep sending
+  traffic to the old answer for a full day. Lower it ahead of time.
+
+### First hour, in order
+
+**1. Clear the old host keys on the client.** They regenerate on rebuild even though the address doesn't,
+and without this you get `REMOTE HOST IDENTIFICATION HAS CHANGED`:
+
+```sh
+ssh-keygen -R '[dev.davidwindham.com]:****'
+ssh-keygen -R <ip>
+```
+
+**2. First connection is `root` on 22.** Create the user, install the key, grant sudo.
+
+**3. 🔴 Move SSH via the SOCKET, not `sshd_config`.** 24.04+ socket-activates sshd, so `Port` in
+`sshd_config` does nothing. This cost an hour on another box and needed the serial console to recover,
+because a bare `ListenStream=<port>` binds **IPv6-only**. In `/etc/systemd/system/ssh.socket.d/override.conf`:
+
+```sh
+[Socket]
+ListenStream=
+ListenStream=0.0.0.0:****
+ListenStream=[::]:****
+```
+
+The empty `ListenStream=` is required — it clears the inherited `:22`. Then:
+
+```sh
+sudo systemctl daemon-reload && sudo systemctl restart ssh.socket
+ss -lntp
+```
+
+**Verify with `ss -lntp` before closing the root session**, and keep that session open until a second one
+succeeds independently.
+
+**4. `ufw`, not raw iptables.** Only 80, 443 and the SSH port. Rate-limit SSH — the old box had none:
+
+```sh
+sudo ufw limit ****/tcp
+```
+
+**5. Monit from Cotton's configs**, not the older box's. `set alert` carries `not on { instance }` from the
+start, or it mails on every reload. Put basic auth in front of the web interface at the proxy, rather than
+relying on Monit's own auth as the only layer.
+
+**6. Fresh app password** for Monit's mail, named so it's identifiable in the provider list later.
+
+**7. Re-add the restricted rsync keys** — the wipe destroys `authorized_keys`. The client-side private keys
+are unaffected and don't need regenerating.
+
+**8. Update the client `~/.ssh/config`** to point at the new key, and drop the retired host blocks while
+you're in there. Back up to `config.bak-<date>` first.
+
+### What the old firewall encoded — and what not to carry
+
+Three things in the captured rules were decisions rather than accidents, and two of them were wrong:
+
+- **Monit's port was ACCEPTed from anywhere**, v4 and v6, while Monit itself only ever bound `127.0.0.1`.
+  The firewall and the bind disagreed for years. Don't open it at all.
+- **An allow rule for a host nothing identifies.** It's in the old notes and in
+  [iptables](/docs/server/iptables), but no note says what it was. Not reproduced anywhere else.
+- **A private-network rule that was dead** — this box only ever had `lo` and the public interface, so the
+  rule never matched anything.
+
+Otherwise: 80, 443 and the moved SSH port, ICMP types 3/8/11, `RELATED,ESTABLISHED`, default REJECT.
+
+### Worth not repeating
+
+From the migration, kept here because they'll recur on the next rotation:
+
+- **`certbot --apache` can't validate a name whose DNS still points at the old box.** It stages the
+  challenge on the new one, the CA reaches the old one, follows the redirect and 404s. Use
+  `--webroot` pointed where the redirect *lands*, or DNS-01 and sidestep it.
+- **`grep -r` skips symlinks, and `sites-enabled/` is all symlinks** — so a recursive grep reports nothing
+  while the name is very much configured. Glob the files instead: `grep name /etc/apache2/sites-enabled/*`.
+- **Scan `sites-enabled/`, not `/var/www/`.** A redirect-only vhost has no docroot and is invisible to a
+  docroot listing.
+- **A `Redirect` inside a vhost that also carries the redirect target as a `ServerAlias` points the site at
+  itself.** `configtest` passes and the site stays up, because Apache runs the config it loaded at start —
+  the loop only fires on the next reload.
 
 ## Monit
 sudo vi /etc/monit/conf.d/apache2.conf
@@ -107,8 +349,8 @@ apt-get clean -y
 sudo apt install update-manager-core
 # makes sure Prompt=lts
 sudo vi /etc/update-manager/release-upgrades
-# allow port 1022
-sudo iptables -I INPUT -p tcp --dport 1022 -j ACCEPT
+# allow port ****
+sudo iptables -I INPUT -p tcp --dport **** -j ACCEPT
 # run the upgrade
 sudo do-release-upgrade
 # after reboot check version
@@ -140,7 +382,7 @@ sudo awk '$8=$1$8' /var/log/apache2/other_vhosts_access.log | sudo goaccess -a -
 sudo pro attach <******key******>
 user@zeke:~ » pro --version
 27.13.3~18.04.1
-david@zeke:~ » pro security-status
+*****@zeke:~ » pro security-status
 728 packages installed:
     649 packages from Ubuntu Main/Restricted repository
     19 packages from Ubuntu Universe/Multiverse repository
@@ -177,7 +419,7 @@ sudo apt-get --with-new-pkgs upgrade
 20/03/26 - some benchmarks
 
 ```bash  
-david@macs:~/sites/til(master⚡) » ab -n 1000 -c 100 https://dev.davidwindham.com:443/
+*****@macs:~/sites/til(master⚡) » ab -n 1000 -c 100 https://dev.davidwindham.com:443/
 This is ApacheBench, Version 2.3 <$Revision: 1843412 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
@@ -234,7 +476,7 @@ Percentage of the requests served within a certain time (ms)
   98%    260
   99%    275
  100%    674 (longest request)
-david@macs:~/sites/til(master⚡) »
+*****@macs:~/sites/til(master⚡) »
 
 ```  
 
@@ -273,14 +515,16 @@ ssh -p **** ******@45.79.193.63
 --> remove news/help from login / add asci logo
 sudo chmod 0644 /etc/update-motd.d/50-motd-news
 sudo chmod 0644 /etc/update-motd.d/10-help-text
-sudo chmod +x /etc/update-motd.d/05-windhamdavid
+sudo chmod +x /etc/update-motd.d/05-**********
 
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo vi .zshrc
 
 Linode Longview
-curl -s https://lv.linode.com/464AB0EC-097A-4D7C-BC23DB5CAD79C43A | sudo bash
+# the URL carries the INSTALL CODE, which is NOT the API key that goes in
+# /etc/linode/longview.key — both are 8-4-4-16 and easy to confuse
+curl -s https://lv.linode.com/********-****-****-**************** | sudo bash
 sudo systemctl status longview
 sudo systemctl start longview
 
@@ -354,7 +598,7 @@ sudo systemctl restart apache2
 sudo apachectl -M | grep mpm
 
 sudo mkdir -p /var/www/dev.davidwindham.com/{html,log,backup}
-sudo chown david:www-data -R /var/www/dev.davidwindham.com/
+sudo chown *****:www-data -R /var/www/dev.davidwindham.com/
 sudo chmod -R 755 /var/www/dev.davidwindham.com/html
 sudo vi /etc/apache2/sites-available/dev.davidwindham.com.conf
 sudo a2ensite dev.davidwindham.com.conf
@@ -574,7 +818,7 @@ sudo vi ~/scripts/monitor.sh
   goaccess /var/www/davidwindham.com/log/access.log --log-format=COMBINED -o /var/www/davidwindham.com/html/monitor/index.html
 
 crontab -e
-11 1 * * * sudo /home/david/scripts/monitor.sh
+11 1 * * * sudo /home/*****/scripts/monitor.sh
 
 # error logs
 sudo vi /etc/apache2/apache2.conf
@@ -600,12 +844,12 @@ curl -sL https://raw.githubusercontent.com/richardforth/apache2buddy/master/apac
 # mysql-cron.sh
 
 #!/bin/sh
-mysqldump db_name --user=db_user --password='db_pass' > /home/david/backups/$(date +"%Y%m%d").db_name.sql
+mysqldump db_name --user=db_user --password='db_pass' > /home/*****/backups/$(date +"%Y%m%d").db_name.sql
 mysqlcheck -o db_name --user=db_user --password='db_pass'
 
 # run every Sunday at 1:11am
 sudo crontab -e
-11 1 * * 0 /home/david/scripts/mysql-cron.sh
+11 1 * * 0 /home/*****/scripts/mysql-cron.sh
 
 ##################### MONIT / SERVER-STATUS ############################
 sudo apt-get install monit
