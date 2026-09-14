@@ -189,7 +189,7 @@ sudo vi .zshrc
 theme dpoggi
 
 # Longview
-curl -s https://lv.linode.com/464AB0EC-097A-4D7C-BC23DB5CAD79C43A | sudo bash
+curl -s https://lv.linode.com/********-****-****-**************** | sudo bash
 sudo systemctl status longview
 sudo systemctl start longview
 
