@@ -10,6 +10,35 @@ meantime. It's going to run **nginx** this time rather than Apache, so it is del
 real move. [Cotton](/docs/computers/cotton) stays the reference for practice; the web stack is where this
 box is allowed to diverge.
 
+```sh
+*****@stu🪩:~ » ssh zeke  
+Welcome to Ubuntu 26.04.1 LTS (GNU/Linux 7.0.0-31-generic x86_64)
+
+
+       / \__
+      (    @\___
+      /         O
+     /   (_____/
+    /_____/   U
+
+
+     .     . .              .       .  . 
+. . ...-..-| |-. .-. .-.-..-| .-.. ...-| 
+ ` ` '' '`-'-' '-`-`-' ' '`-'-`-`-` '`-'-
+
+
+ System information as of Tue Sep 15 11:33:43 AM EDT 2026
+
+  System load:           0.09
+  Usage of /:            2.6% of 156.93GB
+  Memory usage:          7%
+  Swap usage:            0%
+  Processes:             152
+  Users logged in:       0
+
+somebody-else@zeke🐕:~ » 
+```
+
 ## Log
 
 - **26.09.14** - Stack up 🌐 nginx + php-fpm + MariaDB + phpMyAdmin + Monit, mirroring Cotton but

@@ -1,11 +1,40 @@
 # Woozie 🦮
 
-## Notes
-
-- **26.08.10** - basic tune up [ went through all error.logs and fixed. added custom /scripts to review logs, updated blocklist and removed blocks from per site logs ]. Adding local mirror [Cotton](/docs/computers/cotton.md) before any new migration.
-- **23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidwindham.com/human-updates-available/).
-
 ## Log
+
+**26.09.15** - Certbot needs to move off the `apache` authenticator 🔐 It restarts Apache **twice per certificate**, and with 23 certs that's ~46 restarts in one `certbot renew` — each one a window where connections are refused. Let's Encrypt validates from several vantage points at once, so some validation lands inside a window. Three consecutive `--dry-run` runs failed on *different* domains each time, always `During secondary validation: Connection refused`. A moving failure isn't a per-domain fault, it's a race. Plan written up, not done yet.
+
+**26.09.15** - Longview log had never rotated 🔄 `/var/log/linode/longview.log` dating from February, 22MB, not a single `.1` or `.gz` beside it — the agent ships no logrotate rule and doesn't rotate its own. Same shape as gogs' `gorm.log`, which got to 854MB before anyone looked. It's not a heartbeat log, it writes on error: 112,280 ERROR lines against 53,866 INFO. Used `copytruncate`, and checked the one thing that makes that unsafe — if the writer's fd lacks `O_APPEND`, truncating doesn't reset its offset and the next write recreates the file at the old size, padded with nulls. Confirmed `flags: 02102001` on the agent's fd, so `O_APPEND` is set and it's safe.
+
+**26.09.15** - Retired `code.davidawindham.com` 🪦 Disabled the vhost and dropped the A and AAAA records. The cert mismatch warning it was throwing is now unreachable because nothing resolves, so no handshake is attempted. Cached answers hung around ~6 hours (TTL 21600) and public resolvers disagreed with each other while it drained — expected, not a failed change. Leaving the vhost file in place as a record; re-enabling it alone would fail configtest on the missing cert.
+
+**26.09.15** - PHP consolidated 🐘 One version, one SAPI, one handler. 7.4 and 8.1 retired, everything on **8.3-fpm**. Serving version never changed — 8.3.33 throughout, all 15 sites 200. Two traps worth writing down:
+
+🔴 The **alphabetical-sort trap**. While both `php8.1-fpm.conf` and `php8.3-fpm.conf` were enabled in `conf-enabled`, 8.3 won *only because its filename sorts later*. Removing `php8.3-fpm.conf` would have silently handed all 23 vhosts to 8.1 — a PHP downgrade with no error anywhere. If a second `phpX.Y-fpm.conf` ever gets enabled here, that hazard is back.
+
+Also `php7.4-fpm` came back from the dead — stopped and disabled, then found running again eleven seconds before Monit was reloaded. **Monit restarted it**, because its check was still live. Remove the Monit check *first*, then stop the service, or Monit undoes you.
+
+**26.09.15** - Found the real root cause 🎯 A **vestigial `mod_php8.4`** that served nothing. Every vhost was already going to `php8.3-fpm` — `conf-enabled` loads at `apache2.conf:222`, after `mods-enabled` at 147, so its `SetHandler` wins. The module's only remaining effect was that **mod_php forces prefork**, and prefork is one *process* per connection. That's the whole reason a ~1 req/sec connection hold could exhaust a 7.9GB box. `a2dismod php8.4` + `a2enmod mpm_event`, same traffic, same attacker, minutes apart:
+
+| | prefork | event |
+|---|---|---|
+| BusyWorkers | **300** (pinned at ceiling) | **16** |
+| IdleWorkers | 0 | 34 |
+| apache processes | 301 | **3** |
+| apache RSS | **6,592 MB** | **132 MB** |
+| sites | all timing out | all 200 |
+
+HTTP/2 started working the same moment — `mod_http2` had been loaded and inert the whole time prefork was in place, warning `AH10034` on every start. Remove a module that was doing nothing and the attack stops mattering.
+
+Three misreads cost me most of the day, all the same shape — trusting a command without checking its output meant anything. `grep -r` over `sites-enabled/` returns nothing because it's all symlinks (this is *already* written down in my zeke notes and I walked into it anyway). `apache2ctl -M` came back mangled and I read that as "no mod_php" — a broken result is not a negative result. And a per-file grep matched a vhost file whose hit was in the redirect-only block, which sends everything to https before PHP is reached — **grep the block, not the file**.
+
+The one that nearly caused a 23-site migration I didn't need: the FPM configs are guarded by `<IfModule !mod_php8.c>`, which reads as "only when mod_php is absent", so I called them inert. The module registers as `php_module` from **`mod_php.c`**, not `mod_php8.c` — the guard never matches and the config is always active. What settled it was asking the running process instead of the config: `phpinfo()` said 8.3.33 and the socket connections moved under load. Configuration is a claim; the running process is the evidence.
+
+**26.09.15** - Apache worker exhaustion 🐌 Woke up to alert mail — 443 closed, every site timing out, recovering for a minute or two at a time. Distributed slow-connection hold: ~100 established connections, essentially one per IP, worldwide, walking gogs deep paths and ignoring robots.txt. `BusyWorkers 76 / IdleWorkers 1` at about **one request per second**. Wrote it up properly in [Slowloris DDoS](/posts/slowloris-ddos). Mitigations in increasing order of effect — `Timeout` 300→60 and `RequestReadTimeout header=10-20` in a `zz-` drop-in rather than editing the dpkg conffile, worker ceiling 150→300, and `REQUIRE_SIGNIN_VIEW` in gogs, which is the one that removed what the pool was there for. All four were correct and worth keeping. None of them addressed *why* a trivial request rate could exhaust the box — see the entry above.
+
+Also: **a graceful restart is useless during connection exhaustion.** `systemctl restart apache2` hung, because "graceful" means waiting for current connections to finish and the held connections *are* the problem. `systemctl kill --signal=SIGKILL` then start. And Monit's apache2 check was broken independently — it tested `localhost:80` path `/`, no vhost answers to that name, so it fell through to `000-default` which correctly returns **403**, which Monit read as failure. It had been restarting a healthy Apache every ~10 minutes. Now checks `/server-status` from loopback, which proves request *processing* rather than a listening socket, and carries a restart ceiling.
+
+**26.08.10** - basic tune up [ went through all error.logs and fixed. added custom /scripts to review logs, updated blocklist and removed blocks from per site logs ]. Adding local mirror [Cotton](/docs/computers/cotton.md) before any new migration.
 
 **26.06.24** - had a PID mismatch issue with Monit failing on the php-fpm processes so I swapped them over to using systemctl. 
 
@@ -27,6 +56,8 @@ check process php8.3-fpm matching "php-fpm: master process \(/etc/php/8.3/fpm/ph
 sudo crontab -e 
 50 5 * * 0 /home/*****/scripts/clear_logs.sh
 ```
+
+**23.02.04** - Documentation for the server migration of [Woozer](/docs/computers/woozer) to [Woozie](/docs/computers/woozie). I'm running into the EOL ( End of Life ) for 18.04 LTS on April 2023, so I'm giving myself some buffer time to get her warmed up. I also needed a new development server to test Rust and WASM for my [human updates](https://davidwindham.com/human-updates-available/).
 
 **23.02.04** - Init
 
@@ -155,13 +186,13 @@ Sat Feb  4 05:40:00 PM EST 2023
 root@localhost:~# hostnamectl set-hostname woozie
 root@localhost:~# logout
 Connection to 173.230.130.234 closed.
-david@ovid🏛 :~ » ssh root@173.230.130.234
+*****@ovid🏛 :~ » ssh root@173.230.130.234
 
 adduser user
 adduser user sudo
 logout
 
-david@ovid🏛 :~ » ssh user@173.230.130.234
+*****@ovid🏛 :~ » ssh user@173.230.130.234
 sudo vi /etc/hosts
 
 127.0.0.1       localhost
@@ -195,12 +226,12 @@ sudo systemctl start longview
 
 # motd
 cd /etc/update-motd.d
-sudo vi windhamdavid.asc
-sudo vi 05-windhamdavid
+sudo vi **********.asc
+sudo vi 05-**********
 #!/bin/sh
-printf "\n$(cat /etc/update-motd.d/windhamdavid.asc)\n"
+printf "\n$(cat /etc/update-motd.d/**********.asc)\n"
 
-sudo chmod +x /etc/update-motd.d/05-windhamdavid
+sudo chmod +x /etc/update-motd.d/05-**********
 sudo chmod 0644 /etc/update-motd.d/10-help-text
 sudo chmod 0644 /etc/update-motd.d/50-motd-news
 sudo chmod 0644 /etc/update-motd.d/88-esm-announce
@@ -829,7 +860,7 @@ AuthUserFile /var/www/dev.davidwindham.com/.htpasswd
 
 ```bash
 sudo mkdir -p /var/www/dev.davidwindham.com/{html,log,backup}
-sudo chown david:www-data -R /var/www/dev.davidwindham.com/
+sudo chown *****:www-data -R /var/www/dev.davidwindham.com/
 sudo chmod -R 755 /var/www/dev.davidwindham.com/html
 sudo vi /etc/apache2/sites-available/dev.davidwindham.com.conf
 
@@ -1078,11 +1109,11 @@ cd ~
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-david@woozie:~ » node --version
+*****@woozie:~ » node --version
 v18.16.0
 
 #updated for dependency 26/6/9
-david@woozie:/etc/apt/sources.list.d » node --version
+*****@woozie:/etc/apt/sources.list.d » node --version
 v24.16.0
 
 ```
