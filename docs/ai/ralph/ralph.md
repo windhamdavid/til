@@ -1,16 +1,80 @@
 # Ralph
 
-A sandbox repository for learning and experimenting with AI. I'm using it as my parent Model Context Protocol server for other projects so that I can wire in additional features and plugins that are reusable between projects.
+<img src="https://davidwindham.com/til/img/ralph-loop.jpg" alt="Ralph loop" width="400" class="responsive-image-right"></img>
+
+A sandbox for learning and experimenting with AI, and the parent Model Context Protocol server I point
+everything else at. The idea is that capabilities get built and versioned **here, once**, and then reach any
+project I'm working on — personal or professional — instead of standing something up from scratch each time
+and re-explaining myself to it.
+
+That reuse is deliberate rather than structural. What actually travels
+does so through [three channels](#reuse-across-projects) — a plugin marketplace, the `ralph-fs` MCP server,
+and pinned installers — each with a different cost per session, which is most of what decides where a new
+capability belongs.
+
+The rule underneath it all is that **every MCP tool is a thin wrapper over something runnable by hand**. The
+notes index, the tools, the whole thing stays reachable from a terminal with no model in the path — so a
+provider outage is an inconvenience rather than a stop. Named after Ralph Wiggum, [on the theory](/posts/second-brain-docs)
+that you shouldn't name a thing you rely on something that makes it sound cleverer than it is.
+
+| | |
+|---|---|
+| 📦 [Repo](https://davidwindham.com/code/ralph) | `davidwindham.com/code/ralph` — the source this documents, mirrored to GitHub |
+| [Architecture](/docs/ai/ralph/architecture) | the intended shape, the layered boundary, and an audit of how far the repo actually gets |
+| [Models](/docs/ai/ralph/models) | the four models in play, which one ships, and the client that drives the local one |
+| [Server](/docs/ai/ralph/server) | `ralph-fs` — the MCP file system server, its tools, and the RAG index behind them |
+| [Plugins](/docs/ai/ralph/plugins) | the marketplace — skills, commands and agents that cost nothing until invoked |
 
 
 
-<img src="https://davidwindham.com/til/img/ralph-loop.jpg" alt="Ralph loop" width="400"></img>
 
 <img src="/til/img/ralph-model.svg" alt="Ralph as substrate: machines and personal data (Stu, Ovid, Lisa, plus Contacts, Reminders and Calendar) feed Ralph's tools and index; from there the marketplace ships the diagram plugin, mcp-server ships ralph-fs and the RAG corpus split into the daw / daw_til collections, installers/ pins third-party binaries, and tools/ holds standalone CLIs — all reaching any project" width="100%"></img>
 
 
 ## Log
 
+- **26/09/12** - 🎵 `tools/last-fm-snapshot` became `tools/music`, now two CLIs rather than one.
+  - `lastfm-snapshot` pulls a listening snapshot into the TIL site; `playlist-probe` pushes a playlist back
+    out of that markdown to Soundiiz. Renamed because the directory was named after one script and then grew
+    a second.
+  - Kept **project-specific on purpose** — the content belongs to exactly one site, so it stays a standalone
+    CLI in `tools/` rather than becoming a plugin or an MCP tool. That's the same three-channel test the
+    [reuse table](#reuse-across-projects) sets out, answered in the negative.
+  - Credentials moved to a gitignored `.env` with a committed `.env.example`, which needed a `!.env.example`
+    negation so the blanket `.env.*` rule doesn't eat the template.
+- **26/09/10** - 🛰️ [Agent Host Protocol](https://microsoft.github.io/agent-host-protocol/) written up in the README — **an idea, not a feature**. Nothing here speaks it.
+  - It's Microsoft's protocol for the layer *above* a single agent conversation: a standalone sessions server
+    so several clients can hold a synchronized view of the same sessions. VS Code ships the reference host.
+  - The layering is the part worth keeping straight, because it's easy to mistake for a rival to MCP and
+    isn't. **MCP** is what an agent can *do*; **ACP** is how one client talks to one agent; **AHP** is how
+    *N* clients share one session. Their own line: "AHP is a coordination layer. ACP is a communication
+    layer." So `ralph-fs` would be untouched — AHP sits above it and carries it.
+  - Why it's interesting here: the [architecture](/docs/ai/ralph/architecture) already declares Layer 1
+    swappable, but in practice a session is still trapped in whichever client started it. The supervisor is
+    meant to be *invoked* — on a diff, on a commit, on a schedule — rather than opened, and a session that
+    outlives the window is the shape it already wants.
+  - Stated against it, up front: it's still a new daemon standing between the clients and the work, and the
+    Layer 3 invariant — every tool a thin wrapper over something runnable by hand — has no obvious analogue
+    for a session server. Nothing gets adopted here on an architecture diagram; the test is a real task run
+    through it.
+- **26/09/10** - 📓 Layer 3 written down — a [playbook](https://davidwindham.com/code/ralph/src/branch/main/docs/playbook.md) for running everything by hand, with no model in the path.
+  - Organised by **task**, not by repo, on the theory that during an outage you don't think "what's in
+    `mcp-server`", you think "I need to publish this post". Reading the notes, reindexing, bringing the
+    local model up, building the site, deploying the bot, exporting data.
+  - **Targets deliberately absent.** Hostnames, SSH aliases and destination paths stay in the private ops
+    repo — the procedure lives here, the pointers live there. The existing README already publishes some
+    topology and that's treated as history rather than a licence to add more.
+  - Found while writing it: **`Sites/daw` is a WordPress root, not a repository**, and two separately
+    versioned things live under it. The theme is its own repo; the TIL site is *built output* sitting
+    outside that repo. So a theme change and a notes change publish by entirely different means, which
+    isn't obvious from either side.
+  - That turned up a real gap — the last step, how the built site actually reaches the host, was recorded
+    in neither repo. It's the most-used procedure there is and it was the one thing the playbook couldn't
+    complete. Since closed with an `rsync` deploy script in the ops repo, replacing the manual FTP sync.
+  - A **Traps** section for the things that cost real time and announced nothing: bare `node` versus the
+    compiled `better-sqlite3`, `brew services` regenerating its plist and wiping any env var set there,
+    Ollama truncating from the *front* so an over-long context silently drops the system prompt, and a warm
+    MCP server serving a stale tool list until it's restarted.
 - **26/09/03** - 🔍 the client decision reversed by measuring it, and a 13th tool.
   - VS Code agent mode replaces Cline after one afternoon: **3 requests against Cline's 18**, a third of the
     context, no proxy, thinking left on. The mechanism is the tool protocol — Cline parses XML back out of

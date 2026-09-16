@@ -9,7 +9,7 @@ Four models are in play, and only one of them ships:
 | `Xenova/bge-small-en-v1.5` | embeddings (384-dim) — [RAG](/docs/ai/ralph/server#rag) indexing and query | in-process, Transformers.js / ONNX |
 | `claude-haiku-4-5` | generation + citations for the public `/api/ask` | Anthropic API |
 | `llama3.2` | generation for the local-only `/api/chat` | Ollama on `stu`, never deployed |
-| `qwen3.6:35b-a3b-q4_K_M` | local coding assistant / supervisor, driven by [Cline](#on-qwen-36-35b-a3b) | Ollama on `stu`, weights on Blue25 |
+| `qwen3.6:35b-a3b-q4_K_M` | local coding assistant / supervisor, driven by [VS Code agent mode](#on-qwen-36-35b-a3b) | Ollama on `stu`, weights on Blue25 |
 
 The fourth is the newest and the least settled — added 2026-09-02 as the local fallback the
 [architecture](/docs/ai/ralph/architecture) is built around, not as a quality play. It is 23GB resident and cannot
