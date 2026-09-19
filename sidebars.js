@@ -26,6 +26,36 @@ module.exports = {
             'ai/ralph/models',
             'ai/ralph/server',
             'ai/ralph/plugins',
+            {
+              type:'category',
+              label:'Skills',
+              collapsible: true,
+              link: {
+                type:'doc',
+                id:'ai/ralph/skills/skills',
+              },
+              items: [
+                'ai/ralph/skills/demo',
+                'ai/ralph/skills/security-audit',
+                'ai/ralph/skills/spec-driven',
+                'ai/ralph/skills/skill-creator',
+                'ai/ralph/skills/webapp-testing',
+                'ai/ralph/skills/write-concisely',
+              ],
+            },
+            {
+              type:'category',
+              label:'Memory',
+              collapsible: true,
+              link: {
+                type:'doc',
+                id:'ai/ralph/memory/memory',
+              },
+              items: [
+                'ai/ralph/memory/design',
+                'ai/ralph/memory/roadmap',
+              ],
+            },
           ],
         },
         'ai/claude',

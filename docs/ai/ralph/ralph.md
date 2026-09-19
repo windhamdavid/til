@@ -24,6 +24,8 @@ that you shouldn't name a thing you rely on something that makes it sound clever
 | [Models](/docs/ai/ralph/models) | the four models in play, which one ships, and the client that drives the local one |
 | [Server](/docs/ai/ralph/server) | `ralph-fs` — the MCP file system server, its tools, and the RAG index behind them |
 | [Plugins](/docs/ai/ralph/plugins) | the marketplace — skills, commands and agents that cost nothing until invoked |
+| [Skills](/docs/ai/ralph/skills) | `skills/` — client-neutral procedure, the register behind it, and what's in there |
+| [Memory](/docs/ai/ralph/memory) | a markdown store behind MCP tools, so one fact reaches every client — designed, not yet built |
 
 
 
@@ -33,6 +35,114 @@ that you shouldn't name a thing you rely on something that makes it sound clever
 
 ## Log
 
+- **26/09/19** - 📐 [`spec-driven`](/docs/ai/ralph/skills/spec-driven) — SDD's method, without its swarm. Built,
+  not vendored, for the second time today and for a sharper reason than size.
+  - NeoLab's `sdd` plugin is **865KB, ~216k tokens** — eight agent definitions, one of them 171KB, an 85KB
+    `implement-task/SKILL.md` loading on every trigger. The method underneath is a few KB; the rest is prompt
+    engineering for a **particular agent swarm**, with five model-assigned phases and an LLM-as-judge gate
+    after each.
+  - The disqualifier isn't the weight, it's the assumption. It needs Claude Code's sub-agent dispatch and
+    per-step model tiers, so **only one of the three wired clients could run it**, and the local supervisor
+    couldn't touch a 216k-token workflow at all. Vendoring it would have put a workflow two clients can't use
+    into a directory that exists *because* it's client-neutral.
+  - Rewritten agent-optional — no agent names, no model tiers, works with one agent, several or none — at
+    **8.1KB**. A 106× cut that runs anywhere. GPL-3.0 again, so building also keeps copyleft out of a
+    publicly-served repo a second time.
+  - **Folder-as-state kept on purpose**: `ls .specs/tasks/in-progress/` answers "what's underway?" with no
+    tool, no index and no agent. Same bet as the playbook, and the same reason the memory plan
+    [chose files over SQLite](/docs/ai/ralph/memory/design#markdown-files-are-the-truth-there-is-no-database).
+  - The load-bearing rule is **criteria before code** — criteria written afterwards describe what was built,
+    and therefore test nothing.
+- **26/09/19** - ✂️ [`write-concisely`](/docs/ai/ralph/skills/write-concisely) — **built rather than vendored**,
+  after reading the thing that prompted it and declining to use it.
+  - [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) (`23e2428`) was
+    rejected on two counts, either sufficient. It's **GPL-3.0** — a markdown file beside unrelated code is
+    aggregation rather than a derivative work, so nothing would have been relicensed, but this repo is
+    distributed through the `code` remote, which makes that a live question rather than a theoretical one.
+  - And it **inlines the entire book into `SKILL.md`** — 72,863 chars, ~18k tokens, larger than every other
+    `SKILL.md` here combined, loading in full on every trigger. That inverts the whole
+    [map-and-references split](/docs/ai/ralph/skills#the-shape), and a concision skill is a conspicuous place
+    to get it wrong.
+  - The substance is public domain regardless — Strunk, 1918 — so the rules were written fresh from
+    **Project Gutenberg #37134** rather than from NeoLab's markdown, so none of their arrangement travels
+    with it. Chapter VI on spelling dropped as dated, exercises with it.
+  - Result: an entry point **21× smaller**, ~850 tokens, over three `references/` files holding the 74k of
+    source text that loads only when a question needs it.
+  - The distinction it opens with is the one worth having: **editing is not drafting.** When editing, the
+    author's voice wins over the rules — the same constraint the TIL site puts on its own prose.
+- **26/09/19** - 🎭 [`webapp-testing`](/docs/ai/ralph/skills/webapp-testing) vendored — Anthropic's,
+  Apache-2.0, at the same `34040c9` and from the same clone as `skill-creator`, so the two pins move
+  together. Landed **inert**, then made to run the same afternoon — **installing nothing**.
+  - Playwright is on neither the Homebrew python nor node, and that python is PEP 668 externally-managed, so
+    `pip install` isn't slow, it's *refused*. Two substitutions fix it: **`uv run --with playwright`** builds
+    the environment per run, and **`channel="chrome"`** drives the installed Google Chrome instead of a
+    bundled Chromium that isn't there — avoiding a ~150MB download, on a fresh temp profile that never
+    touches real browsing state.
+  - Verified end to end before any of it was written down — page load, element query, console capture,
+    screenshot — on Playwright 1.63.0 under Python 3.14.7, so no version pin was needed either.
+  - This makes it the **first `vendored + local` skill**, and the note had to go at the top of `SKILL.md`
+    rather than in a sibling file: the skill's own instructions say to run `python script.py`, so an agent
+    following them hits the traceback *before* it would open a note kept elsewhere. A correction that arrives
+    after the failure it prevents isn't a correction.
+  - Which is the register earning its keep rather than describing a rule — `_skills.md` now records what
+    changed, why it sits where it sits, and what makes it removable, the three things a whole-directory
+    re-copy would otherwise destroy silently.
+  - It overlaps with what Claude Code can already do in a browser. What it adds is a **scriptable** path any
+    client can drive through `ralph-fs` — plain Python rather than a capability living inside one vendor's
+    client. The obvious first target is **davo-bot's widget**: its SSE stream and citation rendering are
+    precisely the behaviour no unit test can observe.
+- **26/09/19** - 🧠 [Memory](/docs/ai/ralph/memory) designed — a markdown store behind MCP tools. **Written down
+  before any of it is built**, so the decisions are reviewable rather than archaeological.
+  - The problem is that memory accumulates **per-client and per-project**, and both are the wrong unit: 91
+    memories across 17 projects that Zed and VS Code chat can't see, and that don't cross between projects.
+    Seventeen archives, not one.
+  - Ralph is the fix **only because of the skills work above** — `ralph-fs` is now the one surface all three
+    clients share, so memory reached through MCP tools is memory every client has.
+  - **Markdown files are the truth; there is no database.** Same bet as the playbook: a memory reachable only
+    through a running server fails on the day the server is what's broken. An index can be derived later, and
+    [`memory_search`](/docs/ai/ralph/memory/roadmap#phase-2--scope-provenance-deletion) exists in Phase 2
+    precisely so its signature doesn't change when one arrives.
+  - **The store lives outside the repo**, non-negotiably. GitHub calls this repo private, but the `code`
+    remote serves its contents to unauthenticated readers — verified the same day. Code here, content at
+    `~/.ralph/memory/`.
+  - Two mechanisms carry the design: **provenance is taken, not asked for** (the server stamps
+    `clientInfo.name` from the `initialize` handshake, so an agent can't claim to be something else), and
+    **policy travels in tool descriptions** — the only thing every MCP client reliably puts in front of a
+    model, and therefore the only lever that reaches all of them at once.
+  - It is **not** a view onto `~/.claude/projects/*/memory/` and doesn't sync with it. Ralph owns the store;
+    Claude Code becomes one client of it. The existing 91 are a deferred *import*, not an integration.
+- **26/09/19** - 🧪 [`skill-creator`](/docs/ai/ralph/skills/skill-creator) vendored — Anthropic's own,
+  Apache-2.0, pinned at `34040c9`. The first skill here that's about this directory itself.
+  - The part worth having is **description tuning**. A skill whose description never triggers is
+    indistinguishable from one that doesn't exist, and nothing errors — so an eval harness is the only way to
+    tell "the model is bad at this" from "the skill never fired."
+  - Taken from the GitHub repo rather than the listing that surfaced it, because vendoring needs a commit to
+    pin and a license to carry, and an index gives neither.
+  - Two sharp edges recorded up front: `quick_validate.py` wants PyYAML, which isn't installed and wasn't
+    installed to fix it; and the eval scripts shell out to `claude -p`, spawning **nested billable runs** and
+    writing into the project root's `.claude/commands/`. Working as designed, but not what "run the tests"
+    usually implies.
+- **26/09/19** - 🧰 [`skills/`](/docs/ai/ralph/skills) opens — a place for client-neutral procedure, and the
+  wiring to reach it.
+  - A skill is a directory of markdown describing how to do one kind of work. These sit at the **repo root
+    rather than `.claude/skills/`**, because the client that needs them most isn't Claude Code — the
+    supervisor runs elsewhere, and a vendor directory is the wrong home for something three clients read.
+  - Nothing new was needed to reach them: `RALPH_ALLOWED_DIRS` already covers `/Sites`, so `read_file` works
+    on `skills/` today. **The gap is discovery, not access** — an agent only looks if something tells it to,
+    so the one line in `CLAUDE.md` pointing at the README *is* the mechanism. It had existed only in
+    conversation until now, which is the whole lesson.
+  - Two skills: [`demo`](/docs/ai/ralph/skills/demo), built here, which summarizes the open project and is
+    rigged to **fail loudly** — its output format lives only in a sibling file, so a client that can load
+    `SKILL.md` but not its neighbours produces a visibly wrong shape instead of a plausible one. And
+    [`security-audit`](/docs/ai/ralph/skills/security-audit), Cloudflare's, MIT, copied verbatim at `c1c8a8c`.
+  - The register [`_skills.md`](https://davidwindham.com/code/ralph/src/main/skills/_skills.md) carries an
+    origin and a pin per skill, because re-syncing a vendored one means re-copying the directory whole —
+    which silently wipes any local edit that wasn't written down.
+  - **Deliberately not RAG.** Skills are looked up by name, not similarity, and `PUBLIC_COLLECTIONS` equals
+    `COLLECTIONS` — a third collection is quotable to a stranger the moment it exists.
+  - `ralph-fs` now registered for **three clients** at project scope — Claude Code, VS Code chat, Zed — each
+    wanting a different file and a [different key](/docs/ai/ralph/server#configuration). Zed working at
+    project scope is confirmed but undocumented upstream, so it's written down here rather than re-derived.
 - **26/09/12** - 🎵 `tools/last-fm-snapshot` became `tools/music`, now two CLIs rather than one.
   - `lastfm-snapshot` pulls a listening snapshot into the TIL site; `playlist-probe` pushes a playlist back
     out of that markdown to Soundiiz. Renamed because the directory was named after one script and then grew
@@ -104,6 +214,11 @@ that you shouldn't name a thing you rely on something that makes it sound clever
 - **AI assistant** — "davo-bot 2000", a public citation-enabled chat widget, styled as a macOS terminal, grounded in the local RAG index and embeddable on any site
 - **Codebase graph** — pinned, config-touching-nothing installer for `codebase-memory-mcp`, a third-party code-graph MCP server shared across projects
 - **Plugins** — this repo is a plugin marketplace; `diagram` generates editable Excalidraw system maps and installs into any project
+- **Skills** — [`skills/`](/docs/ai/ralph/skills) holds client-neutral procedure, read through the MCP
+  allowlist rather than any one client's skill loader, with a register carrying each one's origin and pin
+- **Memory** *(designed, not built)* — [a markdown store behind MCP tools](/docs/ai/ralph/memory) so a fact
+  learned in one client and one project is reachable from every other; files are the truth, the store lives
+  outside the repo, and the write policy ships in the tool descriptions
 - **Local model** — Qwen 3.6 35B-A3B on Ollama as a supervisor/reviewer, so routine work survives a provider
   outage; the [architecture](/docs/ai/ralph/architecture) is built so the fallback doesn't have to be good
 - **Shell-first floor** — every MCP tool is a thin wrapper over something runnable by hand, `rag_search`
@@ -145,7 +260,7 @@ What reaches other projects does so through one of three deliberate channels:
 
 A fourth kind of thing lives here that is **not** a reuse channel: standalone CLIs in [tools/](https://davidwindham.com/code/ralph/src/main/tools), kept in Ralph because this is where tooling gets developed and versioned. They are not installed anywhere — you run them.
 
-- [tools/last-fm-snapshot/](https://davidwindham.com/code/ralph/src/main/tools/last-fm-snapshot) — pulls a Last.fm listening snapshot and writes Docusaurus markdown into `daw_til`. Project-specific: its output belongs to exactly one site.
+- [tools/music/](https://davidwindham.com/code/ralph/src/main/tools/music) — `lastfm-snapshot` pulls a Last.fm listening snapshot into `daw_til`; `playlist-probe` pushes a playlist back out of that markdown to Soundiiz. Project-specific: the content belongs to exactly one site.
 - [tools/reminders-export/](https://davidwindham.com/code/ralph/src/main/tools/reminders-export) — turns Apple Reminders into markdown the local chat reads for context. Feeds the substrate rather than any one project.
 
 Note `installers/` is a different thing again: it holds pinned installers for *third-party* binaries that land outside this repo. `tools/` holds programs written here that produce files.
@@ -160,7 +275,8 @@ plugins/<name>/                   ← one directory per plugin
   .claude-plugin/plugin.json
   skills/ commands/ agents/       ← auto-discovered by convention
 installers/                       ← pinned installers for external binaries
-tools/                            ← standalone CLIs (last-fm-snapshot, reminders-export)
+skills/                           ← client-neutral procedure, reached through the allowlist
+tools/                            ← standalone CLIs (music, reminders-export)
 mcp-server/                       ← the ralph-fs MCP server (TypeScript)
 ```
 

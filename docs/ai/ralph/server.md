@@ -32,12 +32,30 @@ The allowlist is **env-driven**, so the same build can serve different directory
 
 ### Configuration
 
-The server is registered in `.mcp.json` and enabled via `.claude/settings.local.json`. **One file serves both
-clients** — Claude Code reads it, and VS Code reads a workspace-root `.mcp.json` natively (not via
-`chat.mcp.discovery.enabled`, whose sources are Claude Desktop, Windsurf and Cursor — there is no Claude Code
-entry, so disabling discovery does nothing here). Registering `ralph-fs` a second time at VS Code's user
-scope produces **two servers with identical tools**, which is worth avoiding on its own and doubly so with a
-small model: 26 near-identical entries in the picker is how it starts fabricating paths.
+The server is registered per-workspace for **three clients**, all invoking the same command with the same
+env, and each wanting a different file under a different key:
+
+| Client | File | Key |
+|---|---|---|
+| Claude Code | `.mcp.json` | `mcpServers` |
+| VS Code chat | `.vscode/mcp.json` | `servers` |
+| Zed | `.zed/settings.json` | `context_servers` (plus `"source": "custom"`) |
+
+Two of those are worth not re-deriving. **Zed works at project scope** — its docs describe only the global
+config, so this was confirmed by trying it. And **VS Code's file is gitignored**: `.vscode/` is excluded
+wholesale, and git can't re-include a file under an excluded directory, so tracking it means splitting the
+rule into `.vscode/*` plus a negation. Left alone for now, which means that one config lives only on this
+machine.
+
+VS Code also reads a workspace-root `.mcp.json` natively — not via `chat.mcp.discovery.enabled`, whose
+sources are Claude Desktop, Windsurf and Cursor; there's no Claude Code entry, so disabling discovery does
+nothing here. Either file works; what doesn't is **both**. Registering `ralph-fs` a second time at VS Code's
+user scope produces **two servers with identical tools**, which is worth avoiding on its own and doubly so
+with a small model: 26 near-identical entries in the picker is how it starts fabricating paths.
+
+Verified over stdio with the exact command all three configs invoke — `initialize` returns
+`ralph-fs-server 0.1.0`, `tools/list` returns all 13. The [`demo`](/docs/ai/ralph/skills/demo) skill is the
+canary that takes it one step further, proving a *sibling* file is reachable and not just the entry point.
 
 ```json
 // .mcp.json
@@ -78,7 +96,7 @@ claude mcp add --scope user ralph-fs \
   -- node /Users/david/Sites/ralph/mcp-server/dist/index.js
 ```
 
-Note this covers MCP tools only. Slash commands, agents, and skills are distributed separately, by publishing them as a plugin and adding this repo as a marketplace.
+Note this covers MCP tools only. Slash commands and agents are distributed separately, by publishing them as a plugin and adding this repo as a marketplace. [Skills](/docs/ai/ralph/skills) go a third way again — they're plain files under `skills/`, so this server already reaches them through the allowlist, and what's missing is only something telling an agent to look.
 
 ### Setup
 
