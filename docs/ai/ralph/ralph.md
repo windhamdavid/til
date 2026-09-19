@@ -1,3 +1,7 @@
+---
+image: https://davidwindham.com/til/img/ralph-loop.jpg
+---
+
 # Ralph
 
 <img src="https://davidwindham.com/til/img/ralph-loop.jpg" alt="Ralph loop" width="400" class="responsive-image-right"></img>
