@@ -15,7 +15,7 @@ I use this library of documents as a quick reference to find technical answers, 
 
 ## Log
 
-- 26/09/19 - 👾 [Ralph](/docs/ai/ralph/ralph.md) - new [skills](/docs/ai/ralph/skills/skills.md) 🧰 + [memory](/docs/ai/ralph/memory/memory.md) 🧠 sections
+- 26/09/19 - 👾 [Ralph](/docs/ai/ralph/ralph.md) - [skills](/docs/ai/ralph/skills/skills.md) 🧰 + [memory](/docs/ai/ralph/memory/memory.md) 🧠
 - 26/09/03 - 👾 [Ralph/architecture](/docs/ai/ralph/architecture.md)
 - 26/08/16 - 💾 [server/scripts](/docs/server/scripts.md)
 - 26/08/15 - 💾 [server/migration](/docs/server/migration.md)
