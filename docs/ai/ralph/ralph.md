@@ -34,7 +34,7 @@ that you shouldn't name a thing you rely on something that makes it sound clever
 
 
 
-<img src="/til/img/ralph-model.svg" alt="Ralph as substrate: machines and personal data (Stu, Ovid, Lisa, plus Contacts, Reminders and Calendar) feed Ralph's tools and index; from there the marketplace ships the diagram plugin, mcp-server ships ralph-fs and the RAG corpus split into the daw / daw_til collections, installers/ pins third-party binaries, and tools/ holds standalone CLIs — all reaching any project" width="100%"></img>
+<img src="/til/img/ralph-model.png" alt="Ralph as substrate: machines and personal data (Stu, Ovid, Lisa, plus Contacts, Reminders, Calendar, notes and code) feed Ralph's tools and index, answering what's due, what's next, who to ask, and why rather than what; from there mcp-server ships ralph-fs file tools, skills/ (vendored + built), the planned markdown memory/, and the RAG + ask corpus behind davo-bot, split into a daw + daw_til collection and a daw_til-only one; alongside it the marketplace ships the diagram plugin, installers/ pins codebase-memory, tools/ holds the music and reminders-export CLIs, and local models (Ollama llama3.2, qwen3.6 as supervisor) run on stu; VS Code, Zed and Claude Code reach it over MCP, the playbook covers running everything offline by hand, and all of it reaches any project" width="100%"></img>
 
 
 ## Log
