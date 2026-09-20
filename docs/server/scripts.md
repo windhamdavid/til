@@ -10,6 +10,18 @@ is `/root/.my.cnf`, not mine.
 
 ## Log
 
+- **26/09/20** — wrote `wake.sh` while linking the desktop and laptop over SSH, **and it does
+  not wake the laptop.** Neither the magic packet nor Apple's own Wake on Demand brought a
+  genuinely sleeping machine back, on mains, with its log showing it had dark-woken from
+  network traffic before. I stopped there rather than keep pulling, so the honest state is
+  "half a tool": the wired desktop wakes, the laptop does not, cause unknown.
+
+  Writing it was still worth it, because measuring corrected two things I had recorded wrong.
+  The mesh hands out a `/22`, not the `/24` in my notes, so the broadcast address was off by
+  three octets' worth of range. And one machine's "MAC" had the locally-administered bit set —
+  a rotating private Wi-Fi address rather than hardware. Both of those fail **silently**: the
+  packet sends, nothing wakes, and it looks identical to a machine that is switched off. Which
+  is also why I cannot tell you which of them, if either, is why the laptop stayed asleep.
 - **26/08/19** — found that the 08/15 `mysql-cron.sh` rewrite had quietly sent a week of
   backups to `/root`. It used `$HOME/backups`, and the job runs from root's crontab, where
   cron sets `HOME` from `/etc/passwd`. It dumped every database correctly, pruned, and exited
@@ -280,3 +292,44 @@ and cannot see it. Until then the SSH section stays empty.
 Fetches `apache2buddy`, verifies **md5 and sha256** against the upstream checksums, and only
 then pipes it to perl. Worth noting the checksums come from the same repository as the script,
 so it protects against a corrupted download rather than a compromised upstream.
+
+## wake.sh
+
+Wakes the other Mac with `./wake.sh <name>`, or `--ssh` to wait for `sshd` and connect
+once it answers.
+
+**Tested honestly, and it only half works.** Waking the wired desktop is fine. Waking the
+laptop **does not work at all** — neither the magic packet nor Apple's own Wake on Demand
+brought a genuinely sleeping machine back, with it sitting on mains. I stopped chasing the
+cause rather than pretend it was solved, and the note in my ops repo says so, because the
+expensive failure here is not the script: it is the next person deciding there must be a way
+and spending an evening proving there isn't.
+
+**It is the fallback, not the first thing to reach for.** Both machines advertise
+`_ssh._tcp` over Bonjour and the house has several Bonjour sleep proxies on it, which is
+Apple's *Wake on Demand*: a sleeping Mac hands its registration to a proxy, and the proxy
+sends the magic packet when a connection arrives. So plain `ssh <name>` normally wakes the
+target by itself, timing out once while it comes up. The script is for when the proxy's
+registration has gone stale — a magic packet needs no Bonjour, no registration and no proxy.
+
+No `sudo`, and nothing installed: broadcasting needs `SO_BROADCAST`, not root, and macOS
+ships perl, so a five-line socket replaces a Homebrew dependency.
+
+Two things I got wrong before measuring, both worth writing down:
+
+**The subnet is wider than the notes said.** The mesh leases a `/22`, not the `/24` I had
+recorded, so the broadcast address is `.71.255` rather than `.68.255`. Sending to the wrong
+broadcast fails silently — the packet goes out, nothing receives it, and the machine simply
+does not wake. Same trap applies to any firewall rule written as "allow the LAN".
+
+**One MAC was not a MAC.** The laptop's address had the locally-administered bit set — it
+was a **private Wi-Fi address**, not hardware. It works while it lasts, but macOS rotates
+it, and when it does the wake stops with no error: just a timeout that looks exactly like a
+powered-off machine. The wired desktop has a real vendor OUI and is the dependable
+direction; the laptop needs Private Wi-Fi Address turned off for the home SSID before its
+wake can be trusted.
+
+The general shape of it: **wake-on-LAN is a link-layer broadcast, so the sender has to be
+on the same segment.** The always-on Linux box here cannot wake either Mac — it sits
+upstream of the mesh's NAT, which is one-way. If both Macs are asleep, nothing on the
+network wakes either of them.
