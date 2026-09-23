@@ -12,6 +12,9 @@
 # Claude
 /_claude
 
+# Scratch
+/_scratch.md
+
 # Obsidian
 /docs/.obsidian/*
 /notes/.obsidian/*
