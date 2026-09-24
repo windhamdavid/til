@@ -20,15 +20,56 @@ short `davidwindham.com/code/<repo>` form also resolves and is what prose/`editU
 
 ```bash
 npm start          # dev server with hot reload (docusaurus start)
-npm run build      # static production build → ./build
-npm run serve      # serve the built site locally
+npm run build      # static production build → ../daw/til  (NOT ./build)
+npm run serve      # serve that build locally
 npm run clear      # clear the .docusaurus cache
-npm run deploy     # docusaurus deploy
 ```
+
+The build writes **outside this repo**, to `../daw/til` — the `til/` directory of the
+`daw` WordPress root, which is what gets rsynced to the server. See [Publishing](#publishing).
+
+Ignore `npm run deploy` (`docusaurus deploy` → GitHub Pages). It is not how this site
+publishes.
 
 There is no test suite or linter. The build is the check: `npm run build` must
 pass. Broken Markdown links and images **throw** (see `markdown.hooks` in the
 config), so a typo in a relative link or image path will fail the build.
+
+Adding a page to the sidebar means **restarting** the dev server — `sidebars.js` is read
+at startup, so a new nav entry hot-reloads into a crashed page. `npm run clear` first.
+
+## Publishing
+
+`git push` does **not** publish. Nothing auto-deploys from either remote; the live site
+is static files rsynced to the server. Publishing is four steps:
+
+```bash
+# 1. push both remotes
+git push origin main && git push code main
+
+# 2. build → ../daw/til
+npm run build
+
+# 3. DRY RUN — reports what would change, touches nothing
+/Users/david/Sites/_servers/scripts/til-deploy.sh
+
+# 4. actually publish
+/Users/david/Sites/_servers/scripts/til-deploy.sh --go
+```
+
+`til-deploy.sh` lives in the **private `_servers` repo** and carries the ssh alias, host
+and docroot, so none of that is repeated here. Run it from stu.
+
+It is **dry-run by default on purpose.** It rsyncs with `--delete`, which is the whole
+point: Docusaurus emits content-hashed filenames (`search-doc-<ts>.json`,
+`lunr-index-<ts>.json`, hashed JS chunks), so an additive sync leaves every superseded
+one behind forever. Read the `*deleting` lines before `--go` — a handful of hashed
+artifacts per publish is normal, anything else is worth stopping for. The script also
+refuses to sync a build that looks incomplete.
+
+**`static/` is git-ignored**, so images never reach either remote. A new asset reaches
+production only through build → rsync — so copy it into `static/img/` locally, and
+expect a fresh clone of this repo not to have it.
 
 ## Layout
 
@@ -48,7 +89,8 @@ with its own sidebar file:
 - `src/components/` — e.g. `ABCNotation.jsx` (music notation; `abcjs`/`react-piano` are deps).
 - `src/css/custom.css` — global styles.
 - `static/` — assets (`img/`, `pdf/`, `katex/`). **Git-ignored** (`/static`).
-- `build/`, `.docusaurus/`, `node_modules/` — generated/installed; never edit.
+- `../daw/til/` — the build output, outside this repo. Generated; never edit.
+- `.docusaurus/`, `node_modules/` — generated/installed; never edit.
 
 Config lives in `docusaurus.config.js`. When adding a new docs/blog instance,
 register the plugin there and add a matching sidebar file.
