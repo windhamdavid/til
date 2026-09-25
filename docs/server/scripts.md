@@ -10,6 +10,17 @@ is `/root/.my.cnf`, not mine.
 
 ## Log
 
+- **26/09/25** — wrote `claude-memory-sync.sh` after realising the obvious tool for the job
+  loses data quietly. The memory it syncs is one file per fact, so `rsync -u` looks exactly
+  right — until you notice each project also keeps a one-line-per-fact **index**, and both
+  machines append to it. rsync takes the newer index and drops the other machine's line, while
+  the file that line pointed at stays on disk, unlisted and therefore unread. Nothing errors.
+  A git union merge keeps both. The lesson generalises past this script: **last-write-wins is
+  correct for a fact and wrong for an index.**
+
+  Two bugs surfaced only when I ran it in both directions rather than reading it back. A fresh
+  `git init` on the second machine forks an unrelated history and the first sync dies on it.
+  And `git merge --no-rebase` is not a valid flag at all — that one belongs to `git pull`.
 - **26/09/20** — wrote `wake.sh` while linking the desktop and laptop over SSH, **and it does
   not wake the laptop.** Neither the magic packet nor Apple's own Wake on Demand brought a
   genuinely sleeping machine back, on mains, with its log showing it had dark-woken from
@@ -333,3 +344,67 @@ The general shape of it: **wake-on-LAN is a link-layer broadcast, so the sender 
 on the same segment.** The always-on Linux box here cannot wake either Mac — it sits
 upstream of the mesh's NAT, which is one-way. If both Macs are asleep, nothing on the
 network wakes either of them.
+
+## claude-memory-sync.sh
+
+Keeps Claude Code's memory in step between the desktop and the laptop. `init` once per machine,
+then bare `./claude-memory-sync.sh` to commit, merge and push. `status` reports the divergence
+and changes nothing; `--dry-run` works on any mode.
+
+The work tree **is** `~/.claude/projects`, not a copy of it. The memory files stay exactly where
+the tool expects to read them, and a `.gitignore` narrows tracking to `*/memory/**` so the
+session transcripts that share that tree are never committed — 97 memory files tracked against
+half a gigabyte of transcripts ignored, giving a repo under 200KB. Nothing is symlinked.
+
+Worth knowing before syncing anything: **a project is identified by the absolute path of its
+working directory**, slugified, so `~/Sites/thing` becomes one project name and a clone of it
+somewhere else becomes a different one. Both machines keep their working copies at identical
+paths, which is why the memory is portable between them with no translation at all. That is
+load-bearing rather than tidy — move a project on one machine and its memory silently stops
+being shared.
+
+#### Why git and not rsync
+
+Memory is one fact per file, so for the facts themselves `rsync -u` is fine: newest wins, which
+is the right answer. The index is the problem. Each project keeps a `MEMORY.md` listing its
+memories one per line, and **both machines append to it.** With rsync the newer copy of that one
+file wins outright, so the other machine's line is simply gone — while the file it pointed at
+survives on disk, orphaned, unlisted and no longer read. Nothing fails. You find out when
+something you wrote down stops being remembered.
+
+Git fixes exactly that, with one line in `.gitattributes`:
+
+```
+*/memory/MEMORY.md merge=union
+```
+
+`union` keeps the lines from both sides of a merge instead of raising a conflict. I tested that
+specific case before trusting it — a different line added on each machine from a common base,
+both present afterwards, no conflict markers, both machines byte-identical.
+
+#### Two bugs that only running it found
+
+**A fresh `git init` on the second machine forks the history.** It starts an unrelated root, and
+the first sync then dies on "refusing to merge unrelated histories". `init` now adopts the
+existing shared history with `reset --mixed`, which repoints HEAD and rewrites the index without
+touching the working tree. It then has to **restore any file the shared repo holds that the
+local machine lacks**, because after that reset those read as local deletions — and the next
+sync would have committed them, dropping those memories for every machine.
+
+**`git merge --no-rebase` is not a thing.** `--no-rebase` belongs to `git pull`; `git merge`
+rejects it as an unknown option and prints its usage, which is what the failure looked like
+until I read it properly. An explicit merge is still right: the union driver only applies to
+merges, and a rebase replays commits one at a time, reintroducing the conflict the whole
+arrangement exists to avoid.
+
+#### Things that fail silently
+
+**It is LAN only.** The bare repo lives on the desktop and is reached over mDNS, which resolves
+at home and nowhere else — there is no port forward. Away from home there is nothing to sync and
+nothing to fix.
+
+**A git remote written as a hostname rather than an SSH config alias will not authenticate.**
+Not this script's bug, but it bit the repo this script lives in. The alias carries the
+`IdentityFile`; spell the host out instead and none of that applies, so ssh falls back to the
+default key filenames, offers a key that authorises nothing, and the push fails with a
+permission error that looks like a key problem rather than a URL problem.
