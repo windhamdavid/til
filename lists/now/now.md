@@ -11,6 +11,7 @@
 
 ## Log
 
+- **26/11/11** - [Mom](https://davidwindham.com/dear-mom/) 💔 's arrangements ❤️‍🩹
 - **26/09/24** - 22nd ❤️ anniv, edisto trip 🌴, and too much work 💻
 - **26/07/20** - watering 🪴 daily 🥵, changed 🛏️-⏰ to get up before the ☀️.  
 - **26/05/23** - major 🖥️ [project](/notes/house/studio/) almost wrapped and new mudroom [floors](/notes/house).
